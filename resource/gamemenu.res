@@ -43,7 +43,7 @@
 	
 	"Quit"
 	{
-		"label"			"b"
+		"label"			"Quit"
 		"command"		"engine replay_confirmquit"
 		"OnlyAtMenu"	"1"
 	}
@@ -66,10 +66,17 @@
 	
 	"Console"
 	{
-		"label"			"_"
+		"label"			"("
 		"command"		"engine con_enable 1;toggleconsole"
 		"tooltip"		"Open Console"
 		"OnlyAtMenu"	"1"
+	}
+	
+	"DemoUI"
+	{
+		"label" 		"^"
+		"command" 		"engine demoui"
+		"tooltip" 		"DemoUI"
 	}
 	
 	"AdvancedOptions"

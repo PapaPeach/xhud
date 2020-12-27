@@ -189,7 +189,7 @@
 		"ControlName"						"Label"
 		"fieldName"							"HudTitle"
 		"xpos"								"152"
-		"ypos"								"143"
+		"ypos"								"133"
 		"zpos"								"50"
 		"wide"								"24"
 		"tall"								"10"
@@ -226,14 +226,14 @@
 	{
 		"ControlName"						"ImagePanel"
 		"fieldName"							"TFLogoImage"
-		"xpos"								"c-290"
-		"ypos"								"32"
+		"xpos"								"142"
+		"ypos"								"40"
 		"zpos"								"1"
 		"wide"								"256"
 		"tall"								"64"
 		"visible"							"1"
 		"enabled"							"1"
-		"image"								"../logo/new_tf2_logo"
+		"image"								"../logo/tf2_logo_black"
 		"scaleImage"						"1"
 		"mouseinputenabled"					"0"
 	}
@@ -243,9 +243,9 @@
 		"ControlName"						"CExImageButton"
 		"fieldName"							"CycleRankTypeButton"
 		"xpos"								"4"
-		"ypos"								"r16"
-		"wide"								"85"
-		"tall"								"10"
+		"ypos"								"rs1"
+		"wide"								"120"
+		"tall"								"20"
 		"visible"							"1"
 		"enabled"							"1"
 		"tabPosition"						"0"
@@ -639,12 +639,16 @@
 		}
 	}
 	
+	//////////////////////////////////////////////////////
+	//					MAJOR BUTTONS					//
+	//////////////////////////////////////////////////////
+	
 	"Servers"
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Servers"
 		"xpos"								"152"
-		"ypos"								"150"
+		"ypos"								"140"
 		"zpos"								"2"
 		"wide"								"82"
 		"tall"								"23"
@@ -917,59 +921,45 @@
 		}				
 	}
 	
-	"Console"
+	//////////////////////////////////////////////////////
+	//					MINOR BUTTONS					//
+	//////////////////////////////////////////////////////
+	
+	"HUDRepository"
 	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"Console"
-		"xpos"								"c-183+273"
-		"ypos"								"437"
+		"ControlName"						"URLLabel"
+		"fieldname"							"HUDRepository"
+		"xpos"								"149"
+		"ypos"								"r20"
 		"zpos"								"2"
-		"wide"								"26"
-		"tall"								"25"
+		"wide"								"20"
+		"tall"								"20"
 		"visible"							"1"
 		"enabled"							"1"
+		"proportionaltoparent"				"1"
+		"labelText"							"2"
+		"font"								"Symbols 22"
+		"textAlignment"						"center"
+		"urlText"							"https://github.com/PapaPeach/uxhud"
 		
-		"SubButton"
-		{
-			"ControlName"					"CExImageButton"
-			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
-			"wide"							"20"
-			"tall"							"20"
-			"visible"						"1"
-			"enabled"						"1"
-			"tabPosition"					"0"
-			"font"							"Symbols 20"
-			"textAlignment"					"center"
-			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
-			
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				"UI/buttonclickrelease.wav"
-			
-			"defaultFgColor_override"		"WhiteTransparent"
-			"armedFgColor_override"			"BlueLight"
-			"depressedFgColor_override"		"BlueLight"
-			
-			"proportionaltoparent"			"1"
-		}				
+		"fgcolor_override"					"White"
 	}
 	
 	"Streams"
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Streams"
-		"xpos"								"c-183+273"
-		"ypos"								"437"
+		"xpos"								"2"
+		"ypos"								"0"
 		"zpos"								"2"
-		"wide"								"26"
-		"tall"								"25"
+		"wide"								"20"
+		"tall"								"20"
 		"visible"							"1"
 		"enabled"							"1"
+		
+		"pin_to_sibling" 					"HUDRepository"
+		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
 		
 		"SubButton"
 		{
@@ -993,25 +983,77 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override"		"WhiteTransparent"
-			"armedFgColor_override"			"BlueLight"
-			"depressedFgColor_override"		"BlueLight"
+			"paintbackground"				"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"			"WhiteGray"
+			"depressedFgColor_override"		"WhiteGray"
 			
 			"proportionaltoparent"			"1"
 		}				
 	}
-
+	
 	"Contracker"
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Contracker"
-		"xpos"								"c-183+273"
-		"ypos"								"437"
+		"xpos"								"2"
+		"ypos"								"0"
 		"zpos"								"2"
-		"wide"								"26"
-		"tall"								"25"
+		"wide"								"20"
+		"tall"								"20"
 		"visible"							"1"
 		"enabled"							"1"
+		
+		"pin_to_sibling" 					"Streams"
+		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
+		
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"20"
+			"tall"							"20"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"font"							"Symbols 22"
+			"textAlignment"					"center"
+			"textinsetx"					"0"
+			"use_proportional_insets" 		"1"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"default"						"1"
+			
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			
+			"paintbackground"				"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"			"WhiteGray"
+			"depressedFgColor_override"		"WhiteGray"
+			
+			"proportionaltoparent"			"1"
+		}				
+	}
+	
+	"DemoUI"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldName"							"DemoUI"
+		"xpos"								"2"
+		"ypos"								"0"
+		"zpos"								"2"
+		"wide"								"20"
+		"tall"								"20"
+		"visible"							"1"
+		"enabled"							"1"
+		
+		"pin_to_sibling" 					"Contracker"
+		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
 		
 		"SubButton"
 		{
@@ -1035,9 +1077,57 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override"		"WhiteTransparent"
-			"armedFgColor_override"			"BlueLight"
-			"depressedFgColor_override"		"BlueLight"
+			"paintbackground"				"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"			"WhiteGray"
+			"depressedFgColor_override"		"WhiteGray"
+			
+			"proportionaltoparent"			"1"
+		}				
+	}
+	
+	"Console"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldName"							"Console"
+		"xpos"								"2"
+		"ypos"								"0"
+		"zpos"								"2"
+		"wide"								"20"
+		"tall"								"20"
+		"visible"							"1"
+		"enabled"							"1"
+		
+		"pin_to_sibling" 					"DemoUI"
+		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
+		
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"20"
+			"tall"							"20"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"font"							"Symbols 22"
+			"textAlignment"					"center"
+			"textinsetx"					"0"
+			"use_proportional_insets" 		"1"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"default"						"1"
+			
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			
+			"paintbackground"				"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"			"WhiteGray"
+			"depressedFgColor_override"		"WhiteGray"
 			
 			"proportionaltoparent"			"1"
 		}				
@@ -1047,11 +1137,11 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Quit"
-		"xpos"								"c-183+273"
-		"ypos"								"437"
+		"xpos"								"rs1"
+		"ypos"								"rs1"
 		"zpos"								"2"
-		"wide"								"26"
-		"tall"								"25"
+		"wide"								"60"
+		"tall"								"20"
 		"visible"							"1"
 		"enabled"							"1"
 		
@@ -1061,12 +1151,12 @@
 			"fieldName"						"SubButton"
 			"xpos"							"0"
 			"ypos"							"0"
-			"wide"							"20"
+			"wide"							"60"
 			"tall"							"20"
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"font"							"Symbols 20"
+			"font"							"Size 30"
 			"textAlignment"					"center"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
@@ -1077,13 +1167,18 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 			
-			"defaultFgColor_override"		"WhiteTransparent"
-			"armedFgColor_override"			"BlueLight"
-			"depressedFgColor_override"		"BlueLight"
+			"paintbackground"				"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"			"Red"
+			"depressedFgColor_override"		"Red"
 			
 			"proportionaltoparent"			"1"
 		}				
 	}
+	
+	//////////////////////////////////////////////////////
+	//					INGAME BUTTONS					//
+	//////////////////////////////////////////////////////
 	
 	"Report"
 	{
