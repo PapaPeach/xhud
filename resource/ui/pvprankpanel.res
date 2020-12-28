@@ -25,14 +25,14 @@
 		{
 			"ControlName"						"Label"
 			"fieldName"							"NameLabel"
-			"xpos"								"152"
-			"ypos"								"107"
+			"xpos"								"151"
+			"ypos"								"105"
 			"wide"								"f0"
 			"zpos"								"100"
-			"tall"								"30"
+			"tall"								"32"
 			"visible"							"1"
 			"enabled"							"1"
-			"font"								"Size 36"
+			"font"								"Size 40"
 			"fgcolor_override"					"White"
 			"textAlignment"						"west"
 			"labelText"							"%name%"
@@ -91,7 +91,6 @@
 			"textAlignment"						"west"
 			"labelText"							"%desc2%"
 			"proportionaltoparent"				"1"
-			"bgcolor_override"					"Blank"
 
 			if_mini
 			{
@@ -118,9 +117,9 @@
 			"ControlName"						"EditablePanel"
 			"fieldName"							"StatsContainer"
 			"xpos"								"0"
-			"ypos"								"0"
+			"ypos"								"10"	//Needed to stop mysterious duplicate CurrentXPLabel
 			"wide"								"f0"
-			"tall"								"f0"
+			"tall"								"470"
 			"proportionaltoparent"				"1"
 
 			if_mini
@@ -158,7 +157,6 @@
 					"textAlignment"				"west"
 					"labelText"					"%current_xp%"
 					"proportionaltoparent"		"1"
-					"bgcolor_override"			"Blank"
 				}
 				
 				"XPFraction"
@@ -177,7 +175,6 @@
 					"textAlignment"				"center"
 					"labelText"					"/"
 					"proportionaltoparent"		"1"
-					"bgcolor_override"			"Blank"
 					
 					"pin_to_sibling" 			"CurrentXPLabel"
 					"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
@@ -200,7 +197,6 @@
 					"textAlignment"				"east"
 					"labelText"					"%next_level_xp%"
 					"proportionaltoparent"		"1"
-					"bgcolor_override"			"Blank"
 					
 					"pin_to_sibling" 			"XPFraction"
 					"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
@@ -244,7 +240,7 @@
 						"proportionaltoparent"	"1"
 						"progress"				"0"
 
-						"fgcolor_override"		"Main Theme"
+						"fgcolor_override"		"MainTheme"
 						"bgcolor_override"		"TransparentBlack"
 					}
 				}

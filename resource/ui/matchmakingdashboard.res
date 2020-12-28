@@ -33,21 +33,21 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"ToggleChatButton"
-			"xpos"							"0"
-			"ypos"							"0"
+			"xpos"							"149"
+			"ypos"							"5"
 			"zpos"							"100"
-			"wide"							"40"
-			"tall"							"f6"
+			"wide"							"24"
+			"tall"							"24"
 			"visible"						"1"
 			"enabled"						"1"
 			"tabPosition"					"0"
-			"font"							"HudFontSmallestBold"
+			"font"							"Symbols 24"
 			"textAlignment"					"center"
 			"dulltext"						"0"
 			"brighttext"					"0"
 			"Command"						"toggle_chat"
 			"proportionaltoparent"			"1"
-			"labeltext"						""
+			"labeltext"						","
 			"mouseinputenabled"				"1"
 			"keyboardinputenabled"			"0"
 			"actionsignallevel"				"2"
@@ -56,32 +56,18 @@
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
-			"image_drawcolor"				"White"
-			"image_armedcolor"				"White"
-
-			"SubImage"
-			{
-				"ControlName"				"ImagePanel"
-				"fieldName"					"SubImage"
-				"xpos"						"cs-0.5"
-				"ypos"						"rs1-2"
-				"zpos"						"1"
-				"wide"						"20"
-				"tall"						"20"
-				"visible"					"1"
-				"enabled"					"1"
-				"scaleImage"				"1"
-				"proportionaltoparent"		"1"
-				"image"						"glyph_chat"
-			}
+			"paintbackground"				"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"			"MainTheme"
+			"depressedFgColor_override"		"MainTheme"
 		}
 
 		"PartySlot0"
 		{
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot0"
-			"xpos"							"40"
-			"ypos"							"rs1-6"
+			"xpos"							"0"
+			"ypos"							"5"
 			"zpos"							"100"
 			"wide"							"o1"
 			"tall"							"24"
@@ -99,8 +85,8 @@
 		{
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot1"
-			"xpos"							"64"
-			"ypos"							"rs1-6"
+			"xpos"							"0"
+			"ypos"							"0"
 			"zpos"							"100"
 			"wide"							"o1"
 			"tall"							"24"
@@ -112,14 +98,18 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"1"
+			
+			"pin_to_sibling" 				"PartySlot0"
+			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
 		}
 
 		"PartySlot2"
 		{
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot2"
-			"xpos"							"88"
-			"ypos"							"rs1-6"
+			"xpos"							"0"
+			"ypos"							"0"
 			"zpos"							"100"
 			"wide"							"o1"
 			"tall"							"24"
@@ -131,14 +121,18 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"2"
+			
+			"pin_to_sibling" 				"PartySlot1"
+			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
 		}
 
 		"PartySlot3"
 		{
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot3"
-			"xpos"							"112"
-			"ypos"							"rs1-6"
+			"xpos"							"0"
+			"ypos"							"0"
 			"zpos"							"100"
 			"wide"							"o1"
 			"tall"							"24"
@@ -150,14 +144,18 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"3"
+			
+			"pin_to_sibling" 				"PartySlot2"
+			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
 		}
 
 		"PartySlot4"
 		{
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot4"
-			"xpos"							"136"
-			"ypos"							"rs1-6"
+			"xpos"							"0"
+			"ypos"							"0"
 			"zpos"							"100"
 			"wide"							"o1"
 			"tall"							"24"
@@ -169,14 +167,18 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"4"
+			
+			"pin_to_sibling" 				"PartySlot3"
+			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
 		}
 
 		"PartySlot5"
 		{
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot5"
-			"xpos"							"160"
-			"ypos"							"rs1-6"
+			"xpos"							"0"
+			"ypos"							"0"
 			"zpos"							"100"
 			"wide"							"o1"
 			"tall"							"24"
@@ -188,6 +190,10 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"5"
+			
+			"pin_to_sibling" 				"PartySlot4"
+			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
+			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
 		}
 
 		"QueueContainer"

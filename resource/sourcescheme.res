@@ -2,9 +2,10 @@
 
 Scheme
 {
-    //////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
+    //////////////////////// COLORS //////////////////////////
+	// color details										//
+	// this is a list of all the colors used by the scheme	//
+	//////////////////////////////////////////////////////////
 	Colors
 	{
 	    "TFDarkBrown"               "60 56 53 255"
