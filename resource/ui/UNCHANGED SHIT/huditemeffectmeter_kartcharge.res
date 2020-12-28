@@ -8,8 +8,8 @@
 		"x_offset"		"0"
 		"xpos"			"10"	[$WIN32]
 		"ypos"			"r107"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos_minmode"	"r45"	[$WIN32]
+		//"xpos_minmode"	"r52"	[$WIN32]
+		//"ypos_minmode"	"r45"	[$WIN32]
 		"x_offset_minmode"		"0"	[$WIN32]
 		"wide"			"100"
 		"tall"			"100"
@@ -27,7 +27,7 @@
 		"wide"			"150"
 		"tall"			"75"
 		"visible"		"1"
-		"visible_minmode"	"0"
+		//"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
@@ -49,10 +49,10 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minmode"		"1"
-		"ypos_minmode"			"24"
-		"xpos_minmode"			"0"
-		"wide_minmode"			"50"
+		//"visible_minmode"		"1"
+		//"ypos_minmode"			"24"
+		//"xpos_minmode"			"0"
+		//"wide_minmode"			"50"
 		"textAlignment_minmode"			"north-west"
 		"enabled"				"1"
 		"tabPosition"			"0"
@@ -61,7 +61,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontSmall"
-		"font_minmode"					"TFFontSmall"
+		//"font_minmode"					"TFFontSmall"
 	}
 
 	"ItemEffectMeter"
@@ -71,9 +71,9 @@
 		"font"					"Default"
 		"xpos"					"20"
 		"ypos"					"68"
-		"ypos_minmode"			"20"
-		"xpos_minmode"			"0"
-		"wide_minmode"			"50"
+		//"ypos_minmode"			"20"
+		//"xpos_minmode"			"0"
+		//"wide_minmode"			"50"
 		"zpos"					"2"
 		"wide"					"47"
 		"tall"					"5"				
@@ -95,10 +95,10 @@
 		"zpos"					"2"
 		"wide"					"50"
 		"tall"					"20"	
-		"ypos_minmode"			"5"
-		"xpos_minmode"			"0"
-		"wide_minmode"			"50"
-		"tall_minmode"			"15"	
+		//"ypos_minmode"			"5"
+		//"xpos_minmode"			"0"
+		//"wide_minmode"			"50"
+		//"tall_minmode"			"15"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
@@ -109,6 +109,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMediumSmall"
-		"font_minmode"					"TFFontSmall"
+		//"font_minmode"					"TFFontSmall"
 	}
 }

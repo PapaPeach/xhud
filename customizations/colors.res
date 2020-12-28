@@ -22,7 +22,7 @@ Scheme
 		
 		"HitMarker"											"255 0 0 255"
 		
-		"Health Numbers"									"227 228 230 255"
+		"Health"											"227 228 230 255"
 		
 		"Shadow"											"0 0 0 175"
 

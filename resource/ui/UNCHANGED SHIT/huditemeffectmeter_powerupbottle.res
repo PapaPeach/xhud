@@ -7,8 +7,8 @@
 		"enabled"		"1"
 		"xpos"			"r86"	[$WIN32]
 		"ypos"			"r102"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r130"	[$WIN32]
+		//"xpos_minmode"	"r70"	[$WIN32]
+		//"ypos_minmode"	"r130"	[$WIN32]
 		"wide"			"100"
 		"tall"			"60"
 		"MeterFG"		"White"
@@ -25,7 +25,7 @@
 		"wide"			"90"
 		"tall"			"56"
 		"visible"		"1"
-		"visible_minmode"	"0"
+		//"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
@@ -40,14 +40,14 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
 		"xpos"			"12"
-		"xpos_minmode"	"36"
+		//"xpos_minmode"	"36"
 		"ypos"			"7"
-		"ypos_minmode"	"14"
+		//"ypos_minmode"	"14"
 		"zpos"			"1"
 		"wide"			"27"
-		"wide_minmode"	"20"
+		//"wide_minmode"	"20"
 		"tall"			"27"
-		"tall_minmode"	"20"
+		//"tall_minmode"	"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ico_powerup_critboost_red"
@@ -100,9 +100,9 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"24"
-		"xpos_minmode"			"40"
+		//"xpos_minmode"			"40"
 		"ypos"					"11"
-		"ypos_minmode"			"18"
+		//"ypos_minmode"			"18"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -115,6 +115,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"HudFontMedium"
-		"font_minmode"			"HudFontMediumSmall"
+		//"font_minmode"			"HudFontMediumSmall"
 	}
 }

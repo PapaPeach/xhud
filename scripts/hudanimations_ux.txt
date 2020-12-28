@@ -1,0 +1,61 @@
+//====================================================================================================================
+
+event HudHealthBonusPulse
+{
+	Animate HealthBonusBox						BgColor		"MainTheme"							Linear	0.0 	0.0
+	
+	Animate PlayerStatusHealthValueTarget		FgColor 	"MainTheme" 						Accel 	0.0		0.0
+	
+	Animate PlayerStatusHealthValueSpectator	FgColor 	"MainTheme" 						Accel 	0.0		0.0
+	
+	RunEvent HudHealthBonusPulseLoop			0.7
+}
+
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse				0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 				0.0
+	StopEvent HudHealthBonusPulseLoop			0.0
+	
+	Animate HealthBonusBox						BgColor		"Blank"								Linear	0.0 	0.0
+	
+	Animate PlayerStatusHealthValueTarget 		FgColor 	"Health" 							Linear 	0.0 	0.0
+	
+	Animate PlayerStatusHealthValueSpectator 	FgColor 	"Health" 							Linear 	0.0 	0.0
+}
+
+//====================================================================================================================
+
+event HudHealthDyingPulse
+{
+	Animate HealthBonusBox						BgColor		"Red"								Linear	0.0 	0.0
+	
+	Animate PlayerStatusHealthValueTarget		FgColor 	"Red" 								Linear 	0.0		0.0
+	
+	Animate PlayerStatusHealthValueSpectator	FgColor 	"Red" 								Linear 	0.0		0.0
+
+	RunEvent HudHealthDyingPulseLoop			0.4
+}
+
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse				0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse				0.0
+	StopEvent HudHealthDyingPulseLoop 			0.0
+	
+	Animate HealthBonusBox						BgColor		"Blank"								Linear	0.0 	0.0
+	
+	Animate PlayerStatusHealthValueTarget 		FgColor 	"Health" 							Linear 	0.0 	0.0
+	
+	Animate PlayerStatusHealthValueSpectator 	FgColor 	"Health" 							Linear 	0.0 	0.0
+}
+
+//====================================================================================================================

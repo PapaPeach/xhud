@@ -8,8 +8,8 @@
 		"x_offset"		"40"
 		"xpos"			"r164"	[$WIN32]
 		"ypos"			"r51"	[$WIN32]
-		"xpos_minmode"	"r30"	[$WIN32]
-		"ypos_minmode"	"r94"	[$WIN32]
+		//"xpos_minmode"	"r30"	[$WIN32]
+		//"ypos_minmode"	"r94"	[$WIN32]
 		"xpos"			"r194"	[$X360]
 		"ypos"			"r124"	[$X360]
 		"wide"			"100"
@@ -28,7 +28,7 @@
 		"wide"			"76"
 		"tall"			"44"
 		"visible"		"1"
-		"visible_minmode"	"0"
+		//"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
@@ -66,11 +66,11 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
+		//"ypos_minmode"			"0"
+		//"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"wide_minmode"			"50"
+		//"wide_minmode"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
