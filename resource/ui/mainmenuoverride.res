@@ -1348,16 +1348,55 @@
 	//					INGAME TOOLS					//
 	//////////////////////////////////////////////////////
 	
-	"ChatToggle"
+	"DamageColorsPanel"
 	{
 		"ControlName"						"EditablePanel"
-		"fieldname"							"ChatToggle"
+		"fieldname"							"DamageColorsPanel"
 		"xpos"								"rs1"
 		"ypos"								"117"
-		"zpos"								"2"
+		"zpos"								"1"
 		"wide"								"120"
 		"tall"								"23"
+		"visible"							"0"
+		"enabled"							"0"
+		"paintbackground"					"1"
+		"bgcolor_override"					"Blank"
+		
+		"DamageColorsLabel"
+		{
+			"ControlName"					"CExLabel"
+			"fieldname"						"DamageColorsLabel"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"1"
+			"wide"							"120"
+			"tall"							"23"
+			"visible"						"1"
+			"enabled"						"1"
+			"font"							"Size 16"
+			"textAlignment"					"east"
+			"textinsetx"					"15"
+			"labelText"						"Damage Colors"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"fgcolor"						"White"		
+		}
+	}
+	
+	"Red"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldname"							"Red"
+		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"2"
+		"wide"								"21"
+		"tall"								"23"
 		"visible"							"1"
+		
+		"pin_to_sibling" 					"DamageColorsPanel"
+		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
 
 		"SubButton"
 		{
@@ -1365,7 +1404,217 @@
 			"fieldName"						"SubButton"
 			"xpos"							"0"
 			"ypos"							"0"
-			"wide"							"120"
+			"wide"							"21"
+			"tall"							"23"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"use_proportional_insets" 		"1"
+			"default"						"1"
+			
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			
+			"paintbackground"				"1"
+			"alpha"							"200"
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Red"
+			"depressedBgColor_override"		"Red"
+			
+			"proportionaltoparent"			"1"
+		}
+	}
+	
+	"Yellow"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldname"							"Yellow"
+		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"2"
+		"wide"								"21"
+		"tall"								"23"
+		"visible"							"1"
+		
+		"pin_to_sibling" 					"Red"
+		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"21"
+			"tall"							"23"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"use_proportional_insets" 		"1"
+			"default"						"1"
+			
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			
+			"paintbackground"				"1"
+			"alpha"							"200"
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"255 230 60 255"
+			"depressedBgColor_override"		"255 230 60 255"
+			
+			"proportionaltoparent"			"1"
+		}
+	}
+	
+	"Green"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldname"							"Green"
+		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"2"
+		"wide"								"21"
+		"tall"								"23"
+		"visible"							"1"
+		
+		"pin_to_sibling" 					"Yellow"
+		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"21"
+			"tall"							"23"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"use_proportional_insets" 		"1"
+			"default"						"1"
+			
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			
+			"paintbackground"				"1"
+			"alpha"							"200"
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Green"
+			"depressedBgColor_override"		"Green"
+			
+			"proportionaltoparent"			"1"
+		}
+	}
+	
+	"Blue"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldname"							"Blue"
+		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"2"
+		"wide"								"21"
+		"tall"								"23"
+		"visible"							"1"
+		
+		"pin_to_sibling" 					"Green"
+		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"21"
+			"tall"							"23"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"use_proportional_insets" 		"1"
+			"default"						"1"
+			
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			
+			"paintbackground"				"1"
+			"alpha"							"200"
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"MainTheme"
+			"depressedBgColor_override"		"MainTheme"
+			
+			"proportionaltoparent"			"1"
+		}
+	}
+	
+	"White"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldname"							"White"
+		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"2"
+		"wide"								"21"
+		"tall"								"23"
+		"visible"							"1"
+		
+		"pin_to_sibling" 					"Blue"
+		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
+		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"21"
+			"tall"							"23"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"use_proportional_insets" 		"1"
+			"default"						"1"
+			
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			
+			"paintbackground"				"1"
+			"alpha"							"200"
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"White"
+			"depressedBgColor_override"		"White"
+			
+			"proportionaltoparent"			"1"
+		}
+	}
+	
+	"ChatToggle"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldname"							"ChatToggle"
+		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"2"
+		"wide"								"120"
+		"tall"								"23"
+		"visible"							"1"
+		
+		"pin_to_sibling" 					"DamageColorsPanel"
+		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"rs1"
+			"ypos"							"0"
+			"wide"							"84"
 			"tall"							"23"
 			"visible"						"1"
 			"enabled"						"1"
@@ -1409,7 +1658,7 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
+			"xpos"							"rs1"
 			"ypos"							"0"
 			"wide"							"120"
 			"tall"							"23"
@@ -1455,9 +1704,9 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
+			"xpos"							"rs1"
 			"ypos"							"0"
-			"wide"							"120"
+			"wide"							"108"
 			"tall"							"23"
 			"visible"						"1"
 			"enabled"						"1"
@@ -1501,9 +1750,9 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
+			"xpos"							"rs1"
 			"ypos"							"0"
-			"wide"							"120"
+			"wide"							"94"
 			"tall"							"23"
 			"visible"						"1"
 			"enabled"						"1"
@@ -1547,9 +1796,9 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
+			"xpos"							"rs1"
 			"ypos"							"0"
-			"wide"							"120"
+			"wide"							"80"
 			"tall"							"23"
 			"visible"						"1"
 			"enabled"						"1"

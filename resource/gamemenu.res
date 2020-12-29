@@ -127,6 +127,47 @@
 		"OnlyInGame"	"1"
 	}
 	
+	"DamageColorsPanel"
+	{
+		"command"		"engine"
+		"OnlyInGame"	"1"
+	}
+	
+	"White"
+	{
+		"label"			""
+		"command"		"engine hud_combattext 1; hud_combattext_red 235; hud_combattext_green 235; hud_combattext_blue 235"
+		"OnlyInGame"	"1"
+	}
+	
+	"Yellow"
+	{
+		"label"			""
+		"command"		"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 235; hud_combattext_blue 0"
+		"OnlyInGame"	"1"
+	}
+	
+	"Red"
+	{
+		"label"			""
+		"command"		"engine hud_combattext 1; hud_combattext_red 245; hud_combattext_green 70; hud_combattext_blue 70"
+		"OnlyInGame"	"1"
+	}
+	
+	"Blue"
+	{
+		"label"			""
+		"command"		"engine hud_combattext 1; hud_combattext_red 150; hud_combattext_green 200; hud_combattext_blue 220"
+		"OnlyInGame"	"1"
+	}
+	
+	"Green"
+	{
+		"label"			""
+		"command"		"engine hud_combattext 1; hud_combattext_red 40; hud_combattext_green 200; hud_combattext_blue 110"
+		"OnlyInGame"	"1"
+	}
+	
 	"InvisiblePlayersFix"
 	{
 		"label"			"Invisible Players"
