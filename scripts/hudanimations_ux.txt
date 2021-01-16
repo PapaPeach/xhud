@@ -8,7 +8,7 @@ event HudHealthBonusPulse
 	
 	Animate PlayerStatusHealthValueSpectator	FgColor 	"MainTheme" 						Accel 	0.0		0.0
 	
-	RunEvent HudHealthBonusPulseLoop			0.7
+	RunEvent HudHealthBonusPulseLoop			0.0
 }
 
 event HudHealthBonusPulseLoop
@@ -38,7 +38,7 @@ event HudHealthDyingPulse
 	
 	Animate PlayerStatusHealthValueSpectator	FgColor 	"Red" 								Linear 	0.0		0.0
 
-	RunEvent HudHealthDyingPulseLoop			0.4
+	RunEvent HudHealthDyingPulseLoop			0.0
 }
 
 event HudHealthDyingPulseLoop
@@ -59,3 +59,24 @@ event HudHealthDyingPulseStop
 }
 
 //====================================================================================================================
+
+event HudLowAmmoPulse
+{
+	Animate	LowAmmoBox							BgColor		"Red"								Linear	0.0 	0.0
+	
+	RunEvent HudLowAmmoPulseLoop				0.4
+}
+
+// call to loop HudLowAmmoPulse
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 					0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse					0.0
+	StopEvent HudLowAmmoPulseLoop				0.0
+	
+	Animate LowAmmoBox							BgColor		"Blank"								Linear	0.0 	0.0
+}

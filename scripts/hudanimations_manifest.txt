@@ -1,6 +1,5 @@
 hudanimations_manifest
 {
-
 	"file"		"scripts/hudanimations_ux.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 }
