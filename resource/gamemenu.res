@@ -21,6 +21,7 @@
 	{
 		"label"			"~"
 		"command"		"OpenCreateMultiplayerGameDialog"
+		"tooltip"		"Create Server"
 	}
 	
 	"Inventory"
@@ -33,6 +34,7 @@
 	{
 		"label"			"N"
 		"command"		"engine open_store"
+		"tooltip"		"Mann Co. Store"
 	}
 	
 	"Options"
@@ -170,28 +172,31 @@
 	
 	"InvisiblePlayersFix"
 	{
-		"label"			"Invisible Players"
-		"command"		"engine stop; record fix"
+		"label"			"C"
+		"command"		"engine stop; record fix; stop"
+		"tooltip"		"Fix Invisible Players"
 		"OnlyInGame"	"1"
 	}
 	
 	"BrokenSoundFix"
 	{
-		"label"			"Broken Sound"
+		"label"			"j"
 		"command"		"engine snd_restart"
+		"tooltip"		"Fix Broken Sound"
 		"OnlyInGame"	"1"
 	}
 	
 	"ReloadHud"
 	{
-		"label"			"Reload Hud"
+		"label"			"."
 		"command"		"engine hud_reloadscheme"
+		"tooltip"		"Reload Hud"
 		"OnlyInGame"	"1"
 	}
 	
 	"MinmodeToggle"
 	{
-		"label"			"Competitive Mode"
+		"label"			"Resolution"
 		"command"		"engine incrementvar cl_hud_minmode 0 1 1"
 		"OnlyInGame"	"1"
 	}

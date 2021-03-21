@@ -117,7 +117,30 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"
 		}
-		
+		MaterialTransparentWhite50
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"White"
+
+			"image"					"replay/thumbnails/panels/material_transparent50"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+		MaterialTransparentWhite70
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"White"
+
+			"image"					"replay/thumbnails/panels/material_transparent70"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
 		WhiteHighlightBorder
 		{
 			"inset" "0 0 1 1"
