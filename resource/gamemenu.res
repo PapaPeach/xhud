@@ -196,8 +196,9 @@
 	
 	"MinmodeToggle"
 	{
-		"label"			"Resolution"
+		"label"			"Optimize"
 		"command"		"engine incrementvar cl_hud_minmode 0 1 1"
+		"tooltip"		"Requires Game Restart"
 		"OnlyInGame"	"1"
 	}
 }

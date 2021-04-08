@@ -100,6 +100,46 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"
 		}
+		RedHighlightBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Red"
+					"offset" "0 1"
+				}
+
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Red"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Red"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Red"
+					"offset" "0 0"
+				}
+			}
+		}
 
 		////////////////////////////////////////////////////////////////////////////////////
 		///////////////////////////////////MATERIAL WHITE///////////////////////////////////
