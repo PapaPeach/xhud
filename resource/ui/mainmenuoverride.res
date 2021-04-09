@@ -1767,23 +1767,6 @@
 			"proportionaltoparent"			"1"
 		}
 	}
-	
-	"CheckLine"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldname"							"CheckLine"
-		"xpos"								"150"
-		"ypos"								"0"
-		"zpos"								"1000000"
-		"wide"								"1"
-		"tall"								"f0"
-		"visible"							"0"
-		"bgcolor_override" 					"White"
-	}
-
-
-
-
 
 	"MOTD_ShowButtonPanel"
 	{
