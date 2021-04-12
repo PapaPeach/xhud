@@ -31,12 +31,12 @@
 		"font"						"Size 28"
 		"fgcolor_override"			"White"
 		"bgcolor_override"			"TransparentBlack"
-		
+
 		"pin_to_sibling" 			"TeamsAnchor"
 		"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
 		"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
 	}
-	
+
 	"TeamsAnchor"					//Moves the team selection menu as a whole
 	{
 		"ControlName"				"EditablePanel"
@@ -48,7 +48,7 @@
 		"visible"					"1"
 		"enabled"					"1"
 	}
-	
+
 	"teambutton0"
 	{
 		"ControlName"				"CTFTeamButton"
@@ -69,7 +69,7 @@
 		"team"						"3"		// team blue
 		"font"						"Size 16"
 		"fgcolor"					"White"
-		
+
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -78,7 +78,7 @@
 		"defaultBgColor_override"	"Blue"
 		"armedBgColor_override"		"WhiteGray"
 		"depressedBgColor_override"	"WhiteGray"
-		
+
 		"pin_to_sibling" 			"TeamsAnchor"
 		"pin_corner_to_sibling" 	"PIN_CENTER_RIGHT"
 		"pin_to_sibling_corner" 	"PIN_CENTER_LEFT"
@@ -104,13 +104,13 @@
 		"team"						"2"		// team red
 		"font"						"Size 16"
 		"fgcolor"					"White"
-		
+
 		"paintbackground"			"1"
 		"alpha"						"100"
 		"defaultBgColor_override"	"Red"
 		"armedBgColor_override"		"WhiteGray"
 		"depressedBgColor_override"	"WhiteGray"
-		
+
 		"pin_to_sibling" 			"TeamsAnchor"
 		"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
 		"pin_to_sibling_corner" 	"PIN_CENTER_RIGHT"
@@ -135,18 +135,18 @@
 		"command"					"jointeam auto"
 		"font"						"Size 16"
 		"fgcolor"					"White"
-		
+
 		"paintbackground"			"1"
 		"alpha"						"150"
 		"defaultBgColor_override"	"Black"
 		"armedBgColor_override"		"WhiteGray"
 		"depressedBgColor_override"	"WhiteGray"
-		
+
 		"pin_to_sibling" 			"TeamsAnchor"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMRIGHT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
 	}
-	
+
 	"teambutton3"
 	{
 		"ControlName"				"CTFTeamButton"
@@ -166,37 +166,44 @@
 		"command"					"jointeam spectate"
 		"font"						"Size 16"
 		"fgcolor"					"White"
-		
+
 		"paintbackground"			"1"
 		"alpha"						"150"
 		"defaultBgColor_override"	"Black"
 		"armedBgColor_override"		"WhiteGray"
 		"depressedBgColor_override"	"WhiteGray"
-		
+
 		"pin_to_sibling" 			"TeamsAnchor"
 		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 	"PIN_BOTTOMRIGHT"
 	}
-	
-	"TeamMenuSelect"
+
+	"CancelButton"
 	{
-		"ControlName"				"CExLabel"
-		"fieldName"					"TeamMenuSelect"
-		"xpos"						"cs-0.5"
-		"ypos"						"105"
-		"zpos"						"6"
-		"wide"						"450"
-		"tall"						"32"
-		"visible"					"1"
-		"enabled"					"1"
-		"labelText"					"Select A Team"
-		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
-		"font"						"Size 40"
-		"fgcolor"					"White"
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton"
+		"xpos"			"rs1"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"140"
+		"tall"			"24"
+		"visible"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&0"
+		"textAlignment"	"east"
+		"textinsetx"				"15"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"cancelmenu"
+		"font"			"Size 28"
+
+		"paintbackground"			"1"
+		"defaultBgColor_override"	"Blank"
+		"armedBgColor_override"		"127 128 130 150"
+		"depressedBgColor_override"	"127 128 130 150"
 	}
-	
+
 	"TeamMenuAuto"
 	{
 		"ControlName"				"CExLabel"
@@ -216,10 +223,10 @@
 		"font"						"Size 28"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
-		
+
 		"pin_to_sibling" 			"teambutton2"
 	}
-	
+
 	"TeamMenuSpectate"
 	{
 		"ControlName"				"CExLabel"
@@ -239,10 +246,10 @@
 		"font"						"Size 28"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
-		
+
 		"pin_to_sibling" 			"teambutton3"
-	}	
-	
+	}
+
 	"BlueCount"
 	{
 		"ControlName"				"CExLabel"
@@ -251,7 +258,7 @@
 		"ypos"						"0"
 		"zpos"						"4"
 		"wide"						"p0.5"
-		"tall"						"90"
+		"tall"						"85"
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"%bluecount%"
@@ -261,11 +268,11 @@
 		"font"						"Size 44"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
-		
+
 		"pin_to_sibling" 			"teambutton0"
 		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
-	}	
+	}
 
 	"BlueLabel"
 	{
@@ -275,22 +282,23 @@
 		"ypos"						"0"
 		"zpos"						"4"
 		"wide"						"p0.5"
-		"tall"						"70"
+		"tall"						"75"
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"Blu"
 		"textAlignment"				"south"
+		"textinsety"				"25"
 		"dulltext"					"0"
 		"brighttext"				"1"
 		"font"						"Size 40"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
-		
+
 		"pin_to_sibling" 			"BlueCount"
 		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
-	}			
-	
+	}
+
 	"RedCount"
 	{
 		"ControlName"				"CExLabel"
@@ -299,7 +307,7 @@
 		"ypos"						"0"
 		"zpos"						"4"
 		"wide"						"p0.5"
-		"tall"						"90"
+		"tall"						"85"
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"%redcount%"
@@ -309,12 +317,12 @@
 		"font"						"Size 40"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
-		
+
 		"pin_to_sibling" 			"teambutton1"
 		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
-	}	
-	
+	}
+
 	"RedLabel"
 	{
 		"ControlName"				"CExLabel"
@@ -323,34 +331,35 @@
 		"ypos"						"0"
 		"zpos"						"4"
 		"wide"						"p0.5"
-		"tall"						"70"
+		"tall"						"75"
 		"visible"					"1"
 		"enabled"					"1"
 		"labelText"					"Red"
 		"textAlignment"				"south"
+		"textinsety"				"25"
 		"dulltext"					"0"
 		"brighttext"				"1"
 		"font"						"Size 44"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
-		
+
 		"pin_to_sibling" 			"RedCount"
 		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
 		"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
-	}	
-	
+	}
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
 		"xpos"			"9999"
-	}	
+	}
 	"ShadedBar"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBar"
 		"xpos"			"9999"
-	}	
+	}
 	"Footer"
 	{
 		"ControlName"	"CTFFooter"
@@ -373,12 +382,6 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HighlanderLabelShadow"
-		"xpos"			"9999"
-	}
-	"CancelButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
 		"xpos"			"9999"
 	}
 	"TeamsFullLabel"
@@ -405,5 +408,10 @@
 		"fieldName"		"MapInfo"
 		"xpos"			"9999"
 	}
+	"TeamMenuSelect"
+	{
+		"ControlName"				"CExLabel"
+		"fieldName"					"TeamMenuSelect"
+		"xpos"						"9999"
+	}
 }
-
