@@ -143,10 +143,14 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"fgcolor"			"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 		"paintbackground"			"1"
 		"defaultBgColor_override"	"255 50 65 100"
 		"armedBgColor_override"		"127 128 130 100"
 		"depressedBgColor_override"	"127 128 130 100"
+		"selectedBgColor_override"	"127 128 130 100"
 
 		"pin_to_sibling" 			"soldier"
 		"pin_corner_to_sibling" 	"PIN_CENTER_RIGHT"
@@ -176,10 +180,14 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"fgcolor"			"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 		"paintbackground"			"1"
 		"defaultBgColor_override"	"255 50 65 100"
 		"armedBgColor_override"		"127 128 130 100"
 		"depressedBgColor_override"	"127 128 130 100"
+		"selectedBgColor_override"	"127 128 130 100"
 
 		"pin_to_sibling" 			"pyro"
 		"pin_corner_to_sibling" 	"PIN_CENTER_RIGHT"
@@ -209,10 +217,14 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"fgcolor"			"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 		"paintbackground"			"1"
 		"defaultBgColor_override"	"255 50 65 100"
 		"armedBgColor_override"		"127 128 130 100"
 		"depressedBgColor_override"	"127 128 130 100"
+		"selectedBgColor_override"	"127 128 130 100"
 
 		"pin_to_sibling" 			"demoman"
 		"pin_corner_to_sibling" 	"PIN_CENTER_RIGHT"
@@ -242,10 +254,14 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"fgcolor"			"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 		"paintbackground"			"1"
 		"defaultBgColor_override"	"92 173 255 100"
 		"armedBgColor_override"		"127 128 130 100"
 		"depressedBgColor_override"	"127 128 130 100"
+		"selectedBgColor_override"	"127 128 130 100"
 
 		"pin_to_sibling" 			"heavyweapons"
 		"pin_corner_to_sibling" 	"PIN_CENTER_RIGHT"
@@ -275,10 +291,14 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"fgcolor"			"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 		"paintbackground"			"1"
 		"defaultBgColor_override"	"92 173 255 100"
 		"armedBgColor_override"		"127 128 130 100"
 		"depressedBgColor_override"	"127 128 130 100"
+		"selectedBgColor_override"	"127 128 130 100"
 
 		"pin_to_sibling" 			"ClassAnchor"
 		"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
@@ -308,10 +328,14 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"fgcolor"			"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 		"paintbackground"			"1"
 		"defaultBgColor_override"	"92 173 255 100"
 		"armedBgColor_override"		"127 128 130 100"
 		"depressedBgColor_override"	"127 128 130 100"
+		"selectedBgColor_override"	"127 128 130 100"
 
 		"pin_to_sibling" 			"heavyweapons"
 		"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
@@ -341,10 +365,14 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"fgcolor"			"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 		"paintbackground"			"1"
 		"defaultBgColor_override"	"40 200 110 100"
 		"armedBgColor_override"		"127 128 130 100"
 		"depressedBgColor_override"	"127 128 130 100"
+		"selectedBgColor_override"	"127 128 130 100"
 
 		"pin_to_sibling" 			"engineer"
 		"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
@@ -374,10 +402,14 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"fgcolor"			"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 		"paintbackground"			"1"
 		"defaultBgColor_override"	"40 200 110 100"
 		"armedBgColor_override"		"127 128 130 100"
 		"depressedBgColor_override"	"127 128 130 100"
+		"selectedBgColor_override"	"127 128 130 100"
 
 		"pin_to_sibling" 			"medic"
 		"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
@@ -407,10 +439,14 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"fgcolor"			"White"
+		"defaultFgColor_override" "White"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 		"paintbackground"			"1"
 		"defaultBgColor_override"	"40 200 110 100"
 		"armedBgColor_override"		"127 128 130 100"
 		"depressedBgColor_override"	"127 128 130 100"
+		"selectedBgColor_override"	"127 128 130 100"
 
 		"pin_to_sibling" 			"sniper"
 		"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
