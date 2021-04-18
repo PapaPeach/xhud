@@ -5,7 +5,7 @@ Scheme
 		"Buttons"	"materials/vgui/fonts/buttons_32.vbf"
 		"ButtonsSC"	"materials/vgui/fonts/buttons_sc.vbf"
 	}
-	
+
 	Fonts
 	{
 		"Size 7"
@@ -188,7 +188,7 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		
+
 		"Size 9 Blur"
 		{
 			"1"
@@ -321,8 +321,8 @@ Scheme
 				"blur"										"2"
 			}
 		}
-		
-		
+
+
 		"Size 10 Shadow"
 		{
 			"1"
@@ -345,7 +345,7 @@ Scheme
 				"dropshadow"								"1"
 			}
 		}
-		
+
 		"Size 10 Numbers"
 		{
 			"1"
@@ -366,7 +366,7 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		
+
 		"UltraSmall"
 		{
 			"1"
@@ -378,7 +378,7 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		
+
 		"Default"
 		{
 			"1"
@@ -609,7 +609,7 @@ Scheme
 				"weight"									"800"
 			}
 		}
-		
+
 		CenterPrintText
 		{
 			"1"
@@ -737,7 +737,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}	
+		}
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -748,7 +748,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -825,7 +825,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}	
+		}
 		"HudFontSmallishBold"
 		{
 			"1"
@@ -1180,7 +1180,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		Icons
 		{
 			"1"
@@ -1333,7 +1333,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		
+
 		"GoalText"
 		{
 			"1"
@@ -1344,15 +1344,15 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
-		
+		}
+
 		"ChalkboardTitle"
 		{
 			"1"
 			{
 				"name"										"Renogare Soft"
 				"tall"										"28"
-				"antialias"									"1" 
+				"antialias"									"1"
 				"custom"									"1" 	[$OSX]
 				"weight"									"500"
 			}
@@ -1635,7 +1635,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"TargetID"
 		{
 			"1"
@@ -1776,8 +1776,8 @@ Scheme
 				"weight"									"300"
 				"antialias"									"1"
 			}
-		}	
-		
+		}
+
 		MenuSmallFont
 		{
 			"1"
@@ -1788,7 +1788,7 @@ Scheme
 				"weight"									"300"
 				"antialias"									"1"
 			}
-		}			
+		}
 		CapPlayerFont
 		{
 			"1"
@@ -1824,7 +1824,7 @@ Scheme
 				"additive"									"1"
 				"antialias" 								"1"
 			}
-		}		
+		}
 		TFFontMedium
 		{
 			"1"
@@ -1835,8 +1835,8 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
-		
+		}
+
 		InstructionalText
 		{
 			"1"
@@ -1848,8 +1848,8 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
-		
+		}
+
 		MatchmakingDialogTitle
 		{
 			"1"
@@ -1894,7 +1894,7 @@ Scheme
 				"tall"										"18"
 				"weight"									"900"
 			}
-		}		
+		}
 		MatchmakingDialogMenuMedium
 		{
 			"1"
@@ -1940,7 +1940,7 @@ Scheme
 				"weight"									"900"
 			}
 		}
-		
+
 		"TeamMenuBold"
 		{
 			"1"
@@ -1962,7 +1962,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}		
+		}
 		"IntroMenuCaption"
 		{
 			"1"
@@ -1973,7 +1973,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}			
+		}
 		"AchievementNotification"
 		{
 			"1"
@@ -2017,7 +2017,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"DefaultVerySmallFallBack"
 		{
 			"1"
@@ -2048,7 +2048,7 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		
+
 		"ItemFontNameSmallest"
 		{
 			"1"
@@ -2135,7 +2135,7 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 			}
-		}	
+		}
 		"ItemFontAttribLarger"
 		{
 			"1"
@@ -2147,7 +2147,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"AchievementTracker_Name"
 		{
 			"1"
@@ -2287,7 +2287,7 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		
+
 		"QuestLargeText"
 		{
 			"1"
@@ -2419,7 +2419,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"QuestLargeText_Merasmus"
 		{
 			"1"
@@ -2443,7 +2443,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"AdFont_AdText"
 		{
 			"1"
@@ -2490,7 +2490,7 @@ Scheme
 				"italic"									"1"
 			}
 		}
-		
+
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//
@@ -2659,7 +2659,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		//
 		//////////////////// ECON FONTS //////////////////////////////
 		//
@@ -2809,7 +2809,7 @@ Scheme
 			}
 		}
 	}
-	
+
 	CustomFontFiles
 	{
 		"10"

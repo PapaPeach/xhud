@@ -1,6 +1,6 @@
 "Resource/UI/MatchmakingCategoryPanel.res"
 {
-	"MatchmakingCategoryPanel"
+	"MatchmakingCategoryPanel"		// TODO: I HAVEN'T EDITED THIS FILE YET IIRC
 	{
 		"fieldName"				"MatchmakingCategoryPanel"
 		"xpos"					"0"
