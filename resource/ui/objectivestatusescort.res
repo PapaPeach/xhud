@@ -5,14 +5,14 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusEscort"
 		"xpos"				"cs-0.5"
-		"ypos"				"r180"
+		"ypos"				"r192"
 		"zpos"				"1"
-		"wide"				"302"
+		"wide"				"300"
 		"tall"				"100"
 		"visible"			"1"
 		"enabled"			"1"
 		"progress_xpos"		"79"
-		"progress_wide"		"270"
+		"progress_wide"		"300"
 	}
 
 	"LevelBar"
@@ -22,7 +22,7 @@
 		"xpos"			"0"
 		"ypos"			"50"
 		"zpos"			"0"
-		"wide"			"301"
+		"wide"			"300"
 		"tall"			"5"
 		"visible"		"1"
 		"enabled"		"1"
@@ -38,36 +38,12 @@
 		"xpos"			"0"
 		"ypos"			"50"
 		"zpos"			"0"
-		"wide"			"302"
+		"wide"			"300"
 		"tall"			"5"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
 		"bgcolor_override" "TransparentBlack"
-	}
-
-	"ProgressBar"
-	{
-		"ControlName"	"CTFHudEscortProgressBar"
-		"fieldName"		"ProgressBar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"4"
-		"wide"			"f0"
-		"tall"			"5"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"
-
-		"pin_to_sibling" 			"LevelBar"
-
-		"if_multiple_trains"		// TODO: NOT SURE WHAT THIS IS
-		{
-			"ypos"			"0"
-			"zpos"			"6"
-			"tall"			"5"
-			"visible"		"1"
-		}
 	}
 
 	"HomeCPIcon"
@@ -90,22 +66,10 @@
 
 		"pin_to_sibling" 			"LevelBar"
 
-		"if_team_red"		// TODO: CHECK IF THIS CONTROLS ALL OF RED
+		"if_team_red"
 		{
 			"fillcolor"			"Red"
 			"drawcolor"			"Red"
-		}
-
-		"if_single_with_hills_red"
-		{
-			"fillcolor"			"Red"
-			"drawcolor"			"Red"
-		}
-
-		"if_multiple_trains_red"
-		{
-		"fillcolor"			"Red"
-		"drawcolor"			"Red"
 		}
 	}
 
@@ -150,7 +114,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Cart"
-			"xpos"			"-250"
+			"xpos"			"-248"
 			"ypos"			"50"
 			"zpos"			"6"
 			"wide"			"500"
@@ -164,6 +128,12 @@
 			"fillcolor"			"Blue"
 			"drawcolor"			"Blue"
 			"proportionaltoparent"	"1"
+
+			"if_team_red"
+			{
+				"fillcolor"			"Red"
+				"drawcolor"			"Red"
+			}
 		}
 
 		"RecedeTime"
@@ -171,7 +141,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
 			"font"			"Size 12 Shadow"
-			"xpos"			"229"
+			"xpos"			"231"
 			"ypos"			"47"
 			"zpos"			"7"
 			"wide"			"20"
@@ -183,23 +153,13 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"fgcolor_override"	"White"
-
-			"if_multiple_trains_top"
-			{
-				"ypos"			"46"
-			}
-
-			"if_multiple_trains_bottom"
-			{
-				"ypos"			"82"
-			}
 		}
 
 		"Speed_Backwards"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"
-			"xpos"			"243"
+			"xpos"			"245"
 			"ypos"			"49"
 			"zpos"			"7"
 			"wide"			"7"
@@ -210,16 +170,6 @@
 			"labelText"		""
 			"image"			"../hud/cart_arrow_left"
 			"scaleImage"	"1"
-
-			"if_multiple_trains_top"
-			{
-				"ypos"			"46"
-			}
-
-			"if_multiple_trains_bottom"
-			{
-				"ypos"			"83"
-			}
 		}
 
 		"CapNumPlayers"
@@ -227,7 +177,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
 			"font"			"Size 12 Shadow"
-			"xpos"			"229"
+			"xpos"			"231"
 			"ypos"			"47"
 			"zpos"			"7"
 			"wide"			"20"
@@ -239,23 +189,13 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"fgcolor_override"	"White"
-
-			"if_multiple_trains_top"
-			{
-				"ypos"			"46"
-			}
-
-			"if_multiple_trains_bottom"
-			{
-				"ypos"			"82"
-			}
 		}
 
 		"Blocked"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"
-			"xpos"			"243"
+			"xpos"			"245"
 			"ypos"			"49"
 			"zpos"			"7"
 			"wide"			"7"
@@ -266,16 +206,6 @@
 			"labelText"		""
 			"image"			"../hud/cart_blocked"
 			"scaleImage"	"1"
-
-			"if_multiple_trains_top"
-			{
-				"ypos"			"46"
-			}
-
-			"if_multiple_trains_bottom"
-			{
-				"ypos"			"83"
-			}
 		}
 
 		"EscortItemImageAlert"
@@ -292,6 +222,12 @@
 		}
 	}
 
+	"ProgressBar"
+	{
+		"ControlName"	"CTFHudEscortProgressBar"
+		"fieldName"		"ProgressBar"
+		"xpos"			"9999"
+	}
 	"EscortItemImage"
 	{
 		"ControlName"	"ImagePanel"

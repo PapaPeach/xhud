@@ -160,7 +160,7 @@
 		}
 	}
 
-	"BackgroundPanel"		// TODO: I THINK I CAN CONSOLODATE THIS DOWN TO JUST BACKGROUND
+	"BackgroundPanel"
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"BackgroundPanel"
