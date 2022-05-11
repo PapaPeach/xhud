@@ -74,7 +74,7 @@
 		"sound_released"			"UI/buttonclickrelease.wav"
 
 		"paintbackground"			"1"
-		"alpha"						"100"
+		"alpha"						"200"
 		"defaultBgColor_override"	"Blue"
 		"armedBgColor_override"		"WhiteGray"
 		"depressedBgColor_override"	"WhiteGray"
@@ -106,7 +106,7 @@
 		"fgcolor"					"White"
 
 		"paintbackground"			"1"
-		"alpha"						"100"
+		"alpha"						"200"
 		"defaultBgColor_override"	"Red"
 		"armedBgColor_override"		"WhiteGray"
 		"depressedBgColor_override"	"WhiteGray"

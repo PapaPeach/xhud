@@ -26,7 +26,7 @@
 			"ControlName"						"Label"
 			"fieldName"							"NameLabel"
 			"xpos"								"151"
-			"ypos"								"105"
+			"ypos"								"104"
 			"wide"								"f0"
 			"zpos"								"100"
 			"tall"								"32"
@@ -139,7 +139,7 @@
 				"tall"							"20"
 				"proportionaltoparent"			"1"
 
-	
+
 
 				"CurrentXPLabel"
 				{
@@ -158,7 +158,7 @@
 					"labelText"					"%current_xp%"
 					"proportionaltoparent"		"1"
 				}
-				
+
 				"XPFraction"
 				{
 					"ControlName"				"Label"
@@ -175,7 +175,7 @@
 					"textAlignment"				"center"
 					"labelText"					"/"
 					"proportionaltoparent"		"1"
-					
+
 					"pin_to_sibling" 			"CurrentXPLabel"
 					"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
 					"pin_to_sibling_corner" 	"PIN_CENTER_RIGHT"
@@ -197,7 +197,7 @@
 					"textAlignment"				"east"
 					"labelText"					"%next_level_xp%"
 					"proportionaltoparent"		"1"
-					
+
 					"pin_to_sibling" 			"XPFraction"
 					"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
 					"pin_to_sibling_corner" 	"PIN_CENTER_RIGHT"
@@ -277,7 +277,7 @@
 				}
 
 
-	
+
 				// First column
 				"GamesLabel"
 				{

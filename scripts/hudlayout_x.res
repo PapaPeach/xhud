@@ -79,4 +79,44 @@
 		"wide"					"f0"
 		"tall"  				"f0"
 	}
+	
+	HudControlPointIcons
+	{
+		"fieldName"				"HudControlPointIcons"
+		"xpos"					"0"
+		"ypos"					"410"
+		"wide"					"f0"
+		"tall"					"200"
+		"visible"				"1"
+		"enabled"				"1"
+		"separator_width"		"2"	// distance between the icons (including their backgrounds)
+		"separator_height"		"7"
+		"height_offset"			"0"
+	}
+	
+	HudObjectiveStatus
+	{
+		"fieldName" "HudObjectiveStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+	}	
+	
+	HudKothTimeStatus
+	{
+		"fieldName" "HudKothTimeStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"cs-0.5"
+		"ypos"	"0"
+		"wide"	"200"
+		"tall"	"160"
+		
+		"blue_active_xpos"			"16"
+	
+		"red_active_xpos"			"106"
+	}	
 }
