@@ -8,32 +8,32 @@ Scheme
 	{
 		// custom
 		"Main Theme"										"80 150 255 255"
-		
+
 		"DarkBG"											"20 21 23 255"
 		"DarkBGInactive"									"20 21 23 125"
 		"LightBG"											"46 47 50 255"
 		"LightBGInactive"									"46 47 50 125"
-		
+
 		"White"												"227 228 230 255"
 		"Black"												"15 16 18 255"
 		"Blank"												"0 0 0 0"
-		
+
 		"OffWhite"											"200 200 200 255"
 		"DullWhite"											"142 142 142 255"
 		"ControlBlack"										"32 32 32 255"
-		
+
 		// TF2
 	    "TFDarkBrown"               						"60 56 53 255"
 	    "TFDarkBrownTransparent"    						"60 56 53 190"
 	    "TFTanBright"               						"236 227 203 150"
 	    "TFTanLight"                						"201 188 162 150"
 	    "TFTanMedium"              							"131 121 104 150"
-	    
+
 	    "TFTanLightBright"          						"229 223 211 90"
 	    "TFTanLightDark"            						"96 90 78 90"
-	    
+
 	    "TFOrangeBright"            						"156 82 33 255"
-	    
+
 	    "TFTextBright"              						"251 236 203 150"
 	    "TFTextLight"               						"201 188 162 255"
 	    "TFTextMedium"              						"131 121 104 255"
@@ -45,7 +45,7 @@ Scheme
 
 	    "QuickListBGDeselected"								"69 64 58 255"
 	    "QuickListBGSelected"               				"131 121 104 150"
-	    
+
 	    "Blank"												"0 0 0 0"
 
 		"ControlBG"											"76 88 68 200"		// background color of controls
@@ -55,7 +55,7 @@ Scheme
 		"SelectionBG2"										"69 64 57 200"		// selection background in window w/o focus
 		"ListBG"											"39 36 34 200"		// background of server browser, buddy list, etc.
 	}
-	
+
 	BaseSettings
 	{
 		// scheme-specific colors
@@ -71,7 +71,7 @@ Scheme
 		Button.DepressedTextColor							"White"
 		Button.DepressedBgColor								"Blank"
 		Button.FocusBorderColor								"White"
-		
+
 		CheckButton.TextColor								"OffWhite"
 		CheckButton.SelectedTextColor						"White"
 		CheckButton.BgColor									"DarkBG"
@@ -84,16 +84,16 @@ Scheme
 		CheckButton.DisabledBgColor	   						"Blank"
 
 		ToggleButton.SelectedTextColor						"TFTextBright"
-		
+
 		ComboBoxButton.ArrowColor							"DullWhite"
 		ComboBoxButton.ArmedArrowColor						"White"
 		ComboBoxButton.BgColor								"Blank"
 		ComboBoxButton.DisabledBgColor						"Blank"
-		
+
 		RadioButton.TextColor								"DullWhite"
 		RadioButton.SelectedTextColor						"White"
 		RadioButton.ArmedTextColor							"TFTextMedium"
-		
+
 		Frame.BgColor										"LightBG"
 		Frame.OutOfFocusBgColor								"LightBGInactive"
 		FrameGrip.Color1									"65 65 65 255"
@@ -102,31 +102,31 @@ Scheme
 		FrameTitleBar.Font									"UiBold"
 		FrameTitleBar.TextColor								"Main Theme"
 		FrameTitleBar.DisabledTextColor						"255 255 255 192"
-		
+
 		Label.TextDullColor									"DullWhite"
 		Label.TextColor										"OffWhite"
 		Label.TextBrightColor								"White"
 		Label.SelectedTextColor								"White"
 		Label.BgColor										"Blank"
 		Label.DisabledFgColor1								"0 0 0 0"
-		Label.DisabledFgColor2								"30 30 30 255"
-		
+		Label.DisabledFgColor2								"Black"
+
 		ListPanel.TextColor									"OffWhite"
 		ListPanel.BgColor									"DarkBG"
 		ListPanel.SelectedBgColor							"Main Theme"
 		ListPanel.SelectedOutOfFocusBgColor					"DarkBGIanctive"
-		
+
 		MainMenu.TextColor									"White"
 		MainMenu.ArmedTextColor								"Main Theme"
 		MainMenu.Inset										"32"
-		
+
 		Menu.TextInset										"6"
 		Menu.FgColor										"White"
 		Menu.BgColor										"17 17 17 255"
 		Menu.ArmedFgColor									"Main Theme"
 		Menu.ArmedBgColor									"Main Theme"
 		Menu.DividerColor									"BorderDark"
-		
+
 		ScrollBarButton.FgColor								"White"
 		ScrollBarButton.BgColor								"Blank"
 		ScrollBarButton.ArmedFgColor						"White"
@@ -136,19 +136,19 @@ Scheme
 
 		ScrollBarSlider.FgColor								"55 55 55 255"
 		ScrollBarSlider.BgColor								"0 0 0 0"
-		
+
 		Slider.NobColor										"108 108 108 255"
 		Slider.TextColor									"180 180 180 255"
 		Slider.TrackColor									"31 31 31 255"
 		Slider.DisabledTextColor1							"117 117 117 255"
 		Slider.DisabledTextColor2							"30 30 30 255"
-		
+
 		TextEntry.TextColor									"OffWhite"
 		TextEntry.DisabledTextColor							"170 170 170 255"
 		TextEntry.SelectedBgColor							"Main Theme"
-		
+
 		/////////////////// Borrowed from CS:S SourceScheme /////////////////////////
-		
+
 		Frame.TitleTextInsetX								"14"
 		Frame.ClientInsetY									"9"
 		Frame.ClientInsetX									"8"
@@ -164,34 +164,34 @@ Scheme
 		FrameSystemButton.DisabledIcon						""
 		FrameTitleBar.BgColor								"0 0 0 0"
 		FrameTitleBar.DisabledBgColor						"Blank"
-		
+
 		GraphPanel.FgColor									"White"
 		GraphPanel.BgColor									"DarkBG"
-		
+
 		ListPanel.TextBgColor								"Blank"
 		ListPanel.SelectedTextColor							"Black"
 		ListPanel.EmptyListInfoTextColor					"OffWhite"
-		
+
 		Menu.TextColor										"White"
 		Menu.ArmedTextColor									"Black"
-		
+
 		Panel.FgColor										"DullWhite"
 		Panel.BgColor										"Blank"
-		
+
 		ProgressBar.FgColor									"White"
 		ProgressBar.BgColor									"DarkBG"
-		
+
 		PropertySheet.TextColor								"OffWhite"
 		PropertySheet.SelectedTextColor						"White"
 		PropertySheet.TransitionEffectTime					"0.25"
-		
+
 		RichText.TextColor									"OffWhite"
 		RichText.BgColor									"DarkBG"
 		RichText.SelectedTextColor							"Black"
 		RichText.SelectedBgColor							"Main Theme"
-		
+
 		ScrollBar.Wide										"17"
-		
+
 		SectionedListPanel.HeaderTextColor					"White"
 		SectionedListPanel.HeaderBgColor					"Blank"
 		SectionedListPanel.DividerColor						"Black"
@@ -202,36 +202,36 @@ Scheme
 		SectionedListPanel.SelectedBgColor					"Main Theme"
 		SectionedListPanel.OutOfFocusSelectedTextColor		"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor		"100 100 100 128"
-		
+
 		TextEntry.BgColor									"DarkBG"
 		TextEntry.CursorColor								"OffWhite"
 		TextEntry.DisabledBgColor							"Blank"
 		TextEntry.SelectedTextColor							"Black"
 		TextEntry.OutOfFocusSelectedBgColor					"100 100 100 128"
 		TextEntry.FocusEdgeColor							"0 0 0 196"
-		
+
 		ToggleButton.SelectedTextColor						"White"
-		
+
 		Tooltip.TextColor									"0 0 0 196"
 		Tooltip.BgColor										"Main Theme"
-		
+
 		TreeView.BgColor									"DarkBG"
-		
+
 		WizardSubPanel.BgColor								"Blank"
-		
+
 		MainMenu.DepressedTextColor							"150 150 150 128"
 		MainMenu.MenuItemHeight								"25"
 		MainMenu.Backdrop									"0 0 0 156"
-		
+
 		Console.TextColor									"Main Theme"
 		Console.DevTextColor								"White"
-		
+
 		NewGame.TextColor									"White"
 		NewGame.FillColor									"0 0 0 255"
 		NewGame.SelectionColor								"Main Theme"
 		NewGame.DisabledColor								"128 128 128 196"
 	}
-	
+
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -303,9 +303,9 @@ Scheme
 				}
 			}
 		}
-		
+
 	}
-	
+
 	Fonts
 	{
 		"MainMenuFont"
@@ -319,7 +319,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"MenuLarge"
 		{
 			"1"	[$X360]
@@ -327,7 +327,7 @@ Scheme
 				"tall_hidef"								"24"
 			}
 		}
-		
+
 		"ServerBrowserTitle"
 		{
 			"1"
@@ -340,7 +340,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		
+
 		"Default" [$OSX]
 		{
 			"1"
@@ -350,7 +350,7 @@ Scheme
 				"weight"									"500"
 			}
 		}
-		
+
 		"ServerBrowserSmall"
 		{
 			"1"
@@ -396,7 +396,7 @@ Scheme
 				"yres"										"1200 6000"
 				"antialias"									"1"
 			}
-		}	
+		}
 		AchievementItemTitle [$WIN32]
 		{
 			"1"
@@ -435,7 +435,7 @@ Scheme
 		}
 
 	}
-	
+
 	CustomFontFiles
 	{
 		"9"

@@ -8,6 +8,17 @@ Scheme
 
 	Fonts
 	{
+		"Size 4"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft"
+				"tall"										"4"
+				"weight"									"600"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
 		"Size 7"
 		{
 			"1"
@@ -322,7 +333,17 @@ Scheme
 			}
 		}
 
-
+		"Size 8 Shadow"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft"
+				"tall"										"8"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
 		"Size 10 Shadow"
 		{
 			"1"

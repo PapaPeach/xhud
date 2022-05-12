@@ -12,13 +12,13 @@
 		"visible"					"1"
 		"enabled"					"1"
 		"bgcolor"					"White"
-	}	
-	
+	}
+
 	"AmmoInClip"
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"AmmoInClip"
-		"font"						"HudFontGiantBold"
+		"font"						"Size 44"
 		"fgcolor"					"Ammo In Clip"
 		"xpos"						"10"
 		"ypos"						"0"
@@ -27,19 +27,19 @@
 		"tall"						"30"
 		"visible"					"0"
 		"enabled"					"1"
-		"textAlignment"				"east"	
+		"textAlignment"				"east"
 		"labelText"					"%Ammo%"
-		
+
 		"pin_to_sibling"			"AmmoAnchor"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
 		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
-	}	
-	
+	}
+
 	"AmmoInClipShadow"
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"AmmoInClipShadow"
-		"font"						"HudFontGiantBold"
+		"font"						"Size 44"
 		"fgcolor"					"Shadow"
 		"xpos"						"-1"
 		"ypos"						"-1"
@@ -48,12 +48,12 @@
 		"tall"						"30"
 		"visible"					"0"
 		"enabled"					"1"
-		"textAlignment"				"east"	
+		"textAlignment"				"east"
 		"labelText"					"%Ammo%"
-		
+
 		"pin_to_sibling"			"AmmoInClip"
-	}	
-	
+	}
+
 	"AmmoInReserve"
 	{
 		"ControlName"				"CExLabel"
@@ -67,14 +67,14 @@
 		"tall"						"15"
 		"visible"					"0"
 		"enabled"					"1"
-		"textAlignment"				"west"		
+		"textAlignment"				"west"
 		"labelText"					"%AmmoInReserve%"
-		
+
 		"pin_to_sibling"			"AmmoInClip"
 		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
-	}	
-	
+	}
+
 	"AmmoInReserveShadow"
 	{
 		"ControlName"				"CExLabel"
@@ -88,12 +88,12 @@
 		"tall"						"15"
 		"visible"					"0"
 		"enabled"					"1"
-		"textAlignment"				"west"		
+		"textAlignment"				"west"
 		"labelText"					"%AmmoInReserve%"
-		
+
 		"pin_to_sibling"			"AmmoInReserve"
-	}	
-	
+	}
+
 	"AmmoNoClip"
 	{
 		"ControlName"				"CExLabel"
@@ -107,14 +107,14 @@
 		"tall"						"30"
 		"visible"					"0"
 		"enabled"					"1"
-		"textAlignment"				"center"		
+		"textAlignment"				"center"
 		"labelText"					"%Ammo%"
-		
+
 		"pin_to_sibling"			"AmmoAnchor"
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
-	}	
-	
+	}
+
 	"AmmoNoClipShadow"
 	{
 		"ControlName"				"CExLabel"
@@ -128,11 +128,11 @@
 		"tall"						"30"
 		"visible"					"0"
 		"enabled"					"1"
-		"textAlignment"				"center"		
+		"textAlignment"				"center"
 		"labelText"					"%Ammo%"
-		
+
 		"pin_to_sibling"			"AmmoNoClip"
-	}	
+	}
 
 	"LowAmmoBox"
 	{
@@ -147,12 +147,12 @@
 		"enabled"					"1"
 		"bgcolor"					"Blank"
 		"alpha"						"150"
-		
+
 		"pin_to_sibling"			"AmmoAnchor"
 		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
-	}	
-	
+	}
+
 	"HudWeaponLowAmmoImage"			//Needed for animations to work???
 	{
 		"ControlName"				"ImagePanel"
@@ -165,7 +165,7 @@
 		"visible"					"0"
 		"enabled"					"1"
 		"image"						"../hud/ammo_red_bg"
-		"scaleImage"				"1"	
+		"scaleImage"				"1"
 		"teambg_2"					"../hud/ammo_red_bg"
 		"teambg_3"					"../hud/ammo_blue_bg"
 	}

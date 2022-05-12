@@ -46,7 +46,7 @@ Scheme
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Black"
-		
+
 		CheckButton.TextColor			"OffWhite"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
@@ -97,7 +97,7 @@ Scheme
 		Label.SelectedTextColor				"White"
 		Label.BgColor					"TransparentBlack"
 		Label.DisabledFgColor1			"117 117 117 255"
-		Label.DisabledFgColor2			"30 30 30 255"
+		Label.DisabledFgColor2			"Black"
 
 		ListPanel.TextColor					"OffWhite"
 		ListPanel.TextBgColor				"Blank"
@@ -265,7 +265,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+
 		// this is the symbol font
 		"Marlett"
 		{
@@ -505,7 +505,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		TitleButtonBorder
 		{
 			"backgroundtype" "0"
@@ -560,7 +560,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		ScrollBarButtonDepressedBorder
 		{
 			"inset" "2 2 0 0"
@@ -811,6 +811,6 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"		
+		"2"		"resource/HL2EP2.ttf"
 	}
 }

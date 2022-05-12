@@ -16,7 +16,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Size 12"
+		"font"			"Size 11"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}
@@ -37,7 +37,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Size 12"
+		"font"			"Size 11"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}
@@ -58,7 +58,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Size 12"
+		"font"			"Size 11"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}
@@ -79,7 +79,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Size 12"
+		"font"			"Size 11"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}
@@ -90,10 +90,10 @@
 		"fieldName"		"ServerTimeLimitLabel"
 		"proportionaltoparent"		"1"
 		"xpos"			"cs-0.5"
-		"ypos"			"16"
+		"ypos"			"17"
 		"zpos"			"5"
 		"wide"			"100"
-		"tall"			"12"
+		"tall"			"8"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%servertimeleft%"
@@ -101,7 +101,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"size 12"
+		"font"			"size 11"
 		"fgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 	}

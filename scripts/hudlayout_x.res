@@ -1,7 +1,7 @@
 "Resource/HudLayout.res"
 {
 	HorizontalThird1
-	{	
+	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"HorizontalThird1"
 		"xpos"					"0"
@@ -14,9 +14,9 @@
 		"paintbackgroud"		"1"
 		"bgcolor_override"		"255 255 255 20"
 	}
-	
+
 	HorizontalThird2
-	{	
+	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"HorizontalThird2"
 		"xpos"					"0"
@@ -29,9 +29,9 @@
 		"paintbackgroud"		"1"
 		"bgcolor_override"		"255 255 255 20"
 	}
-	
+
 	VerticalThird1
-	{	
+	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"VerticalThird1"
 		"xpos"					"285"
@@ -44,9 +44,9 @@
 		"paintbackgroud"		"1"
 		"bgcolor_override"		"255 255 255 20"
 	}
-	
+
 	VerticalThird2
-	{	
+	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"VerticalThird2"
 		"xpos"					"r285"
@@ -59,7 +59,32 @@
 		"paintbackgroud"		"1"
 		"bgcolor_override"		"255 255 255 20"
 	}
-	
+
+	HudDeathNotice
+	{
+		"xpos"	 "r402"
+		"ypos"	 "24"
+		"wide"	 "400"
+		"tall"	 "200"
+
+		"MaxDeathNotices" "6"
+		"IconScale"	  "0.35"
+		"LineHeight"	  "12"
+		"LineSpacing"	  "0"
+		"CornerRadius"	  "0"
+		"RightJustify"	  "1"
+
+		"TextFont"		"Size 10"
+
+		"TeamBlue"		"Blue"
+		"TeamRed"		"Red"
+		"IconColor"		"White"
+		"LocalPlayerColor"	"Black"
+
+		"BaseBackgroundColor"	"27 28 30 180"
+		"LocalBackgroundColor"	"227 228 230 180"
+	}
+
 	HudWeaponAmmo
 	{
 		"xpos"					"0"
@@ -69,7 +94,7 @@
 		"wide"					"f0"
 		"tall"					"f0"
 	}
-	
+
 	CHealthAccountPanel
 	{
 		"xpos"					"0"
@@ -79,7 +104,7 @@
 		"wide"					"f0"
 		"tall"  				"f0"
 	}
-	
+
 	HudControlPointIcons
 	{
 		"fieldName"				"HudControlPointIcons"
@@ -93,7 +118,7 @@
 		"separator_height"		"7"
 		"height_offset"			"0"
 	}
-	
+
 	HudObjectiveStatus
 	{
 		"fieldName" "HudObjectiveStatus"
@@ -103,8 +128,8 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
-	}	
-	
+	}
+
 	HudKothTimeStatus
 	{
 		"fieldName" "HudKothTimeStatus"
@@ -114,9 +139,9 @@
 		"ypos"	"0"
 		"wide"	"200"
 		"tall"	"160"
-		
+
 		"blue_active_xpos"			"16"
-	
+
 		"red_active_xpos"			"106"
-	}	
+	}
 }

@@ -268,36 +268,36 @@
 			"textAlignment"		"north"
 			"labelText"		"0:00"
 		}
+	}
 
-		"BlueBar"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"BlueBar"
-			"xpos"		"cs-1.0"
-			"ypos"		"0"
-			"zpos"		"5"
-			"wide"		"35"
-			"tall"		"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"bgcolor_override"		"Blue"
-			"proportionaltoparent"		"1"
-		}
+	"BlueBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"BlueBar"
+		"xpos"		"cs-1.0"
+		"ypos"		"0"
+		"zpos"		"5"
+		"wide"		"35"
+		"tall"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"Blue"
+		"proportionaltoparent"		"1"
+	}
 
-		"RedBar"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"RedBar"
-			"xpos"		"c0"
-			"ypos"		"0"
-			"zpos"		"5"
-			"wide"		"35"
-			"tall"		"2"
-			"visible"		"1"
-			"enabled"		"1"
-			"bgcolor_override"		"Red"
-			"proportionaltoparent"		"1"
-		}
+	"RedBar"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"RedBar"
+		"xpos"		"c0"
+		"ypos"		"0"
+		"zpos"		"5"
+		"wide"		"35"
+		"tall"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"Red"
+		"proportionaltoparent"		"1"
 	}
 
 	"TeamStatus"
@@ -313,18 +313,18 @@
 		"enabled"		"1"
 
 
-		"max_size"	"50"
+		"max_size"	"64"
 
 		"6v6_gap"	"1"
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-36"
-		"team1_max_expand"	"320"		//ASPECT RATIO AFFECTED
+		"team1_max_expand"	"390"		//ASPECT RATIO AFFECTED
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c36"
-		"team2_max_expand"	"320"		//ASPECT RATIO AFFECTED
+		"team2_max_expand"	"390"		//ASPECT RATIO AFFECTED
 
 		"playerpanels_kv"
 		{
@@ -349,12 +349,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Size 7"
+				"font"			"Size 8 Shadow"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor_override"		"White"
 				"xpos"			"1"
-				"ypos"			"19"
+				"ypos"			"18"
 				"zpos"			"7"
 				"wide"			"f0"
 				"tall"			"6"
@@ -368,8 +368,8 @@
 				"xpos"			"1"
 				"ypos"			"0"
 				"zpos"			"6"
-				"wide"			"19"
-				"tall"			"19"
+				"wide"			"18"
+				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -384,7 +384,7 @@
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"f0"
-				"tall"			"25"
+				"tall"			"24"
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType"	"0"
@@ -399,7 +399,7 @@
 				"ypos"					"0"
 				"zpos"					"3"
 				"wide"					"f0"
-				"tall"					"25"
+				"tall"					"24"
 				"visible"				"1"
 				"enabled"				"1"
 				"textAlignment"			"Left"
@@ -417,7 +417,7 @@
 				"ypos"					"0"
 				"zpos"					"4"
 				"wide"					"f0"
-				"tall"					"25"
+				"tall"					"24"
 				"visible"				"1"
 				"enabled"				"1"
 				"textAlignment"			"Left"

@@ -62,7 +62,7 @@ Scheme
 		"MainTheme"											"60 140 255 255"
 
 		"WhiteLight"										"227 228 230 255"
-		"White"												"227 228 230 255"
+		"White"													"227 228 230 255"
 		"WhiteDark"											"172 173 175 255"
 		"WhiteGray"											"127 128 130 255"
 		"GrayLight"											"77 78 82 255"
@@ -72,9 +72,9 @@ Scheme
 		"GrayDarkest"										"27 28 30 255"
 		"BlackLight"										"20 21 23 255"
 		"BlackDark"											"15 16 18 255"
-		"Black"												"0 0 0 255"
-		"TransparentBlack"									"0 0 0 150"
-		"TransparentLightBlack"								"0 0 0 100"
+		"Black"													"0 0 0 255"
+		"TransparentBlack"							"0 0 0 150"
+		"TransparentLightBlack"					"0 0 0 100"
 
 		//=============================================================================
 		// ITEM QUALITY COLORS
