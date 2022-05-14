@@ -75,6 +75,7 @@ Scheme
 		"Black"													"0 0 0 255"
 		"TransparentBlack"							"0 0 0 150"
 		"TransparentLightBlack"					"0 0 0 100"
+		"TransparentGrayDarkest"				"27 28 30 180"
 
 		//=============================================================================
 		// ITEM QUALITY COLORS

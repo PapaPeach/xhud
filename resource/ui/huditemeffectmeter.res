@@ -11,7 +11,7 @@
 		"wide"			"80"
 		"tall"			"20"
 		"MeterFG"		"White"
-		"MeterBG"		"GrayDarkest"
+		"MeterBG"		"Blank"
 	}
 
 	"ItemEffectMeterLabel"
@@ -51,6 +51,8 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"proportionaltoparent"		"1"
+		"bgcolor_override"		"GrayDarkest"
+		"fgcolor_override"		"White"
 	}
 
 

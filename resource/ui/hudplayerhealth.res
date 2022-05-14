@@ -97,7 +97,7 @@
 		"tall"						"100"
 		"visible"					"1"
 		"enabled"					"1"
-		"bgcolor_override"			"Red"
+		"bgcolor_override"			"Low Health"
 		"alpha"						"150"
 
 		"pin_to_sibling"			"PlayerStatusHealthBonusImage"

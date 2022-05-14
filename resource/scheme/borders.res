@@ -140,6 +140,65 @@ Scheme
 				}
 			}
 		}
+		RedHighlightBorderThick
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Red"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "Red"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Red"
+					"offset" "1 0"
+				}
+				"2"
+				{
+					"color" "Red"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Red"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Red"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Red"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Red"
+					"offset" "0 0"
+				}
+			}
+		}
 
 		////////////////////////////////////////////////////////////////////////////////////
 		///////////////////////////////////MATERIAL WHITE///////////////////////////////////
@@ -215,6 +274,65 @@ Scheme
 			Bottom
 			{
 				"1"
+				{
+					"color" "White"
+					"offset" "0 0"
+				}
+			}
+		}
+		WhiteHighlightBorderThick
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "White"
+					"offset" "0 1"
+				}
+				"2"
+				{
+					"color" "White"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "White"
+					"offset" "1 0"
+				}
+				"2"
+				{
+					"color" "White"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "White"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "White"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "White"
+					"offset" "0 0"
+				}
+				"2"
 				{
 					"color" "White"
 					"offset" "0 0"

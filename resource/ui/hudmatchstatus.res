@@ -320,11 +320,11 @@
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-36"
-		"team1_max_expand"	"390"		//ASPECT RATIO AFFECTED
+		"team1_max_expand"	"320"		//ASPECT RATIO AFFECTED
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c36"
-		"team2_max_expand"	"390"		//ASPECT RATIO AFFECTED
+		"team2_max_expand"	"320"		//ASPECT RATIO AFFECTED
 
 		"playerpanels_kv"
 		{
@@ -333,18 +333,32 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"Red"
-			"color_portrait_bg_blue"	"Blue"
-			"color_portrait_bg_red_dead"	"GrayDarkest"
-			"color_portrait_bg_blue_dead"	"GrayDarkest"
-			"color_bar_health_high"	"Green"
-			"color_bar_health_med"	"200 180 0 255"
+			"color_portrait_bg_red"	"Blank"
+			"color_portrait_bg_blue"	"Blank"
+			"color_portrait_bg_red_dead"	"TransparentGrayDarkest"
+			"color_portrait_bg_blue_dead"	"TransparentGrayDarkest"
+			"color_bar_health_high"	"40 200 110 150"
+			"color_bar_health_med"	"200 180 0 150"
 			"percentage_health_med"	"0.6"
-			"color_bar_health_low"	"Low Health"
+			"color_bar_health_low"	"255 50 50 150"
 			"percentage_health_low"	"0.3"
 			"color_portrait_blend_dead_red"	"255 255 255 255"
 			"color_portrait_blend_dead_blue" "255 255 255 255"
 
+			"WhiteBorder"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"		"WhiteBorder"
+				"xpos"		"0"
+				"ypos"		"0"
+				"zpos"		"6"
+				"wide"		"f0"
+				"tall"		"24"
+				"visible"		"1"
+				"enabled"		"1"
+				"proportionaltoparent"		"1"
+				"border"		"WhiteHighlightBorderThick"
+			}
 			"playername"
 			{
 				"ControlName"	"CExLabel"
@@ -355,8 +369,8 @@
 				"fgcolor_override"		"White"
 				"xpos"			"1"
 				"ypos"			"18"
-				"zpos"			"7"
-				"wide"			"f0"
+				"zpos"			"8"
+				"wide"			"100"
 				"tall"			"6"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
@@ -367,7 +381,7 @@
 				"fieldName"		"classimage"
 				"xpos"			"1"
 				"ypos"			"0"
-				"zpos"			"6"
+				"zpos"			"5"
 				"wide"			"18"
 				"tall"			"18"
 				"visible"		"1"
@@ -383,7 +397,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"f0"
+				"wide"			"0"
 				"tall"			"24"
 				"visible"		"1"
 				"enabled"		"1"
@@ -405,7 +419,7 @@
 				"textAlignment"			"Left"
 				"dulltext"				"0"
 				"brighttext"			"0"
-				"bgcolor_override"	   "GrayDark"
+				"bgcolor_override"	   "Blank"
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
@@ -463,15 +477,19 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"Size 14 Shadow"
-				"xpos"			"rs1.0+5"
+				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"7"
-				"wide"			"f10"
-				"tall"			"23"
+				"wide"			"f0"
+				"tall"			"24"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"center"
+				"textAlignment"	"east"
+				"textinsetx"		"6"
+				"textinsety"		"-2"
 				"proportionaltoparent"	"1"
+				"bgcolor_override"		"TransparentGrayDarkest"
+				"border"		"RedHighlightBorderThick"
 			}
 			"chargeamount"
 			{
@@ -524,7 +542,7 @@
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
 				"xpos"				"9999"
-				"wide"				"32"
+				"wide"				"0"
 				"visible"			"0"
 				"enabled"			"0"
 			}

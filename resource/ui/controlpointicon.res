@@ -7,11 +7,11 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"2"
-		"wide"		"26"
-		"tall"		"26"
+		"wide"		"24"
+		"tall"		"24"
 		"visible"	"1"
 		"enabled"	"1"
-		"alpha"		"255"
+		"alpha"		"240"
 	}
 
 	"Countdown"
@@ -21,40 +21,28 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"4"
-		"wide"		"26"
-		"tall"		"26"
+		"wide"		"24"
+		"tall"		"24"
 		"visible"	"1"
 		"enabled"	"1"
-	}
-
-	"CapPlayerImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"CapPlayerImage"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"	"0"
 	}
 
 	"CapNumPlayers"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"CapPlayerFont"
+		"font"			"Size 24"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"28"
-		"tall"			"28"
+		"wide"			"24"
+		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#ControlPointIconCappers"
 		"textAlignment"		"center"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		//"font"			"size 30"
-		//"fgcolor_override"	"0 255 0 255"
-		//"alpha"			"255"
+		"dulltext"		"1"
+		"brighttext"		"1"
 	}
 
 	"OverlayImage"
@@ -104,5 +92,15 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_timer"
 		"scaleImage"	"1"
+	}
+
+
+	"CapPlayerImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"	"CapPlayerImage"
+		"xpos"		"9999"
+		"wide"		"0"
+		"enabled"	"0"
 	}
 }

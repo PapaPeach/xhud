@@ -81,7 +81,7 @@
 		"IconColor"		"White"
 		"LocalPlayerColor"	"Black"
 
-		"BaseBackgroundColor"	"27 28 30 180"
+		"BaseBackgroundColor"	"TransparentGrayDarkest"
 		"LocalBackgroundColor"	"227 228 230 180"
 	}
 
