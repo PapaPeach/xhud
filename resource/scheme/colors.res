@@ -26,15 +26,15 @@ Scheme
 		"PartyMember4"										"232 184 99  255"
 		"PartyMember5"										"255 118 108 255"
 		"PartyMember6"										"255 133 255 255"
-		
+
 		"RedSolid"											"255 61 61 255"
-		"Yellow"											"227 228 230 255"
+		"Yellow"											"200 180 0 255"
 		"TransparentYellow"									"227 228 230 255"
 		"BrightYellow"										"255 255 0 255"
 		"GreenSolid"										"76 107 34 255"
-		
+
 		"FooterBGBlack"										"0 0 0 255"
-		
+
 		"HUDBlueTeam"										"92 173 255 255"
 		"HUDRedTeam"										"255 61 61 255"
 		"HUDSpectator"										"227 228 230 255"
@@ -45,9 +45,9 @@ Scheme
 		"HudOffWhite"										"227 228 230 255"
 		"HudBlack"											"0 0 0 255"
 		"ProgressBarBlue"									"90 125 140 255"
-		
+
 		"CreditsGreen"										"95 150 50 255"
-		
+
 		"Gray"												"227 228 230 255"
 
 		"Blank"												"0 0 0 0"
@@ -62,44 +62,44 @@ Scheme
 		"HudProgressBarActive"								"227 228 230 255"
 		"HudProgressBarInActive"							"227 228 230 255"
 		"HudProgressBarActiveLow"							"255 61 61 255"
-		"HudProgressBarInActiveLow"							"255 61 61 255"	
+		"HudProgressBarInActiveLow"							"255 61 61 255"
 
 		"HudTimerProgressActive"							"227 228 230 255"
 		"HudTimerProgressInActive"							"50 50 50 255"
 		"HudTimerProgressWarning"							"240 30 30 255"
 
 		"HudTrainingHint"									"212 160 23 255"
-		
+
 		"TanDark"											"150 150 150 255"
 		"TanLight"											"230 230 230 255"
 		"TanDarker"											"15 15 15 255"
-		
+
 		"StoreDarkTan"										"150 150 150 255"
 		"StoreGreen"										"35 185 30 255"
-		
+
 		"LowHealthRed"										"255 0 0 255"
 		"ProgressOffWhite"									"227 228 230 255"
 		"ProgressBackground"								"0 0 0 50"
 		"HealthBgGrey"										"60 60 60 255"
-		
+
 		"ProgressOffWhiteTransparent"						"227 228 230 255"
-		
+
 		"LabelDark"											"0 0 0 255"
 		"LabelTransparent"									"0 0 0 100"
-		
+
 		"BuildMenuActive"									"227 228 230 255"
-		
+
 		"DisguiseMenuIconRed"								"255 61 61 255"
 		"DisguiseMenuIconBlue"								"92 173 255 255"
 
  		"MatchmakingDialogTitleColor"						"227 228 230 255"
  		"MatchmakingMenuItemBackground"						"30 30 30 255"
- 		"MatchmakingMenuItemBackgroundActive"				"92 173 255 255"	
+ 		"MatchmakingMenuItemBackgroundActive"				"92 173 255 255"
 		"MatchmakingMenuItemTitleColor"						"227 228 230 255"
 		"MatchmakingMenuItemDescriptionColor"				"227 228 230 255"
-		
+
 		"HTMLBackground"									"30 30 30 255"
-		
+
 		"ItemAttribLevel"									"227 228 230 255"
 		"ItemAttribNeutral"									"227 228 230 255"
 		"ItemAttribPositive"								"150 200 255 255"
@@ -113,7 +113,7 @@ Scheme
 		"ItemLimitedUse"									"0 160 0 255"
 		"ItemFlags"											"117 107 94 255"
 		"ItemLimitedQuantity"								"225 209 0 255"
-		
+
 		"QualityColorNormal"								"150 150 150 255"
 		"QualityColorrarity1"								"77 116 85 255"
 		"QualityColorrarity2"								"141 131 75 255"
@@ -138,7 +138,7 @@ Scheme
 		"ItemRarityMythical"								"136 71 255 255"
 		"ItemRarityLegendary"								"211 44 230 255"
 		"ItemRarityAncient"									"235 75 75 255"
-		
+
 		"ItemRarityDefault_GreyedOut"						"44 42 40 255"
 		"ItemRarityCommon_GreyedOut"						"59 65 72 255"
 		"ItemRarityUncommon_GreyedOut"						"31 50 72 255"
@@ -146,7 +146,7 @@ Scheme
 		"ItemRarityMythical_GreyedOut"						"45 24 85 255"
 		"ItemRarityLegendary_GreyedOut"						"70 15 77 255"
 		"ItemRarityAncient_GreyedOut"						"78 25 25 255"
-		
+
 		"QualityColorNormal_GreyedOut"						"44 44 44 255"
 		"QualityColorrarity1_GreyedOut"						"20 29 21 255"
 		"QualityColorrarity2_GreyedOut"						"35 33 19 255"
@@ -163,14 +163,14 @@ Scheme
 		"QualityColorHaunted_GreyedOut"						"14 61 43 255"
 		"QualityColorCollectors_GreyedOut"					"60 0 0 255"
 		"QualityColorPaintkitWeapon_GreyedOut"				"60 60 60 255"
-		
+
 		"SaleGreen"											"35 185 30 255"
-		
+
 		"LightRed"											"255 61 61 255"
 		"LighterRed"										"255 61 61 255"
 		"LighterDarkBrown"									"60 60 60 255"
 		"DarkBrown"											"30 30 30 255"
-		
+
 		"UpgradeDefaultFg"									"227 228 230 255"
 		"UpgradeDefaultBg"									"60 60 60 2555"
 		"UpgradeArmedFg"									"227 228 230 255"
@@ -186,7 +186,7 @@ Scheme
 	///////////////////////////////////////////////////////////////////////////////
 	////////////////////////////BASE COLORS SETTINGS///////////////////////////////
 	///////////////////////////////////////////////////////////////////////////////
-	
+
 	BaseSettings
 	{
 		ReplayBrowser.BgColor								"DarkBrown"
@@ -198,9 +198,9 @@ Scheme
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
 		ReplayBrowser.Search.BgColor						"TanDark"
 		ReplayBrowser.Search.FgColor						"White"
-		
+
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
-		
+
 		Econ.Dialog.BgColor									"BlackDark"
 		Econ.Button.BgColor									"BlackLight"
 		Econ.Button.FgColor									"White"
@@ -208,15 +208,15 @@ Scheme
 		Econ.Button.ArmedFgColor							"White"
 		Econ.Button.DepressedBgColor						"MainTheme"
 		Econ.Button.DepressedFgColor						"BlackLight"
-		
+
 		Econ.Button.PresetDefaultColorFg					"White"
 		Econ.Button.PresetArmedColorFg						"White"
 		Econ.Button.PresetDepressedColorFg					"White"
-		
+
 		Econ.Button.PresetDefaultColorBg					"MainTheme"
 		Econ.Button.PresetArmedColorBg						"MainTheme"
 		Econ.Button.PresetDepressedColorBg					"MainTheme"
-		
+
 		Border.Bright										"Blank"
 		Border.Dark											"BlackDark"
 		Border.Selection									"Gray"
@@ -237,7 +237,7 @@ Scheme
 		CheckButton.Border2  								"WhiteDark"
 		CheckButton.Check									"WhiteDark"
 		CheckButton.HighlightFgColor						"WhiteDark"
-		
+
 		ComboBoxButton.ArrowColor							"WhiteDark"
 		ComboBoxButton.ArmedArrowColor						"WhiteDark"
 		ComboBoxButton.BgColor								"Blank"
@@ -301,7 +301,7 @@ Scheme
 
 		CircularProgressBar.FgColor							"White"
 		CircularProgressBar.BgColor							"White"
-		
+
 		"BuildingHealthBar.BgColor"							"HealthBgGrey"
 		"BuildingHealthBar.Health"							"White"
 		"BuildingHealthBar.LowHealth"						"LowHealthRed"
@@ -363,7 +363,7 @@ Scheme
 		TreeView.BgColor									"TransparentBlack"
 
 		WizardSubPanel.BgColor								"Blank"
-		
+
 		TimerProgress.Active								"HudTimerProgressActive"
 		TimerProgress.InActive								"HudTimerProgressInActive"
 		TimerProgress.Warning								"HudTimerProgressWarning"
@@ -371,10 +371,10 @@ Scheme
 		HudObjectives.FgColor								"HudPanelForeground"
 		HudObjectives.BgColor								"HudPanelBackground"
 		HudObjectives.BorderColor							"HudPanelBorder"
-		
+
 		HudProgressBar.Active								"HudProgressBarActive"
 		HudProgressBar.InActive								"HudProgressBarInActive"
-		
+
 		HudCaptureIcon.Active								"HudProgressBarActive"
 		HudCaptureIcon.InActive								"HudProgressBarInActive"
 		HudCaptureProgressBar.Active						"HudProgressBarActive"
@@ -411,7 +411,7 @@ Scheme
 		"Main.Menu.Y"										"248"
 
 		"Main.BottomBorder"									"32"
-		
+
 		"VguiScreenCursor"									"255 208 64 255"
 	}
 }

@@ -54,6 +54,7 @@ Scheme
 		"Red"												"255 50 65 255"
 		"Blue"												"92 173 255 255"
 		"Green"												"40 200 110 255"
+		//"Yellow"											"200 180 0 255"
 
 		//=============================================================================
 		// MENU COLORS
@@ -75,7 +76,7 @@ Scheme
 		"Black"													"0 0 0 255"
 		"TransparentBlack"							"0 0 0 150"
 		"TransparentLightBlack"					"0 0 0 100"
-		"TransparentGrayDarkest"				"27 28 30 180"
+		"TransparentGrayDarkest"				"27 28 30 200"
 
 		//=============================================================================
 		// ITEM QUALITY COLORS

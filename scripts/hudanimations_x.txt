@@ -2,7 +2,7 @@
 
 event HudHealthBonusPulse
 {
-	Animate HealthBarOverheal					BgColor		"MainTheme"							Linear	0.0 	0.0
+	Animate HealthBarOverheal					BgColor		"Blue"							Linear	0.0 	0.0
 
 	Animate HealthBarLowHealth					BgColor		"Blank"								Linear	0.0 	0.0
 
