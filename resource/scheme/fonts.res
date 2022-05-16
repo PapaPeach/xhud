@@ -149,6 +149,17 @@ Scheme
 				"antialias"									"1"
 			}
 		}
+		"Size 24 Outline"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias"									"1"
+				"outline"										"1"
+			}
+		}
 		"Size 28"
 		{
 			"1"

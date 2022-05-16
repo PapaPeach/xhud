@@ -61,7 +61,7 @@
 		"tall"						"3"
 		"visible"					"1"
 		"enabled"					"1"
-		"bgcolor_override"			"White"
+		"bgcolor_override"			"Health"
 
 		"pin_to_sibling"			"PlayerStatusHealthBonusImage"
 		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
@@ -91,7 +91,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HealthBarLowHealth"
 		"xpos"						"0"
-		"ypos"						"-148"
+		"ypos"						"-145"
 		"zpos"						"2"
 		"wide"						"200"
 		"tall"						"100"
@@ -154,11 +154,25 @@
 		"visible"					"0"
 	}
 
+	"StatusIconFix"			//Credit to DrinkinTea
+	{
+		"ControlName"							"EditablePanel"
+		"fieldName"								"StatusIconFix"
+		"xpos"										"rs1-0"
+		"ypos"										"0"
+		"zpos"										"0"
+		"wide" 										"p1.47"
+		"tall" 										"34"
+		"visible"									"1"
+		"enabled"									"1"
+		"proportionaltoparent"		"1"
+		}
+
 	"StatusIconsAnchor"
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"StatusIconsAnchor"
-		"xpos"						"12"
+		"xpos"						"26"
 		"ypos"						"1"
 		"zpos"						"0"
 		"wide"						"38"
@@ -166,9 +180,9 @@
 		"visible"					"1"
 		"enabled"					"1"
 
-		"pin_to_sibling"			"HealthAnchor"
-		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
+		"pin_to_sibling"			"StatusIconFix"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
 	}
 
 	"PlayerStatusBleedImage"

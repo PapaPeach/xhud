@@ -30,7 +30,7 @@ Scheme
 		"Buffed Health Pulse"								"80 150 255 255"
 		"Buffed Health Spec"								"31 143 255 255"
 
-		"Low Health"										"255 50 50 255"
+		"Low Health"										"255 50 65 255"
 		"Low Health Pulse"									"255 0 0 255"
 		"Low Health Spec"									"225 41 41 255"
 
@@ -38,11 +38,11 @@ Scheme
 		"Ammo In Reserve"									"227 228 230 255"
 		"Ammo No Clip"										"227 228 230 255"
 
-		"Low Ammo In Clip"									"255 50 50 255"
+		"Low Ammo In Clip"									"255 50 65 255"
 		"Low Ammo In Clip Pulse"							"255 0 0 255"
-		"Low Ammo In Reserve"								"255 50 50 255"
+		"Low Ammo In Reserve"								"255 50 65 255"
 		"Low Ammo In Reserve Pulse"							"255 0 0 255"
-		"Low Ammo No Clip"									"255 50 50 255"
+		"Low Ammo No Clip"									"255 50 65 255"
 		"Low Ammo No Clip Pulse"							"255 0 0 255"
 
 		"Full Ubercharge"									"30 175 255 255"
@@ -54,7 +54,6 @@ Scheme
 		"Red"												"255 50 65 255"
 		"Blue"												"92 173 255 255"
 		"Green"												"40 200 110 255"
-		//"Yellow"											"200 180 0 255"
 
 		//=============================================================================
 		// MENU COLORS
@@ -77,6 +76,7 @@ Scheme
 		"TransparentBlack"							"0 0 0 150"
 		"TransparentLightBlack"					"0 0 0 100"
 		"TransparentGrayDarkest"				"27 28 30 200"
+		"TransparentWhite"							"227 228 230 150"
 
 		//=============================================================================
 		// ITEM QUALITY COLORS

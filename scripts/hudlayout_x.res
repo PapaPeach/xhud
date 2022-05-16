@@ -82,7 +82,7 @@
 		"LocalPlayerColor"	"Black"
 
 		"BaseBackgroundColor"	"TransparentGrayDarkest"
-		"LocalBackgroundColor"	"227 228 230 180"
+		"LocalBackgroundColor"	"TransparentWhite"
 	}
 
 	HudWeaponAmmo
@@ -97,12 +97,47 @@
 
 	CHealthAccountPanel
 	{
+		"xpos"					"cs-1.0-18"
+		"ypos"					"c75"
+		"wide"					"50"
+		"tall"  				"15"
+	}
+
+	CDamageAccountPanel
+	{
+		"fieldName"				"CDamageAccountPanel"
 		"xpos"					"0"
-		"xpos_minmode"			"0"
 		"ypos"					"0"
-		"ypos_minmode"			"0"
 		"wide"					"f0"
-		"tall"  				"f0"
+		"tall"					"480"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"PaintBackgroundType"	"2"
+	}
+
+	CMainTargetID
+	{
+		"fieldName" 	"CMainTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"cs-0.5"
+		"ypos"		"c42"
+		"wide"	 	"f0"
+		"tall"	 	"35"
+		"priority"	"40"
+		"alpha"		"255"
+	}
+
+	CSecondaryTargetID
+	{
+		"fieldName" 	"CSecondaryTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"cs-0.5"
+		"ypos"		"c102"
+		"wide"	 	"f0"
+		"tall"	 	"35"
+		"priority"	"35"
 	}
 
 	HudControlPointIcons

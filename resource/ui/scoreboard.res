@@ -27,7 +27,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"MainBG"
 		"xpos"			"0"
-		"ypos"			"100"
+		"ypos"			"145"
 		"zpos"			"-1"
 		"wide"			"f0"
 		"tall"			"232"
@@ -190,7 +190,7 @@
 		"font"			"Size 40"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
-		"xpos"			"0"
+		"xpos"			"-2"
 		"ypos"			"0"
 		"zpos"			"20"
 		"wide"			"100"
@@ -208,29 +208,6 @@
 			"visible"		"0"
 		}
 	}
-	"BlueTeamScoreDropshadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"Size 40"
-		"fgcolor"		"Shadow"
-		"labelText"		"%blueteamscore%"
-		"textAlignment"		"east"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"19"
-		"wide"			"100"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"pin_to_sibling"		"BlueTeamScore"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
 	"RedTeamScore"
 	{
 		"ControlName"		"CExLabel"
@@ -238,7 +215,7 @@
 		"font"			"Size 40"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
-		"xpos"			"0"
+		"xpos"			"-2"
 		"ypos"			"0"
 		"zpos"			"20"
 		"wide"			"100"
@@ -250,29 +227,6 @@
 		"pin_to_sibling"		"RedBar"
 		"pin_corner_to_sibling"		"7"
 		"pin_to_sibling_corner"		"7"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
-	"RedTeamScoreDropshadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"Size 40"
-		"fgcolor"		"Shadow"
-		"labelText"		"%redteamscore%"
-		"textAlignment"		"west"
-		"xpos"			"-1"
-		"ypos"			"-1"
-		"zpos"			"19"
-		"wide"			"100"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"pin_to_sibling"		"RedTeamScore"
 
 		if_mvm
 		{
@@ -481,13 +435,14 @@
 			"fgcolor"		"Yellow"
 			"labelText"		"DMG:"
 			"textAlignment"	"center"
-			"xpos"			"0"
+			"xpos"			"3"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"40"
 			"tall"			"12"
 			"visible"		"1"
 			"enabled"		"1"
+			"auto_wide_tocontents"		"1"
 
 			"pin_to_sibling"		"DamageCount"
 			"pin_corner_to_sibling"		"5"
@@ -509,6 +464,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"auto_wide_tocontents"		"1"
+			"bgcolor_override"		"Blank"
 
 			"pin_to_sibling"		"AssistsCount"
 			"pin_corner_to_sibling"		"1"
@@ -521,7 +477,7 @@
 			"font"			"Size 16"
 			"fgcolor"		"Green"
 			"labelText"		"HEAL:"
-			"textAlignment"		"center"
+			"textAlignment"		"west"
 			"xpos"			"4"
 			"ypos"			"-1"
 			"zpos"			"3"
@@ -529,6 +485,8 @@
 			"tall"			"12"
 			"visible"		"1"
 			"enabled"		"1"
+			"auto_wide_tocontents"		"1"
+			"bgcolor_override"		"Blank"
 
 			"pin_to_sibling"		"AssistsCount"
 			"pin_corner_to_sibling"		"0"
@@ -542,7 +500,7 @@
 			"fgcolor"		"Green"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
-			"xpos"			"0"
+			"xpos"			"3"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1507,6 +1465,22 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
+		"xpos"			"9999"
+		"wide"			"0"
+		"enabled"		"0"
+	}
+	"BlueTeamScoreDropshadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"BlueTeamScoreDropshadow"
+		"xpos"			"9999"
+		"wide"			"0"
+		"enabled"		"0"
+	}
+	"RedTeamScoreDropshadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"RedTeamScoreDropshadow"
 		"xpos"			"9999"
 		"wide"			"0"
 		"enabled"		"0"
