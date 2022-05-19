@@ -59,6 +59,16 @@ Scheme
 				"antialias"									"1"
 			}
 		}
+		"Size 10 Uber"
+		{
+			"1"
+			{
+				"name"										"Renogare Uber"
+				"tall"										"10"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
 		"Size 11"
 		{
 			"1"
@@ -77,6 +87,17 @@ Scheme
 				"tall"										"12"
 				"additive"									"0"
 				"antialias"									"1"
+			}
+		}
+		"Size 12 Uber"
+		{
+			"1"
+			{
+				"name"										"Renogare Uber"
+				"tall"										"12"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		"Size 14"
@@ -384,6 +405,17 @@ Scheme
 			{
 				"name"										"Renogare Soft"
 				"tall"										"14"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"Size 16 Shadow"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft"
+				"tall"										"16"
 				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -2860,6 +2892,11 @@ Scheme
 		{
 			"font" 		"resource/scheme/fonts/Renogare.ttf"
 			"name" 		"Renogare Soft"
+		}
+		"11"
+		{
+		"font" 		"resource/scheme/fonts/Renogare Uber.ttf"
+		"name" 		"Renogare Uber"
 		}
 	}
 }

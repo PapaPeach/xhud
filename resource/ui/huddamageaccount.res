@@ -11,6 +11,7 @@
 		"delta_lifetime"		"2.5"
 		"delta_item_font"		"Size 24 Outline"
 		"delta_item_font_big"	"Size 24 Outline"
+		"alpha"		"180"
 	}
 
 	"DamageAccountValue"

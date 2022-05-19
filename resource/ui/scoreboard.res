@@ -13,12 +13,12 @@
 		"tabPosition"		"0"
 		"medal_width"		"0"
 		"avatar_width"		"65"
-		"spacer"			"5"
-		"name_width"		"118"
-		"nemesis_width"		"25"
+		"spacer"			"3"
+		"name_width"		"150"
+		"nemesis_width"		"15"
 		"class_width"		"25"
-		"score_width"		"30"
-		"ping_width"		"25"
+		"score_width"		"25"
+		"ping_width"		"22"
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
 	}
@@ -1044,25 +1044,6 @@
 			"visible"		"0"
 		}
 	}
-	"ClassImage"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ClassImage"
-		"xpos"			"22"
-		"ypos"			"350"
-		"zpos"			"3"
-		"wide"			"99"
-		"tall"			"92"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/class_scoutred"
-		"scaleImage"		"1"
-
-		if_mvm
-		{
-			"visible"		"1"
-		}
-	}
 	"HorizontalLine"
 	{
 		"ControlName"		"ImagePanel"
@@ -1481,6 +1462,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
+		"xpos"			"9999"
+		"wide"			"0"
+		"enabled"		"0"
+	}
+	"ClassImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"ClassImage"
 		"xpos"			"9999"
 		"wide"			"0"
 		"enabled"		"0"

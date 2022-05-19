@@ -88,9 +88,7 @@
 	HudWeaponAmmo
 	{
 		"xpos"					"0"
-		"xpos_minmode"			"0"
 		"ypos"					"0"
-		"ypos_minmode"			"0"
 		"wide"					"f0"
 		"tall"					"f0"
 	}
@@ -140,18 +138,40 @@
 		"priority"	"35"
 	}
 
+	BuildingStatus_Spy
+	{
+		"fieldName" "BuildingStatus_Spy"
+		"xpos"		"0"
+		"ypos"		"240"
+		"wide"		"640"
+		"tall"		"480"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
+	BuildingStatus_Engineer
+	{
+		"fieldName" "BuildingStatus_Engineer"
+		"xpos"		"0"
+		"ypos"		"240"
+		"wide"		"300"
+		"tall"		"240"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+
 	HudControlPointIcons
 	{
 		"fieldName"				"HudControlPointIcons"
 		"xpos"					"0"
-		"ypos"					"410"
+		"ypos"					"rs1"
 		"wide"					"f0"
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"2"	// distance between the icons (including their backgrounds)
-		"separator_height"		"7"
-		"height_offset"			"0"
+		"separator_width"		"5"	// distance between the icons (including their backgrounds)
+		"separator_height"		"5"
+		"height_offset"			"2"
 	}
 
 	HudObjectiveStatus
@@ -176,7 +196,6 @@
 		"tall"	"160"
 
 		"blue_active_xpos"			"16"
-
 		"red_active_xpos"			"106"
 	}
 }

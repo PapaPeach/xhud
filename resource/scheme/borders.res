@@ -554,10 +554,10 @@ Scheme
 			"color" 				"GrayDarkest"
 
 			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
+			"src_corner_height"		"0"
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		MaterialReverseGrayDarkest
 		{
@@ -1088,16 +1088,17 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"
 		}
-		TFFatLineBorder
+		TFFatLineBorder		//SpectatorGUI dead
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+			"color"					"GrayDarkest"
 
-			"image"					"replay/thumbnails/panels/material_transparent50"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
+			"image"					"replay/thumbnails/panels/material_generic_transparent70"
+			"src_corner_height"		"0"
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -1123,17 +1124,17 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"
 		}
-		TFFatLineBorderRedBG
+		TFFatLineBorderRedBG		//SpectatorGUI red
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"Red"
 
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
+			"image"					"replay/thumbnails/panels/material_generic_transparent70"
+			"src_corner_height"		"0"
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		TFFatLineBorderRedBGMoreOpaque
  		{
@@ -1147,17 +1148,17 @@ Scheme
 			"draw_corner_width"		"8"
 			"draw_corner_height" 	"8"
  		}
-		TFFatLineBorderBlueBG
+		TFFatLineBorderBlueBG		//SpectatorGUI blue
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"Blue"
 
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"32"
-			"src_corner_width"		"32"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
+			"image"					"replay/thumbnails/panels/material_generic_transparent70"
+			"src_corner_height"		"0"
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		TFFatLineBorderBlueBGMoreOpaque
  		{

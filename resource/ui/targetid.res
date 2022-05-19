@@ -82,11 +82,11 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"Size 10"
+		"font"			"Size 12 Uber"
 		"xpos"			"0"
 		"ypos"			"14"
 		"zpos"			"1"
-		"wide"			"280"
+		"wide"			"f0"
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"

@@ -313,18 +313,18 @@
 		"enabled"		"1"
 
 
-		"max_size"	"64"
+		"max_size"	"44"
 
 		"6v6_gap"	"1"
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-36"
-		"team1_max_expand"	"320"		//ASPECT RATIO AFFECTED
+		"team1_max_expand"	"264"		//ASPECT RATIO AFFECTED
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c36"
-		"team2_max_expand"	"320"		//ASPECT RATIO AFFECTED
+		"team2_max_expand"	"264"		//ASPECT RATIO AFFECTED
 
 		"playerpanels_kv"
 		{
@@ -333,10 +333,10 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"Blank"
-			"color_portrait_bg_blue"	"Blank"
-			"color_portrait_bg_red_dead"	"TransparentGrayDarkest"
-			"color_portrait_bg_blue_dead"	"TransparentGrayDarkest"
+			"color_portrait_bg_red"	"Red"
+			"color_portrait_bg_blue"	"Blue"
+			"color_portrait_bg_red_dead"	"Blank"
+			"color_portrait_bg_blue_dead"	"Blank"
 			"color_bar_health_high"	"40 200 110 150"
 			"color_bar_health_med"	"200 180 0 150"
 			"percentage_health_med"	"0.6"
@@ -351,13 +351,13 @@
 				"fieldName"		"WhiteBorder"
 				"xpos"		"0"
 				"ypos"		"0"
-				"zpos"		"8"
-				"wide"		"f0"
+				"zpos"		"2"
+				"wide"		"0"
 				"tall"		"24"
 				"visible"		"1"
 				"enabled"		"1"
 				"proportionaltoparent"		"1"
-				"border"		"WhiteHighlightBorderThick"
+				"border"		"WhiteHighlightBorder"
 			}
 			"playername"
 			{
@@ -370,7 +370,7 @@
 				"xpos"			"1"
 				"ypos"			"18"
 				"zpos"			"7"
-				"wide"			"100"
+				"wide"			"f0"
 				"tall"			"6"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
@@ -381,8 +381,8 @@
 				"fieldName"		"classimage"
 				"xpos"			"1"
 				"ypos"			"0"
-				"zpos"			"5"
-				"wide"			"18"
+				"zpos"			"6"
+				"wide"			"20"
 				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
@@ -396,9 +396,9 @@
 				"fieldName"		"classimagebg"
 				"xpos"			"0"
 				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"0"
-				"tall"			"24"
+				"zpos"			"5"
+				"wide"			"f0"
+				"tall"			"2"
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType"	"0"
@@ -476,7 +476,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"Size 14 Shadow"
+				"font"			"Size 16"
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"9"
@@ -489,7 +489,7 @@
 				"textinsety"		"-2"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"		"TransparentGrayDarkest"
-				"border"		"RedHighlightBorderThick"
+				"border"		"WhiteHighlightBorderThick"
 			}
 			"chargeamount"
 			{

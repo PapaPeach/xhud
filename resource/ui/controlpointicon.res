@@ -11,7 +11,6 @@
 		"tall"		"24"
 		"visible"	"1"
 		"enabled"	"1"
-		"alpha"		"240"
 	}
 
 	"Countdown"
@@ -25,6 +24,21 @@
 		"tall"		"24"
 		"visible"	"1"
 		"enabled"	"1"
+	}
+
+	"CapPlayerImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"CapPlayerImage"
+		"xpos"		"0"
+		"ypos"		"2"
+		"zpos"		"3"
+		"wide"		"10"
+		"tall"		"15"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"		""
+		"scaleImage"		"1"
 	}
 
 	"CapNumPlayers"
@@ -45,15 +59,15 @@
 		"brighttext"		"1"
 	}
 
-	"OverlayImage"
+	"OverlayImage"		//ABC icons
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"	"OverlayImage"
-		"xpos"		"19"
-		"ypos"		"0"
-		"zpos"		"4"
-		"wide"		"14"
-		"tall"		"14"
+		"xpos"		"-1"
+		"ypos"		"-1"
+		"zpos"		"3"
+		"wide"		"8"
+		"tall"		"8"
 		"visible"	"0"
 		"enabled"	"1"
 		"image"		"capture_icon"
@@ -92,15 +106,5 @@
 		"enabled"		"1"
 		"image"			"../sprites/obj_icons/icon_obj_timer"
 		"scaleImage"	"1"
-	}
-
-
-	"CapPlayerImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"	"CapPlayerImage"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"	"0"
 	}
 }

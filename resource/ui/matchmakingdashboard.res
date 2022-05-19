@@ -101,7 +101,7 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"1"
-			
+
 			"pin_to_sibling" 				"PartySlot0"
 			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
@@ -124,7 +124,7 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"2"
-			
+
 			"pin_to_sibling" 				"PartySlot1"
 			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
@@ -147,7 +147,7 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"3"
-			
+
 			"pin_to_sibling" 				"PartySlot2"
 			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
@@ -170,7 +170,7 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"4"
-			
+
 			"pin_to_sibling" 				"PartySlot3"
 			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
@@ -193,7 +193,7 @@
 			"keyboardinputenabled"			"0"
 
 			"party_slot"					"5"
-			
+
 			"pin_to_sibling" 				"PartySlot4"
 			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
 			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
@@ -263,10 +263,10 @@
 				"proportionaltoparent"		"1"
 				"actionsignallevel"			"3"
 				"button_activation_type" 	"1"
-			
+
 				"paintbackground"			"0"
-				"paintborder"				"0"				
-			}		
+				"paintborder"				"0"
+			}
 
 			"CTFLogoPanel"
 			{
@@ -344,13 +344,13 @@
 				"Command"					"manage_queues"
 				"proportionaltoparent"		"1"
 				"actionsignallevel"			"3"
-			
+
 				"paintbackground"			"0"
-			
+
 				"defaultFgColor_override" 	"46 43 42 255"
 				"armedFgColor_override" 	"235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
-			
+
 				"image_drawcolor"			"117 107 94 255"
 				"image_armedcolor"			"200 80 60 255"
 				"SubImage"
@@ -366,8 +366,8 @@
 					"enabled"				"1"
 					"image"					"glyph_options"
 					"scaleImage"			"1"
-				}				
-			}		
+				}
+			}
 
 			"CloseButton"
 			{
@@ -392,13 +392,13 @@
 				"Command"					"leave_queue"
 				"proportionaltoparent"		"1"
 				"actionsignallevel"			"3"
-			
+
 				"paintbackground"			"0"
-			
+
 				"defaultFgColor_override" 	"46 43 42 255"
 				"armedFgColor_override" 	"235 226 202 255"
 				"depressedFgColor_override"	"46 43 42 255"
-			
+
 				"image_drawcolor"			"117 107 94 255"
 				"image_armedcolor"			"200 80 60 255"
 				"SubImage"
@@ -414,8 +414,8 @@
 					"enabled"				"1"
 					"image"					"close_button"
 					"scaleImage"			"1"
-				}				
-			}		
+				}
+			}
 		}
 
 		"JoinPartyLobbyContainer"
@@ -477,7 +477,7 @@
 				"labelText"					"#TF_MM_JoinPartyLobby_Prompt"
 				"proportionaltoparent"		"1"
 				"mouseinputenabled"			"0"
-			}		
+			}
 
 			"JoinNowButton"
 			{
@@ -494,7 +494,7 @@
 					"xpos"					"cs-0.5"
 					"wide"					"150"
 				}
-				
+
 				"visible"					"1"
 				"enabled"					"1"
 				"tabPosition"				"0"
@@ -516,7 +516,7 @@
 				"sound_released"			"UI/buttonclickrelease.wav"
 			}
 		}
-		
+
 		"DisconnectButton"
 		{
 			"ControlName"					"CExImageButton"
@@ -534,7 +534,7 @@
 			"Command"						""
 			"paintbackground"				"0"
 		}
-		
+
 		"QuitButton"
 		{
 			"ControlName"					"CExImageButton"
@@ -543,5 +543,5 @@
 			"Command"						""
 			"paintbackground"				"0"
 		}
-	}	
+	}
 }

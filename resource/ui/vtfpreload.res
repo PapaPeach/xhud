@@ -37,24 +37,6 @@
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_blu_locked"
 	}
-	"CPIconBluCap"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"CPIconBluCap"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_cap_blu"
-	}
-	"CPIconBluCapUp"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"CPIconBluCapUp"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_cap_blu_up"
-	}
 	"CPIconRed"
 	{
 		"ControlName"		"ImagePanel"
@@ -72,24 +54,6 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../sprites/obj_icons/icon_obj_red_locked"
-	}
-	"CPIconRedCap"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"CPIconRedCap"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_cap_red"
-	}
-	"CPIconRedCapUp"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"CPIconRedCapUp"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_cap_red_up"
 	}
 	"CPIconNeutral"
 	{
