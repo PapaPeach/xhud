@@ -2,6 +2,7 @@
 #base "../../resolutions/2560x1440/mainmenuoverride.res"
 #base "../../resolutions/1920x1080/mainmenuoverride.res"
 #base "resolutionwarning.res"
+#base "../../customizations/tools_rcon.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -15,11 +16,6 @@
 		"zpos"								"0"
 		"wide"								"f0"
 		"tall"								"480"
-
-//		"bgcolor_override"					"0 0 0 240"
-
-		"update_url"						"http://store.steampowered.com/news/?filter=updates&appids=440"
-		"blog_url"							"http://www.teamfortress.com/"
 
 		"button_x_offset"					"-285"
 		"button_y"							"120"
@@ -82,42 +78,9 @@
 
 		"SaxxySettings"
 		{
-			"xpos"							"0"
-			"ypos"							"0"
-			"zpos"							"-101"
-			"wide"							"f0"
-			"tall"							"480"
-			"visible"						"1"
-			"enabled"						"1"
-
-			"flashbounds_x"					"50"
-			"flashbounds_y"					"65"
-			"flashbounds_w"					"250"
-			"flashbounds_h"					"120"
-
-			"flashstartsize_min"			"8"
-			"flashstartsize_max"			"12"
-
-			"flash_maxscale"				"4"
-
-			"flash_lifelength_min"			".1"
-			"flash_lifelength_max"			".2"
-
-			"curtain_anim_duration"			"4.0"
-			"curtain_open_time"				"2.8"
-			"flash_start_time"				"4.0"
-
-			"initial_freakout_duration"		"15.0"
-			"clap_sound_duration"			"10.0"
-
-			"CameraFlashSettings"
-			{
-				"visible"					"1"
-				"enabled"					"1"
-				"tileImage"					"0"
-				"scaleImage"				"1"
-				"zpos"						"9"
-			}
+			"xpos"							"9999"
+			"wide"							"0"
+			"enabled"						"0"
 		}
 	}
 
@@ -125,39 +88,7 @@
 	{
 		"ControlName"						"CItemModelPanel"
 		"fieldName"							"mouseoveritempanel"
-		"xpos"								"c-70"
-		"ypos"								"270"
-		"zpos"								"100"
-		"wide"								"300"
-		"tall"								"300"
-		"visible"							"0"
-		"bgcolor_override"					"0 0 0 0"
-		"noitem_textcolor"					"117 107 94 255"
-		"PaintBackgroundType"				"2"
-		"paintborder"						"1"
-		"border"							"MainMenuBGBorder"
-
-		"text_ypos"							"20"
-		"text_center"						"1"
-		"model_hide"						"1"
-		"resize_to_text"					"1"
-		"padding_height"					"15"
-
-		"attriblabel"
-		{
-			"font"							"ItemFontAttribLarge"
-			"xpos"							"0"
-			"ypos"							"30"
-			"zpos"							"2"
-			"wide"							"140"
-			"tall"							"60"
-			"visible"						"1"
-			"enabled"						"1"
-			"labelText"						"%attriblist%"
-			"textAlignment"					"center"
-			"fgcolor"						"117 107 94 255"
-			"centerwrap"					"1"
-		}
+		"xpos"								"9999"
 	}
 
 	"BackgroundPanel"
@@ -296,7 +227,7 @@
 		"tall"								"50"
 		"visible"							"0"
 		"PaintBackgroundType"				"2"
-		"border"							"MainMenuBGBorder"
+		"border"							"MaterialGrayDarkest"
 
 		"TipSubLabel"
 		{
@@ -320,17 +251,17 @@
 		{
 			"ControlName"					"CExLabel"
 			"fieldName"						"TipLabel"
-			"font"							"HudFontSmallBold"
+			"font"							"Size 14"
 			"labelText"						"%tiptext%"
 			"textAlignment"					"center"
 			"xpos"							"20"
 			"ypos"							"5"
 			"zpos"							"2"
 			"wide"							"140"
-			"tall"							"30"
+			"tall"							"12"
 			"visible"						"1"
 			"enabled"						"1"
-			"fgcolor_override"				"235 226 202 255"
+			"fgcolor_override"				"White"
 			"auto_wide_tocontents"			"1"
 		}
 	}
@@ -339,7 +270,7 @@
 	{
 		"ControlName"						"Label"
 		"fieldName"							"NoGCMessage"
-		"xpos"								"10"
+		"xpos"								"152"
 		"ypos"								"35"
 		"zpos"								"5"
 		"wide"								"400"
@@ -351,7 +282,7 @@
 
 		"font"								"Size 40"
 		"fgcolor_override"					"Red"
-		"labelText"							"Lost connection to the steam server"
+		"labelText"							"Lost connection to the Steam"
 		"textAlignment"						"west"
 		"use_proportional_insets"			"1"
 	}
@@ -390,7 +321,6 @@
 			"actionsignallevel" 			"2"
 
 			"Command"						"noti_show"
-			"navActivate"					"<QuickplayButton"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -416,12 +346,6 @@
 		"paintbackground"					"0"
 		"border"							"MaterialTransparent50"
 
-		"navUp"								"MOTD_ShowButtonPanel"
-		"navDown"							"SettingsButton"
-		"navLeft"							"Notifications_ShowButtonPanel"
-		"navRight"							"MOTD_ShowButtonPanel"
-		"navToRelay"						"Notifications_CloseButton"
-
 		"Notifications_CloseButton"
 		{
 			"ControlName"					"CExImageButton"
@@ -443,7 +367,6 @@
 			"actionsignallevel"				"2"
 
 			"Command"						"noti_hide"
-			"navActivate"					"<QuickplayButton"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -504,6 +427,7 @@
 		"ypos"								"220"
 		"zpos"								"5"
 		"wide"								"140"
+		"wide_minmode"				"0"		//Benchmark this
 		"tall"								"165"
 		"visible"							"1"
 
@@ -517,6 +441,7 @@
 			"ypos"							"0"
 			"zpos"							"500"
 			"wide"							"f0"
+			"wide_minmode"				"0"		//Benchmark this
 			"tall"							"f0"
 			"visible"						"1"
 			"proportionaltoparent"			"1"
@@ -1609,7 +1534,7 @@
 			"fieldName"						"SubButton"
 			"xpos"							"rs1"
 			"ypos"							"0"
-			"wide"							"125"
+			"wide"							"106"
 			"tall"							"23"
 			"visible"						"1"
 			"enabled"						"1"
@@ -1631,6 +1556,29 @@
 			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
+		}
+
+		"Minmode_Indicator"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Minmode_Indicator"
+			"font"			"Symbols 26"
+			"labelText"		"+"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"0"
+			"wide_minmode"	"22"
+			"tall"			"24"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"Green"
+			"proportionaltoparent"		"1"
+			"bgcolor_override"		"Blank"
+
+			"pin_to_sibling"		"SubButton"
+			"pin_corner_to_sibling"		"5"
+			"pin_to_sibling_corner"		"7"
 		}
 	}
 
@@ -1768,17 +1716,17 @@
 		}
 	}
 
-	"MOTD_ShowButtonPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"9999"
-	}
+	//"MOTD_ShowButtonPanel"
+	//{
+	//	"ControlName"	"EditablePanel"
+	//	"fieldName"		"MOTD_ShowButtonPanel"
+	//	"xpos"			"9999"
+	//}
 
-	"MOTD_Panel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_Panel"
-		"xpos"			"9999"
-	}
+	//"MOTD_Panel"
+	//{
+	//	"ControlName"	"EditablePanel"
+	//	"fieldName"		"MOTD_Panel"
+	//	"xpos"			"9999"
+	//}
 }

@@ -22,6 +22,7 @@
 		"ypos"			"rs1.0"
 		"zpos"			"2"
 		"wide"			"100"
+		"wide_minmode"		"0"
 		"tall"			"200"
 		"visible"		"1"
 		"enabled"		"1"

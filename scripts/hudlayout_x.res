@@ -110,7 +110,20 @@
 		"tall"					"480"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
+	}
+
+	"HudDamageIndicator"
+	{
+		"fieldName"									"HudDamageIndicator"
+		"visible"									"1"
+		"enabled"									"1"
+		"MinimumWidth"								"15"
+		"MaximumWidth"								"35"
+		"StartRadius"								"80"
+		"EndRadius"									"80"
+		"MinimumHeight"								"30"
+		"MaximumHeight"								"60"
+		"MinimumTime"								"1"
 	}
 
 	CMainTargetID
@@ -197,5 +210,41 @@
 
 		"blue_active_xpos"			"16"
 		"red_active_xpos"			"106"
+	}
+
+	HudTournament
+	{
+		"fieldName"				"HudTournament"
+		"visible"				"0"
+		"enabled"				"1"
+		"xpos"					"cs-0.5"
+		"ypos"					"5"
+		"zpos"					"2"
+		"wide"					"250"
+		"tall"					"80"
+	}
+
+	HudTournamentSetup
+	{
+		"fieldName"				"HudTournamentSetup"
+		"visible"				"0"
+		"enabled"				"1"
+		"xpos"					"cs-0.5"
+		"ypos"					"-70"
+		"wide"					"180"
+		"tall"					"65"
+	}
+
+	WinPanel
+	{
+		"fieldName"				"WinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"cs-0.5"
+		"ypos"					"215"
+		"wide"					"300"
+		"tall"					"300"
+		"zpos"					"4"
+		"proportionaltoparent"	"1"
 	}
 }
