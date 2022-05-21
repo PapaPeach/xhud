@@ -432,6 +432,28 @@ Scheme
 				"dropshadow"								"1"
 			}
 		}
+		"Size 28 Shadow"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft"
+				"tall"										"28"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"Size 44 Shadow"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft"
+				"tall"										"44"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
 
 		"Size 10 Numbers"
 		{

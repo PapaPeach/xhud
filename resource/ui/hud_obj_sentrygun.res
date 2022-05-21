@@ -113,54 +113,39 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"Green"
-		}
-
-		"AlertTray"
-		{
-			"ControlName"	"CBuildingStatusAlertTray"
-			"fieldName"		"AlertTray"
-			"xpos"			"114"
-			"ypos"			"0"
-			"ypos"			"0"
-			"zpos"			"-2"
-			"wide"			"44"
-			"tall"			"60"
-			"visible"		"1"
-			"enabled"		"1"
-			"icon"			"obj_status_alert_background_tall"
+			"iconColor"		"Blue"
 		}
 
 		"WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"121"
-			"ypos"			"18"
+			"xpos"			"95"
+			"ypos"			"6"
 			"zpos"			"1"
-			"wide"			"27"
-			"tall"			"27"
+			"wide"			"19"
+			"tall"			"19"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"White"
+			"icon"			"ico_metal"
+			"iconColor"		"Red"
 		}
 
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"117"
-			"ypos"			"12"
+			"xpos"			"90"
+			"ypos"			"-1"
 			"zpos"			"1"
-			"wide"			"35"
-			"tall"			"35"
+			"wide"			"30"
+			"tall"			"30"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"White"
+			"iconColor"		"Red"
 		}
 
 		"Health"
@@ -377,6 +362,15 @@
 				"wide"			"0"
 				"enabled"		"0"
 			}
+		}
+		
+		"AlertTray"
+		{
+		"ControlName"	"CBuildingStatusAlertTray"
+		"fieldName"		"AlertTray"
+		"xpos"			"9999"
+		"wide"			"0"
+		"enabled"		"0"
 		}
 	}
 

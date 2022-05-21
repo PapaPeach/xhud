@@ -83,52 +83,39 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"Green"
-		}
-
-		"AlertTray"
-		{
-			"ControlName"	"CBuildingStatusAlertTray"
-			"fieldName"		"AlertTray"
-			"xpos"			"113"
-			"ypos"			"0"
-			"wide"			"34"
-			"tall"			"31"
-			"visible"		"1"
-			"enabled"		"1"
-			"icon"			"obj_status_alert_background"
+			"iconColor"		"Blue"
 		}
 
 		"WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"121"
-			"ypos"			"5"
+			"xpos"			"95"
+			"ypos"			"6"
 			"zpos"			"1"
 			"wide"			"19"
 			"tall"			"19"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"White"
+			"icon"			"ico_metal"
+			"iconColor"		"Red"
 		}
 
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"117"
-			"ypos"			"3"
+			"xpos"			"90"
+			"ypos"			"-1"
 			"zpos"			"1"
-			"wide"			"25"
-			"tall"			"25"
+			"wide"			"30"
+			"tall"			"30"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"White"
+			"iconColor"		"Red"
 		}
 
 		"Health"
@@ -228,6 +215,15 @@
 				"wide"			"0"
 				"enabled"		"0"
 			}
+		}
+
+		"AlertTray"
+		{
+			"ControlName"	"CBuildingStatusAlertTray"
+			"fieldName"		"AlertTray"
+			"xpos"			"9999"
+			"wide"			"0"
+			"enabled"		"0"
 		}
 	}
 

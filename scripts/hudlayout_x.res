@@ -85,20 +85,39 @@
 		"LocalBackgroundColor"	"TransparentWhite"
 	}
 
-	HudWeaponAmmo
+	CHudAccountPanel
 	{
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"f0"
+		"fieldName"				"CHudAccountPanel"
+		"xpos"					"cs-0.5"
+		"ypos"					"c25"
+		"ypos_minmode"	"c25"
+		"wide"					"80"
+		"tall"  				"30"
+		"visible" 				"1"
+		"enabled" 				"1"
 	}
 
 	CHealthAccountPanel
 	{
 		"xpos"					"cs-1.0-18"
 		"ypos"					"c75"
+		"xpos_minmode"	"cs-1.0-18"
+		"ypos_minmode"	"c75"
 		"wide"					"50"
 		"tall"  				"15"
+	}
+
+	HudMedicCharge
+	{
+		"fieldName"		"HudMedicCharge"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"0"
+		"xpos_minmode"	"0"
+		"ypos"				"0"
+		"ypos_minmode"	"0"
+		"wide"				"f0"
+		"tall"				"f0"
 	}
 
 	HudDemomanCharge
@@ -107,10 +126,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"cs-0.5"
-		"ypos"			"c93"
+		"ypos"			"c39"
 		"zpos"			"1"
-		"wide"			"80"
-		"tall"			"100"
+		"wide"			"60"
+		"tall"			"30"
 	}
 
 	HudDemomanPipes
@@ -119,9 +138,19 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"cs-0.5"
-		"ypos"			"c73"
+		"ypos"			"c25"
 		"wide"			"80"
-		"tall"			"50"
+		"tall"			"30"
+	}
+
+	HudWeaponAmmo
+	{
+		"xpos"					"0"
+		"ypos"					"0"
+		"xpos_minmode"	"0"
+		"ypos_minmode"	"0"
+		"wide"					"f0"
+		"tall"					"f0"
 	}
 
 	CDamageAccountPanel
@@ -158,8 +187,8 @@
 		"ypos"		"c42"
 		"wide"	 	"f0"
 		"tall"	 	"35"
+		"tall_minmode"	"35"
 		"priority"	"40"
-		"alpha"		"255"
 	}
 
 	CSecondaryTargetID
@@ -171,6 +200,7 @@
 		"ypos"		"c102"
 		"wide"	 	"f0"
 		"tall"	 	"35"
+		"tall_minmode"	"35"
 		"priority"	"35"
 	}
 
@@ -188,9 +218,9 @@
 	BuildingStatus_Engineer
 	{
 		"fieldName" "BuildingStatus_Engineer"
-		"xpos"		"0"
+		"xpos"		"-5"
 		"ypos"		"240"
-		"wide"		"300"
+		"wide"		"200"
 		"tall"		"240"
 		"visible"	"1"
 		"enabled"	"1"
@@ -256,6 +286,18 @@
 		"ypos"					"-70"
 		"wide"					"180"
 		"tall"					"65"
+	}
+
+	HudMannVsMachineStatus
+	{
+		"fieldName" "HudMannVsMachineStatus"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"1"
+		"wide"		"f0"
+		"tall"		"480"
 	}
 
 	WinPanel

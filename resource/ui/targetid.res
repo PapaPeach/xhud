@@ -118,8 +118,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"40"
-		"ypos"			"14"
+		"xpos"			"32"
+		"ypos"			"15"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
@@ -133,8 +133,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"10"
-		"ypos"			"14"
+		"xpos"			"2"
+		"ypos"			"15"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"
