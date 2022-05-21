@@ -86,9 +86,20 @@ event DefaultAnimActiveTimerDim
 
 //====================================================================================================================
 
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup	Position	"c-90 66"	Spline 0.0 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup	Position	"c-90 -70"	Spline 0.0 0.2
+}
+
+//====================================================================================================================
+
 // Spy Disguise
-event HudSpyDisguiseChanged
-{}
+event HudSpyDisguiseChanged{}
 
 //====================================================================================================================
 

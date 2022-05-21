@@ -51,8 +51,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"proportionaltoparent"		"1"
-		"bgcolor_override"		"GrayDarkest"
-		"fgcolor_override"		"White"
+		"bgcolor_override"		"TransparentGrayDarkest"
 	}
 
 

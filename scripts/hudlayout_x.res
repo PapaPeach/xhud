@@ -101,6 +101,29 @@
 		"tall"  				"15"
 	}
 
+	HudDemomanCharge
+	{
+		"fieldName"		"HudDemomanCharge"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"cs-0.5"
+		"ypos"			"c93"
+		"zpos"			"1"
+		"wide"			"80"
+		"tall"			"100"
+	}
+
+	HudDemomanPipes
+	{
+		"fieldName"		"HudDemomanPipes"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"cs-0.5"
+		"ypos"			"c73"
+		"wide"			"80"
+		"tall"			"50"
+	}
+
 	CDamageAccountPanel
 	{
 		"fieldName"				"CDamageAccountPanel"
@@ -220,7 +243,7 @@
 		"xpos"					"cs-0.5"
 		"ypos"					"5"
 		"zpos"					"2"
-		"wide"					"250"
+		"wide"					"500"
 		"tall"					"80"
 	}
 
@@ -241,10 +264,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
-		"ypos"					"215"
+		"ypos"					"r100"
 		"wide"					"300"
-		"tall"					"300"
+		"tall"					"110"
 		"zpos"					"4"
-		"proportionaltoparent"	"1"
 	}
 }

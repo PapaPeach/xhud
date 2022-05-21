@@ -1091,7 +1091,7 @@ Scheme
 		TFFatLineBorder		//SpectatorGUI dead
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			"color"					"GrayDarkest"
 
 			"image"					"replay/thumbnails/panels/material_generic_transparent70"
@@ -1127,7 +1127,7 @@ Scheme
 		TFFatLineBorderRedBG		//SpectatorGUI red
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			"color" 				"Red"
 
 			"image"					"replay/thumbnails/panels/material_generic_transparent70"
@@ -1151,7 +1151,7 @@ Scheme
 		TFFatLineBorderBlueBG		//SpectatorGUI blue
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"0"
 			"color" 				"Blue"
 
 			"image"					"replay/thumbnails/panels/material_generic_transparent70"

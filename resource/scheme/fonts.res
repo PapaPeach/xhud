@@ -181,6 +181,17 @@ Scheme
 				"outline"										"1"
 			}
 		}
+		"Size 24 Uber"
+		{
+			"1"
+			{
+				"name"										"Renogare Uber"
+				"tall"										"24"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"0"
+			}
+		}
 		"Size 28"
 		{
 			"1"

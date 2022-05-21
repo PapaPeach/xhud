@@ -84,13 +84,6 @@
 		}
 	}
 
-	"mouseoveritempanel"
-	{
-		"ControlName"						"CItemModelPanel"
-		"fieldName"							"mouseoveritempanel"
-		"xpos"								"9999"
-	}
-
 	"BackgroundPanel"
 	{
 		"ControlName"						"EditablePanel"
@@ -1729,4 +1722,10 @@
 	//	"fieldName"		"MOTD_Panel"
 	//	"xpos"			"9999"
 	//}
+	"mouseoveritempanel"
+	{
+		"ControlName"		"CItemModelPanel"
+		"fieldName"		"mouseoveritempanel"
+		"xpos"		"9999"
+	}
 }

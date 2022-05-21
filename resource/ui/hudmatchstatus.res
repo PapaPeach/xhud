@@ -13,7 +13,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"Size 16 Shadow"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -26,32 +26,6 @@
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
 		"fgcolor"		"White"
-
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
-	}
-
-	"CountdownLabelShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
-		"xpos"			"cs-0.48"
-		"ypos"			"cs-0.08"
-		"wide"			"40"
-		"tall"			"40"
-		"zpos"			"4"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%countdown%"
-		"textAlignment"	"center"
-		"fgcolor"		"Shadow"
-		"proportionaltoparent"	"1"
-
 
 		if_readymode
 		{
@@ -809,6 +783,14 @@
 		}
 	}
 
+	"CountdownLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountdownLabelShadow"
+		"xpos"			"9999"
+		"wide"			"0"
+		"enabled"		"0"
+	}
 	"RoundSignModel"
 	{
 		"ControlName"	"CModelPanel"

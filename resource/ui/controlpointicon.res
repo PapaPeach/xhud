@@ -31,13 +31,13 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"CapPlayerImage"
 		"xpos"		"0"
-		"ypos"		"2"
+		"ypos"		"3"
 		"zpos"		"3"
 		"wide"		"10"
 		"tall"		"15"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"		""
+		"image"		"capture_icon"
 		"scaleImage"		"1"
 	}
 
@@ -45,8 +45,8 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"Size 24"
-		"xpos"			"0"
+		"font"			"Size 24 Uber"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"24"
@@ -57,6 +57,7 @@
 		"textAlignment"		"center"
 		"dulltext"		"1"
 		"brighttext"		"1"
+		"alpha"		"240"
 	}
 
 	"OverlayImage"		//ABC icons

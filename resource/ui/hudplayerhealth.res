@@ -43,7 +43,7 @@
 		"tall"						"2"
 		"visible"					"1"
 		"enabled"					"1"
-		"bgcolor_override"			"GrayDarkest"
+		"bgcolor_override"			"TransparentGrayDarkest"
 
 		"pin_to_sibling"			"HealthAnchor"
 		"pin_corner_to_sibling"		"PIN_CENTER_BOTTOM"
