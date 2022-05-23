@@ -18,7 +18,7 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CasualEntry"
 		"xpos"			"rs1"
-		"ypos"			"3"
+		"ypos"			"0"
 		"tall"			"59"
 		"wide"			"p0.25"
 		"proportionaltoparent"	"0"
@@ -29,7 +29,7 @@
 
 		if_event
 		{
-		"ypos"			"3"
+		"ypos"			"0"
 		"tall"			"39"
 		}
 	}
@@ -39,7 +39,7 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CompetitiveEntry"
 		"xpos"			"rs2"
-		"ypos"			"3"
+		"ypos"			"0"
 		"tall"			"59"
 		"wide"			"p0.25"
 		"proportionaltoparent"	"0"
@@ -59,7 +59,7 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"MvMEntry"
 		"xpos"			"rs3"
-		"ypos"			"3"
+		"ypos"			"0"
 		"tall"			"59"
 		"wide"			"p0.25"
 		"proportionaltoparent"	"0"
@@ -79,7 +79,7 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"TrainingEntry"
 		"xpos"			"rs4"
-		"ypos"			"3"
+		"ypos"			"0"
 		"tall"			"59"
 		"wide"			"p0.25"
 		"proportionaltoparent"	"0"

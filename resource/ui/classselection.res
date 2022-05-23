@@ -322,7 +322,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"f"
+		"labelText"			"T"
 		"textAlignment"		"center"
 		"textinsety"				"-68"
 		"Command"			"select 9"

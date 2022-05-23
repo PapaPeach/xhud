@@ -326,12 +326,13 @@
 				"xpos"		"0"
 				"ypos"		"0"
 				"zpos"		"2"
-				"wide"		"0"
+				"wide"		"f0"
 				"tall"		"24"
 				"visible"		"1"
 				"enabled"		"1"
 				"proportionaltoparent"		"1"
-				"border"		"WhiteHighlightBorder"
+				"bgcolor_override"		"TransparentLightBlack"
+				"border"		"NoBorder"
 			}
 			"playername"
 			{
@@ -484,16 +485,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
-				"font"			"DefaultVerySmall"
-				"xpos"			"4"
-				"ypos"			"2"
-				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
-				"visible"		"0"
-				"labelText"		"%specindex%"
-				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				"xpos"			"9999"
+				"wide"			"0"
+				"enabled"		"0"
 			}
 			"DeathPanel"
 			{

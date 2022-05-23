@@ -7,7 +7,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"28"
 		"zpos"			"5"
-		"wide"			"80"
+		"wide"			"100"
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
@@ -28,7 +28,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"28"
 		"zpos"			"5"
-		"wide"			"78"
+		"wide"			"100"
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
@@ -49,7 +49,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"28"
 		"zpos"			"5"
-		"wide"			"78"
+		"wide"			"100"
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
@@ -70,7 +70,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"28"
 		"zpos"			"5"
-		"wide"			"78"
+		"wide"			"100"
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
@@ -113,7 +113,6 @@
 		"xpos"				"9999"
 		"wide"				"0"
 		"enabled"			"0"
-		"image"				""
 	}
 	"TimePanelBG"
 	{
@@ -122,7 +121,6 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"enabled"		"0"
-		"image"			""
 	}
 	"WaitingForPlayersBG"
 	{
@@ -131,7 +129,6 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"enabled"		"0"
-		"image"			""
 	}
 	"OvertimeBG"
 	{
@@ -140,7 +137,6 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"enabled"		"0"
-		"image"			""
 	}
 	"SuddenDeathBG"
 	{
@@ -149,7 +145,6 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"enabled"		"0"
-		"image"			""
 	}
 	"SetupBG"
 	{
@@ -158,7 +153,6 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"enabled"		"0"
-		"image"			"../hud/objectives_timepanel_suddendeath"
 	}
 
 	"ServerTimeLimitLabelBG"
@@ -168,6 +162,5 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"enabled"		"0"
-		"image"			""
 	}
 }

@@ -6,7 +6,7 @@
 		"fieldName"				"HudTournament"
 
 		"xpos"					"cs-0.5"
-		"ypos"					"30"
+		"ypos"					"25"
 		"wide"					"f0"
 		"tall"					"480"
 		"proportionaltoparent"	"1"
@@ -392,11 +392,11 @@
 
 		if_competitive
 		{
-			"ypos"			"c-40"
+			"ypos"			"60"
 		}
 		if_readymode
 		{
-			"ypos"			"c-40"
+			"ypos"			"60"
 		}
 	}
 

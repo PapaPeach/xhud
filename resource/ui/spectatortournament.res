@@ -95,8 +95,6 @@
 				"zpos"						"2"
 				"wide"						"52"
 				"tall"						"20"
-				"autoResize"				"0"
-				"pinCorner"					"0"
 				"visible"					"1"
 				"enabled"					"1"
 				"border"					"MaterialGrayDarkest"

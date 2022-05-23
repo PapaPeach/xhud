@@ -8,13 +8,11 @@
 		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"31"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	
+
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
@@ -26,11 +24,11 @@
 		"tall"			"31"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"Icon_Teleport"
 	{
 		"ControlName"	"CIconPanel"
@@ -41,11 +39,11 @@
 		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 		"icon"			"obj_status_tele_entrance"
 		"iconColor"		"255 255 255 255"
 	}
-	
+
 	"NotBuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -65,8 +63,6 @@
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"31"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Building_hud_tele_not_built"
@@ -75,7 +71,7 @@
 			"brighttext"	"0"
 		}
 	}
-	
+
 	"BuiltPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -97,7 +93,7 @@
 			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
 			"iconColor"		"255 255 255 255"
 		}
@@ -113,7 +109,7 @@
 			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
 			"iconColor"		"255 255 255 255"
 		}
@@ -129,7 +125,7 @@
 			"tall"			"8"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"255 255 255 255"
 		}
@@ -144,7 +140,7 @@
 			"wide"			"34"
 			"tall"			"31"
 			"visible"		"1"
-			"enabled"		"1"	
+			"enabled"		"1"
 			"icon"			"obj_status_alert_background"
 		}
 
@@ -159,11 +155,11 @@
 			"tall"			"19"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"255 255 255 255"
 		}
-		
+
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -175,13 +171,13 @@
 			"tall"			"25"
 			"visible"		"0"
 			"enabled"		"1"
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
 		}
 
 		"Health"
-		{	
+		{
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
@@ -189,8 +185,6 @@
 			"ypos"			"3"
 			"wide"			"8"
 			"tall"			"24"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
@@ -217,8 +211,6 @@
 				"ypos"			"5"
 				"wide"			"200"
 				"tall"			"12"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
@@ -226,18 +218,16 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-			
+
 			"BuildingProgress"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
-				"tall"			"8"				
-				"autoResize"	"0"
-				"pinCorner"		"0"
+				"tall"			"8"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
@@ -245,7 +235,7 @@
 				"brighttext"	"0"
 			}
 		}
-	
+
 		"RunningPanel"
 		{
 			"ControlName"	"EditablePanel"
@@ -255,7 +245,7 @@
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
-			
+
 			"ChargingPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -265,7 +255,7 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-				
+
 				"RechargeLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -275,8 +265,6 @@
 					"ypos"			"1"
 					"wide"			"200"
 					"tall"			"12"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"labelText"		"#Building_hud_tele_charging"
@@ -284,26 +272,24 @@
 					"dulltext"		"0"
 					"brighttext"	"0"
 				}
-				
+
 				"Recharge"
-				{	
+				{
 					"ControlName"	"ContinuousProgressBar"
 					"fieldName"		"Recharge"
 					"font"			"Default"
 					"xpos"			"0"
 					"ypos"			"11"
 					"wide"			"50"
-					"tall"			"5"				
-					"autoResize"	"0"
-					"pinCorner"		"0"
+					"tall"			"5"
 					"visible"		"1"
 					"enabled"		"1"
 					"textAlignment"	"Left"
 					"dulltext"		"0"
 					"brighttext"	"0"
-				}	
+				}
 			}
-			
+
 			"FullyChargedPanel"
 			{
 				"ControlName"	"EditablePanel"
@@ -313,9 +299,9 @@
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
-								
+
 				"TimesUsedLabel"
-				{	
+				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
 					"font"			"DefaultVerySmall"
@@ -323,8 +309,6 @@
 					"ypos"			"-6"
 					"wide"			"200"
 					"tall"			"31"
-					"autoResize"	"0"
-					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
 					"labelText"		"#Building_hud_tele_times_used"
@@ -333,9 +317,9 @@
 					"dulltext"		"0"
 					"brighttext"	"0"
 				}
-			}	
+			}
 			"UpgradeLabel"
-			{	
+			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"UpgradeLabel"
 				"font"			"DefaultVerySmall"
@@ -343,8 +327,6 @@
 				"ypos"			"14"
 				"wide"			"200"
 				"tall"			"12"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Building_hud_sentry_upgrade"
@@ -352,9 +334,9 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 			}
-			
+
 			"Upgrade"
-			{	
+			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"
@@ -362,8 +344,6 @@
 				"ypos"			"24"
 				"wide"			"50"
 				"tall"			"2"
-				"autoResize"	"0"
-				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"

@@ -49,7 +49,7 @@ Scheme
 		"Full Ubercharge Pulse"								"80 150 255 255"
 
 		"Heal Numbers"										"0 255 0 255"
-		"Last Damage Done"									"227 228 230 255"
+		"Last Damage Done"									"255 50 65 255"
 
 		"Red"												"255 50 65 255"
 		"Blue"												"92 173 255 255"
@@ -104,29 +104,6 @@ Scheme
 		"CommandoGrade"										"160 125 255 255"
 		"AssassinGrade"										"245 150 255 255"
 		"EliteGrade"										"255 130 130 255"
-
-		"Normal_Hover"										"40 40 40 255"
-		"Genuine_Hover"										"105 205 130 255"
-		"Unusual_Hover"										"205 135 245 255"
-		"Vintage_Hover"										"100 155 245 255"
-		"Unique_Hover"										"245 180 30 255"
-		"Community_Hover"									"135 215 90 255"
-		"Developer_Hover"									"245 80 195 255"
-		"SelfMade_Hover"									"135 215 90 255"
-		"Customized_Hover"									"100 155 245 255"
-		"Strange_Hover"										"230 115 0 255"
-		"Completed_Hover"									"205 135 245 255"
-		"Haunted_Hover"										"0 220 110 255"
-		"Collectors_Hover"									"235 60 60 255"
-		"PaintkitWeapon_Hover"								"225 225 225 255"
-
-		"GradedWeaponDefault_Hover"							"180 180 180 255"
-		"CivilianGrade_Hover"								"185 210 245 255"
-		"FreelanceGrade_Hover"								"105 190 245 255"
-		"MercenaryGrade_Hover"								"60 120 240 255"
-		"CommandoGrade_Hover"								"150 115 245 255"
-		"AssassinGrade_Hover"								"235 140 245 255"
-		"EliteGrade_Hover"									"245 120 120 255"
 
 		//=============================================================================
 		// OTHER COLORS

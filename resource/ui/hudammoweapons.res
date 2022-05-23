@@ -11,7 +11,6 @@
 		"tall"						"30"
 		"visible"					"1"
 		"enabled"					"1"
-		"bgcolor"					"White"
 	}
 
 	"AmmoInClip"

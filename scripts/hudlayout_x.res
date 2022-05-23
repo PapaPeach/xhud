@@ -60,51 +60,43 @@
 		"bgcolor_override"		"255 255 255 20"
 	}
 
-	HudDeathNotice
+	////////////////////////////////////////////////////
+	//										TF2 Stuff										//
+	////////////////////////////////////////////////////
+
+	HudWeaponAmmo
 	{
-		"xpos"	 "r402"
-		"ypos"	 "24"
-		"wide"	 "400"
-		"tall"	 "200"
-
-		"MaxDeathNotices" "6"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "12"
-		"LineSpacing"	  "0"
-		"CornerRadius"	  "0"
-		"RightJustify"	  "1"
-
-		"TextFont"		"Size 10"
-
-		"TeamBlue"		"Blue"
-		"TeamRed"		"Red"
-		"IconColor"		"White"
-		"LocalPlayerColor"	"Black"
-
-		"BaseBackgroundColor"	"TransparentGrayDarkest"
-		"LocalBackgroundColor"	"TransparentWhite"
+		"xpos"					"0"
+		"xpos_minmode"	"0"
+		"ypos"					"0"
+		"ypos_minmode"	"0"
+		"wide"					"f0"
+		"tall"					"f0"
 	}
 
-	CHudAccountPanel
+	HudObjectiveStatus
 	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"cs-0.5"
-		"ypos"					"c25"
-		"ypos_minmode"	"c25"
-		"wide"					"80"
-		"tall"  				"30"
-		"visible" 				"1"
-		"enabled" 				"1"
+		"fieldName" "HudObjectiveStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 
-	CHealthAccountPanel
+	HudKothTimeStatus
 	{
-		"xpos"					"cs-1.0-18"
-		"ypos"					"c75"
-		"xpos_minmode"	"cs-1.0-18"
-		"ypos_minmode"	"c75"
-		"wide"					"50"
-		"tall"  				"15"
+		"fieldName" "HudKothTimeStatus"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"cs-0.5"
+		"ypos"	"0"
+		"wide"	"200"
+		"tall"	"160"
+
+		"blue_active_xpos"			"16"
+		"red_active_xpos"			"106"
 	}
 
 	HudMedicCharge
@@ -132,25 +124,26 @@
 		"tall"			"30"
 	}
 
-	HudDemomanPipes
+	CHudAccountPanel
 	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"c25"
-		"wide"			"80"
-		"tall"			"30"
+		"fieldName"				"CHudAccountPanel"
+		"xpos"					"cs-0.5"
+		"ypos"					"c25"
+		"ypos_minmode"	"c25"
+		"wide"					"80"
+		"tall"  				"30"
+		"visible" 				"1"
+		"enabled" 				"1"
 	}
 
-	HudWeaponAmmo
+	CHealthAccountPanel
 	{
-		"xpos"					"0"
-		"ypos"					"0"
-		"xpos_minmode"	"0"
-		"ypos_minmode"	"0"
-		"wide"					"f0"
-		"tall"					"f0"
+		"xpos"					"cs-1.0-18"
+		"ypos"					"c75"
+		"xpos_minmode"	"cs-1.0-18"
+		"ypos_minmode"	"c75"
+		"wide"					"50"
+		"tall"  				"15"
 	}
 
 	CDamageAccountPanel
@@ -164,20 +157,6 @@
 		"enabled" 				"1"
 	}
 
-	"HudDamageIndicator"
-	{
-		"fieldName"									"HudDamageIndicator"
-		"visible"									"1"
-		"enabled"									"1"
-		"MinimumWidth"								"15"
-		"MaximumWidth"								"35"
-		"StartRadius"								"80"
-		"EndRadius"									"80"
-		"MinimumHeight"								"30"
-		"MaximumHeight"								"60"
-		"MinimumTime"								"1"
-	}
-
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
@@ -189,6 +168,22 @@
 		"tall"	 	"35"
 		"tall_minmode"	"35"
 		"priority"	"40"
+	}
+
+	CSpectatorTargetID
+	{
+		"fieldName" 	"CSpectatorTargetID"
+		"visible" 	"0"
+		"enabled" 	"1"
+		"xpos"		"c0"
+		"ypos"		"c0"
+		"wide"	 	"252"
+		"tall"	 	"35"
+		"tall_minmode"	 	"28"
+		"priority"	"40"
+
+		"x_offset" "20"
+		"y_offset" "20"
 	}
 
 	CSecondaryTargetID
@@ -226,6 +221,58 @@
 		"enabled"	"1"
 	}
 
+	HudMannVsMachineStatus
+	{
+		"fieldName" "HudMannVsMachineStatus"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"1"
+		"wide"		"f0"
+		"tall"		"480"
+	}
+
+	"HudDamageIndicator"
+	{
+		"fieldName"				"HudDamageIndicator"
+		"visible"					"1"
+		"enabled"					"1"
+		"MinimumWidth"		"10"
+		"MaximumWidth"		"25"
+		"StartRadius"			"80"
+		"EndRadius"				"80"
+		"MinimumHeight"		"25"
+		"MaximumHeight"		"60"
+		"MinimumTime"			"1"
+		"FadeOutPercentage"	"0.8"
+	}
+
+	HudDeathNotice
+	{
+		"xpos"	 "r402"
+		"ypos"	 "24"
+		"wide"	 "400"
+		"tall"	 "200"
+
+		"MaxDeathNotices" "6"
+		"IconScale"	  "0.35"
+		"LineHeight"	  "12"
+		"LineSpacing"	  "0"
+		"CornerRadius"	  "0"
+		"RightJustify"	  "1"
+
+		"TextFont"		"Size 10"
+
+		"TeamBlue"		"Blue"
+		"TeamRed"		"Red"
+		"IconColor"		"White"
+		"LocalPlayerColor"	"Black"
+
+		"BaseBackgroundColor"	"TransparentGrayDarkest"
+		"LocalBackgroundColor"	"TransparentWhite"
+	}
+
 	HudControlPointIcons
 	{
 		"fieldName"				"HudControlPointIcons"
@@ -240,29 +287,27 @@
 		"height_offset"			"2"
 	}
 
-	HudObjectiveStatus
+	WinPanel
 	{
-		"fieldName" "HudObjectiveStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
+		"fieldName"				"WinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"cs-0.5"
+		"ypos"					"r100"
+		"wide"					"220"
+		"tall"					"110"
+		"zpos"					"4"
 	}
 
-	HudKothTimeStatus
+	HudDemomanPipes
 	{
-		"fieldName" "HudKothTimeStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"cs-0.5"
-		"ypos"	"0"
-		"wide"	"200"
-		"tall"	"160"
-
-		"blue_active_xpos"			"16"
-		"red_active_xpos"			"106"
+		"fieldName"		"HudDemomanPipes"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"cs-0.5"
+		"ypos"			"c25"
+		"wide"			"80"
+		"tall"			"30"
 	}
 
 	HudTournament
@@ -286,29 +331,5 @@
 		"ypos"					"-70"
 		"wide"					"180"
 		"tall"					"65"
-	}
-
-	HudMannVsMachineStatus
-	{
-		"fieldName" "HudMannVsMachineStatus"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"1"
-		"wide"		"f0"
-		"tall"		"480"
-	}
-
-	WinPanel
-	{
-		"fieldName"				"WinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"cs-0.5"
-		"ypos"					"r100"
-		"wide"					"300"
-		"tall"					"110"
-		"zpos"					"4"
 	}
 }

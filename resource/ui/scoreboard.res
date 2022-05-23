@@ -1090,12 +1090,16 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"0"
-		"ypos"			"395"
+		"ypos"			"-1"
 		"zpos"			"3"
 		"wide"			"600"
-		"tall"			"53"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling"		"MainBG"
+		"pin_corner_to_sibling"		"6"
+		"pin_to_sibling_corner"		"6"
 
 		if_mvm
 		{
@@ -1110,7 +1114,7 @@
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"		"center"
 			"xpos"			"250"
-			"ypos"			"2	"
+			"ypos"			"2"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -1154,7 +1158,7 @@
 				"wide"			"36"
 				"tall"			"36"
 				"visible"		"1"
-				"PaintBackgroundType"	"2"
+				"PaintBackgroundType"	"0"
 				"bgcolor_override"	"117 107 94 255"
 			}
 			"AvatarImage"
@@ -1227,7 +1231,7 @@
 				"wide"			"36"
 				"tall"			"36"
 				"visible"		"1"
-				"PaintBackgroundType"	"2"
+				"PaintBackgroundType"	"0"
 				"bgcolor_override"	"117 107 94 255"
 			}
 			"AvatarImage"
