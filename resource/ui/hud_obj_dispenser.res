@@ -10,7 +10,6 @@
 		"tall"			"31"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 	}
 
 	"Icon_Dispenser"
@@ -122,7 +121,6 @@
 		{
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
-			"font"			"Default"
 			"xpos"			"0"
 			"ypos"			"1"
 			"wide"			"8"
@@ -130,8 +128,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"bgcolor_override"		"TransparentGrayDarkest"
 		}
 

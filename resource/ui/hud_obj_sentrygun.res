@@ -7,10 +7,9 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"42"
+		"tall"			"41"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 	}
 
 	"Icon_Sentry_1"
@@ -363,7 +362,7 @@
 				"enabled"		"0"
 			}
 		}
-		
+
 		"AlertTray"
 		{
 		"ControlName"	"CBuildingStatusAlertTray"

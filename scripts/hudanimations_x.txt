@@ -125,17 +125,29 @@ event ActiveTimerDim
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup	Position	"c-90 61"	Spline 0.0 0.2
+	Animate	HudTournamentSetup	Position	"c-90 61"	Spline 0.0 0.2
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate HudTournamentSetup	Position	"c-90 -70"	Spline 0.0 0.2
+	Animate	HudTournamentSetup	Position	"c-90 -70"	Spline 0.0 0.2
 }
 
 //====================================================================================================================
 
 // Spy Disguise
+event HudSpyDisguiseFadeIn
+{
+	Animate HudPlayerClass			Position		"0 0"			Linear 0.0 0.0001
+	Animate classmodelpanel			Position		"0 r200"			Linear 0.0 0.0001
+}
+
+event HudSpyDisguiseFadeOut
+{
+	Animate HudPlayerClass			Position		"-200 0"				Linear 0.0 0.0001
+	Animate classmodelpanel			Position		"200 r200"			Linear 0.0 0.0001
+}
+
 event HudSpyDisguiseChanged{}
 
 //====================================================================================================================

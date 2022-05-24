@@ -59,6 +59,18 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
 		}
+		BlueHighlightBorderUltraThick
+		{
+			"inset" "0 0 1 1"
+			Left
+			{	"1"	{	"color" "Blue"	}	"2"	{	"color" "Blue"	}	"3"	{	"color" "Blue"	}	"4"	{	"color" "Blue"	}	}
+			Right
+			{	"1"	{	"color" "Blue"	}	"2"	{	"color" "Blue"	}	"3"	{	"color" "Blue"	}	"4"	{	"color" "Blue"	}	}
+			Top
+			{	"1"	{	"color" "Blue"	}	"2"	{	"color" "Blue"	}	"3"	{	"color" "Blue"	}	"4"	{	"color" "Blue"	}	}
+			Bottom
+			{	"1"	{	"color" "Blue"	}	"2"	{	"color" "Blue"	}	"3"	{	"color" "Blue"	}	"4"	{	"color" "Blue"	}	}
+		}
 
 		////////////////////////////////////////////////////////////////////////////////////
 		////////////////////////////////////MATERIAL RED////////////////////////////////////
@@ -123,6 +135,18 @@ Scheme
 			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	}
 			Bottom
 			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	}
+		}
+		RedHighlightBorderUltraThick
+		{
+			"inset" "0 0 1 1"
+			Left
+			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	"3"	{	"color" "Red"	}	"4"	{	"color" "Red"	}	}
+			Right
+			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	"3"	{	"color" "Red"	}	"4"	{	"color" "Red"	}	}
+			Top
+			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	"3"	{	"color" "Red"	}	"4"	{	"color" "Red"	}	}
+			Bottom
+			{	"1"	{	"color" "Red"	}	"2"	{	"color" "Red"	}	"3"	{	"color" "Red"	}	"4"	{	"color" "Red"	}	}
 		}
 
 		////////////////////////////////////////////////////////////////////////////////////
@@ -198,7 +222,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color" 				"green"
+			"color" 				"Green"
 
 			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"24"
@@ -210,7 +234,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color" 				"green"
+			"color" 				"Green"
 
 			"image"					"replay/thumbnails/panels/material_transparent50"
 			"src_corner_height"		"24"
@@ -222,7 +246,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color" 				"green"
+			"color" 				"Green"
 
 			"image"					"replay/thumbnails/panels/material_transparent70"
 			"src_corner_height"		"24"
@@ -420,6 +444,18 @@ Scheme
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
+		}
+		GrayDarkestHighlightBorderUltraThick
+		{
+			"inset" "0 0 1 1"
+			Left
+			{	"1"	{	"color" "GrayDarkest"	}	"2"	{	"color" "GrayDarkest"	}	"3"	{	"color" "GrayDarkest"	}	"4"	{	"color" "GrayDarkest"	}	}
+			Right
+			{	"1"	{	"color" "GrayDarkest"	}	"2"	{	"color" "GrayDarkest"	}	"3"	{	"color" "GrayDarkest"	}	"4"	{	"color" "GrayDarkest"	}	}
+			Top
+			{	"1"	{	"color" "GrayDarkest"	}	"2"	{	"color" "GrayDarkest"	}	"3"	{	"color" "GrayDarkest"	}	"4"	{	"color" "GrayDarkest"	}	}
+			Bottom
+			{	"1"	{	"color" "GrayDarkest"	}	"2"	{	"color" "GrayDarkest"	}	"3"	{	"color" "GrayDarkest"	}	"4"	{	"color" "GrayDarkest"	}	}
 		}
 
 		////////////////////////////////////////////////////////////////////////////////////

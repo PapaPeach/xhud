@@ -319,10 +319,10 @@
 			"color_portrait_blend_dead_red"	"255 255 255 255"
 			"color_portrait_blend_dead_blue" "255 255 255 255"
 
-			"WhiteBorder"
+			"MatchStatusBG"
 			{
 				"ControlName"		"EditablePanel"
-				"fieldName"		"WhiteBorder"
+				"fieldName"		"MatchStatusBG"
 				"xpos"		"0"
 				"ypos"		"0"
 				"zpos"		"2"
@@ -332,7 +332,6 @@
 				"enabled"		"1"
 				"proportionaltoparent"		"1"
 				"bgcolor_override"		"TransparentLightBlack"
-				"border"		"NoBorder"
 			}
 			"playername"
 			{

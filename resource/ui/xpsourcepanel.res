@@ -7,6 +7,7 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"wide"			"200"
+		"wide_minmode"	"0"
 		"tall"			"25"
 		"zpos"			"9999"
 		"visible"		"0"

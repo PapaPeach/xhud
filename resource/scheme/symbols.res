@@ -147,7 +147,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"Symbols 30"
 		{
 			"1"
@@ -158,7 +158,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"Symbols 34"
 		{
 			"1"
@@ -189,7 +189,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"Class Symbols 18"
 		{
 			"1"
@@ -230,7 +230,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"BlocksSharp64"
 		{
 			"1"
@@ -241,7 +241,7 @@ Scheme
 				"antialias"		"0"
 			}
 		}
-		
+
 		"ReadyUp 24"
 		{
 			"1"
@@ -264,7 +264,7 @@ Scheme
 			}
 		}
 	}
-	
+
 	CustomFontFiles
 	{
 		"30"
@@ -272,19 +272,19 @@ Scheme
 			"font" "resource/scheme/fonts/Hypnotize Icons.ttf"
 			"name" "Hypnotize Icons V3"
 		}
-		
+
 		"31"
 		{
 			"font" "resource/scheme/fonts/TF2 Class Icons.ttf"
 			"name" "TF2 Class Icons V2"
 		}
-		
+
 		"32"
 		{
 			"font" "resource/scheme/fonts/ReadyUp Symbols.otf"
 			"name" "ReadyUp Symbols"
 		}
-		
+
 		"33"
 		{
 			"font" "resource/scheme/fonts/Blocks.ttf"
