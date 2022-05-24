@@ -17,6 +17,25 @@
 		"fgcolor"		"Blue"
 	}
 
+	"TitleLabelDropshadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabelDropshadow"
+		"font"			"Size 12"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_menu_build_title"
+		"textAlignment"	"center"
+		"fgcolor"		"Shadow"
+
+		"pin_to_sibling"		"TitleLabel"
+	}
+
 	"active_item_1"
 	{
 		"ControlName"	"EditablePanel"

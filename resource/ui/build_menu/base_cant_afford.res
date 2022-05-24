@@ -8,14 +8,34 @@
 		"xpos"			"98"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"60"
+		"wide"			"40"
 		"tall"			"27"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#Hud_Menu_Build_Cant_Afford"
+		"labelText"		"Need Metal"
 		"wrap"		"1"
 		"textAlignment"	"west"
 		"fgcolor"		"Red"
+	}
+
+	"CantBuildReasonShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CantBuildReasonShadow"
+		"font"			"Size 12"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"40"
+		"tall"			"27"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"Need Metal"
+		"wrap"		"1"
+		"textAlignment"	"west"
+		"fgcolor"		"Shadow"
+
+		"pin_to_sibling"		"CantBuildReason"
 	}
 
 	"RedBorder"
@@ -43,10 +63,29 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"50"
-		"tall"			"28"
+		"tall"			"27"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
+	}
+
+	"CostLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CostLabelShadow"
+		"font"			"Size 28"
+		"fgcolor"		"Shadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"50"
+		"tall"			"27"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+
+		"pin_to_sibling"		"CostLabel"
 	}
 }

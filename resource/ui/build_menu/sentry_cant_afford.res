@@ -2,15 +2,31 @@
 
 "Resource/UI/build_menu/sentry_cant_afford.res"
 {
+	"CantBuildReason"
+	{
+		"ypos"			"1"
+		"tall"			"39"
+	}
+
+	"CantBuildReasonShadow"
+	{
+		"tall"			"39"
+	}
+
 	"RedBorder"
 	{
 		"ypos"		"1"
 		"tall"		"39"
 	}
-	
+
 	"CostLabel"
 	{
 		"ypos"		"1"
+		"tall"			"39"
+	}
+
+	"CostLabelShadow"
+	{
 		"tall"			"39"
 	}
 

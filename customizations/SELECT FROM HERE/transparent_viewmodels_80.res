@@ -16,7 +16,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/transparent75"
+		"image"			"replay/thumbnails/transparent80"
 		"scaleImage"	"1"
 	}
 }

@@ -1,21 +1,5 @@
 "Resource/UI/build_menu/HudMenuEngyDestroy.res"
 {
-	"DestroyIcon"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"DestroyIcon"
-		"xpos"			"9999"
-		"ypos"			"-2"
-		"zpos"			"1"
-		"wide"			"64"
-		"tall"			"64"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"icon"			"ico_demolish"
-		"iconColor"		"White"
-	}
-
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -31,6 +15,25 @@
 		"labelText"		"#Hud_menu_demolish_title"
 		"textAlignment"	"center"
 		"fgcolor"		"Red"
+	}
+
+	"TitleLabelDropshadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TitleLabelDropshadow"
+		"font"			"Size 12"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#Hud_menu_demolish_title"
+		"textAlignment"	"center"
+		"fgcolor"		"Shadow"
+
+		"pin_to_sibling"		"TitleLabel"
 	}
 
 	"active_item_1"

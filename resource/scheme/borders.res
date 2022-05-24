@@ -300,6 +300,18 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
 		}
+		WhiteGrayBorderUltraThick
+		{
+			"inset" "0 0 1 1"
+			Left
+			{	"1"	{	"color" "WhiteGray"	}	"2"	{	"color" "WhiteGray"	}	"3"	{	"color" "WhiteGray"	}	"4"	{	"color" "WhiteGray"	}	}
+			Right
+			{	"1"	{	"color" "WhiteGray"	}	"2"	{	"color" "WhiteGray"	}	"3"	{	"color" "WhiteGray"	}	"4"	{	"color" "WhiteGray"	}	}
+			Top
+			{	"1"	{	"color" "WhiteGray"	}	"2"	{	"color" "WhiteGray"	}	"3"	{	"color" "WhiteGray"	}	"4"	{	"color" "WhiteGray"	}	}
+			Bottom
+			{	"1"	{	"color" "WhiteGray"	}	"2"	{	"color" "WhiteGray"	}	"3"	{	"color" "WhiteGray"	}	"4"	{	"color" "WhiteGray"	}	}
+		}
 
 		////////////////////////////////////////////////////////////////////////////////////
 		/////////////////////////////////MATERIAL GRAYLIGHT/////////////////////////////////
@@ -444,18 +456,6 @@ Scheme
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
-		}
-		GrayDarkestHighlightBorderUltraThick
-		{
-			"inset" "0 0 1 1"
-			Left
-			{	"1"	{	"color" "GrayDarkest"	}	"2"	{	"color" "GrayDarkest"	}	"3"	{	"color" "GrayDarkest"	}	"4"	{	"color" "GrayDarkest"	}	}
-			Right
-			{	"1"	{	"color" "GrayDarkest"	}	"2"	{	"color" "GrayDarkest"	}	"3"	{	"color" "GrayDarkest"	}	"4"	{	"color" "GrayDarkest"	}	}
-			Top
-			{	"1"	{	"color" "GrayDarkest"	}	"2"	{	"color" "GrayDarkest"	}	"3"	{	"color" "GrayDarkest"	}	"4"	{	"color" "GrayDarkest"	}	}
-			Bottom
-			{	"1"	{	"color" "GrayDarkest"	}	"2"	{	"color" "GrayDarkest"	}	"3"	{	"color" "GrayDarkest"	}	"4"	{	"color" "GrayDarkest"	}	}
 		}
 
 		////////////////////////////////////////////////////////////////////////////////////

@@ -6,4 +6,9 @@
 	{
 		"labelText"		"4"
 	}
+
+	"NumberLabelShadow"
+	{
+		"labelText"		"4"
+	}
 }

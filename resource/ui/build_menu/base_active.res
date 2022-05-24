@@ -14,7 +14,7 @@
 		"proportionaltoparent"		"1"
 		"border"		"BlueHighlightBorderUltraThick"
 	}
-	
+
 	"CostLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -32,6 +32,25 @@
 		"textAlignment"	"center"
 	}
 
+	"CostLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CostLabelShadow"
+		"font"			"Size 28"
+		"fgcolor"		"Shadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"50"
+		"tall"			"27"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+
+		"pin_to_sibling"		"CostLabel"
+	}
+
 	"NumberLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -47,5 +66,24 @@
 		"enabled"		"1"
 		"labelText"		"1"
 		"textAlignment"	"west"
+	}
+
+	"NumberLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabelShadow"
+		"font"			"Size 28"
+		"fgcolor"		"Shadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"27"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"1"
+		"textAlignment"	"west"
+
+		"pin_to_sibling"		"NumberLabel"
 	}
 }

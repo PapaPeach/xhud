@@ -31,4 +31,23 @@
 		"labelText"		"2"
 		"textAlignment"	"west"
 	}
+
+	"NumberLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NumberLabelShadow"
+		"font"			"Size 28"
+		"fgcolor"		"Shadow"
+		"xpos"			"-1"
+		"ypos"			"-1"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"27"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"2"
+		"textAlignment"	"west"
+
+		"pin_to_sibling"		"NumberLabel"
+	}
 }
