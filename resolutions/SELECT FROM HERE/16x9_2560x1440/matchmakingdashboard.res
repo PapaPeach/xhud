@@ -6,7 +6,7 @@
 		{
 			"ControlName"					"EditablePanel"
 			"fieldName"						"FindGameAnchor"
-			"xpos"							"r-665"
+			"xpos"							"r-672"
 			"ypos"							"5"
 			"zpos"							"0"
 			"wide"							"0"
@@ -30,8 +30,6 @@
 			"font"							"Size 30"
 			"textAlignment"					"east"
 			"textinsetx"					"5"
-			"dulltext"						"0"
-			"brighttext"					"0"
 			"Command"						"find_game"
 			"proportionaltoparent"			"1"
 			"labeltext"						"Game"
@@ -49,8 +47,8 @@
 
 			"defaultFgColor_override" 		"White"
 			"armedFgColor_override" 		"Green"
-			
+
 			"pin_to_sibling" 				"FindGameAnchor"
 		}
-	}	
+	}
 }

@@ -30,8 +30,8 @@
 		"labelText"					"%Ammo%"
 
 		"pin_to_sibling"			"AmmoAnchor"
-		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
+		"pin_corner_to_sibling"		"1"
+		"pin_to_sibling_corner"		"4"
 	}
 
 	"AmmoInClipShadow"
@@ -70,8 +70,8 @@
 		"labelText"					"%AmmoInReserve%"
 
 		"pin_to_sibling"			"AmmoInClip"
-		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
+		"pin_corner_to_sibling"		"2"
+		"pin_to_sibling_corner"		"3"
 	}
 
 	"AmmoInReserveShadow"
@@ -110,8 +110,8 @@
 		"labelText"					"%Ammo%"
 
 		"pin_to_sibling"			"AmmoAnchor"
-		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
 	}
 
 	"AmmoNoClipShadow"
@@ -148,8 +148,8 @@
 		"alpha"						"150"
 
 		"pin_to_sibling"			"AmmoAnchor"
-		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
 	}
 
 	"HudWeaponLowAmmoImage"			//Needed for animations to work???

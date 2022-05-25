@@ -1,6 +1,6 @@
 #base "vtfpreload.res"
-#base "../../resolutions/2560x1440/mainmenuoverride.res"
-#base "../../resolutions/1920x1080/mainmenuoverride.res"
+#base "../../resolutions/16x9_2560x1440/mainmenuoverride.res"
+#base "../../resolutions/16x9_1920x1080/mainmenuoverride.res"
 #base "resolutionwarning.res"
 #base "../../customizations/tools_rcon.res"
 
@@ -44,9 +44,6 @@
 				"use_proportional_insets" 	"1"
 				"font"						"HudFontSmallBold"
 				"textAlignment"				"west"
-				"dulltext"					"0"
-				"brighttext"				"0"
-				"default"					"1"
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 
@@ -157,8 +154,8 @@
 		"bgcolor_override" 					"White"
 
 		"pin_to_sibling" 					"HudTitle"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 			"7"
+		"pin_to_sibling_corner" 			"5"
 	}
 
 	"CycleRankTypeButton"
@@ -178,9 +175,6 @@
 		"font"								"HudFontSmallBold"
 		"command"							"open_rank_type_menu"
 		"textAlignment"						"west"
-		"dulltext"							"0"
-		"brighttext"						"0"
-		"default"							"1"
 		"actionsignallevel" 				"1"
 		"proportionaltoparent"				"1"
 
@@ -308,9 +302,6 @@
 			"labelText"						"X"
 			"font"							"Symbols 26"
 			"textAlignment"					"center"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 			"actionsignallevel" 			"2"
 
 			"Command"						"noti_show"
@@ -354,9 +345,6 @@
 			"labeltext"						"%"
 			"font"							"Symbols 22"
 			"textAlignment"					"center"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"0"
 			"actionsignallevel"				"2"
 
 			"Command"						"noti_hide"
@@ -517,9 +505,6 @@
 			"textAlignment"					"west"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -546,8 +531,8 @@
 		"enabled"							"1"
 
 		"pin_to_sibling" 					"Servers"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 			"7"
+		"pin_to_sibling_corner" 			"5"
 
 		"SubButton"
 		{
@@ -564,9 +549,6 @@
 			"textAlignment"					"center"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -593,8 +575,8 @@
 		"enabled"							"1"
 
 		"pin_to_sibling" 					"Servers"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 			"0"
+		"pin_to_sibling_corner" 			"2"
 
 		"SubButton"
 		{
@@ -611,9 +593,6 @@
 			"textAlignment"					"west"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -640,8 +619,8 @@
 		"enabled"							"1"
 
 		"pin_to_sibling" 					"Inventory"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 			"7"
+		"pin_to_sibling_corner" 			"5"
 
 		"SubButton"
 		{
@@ -658,9 +637,6 @@
 			"textAlignment"					"center"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -687,8 +663,8 @@
 		"enabled"							"1"
 
 		"pin_to_sibling" 					"Inventory"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 			"0"
+		"pin_to_sibling_corner" 			"2"
 
 		"SubButton"
 		{
@@ -705,9 +681,6 @@
 			"textAlignment"					"west"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -734,8 +707,8 @@
 		"enabled"							"1"
 
 		"pin_to_sibling" 					"Options"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 			"7"
+		"pin_to_sibling_corner" 			"5"
 
 		"SubButton"
 		{
@@ -752,9 +725,6 @@
 			"textAlignment"					"center"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -805,8 +775,8 @@
 		"enabled"							"1"
 
 		"pin_to_sibling" 					"HUDRepository"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 			"7"
+		"pin_to_sibling_corner" 			"5"
 
 		"SubButton"
 		{
@@ -823,9 +793,6 @@
 			"textAlignment"					"center"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -852,8 +819,8 @@
 		"enabled"							"1"
 
 		"pin_to_sibling" 					"Streams"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 			"7"
+		"pin_to_sibling_corner" 			"5"
 
 		"SubButton"
 		{
@@ -870,9 +837,6 @@
 			"textAlignment"					"center"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -899,8 +863,8 @@
 		"enabled"							"1"
 
 		"pin_to_sibling" 					"Contracker"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 			"7"
+		"pin_to_sibling_corner" 			"5"
 
 		"SubButton"
 		{
@@ -917,9 +881,6 @@
 			"textAlignment"					"center"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -946,8 +907,8 @@
 		"enabled"							"1"
 
 		"pin_to_sibling" 					"DemoUI"
-		"pin_corner_to_sibling" 			"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 			"7"
+		"pin_to_sibling_corner" 			"5"
 
 		"SubButton"
 		{
@@ -964,9 +925,6 @@
 			"textAlignment"					"center"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1007,9 +965,6 @@
 			"textAlignment"					"east"
 			"textinsetx"					"5"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1054,9 +1009,6 @@
 			"textAlignment"					"west"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1083,8 +1035,8 @@
 		"enabled"							"1"
 
 		"pin_to_sibling" 					"Vote"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 			"0"
+		"pin_to_sibling_corner" 			"2"
 
 		"SubButton"
 		{
@@ -1101,9 +1053,6 @@
 			"textAlignment"					"west"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1130,8 +1079,8 @@
 		"enabled"							"1"
 
 		"pin_to_sibling" 					"Report"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 			"0"
+		"pin_to_sibling_corner" 			"2"
 
 		"SubButton"
 		{
@@ -1148,9 +1097,6 @@
 			"textAlignment"					"west"
 			"textinsetx"					"0"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1191,9 +1137,6 @@
 			"textAlignment"					"east"
 			"textinsetx"					"5"
 			"use_proportional_insets" 		"1"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1226,8 +1169,8 @@
 		"bgcolor_override"					"Blank"
 
 		"pin_to_sibling" 					"InvisiblePlayersFix"
-		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 			"1"
+		"pin_to_sibling_corner" 			"0"
 
 		"DamageColorsLabel"
 		{
@@ -1244,8 +1187,6 @@
 			"textAlignment"					"east"
 			"textinsetx"					"15"
 			"labelText"						"Damage Colors"
-			"dulltext"						"0"
-			"brighttext"					"0"
 			"fgcolor"						"White"
 		}
 	}
@@ -1262,8 +1203,8 @@
 		"visible"							"1"
 
 		"pin_to_sibling" 					"DamageColorsPanel"
-		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 			"PIN_TOPRIGHT"
+		"pin_corner_to_sibling" 			"1"
+		"pin_to_sibling_corner" 			"1"
 
 		"SubButton"
 		{
@@ -1277,7 +1218,6 @@
 			"enabled"						"1"
 			"tabPosition"					"0"
 			"use_proportional_insets" 		"1"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1304,8 +1244,8 @@
 		"visible"							"1"
 
 		"pin_to_sibling" 					"Red"
-		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 			"1"
+		"pin_to_sibling_corner" 			"0"
 
 		"SubButton"
 		{
@@ -1319,7 +1259,6 @@
 			"enabled"						"1"
 			"tabPosition"					"0"
 			"use_proportional_insets" 		"1"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1346,8 +1285,8 @@
 		"visible"							"1"
 
 		"pin_to_sibling" 					"Yellow"
-		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 			"1"
+		"pin_to_sibling_corner" 			"0"
 
 		"SubButton"
 		{
@@ -1361,7 +1300,6 @@
 			"enabled"						"1"
 			"tabPosition"					"0"
 			"use_proportional_insets" 		"1"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1388,8 +1326,8 @@
 		"visible"							"1"
 
 		"pin_to_sibling" 					"Green"
-		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 			"1"
+		"pin_to_sibling_corner" 			"0"
 
 		"SubButton"
 		{
@@ -1403,7 +1341,6 @@
 			"enabled"						"1"
 			"tabPosition"					"0"
 			"use_proportional_insets" 		"1"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1430,8 +1367,8 @@
 		"visible"							"1"
 
 		"pin_to_sibling" 					"Blue"
-		"pin_corner_to_sibling" 			"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 			"PIN_TOPLEFT"
+		"pin_corner_to_sibling" 			"1"
+		"pin_to_sibling_corner" 			"0"
 
 		"SubButton"
 		{
@@ -1445,7 +1382,6 @@
 			"enabled"						"1"
 			"tabPosition"					"0"
 			"use_proportional_insets" 		"1"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1472,8 +1408,8 @@
 		"visible"							"1"
 
 		"pin_to_sibling" 					"DamageColorsPanel"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 			"0"
+		"pin_to_sibling_corner" 			"2"
 
 		"SubButton"
 		{
@@ -1490,9 +1426,6 @@
 			"font"							"Size 28"
 			"textAlignment"					"east"
 			"textinsetx"					"5"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1518,8 +1451,8 @@
 		"visible"							"1"
 
 		"pin_to_sibling" 					"ChatToggle"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 			"0"
+		"pin_to_sibling_corner" 			"2"
 
 		"SubButton"
 		{
@@ -1536,9 +1469,6 @@
 			"font"							"Size 28"
 			"textAlignment"					"east"
 			"textinsetx"					"5"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1601,9 +1531,6 @@
 			"font"							"Symbols 24"
 			"textAlignment"					"east"
 			"textinsetx"					"5"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1629,8 +1556,8 @@
 		"visible"							"1"
 
 		"pin_to_sibling" 					"InvisiblePlayersFix"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 			"0"
+		"pin_to_sibling_corner" 			"2"
 
 		"SubButton"
 		{
@@ -1647,9 +1574,6 @@
 			"font"							"Symbols 24"
 			"textAlignment"					"east"
 			"textinsetx"					"5"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1675,8 +1599,8 @@
 		"visible"							"1"
 
 		"pin_to_sibling" 					"BrokenSoundFix"
-		"pin_corner_to_sibling" 			"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 			"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 			"0"
+		"pin_to_sibling_corner" 			"2"
 
 		"SubButton"
 		{
@@ -1693,9 +1617,6 @@
 			"font"							"Symbols 24"
 			"textAlignment"					"east"
 			"textinsetx"					"5"
-			"dulltext"						"0"
-			"brighttext"					"0"
-			"default"						"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"

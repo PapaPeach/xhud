@@ -79,7 +79,6 @@
 		"labelText"			"&R"
 		"textAlignment"		"north-east"
 		"Command"			"select 12"
-		"Default"			"1"
 		"font"				"Size 16"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -93,8 +92,8 @@
 		"depressedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"ClassAnchor"
-		"pin_corner_to_sibling" 	"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 	"3"
+		"pin_to_sibling_corner" 	"2"
 	}
 
 	"RandomLabel"
@@ -110,8 +109,6 @@
 		"enabled"					"1"
 		"labelText"					"Random"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"wrap"						"0"
 		"font"						"Size 28"
 		"fgcolor"					"White"
@@ -136,7 +133,6 @@
 		"textAlignment"		"center"
 		"textinsety"				"-68"
 		"Command"			"select 1"
-		"Default"			"0"
 		"font"				"Class Symbols 56"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -154,8 +150,8 @@
 		"selectedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"soldier"
-		"pin_corner_to_sibling" 	"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 	"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling" 	"5"
+		"pin_to_sibling_corner" 	"7"
 	}
 
 	"soldier"
@@ -174,7 +170,6 @@
 		"textAlignment"		"center"
 		"textinsety"				"-68"
 		"Command"			"select 3"
-		"Default"			"0"
 		"font"				"Class Symbols 56"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -192,8 +187,8 @@
 		"selectedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"pyro"
-		"pin_corner_to_sibling" 	"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 	"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling" 	"5"
+		"pin_to_sibling_corner" 	"7"
 	}
 
 	"pyro"
@@ -212,7 +207,6 @@
 		"textAlignment"		"center"
 		"textinsety"				"-68"
 		"Command"			"select 7"
-		"Default"			"0"
 		"font"				"Class Symbols 56"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -230,8 +224,8 @@
 		"selectedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"demoman"
-		"pin_corner_to_sibling" 	"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 	"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling" 	"5"
+		"pin_to_sibling_corner" 	"7"
 	}
 
 	"demoman"
@@ -250,7 +244,6 @@
 		"textAlignment"		"center"
 		"textinsety"				"-68"
 		"Command"			"select 4"
-		"Default"			"0"
 		"font"				"Class Symbols 56"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -268,8 +261,8 @@
 		"selectedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"heavyweapons"
-		"pin_corner_to_sibling" 	"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 	"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling" 	"5"
+		"pin_to_sibling_corner" 	"7"
 	}
 
 	"heavyweapons"
@@ -288,7 +281,6 @@
 		"textAlignment"		"center"
 		"textinsety"				"-68"
 		"Command"			"select 6"
-		"Default"			"0"
 		"font"				"Class Symbols 56"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -306,8 +298,8 @@
 		"selectedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"ClassAnchor"
-		"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
+		"pin_corner_to_sibling" 	"4"
+		"pin_to_sibling_corner" 	"4"
 	}
 
 	"engineer"
@@ -326,7 +318,6 @@
 		"textAlignment"		"center"
 		"textinsety"				"-68"
 		"Command"			"select 9"
-		"Default"			"0"
 		"font"				"Class Symbols 56"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -344,8 +335,8 @@
 		"selectedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"heavyweapons"
-		"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 	"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 	"7"
+		"pin_to_sibling_corner" 	"5"
 	}
 
 	"medic"
@@ -364,7 +355,6 @@
 		"textAlignment"		"center"
 		"textinsety"				"-68"
 		"Command"			"select 5"
-		"Default"			"0"
 		"font"				"Class Symbols 56"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -382,8 +372,8 @@
 		"selectedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"engineer"
-		"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 	"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 	"7"
+		"pin_to_sibling_corner" 	"5"
 	}
 
 	"sniper"
@@ -402,7 +392,6 @@
 		"textAlignment"		"center"
 		"textinsety"				"-68"
 		"Command"			"select 2"
-		"Default"			"0"
 		"font"				"Class Symbols 56"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -420,8 +409,8 @@
 		"selectedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"medic"
-		"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 	"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 	"7"
+		"pin_to_sibling_corner" 	"5"
 	}
 
 	"spy"
@@ -440,7 +429,6 @@
 		"textAlignment"		"center"
 		"textinsety"				"-68"
 		"Command"			"select 8"
-		"Default"			"0"
 		"font"				"Class Symbols 56"
 
 		"sound_depressed"			"UI/buttonclick.wav"
@@ -458,8 +446,8 @@
 		"selectedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"sniper"
-		"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 	"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 	"7"
+		"pin_to_sibling_corner" 	"5"
 	}
 
 	"CancelButton"
@@ -515,8 +503,8 @@
 		"depressedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"ClassAnchor"
-		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 	"PIN_BOTTOMRIGHT"
+		"pin_corner_to_sibling" 	"2"
+		"pin_to_sibling_corner" 	"3"
 	}
 
 	"EditLabel"
@@ -532,8 +520,6 @@
 		"enabled"					"1"
 		"labelText"					"Edit Loadout"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"wrap"						"0"
 		"font"						"Size 28"
 		"fgcolor"					"White"
@@ -579,8 +565,8 @@
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"scout"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"numSoldier"
@@ -602,8 +588,8 @@
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"soldier"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"numPyro"
@@ -625,8 +611,8 @@
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"pyro"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"numDemoman"
@@ -648,8 +634,8 @@
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"demoman"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"numHeavy"
@@ -671,8 +657,8 @@
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"heavyweapons"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"numEngineer"
@@ -694,8 +680,8 @@
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"engineer"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"numMedic"
@@ -717,8 +703,8 @@
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"medic"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"numSniper"
@@ -740,8 +726,8 @@
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"sniper"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"numSpy"
@@ -763,8 +749,8 @@
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"spy"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"ScoutBind"
@@ -780,16 +766,14 @@
 		"enabled"					"1"
 		"labelText"					"1"
 		"textAlignment"				"south"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"wrap"						"0"
 		"font"						"Size 16"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"scout"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"SoldierBind"
@@ -805,16 +789,14 @@
 		"enabled"					"1"
 		"labelText"					"2"
 		"textAlignment"				"south"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"wrap"						"0"
 		"font"						"Size 16"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"soldier"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"PyroBind"
@@ -830,16 +812,14 @@
 		"enabled"					"1"
 		"labelText"					"3"
 		"textAlignment"				"south"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"wrap"						"0"
 		"font"						"Size 16"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"pyro"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"DemoBind"
@@ -855,16 +835,14 @@
 		"enabled"					"1"
 		"labelText"					"4"
 		"textAlignment"				"south"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"wrap"						"0"
 		"font"						"Size 16"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"demoman"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"HeavyBind"
@@ -880,16 +858,14 @@
 		"enabled"					"1"
 		"labelText"					"5"
 		"textAlignment"				"south"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"wrap"						"0"
 		"font"						"Size 16"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"heavyweapons"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"EngiBind"
@@ -905,16 +881,14 @@
 		"enabled"					"1"
 		"labelText"					"6"
 		"textAlignment"				"south"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"wrap"						"0"
 		"font"						"Size 16"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"engineer"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"MedicBind"
@@ -930,16 +904,14 @@
 		"enabled"					"1"
 		"labelText"					"7"
 		"textAlignment"				"south"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"wrap"						"0"
 		"font"						"Size 16"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"medic"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"SniperBind"
@@ -955,16 +927,14 @@
 		"enabled"					"1"
 		"labelText"					"8"
 		"textAlignment"				"south"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"wrap"						"0"
 		"font"						"Size 16"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"sniper"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"SpyBind"
@@ -980,16 +950,14 @@
 		"enabled"					"1"
 		"labelText"					"9"
 		"textAlignment"				"south"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"wrap"						"0"
 		"font"						"Size 16"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"spy"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"MvMUpgradeImageScout"

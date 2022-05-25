@@ -1,5 +1,5 @@
-#base "../../resolutions/2560x1440/hudplayerhealth.res"
-#base "../../resolutions/1920x1080/hudplayerhealth.res"
+#base "../../resolutions/16x9_2560x1440/hudplayerhealth.res"
+#base "../../resolutions/16x9_1920x1080/hudplayerhealth.res"
 
 "Resource/UI/HudPlayerHealth.res"
 {
@@ -46,8 +46,8 @@
 		"bgcolor_override"			"TransparentGrayDarkest"
 
 		"pin_to_sibling"			"HealthAnchor"
-		"pin_corner_to_sibling"		"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner"		"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling"		"6"
+		"pin_to_sibling_corner"		"6"
 	}
 
 	"HealthBar"
@@ -64,8 +64,8 @@
 		"bgcolor_override"			"Health"
 
 		"pin_to_sibling"			"PlayerStatusHealthBonusImage"
-		"pin_corner_to_sibling"		"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner"		"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling"		"5"
+		"pin_to_sibling_corner"		"7"
 	}
 
 	"HealthBarOverheal"
@@ -82,8 +82,8 @@
 		"bgcolor_override"			"Blank"
 
 		"pin_to_sibling"			"PlayerStatusHealthBonusImage"
-		"pin_corner_to_sibling"		"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner"		"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling"		"7"
+		"pin_to_sibling_corner"		"5"
 	}
 
 	"HealthBarLowHealth"
@@ -101,8 +101,8 @@
 		"alpha"						"150"
 
 		"pin_to_sibling"			"PlayerStatusHealthBonusImage"
-		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
-		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
+		"pin_corner_to_sibling"		"1"
+		"pin_to_sibling_corner"		"4"
 	}
 
 	"PlayerStatusHealthValue"
@@ -123,8 +123,8 @@
 		"bgcolor_override"			"Blank"
 
 		"pin_to_sibling"			"HealthAnchor"
-		"pin_corner_to_sibling"		"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"		"PIN_CENTER_TOP"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
 	}
 
 	"PlayerStatusHealthValueShadow"

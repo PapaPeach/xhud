@@ -1,5 +1,5 @@
-#base "../../resolutions/2560x1440/matchmakingdashboard.res"
-#base "../../resolutions/1920x1080/matchmakingdashboard.res"
+#base "../../resolutions/16x9_2560x1440/matchmakingdashboard.res"
+#base "../../resolutions/16x9_1920x1080/matchmakingdashboard.res"
 
 "Resource/UI/MatchMakingDashboard.res"
 {
@@ -46,8 +46,6 @@
 			"tabPosition"					"0"
 			"font"							"Symbols 26"
 			"textAlignment"					"center"
-			"dulltext"						"0"
-			"brighttext"					"0"
 			"Command"						"toggle_chat"
 			"proportionaltoparent"			"1"
 			"labeltext"						","
@@ -103,8 +101,8 @@
 			"party_slot"					"1"
 
 			"pin_to_sibling" 				"PartySlot0"
-			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
+			"pin_corner_to_sibling" 		"7"
+			"pin_to_sibling_corner" 		"5"
 		}
 
 		"PartySlot2"
@@ -126,8 +124,8 @@
 			"party_slot"					"2"
 
 			"pin_to_sibling" 				"PartySlot1"
-			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
+			"pin_corner_to_sibling" 		"7"
+			"pin_to_sibling_corner" 		"5"
 		}
 
 		"PartySlot3"
@@ -149,8 +147,8 @@
 			"party_slot"					"3"
 
 			"pin_to_sibling" 				"PartySlot2"
-			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
+			"pin_corner_to_sibling" 		"7"
+			"pin_to_sibling_corner" 		"5"
 		}
 
 		"PartySlot4"
@@ -172,8 +170,8 @@
 			"party_slot"					"4"
 
 			"pin_to_sibling" 				"PartySlot3"
-			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
+			"pin_corner_to_sibling" 		"7"
+			"pin_to_sibling_corner" 		"5"
 		}
 
 		"PartySlot5"
@@ -195,8 +193,8 @@
 			"party_slot"					"5"
 
 			"pin_to_sibling" 				"PartySlot4"
-			"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
+			"pin_corner_to_sibling" 		"7"
+			"pin_to_sibling_corner" 		"5"
 		}
 
 		"QueueContainer"
@@ -256,9 +254,6 @@
 				"labeltext"					""
 				"font"						"HudFontSmallBold"
 				"textAlignment"				"center"
-				"dulltext"					"0"
-				"brighttext"				"0"
-				"default"					"1"
 				"Command"					"queue_logo_clicked"
 				"proportionaltoparent"		"1"
 				"actionsignallevel"			"3"
@@ -336,9 +331,6 @@
 				"labeltext"					""
 				"font"						"HudFontSmallBold"
 				"textAlignment"				"center"
-				"dulltext"					"0"
-				"brighttext"				"0"
-				"default"					"1"
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				"Command"					"manage_queues"
@@ -384,9 +376,6 @@
 				"labeltext"					""
 				"font"						"HudFontSmallBold"
 				"textAlignment"				"center"
-				"dulltext"					"0"
-				"brighttext"				"0"
-				"default"					"1"
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
 				"Command"					"leave_queue"
@@ -500,8 +489,6 @@
 				"tabPosition"				"0"
 				"font"						"HudFontSmallestBold"
 				"textAlignment"				"center"
-				"dulltext"					"0"
-				"brighttext"				"0"
 				"Command"					"join_party_match"
 				"proportionaltoparent"		"1"
 				"labeltext"					"#TF_MM_JoinPartyLobby_Join"

@@ -391,8 +391,6 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"textAlignment"			"Left"
-				"dulltext"				"0"
-				"brighttext"			"0"
 				"bgcolor_override"	   "Blank"
 				"proportionaltoparent"	"1"
 			}
@@ -409,9 +407,7 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"textAlignment"			"Left"
-				"dulltext"				"0"
-				"brighttext"			"0"
-				"bgcolor_override"	   "0 0 0 0"
+				"bgcolor_override"	   "Blank"
 				"fgcolor_override"	   "Buffed Health"
 				"proportionaltoparent"	"1"
 			}

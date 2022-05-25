@@ -28,8 +28,6 @@
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"Size 4"
 		"fgcolor_override"		"Black"
 		"proportionaltoparent"		"1"
@@ -48,8 +46,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"proportionaltoparent"		"1"
 		"bgcolor_override"		"TransparentGrayDarkest"
 	}

@@ -26,15 +26,13 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"1"
 		"font"						"Size 28"
 		"fgcolor_override"			"White"
 		"bgcolor_override"			"TransparentBlack"
 
 		"pin_to_sibling" 			"TeamsAnchor"
-		"pin_corner_to_sibling" 	"PIN_CENTER_TOP"
-		"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
+		"pin_corner_to_sibling" 	"4"
+		"pin_to_sibling_corner" 	"4"
 	}
 
 	"TeamsAnchor"					//Moves the team selection menu as a whole
@@ -63,8 +61,6 @@
 		"tabPosition"				"1"
 		"labelText"					"&3"
 		"textAlignment"				"south-east"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"command"					"jointeam blue"
 		"team"						"3"		// team blue
 		"font"						"Size 16"
@@ -80,8 +76,8 @@
 		"depressedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"TeamsAnchor"
-		"pin_corner_to_sibling" 	"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 	"PIN_CENTER_LEFT"
+		"pin_corner_to_sibling" 	"5"
+		"pin_to_sibling_corner" 	"7"
 	}
 
 	"teambutton1"
@@ -98,8 +94,6 @@
 		"tabPosition"				"1"
 		"labelText"					"&4"
 		"textAlignment"				"south-west"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"command"					"jointeam red"
 		"team"						"2"		// team red
 		"font"						"Size 16"
@@ -112,8 +106,8 @@
 		"depressedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"TeamsAnchor"
-		"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 	"PIN_CENTER_RIGHT"
+		"pin_corner_to_sibling" 	"7"
+		"pin_to_sibling_corner" 	"5"
 	}
 
 	"teambutton2"
@@ -130,8 +124,6 @@
 		"tabPosition"				"1"
 		"labelText"					"&1"
 		"textAlignment"				"north-east"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"command"					"jointeam auto"
 		"font"						"Size 16"
 		"fgcolor"					"White"
@@ -143,8 +135,8 @@
 		"depressedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"TeamsAnchor"
-		"pin_corner_to_sibling" 	"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 	"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling" 	"3"
+		"pin_to_sibling_corner" 	"2"
 	}
 
 	"teambutton3"
@@ -161,8 +153,6 @@
 		"tabPosition"				"1"
 		"labelText"					"&2"
 		"textAlignment"				"north-west"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"command"					"jointeam spectate"
 		"font"						"Size 16"
 		"fgcolor"					"White"
@@ -174,8 +164,8 @@
 		"depressedBgColor_override"	"WhiteGray"
 
 		"pin_to_sibling" 			"TeamsAnchor"
-		"pin_corner_to_sibling" 	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 	"PIN_BOTTOMRIGHT"
+		"pin_corner_to_sibling" 	"2"
+		"pin_to_sibling_corner" 	"3"
 	}
 
 	"CancelButton"
@@ -193,8 +183,6 @@
 		"labelText"		"&0"
 		"textAlignment"	"east"
 		"textinsetx"				"15"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"cancelmenu"
 		"font"			"Size 28"
 
@@ -217,8 +205,6 @@
 		"enabled"					"1"
 		"labelText"					"Random"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"wrap"						"0"
 		"font"						"Size 28"
 		"fgcolor"					"White"
@@ -240,8 +226,6 @@
 		"enabled"					"1"
 		"labelText"					"Spectate"
 		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
 		"wrap"						"0"
 		"font"						"Size 28"
 		"fgcolor"					"White"
@@ -263,15 +247,13 @@
 		"enabled"					"1"
 		"labelText"					"%bluecount%"
 		"textAlignment"				"north"
-		"dulltext"					"0"
-		"brighttext"				"1"
 		"font"						"Size 44"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"teambutton0"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"BlueLabel"
@@ -288,15 +270,13 @@
 		"labelText"					"Blu"
 		"textAlignment"				"south"
 		"textinsety"				"25"
-		"dulltext"					"0"
-		"brighttext"				"1"
 		"font"						"Size 40"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"BlueCount"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"4"
 	}
 
 	"RedCount"
@@ -312,15 +292,13 @@
 		"enabled"					"1"
 		"labelText"					"%redcount%"
 		"textAlignment"				"north"
-		"dulltext"					"0"
-		"brighttext"				"1"
 		"font"						"Size 40"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"teambutton1"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_BOTTOM"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"RedLabel"
@@ -337,15 +315,13 @@
 		"labelText"					"Red"
 		"textAlignment"				"south"
 		"textinsety"				"25"
-		"dulltext"					"0"
-		"brighttext"				"1"
 		"font"						"Size 44"
 		"fgcolor"					"White"
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"RedCount"
-		"pin_corner_to_sibling" 	"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner" 	"PIN_CENTER_TOP"
+		"pin_corner_to_sibling" 	"6"
+		"pin_to_sibling_corner" 	"4"
 	}
 
 	"MenuBG"

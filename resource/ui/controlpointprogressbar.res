@@ -90,8 +90,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"progress"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"centerwrap"	"1"
 	}
 

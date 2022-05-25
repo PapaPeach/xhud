@@ -150,8 +150,6 @@
 			"enabled"		"1"
 			"labelText"		"%recede%"
 			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"fgcolor"	"Black"
 		}
 
@@ -186,8 +184,6 @@
 			"enabled"		"1"
 			"labelText"		"#ControlPointIconCappers"
 			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"fgcolor"	"White"
 		}
 

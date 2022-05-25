@@ -29,8 +29,6 @@
 		"enabled"		"1"
 		"labelText"		"%WinningTeamLabel%"
 		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"proportionaltoparent"		"1"
 	}
 	"AdvancingTeamLabel"
@@ -47,8 +45,6 @@
 		"enabled"		"1"
 		"labelText"		"%AdvancingTeamLabel%"
 		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"fgcolor"		"White"
 		"proportionaltoparent"		"1"
 	}
@@ -65,8 +61,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%WinReasonLabel%"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"centerwrap"	"1"
 		"fgcolor"		"White"
 		"proportionaltoparent"		"1"
@@ -261,8 +255,6 @@
 		"enabled"		"1"
 		"labelText"		"%DetailsLabel%"
 		"textAlignment"		"Center"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"fgcolor"		"White"
 		"proportionaltoparent"		"1"
 
@@ -285,8 +277,6 @@
 		"enabled"		"1"
 		"labelText"		"%TopPlayersLabel%"
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"HorizontalLine"
@@ -308,8 +298,6 @@
 		"enabled"		"1"
 		"labelText"		"#Winpanel_PointsThisRound"
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"HorizontalLine"
@@ -347,8 +335,6 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 
 		"pin_to_sibling"		"HorizontalLine"
 		"pin_corner_to_sibling"		"0"
@@ -367,8 +353,6 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 
 		"pin_to_sibling"		"Player1Name"
 		"pin_corner_to_sibling"		"7"
@@ -387,8 +371,6 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 
 		"pin_to_sibling"		"HorizontalLine"
 		"pin_corner_to_sibling"		"1"
@@ -407,8 +389,6 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 
 		"pin_to_sibling"		"Player1Name"
 		"pin_corner_to_sibling"		"0"
@@ -427,8 +407,6 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 
 		"pin_to_sibling"		"Player2Name"
 		"pin_corner_to_sibling"		"7"
@@ -447,8 +425,6 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 
 		"pin_to_sibling"		"Player1Score"
 		"pin_corner_to_sibling"		"1"
@@ -467,8 +443,6 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 
 		"pin_to_sibling"		"Player2Name"
 		"pin_corner_to_sibling"		"0"
@@ -487,8 +461,6 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 
 		"pin_to_sibling"		"Player3Name"
 		"pin_corner_to_sibling"		"7"
@@ -507,8 +479,6 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 
 		"pin_to_sibling"		"Player2Score"
 		"pin_corner_to_sibling"		"1"
@@ -530,8 +500,6 @@
 		"enabled"		"1"
 		"labelText"		"#Winpanel_KillStreakLeader"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"pin_to_sibling"		"Player3Name"
 		"pin_corner_to_sibling"		"0"
@@ -551,8 +519,6 @@
 		"enabled"		"1"
 		"labelText"		"#Winpanel_KillStreakMaxCount"
 		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
 
 		"pin_to_sibling"		"Player3Score"
 		"pin_corner_to_sibling"		"1"
@@ -591,8 +557,6 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 
 		"pin_to_sibling"		"HorizontalLine2"
 		"pin_corner_to_sibling"		"0"
@@ -611,8 +575,6 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"0"
 
 		"pin_to_sibling"		"KillStreakPlayer1Name"
 		"pin_corner_to_sibling"		"7"
@@ -631,8 +593,6 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
 
 		"pin_to_sibling"		"HorizontalLine2"
 		"pin_corner_to_sibling"		"1"

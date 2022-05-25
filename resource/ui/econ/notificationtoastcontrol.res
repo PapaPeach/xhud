@@ -37,9 +37,6 @@
 		"labeltext"						"%"
 		"font"							"Symbols 24"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"1"
 		"Command"						"delete"
 
 		"sound_depressed"				"UI/buttonclick.wav"
@@ -70,11 +67,8 @@
 		"labeltext"						"'"
 		"font"							"Symbols 24"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"1"
 		"Command"						"trigger"
-		
+
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"
 
@@ -103,9 +97,6 @@
 		"labeltext"						"'"
 		"font"							"Symbols 24"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"1"
 		"Command"						"accept"
 
 		"sound_depressed"				"UI/buttonclick.wav"
@@ -132,9 +123,6 @@
 		"labeltext"						"%"
 		"font"							"Symbols 24"
 		"textAlignment"					"center"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"1"
 		"Command"						"decline"
 
 		"sound_depressed"				"UI/buttonclick.wav"

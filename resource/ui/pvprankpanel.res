@@ -177,8 +177,8 @@
 					"proportionaltoparent"		"1"
 
 					"pin_to_sibling" 			"CurrentXPLabel"
-					"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
-					"pin_to_sibling_corner" 	"PIN_CENTER_RIGHT"
+					"pin_corner_to_sibling" 	"7"
+					"pin_to_sibling_corner" 	"5"
 				}
 
 				"NextLevelXPLabel"
@@ -199,8 +199,8 @@
 					"proportionaltoparent"		"1"
 
 					"pin_to_sibling" 			"XPFraction"
-					"pin_corner_to_sibling" 	"PIN_CENTER_LEFT"
-					"pin_to_sibling_corner" 	"PIN_CENTER_RIGHT"
+					"pin_corner_to_sibling" 	"7"
+					"pin_to_sibling_corner" 	"5"
 				}
 
 				"ProgressBarsContainer"

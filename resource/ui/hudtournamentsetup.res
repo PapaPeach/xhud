@@ -78,10 +78,7 @@
 		"enabled"		"1"
 		"labelText"		"Not Ready"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"teamnotready"
-		"default"		"1"
 		"font"			"Size 10"
 		"proportionaltoparent"		"1"
 	}
@@ -99,10 +96,7 @@
 		"enabled"		"1"
 		"labelText"		"Ready"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
 		"command"		"teamready"
-		"default"		"1"
 		"font"			"Size 10"
 		"proportionaltoparent"		"1"
 	}
