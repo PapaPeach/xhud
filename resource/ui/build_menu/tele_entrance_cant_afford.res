@@ -1,9 +1,2 @@
-#base "base_cant_afford.res"
-
-"Resource/UI/build_menu/tele_entrance_cant_afford.res"
-{
-	"NumberLabel"
-	{
-		"labelText"		"3"
-	}
-}
+#base "../../../customizations/side_engineer_menus/build_menu/tele_entrance_cant_afford.res"
+#base "x_tele_entrance_cant_afford.res"

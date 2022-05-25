@@ -1,3 +1,2 @@
-#base "base_inactive.res"
-
-"Resource/UI/build_menu/tele_exit_inactive.res"{}
+#base "../../../customizations/side_engineer_menus/destroy_menu/tele_exit_inactive.res"
+#base "x_tele_exit_inactive.res"

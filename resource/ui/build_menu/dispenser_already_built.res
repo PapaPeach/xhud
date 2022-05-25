@@ -1,9 +1,2 @@
-#base "base_already_built.res"
-
-"Resource/UI/build_menu/dispenser_already_built.res"
-{
-	"NumberLabel"
-	{
-		"labelText"		"2"
-	}
-}
+#base "../../../customizations/side_engineer_menus/build_menu/dispenser_already_built.res"
+#base "x_dispenser_already_built.res"

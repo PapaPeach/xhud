@@ -1,14 +1,2 @@
-#base "base_active.res"
-
-"Resource/UI/destroy_menu/dispenser_active.res"
-{
-	"NumberLabel"
-	{
-		"labelText"		"2"
-	}
-
-	"NumberLabelShadow"
-	{
-		"labelText"		"2"
-	}
-}
+#base "../../../customizations/side_engineer_menus/destroy_menu/dispenser_active.res"
+#base "x_dispenser_active.res"

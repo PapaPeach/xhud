@@ -1,9 +1,2 @@
-#base "base_already_built.res"
-
-"Resource/UI/build_menu/tele_exit_already_built.res"
-{
-	"NumberLabel"
-	{
-		"labelText"		"4"
-	}
-}
+#base "../../../customizations/side_engineer_menus/build_menu/tele_exit_already_built.res"
+#base "x_tele_exit_already_built.res"

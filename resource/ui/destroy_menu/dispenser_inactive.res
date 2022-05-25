@@ -1,3 +1,2 @@
-#base "base_inactive.res"
-
-"Resource/UI/build_menu/dispenser_inactive.res"{}
+#base "../../../customizations/side_engineer_menus/destroy_menu/base_dispenser_inactive.res"
+#base "x_dispenser_inactive.res"
