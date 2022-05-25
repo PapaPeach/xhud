@@ -263,6 +263,22 @@
 		"tall"				"240"
 	}
 
+	"HudEurekaEffectTeleportMenu"
+	{
+	"xpos"				"5"
+	"ypos"				"240"
+	"wide"				"f5"
+	"tall"				"240"
+	}
+
+	"HudMenuSpyDisguise"
+	{
+		"xpos"			"5"
+		"ypos"			"240"
+		"wide"			"f5"
+		"tall"			"240"
+	}
+
 	HudDemomanPipes
 	{
 		"xpos"				"cs-0.5"
