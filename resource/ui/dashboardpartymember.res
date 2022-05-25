@@ -109,7 +109,6 @@
 		"tall"						"f1"
 		"visible"					"1"
 		"enabled"					"1"
-		"tabPosition"				"0"
 		"font"						"PlayerPanelPlayerName"
 		"textAlignment"				"center"
 		"Command"					"interact"

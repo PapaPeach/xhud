@@ -1,12 +1,23 @@
 //====================================================================================================================
 
+event HudSnapShotReminderIn		//Resets various things on death
+{
+    RunEvent HudHealthDyingPulseStop 0.001
+    RunEvent HudHealthBonusPulseStop 0.001
+    RunEvent HudLowAmmoPulseStop 0.001
+    RunEvent HudMedicChargedStop 0.001
+		RunEvent HudSpyDisguiseFadeOut 0.001
+}
+
+//====================================================================================================================
+
 event HudHealthBonusPulse
 {
 	Animate HealthBarOverheal			BgColor		"Blue"							Linear	0.0 	0.0
 
 	Animate HealthBarLowHealth			BgColor		"Blank"							Linear	0.0 	0.0
 
-	Animate PeachHealthBGSpec 			BgColor		"Blue"							Linear	0.0 	0.0001		//Can't be set to 0.0 because???
+	Animate PeachHealthBGSpec 			BgColor		"Blue"							Linear	0.0 	0.001		//Can't be set to 0.0 because???
 }
 
 event HudHealthBonusPulseStop
@@ -17,21 +28,21 @@ event HudHealthBonusPulseStop
 
 	Animate HealthBarLowHealth			BgColor		"Low Health"					Linear	0.0 	0.0
 
-	Animate PeachHealthBGSpec 			BgColor		"White"							Linear	0.0 	0.0001		//Can't be set to 0.0 because???
+	Animate PeachHealthBGSpec 			BgColor		"White"							Linear	0.0 	0.001		//Can't be set to 0.0 because???
 }
 
 //====================================================================================================================
 
 event HudHealthDyingPulse
 {
-	Animate PeachHealthBGSpec 			BgColor		"Low Health"					Linear	0.0 	0.0001		//Can't be set to 0.0 because???
+	Animate PeachHealthBGSpec 			BgColor		"Low Health"					Linear	0.0 	0.001		//Can't be set to 0.0 because???
 }
 
 event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse		0.0
 
-	Animate PeachHealthBGSpec 			BgColor		"White"							Linear	0.0 	0.0001		//Can't be set to 0.0 because???
+	Animate PeachHealthBGSpec 			BgColor		"White"							Linear	0.0 	0.001		//Can't be set to 0.0 because???
 }
 
 //====================================================================================================================
@@ -82,12 +93,12 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 			0.0
 	StopEvent HudMedicChargedLoop 		0.0
 
-	Animate	ChargeMeter 				FgColor		"White"				Linear 	0	0.0001
+	Animate	ChargeMeter 				FgColor		"White"				Linear 	0	0.001
 
-	Animate	ChargeMeter1 				FgColor		"White"				Linear 	0	0.0001
-	Animate	ChargeMeter2 				FgColor		"White"				Linear 	0	0.0001
-	Animate	ChargeMeter3 				FgColor		"White"				Linear 	0	0.0001
-	Animate	ChargeMeter4 				FgColor		"White"				Linear 	0	0.0001
+	Animate	ChargeMeter1 				FgColor		"White"				Linear 	0	0.001
+	Animate	ChargeMeter2 				FgColor		"White"				Linear 	0	0.001
+	Animate	ChargeMeter3 				FgColor		"White"				Linear 	0	0.001
+	Animate	ChargeMeter4 				FgColor		"White"				Linear 	0	0.001
 }
 
 //====================================================================================================================
@@ -142,14 +153,14 @@ event HudTournamentSetupPanelClose
 // Spy Disguise
 event HudSpyDisguiseFadeIn
 {
-	Animate HudPlayerClass			Position		"0 0"			Linear 0.0 0.0001
-	Animate classmodelpanel			Position		"0 r200"			Linear 0.0 0.0001
+	Animate HudPlayerClass			Position		"0 0"			Linear 0.0 0.001
+	Animate ModelPin			Position		"0 r200"			Linear 0.0 0.001
 }
 
 event HudSpyDisguiseFadeOut
 {
-	Animate HudPlayerClass			Position		"-200 0"				Linear 0.0 0.0001
-	Animate classmodelpanel			Position		"200 r200"			Linear 0.0 0.0001
+	Animate HudPlayerClass			Position		"-200 0"				Linear 0.0 0.001
+	Animate ModelPin			Position		"200 r200"			Linear 0.0 0.001
 }
 
 event HudSpyDisguiseChanged{}

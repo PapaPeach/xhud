@@ -8,9 +8,22 @@
 		"xpos"			"-200"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"400"
+		"wide"			"500"
 		"wide_minmode"		"200"
 		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"ModelPin"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ModelPin"
+		"xpos"			"200"
+		"ypos"			"r200"
+		"zpos"			"2"
+		"wide"			"1"
+		"tall"			"1"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -19,13 +32,15 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		"xpos"			"200"
-		"ypos"			"r200"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"200"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling"		"ModelPin"
 
 		"render_texture"	"0"
 		"fov"			"12"

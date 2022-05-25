@@ -48,7 +48,6 @@
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"center"
 			"font"			"Size 20"

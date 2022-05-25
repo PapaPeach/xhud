@@ -26,7 +26,6 @@
 			"tall"							"24"
 			"visible"						"1"
 			"enabled"						"1"
-			"tabPosition"					"0"
 			"font"							"Size 30"
 			"textAlignment"					"east"
 			"textinsetx"					"5"
