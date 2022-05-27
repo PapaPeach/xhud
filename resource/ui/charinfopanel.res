@@ -101,19 +101,25 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-295"
-		"ypos"			"437"
+		"xpos"			"0"
+		"ypos"			"rs1"
 		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"25"
+		"wide"			"f0"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
+		"labelText"		"Back"
+		"font"			"Size 30"
 		"textAlignment"	"center"
 		"Command"		"back"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				"UI/buttonclickrelease.wav"
+
+		"paintbackground"				"0"
+		"defaultFgColor_override"		"White"
+		"armedFgColor_override"			"MainTheme"
+		"depressedFgColor_override"		"MainTheme"
 	}
 
 	"NotificationsPresentPanel"

@@ -109,7 +109,6 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
-		"alpha"			"255"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "Blue"
@@ -141,7 +140,6 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
-		"alpha"			"255"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "125 161 255 255"
@@ -173,7 +171,6 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
-		"alpha"			"255"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "161 146 249 255"
@@ -205,7 +202,6 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
-		"alpha"			"255"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "194 129 235 255"
@@ -237,7 +233,6 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
-		"alpha"			"255"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "222 108 212 255"
@@ -265,7 +260,6 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
-		"alpha"			"255"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "244 86 182 255"
@@ -297,7 +291,6 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
-		"alpha"			"255"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "255 63 146 255"
@@ -329,7 +322,6 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
-		"alpha"			"255"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "255 48 107 255"
@@ -361,7 +353,6 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 
-		"alpha"			"255"
 		"fgcolor"			"White"
 		"defaultFgColor_override" "White"
 		"armedFgColor_override" "Red"
@@ -377,16 +368,16 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"rs1"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"6"
-		"wide"			"140"
+		"wide"			"f0"
 		"tall"			"24"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_ClassMenu_Cancel"
-		"textAlignment"	"east"
-		"textinsetx"				"15"
+		"textAlignment"	"center"
+		"textinsetx"				"0"
 		"Command"		"vguicancel"
 		"font"			"Size 28"
 
