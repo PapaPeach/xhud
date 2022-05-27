@@ -7,6 +7,7 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"enabled"		"0"
+		"image"			"../vgui/replay/thumbnails/panels/bg_blank"
 	}
 
 	"WaveCountLabel"
@@ -97,7 +98,7 @@
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
 		"xpos"			"cs-0.5"
-		"ypos"			"17"
+		"ypos"			"5"
 		"zpos"			"0"
 		"wide"			"300"
 		"tall"			"14"
