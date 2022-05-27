@@ -57,7 +57,6 @@
 		"textAlignment"		"center"
 		"dulltext"		"1"
 		"brighttext"		"1"
-		"alpha"		"240"
 	}
 
 	"OverlayImage"		//ABC icons

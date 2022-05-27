@@ -139,6 +139,14 @@
 		"tall"					"480"
 	}
 
+	DisguiseStatus
+	{
+		"xpos"		"0"
+		"ypos"		"rs1"
+		"wide"		"f0"
+		"tall"		"175"
+	}
+
 	CMainTargetID
 	{
 		"xpos"		"cs-0.5"
@@ -162,7 +170,6 @@
 		"wide"	 	"f0"
 		"tall"	 	"35"
 		"tall_minmode"	"35"
-		"priority"	"35"
 	}
 
 	BuildingStatus_Spy
@@ -205,7 +212,7 @@
 	HudDeathNotice
 	{
 		"xpos"	 "r402"
-		"ypos"	 "24"
+		"ypos"	 "23"
 		"wide"	 "400"
 		"tall"	 "200"
 

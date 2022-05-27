@@ -246,7 +246,7 @@
 		"fieldName"		"DetailsLabel"
 		"font"			"Size 8"
 		"xpos"			"cs-0.5"
-		"ypos"			"-1"
+		"ypos"			"-2"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"6"

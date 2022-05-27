@@ -220,6 +220,16 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Class Symbols 36"
+		{
+			"1"
+			{
+				"name"			"TF2 Class Icons V2"
+				"tall"			"36"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
 		"Class Symbols 48"
 		{
 			"1"
