@@ -7,7 +7,7 @@
 		"xpos"			"rs1"
 		"ypos"			"42"
 		"tall"			"20"
-		"wide"			"p0.25"
+		"wide"			"p0.3333"
 		"proportionaltoparent"	"0"
 
 		"button_command"	"play_event"
@@ -20,7 +20,7 @@
 		"xpos"			"rs1"
 		"ypos"			"0"
 		"tall"			"59"
-		"wide"			"p0.25"
+		"wide"			"p0.3333"
 		"proportionaltoparent"	"0"
 
 		"button_token"		"#MMenu_PlayList_Casual_Button"
@@ -41,7 +41,7 @@
 		"xpos"			"rs2"
 		"ypos"			"0"
 		"tall"			"59"
-		"wide"			"p0.25"
+		"wide"			"p0.3333"
 		"proportionaltoparent"	"0"
 
 		"button_token"		"#MMenu_PlayList_Competitive_Button"
@@ -61,31 +61,12 @@
 		"xpos"			"rs3"
 		"ypos"			"0"
 		"tall"			"59"
-		"wide"			"p0.25"
+		"wide"			"p0.3333"
 		"proportionaltoparent"	"0"
 
 		"button_token"		"#MMenu_PlayList_MvM_Button"
 		"button_command"	"play_mvm"
 		"matchgroup"		"1" // k_eTFMatchGroup_MvM_MannUp
-
-		if_event
-		{
-			"ypos"			"3"
-		}
-	}
-
-	"TrainingEntry"
-	{
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"TrainingEntry"
-		"xpos"			"rs4"
-		"ypos"			"0"
-		"tall"			"59"
-		"wide"			"p0.25"
-		"proportionaltoparent"	"0"
-
-		"button_token"		"#MMenu_PlayList_Training_Button"
-		"button_command"	"play_training"
 
 		if_event
 		{

@@ -20,15 +20,13 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"
 		"xpos"			"0"
-		"ypos"			"50"
+		"ypos"			"9999"		//Get rid of the gradient that appears when starting cap
 		"zpos"			"0"
 		"wide"			"300"
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		""
-		"image"			"../vgui/replay/thumbnails/panels/bg_blank"
-		"scaleImage"	"1"
+		"image"			""
 	}
 
 	"LevelBarCustom"
