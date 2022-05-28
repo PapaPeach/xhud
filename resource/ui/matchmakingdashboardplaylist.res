@@ -16,7 +16,6 @@
 
 	"playlist"
 	{
-	//	"ControlName"	"CTFPlaylistPanel"
 		"fieldName"		"playlist"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -25,18 +24,5 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-	}
-
-	"PlayListDropShadow"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"PlayListDropShadow"
-		"xpos"			"9999"
-	}
-	"Title"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"Title"
-		"xpos"		"9999"
 	}
 }
