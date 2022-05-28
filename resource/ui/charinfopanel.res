@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"settitlebarvisible"	"1"
@@ -16,7 +16,7 @@
 		"infocus_bgcolor_override"		"Blank"
 		"outoffocus_bgcolor_override"	"Blank"
 
-		"title"			"#CharInfoAndSetup"
+		"title"			""
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
@@ -25,7 +25,7 @@
 		"titlebarbgcolor_override"				"46 43 42 255"
 
 		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"40"
+		"sheetinset_bottom"				"0"
 	}
 
 	"CharInfoBG"
@@ -49,7 +49,7 @@
 		"fieldName"		"CharInfoTopBar"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-99"
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"24"
 		"visible"		"1"
@@ -64,7 +64,7 @@
 		"fieldName"		"CharInfoBottomBar"
 		"xpos"			"0"
 		"ypos"			"rs1"
-		"zpos"			"-99"
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"20"
 		"visible"		"1"
@@ -77,23 +77,23 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"80"
-		"tabxdelta"		"10"
-		"tabwidth"		"240"
-		"tabheight"		"20"
+		"tabxindent"	"0"
+		"tabxdelta"		"0"
+		"tabwidth"		"0"
+		"tabheight"		"0"
 		"transition_time" "0"
-		"yoffset"	"14"
+		"yoffset"	"35"
 
 		"tabskv"
 		{
-			"textinsetx"		"40"
-			"font"				"HudFontMediumSmallBold"
-			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"
-			"defaultBgColor_override"	"46 43 42 255"
+			"textinsetx"		"0"
+			"font"				""
+			"selectedcolor"		"Blank"
+			"unselectedcolor"	"Blank"
+			"defaultBgColor_override"	"Blank"
 			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
+			"activeborder_override"	"NoBorder"
+			"normalborder_override" "NoBorder"
 		}
 	}
 

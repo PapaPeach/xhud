@@ -77,7 +77,7 @@
 				"wide"			"f1"
 				"tall"			"f-3"
 				"textinsetx"	"8"
-				"visible"		"0"
+				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"#Store_Price_New"
 				"mouseinputenabled" "0"
