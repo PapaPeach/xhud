@@ -1,7 +1,9 @@
 # X Hud
-A TF2 Hud designed to optimize the game and the player, as well as push the development of new techniques in Hud development.
+A TF2 Hud meticulously designed to look clean and cut out everything that doesn't enhance the game for experienced players. Additional special attention has been given to optimizing every aspect of the Hud.
 
 # CREDITS
-**Materials & Stuff:** Hypnotize's [Hypnotize Hud](https://github.com/Hypnootize/TF2-Hud-Crosshairs)
+**Materials and general color scheme:** Hypnotize's [HypnotizeHud](https://github.com/Hypnootize/TF2-Hud-Crosshairs)
 
-**Big Brain Plays:** JarateKing's [basically everything, dude's a wizard](https://github.com/JarateKing)
+**Inspiration for optimization and more efficient code formatting:** Hypnotize's [LightHud](https://github.com/Hypnootize/lighthud)
+
+**Source of many innovative ideas:** JarateKing's [basically everything, dude's a wizard](https://github.com/JarateKing)
