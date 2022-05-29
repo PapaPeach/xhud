@@ -85,6 +85,20 @@
 			"iconColor"		"Blue"
 		}
 
+		"AlertTray"
+		{
+			"ControlName"	"CBuildingStatusAlertTray"
+			"fieldName"		"AlertTray"
+			"xpos"			"4"
+			"ypos"			"r3"
+			"wide"			"41"
+			"tall"			"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"icon"			"obj_status_alert_background"
+			"proportionaltoparent"		"1"
+		}
+
 		"WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -247,15 +261,6 @@
 				"wide"			"0"
 				"enabled"		"0"
 			}
-		}
-
-		"AlertTray"
-		{
-			"ControlName"	"CBuildingStatusAlertTray"
-			"fieldName"		"AlertTray"
-			"xpos"			"9999"
-			"wide"			"0"
-			"enabled"		"0"
 		}
 	}
 

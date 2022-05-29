@@ -25,7 +25,7 @@
 		"titlebarbgcolor_override"				"46 43 42 255"
 
 		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"0"
+		"sheetinset_bottom"				"-2"
 	}
 
 	"CharInfoBG"

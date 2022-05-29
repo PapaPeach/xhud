@@ -64,7 +64,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"160"
-		"tall"			"60"
+		"tall"			"41"
 		"visible"		"0"
 
 		"Icon_Upgrade_1"
@@ -113,6 +113,20 @@
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"Blue"
+		}
+
+		"AlertTray"
+		{
+			"ControlName"	"CBuildingStatusAlertTray"
+			"fieldName"		"AlertTray"
+			"xpos"			"4"
+			"ypos"			"r3"
+			"wide"			"41"
+			"tall"			"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"icon"			"obj_status_alert_background"
+			"proportionaltoparent"		"1"
 		}
 
 		"WrenchIcon"
@@ -347,15 +361,6 @@
 				"wide"			"0"
 				"enabled"		"0"
 			}
-		}
-
-		"AlertTray"
-		{
-		"ControlName"	"CBuildingStatusAlertTray"
-		"fieldName"		"AlertTray"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
 		}
 	}
 
