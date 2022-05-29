@@ -4,7 +4,7 @@
 	{
 		"FindGameAnchor"
 		{
-			"xpos"							"r-672"
+			"xpos"							"r-659"
 		}
 	}
 }

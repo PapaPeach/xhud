@@ -1,5 +1,8 @@
+#base "../../resolutions/16x9_3840x2160/matchmakingdashboard.res"
 #base "../../resolutions/16x9_2560x1440/matchmakingdashboard.res"
 #base "../../resolutions/16x9_1920x1080/matchmakingdashboard.res"
+#base "../../resolutions/16x9_1366x768/matchmakingdashboard.res"
+#base "../../resolutions/16x9_1600x900/matchmakingdashboard.res"
 
 "Resource/UI/MatchMakingDashboard.res"
 {
@@ -31,6 +34,53 @@
 		"tall"								"35"
 		"visible"							"1"
 		"proportionaltoparent"				"1"
+
+		"FindGameAnchor"		//Overriden
+		{
+			"ControlName"					"EditablePanel"
+			"fieldName"						"FindGameAnchor"
+			"ypos"							"5"
+			"zpos"							"0"
+			"wide"							"0"
+			"tall"							"24"
+			"visible"						"1"
+			"bgcolor_override"				"Blank"
+		}
+
+		"FindAGameButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"FindAGameButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"zpos"							"100"
+			"wide"							"80"
+			"tall"							"24"
+			"visible"						"1"
+			"enabled"						"1"
+			"font"							"Size 30"
+			"textAlignment"					"east"
+			"textinsetx"					"5"
+			"Command"						"find_game"
+			"proportionaltoparent"			"1"
+			"labeltext"						"Game"
+			"mouseinputenabled"				"1"
+			"keyboardinputenabled"			"0"
+			"actionsignallevel"				"2"
+			"roundedcorners"				"1"
+			"use_proportional_insets"		"1"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"armedBgColor_override"			"Blank"
+			"defaultBgColor_override"		"Blank"
+
+			"defaultFgColor_override" 		"White"
+			"armedFgColor_override" 		"Green"
+
+			"pin_to_sibling" 				"FindGameAnchor"
+		}
 
 		"ToggleChatButton"
 		{

@@ -1,8 +1,26 @@
+#base "../../resolutions/16x9_3840x2160/hudplayerhealth.res"
 #base "../../resolutions/16x9_2560x1440/hudplayerhealth.res"
 #base "../../resolutions/16x9_1920x1080/hudplayerhealth.res"
+#base "../../resolutions/16x9_1366x768/hudplayerhealth.res"
+#base "../../resolutions/16x9_1600x900/hudplayerhealth.res"
 
 "Resource/UI/HudPlayerHealth.res"
 {
+	"HudPlayerHealth"		//Overriden		HealthBonusPosAdj=364-(61/320)(W1-W2)
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"HudPlayerHealth"
+		"xpos"						"c-150"
+		"ypos"						"c65"
+		"zpos"						"0"
+		"wide"						"80"
+		"tall"						"30"
+		"visible"					"1"
+		"enabled"					"1"
+		"HealthDeathWarning"		"2.0"
+		"HealthDeathWarningColor"	"Blank"
+	}
+
 	"HealthAnchor"
 	{
 		"ControlName"				"EditablePanel"
