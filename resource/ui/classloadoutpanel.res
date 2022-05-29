@@ -15,8 +15,8 @@
 		"infocus_bgcolor_override" "BlackLight"
 		"outoffocus_bgcolor_override" "BlackLight"
 
-		"item_xpos_offcenter_a"	"-286"
-		"item_xpos_offcenter_b"	"146"
+		"item_xpos_offcenter_a"	"-288"
+		"item_xpos_offcenter_b"	"148"
 		"item_ypos"		"60"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"

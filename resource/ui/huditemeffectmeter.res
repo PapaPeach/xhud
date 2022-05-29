@@ -19,17 +19,48 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
-		"ypos"					"-1"
+		"ypos"					"0"
 		"zpos"					"5"
 		"wide"					"f0"
-		"tall"					"4"
+		"tall"					"2"
 		"visible"				"1"
 		"enabled"				"0"
 		"labelText"				"#TF_Ball"
-		"textAlignment"			"center"
-		"font"					"Size 4"
+		"textAlignment"			"east"
+		"textinsetx"		"1"
+		"font"					"Size 89 Lines"
 		"fgcolor_override"		"Black"
 		"proportionaltoparent"		"1"
+	}
+
+	"MeterLine1"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MeterLine1"
+		"xpos"		"20"
+		"wide"		"1"
+		"tall"		"2"
+		"bgcolor_override"		"Red"
+	}
+
+	"MeterLine2"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MeterLine2"
+		"xpos"		"40"
+		"wide"		"1"
+		"tall"		"2"
+		"bgcolor_override"		"Yellow"
+	}
+
+	"MeterLine3"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MeterLine1"
+		"xpos"		"60"
+		"wide"		"1"
+		"tall"		"2"
+		"bgcolor_override"		"Blue"
 	}
 
 	"ItemEffectMeter"

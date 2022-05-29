@@ -6,7 +6,7 @@
 		"fieldName"				"HorizontalThird1"
 		"xpos"					"0"
 		"ypos"					"160"
-		"zpos"					"0"
+		"zpos"					"10000"
 		"wide"					"f0"
 		"tall"					"1"
 		"visible"				"0"			//1 to enable
@@ -21,7 +21,7 @@
 		"fieldName"				"HorizontalThird2"
 		"xpos"					"0"
 		"ypos"					"320"
-		"zpos"					"0"
+		"zpos"					"10000"
 		"wide"					"f0"
 		"tall"					"1"
 		"visible"				"0"			//1 to enable
@@ -36,7 +36,7 @@
 		"fieldName"				"VerticalThird1"
 		"xpos"					"285"
 		"ypos"					"0"
-		"zpos"					"0"
+		"zpos"					"10000"
 		"wide"					"1"
 		"tall"					"f0"
 		"visible"				"0"			//1 to enable
@@ -51,7 +51,7 @@
 		"fieldName"				"VerticalThird2"
 		"xpos"					"r285"
 		"ypos"					"0"
-		"zpos"					"0"
+		"zpos"					"10000"
 		"wide"					"1"
 		"tall"					"f0"
 		"visible"				"0"			//1 to enable
@@ -106,7 +106,9 @@
 	HudDemomanCharge
 	{
 		"xpos"			"cs-0.5"
+		"xpos_minmode"	"cs-0.5"
 		"ypos"			"c39"
+		"ypos_minmode"	"c39"
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"30"
@@ -199,12 +201,12 @@
 
 	"HudDamageIndicator"
 	{
-		"MinimumWidth"		"10"
-		"MaximumWidth"		"25"
+		"MinimumWidth"		"4"
+		"MaximumWidth"		"20"
 		"StartRadius"			"80"
 		"EndRadius"				"80"
 		"MinimumHeight"		"25"
-		"MaximumHeight"		"60"
+		"MaximumHeight"		"65"
 		"MinimumTime"			"1"
 		"FadeOutPercentage"	"0.8"
 	}
@@ -248,7 +250,7 @@
 	WinPanel
 	{
 		"xpos"					"cs-0.5"
-		"ypos"					"r100"
+		"ypos"					"r99"
 		"wide"					"220"
 		"tall"					"110"
 		"zpos"					"4"
@@ -289,7 +291,9 @@
 	HudDemomanPipes
 	{
 		"xpos"				"cs-0.5"
+		"xpos_minmode"	"cs-0.5"
 		"ypos"				"c25"
+		"ypos_minmode"	"c25"
 		"wide"				"80"
 		"tall"				"30"
 	}

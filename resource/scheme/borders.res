@@ -963,7 +963,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"Normal_Hover"
+			"color"					"Normal"
 
 			"image"					"replay/thumbnails/panels/Material_Generic"
 			"src_corner_height"		"24"
@@ -989,7 +989,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"Normal_Hover"
+			"color"					"Normal"
 
 			"image"					"replay/thumbnails/panels/Material_Generic"
 			"src_corner_height"		"24"
@@ -1002,7 +1002,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"Normal_Hover"
+			"color"					"Normal"
 
 			"image"					"replay/thumbnails/panels/Material_Generic"
 			"src_corner_height"		"24"
