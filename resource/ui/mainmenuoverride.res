@@ -4,7 +4,6 @@
 #base "../../resolutions/16x9_1920x1080/mainmenuoverride.res"
 #base "../../resolutions/16x9_1366x768/mainmenuoverride.res"
 #base "../../resolutions/16x9_1600x900/mainmenuoverride.res"
-#base "resolutionwarning.res"
 #base "../../customizations/tools_rcon.res"
 
 "Resource/UI/MainMenuOverride.res"

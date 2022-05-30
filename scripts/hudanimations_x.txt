@@ -2,11 +2,11 @@
 
 event HudSnapShotReminderIn		//Resets various things on death
 {
-    RunEvent HudHealthDyingPulseStop 0.001
-    RunEvent HudHealthBonusPulseStop 0.001
-    RunEvent HudLowAmmoPulseStop 0.001
-    RunEvent HudMedicChargedStop 0.001
-		RunEvent HudSpyDisguiseFadeOut 0.001
+    RunEvent HudHealthDyingPulseStop 1.0
+    RunEvent HudHealthBonusPulseStop 1.0
+    RunEvent HudLowAmmoPulseStop 1.0
+    RunEvent HudMedicChargedStop 1.0
+		RunEvent HudSpyDisguiseFadeOut 1.0
 }
 
 //====================================================================================================================
@@ -172,6 +172,26 @@ event CompetitiveGame_LowerChatWindow{}
 event CompetitiveGame_RestoreChatWindow{}
 event HudTournament_MoveChatWindow{}
 
+//====================================================================================================================
+
+//ReadyUp Timers
+event HudTournament_ShowTimerCompetitive
+{
+	SetVisible CountdownLabel 1 0
+}
+
+event HudTournament_ShowTimerDefault
+{
+	SetVisible CountdownLabel 1 0
+}
+
+event HudTournament_HideTimer
+{
+	SetVisible CountdownLabel 0 0
+}
+
+//====================================================================================================================
+
 //Removed stuff - Credit to Hypnotize's LightHud
 event ControlPointIconShrink{}
 event ControlPointIconGrow{}
@@ -203,12 +223,12 @@ event RDPositiveScorePulse{}
 event RDNegativeScorePulse{}
 event HudTournament_AnimateTeams_In{}
 event HudTournament_AnimateTeams_Out{}
-event HudMatchStatus_ShowMatchStartDoors{}
+//event HudMatchStatus_ShowMatchStartDoors{}
 event HudMatchStatus_ShowRankMatch{}
-event HudTournament_DoorsCleanup{}
+//event HudTournament_DoorsCleanup{}
 event PlayDoorSlamParticles{}
-event PlayDoorCloseAnim{}
-event PlayDoorOpenAnim{}
+//event PlayDoorCloseAnim{}
+//event PlayDoorOpenAnim{}
 event HudTournament_ShowRoundSign{}
 event HudTournament_PlaySignAnim{}
 event HudMatchStatus_ShowMatchWinDoors{}

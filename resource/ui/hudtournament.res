@@ -28,7 +28,7 @@
 
 		if_mvm
 		{
-			"ypos"					"45"
+			"ypos"					"48"
 			"team2_player_delta_x"			"45"
 		}
 
@@ -129,6 +129,11 @@
 				//	"tall"			"p0.28"
 				//	"proportionaltoparent" "1"
 				//}
+
+				if_mvm
+				{
+					"ypos"		"10"
+				}
 			}
 
 			"chargeamount"
@@ -379,7 +384,7 @@
 		"fieldName"		"CountdownLabel"
 		"font"			"Size 28 Shadow"
 		"xpos"			"cs-0.5"
-		"ypos"			"55"
+		"ypos"			"28"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"5"

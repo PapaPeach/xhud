@@ -6,7 +6,7 @@
 
 "Resource/UI/HudPlayerHealth.res"
 {
-	"HudPlayerHealth"		//Overriden		HealthBonusPosAdj=364-(61/320)(W1-W2)
+	"HudPlayerHealth"		//Overriden		HealthBonusPosAdj=364-(61/320)(1920-W)
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HudPlayerHealth"
@@ -48,6 +48,42 @@
 		"image"						"../vgui/replay/thumbnails/panels/bg_generic"
 		"scaleImage"				"1"
 		"alpha"						"0"
+	}
+
+	"MeterLine1"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MeterLine1"
+		"xpos"		"20"
+		"ypos"		"28"
+		"zpos"		"3"
+		"wide"		"1"
+		"tall"		"2"
+		"bgcolor_override"		"Red"
+	}
+
+	"MeterLine2"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MeterLine2"
+		"xpos"		"40"
+		"ypos"		"28"
+		"zpos"		"3"
+		"wide"		"1"
+		"tall"		"2"
+		"bgcolor_override"		"Yellow"
+	}
+
+	"MeterLine3"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MeterLine1"
+		"xpos"		"60"
+		"ypos"		"28"
+		"zpos"		"3"
+		"wide"		"1"
+		"tall"		"2"
+		"bgcolor_override"		"Blue"
 	}
 
 	"HealthBarBG"

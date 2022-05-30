@@ -28,7 +28,7 @@
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"east"
 		"textinsetx"		"1"
-		"font"					"Size 89 Lines"
+		"font"					"Size 9 Lines"
 		"fgcolor_override"		"Black"
 		"proportionaltoparent"		"1"
 	}

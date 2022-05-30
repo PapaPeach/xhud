@@ -3,6 +3,7 @@
 #base "../../resolutions/16x9_1920x1080/matchmakingdashboard.res"
 #base "../../resolutions/16x9_1366x768/matchmakingdashboard.res"
 #base "../../resolutions/16x9_1600x900/matchmakingdashboard.res"
+#base "resolutionwarning.res"
 
 "Resource/UI/MatchMakingDashboard.res"
 {
