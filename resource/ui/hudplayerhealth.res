@@ -126,7 +126,7 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HealthBarOverheal"
-		"xpos"						"-400"
+		"xpos"						"-413"
 		"ypos"						"29"
 		"zpos"						"6"
 		"wide"						"250"

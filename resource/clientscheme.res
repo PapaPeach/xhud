@@ -14,6 +14,7 @@
 
 #base "../resource/scheme/fonts.res"
 #base "../resource/scheme/symbols.res"
+#base "../customizations/crosshair_hitmarker_tuning.res"
 
 ///////////////////////////////////////////
 //////////////////BORDERS//////////////////

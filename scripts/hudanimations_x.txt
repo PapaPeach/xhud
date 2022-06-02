@@ -11,13 +11,28 @@ event HudSnapShotReminderIn		//Resets various things on death
 
 //====================================================================================================================
 
+//Hitmarker
+event DamagedPlayer
+{
+  StopEvent AnimateHitmarker 0.0
+  RunEvent AnimateHitmarker 0.0
+}
+
+event AnimateHitmarker
+{
+  Animate Hitmarker   FgColor   "Red"   Linear 0.0 0.001
+  Animate Hitmarker   FgColor   "Blank"   Linear 0.3 0.1
+}
+
+//====================================================================================================================
+
 event HudHealthBonusPulse
 {
 	Animate HealthBarOverheal			BgColor		"Blue"							Linear	0.0 	0.0
 
 	Animate HealthBarLowHealth			BgColor		"Blank"							Linear	0.0 	0.0
 
-	Animate PeachHealthBGSpec 			BgColor		"Blue"							Linear	0.0 	0.001		//Can't be set to 0.0 because???
+	Animate PeachHealthBGSpec 			BgColor		"Blue"							Linear	0.0 	0.001
 }
 
 event HudHealthBonusPulseStop
@@ -28,21 +43,21 @@ event HudHealthBonusPulseStop
 
 	Animate HealthBarLowHealth			BgColor		"Low Health"					Linear	0.0 	0.0
 
-	Animate PeachHealthBGSpec 			BgColor		"White"							Linear	0.0 	0.001		//Can't be set to 0.0 because???
+	Animate PeachHealthBGSpec 			BgColor		"White"							Linear	0.0 	0.001
 }
 
 //====================================================================================================================
 
 event HudHealthDyingPulse
 {
-	Animate PeachHealthBGSpec 			BgColor		"Low Health"					Linear	0.0 	0.001		//Can't be set to 0.0 because???
+	Animate PeachHealthBGSpec 			BgColor		"Low Health"					Linear	0.0 	0.001
 }
 
 event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse		0.0
 
-	Animate PeachHealthBGSpec 			BgColor		"White"							Linear	0.0 	0.001		//Can't be set to 0.0 because???
+	Animate PeachHealthBGSpec 			BgColor		"White"							Linear	0.0 	0.001
 }
 
 //====================================================================================================================
@@ -103,7 +118,7 @@ event HudMedicChargedStop
 
 //====================================================================================================================
 
-//Match hud respawn timer
+//Match hud respawn
 event TeamStatus_PlayerDead
 {
 	SetVisible respawntime  1 0.0
@@ -150,7 +165,7 @@ event HudTournamentSetupPanelClose
 
 //====================================================================================================================
 
-// Spy Disguise
+// Show player model on spy disguise
 event HudSpyDisguiseFadeIn
 {
 	Animate HudPlayerClass			Position		"0 0"			Linear 0.0 0.001
@@ -192,6 +207,22 @@ event HudTournament_HideTimer
 
 //====================================================================================================================
 
+//Testing fix for xp lag
+event PvPRankLevelUpXPBar{}
+event PvPRankLevelDownXPBar{}
+
+//====================================================================================================================
+
+//Experimental
+event PyroVsHeavyWar_ShowChooseScene
+{
+  SetVisible "Transparent"  1 0
+}
+
+event PyroVsHeavyWar_PyroWinnerScene{}
+
+//====================================================================================================================
+
 //Removed stuff - Credit to Hypnotize's LightHud
 event ControlPointIconShrink{}
 event ControlPointIconGrow{}
@@ -223,30 +254,32 @@ event RDPositiveScorePulse{}
 event RDNegativeScorePulse{}
 event HudTournament_AnimateTeams_In{}
 event HudTournament_AnimateTeams_Out{}
-//event HudMatchStatus_ShowMatchStartDoors{}
+event HudMatchStatus_ShowMatchStartDoors{}
 event HudMatchStatus_ShowRankMatch{}
-//event HudTournament_DoorsCleanup{}
+event HudTournament_DoorsCleanup{}
 event PlayDoorSlamParticles{}
-//event PlayDoorCloseAnim{}
-//event PlayDoorOpenAnim{}
+event PlayDoorCloseAnim{}
+event PlayDoorOpenAnim{}
 event HudTournament_ShowRoundSign{}
 event HudTournament_PlaySignAnim{}
 event HudMatchStatus_ShowMatchWinDoors{}
 event HudMatchStatus_ShowMatchWinDoors_NoOpen{}
-event MMenu_PlayList_Expand{}
-event MMenu_PlayList_Collapse{}
-event MMenu_PlayList_Collapse_Immediate{}
+event MMenu_PlayList_Expand{}         //
+event MMenu_PlayList_Collapse{}         //
+event MMenu_PlayList_Collapse_Immediate{}         //
 event MMenu_SafeMode_Blink{}
 event PvPRankModelClicked{}
+//event PvPRankLevelUpXPBar{}
 event PvPRankLevelUpModel{}
+//event PvPRankLevelDownXPBar{}
 event PvPRankLevelDownModel{}
 event CompetitiveGame_ShowPvPRankPanel{}
-event PyroVsHeavyWar_ShowChooseScene{}
-event PyroVsHeavyWar_PyroWinnerScene{}
-event CasualCategory_Checkbox_Hide{}
-event CasualCategory_Checkbox_Show{}
-event CasualCategory_Selected{}
-event CasualCategory_NotSelected{}
+//event PyroVsHeavyWar_ShowChooseScene{}
+//event PyroVsHeavyWar_PyroWinnerScene{}
+event CasualCategory_Checkbox_Hide{}         //
+event CasualCategory_Checkbox_Show{}         //
+event CasualCategory_Selected{}         //
+event CasualCategory_NotSelected{}         //
 event HealthProgressBar_Selected{}
 event HealthProgressBar_NotSelected{}
 event MMenu_UpdateButton_StartGlow{}
@@ -256,3 +289,9 @@ event XPSourceShow_Negative{}
 event MapVoted{}
 event WinningNextMapVote{}
 event LosingNextMapVote{}
+
+//My removed stuff
+event SurveyShowSequence{}
+event SurveySubmitSequence{}
+event SurveyDelete{}
+event SurveyHideSequence{}

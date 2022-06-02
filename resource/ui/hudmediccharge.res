@@ -50,6 +50,42 @@
 		"bgcolor_override"		"TransparentGrayDarkest"
 	}
 
+	"MeterLine1"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MeterLine1"
+		"xpos"		"-15"
+		"wide"		"1"
+		"tall"		"2"
+		"bgcolor_override"		"Red"
+
+		"pin_to_sibling"		"ChargeMeter"
+	}
+
+	"MeterLine2"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MeterLine2"
+		"xpos"		"-30"
+		"wide"		"1"
+		"tall"		"2"
+		"bgcolor_override"		"Yellow"
+
+		"pin_to_sibling"		"ChargeMeter"
+	}
+
+	"MeterLine3"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MeterLine1"
+		"xpos"		"-45"
+		"wide"		"1"
+		"tall"		"2"
+		"bgcolor_override"		"Blue"
+
+		"pin_to_sibling"		"ChargeMeter"
+	}
+
 	"VaccPin"
 	{
 		"ControlName"	"CExLabel"
@@ -69,10 +105,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter1"
 		"font"			"Default"
-		"xpos"			"2"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"14"
+		"wide"			"15"
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -89,10 +125,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter2"
 		"font"			"Default"
-		"xpos"			"-1"
+		"xpos"			"0"
 		"ypos"			"-6"
 		"zpos"			"4"
-		"wide"			"14"
+		"wide"			"15"
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -109,10 +145,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter3"
 		"font"			"Default"
-		"xpos"			"-1"
+		"xpos"			"0"
 		"ypos"			"-6"
 		"zpos"			"4"
-		"wide"			"14"
+		"wide"			"15"
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
@@ -129,10 +165,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter4"
 		"font"			"Default"
-		"xpos"			"2"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"
-		"wide"			"14"
+		"wide"			"15"
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"

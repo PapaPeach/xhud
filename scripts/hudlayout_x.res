@@ -314,4 +314,26 @@
 		"wide"					"180"
 		"tall"					"65"
 	}
+
+	"HudAchievementTracker"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HudAchievementTracker"
+		"xpos"			"0"
+		"NormalY"		"0"
+		"EngineerY"		"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
+	"ItemAttributeTracker"		//Enemy hit indicator
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+	}
 }

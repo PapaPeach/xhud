@@ -5,7 +5,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"CharInfoLoadoutSubPanel"
 		"xpos"			"0"
-		"ypos"			"40"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
@@ -312,8 +312,8 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowBackpackButton"
-		"xpos"				"0"
-		"ypos"				"12"
+		"xpos"				"2"
+		"ypos"				"135+2"
 		"zpos"				"690"
 		"wide"				"30"
 		"tall"				"30"
@@ -328,10 +328,6 @@
 		"inactiveimage"		"..\hud\backpack_01_grey"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"pin_to_sibling" 			"ShowCraftingButton"
-		"pin_corner_to_sibling" 	"6"
-		"pin_to_sibling_corner" 	"4"
 	}
 
 	"ShowCraftingButton"
@@ -339,7 +335,7 @@
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowCraftingButton"
 		"xpos"				"0"
-		"ypos"				"12"
+		"ypos"				"8"
 		"zpos"				"690"
 		"wide"				"30"
 		"tall"				"30"
@@ -355,31 +351,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"pin_to_sibling" 			"ShowArmoryButton"
-		"pin_corner_to_sibling" 	"6"
-		"pin_to_sibling_corner" 	"4"
-	}
-
-	"ShowArmoryButton"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"ShowArmoryButton"
-		"xpos"				"14"
-		"ypos"				"c-60"
-		"zpos"				"690"
-		"wide"				"30"
-		"tall"				"30"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"&E"
-		"textAlignment"		"center"
-		"Command"			"armory"
-		"font"				"Size 10 Uber"
-		"scaleImage"		"1"
-		"activeimage"		"catalog_book"
-		"inactiveimage"		"catalog_book_gray"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"pin_to_sibling" 			"ShowBackpackButton"
+		"pin_corner_to_sibling" 	"4"
+		"pin_to_sibling_corner" 	"6"
 	}
 
 	"ShowTradeButton"
@@ -387,13 +361,13 @@
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowTradeButton"
 		"xpos"				"0"
-		"ypos"				"12"
+		"ypos"				"8"
 		"zpos"				"690"
 		"wide"				"30"
 		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"&R"
+		"labelText"			"&E"
 		"textAlignment"		"center"
 		"Command"			"trading"
 		"font"				"Size 10 Uber"
@@ -403,7 +377,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"pin_to_sibling" 			"ShowArmoryButton"
+		"pin_to_sibling" 			"ShowCraftingButton"
 		"pin_corner_to_sibling" 	"4"
 		"pin_to_sibling_corner" 	"6"
 	}
@@ -413,13 +387,13 @@
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowPaintkitsButton"
 		"xpos"				"0"
-		"ypos"				"12"
+		"ypos"				"8"
 		"zpos"				"690"
 		"wide"				"30"
 		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"&T"
+		"labelText"			"&R"
 		"textAlignment"		"center"
 		"Command"			"paintkit_preview"
 		"font"				"Size 10 Uber"
@@ -484,7 +458,7 @@
 		"fgcolor_override" "Red"
 	}
 
-	"LoadoutChangesLabel"
+	"LoadoutChangesLabel"		//IDK what this is
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadoutChangesLabel"
@@ -498,7 +472,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "Red"
 	}
 
 	"class_loadout_panel"
@@ -550,6 +524,13 @@
 		"bgcolor_override"	"Blank"
 	}
 
+	"ShowArmoryButton"
+	{
+		"ControlName"		"ImageButton"
+		"fieldName"			"ShowArmoryButton"
+		"xpos"				"9999"
+		"enabled"			"1"
+	}
 	"ShowPaintkitsLabel"
 	{
 		"ControlName"	"CExLabel"
