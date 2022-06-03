@@ -2,6 +2,6 @@
 {
 	"Transparent"
 	{
-		"image"			"replay/thumbnails/transparent60"
+		"image"			"replay/thumbnails/transparent45"
 	}
 }

@@ -1,36 +1,23 @@
-#base "../../customizations/crosshair_hitmarker.res"
+#base "../../customizations/transparent_viewmodels_75.res"
+#base "../../customizations/transparent_viewmodels_60.res"
+#base "../../customizations/transparent_viewmodels_45.res"
 
 "Resource/UI/HudAchievementTrackerItem.res"
 {
-	"Crosshair"
+	"Transparent"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName" 	"Crosshair"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"-10"
-		"wide"			"100"
-		"tall"			"100"
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"Transparent"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
 		"enabled"		"1"
-		"TextAlignment"		"center"
-		"font"			"Crosshair"
+		"scaleImage"	"1"
 	}
 
-	"Hitmarker"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName" 	"Hitmarker"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"-9"
-		"wide"			"100"
-		"tall"			"100"
-		"enabled"		"1"
-		"TextAlignment"		"center"
-		"font"			"Hitmarker"
-		"fgcolor"		"Blank"
-	}
-
+	//TODO: check this
 	"ItemAttributeTracker"
 	{
 		"fieldName" 	"ItemAttributeTracker"

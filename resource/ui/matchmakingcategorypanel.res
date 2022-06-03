@@ -259,6 +259,8 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
+		"skip_autoresize"	"1"
+
 		"border"		"InnerShadowBorder"
 		"bgcolor_override"	"TransparentBlack"
 	}

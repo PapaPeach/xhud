@@ -384,53 +384,40 @@
 			"pin_to_sibling_corner" "5"
 		}
 
-		"CrosshairHitmarker"
+		"CrosshairRedSlider"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"CrosshairHitmarker"
-			"font"			"Size 16"
-			"labelText"		"Crosshair / Hitmarker"
-			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"4"
-			"zpos"			"20"
-			"wide"			"284"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"White"
-			"Command"			"engine tf_contract_progress_show 1; tf_contract_competitive_show 1"
-			"actionsignallevel"		"2"
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"CrosshairRedSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"100"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"20"
+			"cvar_name"				"tf_hud_notification_duration"	//actual command
 
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-
-			"pin_to_sibling" "TransparentViewmodels"
-			"pin_corner_to_sibling" "2"
-			"pin_to_sibling_corner" "0"
+			"pin_to_sibling" "NotificationsTime"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
 		}
 
-		"TransparentViewmodels"
+		"TVMLabel"
 		{
 			"ControlName"	"CExButton"
-			"fieldName"		"TransparentViewmodels"
+			"fieldName"		"TVMLabel"
 			"font"			"Size 16"
-			"labelText"		"TransparentViewmodels"
-			"textAlignment"	"center"
+			"labelText"		"Transparent Viewmodels:"
+			"textAlignment"	"west"
 			"xpos"			"-4"
 			"ypos"			"-4"
 			"zpos"			"20"
-			"wide"			"284"
+			"wide"			"178"
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"White"
-			"Command"			"OpenAchievementsDialog"
+			"Command"			"engine incrementvar tf_contract_progress_show 0 1 1;incrementvar tf_contract_competitive_show 0 1 1"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -438,14 +425,63 @@
 
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"		"Blank"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
 
 			"pin_to_sibling" "Tools_Panel"
 			"pin_corner_to_sibling" "2"
 			"pin_to_sibling_corner" "2"
 		}
 
+		"TVMCheck"
+		{
+			"ControlName"		"CvarToggleCheckButton"
+			"fieldName"		"TVMCheck"
+			"xpos"		"-18"
+			"ypos"		"0"
+			"zpos"		"20"
+			"wide"		"18"
+			"tall"		"20"
+			"labeltext"		""
+			"textAlignment"	"west"
+			"smallcheckimage"	"1"
+			"button_activation_type"	"1"
+			"cvar_name" "tf_contract_progress_show"
+			"mouseinputenabled"	"0"
+
+			"pin_to_sibling" "TVMLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"TVMTroubleShoot"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"TVMTroubleShoot"
+			"font"			"Size 16"
+			"labelText"		"Not Working?"
+			"textAlignment"	"center"
+			"xpos"			"12"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"92"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+			"Command"			"engine showconsole;echo ~~~~~~~~~~~~~~~~~~~~~~~~~;echo ; echo ENSURE_THE_VALUE_OF_THESE;echo ;mat_motion_blur_enabled;echo ;mat_motion_blur_strength;echo ;mat_disable_bloom;echo ;mat_hdr_level;echo ;mat_colorcorrection;echo ;mat_colcorrection_disableentities;echo ;echo MATCH_THE_VALUE_OF_THESE; echo ;echo mat_motion_blur_enabled 1;echo mat_motion_blur_strength 0;echo mat_disable_bloom 1;echo mat_hdr_level 0;echo mat_colcorrection_disableentities 1;echo mat_colorcorrection 0"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "TVMCheck"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
 
 		"MOTD_URLButton"
 		{
