@@ -560,18 +560,6 @@ Scheme
 			"draw_corner_height" 	"0"
 		}
 
-		TrasparentViewmodelBorder
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-
-			"image"					"replay/thumbnails/transparent80"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-
 		////////////////////////////////////////////////////////////////////////////////////
 		////////////////////HEALTH BOX MATERIALS FOR TARGETID AND KILLCAM///////////////////
 		////////////////////////////////////////////////////////////////////////////////////

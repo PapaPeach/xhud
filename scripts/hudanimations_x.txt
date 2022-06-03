@@ -221,6 +221,8 @@ event PyroVsHeavyWar_ShowChooseScene
 
 event PyroVsHeavyWar_PyroWinnerScene{}
 
+event HudMatchStatus_ShowCountdown{}
+
 //====================================================================================================================
 
 //Removed stuff - Credit to Hypnotize's LightHud
@@ -264,9 +266,9 @@ event HudTournament_ShowRoundSign{}
 event HudTournament_PlaySignAnim{}
 event HudMatchStatus_ShowMatchWinDoors{}
 event HudMatchStatus_ShowMatchWinDoors_NoOpen{}
-event MMenu_PlayList_Expand{}         //
-event MMenu_PlayList_Collapse{}         //
-event MMenu_PlayList_Collapse_Immediate{}         //
+event MMenu_PlayList_Expand{}
+event MMenu_PlayList_Collapse{}
+event MMenu_PlayList_Collapse_Immediate{}
 event MMenu_SafeMode_Blink{}
 event PvPRankModelClicked{}
 //event PvPRankLevelUpXPBar{}
@@ -276,10 +278,10 @@ event PvPRankLevelDownModel{}
 event CompetitiveGame_ShowPvPRankPanel{}
 //event PyroVsHeavyWar_ShowChooseScene{}
 //event PyroVsHeavyWar_PyroWinnerScene{}
-event CasualCategory_Checkbox_Hide{}         //
-event CasualCategory_Checkbox_Show{}         //
-event CasualCategory_Selected{}         //
-event CasualCategory_NotSelected{}         //
+event CasualCategory_Checkbox_Hide{}
+event CasualCategory_Checkbox_Show{}
+event CasualCategory_Selected{}
+event CasualCategory_NotSelected{}
 event HealthProgressBar_Selected{}
 event HealthProgressBar_NotSelected{}
 event MMenu_UpdateButton_StartGlow{}
