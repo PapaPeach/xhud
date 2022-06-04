@@ -205,11 +205,7 @@ event HudTournament_HideTimer
 	SetVisible CountdownLabel 0 0
 }
 
-//====================================================================================================================
-
-//Testing fix for xp lag
-event PvPRankLevelUpXPBar{}
-event PvPRankLevelDownXPBar{}
+//event HudMatchStatus_ShowCountdown{}
 
 //====================================================================================================================
 
@@ -220,8 +216,6 @@ event PyroVsHeavyWar_ShowChooseScene
 }
 
 event PyroVsHeavyWar_PyroWinnerScene{}
-
-event HudMatchStatus_ShowCountdown{}
 
 //====================================================================================================================
 
@@ -271,9 +265,9 @@ event MMenu_PlayList_Collapse{}
 event MMenu_PlayList_Collapse_Immediate{}
 event MMenu_SafeMode_Blink{}
 event PvPRankModelClicked{}
-//event PvPRankLevelUpXPBar{}
+event PvPRankLevelUpXPBar{}
 event PvPRankLevelUpModel{}
-//event PvPRankLevelDownXPBar{}
+event PvPRankLevelDownXPBar{}
 event PvPRankLevelDownModel{}
 event CompetitiveGame_ShowPvPRankPanel{}
 //event PyroVsHeavyWar_ShowChooseScene{}

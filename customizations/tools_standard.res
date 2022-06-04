@@ -1060,7 +1060,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"White"
-			"Command"			"engine incrementvar tf_contract_progress_show 0 1 1;incrementvar tf_contract_competitive_show 0 1 1"
+			"Command"			"engine toggle tf_contract_progress_show 0 2;toggle tf_contract_competitive_show 0 2"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"

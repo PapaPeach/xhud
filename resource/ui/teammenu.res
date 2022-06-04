@@ -230,6 +230,32 @@
 		"pin_to_sibling_corner" 	"7"
 	}
 
+	"CancelButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CancelButton"
+		"xpos"			"cs-0.5"
+		"ypos"			"24"
+		"zpos"			"5"
+		"wide"			"42"
+		"tall"			"f44"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"Cancel"
+		"textAlignment"	"center"
+		"textinsety"				"90"
+		"command"		"cancelmenu"
+		"font"			"Size 12"
+		"centerwrap"		"1"
+		"paintbackground"			"0"
+
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"WhiteGray"
+	}
+
 	"teambutton2"
 	{
 		"ControlName"				"CTFTeamButton"
@@ -318,29 +344,6 @@
 		"mouseinputenabled"			"0"
 
 		"pin_to_sibling" 			"teambutton3"
-	}
-
-	"CancelButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CancelButton"
-		"xpos"			"rs1"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"f0"
-		"tall"			"24"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"&0"
-		"textAlignment"	"east"
-		"textinsetx"				"15"
-		"command"		"cancelmenu"
-		"font"			"Size 28"
-
-		"paintbackground"			"1"
-		"defaultBgColor_override"	"Blank"
-		"armedBgColor_override"		"127 128 130 150"
-		"depressedBgColor_override"	"127 128 130 150"
 	}
 
 	"MenuBG"
