@@ -59,7 +59,7 @@
 		"zpos"		"3"
 		"wide"		"1"
 		"tall"		"2"
-		"bgcolor_override"		"Red"
+		"bgcolor_override"		"Black"
 	}
 
 	"MeterLine2"
@@ -71,7 +71,7 @@
 		"zpos"		"3"
 		"wide"		"1"
 		"tall"		"2"
-		"bgcolor_override"		"Yellow"
+		"bgcolor_override"		"Black"
 	}
 
 	"MeterLine3"
@@ -83,7 +83,7 @@
 		"zpos"		"3"
 		"wide"		"1"
 		"tall"		"2"
-		"bgcolor_override"		"Blue"
+		"bgcolor_override"		"Black"
 	}
 
 	"HealthBarBG"

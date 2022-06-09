@@ -64,6 +64,78 @@
 	//										TF2 Stuff										//
 	////////////////////////////////////////////////////
 
+	"speed1"
+	{
+		"controlName" 	"CTFImagePanel"
+		"fieldName" 	"speed1"
+		"visible" 	"1"
+		"enabled" 	"1"
+		"xpos" 	"9999"
+		"ypos" 	"c16"
+		"zpos"	 "0"
+		"wide"	 "10"
+		"tall"	 "10"
+		"image" "replay/thumbnails/speedometer/xspeed1"
+		"scaleimage" "1"
+	}
+
+	"speed10"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "speed10"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "0"
+		"wide" "10"
+		"tall" "10"
+		"image" "replay/thumbnails/speedometer/xspeed2"
+		"scaleimage" "1"
+
+		"pin_to_sibling" "speed1"
+		"pin_corner_to_sibling" "5"
+		"pin_to_sibling_corner" "7"
+	}
+
+	"speed100"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "speed100"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "0"
+		"wide" "10"
+		"tall" "10"
+		"image" "replay/thumbnails/speedometer/xspeed3"
+		"scaleimage" "1"
+
+		"pin_to_sibling" "speed10"
+		"pin_corner_to_sibling" "5"
+		"pin_to_sibling_corner" "7"
+	}
+
+	"speed1000"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "speed1000"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "0"
+		"wide" "10"
+		"tall" "10"
+		"image" "replay/thumbnails/speedometer/xspeed4"
+		"scaleimage" "1"
+
+		"pin_to_sibling" "speed100"
+		"pin_corner_to_sibling" "5"
+		"pin_to_sibling_corner" "7"
+	}
+
 	"Crosshair"
 	{
 		"ControlName"	"CExLabel"
@@ -230,13 +302,13 @@
 
 	"HudDamageIndicator"
 	{
-		"MinimumWidth"		"4"
+		"MinimumWidth"		"6"
 		"MaximumWidth"		"20"
 		"StartRadius"			"80"
 		"EndRadius"				"80"
 		"MinimumHeight"		"25"
 		"MaximumHeight"		"65"
-		"MinimumTime"			"1"
+		"MinimumTime"			"0.8"
 		"FadeOutPercentage"	"0.8"
 	}
 

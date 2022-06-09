@@ -440,8 +440,8 @@ Scheme
 			"color" 				"GrayDarkest"
 
 			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"0"
-			"src_corner_width"		"0"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
 		}

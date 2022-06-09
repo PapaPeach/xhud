@@ -201,4 +201,20 @@
 		"tooltip"		"Requires Game Restart"
 		"OnlyInGame"	"1"
 	}
+
+	"JumpMode"
+	{
+		"label"			"Jump"
+		"command"		"engine sv_cheats 1; testhudanim PyroVsHeavyWar_ShowChooseScene"
+		"tooltip"		"Reload hud to undo"
+		"OnlyAtMenu"	"1"
+	}
+
+	"6v6Scoreboard"
+	{
+		"label"			"6s SB"
+		"command"		"engine sv_cheats 1; testhudanim TrainingPressSpacebarBlink"
+		"tooltip"		"Reload hud to undo"
+		"OnlyAtMenu"	"1"
+	}
 }

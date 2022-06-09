@@ -21,10 +21,10 @@
 		"killstreak_width"	"15"
 		"killstreak_image_width" "15"
 	}
-	"MainBG"
+	"ScoreboardMainBG"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName"		"MainBG"
+		"fieldName"		"ScoreboardMainBG"
 		"xpos"			"0"
 		"ypos"			"145"
 		"zpos"			"-1"
@@ -55,7 +55,7 @@
 		"bgcolor_override"		"Blue"
 		"proportionaltoparent"		"1"
 
-		"pin_to_sibling"		"MainBG"
+		"pin_to_sibling"		"ScoreboardMainBG"
 		"pin_corner_to_sibling"		"2"
 		"pin_to_sibling_corner"		"0"
 	}
@@ -73,7 +73,7 @@
 		"bgcolor_override"		"Red"
 		"proportionaltoparent"		"1"
 
-		"pin_to_sibling"		"MainBG"
+		"pin_to_sibling"		"ScoreboardMainBG"
 		"pin_corner_to_sibling"		"3"
 		"pin_to_sibling_corner"		"1"
 	}
@@ -984,7 +984,7 @@
 		"enabled"		"1"
 		"auto_wide_tocontents"		"1"
 
-		"pin_to_sibling"		"MainBG"
+		"pin_to_sibling"		"ScoreboardMainBG"
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"3"
 
@@ -1011,7 +1011,7 @@
 		"enabled"		"1"
 		"proportionaltoparent"		"1"
 
-		"pin_to_sibling"		"MainBG"
+		"pin_to_sibling"		"ScoreboardMainBG"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 	}
@@ -1093,7 +1093,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"pin_to_sibling"		"MainBG"
+		"pin_to_sibling"		"ScoreboardMainBG"
 		"pin_corner_to_sibling"		"6"
 		"pin_to_sibling_corner"		"6"
 

@@ -2,11 +2,12 @@
 
 event HudSnapShotReminderIn		//Resets various things on death
 {
-    RunEvent HudHealthDyingPulseStop 1.0
-    RunEvent HudHealthBonusPulseStop 1.0
-    RunEvent HudLowAmmoPulseStop 1.0
-    RunEvent HudMedicChargedStop 1.0
-		RunEvent HudSpyDisguiseFadeOut 1.0
+    RunEvent HudHealthDyingPulseStop  1.0
+    RunEvent HudHealthBonusPulseStop  1.0
+    RunEvent HudLowAmmoPulseStop  1.0
+    RunEvent HudMedicChargedStop  1.0
+		RunEvent HudSpyDisguiseFadeOut  1.0
+    RunEvent DamagedPlayer  1.0
 }
 
 //====================================================================================================================
@@ -212,10 +213,19 @@ event HudTournament_HideTimer
 //Experimental
 event PyroVsHeavyWar_ShowChooseScene
 {
-  SetVisible "Transparent"  1 0
+  Animate speed1			Position		"c10 c16"				Linear 0.0 0.001
 }
 
 event PyroVsHeavyWar_PyroWinnerScene{}
+
+event TrainingPressSpacebarBlink
+{
+  Animate RedPlayerList     tall    100    Linear 0.0 0.001
+  Animate BluePlayerList     tall   100    Linear 0.0 0.001
+  Animate ScoreboardMainBG    tall  142    Linear 0.0 0.001
+}
+
+event TrainingPressSpacebarBlinkStop{}
 
 //====================================================================================================================
 
@@ -229,8 +239,8 @@ event SuddenDeathLabelPulseRed{}
 event TeamsFullArrowAnimate{}
 event TeamsFullArrowAnimateEnd{}
 event TrainingHudBounce{}
-event TrainingPressSpacebarBlink{}
-event TrainingPressSpacebarBlinkStop{}
+//event TrainingPressSpacebarBlink{}
+//event TrainingPressSpacebarBlinkStop{}
 event IntroMovieContinueBlink{}
 event IntroMovieContinueBlinkStop{}
 event HasMOTDBlink{}
