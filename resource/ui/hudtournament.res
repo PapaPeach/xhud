@@ -385,7 +385,7 @@
 		"font"			"Size 28 Shadow"
 		"xpos"			"cs-0.5"
 		"ypos"			"28"
-		"wide"			"40"
+		"wide"			"100"
 		"tall"			"40"
 		"zpos"			"5"
 		"visible"		"0"

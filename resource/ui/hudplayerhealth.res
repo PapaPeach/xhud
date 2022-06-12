@@ -131,9 +131,9 @@
 		"zpos"						"6"
 		"wide"						"250"
 		"tall"						"3"
-		"visible"					"1"
+		"visible"					"0"
 		"enabled"					"1"
-		"bgcolor_override"			"Blank"
+		"bgcolor_override"			"Blue"
 
 		"pin_to_sibling"			"PlayerStatusHealthBonusImage"
 		"pin_corner_to_sibling"		"7"

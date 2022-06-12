@@ -288,18 +288,6 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
 		}
-		MaterialReverseWhiteGray
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			"color" 				"WhiteGray"
-
-			"image"					"replay/thumbnails/panels/material_generic_reverse"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
 		WhiteGrayBorderUltraThick
 		{
 			"inset" "0 0 1 1"
@@ -329,18 +317,6 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
 		}
-		MaterialReverseGrayLight
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			"color" 				"GrayLight"
-
-			"image"					"replay/thumbnails/panels/material_generic_reverse"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
 
 		////////////////////////////////////////////////////////////////////////////////////
 		////////////////////////////////MATERIAL GRAYMEDIUM/////////////////////////////////
@@ -353,18 +329,6 @@ Scheme
 			"color" 				"GrayMedium"
 
 			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-		MaterialReverseGrayMedium
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			"color" 				"GrayMedium"
-
-			"image"					"replay/thumbnails/panels/material_generic_reverse"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"
@@ -387,18 +351,6 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
 		}
-		MaterialReverseGrayDark
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			"color" 				"GrayDark"
-
-			"image"					"replay/thumbnails/panels/material_generic_reverse"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
 
 		////////////////////////////////////////////////////////////////////////////////////
 		////////////////////////////////MATERIAL GRAYDARKER/////////////////////////////////
@@ -411,18 +363,6 @@ Scheme
 			"color" 				"GrayDarker"
 
 			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-		MaterialReverseGrayDarker
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			"color" 				"GrayDarker"
-
-			"image"					"replay/thumbnails/panels/material_generic_reverse"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"
@@ -445,18 +385,6 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
 		}
-		MaterialReverseGrayDarkest
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			"color" 				"GrayDarkest"
-
-			"image"					"replay/thumbnails/panels/material_generic_reverse"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
 
 		////////////////////////////////////////////////////////////////////////////////////
 		/////////////////////////////////MATERIAL BLACKLIGHT////////////////////////////////
@@ -474,18 +402,6 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
 		}
-		MaterialReverseBlackLight
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			"color" 				"BlackLight"
-
-			"image"					"replay/thumbnails/panels/material_generic_reverse"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
 
 		////////////////////////////////////////////////////////////////////////////////////
 		/////////////////////////////////MATERIAL BLACKDARK/////////////////////////////////
@@ -498,18 +414,6 @@ Scheme
 			"color" 				"BlackDark"
 
 			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-		MaterialReverseBlackDark
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"0"
-			"color" 				"BlackDark"
-
-			"image"					"replay/thumbnails/panels/material_generic_reverse"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"

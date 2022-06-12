@@ -16,7 +16,7 @@
 		"font"			"Size 28 Shadow"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
-		"wide"			"40"
+		"wide"			"100"
 		"tall"			"40"
 		"zpos"			"5"
 		"visible"		"0"
@@ -32,34 +32,6 @@
 			"xpos"			"300"
 			"ypos"			"130"
 		}
-	}
-
-	"FrontParticlePanel"
-	{
-		"ControlName"	"CTFParticlePanel"
-		"fieldName"		"FrontParticlePanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"3"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-
-		"ParticleEffects"
-		{
-			"0"
-			{
-				"particle_xpos" "c0"
-				"particle_ypos" "c0"
-				"particle_scale"	"2"
-				"particleName"	"versus_door_slam"
-				"start_activated" "0"
-				"loop"	"0"
-			}
-		}
-
-		"paintbackground"	"0"
 	}
 
 	"MatchDoors"
@@ -134,7 +106,7 @@
 			"wide"		"5"
 			"tall"		"2"
 			"zpos"		"7"
-			"image"		"../vgui/replay/thumbnails/panels/bg_black"
+			"image"		"../vgui/replay/thumbnails/panels/material_transparent70"
 			"scaleimage"		"1"
 		}
 
@@ -770,6 +742,13 @@
 		}
 	}
 
+	"FrontParticlePanel"
+	{
+		"ControlName"	"CTFParticlePanel"
+		"fieldName"		"FrontParticlePanel"
+		"xpos"			"9999"
+		"visible"		"0"
+	}
 	"CountdownLabelShadow"
 	{
 		"ControlName"	"CExLabel"

@@ -142,9 +142,9 @@
 		"zpos"						"0"
 		"wide"						"80"
 		"tall"						"30"
-		"visible"					"1"
+		"visible"					"0"
 		"enabled"					"1"
-		"bgcolor"					"Blank"
+		"bgcolor_override"					"Low Ammo In Clip"
 		"alpha"						"150"
 
 		"pin_to_sibling"			"AmmoAnchor"
@@ -152,20 +152,10 @@
 		"pin_to_sibling_corner"		"4"
 	}
 
-	"HudWeaponLowAmmoImage"			//Needed for animations to work???
+	"HudWeaponLowAmmoImage"			//Needed for animations to work
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"HudWeaponLowAmmoImage"
-		"xpos"						"4"
-		"ypos"						"0"
-		"zpos"						"0"
-		"wide"						"0"
-		"tall"						"0"
-		"visible"					"0"
 		"enabled"					"1"
-		"image"						"../hud/ammo_red_bg"
-		"scaleImage"				"1"
-		"teambg_2"					"../hud/ammo_red_bg"
-		"teambg_3"					"../hud/ammo_blue_bg"
 	}
 }

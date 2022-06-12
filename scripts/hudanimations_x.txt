@@ -29,22 +29,24 @@ event AnimateHitmarker
 
 event HudHealthBonusPulse
 {
-	Animate HealthBarOverheal			BgColor		"Blue"							Linear	0.0 	0.0
+	SetVisible HealthBarOverheal 1 0.0
 
-	Animate HealthBarLowHealth			BgColor		"Blank"							Linear	0.0 	0.0
+	SetVisible HealthBarLowHealth 0 0.0
 
-	Animate PeachHealthBGSpec 			BgColor		"Blue"							Linear	0.0 	0.001
+  SetVisible HealthSpectatorBarBuff 1 0.0
+
+	Animate PeachHealthBGSpec    BgColor   "Blue"    Linear	0.0 0.001
 }
 
 event HudHealthBonusPulseStop
 {
-	StopEvent HudHealthBonusPulse 		0.0
+SetVisible HealthBarOverheal 0 0.0
 
-	Animate HealthBarOverheal			BgColor		"Blank"							Linear	0.0 	0.0
-
-	Animate HealthBarLowHealth			BgColor		"Low Health"					Linear	0.0 	0.0
+SetVisible HealthBarLowHealth 1 0.0
 
 	Animate PeachHealthBGSpec 			BgColor		"White"							Linear	0.0 	0.001
+
+  SetVisible HealthSpectatorBarBuff 0 0.0
 }
 
 //====================================================================================================================
@@ -52,27 +54,27 @@ event HudHealthBonusPulseStop
 event HudHealthDyingPulse
 {
 	Animate PeachHealthBGSpec 			BgColor		"Low Health"					Linear	0.0 	0.001
+
+  SetVisible HealthSpectatorBarHurt 1 0.0
 }
 
 event HudHealthDyingPulseStop
 {
-	StopEvent HudHealthDyingPulse		0.0
-
 	Animate PeachHealthBGSpec 			BgColor		"White"							Linear	0.0 	0.001
+
+  SetVisible HealthSpectatorBarHurt 0 0.0
 }
 
 //====================================================================================================================
 
 event HudLowAmmoPulse
 {
-	Animate	LowAmmoBox					BgColor		"Low Ammo In Clip"				Linear	0.0 	0.0
+	SetVisible LowAmmoBox  1 0.0
 }
 
 event HudLowAmmoPulseStop
 {
-	StopEvent HudLowAmmoPulse			0.0
-
-	Animate LowAmmoBox					BgColor		"Blank"							Linear	0.0 	0.0
+	SetVisible LowAmmoBox  0 0.0
 }
 
 //====================================================================================================================
@@ -206,98 +208,19 @@ event HudTournament_HideTimer
 	SetVisible CountdownLabel 0 0
 }
 
-//event HudMatchStatus_ShowCountdown{}
-
 //====================================================================================================================
 
 //Experimental
-event PyroVsHeavyWar_ShowChooseScene
+event JumpModeTrigger
 {
   Animate speed1			Position		"c10 c16"				Linear 0.0 0.001
 }
 
-event PyroVsHeavyWar_PyroWinnerScene{}
-
-event TrainingPressSpacebarBlink
+event 6v6ScoreboardTrigger
 {
   Animate RedPlayerList     tall    100    Linear 0.0 0.001
   Animate BluePlayerList     tall   100    Linear 0.0 0.001
   Animate ScoreboardMainBG    tall  142    Linear 0.0 0.001
 }
 
-event TrainingPressSpacebarBlinkStop{}
-
 //====================================================================================================================
-
-//Removed stuff - Credit to Hypnotize's LightHud
-event ControlPointIconShrink{}
-event ControlPointIconGrow{}
-event ArenaVsPanelOnShow{}
-event ArenaVsPanelSlideIn{}
-event ArenaVsPanelSlideOut{}
-event SuddenDeathLabelPulseRed{}
-event TeamsFullArrowAnimate{}
-event TeamsFullArrowAnimateEnd{}
-event TrainingHudBounce{}
-//event TrainingPressSpacebarBlink{}
-//event TrainingPressSpacebarBlinkStop{}
-event IntroMovieContinueBlink{}
-event IntroMovieContinueBlinkStop{}
-event HasMOTDBlink{}
-event HasMOTDBlinkStop{}
-event NotificationsPresentBlink{}
-event NotificationsPresentBlinkStop{}
-event AddToCartBlink{}
-event SpyWarningFlash{}
-event SpyWarningFlashEnd{}
-event HudReadyPulse{}
-event HudReadyPulseEnd{}
-event RespecEarnedPulse{}
-event RespecEarnedPulseEnd{}
-event RespecEarnedPulseLoss{}
-event RespecEarnedPulseEndLoss{}
-event RDPositiveScorePulse{}
-event RDNegativeScorePulse{}
-event HudTournament_AnimateTeams_In{}
-event HudTournament_AnimateTeams_Out{}
-event HudMatchStatus_ShowMatchStartDoors{}
-event HudMatchStatus_ShowRankMatch{}
-event HudTournament_DoorsCleanup{}
-event PlayDoorSlamParticles{}
-event PlayDoorCloseAnim{}
-event PlayDoorOpenAnim{}
-event HudTournament_ShowRoundSign{}
-event HudTournament_PlaySignAnim{}
-event HudMatchStatus_ShowMatchWinDoors{}
-event HudMatchStatus_ShowMatchWinDoors_NoOpen{}
-event MMenu_PlayList_Expand{}
-event MMenu_PlayList_Collapse{}
-event MMenu_PlayList_Collapse_Immediate{}
-event MMenu_SafeMode_Blink{}
-event PvPRankModelClicked{}
-event PvPRankLevelUpXPBar{}
-event PvPRankLevelUpModel{}
-event PvPRankLevelDownXPBar{}
-event PvPRankLevelDownModel{}
-event CompetitiveGame_ShowPvPRankPanel{}
-//event PyroVsHeavyWar_ShowChooseScene{}
-//event PyroVsHeavyWar_PyroWinnerScene{}
-event CasualCategory_Checkbox_Hide{}
-event CasualCategory_Checkbox_Show{}
-event CasualCategory_Selected{}
-event CasualCategory_NotSelected{}
-event HealthProgressBar_Selected{}
-event HealthProgressBar_NotSelected{}
-event MMenu_UpdateButton_StartGlow{}
-event MMenu_UpdateButton_SubtleGlow{}
-event XPSourceShow_Positive{}
-event XPSourceShow_Negative{}
-event MapVoted{}
-event WinningNextMapVote{}
-event LosingNextMapVote{}
-
-//My removed stuff
-event SurveyShowSequence{}
-event SurveySubmitSequence{}
-event SurveyDelete{}
-event SurveyHideSequence{}

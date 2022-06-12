@@ -205,7 +205,7 @@
 	"JumpMode"
 	{
 		"label"			"Jump"
-		"command"		"engine sv_cheats 1; testhudanim PyroVsHeavyWar_ShowChooseScene"
+		"command"		"engine sv_cheats 1; testhudanim JumpModeTrigger"
 		"tooltip"		"Reload hud to undo"
 		"OnlyAtMenu"	"1"
 	}
@@ -213,7 +213,7 @@
 	"6v6Scoreboard"
 	{
 		"label"			"6s SB"
-		"command"		"engine sv_cheats 1; testhudanim TrainingPressSpacebarBlink"
+		"command"		"engine sv_cheats 1; testhudanim 6v6ScoreboardTrigger"
 		"tooltip"		"Reload hud to undo"
 		"OnlyAtMenu"	"1"
 	}

@@ -1,15 +1,6 @@
 "Resource/UI/MainMenuOverride.res"
 {
 	///CONTROL POINT ICONS///
-	"CPCapMask"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"CPCapMask"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../sprites/obj_icons/icon_obj_cap_mask"
-	}
 	"CPIconWhite"
 	{
 		"ControlName"		"ImagePanel"

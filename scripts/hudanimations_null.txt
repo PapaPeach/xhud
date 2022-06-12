@@ -1,0 +1,232 @@
+event LevelInit{}
+event OpenWeaponSelectionMenu{}
+event CloseWeaponSelectionMenu{}
+//event MenuOpen{}//NICE
+//event MenuClose{}//NICE
+event MenuPulse{}
+event TimerIncrement{}
+event TimerDecrement{}
+event ResourceIncrement{}
+event ResourceDecrement{}
+event ResourcePickup{}
+event HintMessageShow{}
+//event HintMessageHide{}//NEEDED
+event KeyHintMessageShow{}
+//event KeyHintMessageHide{}//NEEDED
+//event HudHealthBonusPulse{}   //USED
+event HudHealthBonusPulseLoop{}
+//event HudHealthBonusPulseStop{}   //USED
+//event HudHealthDyingPulse{}   //USED
+event HudHealthDyingPulseLoop{}
+//event HudHealthDyingPulseStop{}   //USED
+//event HudLowAmmoPulse{}   //USED
+event HudLowAmmoPulseLoop{}
+//event HudLowAmmoPulseStop{}   //USED
+event ControlPointIconShrink{}
+event ControlPointIconGrow{}
+event AccountMoneyRemoved{}
+event AccountMoneyAdded{}
+event AccountMoneyInvisible{}
+event FlagOutlineHide{}
+event FlagOutline{}
+event HudSpyDisguiseChanged{}
+event HudSpyDisguiseHide{}
+//event HudSpyDisguiseFadeIn{}   //USED
+//event HudSpyDisguiseFadeOut{}   //USED
+event OvertimeShow{}
+//event HudSnapShotReminderIn{}   //USED
+event HudReplayReminderIn{}
+event HudReplayReminderIn2{}
+event HudReplayTipIn{}
+event HudReplayTipOut{}
+//event HudTournamentSetupPanelOpen{}   //USED
+//event HudTournamentSetupPanelClose{}   //USED
+//event HudMedicCharged{}   //USED
+//event HudMedicChargedLoop{}   //USED
+//event HudMedicChargedStop{}   //USED
+event VideoCaptionFadeIn{}
+event VideoCaptionFadeOut{}
+event ArenaVsPanelOnShow{}
+event ArenaVsPanelSlideIn{}
+event ArenaVsPanelSlideOut{}
+event HudCartAlarmPulse{}
+event HudCartAlarmPulseLoop{}
+event HudCartAlarmPulseStop{}
+event ActiveTimerBGPulse{}
+//event ActiveTimerHighlight{}   //USED
+//event ActiveTimerDim{}   //USED
+//event OvertimeLabelPulseRed{}//NICE
+//event SuddenDeathLabelPulseRed{}//NICE
+event TeamsFullArrowAnimate{}
+event TeamsFullArrowAnimateLoop{}
+event TeamsFullArrowAnimateEnd{}
+event TrainingHudBounce{}
+event TrainingPressSpacebarBlink{}
+event TrainingPressSpacebarBlinkLoop{}
+event TrainingPressSpacebarBlinkStop{}
+event IntroMovieContinueBlink{}
+event IntroMovieContinueBlinkLoop{}
+event IntroMovieContinueBlinkStop{}
+event HasMOTDBlink{}
+event HasMOTDBlinkLoop{}
+event HasMOTDBlinkStop{}
+event HasNotificationsBlink{}
+event HasNotificationsBlinkLoop{}
+event HasNotificationsBlinkStop{}
+event AddToCartBlink{}
+event NotificationsPresentBlink{}
+event NotificationsPresentBlinkLoop{}
+event NotificationsPresentBlinkStop{}
+//event DamagedPlayer{}   //USED
+event SpyWarningFlash{}
+event SpyWarningFlashLoop{}
+event SpyWarningFlashEnd{}
+event HudReadyPulse{}
+event HudReadyPulseLoop{}
+event HudReadyPulseEnd{}
+event RespecEarnedPulse{}
+event RespecEarnedPulseLoop{}
+event RespecEarnedPulseEnd{}
+event RespecEarnedPulseLoss{}
+event RespecEarnedPulseLoopLoss{}
+event RespecEarnedPulseEndLoss{}
+event RDPositiveScorePulse{}
+event RDNegativeScorePulse{}
+event QuestNotification_Present{}
+event QuestNotification_Hide{}
+event ItemCard_ShowPinHint{}
+event ItemCard_HidePinHint{}
+event ItemCard_ShowCloseButton{}
+event ItemCard_HideCloseButton{}
+event QuestItem_StaticPhoto_Reveal{}
+event HideStamp{}
+event CollectionCrafting_Intro{}
+event CollectionCrafting_LetterStart{}
+event CollectionCrafting_PlaceStamp{}
+event CollectionCrafting_LetterSend{}
+event StartParticle0{}
+event StartParticle1{}
+event StartParticle2{}
+event ShowFoundLabels{}
+event CollectionCrafting_ItemRecieved{}
+event CollectionCrafting_OKBlink_Repeatable{}
+event CollectionCrafting_OKBlink{}
+event CollectionCrafting_ShowSendButton{}
+event CollectionCrafting_ShowWaiting{}
+event CollectionCrafting_HideWaiting{}
+event CollectionCrafting_ShowFailure{}
+event CollectionCrafting_WaitForItemsOnly{}
+event QuestItem_Identify_Expand{}
+event QuestItem_Identify_Collapse{}
+event QuestItem_Complete_Expand{}
+event QuestItem_Complete_Collapse{}
+event QuestItem_Complete_Progress{}
+event QuestItem_Options_Flash{}
+event QuestItem_Expand{}
+event QuestItem_Collapse{}
+event QuestItem_TurningIn{}
+event QuestItem_Reset{}
+event QuestItem_Operation2_Expand{}
+event QuestItem_Operation2_Collapse{}
+event QuestItem_Operation2_TurningIn{}
+event QuestItem_Operation2_Reset{}
+event QuestItem_DisableFrontMouse{}
+event QuestItem_EnableFrontMouse{}
+event QuestItem_Expand_Halloween{}
+event QuestItem_Collapse_Halloween{}
+event QuestItem_Reset_Halloween{}
+event QuestItem_Front_Selected{}
+event QuestItem_Front_OtherSelected{}
+event QuestItem_Front_NoneSelected{}
+event QuestItem_Back_Selected{}
+event QuestItem_Back_OtherSelected{}
+event QuestItem_Back_NoneSelected{}
+event QuestItem_Highlight_On_Halloween{}
+event QuestItem_Highlight_Off_Halloween{}
+event CompetitiveGame_LowerChatWindow{}
+event CompetitiveGame_RestoreChatWindow{}
+event HudTournament_MoveChatWindow{}
+event HudTournament_MoveTimerDown{}
+event HudTournament_AnimateTeams_In{}
+event HudTournament_AnimateTeams_Out{}
+event HudMatchStatus_ShowMatchStartDoors{}
+event HudMatchStatus_ShowRankMatch{}
+event HudMatchStatus_ShowCountdown{}
+event HudTournament_DoorsCleanup{}
+event PlayDoorSlamParticles{}
+event PlayDoorCloseAnim{}
+event PlayDoorOpenAnim{}
+//event HudTournament_ShowTimerCompetitive{}   //USED
+//event HudTournament_ShowTimerDefault{}   //USED
+//event HudTournament_HideTimer{}   //USED
+event HudTournament_ShowRoundSign{}
+event HudTournament_PlaySignAnim{}
+//event TeamStatus_PlayerDead{}   //USED
+//event TeamStatus_PlayerAlive{}   //USED
+event HudMatchStatus_ShowMatchWinDoors{}
+event HudMatchStatus_ShowMatchWinDoors_NoOpen{}
+//event HudMatchSummary_SlideInPanels{}//NEEDED
+event MMenu_PlayList_Expand{}
+event MMenu_PlayList_Collapse{}
+event MMenu_PlayList_Collapse_Immediate{}
+event MMenu_SafeMode_Blink{}
+event PvPRankModelClicked{}
+event PvPRankLevelUpXPBar{}
+event PvPRankLevelUpModel{}
+event PvPRankLevelDownXPBar{}
+event PvPRankLevelDownModel{}
+event CompetitiveGame_ShowPvPRankPanel{}
+event PvPRankPanelShowXPChange{}
+event PyroVsHeavyWar_ShowChooseScene{}
+event PyroVsHeavyWar_PyroWinnerScene{}
+event CasualCategory_Checkbox_Hide{}
+event CasualCategory_Checkbox_Show{}
+//event CasualCategory_Selected{}//NICE
+//event CasualCategory_NotSelected{}//NICE
+//event HealthProgressBar_Selected{}//NICE
+//event HealthProgressBar_NotSelected{}//NICE
+event MMenu_UpdateButton_StartGlow{}
+event MMenu_UpdateButton_SubtleGlow{}
+event XPSourceShow_Positive{}
+event XPSourceShow_Negative{}
+event SurveyShowSequence{}
+event SurveySubmitSequence{}
+event SurveyDelete{}
+event SurveyHideSequence{}
+event MapVoted{}
+event WinningNextMapVote{}
+event LosingNextMapVote{}
+//event QuestMap_Start{}//NEEDED
+//event QuestMap_MapLoaded{}//NEEDED
+event QuestMap_LoadingLoop{}
+event QuestMap_StaticFadeOut{}
+event QuestMap_StaticBar1Loop{}
+event QuestMap_StaticBar2Loop{}
+event QuestMap_StaticBarOverlayLoop{}
+event QuestMap_StaticBarOverlayBrighten{}
+event QuestMap_StaticBarOverlayDarken{}
+event QuestNodeView_PinTipHighlight{}
+event QuestMapIntro_StageReveal{}
+event QuestMapIntro_ShowStage{}
+event QuestMapIntro_ClearStage{}
+event QuestNodeView_QuestPurchased{}
+event QuestViewSubPanel_QuestPurchased{}
+event QuestViewSubPanel_SelectMouseOver{}
+event QuestViewSubPanel_SelectMouseExit{}
+event QuestMap_ShowLegend{}
+event QuestMap_HideLegend{}
+event QuestMap_CreditNotificationAcknowledge{}
+event QuestMap_CreditHideAnim{}
+event QuestMap_CreditNotificationShow{}
+event QuestMap_CreditShowAnim{}
+event ObjectiveCompletedByUser{}
+event QuestReport_ContractComplete{}
+event QuestReport_ContractProgress{}
+event ObjectiveCompletionFanfare{}
+event ObjectiveCompletionFanfareEnd{}
+//event RegionZoom{}//NEEDED
+event StartRegionZoomIn{}
+event StartRegionZoomOut{}
+event EndRegionZoomIn{}
+event EndRegionZoomOut{}
+//event DelayQuestMapClose{}//NEEDED

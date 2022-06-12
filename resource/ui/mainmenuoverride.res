@@ -85,33 +85,6 @@
 		}
 	}
 
-	"BackgroundPanel"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"BackgroundPanel"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"1"
-		"wide"								"f0"
-		"tall"								"f0"
-		"visible"							"0"
-
-		"Background"
-		{
-			"ControlName"					"ImagePanel"
-			"fieldName"						"Background"
-			"xpos"							"0"
-			"ypos"							"0"
-			"zpos"							"1"
-			"wide"							"f0"
-			"tall"							"f0"
-			"visible"						"1"
-			"enabled"						"1"
-			"image"							"replay/thumbnails/menu/peach"
-			"scaleimage"					"1"
-		}
-	}
-
 	"TopBar"
 	{
 		"ControlName"						"EditablePanel"
