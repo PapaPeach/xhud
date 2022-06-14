@@ -61,6 +61,7 @@
 
 				"image_drawcolor"			"117 107 94 255"
 				"image_armedcolor"			"235 226 202 255"
+
 				"SubImage"
 				{
 					"ControlName"			"ImagePanel"
@@ -83,6 +84,35 @@
 			"wide"							"0"
 			"enabled"						"0"
 		}
+	}
+
+	"BackgroundPeachAnchor"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"BackgroundPeachAnchor"
+		"xpos"							"rs1"
+		"ypos"							"cs-0.5"
+		"wide"							"p0.088"
+		"tall"							"0"
+		"enabled"						"1"
+	}
+
+	"BackgroundPeach"
+	{
+		"ControlName"				"ImagePanel"
+		"fieldName"					"BackgroundPeach"
+		"xpos"							"0"
+		"ypos"							"0"
+		"wide"							"p0.5"
+		"tall"							"f0"
+		"visible"						"1"
+		"enabled"						"1"
+		"image"							"replay/thumbnails/menu/peach"
+		"scaleimage"					"1"
+
+		"pin_to_sibling"		"BackgroundPeachAnchor"
+		"pin_corner_to_sibling"		"5"
+		"pin_to_sibling"		"7"
 	}
 
 	"TopBar"
@@ -178,15 +208,15 @@
 
 	"TooltipPanel"
 	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"TooltipPanel"
+		"ControlName"					"EditablePanel"
+		"fieldName"						"TooltipPanel"
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"10000"
 		"wide"								"150"
 		"tall"								"50"
 		"visible"							"0"
-		"PaintBackgroundType"				"2"
+		"PaintBackgroundType"		"0"
 		"border"							"MaterialGrayDarkest"
 
 		"TipSubLabel"
@@ -203,7 +233,7 @@
 			"tall"							"50"
 			"visible"						"1"
 			"enabled"						"1"
-			"fgcolor_override"				"117 107 94 255"
+			"fgcolor_override"	"117 107 94 255"
 			"wrap"							"1"
 		}
 
@@ -236,15 +266,13 @@
 		"wide"								"400"
 		"tall"								"115"
 		"visible"							"1"
-		"proportionaltoparent"				"1"
-		"mouseinputenabled"					"0"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"			"0"
 		"wrap"								"1"
-
 		"font"								"Size 40"
-		"fgcolor_override"					"Red"
+		"fgcolor_override"			"Red"
 		"labelText"							"Lost connection to the Steam"
 		"textAlignment"						"west"
-		"use_proportional_insets"			"1"
 	}
 
 	"Notifications_ShowButtonPanel"
@@ -271,10 +299,10 @@
 			"tall"							"23"
 			"visible"						"1"
 			"enabled"						"1"
-			"labelText"						"X"
+			"labelText"					"X"
 			"font"							"Symbols 26"
-			"textAlignment"					"center"
-			"actionsignallevel" 			"2"
+			"textAlignment"			"center"
+			"actionsignallevel"	"2"
 
 			"Command"						"noti_show"
 
@@ -298,8 +326,8 @@
 		"wide"								"210"
 		"tall"								"80"
 		"visible"							"0"
-		"PaintBackgroundType"				"2"
-		"paintbackground"					"0"
+		"PaintBackgroundType"	"0"
+		"paintbackground"			"0"
 		"border"							"MaterialTransparent50"
 
 		"Notifications_CloseButton"
@@ -354,9 +382,9 @@
 			"ypos"							"25"
 			"wide"							"210"
 			"tall"							"135"
-			"PaintBackgroundType"			"0"
+			"PaintBackgroundType"		"0"
 			"paintbackground"				"0"
-			"fgcolor_override"				"Blank"
+			"fgcolor_override"			"Blank"
 
 			"Notifications_Control"
 			{
