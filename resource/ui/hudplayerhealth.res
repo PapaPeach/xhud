@@ -45,7 +45,7 @@
 		"tall"						"1"
 		"visible"					"0"
 		"enabled"					"1"
-		"image"						"../vgui/replay/thumbnails/panels/bg_generic"
+		"image"						"../vgui/replay/thumbnails/panels/bg_blank"
 		"scaleImage"				"1"
 		"alpha"						"0"
 	}

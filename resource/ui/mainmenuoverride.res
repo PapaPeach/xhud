@@ -117,15 +117,28 @@
 
 	"TopBar"
 	{
-		"ControlName"						"EditablePanel"
-		"fieldname"							"TopBar"
+		"ControlName"					"EditablePanel"
+		"fieldname"						"TopBar"
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"20"
 		"wide"								"f0"
 		"tall"								"24"
 		"visible"							"1"
-		"bgcolor_override" 					"TransparentBlack"
+		"bgcolor_override" 		"TransparentBlack"
+	}
+
+	"BottomBar"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"BottomBar"
+		"xpos"								"0"
+		"ypos"								"rs1"
+		"zpos"								"-60"
+		"wide"								"f0"
+		"tall"								"20"
+		"visible"							"1"
+		"bgcolor_override" 		"TransparentBlack"
 	}
 
 	"HudTitle"

@@ -1,2 +1,9 @@
-#base "../../../customizations/side_engineer_menus/build_menu/dispenser_cant_afford.res"
-#base "x_dispenser_cant_afford.res"
+#base "base_cant_afford.res"
+
+"Resource/UI/build_menu/dispenser_cant_afford.res"
+{
+	"SmallBuildingIcon"
+	{
+		"icon"		"obj_status_dispenser"
+	}
+}

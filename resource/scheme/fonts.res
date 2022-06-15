@@ -180,11 +180,11 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		"Size 24 Outline"
+		"Size 24 Damage"
 		{
 			"1"
 			{
-				"name"										"Renogare Soft XHud"
+				"name"										"Renogare Uber"
 				"tall"										"24"
 				"additive"									"0"
 				"antialias"									"1"
@@ -253,139 +253,6 @@ Scheme
 			}
 		}
 
-		"Size 9 Blur"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"9"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Size 10 Blur"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"10"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Size 11 Blur"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"11"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Size 12 Blur"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"12"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Size 14 Blur"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Size 16 Blur"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"16"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Size 18 Blur"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"1"
-			}
-		}
-		"Size 20 Blur"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"20"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Size 24 Blur"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"24"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Size 30 Blur"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"30"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Size 36 Blur"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"36"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-		"Size 40 Blur"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"40"
-				"additive"									"0"
-				"antialias"									"1"
-				"blur"										"2"
-			}
-		}
-
 		"Size 8 Shadow"
 		{
 			"1"
@@ -419,7 +286,6 @@ Scheme
 				"dropshadow"								"1"
 			}
 		}
-
 		"Size 14 Shadow"
 		{
 			"1"

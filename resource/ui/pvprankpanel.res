@@ -10,8 +10,8 @@
 		"wide"									"f0"
 		"tall"									"f0"
 		"visible"								"1"
-		"PaintBackgroundType"					"2"
-		"proportionaltoparent"					"1"
+		"PaintBackgroundType"		"0"
+		"proportionaltoparent"	"1"
 
 		if_mini
 		{
@@ -241,7 +241,7 @@
 						"progress"				"0"
 
 						"fgcolor_override"		"MainTheme"
-						"bgcolor_override"		"TransparentBlack"
+						"bgcolor_override"		"Blank"
 					}
 				}
 			}
@@ -256,7 +256,7 @@
 				"tall"							"p0.45"
 				"visible"						"0"
 				"proportionaltoparent"			"1"
-				"bgcolor_override"				"0 0 0 150"
+				"bgcolor_override"				"TransparentBlack"
 
 				"if_mini"
 				{

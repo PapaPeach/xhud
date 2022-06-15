@@ -1,2 +1,19 @@
-#base "../../../customizations/side_engineer_menus/build_menu/tele_entrance_active.res"
-#base "x_tele_entrance_active.res"
+#base "base_active.res"
+
+"Resource/UI/build_menu/tele_entrance_active.res"
+{
+	"SmallBuildingIcon"
+	{
+		"icon"		"obj_status_tele_entrance"
+	}
+
+	"NumberLabel"
+	{
+		"labelText"		"3"
+	}
+
+	"NumberLabelShadow"
+	{
+		"labelText"		"3"
+	}
+}

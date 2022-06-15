@@ -80,7 +80,7 @@
 				"tall"				"f0"
 				"visible"			"1"
 				"enabled"			"1"
-				"HealthBonusPosAdj"	"443"
+				"HealthBonusPosAdj"	"460"
 				"HealthDeathWarning"		"1.0"
 				"TFFont"					"Size 14"
 				"HealthDeathWarningColor"	"Low Health"

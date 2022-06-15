@@ -131,7 +131,7 @@
 		}
 		"Background"
 		{
-			"ypos"								"9999"
+			"ypos"		"9999"
 		}
 	}
 
@@ -283,14 +283,31 @@
 			"color_portrait_bg_blue"	"Blue"
 			"color_portrait_bg_red_dead"	"Blank"
 			"color_portrait_bg_blue_dead"	"Blank"
-			"color_bar_health_high"	"40 200 110 150"
-			"color_bar_health_med"	"200 180 0 150"
+			"color_bar_health_high"	"40 200 110 100"
+			"color_bar_health_med"	"200 180 0 100"
 			"percentage_health_med"	"0.6"
-			"color_bar_health_low"	"255 50 50 150"
+			"color_bar_health_low"	"255 50 65 100"
 			"percentage_health_low"	"0.3"
 			"color_portrait_blend_dead_red"	"255 255 255 255"
 			"color_portrait_blend_dead_blue" "255 255 255 255"
 
+			"overhealbar"
+			{
+				"ControlName"			"ContinuousProgressBar"
+				"fieldName"				"overhealbar"
+				"font"					"Default"
+				"xpos"					"0"
+				"ypos"					"0"
+				"zpos"					"4"
+				"wide"					"f0"
+				"tall"					"24"
+				"visible"				"1"
+				"enabled"				"1"
+				"textAlignment"			"Left"
+				"bgcolor_override"	   "Blank"
+				"fgcolor_override"	   "227 228 230 100"
+				"proportionaltoparent"	"1"
+			}
 			"MatchStatusBG"
 			{
 				"ControlName"		"EditablePanel"
@@ -303,7 +320,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"proportionaltoparent"		"1"
-				"bgcolor_override"		"TransparentLightBlack"
+				"bgcolor_override"		"0 0 0 50"
 			}
 			"playername"
 			{
@@ -364,23 +381,6 @@
 				"enabled"				"1"
 				"textAlignment"			"Left"
 				"bgcolor_override"	   "Blank"
-				"proportionaltoparent"	"1"
-			}
-			"overhealbar"
-			{
-				"ControlName"			"ContinuousProgressBar"
-				"fieldName"				"overhealbar"
-				"font"					"Default"
-				"xpos"					"0"
-				"ypos"					"0"
-				"zpos"					"4"
-				"wide"					"f0"
-				"tall"					"24"
-				"visible"				"1"
-				"enabled"				"1"
-				"textAlignment"			"Left"
-				"bgcolor_override"	   "Blank"
-				"fgcolor_override"	   "Buffed Health"
 				"proportionaltoparent"	"1"
 			}
 			"ReadyBG"
@@ -450,26 +450,20 @@
 			}
 			"specindex"
 			{
-				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
 				"xpos"			"9999"
-				"wide"			"0"
 				"enabled"		"0"
 			}
 			"DeathPanel"
 			{
-				"ControlName"	"ImagePanel"
 				"fieldName"		"DeathPanel"
 				"xpos"			"9999"
-				"wide"			"0"
 				"enabled"		"0"
 			}
 			"SkullPanel"
 			{
-				"ControlName"	"ImagePanel"
 				"fieldName"		"SkullPanel"
 				"xpos"			"9999"
-				"wide"			"0"
 				"enabled"		"0"
 			}
 			"HealthIcon"
@@ -477,7 +471,6 @@
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
 				"xpos"				"9999"
-				"wide"				"0"
 				"visible"			"0"
 				"enabled"			"0"
 			}
@@ -744,31 +737,22 @@
 
 	"FrontParticlePanel"
 	{
-		"ControlName"	"CTFParticlePanel"
 		"fieldName"		"FrontParticlePanel"
 		"xpos"			"9999"
-		"visible"		"0"
 	}
 	"CountdownLabelShadow"
 	{
-		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
 	}
 	"RoundSignModel"
 	{
-		"ControlName"	"CModelPanel"
 		"fieldName"		"RoundSignModel"
 		"xpos"			"9999"
-		"wide"			"0"
 	}
 	"BGFrame"
 	{
-		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrame"
 		"xpos"				"9999"
-		"wide"				"0"
 	}
 }

@@ -42,17 +42,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Symbols 16 Blur"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V3"
-				"tall"			"16"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"1"
-			}
-		}
 		"Symbols 18"
 		{
 			"1"
@@ -61,17 +50,6 @@ Scheme
 				"tall"			"18"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		"Symbols 18 Blur"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V3"
-				"tall"			"18"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"1"
 			}
 		}
 		"Symbols 20"
@@ -84,17 +62,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Symbols 20 Blur"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V3"
-				"tall"			"20"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"1"
-			}
-		}
 		"Symbols 22"
 		{
 			"1"
@@ -105,17 +72,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Symbols 22 Blur"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V3"
-				"tall"			"22"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"1"
-			}
-		}
 		"Symbols 24"
 		{
 			"1"
@@ -124,17 +80,6 @@ Scheme
 				"tall"			"24"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		"Symbols 24 Blur"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V3"
-				"tall"			"24"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"1"
 			}
 		}
 		"Symbols 26"
@@ -270,17 +215,6 @@ Scheme
 				"tall"			"24"
 				"additive"  	"0"
 				"antialias"		"1"
-			}
-		}
-		"ReadyUp 24 Blur"
-		{
-			"1"
-			{
-				"name"			"ReadyUp Symbols"
-				"tall"			"24"
-				"additive"  	"0"
-				"antialias"		"1"
-				"blur"			"2"
 			}
 		}
 	}

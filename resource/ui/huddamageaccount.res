@@ -10,8 +10,8 @@
 		"NegativeColor"			"Red"				//Overridden by console command
 		"EventColor"        "Yellow"		//Med drops
 		"delta_lifetime"		"2.5"
-		"delta_item_font"		"Size 24 Outline"
-		"delta_item_font_big"	"Size 24 Outline"
+		"delta_item_font"		"Size 24 Damage"
+		"delta_item_font_big"	"Size 24 Damage"
 		"alpha"		"180"
 	}
 
