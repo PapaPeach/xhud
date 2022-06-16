@@ -275,20 +275,29 @@
 		"tall_minmode"	"35"
 	}
 
-	BuildingStatus_Spy
+	"BuildingStatusAnchor"
 	{
-		"xpos"		"-5"
-		"ypos"		"240"
-		"wide"		"200"
-		"tall"		"240"
+		"ControlName"				"EditablePanel"
+		"fieldName"					"BuildingStatusAnchor"
+		"xpos"							"-5"
+		"ypos"							"240"
+		"wide"							"200"
+		"tall"							"240"
+		"enabled"						"1"
 	}
 
 	BuildingStatus_Engineer
 	{
-		"xpos"		"-5"
-		"ypos"		"240"
 		"wide"		"200"
 		"tall"		"240"
+		"pin_to_sibling"	"BuildingStatusAnchor"
+	}
+
+	BuildingStatus_Spy
+	{
+		"wide"		"200"
+		"tall"		"240"
+		"pin_to_sibling"	"BuildingStatusAnchor"
 	}
 
 	HudMannVsMachineStatus

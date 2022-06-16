@@ -81,9 +81,9 @@ event NotificationsPresentBlinkStop{}
 event SpyWarningFlash{}
 event SpyWarningFlashLoop{}
 event SpyWarningFlashEnd{}
-event HudReadyPulse{}
-event HudReadyPulseLoop{}
-event HudReadyPulseEnd{}
+//event HudReadyPulse{}//NICE
+//event HudReadyPulseLoop{}//NICE
+//event HudReadyPulseEnd{}//NICE
 event RespecEarnedPulse{}
 event RespecEarnedPulseLoop{}
 event RespecEarnedPulseEnd{}
@@ -151,7 +151,7 @@ event HudTournament_AnimateTeams_In{}
 event HudTournament_AnimateTeams_Out{}
 event HudMatchStatus_ShowMatchStartDoors{}
 event HudMatchStatus_ShowRankMatch{}
-event HudMatchStatus_ShowCountdown{}
+//event HudMatchStatus_ShowCountdown{}
 event HudTournament_DoorsCleanup{}
 event PlayDoorSlamParticles{}
 event PlayDoorCloseAnim{}

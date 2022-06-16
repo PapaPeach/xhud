@@ -91,13 +91,43 @@
 				"scaleImage"	"1"
 			}
 
+			"ReadyBG"
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"		"ReadyBG"
+				"xpos"			"rs1-1"
+				"ypos"			"1"
+				"zpos"			"3"
+				"wide"			"21"
+				"tall"			"17"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../vgui/replay/thumbnails/panels/material_transparent70"
+				"proportionaltoparent"		"1"
+
+				if_mvm
+				{
+					"visible"		"1"
+				}
+
+				if_competitive
+				{
+					"visible"		"1"
+				}
+
+				if_readymode
+				{
+					"visible"		"1"
+				}
+			}
+
 			"ReadyImage"
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
 				"xpos"			"22"
-				"ypos"			"0"
-				"zpos"			"0"
+				"ypos"			"-1"
+				"zpos"			"4"
 				"wide"			"20"
 				"tall"			"20"
 				"visible"		"1"
@@ -189,14 +219,14 @@
 				"wide"			"0"
 				"enabled"		"0"
 			}
-			"ReadyBG"
-			{
-				"ControlName"		"ScalableImagePanel"
-				"fieldName"		"ReadyBG"
-				"xpos"			"9999"
-				"wide"			"0"
-				"enabled"		"0"
-			}
+			//"ReadyBG"
+			//{
+			//	"ControlName"		"ScalableImagePanel"
+			//	"fieldName"		"ReadyBG"
+			//	"xpos"			"0"
+			//	"wide"			"0"
+			//	"enabled"		"1"
+			//}
 		}
 		"ModeImage"
 		{

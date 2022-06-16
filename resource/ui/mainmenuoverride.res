@@ -86,33 +86,35 @@
 		}
 	}
 
-	"BackgroundPeachAnchor"
+	"BackgroundXhudAnchor"
 	{
 		"ControlName"				"EditablePanel"
-		"fieldName"					"BackgroundPeachAnchor"
-		"xpos"							"rs1"
-		"ypos"							"cs-0.5"
-		"wide"							"p0.088"
+		"fieldName"					"BackgroundXhudAnchor"
+		"xpos"							"rs-1"
+		"ypos"							"r0"
+		"wide"							"p0.0469"
 		"tall"							"0"
 		"enabled"						"1"
 	}
 
-	"BackgroundPeach"
+	"BackgroundXhud"
 	{
 		"ControlName"				"ImagePanel"
-		"fieldName"					"BackgroundPeach"
+		"fieldName"					"BackgroundxHud"
 		"xpos"							"0"
 		"ypos"							"0"
-		"wide"							"p0.5"
-		"tall"							"f0"
+		"zpos"							"-60"
+		"wide"							"p1.219"
+		"tall"							"520"
 		"visible"						"1"
 		"enabled"						"1"
-		"image"							"replay/thumbnails/menu/peach"
-		"scaleimage"					"1"
+		"image"							"replay/thumbnails/menu/Xhud"
+		"scaleimage"				"1"
+		"alpha"							"150"
 
-		"pin_to_sibling"		"BackgroundPeachAnchor"
-		"pin_corner_to_sibling"		"5"
-		"pin_to_sibling"		"7"
+		"pin_to_sibling"		"BackgroundXhudAnchor"
+		"pin_corner_to_sibling"		"3"
+		"pin_to_sibling"		"3"
 	}
 
 	"TopBar"
