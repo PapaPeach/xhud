@@ -1086,10 +1086,10 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerDuelStatsPanel"
 		"xpos"			"0"
-		"ypos"			"-1"
+		"ypos"			"4"
 		"zpos"			"3"
 		"wide"			"600"
-		"tall"			"40"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 
@@ -1148,14 +1148,14 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"AvatarBGPanel"
-				"xpos"			"157"
-				"ypos"			"7"
+				"xpos"			"158"
+				"ypos"			"8"
 				"zpos"			"-1"
-				"wide"			"36"
-				"tall"			"36"
+				"wide"			"34"
+				"tall"			"34"
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
-				"bgcolor_override"	"117 107 94 255"
+				"bgcolor_override"	"White"
 			}
 			"AvatarImage"
 			{
@@ -1221,14 +1221,14 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"AvatarBGPanel"
-				"xpos"			"7"
-				"ypos"			"7"
+				"xpos"			"8"
+				"ypos"			"8"
 				"zpos"			"-1"
-				"wide"			"36"
-				"tall"			"36"
+				"wide"			"34"
+				"tall"			"34"
 				"visible"		"1"
 				"PaintBackgroundType"	"0"
-				"bgcolor_override"	"117 107 94 255"
+				"bgcolor_override"	"White"
 			}
 			"AvatarImage"
 			{

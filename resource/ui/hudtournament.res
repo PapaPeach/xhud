@@ -219,14 +219,6 @@
 				"wide"			"0"
 				"enabled"		"0"
 			}
-			//"ReadyBG"
-			//{
-			//	"ControlName"		"ScalableImagePanel"
-			//	"fieldName"		"ReadyBG"
-			//	"xpos"			"0"
-			//	"wide"			"0"
-			//	"enabled"		"1"
-			//}
 		}
 		"ModeImage"
 		{
