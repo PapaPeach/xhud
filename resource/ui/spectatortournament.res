@@ -84,7 +84,7 @@
 				"HealthDeathWarning"		"1.0"
 				"TFFont"					"Size 14"
 				"HealthDeathWarningColor"	"Low Health"
-				"TextColor"					"Black"
+				"TextColor"					"GrayDarkest"
 				"proportionaltoparent"		"1"
 			}
 

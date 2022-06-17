@@ -34,8 +34,6 @@ event HudHealthBonusPulse
 	SetVisible HealthBarLowHealth 0 0.0
 
   SetVisible HealthSpectatorBarBuff 1 0.0
-
-	Animate PeachHealthBGSpec    BgColor   "Blue"    Linear	0.0 0.001
 }
 
 event HudHealthBonusPulseStop
@@ -44,8 +42,6 @@ SetVisible HealthBarOverheal 0 0.0
 
 SetVisible HealthBarLowHealth 1 0.0
 
-	Animate PeachHealthBGSpec 			BgColor		"White"							Linear	0.0 	0.001
-
   SetVisible HealthSpectatorBarBuff 0 0.0
 }
 
@@ -53,15 +49,11 @@ SetVisible HealthBarLowHealth 1 0.0
 
 event HudHealthDyingPulse
 {
-	Animate PeachHealthBGSpec 			BgColor		"Low Health"					Linear	0.0 	0.001
-
   SetVisible HealthSpectatorBarHurt 1 0.0
 }
 
 event HudHealthDyingPulseStop
 {
-	Animate PeachHealthBGSpec 			BgColor		"White"							Linear	0.0 	0.001
-
   SetVisible HealthSpectatorBarHurt 0 0.0
 }
 
@@ -173,6 +165,11 @@ event HudSpyDisguiseFadeIn
 {
 	Animate HudPlayerClass			Position		"0 0"			Linear 0.0 0.001
 	Animate ModelPin			Position		"0 r200"			Linear 0.0 0.001
+
+  SetVisible DisguisedAs  1 0
+  SetVisible DisguisedAs  0 1.0
+  SetVisible DisguisedAsShadow  1 0
+  SetVisible DisguisedAsShadow  0 1.0
 }
 
 event HudSpyDisguiseFadeOut

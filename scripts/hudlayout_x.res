@@ -254,16 +254,15 @@
 	{
 		"xpos"		"cs-0.5"
 		"ypos"		"c42"
-		"tall"	 	"35"
-		"tall_minmode"	"35"
+		"tall"	 	"30"
+		"tall_minmode"	"30"
 	}
 
 	CSpectatorTargetID
 	{
-		//"xpos"		"c0"
 		"ypos"		"330"
-		"tall"	 	"35"
-		"tall_minmode"	 	"35"
+		"tall"	 	"30"
+		"tall_minmode"	 	"30"
 	}
 
 	CSecondaryTargetID
@@ -271,8 +270,8 @@
 		"xpos"		"cs-0.5"
 		"ypos"		"c102"
 		"wide"	 	"f0"
-		"tall"	 	"35"
-		"tall_minmode"	"35"
+		"tall"	 	"30"
+		"tall_minmode"	"30"
 	}
 
 	"BuildingStatusAnchor"

@@ -1,19 +1,76 @@
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"PeachHealthBGSpec"
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"0"
+		"tall"			"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/panels/bg_blank"
+		"scaleImage"	"1"
+		"proportionaltoparent"		"1"
+	}
+
+	"HealthSpectatorBarHurt"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthSpectatorBarHurt"
+		"xpos"			"0"
+		"ypos"			"-14"
+		"zpos"			"5"
+		"wide"			"f0"
+		"tall"			"6969"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/panels/material_transparent70"
+		"scaleImage"	"1"
+		"proportionaltoparent"		"1"
+
+		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
+		"pin_corner_to_sibling"		"6"
+		"pin_to_sibling_corner"		"6"
+	}
+
+	"HealthSpectatorBarBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthSpectatorBarBuff"
+		"xpos"			"0"
+		"ypos"			"-14"
+		"zpos"			"3"
+		"wide"			"f0"
+		"tall"			"6969"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/panels/bg_blue"
+		"scaleImage"	"1"
+		"proportionaltoparent"		"1"
+
+		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
+	}
+
+	"HealthTargetIDBG"
   {
     "ControlName"		"CExLabel"
     "fieldName"		"PeachHealthBGSpec"
     "xpos"		"0"
     "ypos"		"0"
-    "zpos"		"-2"
-    "wide"		"30"
+    "zpos"		"2"
+    "wide"		"f0"
     "tall"		"16"
     "visible"		"1"
     "enabled"		"1"
 		"labelText"		""
     "bgcolor_override"		"White"
 		"alpha"		"150"
+		"proportionaltoparent"		"1"
   }
 
 	"PlayerStatusHealthValue"
@@ -22,8 +79,8 @@
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"30"
+		"zpos"			"6"
+		"wide"			"f0"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
@@ -52,34 +109,20 @@
 
 	"BuildingStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
 		"fieldName"		"BuildingStatusHealthImageBG"
 		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 	"PlayerStatusHealthImage"
 	{
-		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-	}
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 }
