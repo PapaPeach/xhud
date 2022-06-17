@@ -5,7 +5,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
-		"ypos"			"22"
+		"ypos"			"23"
 		"zpos"			"-1"
 		"wide"			"6969"
 		"tall"	 		"2"
@@ -54,13 +54,12 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"1"
-		"tall"			"8"
+		"wide"			"50"
+		"tall"			"9"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"center"
-		"auto_wide_tocontents"		"1"
 
 		"pin_to_sibling"		"SpectatorGUIHealth"
 		"pin_corner_to_sibling"		"6"
@@ -92,7 +91,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"10"
-		"ypos"			"8"
+		"ypos"			"9"
 		"wide"			"30"
 		"tall"			"14"
 		"visible"		"0"
@@ -113,7 +112,6 @@
 		"enabled"		"0"
 		"labelText"		""
 	}
-
 	"TargetNameLabel"
 	{
 		"ControlName"		"Label"

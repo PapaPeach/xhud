@@ -35,7 +35,7 @@
 				"xpos"			"46"
 				"ypos"			"0"
 				"zpos"			"10"
-				"wide"			"100"
+				"wide"			"96"
 				"tall"			"f0"
 				"visible"		"1"
 				"labelText"		"%playername%"

@@ -284,7 +284,7 @@
 			"color_portrait_bg_red_dead"	"Blank"
 			"color_portrait_bg_blue_dead"	"Blank"
 			"color_bar_health_high"	"40 200 110 120"
-			"color_bar_health_med"	"255 255 80 120"
+			"color_bar_health_med"	"240 240 60 120"
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"255 50 65 120"
 			"percentage_health_low"	"0.3"
