@@ -80,7 +80,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"6"
-		"wide"			"f0"
+		"wide"			"36"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
@@ -88,7 +88,6 @@
 		"textAlignment"		"center"
 		"font"			"Size 16"
 		"fgcolor"		"GrayDarkest"
-		"proportionaltoparent"		"1"
 	}
 
 	"PlayerStatusPlayerLevel"

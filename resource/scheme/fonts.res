@@ -140,6 +140,17 @@ Scheme
 				"antialias"									"1"
 			}
 		}
+		"Size 16 Uber"
+		{
+			"1"
+			{
+				"name"										"Renogare Uber"
+				"tall"										"16"
+				"additive"									"0"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
 		"Size 18"
 		{
 			"1"

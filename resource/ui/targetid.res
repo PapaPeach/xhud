@@ -5,7 +5,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
 		"xpos"			"0"
-		"ypos"			"23"
+		"ypos"			"-17"
 		"zpos"			"-1"
 		"wide"			"6969"
 		"tall"	 		"2"
@@ -18,12 +18,12 @@
 		"teambg_3"		"../vgui/replay/thumbnails/panels/bg_blue"
 	}
 
-	"TargetIDBG_Spec_Blue"
+	"TargetIDBG_Spec_Blue"		//TODO: is this needed?
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"30"
-		"ypos"			"-33"
+		"xpos"			"0"
+		"ypos"			"-17"
 		"zpos"			"-1"
 		"wide"			"6969"
 		"tall"	 		"2"
@@ -32,12 +32,12 @@
 		"image"			"../vgui/replay/thumbnails/panels/bg_blue"
 	}
 
-	"TargetIDBG_Spec_Red"
+	"TargetIDBG_Spec_Red"		//TODO: is this needed?
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"30"
-		"ypos"			"-33"
+		"xpos"			"0"
+		"ypos"			"-17"
 		"zpos"			"-1"
 		"wide"			"6969"
 		"tall"	 		"2"
@@ -46,24 +46,38 @@
 		"image"			"../vgui/replay/thumbnails/panels/bg_red"
 	}
 
-	"TargetDataLabelCustom"
+	"TargetDataAnchor"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"TargetDataAnchor"
+		"xpos"							"48"
+		"ypos"							"0"
+		"wide"							"0"
+		"tall"							"0"
+		"enabled"						"1"
+
+		"pin_to_sibling"		"SpectatorGUIHealth"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"1"
+	}
+
+	"TargetDataLabel"
 	{
 		"ControlName"		"Label"
-		"fieldName"		"TargetDataLabelCustom"
-		"font"			"Size 12 Uber"
+		"fieldName"		"TargetDataLabel"
+		"font"			"Size 16 Uber"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"50"
-		"tall"			"9"
+		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"textAlignment"		"center"
+		"textAlignment"		"west"
+		"bgcolor_override"		"Blank"
 
-		"pin_to_sibling"		"SpectatorGUIHealth"
-		"pin_corner_to_sibling"		"6"
-		"pin_to_sibling_corner"		"4"
+		"pin_to_sibling"		"TargetDataAnchor"
 	}
 
 	"TargetNameLabelCustom"
@@ -74,14 +88,17 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"8"
+		"wide"			"60"
+		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"		"center"
+		"textAlignment"		"north"
+		"centerwrap"		"1"
+		"bgcolor_override"		"Blank"
+		"proportionaltoparent"		"1"
 
-		"pin_to_sibling"		"SpectatorGUIHealth"
+		"pin_to_sibling"		"TargetIDBG"
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"6"
 	}
@@ -91,11 +108,12 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
 		"xpos"			"10"
-		"ypos"			"9"
-		"wide"			"30"
+		"ypos"			"0"
+		"wide"			"36"
 		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"0"
+		"auto_wide_tocontents"		"1"
 		"HealthBonusPosAdj"	"42"
 		"HealthDeathWarning"	"1"
 		"TFFont"		"Size 16"
@@ -104,14 +122,6 @@
 		"TextColor"		"GrayDarkest"
 	}
 
-	"TargetDataLabel"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"TargetDataLabel"
-		"ypos"			"9999"
-		"enabled"		"0"
-		"labelText"		""
-	}
 	"TargetNameLabel"
 	{
 		"ControlName"		"Label"

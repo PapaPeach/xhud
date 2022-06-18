@@ -38,9 +38,9 @@ event HudHealthBonusPulse
 
 event HudHealthBonusPulseStop
 {
-SetVisible HealthBarOverheal 0 0.0
+  SetVisible HealthBarOverheal 0 0.0
 
-SetVisible HealthBarLowHealth 1 0.0
+  SetVisible HealthBarLowHealth 1 0.0
 
   SetVisible HealthSpectatorBarBuff 0 0.0
 }
@@ -166,10 +166,10 @@ event HudSpyDisguiseFadeIn
 	Animate HudPlayerClass			Position		"0 0"			Linear 0.0 0.001
 	Animate ModelPin			Position		"0 r200"			Linear 0.0 0.001
 
-  SetVisible DisguisedAs  1 0
-  SetVisible DisguisedAs  0 1.0
-  SetVisible DisguisedAsShadow  1 0
-  SetVisible DisguisedAsShadow  0 1.0
+  SetVisible Disguising  1 0
+  SetVisible Disguising  0 1.0
+  SetVisible DisguisingShadow  1 0
+  SetVisible DisguisingShadow  0 1.0
 }
 
 event HudSpyDisguiseFadeOut

@@ -320,7 +320,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"proportionaltoparent"		"1"
-				"bgcolor_override"		"0 0 0 64"
+				"bgcolor_override"		"27 28 30 64"
 			}
 			"playername"
 			{

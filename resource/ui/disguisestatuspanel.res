@@ -19,10 +19,10 @@
 		"alpha"		"180"
 	}
 
-	"DisguisedAs"
+	"Disguising"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"DisguisedAs"
+		"fieldName"		"Disguising"
 		"font"			"Size 10"
 		"xpos"			"0"
 		"ypos"			"-2"
@@ -31,7 +31,7 @@
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"Disguised As:"
+		"labelText"		"Disguising..."
 		"textAlignment"		"center"
 		"fgcolor_override"		"White"
 
@@ -40,10 +40,10 @@
 		"pin_corner_to_sibling"		"6"
 	}
 
-	"DisguisedAsShadow"
+	"DisguisingShadow"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"DisguisedAsShadow"
+		"fieldName"		"DisguisingShadow"
 		"font"			"Size 10"
 		"xpos"			"-1"
 		"ypos"			"-1"
@@ -52,11 +52,11 @@
 		"tall"			"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"Disguised As:"
+		"labelText"		"Disguising..."
 		"textAlignment"		"center"
 		"fgcolor_override"		"Shadow"
 
-		"pin_to_sibling"		"DisguisedAs"
+		"pin_to_sibling"		"Disguising"
 	}
 
 	"DisguiseNameLabel"
