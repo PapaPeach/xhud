@@ -18,7 +18,7 @@
 		"teambg_3"		"../vgui/replay/thumbnails/panels/bg_blue"
 	}
 
-	"TargetIDBG_Spec_Blue"		//TODO: is this needed?
+	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
@@ -32,7 +32,7 @@
 		"image"			"../vgui/replay/thumbnails/panels/bg_blue"
 	}
 
-	"TargetIDBG_Spec_Red"		//TODO: is this needed?
+	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
@@ -69,13 +69,13 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"1"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"west"
-		"bgcolor_override"		"Blank"
+		"auto_wide_tocontents"		"1"
 
 		"pin_to_sibling"		"TargetDataAnchor"
 	}
@@ -88,14 +88,13 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"60"
+		"wide"			"f6"
 		"tall"			"17"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"north"
 		"centerwrap"		"1"
-		"bgcolor_override"		"Blank"
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"TargetIDBG"
@@ -113,7 +112,6 @@
 		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"0"
-		"auto_wide_tocontents"		"1"
 		"HealthBonusPosAdj"	"42"
 		"HealthDeathWarning"	"1"
 		"TFFont"		"Size 16"
