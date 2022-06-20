@@ -60,10 +60,10 @@
   {
     "ControlName"		"CExLabel"
     "fieldName"		"PeachHealthBGSpec"
-    "xpos"		"0"
+    "xpos"		"cs-0.5"
     "ypos"		"0"
     "zpos"		"2"
-    "wide"		"f0"
+    "wide"		"6969"
     "tall"		"16"
     "visible"		"1"
     "enabled"		"1"
