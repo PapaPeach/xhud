@@ -7,17 +7,18 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"o1"
+		"wide"			"300"
 		"tall"			"p0.75"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"item_carousel_bg"
+		"image"			"replay/thumbnails/panels/bg_black"
 		"scaleImage"	"1"
+		"alpha"		"240"
 		"proportionaltoparent" "1"
 	}
 
 	"ItemName"
-	{		
+	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"ItemName"
 		"xpos"			"cs-0.5"
@@ -26,9 +27,9 @@
 		"wide"			"f0"
 		"tall"			"200"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"Blank"
+		"noitem_textcolor"		"WhiteGray"
+		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		"mouseinputenabled"	"0"
 		"proportionaltoparent"	"1"
@@ -84,7 +85,7 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
-		
+
 			"modelname"		""
 		}
 
@@ -128,54 +129,46 @@
 		"zpos"				"100"
 		"wide"				"60"
 		"tall"				"25"
-		"autoResize"		"0"
-		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
 		"proportionaltoparent"	"1"
-		
+
 		"auto_scale"		"1"
 		"auto_layout"		"1"
 		"selected_button_default"	"0"
 		"auto_layout_vertical_buffer"	"-4"
 		"display_vertically"	"0"
-		"align"				"west"
-		
+		"align"				"center"
+
 		"ButtonSettings"
 		{
-			"wide"				"19"
+			"wide"				"21"
 			"tall"				"19"
-			"autoResize"		"0"
-			"pinCorner"			"2"
 			"visible"			"1"
 			"enabled"			"1"
-			"tabPosition"		"0"
 			"labelText"			""
-			"textAlignment"		"south-west"
+			"textAlignment"		"south"
 			"scaleImage"		"1"
-			
-			"fgcolor"			"TanDark"
-			"defaultFgColor_override" "TanDark"
-			"armedFgColor_override" "TanDark"
-			"depressedFgColor_override" "TanDark"
-			
+
+			"fgcolor"			"White"
+			"defaultFgColor_override" "White"
+			"armedFgColor_override" "White"
+			"depressedFgColor_override" "White"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
-			
+
 			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
-			"defaultBgColor_Override"	"0 0 0 255"
-			
 			"paintborder"		"0"
-			
-			"image_drawcolor"		"255 255 255 77"
-			"image_armedcolor"		"255 255 255 128"
+
+			"image_drawcolor"		"255 255 255 40"
+			"image_armedcolor"		"255 255 255 120"
 			"image_selectedcolor"	"255 255 255 255"
-			
+
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -183,14 +176,14 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"7"
-				"wide"			"19"
+				"wide"			"21"
 				"tall"			"19"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-			}				
+			}
 		}
-		
+
 		"Buttons"
 		{
 			"all"
@@ -199,11 +192,11 @@
 				"image_default"		"store/store_redteam"
 				"image_armed"		"store/store_redteam"
 				"image_selected"	"store/store_redteam"
-				
+
 				"SubImage"
 				{
 					"image"			"store/store_redteam"
-				}				
+				}
 			}
 			"scout"
 			{
@@ -211,11 +204,11 @@
 				"image_default"		"store/store_blueteam"
 				"image_armed"		"store/store_blueteam"
 				"image_selected"	"store/store_blueteam"
-				
+
 				"SubImage"
 				{
 					"image"			"store/store_blueteam"
-				}				
+				}
 			}
 		}
 	}
@@ -229,10 +222,9 @@
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
-		"border"		"MainMenuBGBorder"
+		"border"		"MaterialGrayDarkest"
 		"mouseinputenabled"	"1"
 		"proportionaltoparent"	"1"
-
 		"visible"		"0"
 
 		"fixed_item"
@@ -245,61 +237,6 @@
 			"tall"		"60"
 			"visible"	"1"
 		}
-		"consume_mode"
-		{
-			"border"		"ReplayHighlightBorder"
-		}
-
-		"DebugButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"DebugButton"
-			"xpos"			"5"
-			"ypos"			"0"
-			"zpos"			"1005"
-			"wide"			"8"
-			"tall"			"8"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"Command"		"debug_menu"
-			"proportionaltoparent" "1"
-			"actionsignallevel"	"2"
-			
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "0 0 0 0"
-			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
-			
-			"image_drawcolor"	"TanDark"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"8"
-				"tall"			"8"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"glyph_workshop_edit"
-				"scaleImage"	"1"
-			}				
-		} // Debug button
-
 
 		"ComboBoxValidPaintkits"
 		{
@@ -312,8 +249,6 @@
 			"zpos"				"100"
 			"wide"				"200"
 			"tall"				"15"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"textHidden"		"0"
@@ -321,7 +256,6 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			"default"			"0"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
 
@@ -329,14 +263,14 @@
 			{
 				"visible"	"0"
 			}
-		
-			"fgcolor_override"	"235 226 202 255"
-			"bgcolor_override"	"0 0 0 0"
-			"disabledFgColor_override" "235 226 202 255"
-			"disabledBgColor_override" "0 0 0 0"
-			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "235 226 202 255"
-			"defaultSelectionBG2Color_override" "0 0 0 0"
+
+			"fgcolor_override"	"White"
+			"bgcolor_override"	"Blank"
+			"disabledFgColor_override" "White"
+			"disabledBgColor_override" "Blank"
+			"selectionColor_override" "Blank"
+			"selectionTextColor_override" "White"
+			"defaultSelectionBG2Color_override" "Blank"
 		}
 
 		"PaintkitLabel"
@@ -350,11 +284,9 @@
 			"ypos"			"10"
 			"wide"			"80"
 			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"White"
 
 			"fixed_paintkit"
 			{
@@ -377,8 +309,6 @@
 			"zpos"				"100"
 			"wide"				"200"
 			"tall"				"15"
-			"autoResize"		"0"
-			"pinCorner"			"0"
 			"visible"			"1"
 			"enabled"			"1"
 			"textHidden"		"0"
@@ -386,7 +316,6 @@
 			"maxchars"			"-1"
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
-			"default"			"0"
 			"actionsignallevel"	"2"
 
 			"fixed_item"
@@ -395,14 +324,14 @@
 			}
 
 			"proportionaltoparent"	"1"
-		
-			"fgcolor_override"	"235 226 202 255"
-			"bgcolor_override"	"0 0 0 0"
-			"disabledFgColor_override" "TanDark"
-			"disabledBgColor_override" "0 0 0 0"
-			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "235 226 202 255"
-			"defaultSelectionBG2Color_override" "0 0 0 0"
+
+			"fgcolor_override"	"White"
+			"bgcolor_override"	"Blank"
+			"disabledFgColor_override" "WhiteGray"
+			"disabledBgColor_override" "Blank"
+			"selectionColor_override" "Blank"
+			"selectionTextColor_override" "White"
+			"defaultSelectionBG2Color_override" "Blank"
 		}
 
 		"ItemLabel"
@@ -420,11 +349,9 @@
 			}
 			"wide"			"80"
 			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"White"
 
 			"fixed_item"
 			{
@@ -484,11 +411,9 @@
 			}
 			"wide"			"80"
 			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"White"
 
 			"fixed_paintkit"
 			{
@@ -518,16 +443,11 @@
 			"zpos"			"10"
 			"wide"			"70"
 			"tall"			"20"
-			"autoResize"	"0"
-			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"labelText"		"#TF_ItemPreview_PaintkitSeed"
 			"actionsignallevel" "2"
 			"use_proportional_insets" "1"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"keyboardinputenabled"	"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -558,14 +478,10 @@
 			"zpos"			"10"
 			"wide"			"115"
 			"tall"			"20"
-			"autoResize"	"0"
-			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
 			"actionsignallevel" "2"
-			"default"		"1"
 			"NumericInputOnly"	"1"
-			"bgcolor_override"	"0 0 0 200"
+			"bgcolor_override"	"TransparentBlack"
 			"maxchars"		"18"
 
 			"consume_mode"
@@ -595,7 +511,7 @@
 			"font"			"AdFont_PurchaseButton"
 			"textinsetx"		"0"
 			"textAlignment"	"center"
-		
+
 			"proportionaltoparent"	"1"
 			"paintbackground"	"1"
 			"command"	"market"
@@ -607,8 +523,8 @@
 
 			"border_default"	"NoBorder"
 
-			"defaultBgColor_override"	"72 103 32 255"
-			"armedBgColor_override"		"72 133 32 255"
+			"defaultBgColor_override"	"40 200 110 150"
+			"armedBgColor_override"		"Green"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
