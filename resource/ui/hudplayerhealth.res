@@ -6,7 +6,7 @@
 
 "Resource/UI/HudPlayerHealth.res"
 {
-	"HudPlayerHealth"		//Overriden		HealthBonusPosAdj=364-(61/320)(1920-W)
+	"HudPlayerHealth"		//Overriden		HealthBonusPosAdj=182-(61/320)(1920-W)
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HudPlayerHealth"
@@ -17,7 +17,7 @@
 		"tall"						"30"
 		"visible"					"1"
 		"enabled"					"1"
-		"HealthDeathWarning"		"2.0"
+		"HealthDeathWarning"		"1.0"
 		"HealthDeathWarningColor"	"Blank"
 	}
 
@@ -38,7 +38,7 @@
 	{
 		"ControlName"				"ImagePanel"
 		"fieldName"					"PlayerStatusHealthBonusImage"
-		"xpos"						"161"
+		"xpos"						"80"
 		"ypos"						"0"
 		"zpos"						"2"
 		"wide"						"1"
@@ -111,7 +111,7 @@
 		"xpos"						"0"
 		"ypos"						"29"
 		"zpos"						"5"
-		"wide"						"172"
+		"wide"						"80"
 		"tall"						"3"
 		"visible"					"1"
 		"enabled"					"1"
@@ -126,7 +126,7 @@
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HealthBarOverheal"
-		"xpos"						"-413"
+		"xpos"						"-331"
 		"ypos"						"29"
 		"zpos"						"6"
 		"wide"						"250"
@@ -145,7 +145,7 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HealthBarLowHealth"
 		"xpos"						"0"
-		"ypos"						"-147"
+		"ypos"						"-68"
 		"zpos"						"2"
 		"wide"						"200"
 		"tall"						"100"

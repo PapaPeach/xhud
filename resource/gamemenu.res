@@ -197,7 +197,7 @@
 	"JumpMode"
 	{
 		"label"			"Jump"
-		"command"		"engine sv_cheats 1; testhudanim JumpModeTrigger"
+		"command"		"engine alias x_jumpmode jumpmode; x_jumpmode"
 		"tooltip"		"Reload hud to undo"
 		"OnlyAtMenu"	"1"
 	}
@@ -205,7 +205,7 @@
 	"6v6Scoreboard"
 	{
 		"label"			"6s SB"
-		"command"		"engine sv_cheats 1; testhudanim 6v6ScoreboardTrigger"
+		"command"		"engine alias x_scoreboard 6v6sb; x_scoreboard"
 		"tooltip"		"Reload hud to undo"
 		"OnlyAtMenu"	"1"
 	}

@@ -27,6 +27,28 @@ event AnimateHitmarker
 
 //====================================================================================================================
 
+event QuickReloadHud
+{
+  FireCommand 0 "reloadscheme"
+}
+
+//====================================================================================================================
+
+//Animation states
+event JumpMode
+{
+  Animate speed1			Position		"c10 c16"				Linear 0.0 0.001
+}
+
+event 6v6Scoreboard
+{
+  Animate RedPlayerList     tall    100    Linear 0.0 0.001
+  Animate BluePlayerList     tall   100    Linear 0.0 0.001
+  Animate ScoreboardMainBG    tall  142    Linear 0.0 0.001
+}
+
+//====================================================================================================================
+
 event HudHealthBonusPulse
 {
 	SetVisible HealthBarOverheal 1 0.0
@@ -34,6 +56,8 @@ event HudHealthBonusPulse
 	SetVisible HealthBarLowHealth 0 0.0
 
   SetVisible HealthSpectatorBarBuff 1 0.0
+
+  Animate HealthBarBG   bgcolor    "White"   Linear 0 0.001
 }
 
 event HudHealthBonusPulseStop
@@ -43,6 +67,8 @@ event HudHealthBonusPulseStop
   SetVisible HealthBarLowHealth 1 0.0
 
   SetVisible HealthSpectatorBarBuff 0 0.0
+
+  Animate HealthBarBG   bgcolor    "TransparentGrayDarkest"   Linear 0 0.001
 }
 
 //====================================================================================================================
@@ -203,21 +229,6 @@ event HudTournament_ShowTimerDefault
 event HudTournament_HideTimer
 {
 	SetVisible CountdownLabel 0 0
-}
-
-//====================================================================================================================
-
-//Experimental
-event JumpModeTrigger
-{
-  Animate speed1			Position		"c10 c16"				Linear 0.0 0.001
-}
-
-event 6v6ScoreboardTrigger
-{
-  Animate RedPlayerList     tall    100    Linear 0.0 0.001
-  Animate BluePlayerList     tall   100    Linear 0.0 0.001
-  Animate ScoreboardMainBG    tall  142    Linear 0.0 0.001
 }
 
 //====================================================================================================================
