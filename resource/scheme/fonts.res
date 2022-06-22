@@ -1,10 +1,10 @@
 Scheme
 {
-	BitmapFontFiles
-	{
-		"Buttons"	"materials/vgui/fonts/buttons_32.vbf"
-		"ButtonsSC"	"materials/vgui/fonts/buttons_sc.vbf"
-	}
+	//BitmapFontFiles
+	//{
+	//	"Buttons"	"materials/vgui/fonts/buttons_32.vbf"
+	//	"ButtonsSC"	"materials/vgui/fonts/buttons_sc.vbf"
+	//}
 
 	Fonts
 	{
