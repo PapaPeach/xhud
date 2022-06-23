@@ -215,29 +215,13 @@ Scheme
 			"1"
 			{
 				"name"		"Renogare Soft XHud"
-				"tall"		"12"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"		"Renogare Soft XHud"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Renogare Soft XHud"
-				"tall"		"14"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
+				"yres"	"480 1023"
 				"antialias"	"1"
 			}
-			"4"
+			"2"
 			{
 				"name"		"Renogare Soft XHud"
 				"tall"		"16"
@@ -246,10 +230,10 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"3"
 			{
 				"name"		"Renogare Soft XHud"
-				"tall"		"20"
+				"tall"		"21"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -352,31 +336,13 @@ Scheme
 			"1"
 			{
 				"name"		"Renogare Soft XHud"
-				"tall"		"12"
+				"tall"		"15"
 				"weight"	"0"
-				"yres"		"480 599"
+				"yres"		"480 1023"
 				"dropshadow"	"1"
 				"antialias"		"1"
 			}
 			"2"
-			{
-				"name"		"Renogare Soft XHud"
-				"tall"		"14"
-				"weight"	"0"
-				"yres"		"600 767"
-				"dropshadow"	"1"
-				"antialias"		"1"
-			}
-			"3"
-			{
-				"name"		"Renogare Soft XHud"
-				"tall"		"15"
-				"weight"	"0"
-				"yres"		"768 1023"
-				"dropshadow"	"1"
-				"antialias"		"1"
-			}
-			"4"
 			{
 				"name"		"Renogare Soft XHud"
 				"tall"		"17"
@@ -385,10 +351,10 @@ Scheme
 				"dropshadow"	"1"
 				"antialias"		"1"
 			}
-			"5"
+			"3"
 			{
 				"name"		"Renogare Soft XHud"
-				"tall"		"22"
+				"tall"		"24"
 				"weight"	"0"
 				"yres"		"1200 10000"
 				"dropshadow"	"1"

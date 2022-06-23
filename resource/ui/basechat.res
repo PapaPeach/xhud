@@ -31,10 +31,10 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ChatFiltersButton"
-		"xpos"			"202"
+		"xpos"			"201"
 		"ypos"			"70"
-		"wide"			"20"
-		"tall"			"7"
+		"wide"			"24"
+		"tall"			"6"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"Filter"
