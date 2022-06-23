@@ -5,6 +5,7 @@
 		"ControlName"	"CTFFreezePanel"
 		"fieldName"		"FreezePanel"
 		"screenshot_move_panel_to_corner"	"0"
+		"visible"		"0"
 	}
 
 	"FreezePanelBase"
@@ -21,7 +22,7 @@
 		{
 			"ControlName"	"CTFFreezePanelHealth"
 			"fieldName"		"FreezePanelHealth"
-			"xpos"			"cs-0.5"
+			"xpos"			"cs-0.5-7"
 			"ypos"			"0"
 			"wide"			"36"
 			"tall"			"14"
@@ -36,19 +37,20 @@
 			"proportionaltoparent"		"1"
 		}
 
-		"FreezeLabelKiller"
+		"FreezeLabelKillerCustom"
 		{
 			"ControlName"	"Label"
-			"fieldName"		"FreezeLabelKiller"
+			"fieldName"		"FreezeLabelKillerCustom"
 			"font"			"Size 8 Shadow"
-			"xpos"			"0"
+			"xpos"			"7"
 			"ypos"			"0"
-			"wide"			"300"
+			"wide"			"299"
 			"tall"			"8"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%killername%"
 			"textAlignment"		"center"
+			"fgcolor_override"		"White"
 
 			"pin_to_sibling"		"FreezePanelHealth"
 			"pin_corner_to_sibling"		"4"
@@ -59,7 +61,7 @@
 		{
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
-			"xpos"			"0"
+			"xpos"			"1"
 			"ypos"			"0"
 			"wide"			"14"
 			"tall"			"14"
@@ -69,16 +71,22 @@
 			"scaleImage"		"1"
 			"color_outline"		"White"
 
-			"pin_to_sibling"		"FreezeLabelKiller"
-			"pin_corner_to_sibling"		"4"
-			"pin_to_sibling_corner"		"6"
+			"pin_to_sibling"		"FreezePanelHealth"
+			"pin_corner_to_sibling"		"7"
+			"pin_to_sibling_corner"		"5"
 		}
 
-		"FreezeLabel"
+		"FreezeLabel"		//THESE CRASH IF CONTROLNAME IS REMOVED
 		{
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
 			"xpos"			"9999"
+		}
+		"FreezeLabelKiller"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"FreezeLabelKiller"
+			"wide"			"0"
 		}
 	}
 

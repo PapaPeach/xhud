@@ -39,56 +39,11 @@
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MatchDoors"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"0"
-		"enabled"		"1"
-		"fov"			"70"
-		"proportionaltoparent"	"1"
-
-		"model"
-		{
-			"modelname"	"models/vgui/versus_doors.mdl"
-			"skin"		"0"
-			"angles_x"	"0"
-			"angles_y"	"0"
-			"angles_z"	"0"
-			"origin_x"	"120"
-			"origin_y"	"0"
-			"origin_z"	"-77"
-
-			"animation"
-			{
-				"name"			"ref"
-				"sequence"		"ref"
-				"default"		"1"
-			}
-
-			"animation"
-			{
-				"name"			"open"
-				"sequence"		"open"
-			}
-
-			"animation"
-			{
-				"name"			"close"
-				"sequence"		"close"
-			}
-
-			"animation"
-			{
-				"name"			"idle_closed"
-				"sequence"		"idle_closed"
-			}
-		}
 	}
 
 	"RoundCounter"
 	{
-		"fieldName"								"RoundCounter"
+		"fieldName"							"RoundCounter"
 		"xpos"									"c-150"
 		"ypos"									"15"
 		"zpos"									"7"
@@ -97,8 +52,8 @@
 		"visible"								"1"
 		"enabled"								"1"
 
-		"indicator_start_offset"			"4"
-		"indicator_max_wide"					"32"
+		"indicator_start_offset"	"4"
+		"indicator_max_wide"			"32"
 
 		"RoundIndicatorPanel_kv"
 		{
