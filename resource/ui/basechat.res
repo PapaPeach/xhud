@@ -9,9 +9,9 @@
 		"xpos"			"-2"
 		"ypos"			"25"
 		"wide"	 		"220"
-		"tall"	 		"80"
+		"tall"	 		"83"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"Black"
+		"bgcolor_override"		"27 28 30 0"
 	}
 
 	ChatInputLine
@@ -21,9 +21,9 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"2"
-		"ypos"			"395"
+		"ypos"			"0"
 		"wide"	 		"202"
-		"tall"	 		"2"
+		"tall"	 		"0"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -32,7 +32,7 @@
 		"ControlName"		"Button"
 		"fieldName"		"ChatFiltersButton"
 		"xpos"			"202"
-		"ypos"			"67"
+		"ypos"			"70"
 		"wide"			"20"
 		"tall"			"7"
 		"visible"		"1"

@@ -47,6 +47,13 @@ event 6v6Scoreboard
   Animate ScoreboardMainBG    tall  142    Linear 0.0 0.001
 }
 
+event 9v9Scoreboard
+{
+  Animate RedPlayerList     tall    145    Linear 0.0 0.001
+  Animate BluePlayerList     tall   145    Linear 0.0 0.001
+  Animate ScoreboardMainBG    tall  187    Linear 0.0 0.001
+}
+
 //====================================================================================================================
 
 event HudHealthBonusPulse

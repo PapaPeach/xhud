@@ -1,4 +1,4 @@
-"Resource/UI/SpectatorGUIHealth.res"
+"Resource/UI/FreezePanelKillerHealth.res"
 {
 	"PlayerStatusHealthBonusImage"
 	{
@@ -57,21 +57,21 @@
 	}
 
 	"HealthTargetIDBG"
-  {
-    "ControlName"		"CExLabel"
-    "fieldName"		"PeachHealthBGSpec"
-    "xpos"		"cs-0.5"
-    "ypos"		"0"
-    "zpos"		"2"
-    "wide"		"6969"
-    "tall"		"16"
-    "visible"		"1"
-    "enabled"		"1"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"PeachHealthBGSpec"
+		"xpos"		"cs-0.5"
+		"ypos"		"0"
+		"zpos"		"2"
+		"wide"		"6969"
+		"tall"		"16"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		""
-    "bgcolor_override"		"White"
+		"bgcolor_override"		"White"
 		"alpha"		"150"
 		"proportionaltoparent"		"1"
-  }
+	}
 
 	"PlayerStatusHealthValue"
 	{
@@ -90,33 +90,17 @@
 		"fgcolor"		"GrayDarkest"
 	}
 
-	"PlayerStatusPlayerLevel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusPlayerLevel"
-		"xpos"			"8"
-		"ypos"			"9"
-		"zpos"			"5"
-		"wide"			"16"
-		"tall"			"14"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"
-		"font"			"ScoreboardVerySmall"
-		"fgcolor"		"TFOrange"
-	}
-
-	"BuildingStatusHealthImageBG"
-	{
-		"fieldName"		"BuildingStatusHealthImageBG"
-		"xpos"		"9999"
-	}
 	"PlayerStatusHealthImage"
 	{
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"		"9999"
 	}
 	"PlayerStatusHealthImageBG"
+	{
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos"		"9999"
+	}
+	"BuildingStatusHealthImageBG"
 	{
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"		"9999"

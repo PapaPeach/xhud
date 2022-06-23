@@ -365,6 +365,11 @@
 		"zpos"					"4"
 	}
 
+	FreezePanelCallout
+	{
+		"xpos"			"9999"
+	}
+
 	"HudMenuEngyBuild"
 	{
 		"xpos"				"5"
@@ -399,12 +404,12 @@
 
 	HudDemomanPipes
 	{
-		"xpos"				"cs-0.5"
+		"xpos"					"cs-0.5"
 		"xpos_minmode"	"cs-0.5"
-		"ypos"				"c25"
+		"ypos"					"c25"
 		"ypos_minmode"	"c25"
-		"wide"				"80"
-		"tall"				"30"
+		"wide"					"80"
+		"tall"					"30"
 	}
 
 	HudTournament
