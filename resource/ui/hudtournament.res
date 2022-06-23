@@ -237,7 +237,7 @@
 		"xpos"			"cs-1"
 		"ypos"			"10"
 		"zpos"			"-1"
-		"wide"			"35"
+		"wide"			"70"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
@@ -258,13 +258,49 @@
 		}
 	}
 
+	"TournamentBLUELabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"TournamentBLUELabel"
+		"font"			"Size 12"
+		"xpos"			"-2"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"45"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%bluenamelabel%"
+		"textAlignment"		"west"
+		"fgcolor_override"		"White"
+
+		"pin_to_sibling"		"HudTournamentBLUEBG"
+		"pin_corner_to_sibling"		"7"
+		"pin_to_sibling_corner"		"7"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"visible"		"0"
+		}
+	}
+
 	"TournamentBLUEStateLabel"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
 		"font"			"ReadyUp 24"
 		"FgColor"		"White"
-		"xpos"			"-10"
+		"xpos"			"15"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"35"
@@ -275,6 +311,8 @@
 		"textAlignment"		"south-west"
 
 		"pin_to_sibling"		"HudTournamentBLUEBG"
+		"pin_corner_to_sibling"		"5"
+		"pin_to_sibling_corner"		"5"
 
 		if_mvm
 		{
@@ -297,7 +335,7 @@
 		"xpos"			"c0"
 		"ypos"			"10"
 		"zpos"			"-1"
-		"wide"			"35"
+		"wide"			"70"
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
@@ -318,13 +356,49 @@
 		}
 	}
 
+	"TournamentREDLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"TournamentREDLabel"
+		"font"			"HudFontSmallest"
+		"xpos"			"-2"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"45"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%rednamelabel%"
+		"textAlignment"		"east"
+		"fgcolor_override"		"White"
+
+		"pin_to_sibling"		"HudTournamentREDBG"
+		"pin_corner_to_sibling"		"5"
+		"pin_to_sibling_corner"		"5"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"visible"		"0"
+		}
+	}
+
 	"TournamentREDStateLabel"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
 		"font"			"ReadyUp 24"
 		"FgColor"		"White"
-		"xpos"			"-10"
+		"xpos"			"-5"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"35"
@@ -335,6 +409,8 @@
 		"textAlignment"		"south-west"
 
 		"pin_to_sibling"		"HudTournamentREDBG"
+		"pin_corner_to_sibling"		"7"
+		"pin_to_sibling_corner"		"7"
 
 		if_mvm
 		{
@@ -427,22 +503,6 @@
 		}
 	}
 
-	"TournamentBLUELabel"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"TournamentBLUELabel"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-	}
-	"TournamentREDLabel"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"TournamentREDLabel"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-	}
 	"CountdownLabelShadow"
 	{
 		"ControlName"		"CExLabel"

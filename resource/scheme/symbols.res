@@ -211,7 +211,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ReadyUp Symbols"
+				"name"			"ReadyUp XHud"
 				"tall"			"24"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -235,8 +235,8 @@ Scheme
 
 		"32"
 		{
-			"font" "resource/scheme/fonts/ReadyUp Symbols.otf"
-			"name" "ReadyUp Symbols"
+			"font" "resource/scheme/fonts/ReadyUp XHud.otf"
+			"name" "ReadyUp XHud"
 		}
 
 		"33"
