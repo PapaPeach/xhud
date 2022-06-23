@@ -1,5 +1,28 @@
+#base "../../resolutions/16x9_3840x2160/targetid.res"
+#base "../../resolutions/16x9_2560x1440/targetid.res"
+#base "../../resolutions/16x9_1920x1080/targetid.res"
+#base "../../resolutions/16x9_1366x768/targetid.res"
+#base "../../resolutions/16x9_1600x900/targetid.res"
+
 "Resource/UI/TargetID.res"
 {
+	"SpectatorGUIHealth"		//Overridden		HealthBonusPosAdj=HudPlayerHealth(14/81)
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"SpectatorGUIHealth"
+		"xpos"			"10"
+		"ypos"			"0"
+		"wide"			"36"
+		"tall"			"14"
+		"visible"		"0"
+		"enabled"		"0"
+		"HealthDeathWarning"	"1"
+		"TFFont"		"Size 16"
+		"textAlignment"		"center"
+		"HealthDeathWarningColor"	"Low Health"
+		"TextColor"		"GrayDarkest"
+	}
+
 	"TargetIDBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -16,24 +39,6 @@
 		"teambg_1"		"../vgui/replay/thumbnails/panels/bg_black"
 		"teambg_2"		"../vgui/replay/thumbnails/panels/bg_red"
 		"teambg_3"		"../vgui/replay/thumbnails/panels/bg_blue"
-	}
-
-	"SpectatorGUIHealth"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"10"
-		"ypos"			"0"
-		"wide"			"36"
-		"tall"			"14"
-		"visible"		"0"
-		"enabled"		"0"
-		"HealthBonusPosAdj"	"42"
-		"HealthDeathWarning"	"1"
-		"TFFont"		"Size 16"
-		"textAlignment"		"center"
-		"HealthDeathWarningColor"	"Low Health"
-		"TextColor"		"GrayDarkest"
 	}
 
 	"TargetDataAnchor"

@@ -1,3 +1,9 @@
+#base "../../resolutions/16x9_3840x2160/spectatortournament.res"
+#base "../../resolutions/16x9_2560x1440/spectatortournament.res"
+#base "../../resolutions/16x9_1920x1080/spectatortournament.res"
+#base "../../resolutions/16x9_1366x768/spectatortournament.res"
+#base "../../resolutions/16x9_1600x900/spectatortournament.res"
+
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -26,6 +32,24 @@
 
 			"color_ready"	"Green"
 			"color_notready"	"GrayDarkest"
+
+			"HealthIcon"		//Overridden		HealthBonusPosAdj=HudPlayerHealth(151/81)
+			{
+				"ControlName"		"EditablePanel"
+				"fieldName"			"HealthIcon"
+				"xpos"				"20"
+				"ypos"				"0"
+				"zpos"				"3"
+				"wide"				"148"
+				"tall"				"f0"
+				"visible"			"1"
+				"enabled"			"1"
+				"HealthDeathWarning"		"1.0"
+				"TFFont"					"Size 16"
+				"HealthDeathWarningColor"	"Low Health"
+				"TextColor"					"GrayDarkest"
+				"proportionaltoparent"		"1"
+			}
 
 			"playername"
 			{
@@ -67,25 +91,6 @@
 					"tall"			"20"
 					"image"			"../vgui/hud_connecting"
 				}
-			}
-
-			"HealthIcon"
-			{
-				"ControlName"		"EditablePanel"
-				"fieldName"			"HealthIcon"
-				"xpos"				"20"
-				"ypos"				"0"
-				"zpos"				"3"
-				"wide"				"147"
-				"tall"				"f0"
-				"visible"			"1"
-				"enabled"			"1"
-				"HealthBonusPosAdj"	"460"
-				"HealthDeathWarning"		"1.0"
-				"TFFont"					"Size 14"
-				"HealthDeathWarningColor"	"Low Health"
-				"TextColor"					"GrayDarkest"
-				"proportionaltoparent"		"1"
 			}
 
 			"LeftBlackBG"

@@ -236,7 +236,7 @@ Scheme
 				"tall"		"21"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
+				"yres"	"1200 10000"
 				"antialias"	"1"
 			}
 		}

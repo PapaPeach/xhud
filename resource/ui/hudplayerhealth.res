@@ -6,7 +6,7 @@
 
 "Resource/UI/HudPlayerHealth.res"
 {
-	"HudPlayerHealth"		//Overriden		HealthBonusPosAdj=182-(61/320)(1920-W)
+	"HudPlayerHealth"		//Overridden		HealthBonusPosAdj=182-(61/320)(1920-W)
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HudPlayerHealth"
