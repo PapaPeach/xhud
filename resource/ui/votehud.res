@@ -157,7 +157,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"MainTheme"
 			"visible"		"1"
 		}
 
@@ -176,7 +176,6 @@
 			"textAlignment"	"west"
 			"font"			"Size 16"
 			"fgcolor_override"	"White"
-			"bgcolor_override"		"Blank"
 		}
 
 		"LabelOption2"
@@ -205,7 +204,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"MainTheme"
 			"visible"		"1"
 		}
 
@@ -224,7 +223,6 @@
 			"textAlignment"	"west"
 			"font"			"Size 16"
 			"fgcolor_override"	"White"
-			"bgcolor_override"		"Blank"
 		}
 
 		"LabelOption3"

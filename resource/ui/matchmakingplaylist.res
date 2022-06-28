@@ -73,23 +73,4 @@
 			"ypos"			"3"
 		}
 	}
-
-	"ServerBrowserEntry"
-	{
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"ServerBrowserEntry"
-		"xpos"			"9999"
-	}
-	"CreateServerEntry"
-	{
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"CreateServerEntry"
-		"xpos"			"9999"
-	}
-	"ScrollBar"
-	{
-		"ControlName"	"ScrollBar"
-		"FieldName"		"ScrollBar"
-		"xpos"			"9999"
-	}
 }

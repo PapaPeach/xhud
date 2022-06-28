@@ -1,6 +1,6 @@
 "Resource/HudLayout.res"
 {
-	HorizontalThird1
+	"HorizontalThird1"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"HorizontalThird1"
@@ -11,11 +11,10 @@
 		"tall"					"1"
 		"visible"				"0"			//1 to enable
 		"enabled"				"1"
-		"paintbackgroud"		"1"
 		"bgcolor_override"		"255 255 255 20"
 	}
 
-	HorizontalThird2
+	"HorizontalThird2"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"HorizontalThird2"
@@ -26,11 +25,10 @@
 		"tall"					"1"
 		"visible"				"0"			//1 to enable
 		"enabled"				"1"
-		"paintbackgroud"		"1"
 		"bgcolor_override"		"255 255 255 20"
 	}
 
-	VerticalThird1
+	"VerticalThird1"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"VerticalThird1"
@@ -41,11 +39,10 @@
 		"tall"					"f0"
 		"visible"				"0"			//1 to enable
 		"enabled"				"1"
-		"paintbackgroud"		"1"
 		"bgcolor_override"		"255 255 255 20"
 	}
 
-	VerticalThird2
+	"VerticalThird2"
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"VerticalThird2"
@@ -56,13 +53,37 @@
 		"tall"					"f0"
 		"visible"				"0"			//1 to enable
 		"enabled"				"1"
-		"paintbackgroud"		"1"
 		"bgcolor_override"		"255 255 255 20"
 	}
 
-	////////////////////////////////////////////////////
-	//										TF2 Stuff										//
-	////////////////////////////////////////////////////
+	"Crosshair"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName" 	"Crosshair"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"-10"
+		"wide"			"100"
+		"tall"			"100"
+		"enabled"		"1"
+		"TextAlignment"		"center"
+		"font"			"Crosshair"
+	}
+
+	"Hitmarker"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName" 	"Hitmarker"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"-9"
+		"wide"			"100"
+		"tall"			"100"
+		"enabled"		"1"
+		"TextAlignment"		"center"
+		"font"			"Hitmarker"
+		"fgcolor"		"Blank"
+	}
 
 	"speed1"
 	{
@@ -136,34 +157,9 @@
 		"pin_to_sibling_corner" "7"
 	}
 
-	"Crosshair"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName" 	"Crosshair"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"-10"
-		"wide"			"100"
-		"tall"			"100"
-		"enabled"		"1"
-		"TextAlignment"		"center"
-		"font"			"Crosshair"
-	}
-
-	"Hitmarker"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName" 	"Hitmarker"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"-9"
-		"wide"			"100"
-		"tall"			"100"
-		"enabled"		"1"
-		"TextAlignment"		"center"
-		"font"			"Hitmarker"
-		"fgcolor"		"Blank"
-	}
+	////////////////////////////////////////////////////
+	//										TF2 Stuff										//
+	////////////////////////////////////////////////////
 
 	HudWeaponAmmo
 	{

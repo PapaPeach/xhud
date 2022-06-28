@@ -209,4 +209,12 @@
 		"tooltip"		"Reload hud to undo"
 		"OnlyAtMenu"	"1"
 	}
+
+	"9v9Scoreboard"
+	{
+		"label"			"9s SB"
+		"command"		"engine alias x_scoreboard 9v9sb; x_scoreboard"
+		"tooltip"		"Reload hud to undo"
+		"OnlyAtMenu"	"1"
+	}
 }

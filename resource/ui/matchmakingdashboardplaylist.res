@@ -11,7 +11,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
 	}
 
 	"playlist"
@@ -23,6 +22,16 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"proportionaltoparent"	"1"
+	}
+
+	"CloseButton"
+	{
+		"fieldName"		"CloseButton"
+		"wide"		"0"
+	}
+	"ReturnButton"
+	{
+		"fieldName"		"ReturnButton"
+		"wide"		"0"
 	}
 }

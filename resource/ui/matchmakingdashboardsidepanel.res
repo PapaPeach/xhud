@@ -1,75 +1,64 @@
 "Resource/UI/MatchMakingDashboardSidePanel.res"
 {
-	"CloseButton"		// TODO: PRETTY SURE THIS CAN BE REMOVED
+	"CloseButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"rs1"
-		"labelText"		">"
-
-		if_left
-		{
-			"xpos"		"0"
-			"labelText"		"<"
-		}
-
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"15"
+		"wide"			"p0.167"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
-
+		"labelText"		">"
 		"textAlignment"	"east"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 28"
+		"wrap"		"0"
 
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"	"Blank"
+		"defaultBgColor_override"	"Blank"
+		"armedFgColor_override"	"MainTheme"
 
-		"armedFgColor_override"	"Orange"
+		"pin_to_sibling"		"criteria"
+		"pin_corner_to_sibling"		"1"
+		"pin_to_sibling_corner"		"0"
 	}
 
 	"ReturnButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
-		"xpos"			"3"
-		"labelText"		"<"
-
-		if_left
-		{
-			"xpos"	"rs1-3"
-			"labelText"		">"
-		}
-
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"10000"
-		"wide"			"20"
+		"zpos"			"10001"
+		"wide"			"p0.0833"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"
 		"labelText"		"<"
+		"textAlignment"	"east"
+		"font"			"Size 28"
+		"wrap"		"0"
 
-		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
+		"armedBgColor_override"	"Blank"
+		"defaultBgColor_override"	"Blank"
+		"armedFgColor_override"	"MainTheme"
 
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
-
-		"armedFgColor_override"	"Orange"
+		"pin_to_sibling"		"CloseButton"
 	}
 
 	"BGPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"-5"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"p2"
-		"tall"			"400"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -78,26 +67,12 @@
 
 	"Shade"
 	{
-		"ControlName"	"EditablePanel"
 		"fieldName"		"Shade"
 		"xpos"			"9999"
 	}
-	"TitleGradient"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"TitleGradient"
-		"xpos"		"9999"
-	}
 	"InnerGradient"
 	{
-		"ControlName"		"ImagePanel"
 		"fieldName"		"InnerGradient"
-		"xpos"		"9999"
-	}
-	"OuterGradient"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"OuterGradient"
 		"xpos"		"9999"
 	}
 }

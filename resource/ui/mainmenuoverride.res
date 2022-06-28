@@ -746,86 +746,6 @@
 		}
 	}
 
-	"JumpMode"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"JumpMode"
-		"xpos"								"310"
-		"ypos"								"140"
-		"zpos"								"2"
-		"wide"								"80"
-		"tall"								"23"
-		"visible"							"1"
-		"enabled"							"1"
-
-		"SubButton"
-		{
-			"ControlName"					"CExImageButton"
-			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
-			"wide"							"80"
-			"tall"							"23"
-			"visible"						"1"
-			"enabled"						"1"
-			"font"							"Size 28"
-			"textAlignment"					"west"
-			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
-
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				"UI/buttonclickrelease.wav"
-
-			"paintbackground"				"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
-
-			"proportionaltoparent"			"1"
-		}
-	}
-
-	"6v6Scoreboard"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"6v6Scoreboard"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"2"
-		"wide"								"80"
-		"tall"								"23"
-		"visible"							"1"
-		"enabled"							"1"
-
-		"pin_to_sibling" 					"JumpMode"
-		"pin_corner_to_sibling" 			"0"
-		"pin_to_sibling_corner" 			"2"
-
-		"SubButton"
-		{
-			"ControlName"					"CExImageButton"
-			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
-			"wide"							"80"
-			"tall"							"23"
-			"visible"						"1"
-			"enabled"						"1"
-			"font"							"Size 28"
-			"textAlignment"					"west"
-
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				"UI/buttonclickrelease.wav"
-
-			"paintbackground"				"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
-
-			"proportionaltoparent"			"1"
-		}
-	}
-
 	////////////////////////////////////
 	//					MINOR BUTTONS					//
 	////////////////////////////////////
@@ -1699,19 +1619,131 @@
 		}
 	}
 
-	//"MOTD_ShowButtonPanel"
-	//{
-	//	"ControlName"	"EditablePanel"
-	//	"fieldName"		"MOTD_ShowButtonPanel"
-	//	"xpos"			"9999"
-	//}
+	////////////////////////////////////
+	//						Xhud Menu						//
+	////////////////////////////////////
 
-	//"MOTD_Panel"
-	//{
-	//	"ControlName"	"EditablePanel"
-	//	"fieldName"		"MOTD_Panel"
-	//	"xpos"			"9999"
-	//}
+	"JumpMode"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldName"							"JumpMode"
+		"xpos"								"9999"
+		"ypos"								"140"
+		"zpos"								"2"
+		"wide"								"80"
+		"tall"								"23"
+		"visible"							"1"
+		"enabled"							"1"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"80"
+			"tall"							"23"
+			"visible"						"1"
+			"enabled"						"1"
+			"font"							"Size 28"
+			"textAlignment"					"west"
+			"textinsetx"					"0"
+			"use_proportional_insets" 		"1"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"paintbackground"				"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"			"MainTheme"
+			"depressedFgColor_override"		"MainTheme"
+
+			"proportionaltoparent"			"1"
+		}
+	}
+
+	"6v6Scoreboard"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldName"							"6v6Scoreboard"
+		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"2"
+		"wide"								"80"
+		"tall"								"23"
+		"visible"							"1"
+		"enabled"							"1"
+
+		"pin_to_sibling" 					"JumpMode"
+		"pin_corner_to_sibling" 			"0"
+		"pin_to_sibling_corner" 			"2"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"80"
+			"tall"							"23"
+			"visible"						"1"
+			"enabled"						"1"
+			"font"							"Size 28"
+			"textAlignment"					"west"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"paintbackground"				"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"			"MainTheme"
+			"depressedFgColor_override"		"MainTheme"
+
+			"proportionaltoparent"			"1"
+		}
+	}
+
+	"9v9Scoreboard"
+	{
+		"ControlName"						"EditablePanel"
+		"fieldName"							"9v9Scoreboard"
+		"xpos"								"0"
+		"ypos"								"0"
+		"zpos"								"2"
+		"wide"								"80"
+		"tall"								"23"
+		"visible"							"1"
+		"enabled"							"1"
+
+		"pin_to_sibling" 					"JumpMode"
+		"pin_corner_to_sibling" 			"0"
+		"pin_to_sibling_corner" 			"2"
+
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"80"
+			"tall"							"23"
+			"visible"						"1"
+			"enabled"						"1"
+			"font"							"Size 28"
+			"textAlignment"					"west"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"paintbackground"				"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"			"MainTheme"
+			"depressedFgColor_override"		"MainTheme"
+
+			"proportionaltoparent"			"1"
+		}
+	}
+
 	"mouseoveritempanel"
 	{
 		"ControlName"		"CItemModelPanel"

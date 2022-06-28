@@ -20,13 +20,15 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"
 		"xpos"			"0"
-		"ypos"			"9999"		//Get rid of the gradient that appears when starting cap
+		"ypos"			"50"		//Get rid of the gradient that appears when starting cap
 		"zpos"			"0"
 		"wide"			"300"
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
+		"fillcolor"		"Blank"
+		"drawcolor"		"Blank"
 	}
 
 	"LevelBarCustom"
@@ -199,13 +201,11 @@
 
 		"EscortItemImageAlert"
 		{
-			"ControlName"	"ImagePanel"
 			"fieldName"		"EscortItemImageAlert"
 			"xpos"			"9999"
 		}
 		"EscortTeardrop"
 		{
-			"ControlName"		"EditablePanel"
 			"fieldName"			"EscortTeardrop"
 			"xpos"				"9999"
 		}
@@ -213,25 +213,21 @@
 
 	"ProgressBar"
 	{
-		"ControlName"	"CTFHudEscortProgressBar"
 		"fieldName"		"ProgressBar"
 		"xpos"			"9999"
 	}
 	"EscortItemImage"
 	{
-		"ControlName"	"ImagePanel"
 		"fieldName"		"EscortItemImage"
 		"xpos"			"9999"
 	}
 	"EscortItemImageBottom"
 	{
-		"ControlName"	"ImagePanel"
 		"fieldName"		"EscortItemImageBottom"
 		"xpos"			"9999"
 	}
 	"CapPlayerImage"
 	{
-		"ControlName"	"ImagePanel"
 		"fieldName"		"CapPlayerImage"
 		"xpos"			"9999"
 	}
