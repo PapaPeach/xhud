@@ -1,5 +1,18 @@
 "Resource/HudLayout.res"
 {
+	"VerticalCenter"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"VerticalCenter"
+		"xpos"					"cs-0.5"
+		"ypos"					"0"
+		"zpos"					"10000"
+		"wide"					"2"
+		"tall"					"f0"
+		"visible"				"0"			//1 to enable
+		"enabled"				"1"
+		"bgcolor_override"		"255 255 255 20"
+	}
 	"HorizontalThird1"
 	{
 		"ControlName"			"EditablePanel"
@@ -423,6 +436,14 @@
 		"ypos"					"-70"
 		"wide"					"180"
 		"tall"					"65"
+	}
+
+	"HudMenuTauntSelection"
+	{
+		"xpos"			"5"
+		"ypos"			"240"
+		"wide"			"f5"
+		"tall"			"240"
 	}
 
 	"ItemAttributeTracker"		//Transparent Viewmodels

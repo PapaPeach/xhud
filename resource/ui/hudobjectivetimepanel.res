@@ -117,7 +117,6 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 	"OvertimeBG"
@@ -125,7 +124,6 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 	"SuddenDeathBG"
@@ -133,7 +131,6 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 	"SetupBG"
@@ -141,7 +138,6 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 
@@ -150,7 +146,6 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
 		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 }
