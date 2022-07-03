@@ -437,7 +437,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"DefaultSmall"
+				"font"			"Size 8"
 				"xpos"			"25"
 				"ypos"			"17"
 				"zpos"			"6"

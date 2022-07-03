@@ -482,51 +482,6 @@
 	}
 
 	///CAPTURE THE FLAG ICONS///
-	"CTFCompassBlue"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"CTFCompassBlue"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/objectives_flagpanel_compass_blue"
-	}
-	"CTFCompassRed"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"CTFCompassRed"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/objectives_flagpanel_compass_red"
-	}
-	"CTFCompassGrey"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"CTFCompassGrey"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/objectives_flagpanel_compass_grey"
-	}
-	"CTFCompassBlueNoArrow"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"CTFCompassBlueNoArrow"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/objectives_flagpanel_compass_blue_noarrow"
-	}
-	"CTFCompassRedNoArrow"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"CTFCompassRedNoArrow"
-		"xpos"				"9999"
-		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/objectives_flagpanel_compass_red_noarrow"
-	}
 	"CTFIconCarriedBlu"
 	{
 		"ControlName"		"ImagePanel"

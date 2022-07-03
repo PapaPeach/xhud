@@ -62,6 +62,21 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
+
+		"NoItem"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"NoItem"
+			"zpos"			"-1"
+			"wide"			"26"
+			"tall"			"21"
+			"visible"		"1"
+			"labelText"		"-"
+			"font"			"Symbols 24"
+			"textAlignment"		"center"
+			"fgcolor_override"		"Red"
+			"bgcolor_override"		"TransparentGrayDarkest"
+		}
 	}
 
 	"NumberLabel1"
@@ -130,6 +145,21 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
+
+		"NoItem"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"NoItem"
+			"zpos"			"-1"
+			"wide"			"26"
+			"tall"			"21"
+			"visible"		"1"
+			"labelText"		"-"
+			"font"			"Symbols 24"
+			"textAlignment"		"center"
+			"fgcolor_override"		"Red"
+			"bgcolor_override"		"TransparentGrayDarkest"
+		}
 	}
 
 	"NumberLabel2"
@@ -193,6 +223,21 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+		}
+
+		"NoItem"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"NoItem"
+			"zpos"			"-1"
+			"wide"			"26"
+			"tall"			"21"
+			"visible"		"1"
+			"labelText"		"-"
+			"font"			"Symbols 24"
+			"textAlignment"		"center"
+			"fgcolor_override"		"Red"
+			"bgcolor_override"		"TransparentGrayDarkest"
 		}
 	}
 
@@ -262,6 +307,21 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
+
+		"NoItem"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"NoItem"
+			"zpos"			"-1"
+			"wide"			"26"
+			"tall"			"21"
+			"visible"		"1"
+			"labelText"		"-"
+			"font"			"Symbols 24"
+			"textAlignment"		"center"
+			"fgcolor_override"		"Red"
+			"bgcolor_override"		"TransparentGrayDarkest"
+		}
 	}
 
 	"NumberLabel4"
@@ -329,6 +389,21 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+		}
+
+		"NoItem"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"NoItem"
+			"zpos"			"-1"
+			"wide"			"26"
+			"tall"			"21"
+			"visible"		"1"
+			"labelText"		"-"
+			"font"			"Symbols 24"
+			"textAlignment"		"center"
+			"fgcolor_override"		"Red"
+			"bgcolor_override"		"TransparentGrayDarkest"
 		}
 	}
 
@@ -398,6 +473,21 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
+
+		"NoItem"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"NoItem"
+			"zpos"			"-1"
+			"wide"			"26"
+			"tall"			"21"
+			"visible"		"1"
+			"labelText"		"-"
+			"font"			"Symbols 24"
+			"textAlignment"		"center"
+			"fgcolor_override"		"Red"
+			"bgcolor_override"		"TransparentGrayDarkest"
+		}
 	}
 
 	"NumberLabel6"
@@ -466,6 +556,21 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
+
+		"NoItem"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"NoItem"
+			"zpos"			"-1"
+			"wide"			"26"
+			"tall"			"21"
+			"visible"		"1"
+			"labelText"		"-"
+			"font"			"Symbols 24"
+			"textAlignment"		"center"
+			"fgcolor_override"		"Red"
+			"bgcolor_override"		"TransparentGrayDarkest"
+		}
 	}
 
 	"NumberLabel7"
@@ -533,6 +638,21 @@
 		{
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
+		}
+
+		"NoItem"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"NoItem"
+			"zpos"			"-1"
+			"wide"			"26"
+			"tall"			"21"
+			"visible"		"1"
+			"labelText"		"-"
+			"font"			"Symbols 24"
+			"textAlignment"		"center"
+			"fgcolor_override"		"Red"
+			"bgcolor_override"		"TransparentGrayDarkest"
 		}
 	}
 

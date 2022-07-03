@@ -109,7 +109,7 @@
 		"tall"						"f1"
 		"visible"					"1"
 		"enabled"					"1"
-		"font"						"PlayerPanelPlayerName"
+		"font"						"Size 7"
 		"textAlignment"				"center"
 		"Command"					"interact"
 		"proportionaltoparent"		"1"

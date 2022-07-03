@@ -12,22 +12,6 @@
 		"enabled"		"1"
 	}
 
-	"Background"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"120"
-		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"icon"			"obj_status_background_disabled"
-		"iconColor"		"255 255 255 255"
-	}
-
 	"Icon_Teleport"
 	{
 		"ControlName"	"CIconPanel"
@@ -41,32 +25,6 @@
 		"scaleImage"	"1"
 		"icon"			"obj_status_tele_entrance"
 		"iconColor"		"255 255 255 255"
-	}
-
-	"NotBuiltPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"NotBuiltPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"160"
-		"tall"			"31"
-		"visible"		"1"
-
-		"NotBuiltLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
-			"xpos"			"60"
-			"ypos"			"0"
-			"wide"			"200"
-			"tall"			"31"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"#Building_hud_tele_not_built"
-			"textAlignment"	"Left"
-		}
 	}
 
 	"BuiltPanel"
@@ -201,7 +159,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"DefaultSmall"
+				"font"			"Size 8"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -332,5 +290,22 @@
 				"textAlignment"	"Left"
 			}
 		}
+	}
+
+	"Background"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"Background"
+		"xpos"			"9999"
+		"wide"			"0"
+		"enabled"		"0"
+	}
+	"NotBuiltPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"NotBuiltPanel"
+		"xpos"			"9999"
+		"wide"			"0"
+		"enabled"		"0"
 	}
 }

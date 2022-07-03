@@ -30,26 +30,7 @@
 		"labelText"				"%source%"
 		"fgcolor_override"		"Green"
 
-		"font"			"XPSource"
-		"textAlignment"	"south"
-	}
-
-	"SourceLabelGlow"
-	{
-		"ControlName"			"Label"
-		"FieldName"				"SourceLabelGlow"
-		"xpos"					"cs-0.5"
-		"ypos"					"rs1"
-		"zpos"					"0"
-		"wide"					"f0"
-		"wide_minmode"	"0"
-		"tall"					"f0"
-		"proportionaltoparent"	"1"
-
-		"labelText"				"%source%"
-		"fgcolor_override"		"Green"
-
-		"font"			"XPSource_Glow"
+		"font"			"Size 11"
 		"textAlignment"	"south"
 	}
 }
