@@ -330,6 +330,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"SpectatorVerySmall"		//Player outline name
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"7"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 
 		//TODO: FILTER FROM HERE DOWN
 		"HudFontGiant"
