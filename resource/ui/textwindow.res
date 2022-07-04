@@ -36,7 +36,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"ChalkboardText"
+		"font"			"Size 14"
 		"xpos"			"cs-0.5"
 		"ypos"			"46"
 		"zpos"			"1"

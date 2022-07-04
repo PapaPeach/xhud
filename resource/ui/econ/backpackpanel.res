@@ -69,7 +69,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"FontStorePrice"
+				"font"			"Size 8"
 				"textAlignment"	"east"
 				"ypos"			"0"
 				"xpos"			"0"
@@ -122,7 +122,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"FontStorePrice"
+				"font"			"Size 8"
 				"textAlignment"	"east"
 				"xpos"			"rs1"
 				"ypos"			"0"
@@ -356,7 +356,7 @@
 
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
+			"font"			"Size 11"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
@@ -413,7 +413,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		">"
-		"font"			"HudFontMediumBold"
+		"font"			"Size 24"
 		"textAlignment"	"center"
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -431,7 +431,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"<"
-		"font"			"HudFontMediumBold"
+		"font"			"Size 24"
 		"textAlignment"	"center"
 		"Command"		""
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -467,7 +467,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"canceltool"

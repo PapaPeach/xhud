@@ -488,7 +488,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakLeaderLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"Size 8"
 		"xpos"			"1"
 		"ypos"			"0"
 		"zpos"			"3"
@@ -507,7 +507,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"Size 8"
 		"xpos"			"1"
 		"ypos"			"0"
 		"zpos"			"3"

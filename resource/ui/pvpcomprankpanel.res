@@ -29,9 +29,9 @@
 
 				"fonts"
 				{
-					"0"					"HudFontSmallBold"
-					"1"					"StorePromotionsTitle"
-					"2"					"FontStorePrice"
+					"0"					"Size 14"
+					"1"					"Size 10"
+					"2"					"Size 8"
 				}
 			}
 		}

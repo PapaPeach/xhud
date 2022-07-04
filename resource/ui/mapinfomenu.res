@@ -100,7 +100,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"ChalkboardText"
+		"font"			"Size 14"
 		"xpos"			"cs-0.5"
 		"ypos"			"160"
 		"zpos"			"3"

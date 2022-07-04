@@ -295,7 +295,7 @@
 				"visible"					"1"
 				"enabled"					"1"
 				"labeltext"					""
-				"font"						"HudFontSmallBold"
+				"font"						"Size 14"
 				"textAlignment"				"center"
 				"Command"					"queue_logo_clicked"
 				"proportionaltoparent"		"1"
@@ -335,7 +335,7 @@
 				"tall"						"f0"
 				"visible"					"1"
 				"enabled"					"1"
-				"font"						"HudFontSmallestBold"
+				"font"						"Size 11"
 				"fgcolor_override"			"White"
 				"textAlignment"				"west"
 				"labelText"					"%queue_state%"
@@ -346,15 +346,15 @@
 				{
 					"0"
 					{
-						"font"				"HudFontSmallestBold" // TF2 Build 11
+						"font"				"Size 11" // TF2 Build 11
 					}
 					"1"
 					{
-						"font"				"StorePromotionsTitle" // TF2 Build 10
+						"font"				"Size 10" // TF2 Build 10
 					}
 					"2"
 					{
-						"font"				"FontStorePrice" // TF2 Build 9
+						"font"				"Size 8" // TF2 Build 9
 					}
 				}
 			}
@@ -371,7 +371,7 @@
 				"visible"					"1"
 				"enabled"					"1"
 				"labeltext"					""
-				"font"						"HudFontSmallBold"
+				"font"						"Size 14"
 				"textAlignment"				"center"
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
@@ -415,7 +415,7 @@
 				"visible"					"1"
 				"enabled"					"1"
 				"labeltext"					""
-				"font"						"HudFontSmallBold"
+				"font"						"Size 14"
 				"textAlignment"				"center"
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
@@ -501,7 +501,7 @@
 				"tall"						"f0"
 				"visible"					"1"
 				"enabled"					"1"
-				"font"						"HudFontSmallestBold"
+				"font"						"Size 11"
 				"fgcolor_override"			"White"
 				"textAlignment"				"west"
 				"labelText"					"#TF_MM_JoinPartyLobby_Prompt"
@@ -527,7 +527,7 @@
 
 				"visible"					"1"
 				"enabled"					"1"
-				"font"						"HudFontSmallestBold"
+				"font"						"Size 11"
 				"textAlignment"				"center"
 				"Command"					"join_party_match"
 				"proportionaltoparent"		"1"

@@ -73,7 +73,7 @@
 		}
 		"duplicatelabels_kv"
 		{
-			"font"			"ItemFontNameSmallest"
+			"font"			"Size 8"
 			"textAlignment"	"center"
 			"wide"			"20"
 			"tall"			"15"
@@ -181,7 +181,7 @@
 		"ControlName"	"CheckButton"
 		"fieldName"		"OnlyAllowUniqueQuality"
 		"labelText"		"#OnlyAllowUniqueQuality"
-		"Font"			"HudFontSmallestBold"
+		"Font"			"Size 11"
 		"textAlignment"	"east"
 		"xpos"			"c-306"
 		"ypos"			"340"
@@ -332,7 +332,7 @@
 
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
+			"font"			"Size 11"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"

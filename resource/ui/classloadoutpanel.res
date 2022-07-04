@@ -53,7 +53,7 @@
 
 			"attriblabel"
 			{
-				"font"			"ItemFontAttribLarge"
+				"font"			"Size 11"
 				"visible"		"0"
 			}
 
@@ -75,7 +75,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"labelText"		"+"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -141,7 +141,7 @@
 
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
+			"font"			"Size 11"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
@@ -160,7 +160,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"ItemFontAttribLarge"
+		"font"			"Size 11"
 		"xpos"			"c-135"
 		"ypos"			"120"
 		"zpos"			"0"

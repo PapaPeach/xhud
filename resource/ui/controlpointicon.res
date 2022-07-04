@@ -88,7 +88,7 @@
 		"labelText"		"60"
 		"textAlignment"	"center"
 		"wrap"			"0"
-		"font"			"ControlPointTimer"
+		"font"			"Size 10"
 	}
 
 	"CPTimerBG"

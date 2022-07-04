@@ -74,7 +74,7 @@
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"Command"			""
-			"font"				"MenuKeys"
+			"font"				"Size 12"
 			"scaleImage"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -114,7 +114,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InputLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#Craft_Recipe_Inputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -130,7 +130,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"OutputLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#Dynamic_Recipe_Outputs_Not_Complete"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -146,7 +146,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UntradableLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#Dynamic_Recipe_Outputs_Not_Tradable"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -171,7 +171,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"HudFontMediumBold"
+			"font"			"Size 24"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"craft"
@@ -205,7 +205,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurInputPageLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"%inputpage%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -256,7 +256,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NoMatches"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#Dynamic_Recipe_No_Matching_Items"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -275,7 +275,7 @@
 			"ControlName"	"CheckButton"
 			"fieldName"		"UntradableCheckBox"
 			"labelText"		"#Dynamic_Recipe_Untradable_Checkbox"
-			"Font"			"HudFontSmallestBold"
+			"Font"			"Size 11"
 			"textAlignment"	"west"
 			"xpos"			"-3"
 			"ypos"			"2"
@@ -317,7 +317,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#Cancel"
-			"font"			"HudFontMediumBold"
+			"font"			"Size 24"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"cancel"
@@ -347,7 +347,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CurPageLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"%backpackpage%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -410,7 +410,7 @@
 
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
+			"font"			"Size 11"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"

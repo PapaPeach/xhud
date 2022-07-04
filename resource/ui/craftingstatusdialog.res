@@ -19,7 +19,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"CenterPositioner"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"xpos"			"0"
 		"ypos"			"10"
 		"zpos"			"0"
@@ -45,7 +45,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -69,7 +69,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"EllipsesLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -99,7 +99,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#GameUI_Ok"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"

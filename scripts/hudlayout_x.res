@@ -377,6 +377,7 @@
 	FreezePanelCallout
 	{
 		"xpos"			"9999"
+		"visible"		"0"
 	}
 
 	"HudMenuEngyBuild"
@@ -419,6 +420,18 @@
 		"ypos_minmode"	"c25"
 		"wide"					"80"
 		"tall"					"30"
+	}
+
+	HudTeamGoal
+	{
+		"xpos"	"9999"
+		"visible"	"0"
+	}
+
+	HudTeamGoalTournament
+	{
+	"xpos"	"9999"
+	"visible"	"0"
 	}
 
 	HudTournament

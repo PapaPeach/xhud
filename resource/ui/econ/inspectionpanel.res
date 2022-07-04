@@ -11,7 +11,7 @@
 		"tall"			"p0.75"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/bg_black"
+		"image"			"replay/thumbnails/panels/black"
 		"scaleImage"	"1"
 		"alpha"		"240"
 		"proportionaltoparent" "1"
@@ -242,7 +242,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidPaintkits"
-			"Font"				"HudFontSmallest"
+			"Font"				"Size 11"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"10"
@@ -277,7 +277,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PaintkitLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_ItemPreview_ItemPaintkit"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -298,7 +298,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidItems"
-			"Font"				"HudFontSmallest"
+			"Font"				"Size 11"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"30"
@@ -338,7 +338,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -400,7 +400,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WearLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_ItemPreview_ItemWear"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -508,7 +508,7 @@
 			"wide"		"75"
 			"tall"		"20"
 			"labelText"			"#TF_ItemAd_ViewOnMarket"
-			"font"			"AdFont_PurchaseButton"
+			"font"			"Size 8"
 			"textinsetx"		"0"
 			"textAlignment"	"center"
 

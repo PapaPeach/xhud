@@ -39,7 +39,7 @@
 		"enabled"					"1"
 		"labelText"					""
 		"textAlignment"				"center"
-		"font"						"HudFontSmall"
+		"font"						"Size 14"
 		"wrap"						"1"
 		"centerwrap"				"1"
 	}

@@ -428,7 +428,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoSteamLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"labelText"		"#NoSteamNoItems"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -445,7 +445,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoGCLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"labelText"		"#NoGCNoItems"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -462,7 +462,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadoutChangesLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Size 14"
 		"labelText"		"#LoadoutChangesUpdate"
 		"textAlignment"	"north"
 		"xpos"			"0"

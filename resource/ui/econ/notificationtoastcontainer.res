@@ -30,7 +30,7 @@
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"	"North"
-		"font"			"TFFontSmall"
+		"font"			"Size 8"
 		"textinsetx"	"2"
 		"textinsety"	"7"
 	}

@@ -15,7 +15,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"Title"
-		"font"			"HudFontMediumBold"
+		"font"			"Size 24"
 		"labelText"		"#TF_UsePaintkit_Panel_Title"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
@@ -33,7 +33,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"DescText"
-		"font"			"HudFontSmall"
+		"font"			"Size 14"
 		"labelText"		"#TF_UsePaintkit_Panel_Desc"
 		"textAlignment"	"north"
 		"xpos"			"cs-0.5"
@@ -93,7 +93,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"WorkingText"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_UsePaintkit_Working"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
@@ -140,7 +140,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"SuccessText"
-			"font"			"HudFontMediumBold"
+			"font"			"Size 24"
 			"labelText"		"#AbuseReport_SucceededTitle"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
@@ -187,7 +187,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"FailureText"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#TF_UsePaintkit_Failed"
 			"textAlignment"	"north"
 			"xpos"			"cs-0.5"
@@ -225,7 +225,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#GameUI_CancelBold"
-		"font"			"EconFontSmall"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"cancel"
@@ -252,7 +252,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_QuestView_RedeemReward"
-		"font"			"EconFontSmall"
+		"font"			"Size 14"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"Command"		"accept"

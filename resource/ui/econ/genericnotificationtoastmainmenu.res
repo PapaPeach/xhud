@@ -60,7 +60,7 @@
 		"wrap"					"1"
 		"labelText"				"%avatartext%"
 		"textAlignment"			"West"
-		"font"					"HudFontSmallest"
+		"font"					"Size 11"
 	}
 
 	"TextLabel"

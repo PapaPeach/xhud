@@ -250,7 +250,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"HudFontSmall"
+		"font"			"Size 14"
 		"wrap"			"1"
 		"centerwrap"	"1"
 
@@ -370,7 +370,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
+			"font"			"Size 11"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"

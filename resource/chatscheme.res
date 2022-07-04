@@ -195,15 +195,6 @@ Scheme
 		TFColors.ChatTextTeamRed	"255 50 65 255"
 	}
 
-	//////////////////////// BITMAP FONT FILES /////////////////////////////
-	//
-	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
-	//BitmapFontFiles
-	//{
-	//	// UI buttons, custom font, (256x64)
-	//	"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
-	//}
-
 	//////////////////////// FONTS /////////////////////////////
 	//
 	// describes all the fonts
@@ -446,13 +437,4 @@ Scheme
 		ButtonKeyFocusBorder{}
 		ButtonDepressedBorder{}
 	}
-
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	//CustomFontFiles
-	//{
-	//	"1"		"resource/HALFLIFE2.ttf"
-	//	"2"		"resource/HL2EP2.ttf"
-	//}
 }

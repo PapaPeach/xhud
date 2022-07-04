@@ -15,9 +15,9 @@
 		"mouseinputenabled"				"1"
 		"border"						"NoBorder"
 
-		"log_font_small"				"HudFontSmall"
+		"log_font_small"				"Size 14"
 		"log_font_medium"				"Size 24"
-		"log_font_large"				"HudFontMediumSecondary"
+		"log_font_large"				"Size 24"
 
 		"chat_color_default"			"White"
 		"chat_color_player_name"		"MainTheme"
@@ -42,7 +42,7 @@
 		"visible"						"1"
 		"proportionaltoparent"			"1"
 		"RoundedCorners"				"0"
-		"font"							"HudFontSmallest"
+		"font"							"Size 11"
 		
 		"bgcolor_override"				"Blank"
 

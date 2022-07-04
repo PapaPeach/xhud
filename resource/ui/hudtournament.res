@@ -102,7 +102,9 @@
 				"tall"			"17"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../vgui/replay/thumbnails/panels/material_transparent70"
+				"image"						"../vgui/replay/thumbnails/panels/blank"
+				"drawcolor"		"TransparentGrayDarkest"
+				"alpha"		"180"
 				"proportionaltoparent"		"1"
 
 				if_mvm
@@ -241,7 +243,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"../vgui/replay/thumbnails/panels/bg_blue"
+		"image"		"../vgui/replay/thumbnails/panels/blue"
 		"proportionaltoparent"	"1"
 
 		if_mvm
@@ -339,7 +341,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"../vgui/replay/thumbnails/panels/bg_red"
+		"image"		"../vgui/replay/thumbnails/panels/blue"
 		"proportionaltoparent"	"1"
 
 		if_mvm
@@ -360,7 +362,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
-		"font"			"HudFontSmallest"
+		"font"			"Size 11"
 		"xpos"			"-2"
 		"ypos"			"0"
 		"zpos"			"1"

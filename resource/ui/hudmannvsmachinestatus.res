@@ -216,14 +216,14 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/panels/bg_blank"
+			"image"			"../vgui/replay/thumbnails/panels/blank"
 		}
 
 		"ServerChangeLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerChangeLabel"
-			"font"			"HudFontSmall"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
 			"xpos"			"c-150"

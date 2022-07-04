@@ -45,9 +45,8 @@
 		"tall"						"1"
 		"visible"					"0"
 		"enabled"					"1"
-		"image"						"../vgui/replay/thumbnails/panels/bg_blank"
+		"image"						"../vgui/replay/thumbnails/panels/blank"
 		"scaleImage"				"1"
-		"alpha"						"0"
 	}
 
 	"MeterLine1"

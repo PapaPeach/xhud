@@ -88,7 +88,7 @@
 
 		"recipebuttons_kv"
 		{
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
@@ -122,7 +122,7 @@
 			"labelText"			""
 			"textAlignment"		"south-west"
 			"Command"			""
-			"font"				"MenuKeys"
+			"font"				"Size 12"
 			"scaleImage"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -181,7 +181,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InputLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#Craft_Recipe_Inputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -198,7 +198,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"OutputLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"labelText"		"#Craft_Recipe_Outputs"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
@@ -223,7 +223,7 @@
 			"visible"		"1"
 			"enabled"		"0"
 			"labelText"		"#CraftConfirm"
-			"font"			"HudFontMediumBold"
+			"font"			"Size 24"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"craft"
@@ -243,7 +243,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#TF_Trial_Upgrade"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"textinsetx"	"50"
 			"Command"		"upgrade"
@@ -308,7 +308,7 @@
 
 		"attriblabel"
 		{
-			"font"			"ItemFontAttribLarge"
+			"font"			"Size 11"
 			"xpos"			"0"
 			"ypos"			"30"
 			"zpos"			"2"
@@ -369,7 +369,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"

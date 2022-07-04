@@ -11,11 +11,11 @@
 		"tall"	 		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/panels/bg_black"
+		"image"			"../vgui/replay/thumbnails/panels/black"
 		"scaleImage"		"1"
-		"teambg_1"		"../vgui/replay/thumbnails/panels/bg_black"
-		"teambg_2"		"../vgui/replay/thumbnails/panels/bg_red"
-		"teambg_3"		"../vgui/replay/thumbnails/panels/bg_blue"
+		"teambg_1"		"../vgui/replay/thumbnails/panels/black"
+		"teambg_2"		"../vgui/replay/thumbnails/panels/blue"
+		"teambg_3"		"../vgui/replay/thumbnails/panels/blue"
 		"alpha"		"180"
 	}
 

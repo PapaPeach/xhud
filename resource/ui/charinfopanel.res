@@ -17,7 +17,7 @@
 		"outoffocus_bgcolor_override"	"Blank"
 
 		"title"			""
-		"title_font"	"HudFontMediumBold"
+		"title_font"	"Size 24"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"

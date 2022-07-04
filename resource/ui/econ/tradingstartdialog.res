@@ -289,7 +289,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"URLHelpLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_TradeStartDialog_ProfileHelp"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -307,7 +307,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"URLFailLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_TradeStartDialog_ProfileFail"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -325,7 +325,7 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"URLSearchingLabel"
-			"font"			"HudFontSmallest"
+			"font"			"Size 11"
 			"labelText"		"#TF_TradeStartDialog_ProfileLookup"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -360,7 +360,7 @@
 			"bgcolor_override"	"TransparentBlack"
 			"paintbackgroundtype" "0"
 			"labelText"			""
-			"font"				"HudFontSmall"
+			"font"				"Size 14"
 			"textAlignment"		"west"
 		}
 		"subbutton0"

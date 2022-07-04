@@ -11,7 +11,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/bg_blank"
+		"image"			"replay/thumbnails/panels/blank"
 		"scaleImage"	"1"
 		"proportionaltoparent"		"1"
 	}
@@ -27,8 +27,10 @@
 		"tall"			"6969"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/material_transparent70"
-		"scaleImage"	"1"
+		"image"		"../vgui/replay/thumbnails/panels/blank"
+		"scaleImage"		"1"
+		"drawcolor"		"TransparentGrayDarkest"
+		"alpha"		"180"
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
@@ -47,7 +49,7 @@
 		"tall"			"6969"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/bg_blue"
+		"image"			"replay/thumbnails/panels/blue"
 		"scaleImage"	"1"
 		"proportionaltoparent"		"1"
 

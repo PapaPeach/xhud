@@ -536,7 +536,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ComboLabel"
-			"font"			"HudFontSmallestBold"
+			"font"			"Size 11"
 			"labelText"		"%combo_label%"
 			"textAlignment"	"east"
 			"xpos"			"5"
@@ -551,7 +551,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBox"
-			"Font"				"HudFontSmallestBold"
+			"Font"				"Size 11"
 			"xpos"				"10"
 			"ypos"				"245"
 			"zpos"				"1"
@@ -590,7 +590,7 @@
 			"labelText"		"#TF_call_vote"
 			"textAlignment"	"center"
 			"Command"		"CallVote"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"proportionaltoparent"		"1"
 		}
 
@@ -608,7 +608,7 @@
 			"labelText"		"#GameUI_Close"
 			"textAlignment"	"center"
 			"Command"		"Close"
-			"font"			"HudFontSmallBold"
+			"font"			"Size 14"
 			"proportionaltoparent"		"1"
 		}
 	}
