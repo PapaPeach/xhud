@@ -330,7 +330,324 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+
 		//TODO: FILTER FROM HERE DOWN
+		"HudFontGiant"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"24"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+				"yres"										"480 599"
+			}
+			"2"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"32"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+				"yres"										"600 767"
+			}
+			"3"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"44"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias"								 	"1"
+				"yres"										"768 1023"
+			}
+			"4"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"48"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+				"yres"										"1024 1199"
+			}
+			"5"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"52"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+				"yres"										"1200 10000"
+			}
+		}
+
+		"HudFontBiggerBold"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"35"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+
+		"HudFontBig"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"36"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias"								 	"1"
+			}
+		}
+		"HudFontMediumBig"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"30"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"HudFontMediumBigBold"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"30"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"HudFontMedium"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"24"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"HudFontMediumSecondary"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"24"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"HudFontMediumBold"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"24"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"HudFontMediumSmallBold"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"18"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"HudFontMediumSmall"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"18"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"HudFontMediumSmallSecondary"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"18"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"HudFontSmall"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"14"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"HudFontSmallishBold"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"16"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"HudFontSmallBold"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"14"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"HudFontSmallBoldShadow"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"14"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias"								 	"1"
+				"dropshadow"								"1"
+			}
+		}
+		"HudFontSmallest"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"11"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"HudFontSmallestShadow"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"11"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+				"dropshadow"								"1"
+			}
+		}
+		"HudFontSmallestBold"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"11"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"PerformanceModeSmall"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"4"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"StorePromotionsTitle"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"10"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"FontCartPrice"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"16"
+				"weight"									"500"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"FontStorePrice"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"9"
+				"weight"									"0"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"FontStoreOriginalPrice"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"9"
+				"weight"									"0"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"FontStorePriceSmall"
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"6"
+				"weight"									"0"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
+		"FontStorePromotion"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"12"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		"TextTooltipFont"
 		{
 			"1"
@@ -340,6 +657,66 @@ Scheme
 				"weight"									"500"
 				"additive"									"0"
 				"antialias" 								"1"
+			}
+		}
+		GameUIButtons
+		{
+			"1"
+			{
+				"bitmap"									"1"
+				"name"										"Buttons"
+				"scalex"									"0.5"
+				"scaley"									"0.5"
+			}
+		}
+		GameUIButtonsSmall
+		{
+			"1"	[$X360]
+			{
+				"bitmap"									"1"
+				"name"										"Buttons"
+				"scalex"									"0.5"
+				"scaley"									"0.5"
+			}
+		}
+		GameUIButtonsSmallest
+		{
+			"1"	[$X360]
+			{
+				"bitmap"									"1"
+				"name"										"Buttons"
+				"scalex"									"0.4"
+				"scaley"									"0.4"
+			}
+		}
+		GameUIButtonsSteamController
+		{
+			"1"
+			{
+				"bitmap"									"1"
+				"name"										"ButtonsSC"
+				"scalex"									"0.5"
+				"scaley"									"0.5"
+			}
+		}
+		GameUIButtonsSteamControllerSmall
+		{
+			"1"
+			{
+				"bitmap"									"1"
+				"name"										"ButtonsSC"
+				"scalex"									"0.25"
+				"scaley"									"0.25"
+			}
+		}
+		GameUIButtonsSteamControllerSmallest
+		{
+			"1"
+			{
+				"bitmap"									"1"
+				"name"										"ButtonsSC"
+				"scalex"									"0.15"
+				"scaley"									"0.15"
 			}
 		}
 		"GameUIButtonText"
