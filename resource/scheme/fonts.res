@@ -1,24 +1,7 @@
 Scheme
 {
-	//BitmapFontFiles
-	//{
-	//	"Buttons"	"materials/vgui/fonts/buttons_32.vbf"
-	//	"ButtonsSC"	"materials/vgui/fonts/buttons_sc.vbf"
-	//}
-
 	Fonts
 	{
-		"Size 4"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"4"
-				"weight"									"600"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
 		"Size 7"
 		{
 			"1"
@@ -35,16 +18,6 @@ Scheme
 			{
 				"name"										"Renogare Soft XHud"
 				"tall"										"8"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Size 9"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"9"
 				"additive"									"0"
 				"antialias"									"1"
 			}
@@ -99,33 +72,12 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		"Size 12 Uber"
-		{
-			"1"
-			{
-				"name"										"Renogare Uber"
-				"tall"										"12"
-				"additive"									"0"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
 		"Size 14"
 		{
 			"1"
 			{
 				"name"										"Renogare Soft XHud"
 				"tall"										"14"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Size 15"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"15"
 				"additive"									"0"
 				"antialias"									"1"
 			}
@@ -151,32 +103,12 @@ Scheme
 				"dropshadow"								"1"
 			}
 		}
-		"Size 18"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"18"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
 		"Size 20"
 		{
 			"1"
 			{
 				"name"										"Renogare Soft XHud"
 				"tall"										"20"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Size 22"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"22"
 				"additive"									"0"
 				"antialias"									"1"
 			}
@@ -233,16 +165,6 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		"Size 36"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"36"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
 		"Size 40"
 		{
 			"1"
@@ -275,34 +197,12 @@ Scheme
 				"dropshadow"								"1"
 			}
 		}
-		"Size 10 Shadow"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"10"
-				"additive"									"0"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
 		"Size 12 Shadow"
 		{
 			"1"
 			{
 				"name"										"Renogare Soft XHud"
 				"tall"										"12"
-				"additive"									"0"
-				"antialias"									"1"
-				"dropshadow"								"1"
-			}
-		}
-		"Size 14 Shadow"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"14"
 				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
@@ -350,39 +250,6 @@ Scheme
 				"additive"									"0"
 				"antialias"									"1"
 				"dropshadow"								"1"
-			}
-		}
-
-		"Size 10 Numbers"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"10"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-		"Size 14 Numbers"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"14"
-				"additive"									"0"
-				"antialias"									"1"
-			}
-		}
-
-		"UltraSmall"
-		{
-			"1"
-			{
-				"name"										"Verdana"
-				"tall"										"6"
-				"weight"									"0"
-				"additive"									"0"
-				"antialias"									"1"
 			}
 		}
 
@@ -439,183 +306,6 @@ Scheme
 				"range"										"0x0000 0x00FF"
 			}
 		}
-		"DefaultUnderline"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"12"
-				"weight"									"500"
-				"underline" 								"1"
-				"range"										"0x0000 0x017F"
-			}
-			"2"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"11"
-				"range" 									"0x0000 0x00FF"
-				"weight"									"800"
-			}
-		}
-		"DefaultSmall"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"12"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"480 599"
-			}
-			"2"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"13"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"14"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
-				"antialias"									"1"
-			}
-			"4"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"20"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
-			}
-			"5"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"22"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
-				"antialias"									"1"
-			}
-			"6"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"12"
-				"range"										"0x0000 0x00FF"
-				"weight"									"0"
-			}
-		}
-		"DefaultVerySmall"
-		{
-			"1"
-			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"480 599"
-			}
-			"2"
-			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"Verdana"
-				"tall"										"12"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
-				"antialias"									"1"
-			}
-			"4"
-			{
-				"name"										"Verdana"
-				"tall"										"14"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
-			}
-			"5"
-			{
-				"name"										"Verdana"
-				"tall"										"16"
-				"weight"									"0"
-				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
-				"antialias"									"1"
-			}
-		}
-		DefaultLarge
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"18"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"480 599"
-			}
-			"2"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"21"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"22"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"768 1023"
-				"antialias"									"1"
-			}
-			"4"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"28"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"1024 1199"
-				"antialias"									"1"
-			}
-			"5"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"30"
-				"weight"									"900"
-				"range"										"0x0000 0x017F"
-				"yres"										"1200 6000"
-				"antialias"									"1"
-			}
-			"6"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"20"
-				"range" 									"0x0000 0x00FF"
-				"weight"									"900"
-			}
-			"7"
-			{
-				"name"										"Arial"
-				"tall"										"20"
-				"range" 									"0x0000 0x00FF"
-				"weight"									"800"
-			}
-		}
 
 		CenterPrintText
 		{
@@ -629,17 +319,6 @@ Scheme
 				"additive"									"1"
 			}
 		}
-		"PlayerPanelPlayerName"
-		{
-			"1"
-			{
-				"name"										"Verdana"
-				"tall"										"6"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
 		HudHintText
 		{
 			"1"
@@ -651,333 +330,7 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		"HudFontGiant"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"24"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-				"yres"										"480 599"
-			}
-			"2"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"32"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-				"yres"										"600 767"
-			}
-			"3"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"44"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias"								 	"1"
-				"yres"										"768 1023"
-			}
-			"4"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"48"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-				"yres"										"1024 1199"
-			}
-			"5"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"52"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-				"yres"										"1200 10000"
-			}
-		}
-		"HudFontGiantBold"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"44"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-
-		"HudFontBiggerBold"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"35"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-
-		"HudFontBig"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"36"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias"								 	"1"
-			}
-		}
-		"HudFontMediumBig"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"30"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"HudFontMediumBigBold"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"30"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"HudFontMedium"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"24"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"HudFontMediumSecondary"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"24"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"HudFontMediumBold"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"24"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"HudFontMediumSmallBold"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"18"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"HudFontMediumSmall"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"18"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"HudFontMediumSmallSecondary"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"18"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"HudFontSmall"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"14"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"HudFontSmallishBold"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"16"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"HudFontSmallBold"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"14"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"HudFontSmallBoldShadow"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"14"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias"								 	"1"
-				"dropshadow"								"1"
-			}
-		}
-		"HudFontSmallest"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"11"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"HudFontSmallestShadow"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"11"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-				"dropshadow"								"1"
-			}
-		}
-		"HudFontSmallestBold"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"11"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"PerformanceModeSmall"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"4"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"StorePromotionsTitle"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"10"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"FontCartPrice"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"16"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"FontStorePrice"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"9"
-				"weight"									"0"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"FontStoreOriginalPrice"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"9"
-				"weight"									"0"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"FontStorePriceSmall"
-		{
-			"1"
-			{
-				"name"										"Verdana"
-				"tall"										"6"
-				"weight"									"0"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"FontStorePromotion"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"12"
-				"weight"									"400"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
+		//TODO: FILTER FROM HERE DOWN
 		"TextTooltipFont"
 		{
 			"1"
@@ -987,66 +340,6 @@ Scheme
 				"weight"									"500"
 				"additive"									"0"
 				"antialias" 								"1"
-			}
-		}
-		GameUIButtons
-		{
-			"1"
-			{
-				"bitmap"									"1"
-				"name"										"Buttons"
-				"scalex"									"0.5"
-				"scaley"									"0.5"
-			}
-		}
-		GameUIButtonsSmall
-		{
-			"1"	[$X360]
-			{
-				"bitmap"									"1"
-				"name"										"Buttons"
-				"scalex"									"0.5"
-				"scaley"									"0.5"
-			}
-		}
-		GameUIButtonsSmallest
-		{
-			"1"	[$X360]
-			{
-				"bitmap"									"1"
-				"name"										"Buttons"
-				"scalex"									"0.4"
-				"scaley"									"0.4"
-			}
-		}
-		GameUIButtonsSteamController
-		{
-			"1"
-			{
-				"bitmap"									"1"
-				"name"										"ButtonsSC"
-				"scalex"									"0.5"
-				"scaley"									"0.5"
-			}
-		}
-		GameUIButtonsSteamControllerSmall
-		{
-			"1"
-			{
-				"bitmap"									"1"
-				"name"										"ButtonsSC"
-				"scalex"									"0.25"
-				"scaley"									"0.25"
-			}
-		}
-		GameUIButtonsSteamControllerSmallest
-		{
-			"1"
-			{
-				"bitmap"									"1"
-				"name"										"ButtonsSC"
-				"scalex"									"0.15"
-				"scaley"									"0.15"
 			}
 		}
 		"GameUIButtonText"
@@ -2714,30 +2007,6 @@ Scheme
 				"tall"										"9"
 				"weight"									"400"
 				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-
-		"XPSource"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"11"
-				"weight"									"500"
-				"antialias" 								"1"
-			}
-		}
-
-		"XPSource_Glow"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"11"
-				"weight"									"500"
-				"blur"										"3"
-				"additive"									"1"
 				"antialias" 								"1"
 			}
 		}

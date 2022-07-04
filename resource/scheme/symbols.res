@@ -2,42 +2,12 @@ Scheme
 {
 	Fonts
 	{
-		"Symbols 10"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V3"
-				"tall"			"10"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		"Symbols 12"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V3"
-				"tall"			"12"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
 		"Symbols 14"
 		{
 			"1"
 			{
 				"name"			"Hypnotize Icons V3"
 				"tall"			"14"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		"Symbols 16"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V3"
-				"tall"			"16"
 				"additive"  	"0"
 				"antialias"		"1"
 			}
@@ -93,58 +63,6 @@ Scheme
 			}
 		}
 
-		"Symbols 30"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V3"
-				"tall"			"30"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-
-		"Symbols 34"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V3"
-				"tall"			"34"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		"Symbols 46"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V3"
-				"tall"			"46"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		"Symbols 50"
-		{
-			"1"
-			{
-				"name"			"Hypnotize Icons V3"
-				"tall"			"50"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-
-		"Class Symbols 18"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons V2"
-				"tall"			"18"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
 		"Class Symbols 24"
 		{
 			"1"
@@ -155,42 +73,12 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		"Class Symbols 28"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons V2"
-				"tall"			"28"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
 		"Class Symbols 36"
 		{
 			"1"
 			{
 				"name"			"TF2 Class Icons V2"
 				"tall"			"36"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		"Class Symbols 48"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons V2"
-				"tall"			"48"
-				"additive"  	"0"
-				"antialias"		"1"
-			}
-		}
-		"Class Symbols 56"
-		{
-			"1"
-			{
-				"name"			"TF2 Class Icons V2"
-				"tall"			"56"
 				"additive"  	"0"
 				"antialias"		"1"
 			}
