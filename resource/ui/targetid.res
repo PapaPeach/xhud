@@ -34,11 +34,11 @@
 		"tall"	 		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/panels/black"
+		"image"			"replay/thumbnails/panels/black"
 		"scaleImage"		"1"
-		"teambg_1"		"../vgui/replay/thumbnails/panels/black"
-		"teambg_2"		"../vgui/replay/thumbnails/panels/blue"
-		"teambg_3"		"../vgui/replay/thumbnails/panels/blue"
+		"teambg_1"		"replay/thumbnails/panels/black"
+		"teambg_2"		"replay/thumbnails/panels/red"
+		"teambg_3"		"replay/thumbnails/panels/blue"
 	}
 
 	"TargetDataAnchor"
@@ -108,7 +108,7 @@
 		"tall"	 		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/panels/blue"
+		"image"			"replay/thumbnails/panels/blue"
 	}
 
 	"TargetIDBG_Spec_Red"
@@ -122,7 +122,7 @@
 		"tall"	 		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/panels/blue"
+		"image"			"replay/thumbnails/panels/red"
 	}
 
 	"TargetNameLabelSpecCustom"

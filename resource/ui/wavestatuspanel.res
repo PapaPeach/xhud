@@ -7,7 +7,7 @@
 		"xpos"			"9999"
 		"wide"			"0"
 		"enabled"		"0"
-		"image"			"../vgui/replay/thumbnails/panels/blank"
+		"image"			"replay/thumbnails/panels/blank"
 	}
 
 	"WaveCountLabel"
@@ -83,7 +83,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../vgui/replay/thumbnails/panels/blue"
+		"image"			"replay/thumbnails/panels/blue"
 		"pin_to_sibling"		"ProgressBarBG"
 
 		"src_corner_height"	"22"				// pixels inside the image
@@ -104,7 +104,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"						"../vgui/replay/thumbnails/panels/blank"
+		"image"						"replay/thumbnails/panels/blank"
 		"drawcolor"		"TransparentGrayDarkest"
 		"alpha"		"180"
 		"proportionaltoparent"		"1"

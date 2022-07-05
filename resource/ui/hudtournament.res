@@ -102,7 +102,7 @@
 				"tall"			"17"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"						"../vgui/replay/thumbnails/panels/blank"
+				"image"						"replay/thumbnails/panels/blank"
 				"drawcolor"		"TransparentGrayDarkest"
 				"alpha"		"180"
 				"proportionaltoparent"		"1"
@@ -202,7 +202,6 @@
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
 				"xpos"			"9999"
-				"wide"			"0"
 				"enabled"		"0"
 			}
 			"HealthIcon"
@@ -210,7 +209,6 @@
 				"ControlName"		"EditablePanel"
 				"fieldName"			"HealthIcon"
 				"xpos"			"9999"
-				"wide"			"0"
 				"enabled"		"0"
 			}
 			"specindex"
@@ -218,7 +216,6 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
 				"xpos"			"9999"
-				"wide"			"0"
 				"enabled"		"0"
 			}
 		}
@@ -227,7 +224,6 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"ModeImage"
 			"xpos"			"9999"
-			"wide"			"0"
 			"enabled"		"0"
 		}
 	}
@@ -243,7 +239,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"../vgui/replay/thumbnails/panels/blue"
+		"image"		"replay/thumbnails/panels/blue"
 		"proportionaltoparent"	"1"
 
 		if_mvm
@@ -341,7 +337,7 @@
 		"tall"			"16"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"../vgui/replay/thumbnails/panels/blue"
+		"image"		"replay/thumbnails/panels/red"
 		"proportionaltoparent"	"1"
 
 		if_mvm
@@ -510,7 +506,6 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 	"TournamentInstructionsLabelShadow"
@@ -518,7 +513,6 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
 		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 	"CountdownBG"
@@ -526,7 +520,6 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
 		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 	"HudTournamentBG"
@@ -534,7 +527,6 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBG"
 		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 	"TournamentLabel"
@@ -542,7 +534,6 @@
 		"ControlName"		"Label"
 		"fieldName"		"TournamentLabel"
 		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 	"HudTournamentBGHelp"
@@ -550,7 +541,6 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBGHelp"
 		"xpos"			"9999"
-		"wide"			"0"
 		"enabled"		"0"
 	}
 }

@@ -306,13 +306,24 @@ Scheme
 				"range"										"0x0000 0x00FF"
 			}
 		}
+		"DefaultVerySmall"		//Slider numbers
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"5"
+				"weight"									"0"
+				"additive"									"0"
+				"antialias"									"1"
+				"range"										"0x0000 0x017F"
+			}
+		}
 
 		CenterPrintText
 		{
 			"1"
 			{
-				"name"										"Renogare Soft XHud" 	[!$OSX]
-				"name"										"Renogare Soft XHud" 	[$OSX]
+				"name"										"Renogare Soft XHud"
 				"tall"										"18"
 				"weight"									"0"
 				"antialias" 								"1"

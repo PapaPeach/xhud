@@ -216,7 +216,7 @@
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../vgui/replay/thumbnails/panels/blank"
+			"image"			"replay/thumbnails/panels/blank"
 		}
 
 		"ServerChangeLabel"

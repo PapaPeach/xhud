@@ -27,9 +27,8 @@
 		"tall"			"f-2"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"		"../vgui/replay/thumbnails/panels/blank"
+		"image"		"replay/thumbnails/panels/black"
 		"scaleImage"		"1"
-		"drawcolor"		"TransparentGrayDarkest"
 		"alpha"		"180"
 		"proportionaltoparent"		"1"
 
@@ -49,9 +48,8 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"		"../vgui/replay/thumbnails/panels/blank"
+		"image"			"replay/thumbnails/panels/white"
 		"scaleImage"		"1"
-		"drawcolor"		"TransparentGrayDarkest"
 		"alpha"		"180"
 		"proportionaltoparent"		"1"
 

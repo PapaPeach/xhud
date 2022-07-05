@@ -45,7 +45,7 @@
 		"tall"						"1"
 		"visible"					"0"
 		"enabled"					"1"
-		"image"						"../vgui/replay/thumbnails/panels/blank"
+		"image"						"replay/thumbnails/panels/blank"
 		"scaleImage"				"1"
 	}
 

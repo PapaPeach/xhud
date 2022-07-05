@@ -388,12 +388,12 @@
 			"pin_to_sibling_corner" "5"
 		}
 
-		"Crosshair_Title"
+		"Colors_Title"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Crosshair_Title"
+			"fieldName"		"Colors_Title"
 			"font"			"Size 28"
-			"labelText"		"Crosshair Settings"
+			"labelText"		"Color Settings"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -409,10 +409,10 @@
 			"pin_to_sibling_corner"		"6"
 		}
 
-		"Crosshair_Panel"
+		"Colors_Panel"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"Crosshair_Panel"
+			"fieldName"		"Colors_Panel"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
@@ -423,7 +423,7 @@
 			"bgcolor_override"		"BlackLight"
 			"proportionaltoparent"		"1"
 
-			"pin_to_sibling"		"Crosshair_Title"
+			"pin_to_sibling"		"Colors_Title"
 			"pin_corner_to_sibling"		"4"
 			"pin_to_sibling_corner"		"6"
 		}
@@ -452,7 +452,7 @@
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"		"Blank"
 
-			"pin_to_sibling" "Crosshair_Panel"
+			"pin_to_sibling" "Colors_Panel"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "0"
 		}
@@ -1041,6 +1041,673 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "ColorPresetBlueFull"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumEnableLabel"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumEnableLabel"
+			"font"			"Size 16"
+			"labelText"		"Show DMG:"
+			"textAlignment"	"west"
+			"xpos"			"1"
+			"ypos"			"4"
+			"zpos"			"20"
+			"wide"			"105"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+			"Command"			"engine toggle hud_combattext; hud_combattext_batching 1"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+
+			"pin_to_sibling" "ColorPresetLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"DmgNumEnableCheck"
+		{
+			"ControlName"		"CvarToggleCheckButton"
+			"fieldName"		"DmgNumEnableCheck"
+			"xpos"		"-18"
+			"ypos"		"0"
+			"zpos"		"20"
+			"wide"		"18"
+			"tall"		"20"
+			"labeltext"		""
+			"textAlignment"	"west"
+			"smallcheckimage"	"1"
+			"button_activation_type"	"1"
+			"cvar_name" "hud_combattext"
+			"mouseinputenabled"	"0"
+
+			"pin_to_sibling" "DmgNumEnableLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumBatchingLabel"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumBatchingLabel"
+			"font"			"Size 16"
+			"labelText"		"Adding:"
+			"textAlignment"	"west"
+			"xpos"			"12"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"75"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+			"Command"			"engine toggle hud_combattext_batching"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+
+			"pin_to_sibling" "DmgNumEnableCheck"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumBatchingCheck"
+		{
+			"ControlName"		"CvarToggleCheckButton"
+			"fieldName"		"DmgNumBatchingCheck"
+			"xpos"		"-18"
+			"ypos"		"0"
+			"zpos"		"20"
+			"wide"		"18"
+			"tall"		"20"
+			"labeltext"		""
+			"textAlignment"	"west"
+			"smallcheckimage"	"1"
+			"button_activation_type"	"1"
+			"cvar_name" "hud_combattext_batching"
+			"mouseinputenabled"	"0"
+
+			"pin_to_sibling" "DmgNumBatchingLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumBatchingWindow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DmgNumBatchingWindow"
+			"font"			"Size 16"
+			"labelText"		"Time:"
+			"textAlignment"	"west"
+			"xpos"			"3"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"38"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling" "DmgNumBatchingCheck"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumBatchingWindowSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"DmgNumBatchingWindowSlider"
+			"xpos"					"-4"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"55"
+			"tall"					"16"
+			"minvalue"				"0.1" //can swap min and max values to swap slide directions
+			"maxvalue"				"2"
+			"cvar_name"				"hud_combattext_batching_window"	//actual command
+
+			"pin_to_sibling" "DmgNumBatchingWindow"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumRedLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DmgNumRedLabel"
+			"font"			"Size 16"
+			"labelText"		"Red:"
+			"textAlignment"	"west"
+			"xpos"			"-1"
+			"ypos"			"4"
+			"zpos"			"20"
+			"wide"			"32"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling" "DmgNumEnableLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"DmgNumRedSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"DmgNumRedSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"55"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"255"
+			"cvar_name"				"hud_combattext_red"	//actual command
+
+			"pin_to_sibling" "DmgNumRedLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumGreenLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DmgNumGreenLabel"
+			"font"			"Size 16"
+			"labelText"		"Green:"
+			"textAlignment"	"west"
+			"xpos"			"4"
+			"ypos"			"-3"
+			"zpos"			"20"
+			"wide"			"44"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling" "DmgNumRedSlider"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumGreenSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"DmgNumGreenSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"55"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"255"
+			"cvar_name"				"hud_combattext_green"	//actual command
+
+			"pin_to_sibling" "DmgNumGreenLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumBlueLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DmgNumBlueLabel"
+			"font"			"Size 16"
+			"labelText"		"Blue:"
+			"textAlignment"	"west"
+			"xpos"			"4"
+			"ypos"			"-3"
+			"zpos"			"20"
+			"wide"			"34"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling" "DmgNumGreenSlider"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumBlueSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"DmgNumBlueSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"55"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"255"
+			"cvar_name"				"hud_combattext_blue"	//actual command
+
+			"pin_to_sibling" "DmgNumBlueLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumColorPresetLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DmgNumColorPresetLabel"
+			"font"			"Size 16"
+			"labelText"		"Preset:"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"4"
+			"zpos"			"20"
+			"wide"			"50"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling"	"DmgNumRedLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"DmgNumColorPresetRed"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumColorPresetRed"
+			"font"			"Size 16"
+			"labelText"		""
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel"		"2"
+			"Command"			"engine hud_combattext_red 255; hud_combattext_green 50; hud_combattext_blue 65"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Red"
+			"armedBgColor_override"		"Red"
+			"border_default"		"NoBorder"
+			"border_Armed"		"WhiteHighlightBorderThick"
+
+			"pin_to_sibling" "DmgNumColorPresetLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumColorPresetYellow"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumColorPresetYellow"
+			"font"			"Size 16"
+			"labelText"		""
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel"		"2"
+			"Command"			"engine hud_combattext_red 200; hud_combattext_green 180; hud_combattext_blue 0"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Yellow"
+			"armedBgColor_override"		"Yellow"
+			"border_default"		"NoBorder"
+			"border_Armed"		"WhiteHighlightBorderThick"
+
+			"pin_to_sibling" "DmgNumColorPresetRed"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumColorPresetGreen"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumColorPresetGreen"
+			"font"			"Size 16"
+			"labelText"		""
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel"		"2"
+			"Command"			"engine hud_combattext_red 40; hud_combattext_green 200; hud_combattext_blue 110"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Green"
+			"armedBgColor_override"		"Green"
+			"border_default"		"NoBorder"
+			"border_Armed"		"WhiteHighlightBorderThick"
+
+			"pin_to_sibling" "DmgNumColorPresetYellow"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumColorPresetBlue"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumColorPresetBlue"
+			"font"			"Size 16"
+			"labelText"		""
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel"		"2"
+			"Command"			"engine hud_combattext_red 92; hud_combattext_green 173; hud_combattext_blue 255"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blue"
+			"armedBgColor_override"		"Blue"
+			"border_default"		"NoBorder"
+			"border_Armed"		"WhiteHighlightBorderThick"
+
+			"pin_to_sibling" "DmgNumColorPresetGreen"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumColorPresetPink"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumColorPresetPink"
+			"font"			"Size 16"
+			"labelText"		""
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel"		"2"
+			"Command"			"engine hud_combattext_red 215; hud_combattext_green 145; hud_combattext_blue 255"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Unusual"
+			"armedBgColor_override"		"Unusual"
+			"border_default"		"NoBorder"
+			"border_Armed"		"WhiteHighlightBorderThick"
+
+			"pin_to_sibling" "DmgNumColorPresetBlue"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumColorPresetWhite"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumColorPresetWhite"
+			"font"			"Size 16"
+			"labelText"		""
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel"		"2"
+			"Command"			"engine hud_combattext_red 255; hud_combattext_green 255; hud_combattext_blue 255"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"255 255 255 255"
+			"armedBgColor_override"		"255 255 255 255"
+			"border_default"		"NoBorder"
+			"border_Armed"		"WhiteHighlightBorderThick"
+
+			"pin_to_sibling" "DmgNumColorPresetPink"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumColorPresetBlack"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumColorPresetBlack"
+			"font"			"Size 16"
+			"labelText"		""
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel"		"2"
+			"Command"			"engine hud_combattext_red 0; hud_combattext_green 0; hud_combattext_blue 0"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"0 0 0 255"
+			"armedBgColor_override"		"0 0 0 255"
+			"border_default"		"NoBorder"
+			"border_Armed"		"WhiteHighlightBorderThick"
+
+			"pin_to_sibling" "DmgNumColorPresetWhite"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumColorPresetRedFull"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumColorPresetRedFull"
+			"font"			"Size 16"
+			"labelText"		""
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel"		"2"
+			"Command"			"engine hud_combattext_red 255; hud_combattext_green 0; hud_combattext_blue 0"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"255 0 0 255"
+			"armedBgColor_override"		"255 0 0 255"
+			"border_default"		"NoBorder"
+			"border_Armed"		"WhiteHighlightBorderThick"
+
+			"pin_to_sibling" "DmgNumColorPresetBlack"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumColorPresetYellowFull"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumColorPresetYellowFull"
+			"font"			"Size 16"
+			"labelText"		""
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel"		"2"
+			"Command"			"engine hud_combattext_red 255; hud_combattext_green 255; hud_combattext_blue 0"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"255 255 0 255"
+			"armedBgColor_override"		"255 255 0 255"
+			"border_default"		"NoBorder"
+			"border_Armed"		"WhiteHighlightBorderThick"
+
+			"pin_to_sibling" "DmgNumColorPresetRedFull"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumColorPresetGreenFull"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumColorPresetGreenFull"
+			"font"			"Size 16"
+			"labelText"		""
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel"		"2"
+			"Command"			"engine hud_combattext_red 0; hud_combattext_green 255; hud_combattext_blue 0"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"0 255 0 255"
+			"armedBgColor_override"		"0 255 0 255"
+			"border_default"		"NoBorder"
+			"border_Armed"		"WhiteHighlightBorderThick"
+
+			"pin_to_sibling" "DmgNumColorPresetYellowFull"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumColorPresetCyanFull"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumColorPresetCyanFull"
+			"font"			"Size 16"
+			"labelText"		""
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel"		"2"
+			"Command"			"engine hud_combattext_red 0; hud_combattext_green 255; hud_combattext_blue 255"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"0 255 255 255"
+			"armedBgColor_override"		"0 255 255 255"
+			"border_default"		"NoBorder"
+			"border_Armed"		"WhiteHighlightBorderThick"
+
+			"pin_to_sibling" "DmgNumColorPresetGreenFull"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumColorPresetBlueFull"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumColorPresetBlueFull"
+			"font"			"Size 16"
+			"labelText"		""
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel"		"2"
+			"Command"			"engine hud_combattext_red 0; hud_combattext_green 0; hud_combattext_blue 255"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"0 0 255 255"
+			"armedBgColor_override"		"0 0 255 255"
+			"border_default"		"NoBorder"
+			"border_Armed"		"WhiteHighlightBorderThick"
+
+			"pin_to_sibling" "DmgNumColorPresetCyanFull"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"DmgNumColorPresetPinkFull"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgNumColorPresetPinkFull"
+			"font"			"Size 16"
+			"labelText"		""
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"14"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"actionsignallevel"		"2"
+			"Command"			"engine hud_combattext_red 255; hud_combattext_green 0; hud_combattext_blue 255"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"255 0 255 255"
+			"armedBgColor_override"		"255 0 255 255"
+			"border_default"		"NoBorder"
+			"border_Armed"		"WhiteHighlightBorderThick"
+
+			"pin_to_sibling" "DmgNumColorPresetBlueFull"
 			"pin_corner_to_sibling" "7"
 			"pin_to_sibling_corner" "5"
 		}

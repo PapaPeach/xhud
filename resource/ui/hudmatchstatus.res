@@ -106,7 +106,7 @@
 			"wide"		"5"
 			"tall"		"2"
 			"zpos"		"7"
-			"image"		"../vgui/replay/thumbnails/panels/blank"
+			"image"		"replay/thumbnails/panels/blank"
 			"scaleImage"				"1"
 			"fillcolor"		"GrayDarkest"
 			"alpha"		"180"
@@ -118,7 +118,7 @@
 			"wide"		"5"
 			"tall"		"2"
 			"zpos"		"8"
-			"image"		"../vgui/replay/thumbnails/panels/blue"
+			"image"		"replay/thumbnails/panels/red"
 			"scaleimage"		"1"
 		}
 
@@ -128,7 +128,7 @@
 			"wide"		"5"
 			"tall"		"2"
 			"zpos"		"8"
-			"image"		"../vgui/replay/thumbnails/panels/blue"
+			"image"		"replay/thumbnails/panels/blue"
 			"scaleimage"		"1"
 		}
 		"Background"
@@ -281,10 +281,10 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_blue"	"Red"
-			"color_portrait_blue"	"Blue"
-			"color_portrait_blue_dead"	"Blank"
-			"color_portrait_blue_dead"	"Blank"
+			"color_portrait_bg_red"	"Red"
+			"color_portrait_bg_blue"	"Blue"
+			"color_portrait_bg_red_dead"	"Blank"
+			"color_portrait_bg_blue_dead"	"Blank"
 			"color_bar_health_high"	"40 200 110 120"
 			"color_bar_health_med"	"240 240 60 120"
 			"percentage_health_med"	"0.6"

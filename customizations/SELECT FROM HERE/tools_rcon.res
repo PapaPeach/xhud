@@ -105,7 +105,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RCON_Warning"
-			"font"			"Size 9"
+			"font"			"Size 8"
 			"labelText"		"Before using, enter the RCON password with the command: 'rcon_password xxxx'"
 			"textAlignment"	"center"
 			"xpos"			"0"
