@@ -711,8 +711,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "ColorPresetRed"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"ColorPresetGreen"
@@ -741,8 +741,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "ColorPresetYellow"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"ColorPresetBlue"
@@ -771,8 +771,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "ColorPresetGreen"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"ColorPresetPink"
@@ -801,8 +801,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "ColorPresetBlue"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"ColorPresetWhite"
@@ -831,8 +831,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "ColorPresetPink"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"ColorPresetBlack"
@@ -861,8 +861,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "ColorPresetWhite"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"ColorPresetRedFull"
@@ -891,8 +891,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "ColorPresetBlack"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"ColorPresetYellowFull"
@@ -921,8 +921,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "ColorPresetRedFull"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"ColorPresetGreenFull"
@@ -951,8 +951,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "ColorPresetYellowFull"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"ColorPresetCyanFull"
@@ -981,8 +981,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "ColorPresetGreenFull"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"ColorPresetBlueFull"
@@ -1011,8 +1011,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "ColorPresetCyanFull"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"ColorPresetPinkFull"
@@ -1041,8 +1041,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "ColorPresetBlueFull"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"DmgNumEnableLabel"
@@ -1378,8 +1378,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "DmgNumColorPresetRed"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"DmgNumColorPresetGreen"
@@ -1408,8 +1408,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "DmgNumColorPresetYellow"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"DmgNumColorPresetBlue"
@@ -1438,8 +1438,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "DmgNumColorPresetGreen"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"DmgNumColorPresetPink"
@@ -1468,8 +1468,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "DmgNumColorPresetBlue"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"DmgNumColorPresetWhite"
@@ -1498,8 +1498,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "DmgNumColorPresetPink"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"DmgNumColorPresetBlack"
@@ -1528,8 +1528,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "DmgNumColorPresetWhite"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"DmgNumColorPresetRedFull"
@@ -1558,8 +1558,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "DmgNumColorPresetBlack"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"DmgNumColorPresetYellowFull"
@@ -1588,8 +1588,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "DmgNumColorPresetRedFull"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"DmgNumColorPresetGreenFull"
@@ -1618,8 +1618,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "DmgNumColorPresetYellowFull"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"DmgNumColorPresetCyanFull"
@@ -1648,8 +1648,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "DmgNumColorPresetGreenFull"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"DmgNumColorPresetBlueFull"
@@ -1678,8 +1678,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "DmgNumColorPresetCyanFull"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"DmgNumColorPresetPinkFull"
@@ -1708,8 +1708,8 @@
 			"border_Armed"		"WhiteHighlightBorderThick"
 
 			"pin_to_sibling" "DmgNumColorPresetBlueFull"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
 		}
 
 		"TVMLabel"
