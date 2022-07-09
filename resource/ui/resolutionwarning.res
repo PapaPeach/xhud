@@ -10,10 +10,11 @@
 		"wide"								"f0"
 		"tall"								"35"
 		"visible"							"1"
-		"font"								"Size 30"
+		"font"								"Size 20"
 		"fgcolor_override"		"Red"
-		"bgcolor_override"		"TransparentBlack"
+		"bgcolor_override"		"Black"
 		"textAlignment"				"center"
-		"labelText"						"SELECT RES FROM 'xhud\resolutions'"
+		"centerwrap"					"0"
+		"labelText"						"DRAG FILE FROM: 'xhud\resolutions\SELECT FROM HERE' | TO: 'xhud\resolutions'"
 	}
 }

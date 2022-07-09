@@ -310,8 +310,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Verdana"
-				"tall"										"5"
+				"name"										"Renogare Soft XHud"
+				"tall"										"6"
 				"weight"									"0"
 				"additive"									"0"
 				"antialias"									"1"
@@ -352,7 +352,7 @@ Scheme
 			}
 		}
 
-		//TODO: FILTER FROM HERE DOWN
+		//TODO: FILTER FROM HERE DOWN (7/3/22 most recent)
 		"HudFontGiant"
 		{
 			"1"

@@ -13,7 +13,6 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/panels/blank"
 		"scaleImage"	"1"
-		"alpha"		"0"
 		"proportionaltoparent"		"1"
 	}
 

@@ -374,12 +374,6 @@
 		"zpos"					"4"
 	}
 
-	FreezePanelCallout
-	{
-		"xpos"			"9999"
-		"visible"		"0"
-	}
-
 	"HudMenuEngyBuild"
 	{
 		"xpos"				"5"
@@ -422,18 +416,6 @@
 		"tall"					"30"
 	}
 
-	HudTeamGoal
-	{
-		"xpos"	"9999"
-		"visible"	"0"
-	}
-
-	HudTeamGoalTournament
-	{
-	"xpos"	"9999"
-	"visible"	"0"
-	}
-
 	HudTournament
 	{
 		"xpos"					"cs-0.5"
@@ -466,5 +448,26 @@
 		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"480"
+	}
+
+	StatPanel
+	{
+		"xpos"	"9999"
+		"visible"	"0"
+	}
+	FreezePanelCallout
+	{
+		"xpos"	"9999"
+		"visible"	"0"
+	}
+	HudTeamGoal
+	{
+		"xpos"	"9999"
+		"visible"	"0"
+	}
+	HudTeamGoalTournament
+	{
+	"xpos"	"9999"
+	"visible"	"0"
 	}
 }
