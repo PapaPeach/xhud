@@ -37,14 +37,23 @@ event QuickReloadHud
 //Animation states
 event JumpMode
 {
-  Animate speed1			Position		"c10 c16"				Linear 0.0 0.001
+  Animate speed1			Position		"c10 c16"    Linear 0.0 0.001
 }
 
-event 6v6Scoreboard
+event 16v16Scoreboard
 {
-  Animate RedPlayerList     tall    100    Linear 0.0 0.001
-  Animate BluePlayerList     tall   100    Linear 0.0 0.001
-  Animate ScoreboardMainBG    tall  142    Linear 0.0 0.001
+  Animate RedPlayerList     tall    258    Linear 0.0 0.001
+  Animate BluePlayerList     tall   258    Linear 0.0 0.001
+  Animate ScoreboardMainBG    tall  300    Linear 0.0 0.001
+  Animate ScoreboardMainBG    Position "0 100"    Linear 0.0 0.001
+}
+
+event 12v12Scoreboard
+{
+  Animate RedPlayerList     tall    190    Linear 0.0 0.001
+  Animate BluePlayerList     tall   190    Linear 0.0 0.001
+  Animate ScoreboardMainBG    tall  232    Linear 0.0 0.001
+  Animate ScoreboardMainBG    Position "0 145"    Linear 0.0 0.001
 }
 
 event 9v9Scoreboard
@@ -52,6 +61,35 @@ event 9v9Scoreboard
   Animate RedPlayerList     tall    145    Linear 0.0 0.001
   Animate BluePlayerList     tall   145    Linear 0.0 0.001
   Animate ScoreboardMainBG    tall  187    Linear 0.0 0.001
+  Animate ScoreboardMainBG    Position "0 165"    Linear 0.0 0.001
+}
+
+event 6v6Scoreboard
+{
+  Animate RedPlayerList     tall    100    Linear 0.0 0.001
+  Animate BluePlayerList     tall   100    Linear 0.0 0.001
+  Animate ScoreboardMainBG    tall  142    Linear 0.0 0.001
+  Animate ScoreboardMainBG    Position "0 190"    Linear 0.0 0.001
+}
+
+event UpperChat
+{
+  Animate HudChat    Position "-2 25"    Linear 0.0 0.001
+}
+
+event LowerChat
+{
+  Animate HudChat    Position "-2 r210"    Linear 0.0 0.001
+}
+
+event TallChat
+{
+  Animate HudChat    tall   86    Linear 0.0 0.001
+}
+
+event ShortChat
+{
+  Animate HudChat    tall   48    Linear 0.0 0.001
 }
 
 //====================================================================================================================

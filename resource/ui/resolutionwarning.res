@@ -15,6 +15,6 @@
 		"bgcolor_override"		"Black"
 		"textAlignment"				"center"
 		"centerwrap"					"0"
-		"labelText"						"DRAG FILE FROM: 'xhud\resolutions\SELECT FROM HERE' | TO: 'xhud\resolutions'"
+		"labelText"						"DRAG FOLDER FROM: 'xhud\resolutions\SELECT FROM HERE' | TO: 'xhud\resolutions'"
 	}
 }

@@ -141,31 +141,19 @@
 	"MinmodeToggle"
 	{
 		"label"			"Optimize"
-		"command"		"engine incrementvar cl_hud_minmode 0 1 1"
+		"command"		"engine toggle cl_hud_minmode"
 		"tooltip"		"Requires Game Restart"
 		"OnlyInGame"	"1"
 	}
+
+	////////////////////////////////////
+	//						Xhud Menu						//
+	////////////////////////////////////
 
 	"JumpMode"
 	{
 		"label"			"Jump"
 		"command"		"engine alias x_jumpmode jumpmode; x_jumpmode"
-		"tooltip"		"Reload hud to undo"
-		"OnlyAtMenu"	"1"
-	}
-
-	"6v6Scoreboard"
-	{
-		"label"			"6s SB"
-		"command"		"engine alias x_scoreboard 6v6sb; x_scoreboard"
-		"tooltip"		"Reload hud to undo"
-		"OnlyAtMenu"	"1"
-	}
-
-	"9v9Scoreboard"
-	{
-		"label"			"9s SB"
-		"command"		"engine alias x_scoreboard 9v9sb; x_scoreboard"
 		"tooltip"		"Reload hud to undo"
 		"OnlyAtMenu"	"1"
 	}
