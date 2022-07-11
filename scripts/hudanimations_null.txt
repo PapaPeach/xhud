@@ -1,4 +1,4 @@
-event LevelInit{}
+//event LevelInit{}
 event OpenWeaponSelectionMenu{}
 event CloseWeaponSelectionMenu{}
 //event MenuOpen{}//NICE

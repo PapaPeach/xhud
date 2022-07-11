@@ -44,6 +44,10 @@ event 16v16Scoreboard
 {
   Animate RedPlayerList     tall    258    Linear 0.0 0.001
   Animate BluePlayerList     tall   258    Linear 0.0 0.001
+  RunEvent 16v16ScoreboardBG    0.0
+}
+event 16v16ScoreboardBG
+{
   Animate ScoreboardMainBG    tall  300    Linear 0.0 0.001
   Animate ScoreboardMainBG    Position "0 100"    Linear 0.0 0.001
 }
@@ -52,6 +56,10 @@ event 12v12Scoreboard
 {
   Animate RedPlayerList     tall    190    Linear 0.0 0.001
   Animate BluePlayerList     tall   190    Linear 0.0 0.001
+  RunEvent 12v12ScoreboardBG    0.0
+}
+event 12v12ScoreboardBG
+{
   Animate ScoreboardMainBG    tall  232    Linear 0.0 0.001
   Animate ScoreboardMainBG    Position "0 145"    Linear 0.0 0.001
 }
@@ -60,6 +68,10 @@ event 9v9Scoreboard
 {
   Animate RedPlayerList     tall    145    Linear 0.0 0.001
   Animate BluePlayerList     tall   145    Linear 0.0 0.001
+  RunEvent 9v9ScoreboardBG    0.0
+}
+event 9v9ScoreboardBG
+{
   Animate ScoreboardMainBG    tall  187    Linear 0.0 0.001
   Animate ScoreboardMainBG    Position "0 165"    Linear 0.0 0.001
 }
@@ -68,6 +80,10 @@ event 6v6Scoreboard
 {
   Animate RedPlayerList     tall    100    Linear 0.0 0.001
   Animate BluePlayerList     tall   100    Linear 0.0 0.001
+  RunEvent 6v6ScoreboardBG    0.0
+}
+event 6v6ScoreboardBG
+{
   Animate ScoreboardMainBG    tall  142    Linear 0.0 0.001
   Animate ScoreboardMainBG    Position "0 190"    Linear 0.0 0.001
 }

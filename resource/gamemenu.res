@@ -149,6 +149,12 @@
 	////////////////////////////////////
 	//						Xhud Menu						//
 	////////////////////////////////////
+	"XMenuButton"
+	{
+		"label"			"X Menu"
+		"command"		"engine toggle cl_mainmenu_safemode"
+		"OnlyAtMenu"	"1"
+	}
 
 	"JumpMode"
 	{

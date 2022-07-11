@@ -2,48 +2,6 @@
 
 "Resource/UI/MainMenuOverride.res"
 {
-	"MOTD_ShowButtonPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"310"
-		"ypos"			"rs1"
-		"zpos"			"1000"
-		"wide"			"150"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"MOTD_ShowButtonPanel_SB"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"MOTD_ShowButtonPanel_SB"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"80"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"Hud Options"
-			"font"			"Size 30"
-			"textAlignment"	"west"
-			"textinsetx"		"-1"
-			"auto_wide_tocontents"		"1"
-
-			"actionsignallevel" "2"
-			"Command"		"motd_show"
-
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				"UI/buttonclickrelease.wav"
-
-			"paintbackground"				"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"WhiteGray"
-			"depressedFgColor_override"		"WhiteGray"
-		}
-	}
-
 	"MOTD_Panel"
 	{
 		"ControlName"	"EditablePanel"
