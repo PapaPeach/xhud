@@ -797,6 +797,17 @@ Scheme
 				"weight"									"500"
 			}
 		}
+		"ScoreboardSmallest"		//Player connecting?
+		{
+			"1"
+			{
+				"name"										"Verdana"
+				"tall"										"6"
+				"weight"									"400"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		"ScoreboardVerySmall"
 		{
 			"1"

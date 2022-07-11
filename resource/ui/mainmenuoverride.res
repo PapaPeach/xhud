@@ -80,8 +80,7 @@
 
 		"SaxxySettings"
 		{
-			"xpos"							"9999"
-			"enabled"						"0"
+			"xpos"	"9999"
 		}
 	}
 
@@ -163,8 +162,6 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"InfoSeparatorLine"
-		"xpos"								"0"
-		"ypos"								"0"
 		"wide"								"211"
 		"tall"								"1"
 		"visible"							"1"
@@ -204,8 +201,6 @@
 	{
 		"ControlName"						"CPvPRankPanel"
 		"fieldName"							"RankPanel"
-		"xpos"								"0"
-		"ypos"								"0"
 		"zpos"								"-52"
 		"wide"								"f0"
 		"tall"								"f0"
@@ -223,8 +218,6 @@
 	{
 		"ControlName"					"EditablePanel"
 		"fieldName"						"TooltipPanel"
-		"xpos"								"0"
-		"ypos"								"0"
 		"zpos"								"10000"
 		"wide"								"150"
 		"tall"								"50"
@@ -305,8 +298,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"Notifications_ShowButtonPanel_SB"
-			"xpos"							"0"
-			"ypos"							"0"
 			"zpos"							"1"
 			"wide"							"23"
 			"tall"							"23"
@@ -325,7 +316,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 		}
 	}
 
@@ -366,8 +356,7 @@
 
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
+			"armedFgColor_override"			"Red"
 		}
 
 		"Notifications_TitleLabel"
@@ -403,8 +392,6 @@
 			{
 				"ControlName"				"CMainMenuNotificationsControl"
 				"fieldName"					"Notifications_Control"
-				"xpos"						"0"
-				"ypos"						"0"
 				"wide"						"220"
 				"tall"						"135"
 				"visible"					"1"
@@ -430,8 +417,6 @@
 		{
 			"ControlName"					"CSteamFriendsListPanel"
 			"fieldname"						"SteamFriendsList"
-			"xpos"							"0"
-			"ypos"							"0"
 			"zpos"							"500"
 			"wide"							"f0"
 			"wide_minmode"				"0"		//Benchmark this
@@ -454,33 +439,28 @@
 
 			"ScrollBar"
 			{
-				"ControlName"				"ScrollBar"
-				"FieldName"					"ScrollBar"
-				"xpos"						"0"
-				"ypos"						"0"
-				"tall"						"f0"
-				"wide"						"2"
-				"zpos"						"1000"
-				"nobuttons"					"1"
+				"ControlName"		"ScrollBar"
+				"FieldName"		"ScrollBar"
+				"xpos"		"0"
+				"tall"		"f0"
+				"wide"		"2"
+				"zpos"		"1000"
+				"nobuttons"		"1"
 				"proportionaltoparent"		"1"
 
 				"Slider"
 				{
 					"fgcolor_override"		"White"
 				}
-
 				"UpButton"
 				{
-					"ControlName"			"Button"
-					"FieldName"				"UpButton"
-					"xpos"					"9999"
+					"FieldName"	"UpButton"
+					"xpos"	"9999"
 				}
-
 				"DownButton"
 				{
-					"ControlName"			"Button"
-					"FieldName"				"DownButton"
-					"xpos"					"9999"
+					"FieldName"	"DownButton"
+					"xpos"	"9999"
 				}
 			}
 		}
@@ -506,8 +486,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"84"
 			"tall"							"23"
 			"visible"						"1"
@@ -523,7 +501,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -533,8 +510,6 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Create"
-		"xpos"								"0"
-		"ypos"								"0"
 		"zpos"								"2"
 		"wide"								"23"
 		"tall"								"23"
@@ -549,8 +524,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"23"
 			"tall"							"23"
 			"visible"						"1"
@@ -566,7 +539,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -576,8 +548,6 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Inventory"
-		"xpos"								"0"
-		"ypos"								"0"
 		"zpos"								"2"
 		"wide"								"104"
 		"tall"								"23"
@@ -592,8 +562,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"103"
 			"tall"							"23"
 			"visible"						"1"
@@ -609,7 +577,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -619,8 +586,6 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Store"
-		"xpos"								"0"
-		"ypos"								"0"
 		"zpos"								"2"
 		"wide"								"23"
 		"tall"								"23"
@@ -635,8 +600,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"23"
 			"tall"							"23"
 			"visible"						"1"
@@ -652,7 +615,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -662,8 +624,6 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Options"
-		"xpos"								"0"
-		"ypos"								"0"
 		"zpos"								"2"
 		"wide"								"86"
 		"tall"								"23"
@@ -678,8 +638,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"86"
 			"tall"							"23"
 			"visible"						"1"
@@ -695,7 +653,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -705,8 +662,6 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"AdvancedOptions"
-		"xpos"								"0"
-		"ypos"								"0"
 		"zpos"								"2"
 		"wide"								"23"
 		"tall"								"23"
@@ -721,8 +676,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"23"
 			"tall"							"23"
 			"visible"						"1"
@@ -738,7 +691,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -788,8 +740,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"20"
 			"tall"							"20"
 			"visible"						"1"
@@ -805,7 +755,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"WhiteGray"
-			"depressedFgColor_override"		"WhiteGray"
 
 			"proportionaltoparent"			"1"
 		}
@@ -831,8 +780,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"20"
 			"tall"							"20"
 			"visible"						"1"
@@ -848,7 +795,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"WhiteGray"
-			"depressedFgColor_override"		"WhiteGray"
 
 			"proportionaltoparent"			"1"
 		}
@@ -874,8 +820,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"20"
 			"tall"							"20"
 			"visible"						"1"
@@ -891,7 +835,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"WhiteGray"
-			"depressedFgColor_override"		"WhiteGray"
 
 			"proportionaltoparent"			"1"
 		}
@@ -917,8 +860,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"20"
 			"tall"							"20"
 			"visible"						"1"
@@ -934,7 +875,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"WhiteGray"
-			"depressedFgColor_override"		"WhiteGray"
 
 			"proportionaltoparent"			"1"
 		}
@@ -956,8 +896,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"80"
 			"tall"							"20"
 			"visible"						"1"
@@ -973,7 +911,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"Red"
-			"depressedFgColor_override"		"Red"
 
 			"proportionaltoparent"			"1"
 		}
@@ -999,8 +936,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"53"
 			"tall"							"23"
 			"visible"						"1"
@@ -1016,7 +951,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -1026,8 +960,6 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Report"
-		"xpos"								"0"
-		"ypos"								"0"
 		"zpos"								"2"
 		"wide"								"75"
 		"tall"								"23"
@@ -1042,8 +974,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"75"
 			"tall"							"23"
 			"visible"						"1"
@@ -1059,7 +989,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -1069,8 +998,6 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Mute"
-		"xpos"								"0"
-		"ypos"								"0"
 		"zpos"								"2"
 		"wide"								"55"
 		"tall"								"23"
@@ -1085,8 +1012,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"55"
 			"tall"							"23"
 			"visible"						"1"
@@ -1102,7 +1027,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -1124,8 +1048,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"80"
 			"tall"							"20"
 			"visible"						"1"
@@ -1141,7 +1063,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"Red"
-			"depressedFgColor_override"		"Red"
 
 			"proportionaltoparent"			"1"
 		}
@@ -1187,7 +1108,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -1199,8 +1119,6 @@
 			"font"			"Symbols 26"
 			"labelText"		"+"
 			"textAlignment"	"center"
-			"xpos"			"0"
-			"ypos"			"0"
 			"wide"			"0"
 			"wide_minmode"	"22"
 			"tall"			"24"
@@ -1248,7 +1166,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -1258,8 +1175,6 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"BrokenSoundFix"
-		"xpos"								"0"
-		"ypos"								"0"
 		"zpos"								"2"
 		"wide"								"25"
 		"tall"								"23"
@@ -1290,7 +1205,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -1300,8 +1214,6 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"ReloadHud"
-		"xpos"								"0"
-		"ypos"								"0"
 		"zpos"								"2"
 		"wide"								"25"
 		"tall"								"23"
@@ -1332,7 +1244,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -1358,8 +1269,6 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_ShowButtonPanel_SB"
-			"xpos"			"0"
-			"ypos"			"0"
 			"zpos"			"1"
 			"wide"			"80"
 			"tall"			"20"
@@ -1380,7 +1289,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"WhiteGray"
-			"depressedFgColor_override"		"WhiteGray"
 		}
 	}
 
@@ -1400,8 +1308,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"SubButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"wide"							"80"
 			"tall"							"23"
 			"visible"						"1"
@@ -1417,7 +1323,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"MainTheme"
-			"depressedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"			"1"
 		}
@@ -1439,8 +1344,6 @@
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
@@ -1462,11 +1365,28 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SafeMode"
-		"xpos"		"rs1"
-		"wide"		"348"
-		"tall"		"f20"
+		"wide"		"f0"
+		"tall"		"480"
 		"visible"	"0"
-		"zpos"		"21"
+		"zpos"		"10002"
+
+		"XMenu_FullClose"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"XMenu_FullClose"
+			"zpos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"labeltext"		""
+			"actionsignallevel"	"2"
+			"Command"			"engine toggle cl_mainmenu_safemode"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"paintbackground"				"0"
+		}
 
 		"XMenuPanel"
 		{
@@ -1483,7 +1403,7 @@
 
 		"XMenu_Close"
 		{
-			"ControlName"	"CExImageButton"
+			"ControlName"	"CExButton"
 			"fieldName"		"XMenu_Close"
 			"xpos"			"-2"
 			"ypos"			"-2"
@@ -1505,7 +1425,6 @@
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"			"Red"
-			"depressedFgColor_override"		"Red"
 
 			"pin_to_sibling"		"XMenuPanel"
 			"pin_corner_to_sibling"		"1"
@@ -2000,10 +1919,37 @@
 		}
 	}
 
+	"Background"
+	{
+		"fieldName"	"Background"
+		"xpos"	"9999"
+	}
+	"TFCharacterImage"
+	{
+		"fieldName"	"TFCharacterImage"
+		"xpos"	"9999"
+	}
+	"RankModelPanel"
+	{
+		"fieldName"	"RankModelPanel"
+		"xpos"	"9999"
+		"show_progress"	"0"
+	}
+	"QuestLogButton"
+	{
+		"fieldName"	"QuestLogButton"
+		"xpos"	"9999"
+		"visible"	"0"
+	}
+	"EventPromo"
+	{
+		"fieldname"	"EventPromo"
+		"xpos"	"9999"
+		"visible"	"0"
+	}
 	"mouseoveritempanel"
 	{
-		"ControlName"		"CItemModelPanel"
-		"fieldName"		"mouseoveritempanel"
-		"xpos"		"9999"
+		"fieldName"	"mouseoveritempanel"
+		"xpos"	"9999"
 	}
 }
