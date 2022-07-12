@@ -5,8 +5,12 @@
 #base "../../resolutions/16x9_3840x2160/spectatortournament.res"
 #base "../../resolutions/16x9_2560x1440/spectatortournament.res"
 #base "../../resolutions/16x9_1920x1080/spectatortournament.res"
-#base "../../resolutions/16x9_1366x768/spectatortournament.res"
 #base "../../resolutions/16x9_1600x900/spectatortournament.res"
+#base "../../resolutions/16x9_1366x768/spectatortournament.res"
+
+#base "../../resolutions/16x10_2560x1600/spectatortournament.res"
+#base "../../resolutions/16x10_1680x1050/spectatortournament.res"
+#base "../../resolutions/16x10_1440x900/spectatortournament.res"
 
 #base "../../resolutions/make_your_own/spectatortournament.res"
 

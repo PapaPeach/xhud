@@ -5,8 +5,12 @@
 #base "../../resolutions/16x9_3840x2160/hudplayerhealth.res"
 #base "../../resolutions/16x9_2560x1440/hudplayerhealth.res"
 #base "../../resolutions/16x9_1920x1080/hudplayerhealth.res"
-#base "../../resolutions/16x9_1366x768/hudplayerhealth.res"
 #base "../../resolutions/16x9_1600x900/hudplayerhealth.res"
+#base "../../resolutions/16x9_1366x768/hudplayerhealth.res"
+
+#base "../../resolutions/16x10_2560x1600/hudplayerhealth.res"
+#base "../../resolutions/16x10_1680x1050/hudplayerhealth.res"
+#base "../../resolutions/16x10_1440x900/hudplayerhealth.res"
 
 #base "../../resolutions/make_your_own/hudplayerhealth.res"
 
