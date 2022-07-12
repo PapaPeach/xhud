@@ -139,8 +139,6 @@
 				"tall"							"20"
 				"proportionaltoparent"			"1"
 
-
-
 				"CurrentXPLabel"
 				{
 					"ControlName"				"Label"
@@ -157,14 +155,13 @@
 					"textAlignment"				"west"
 					"labelText"					"%current_xp%"
 					"proportionaltoparent"		"1"
+					"auto_wide_tocontents"		"1"
 				}
 
 				"XPFraction"
 				{
 					"ControlName"				"Label"
 					"fieldName"					"XPFraction"
-					"xpos"						"0"
-					"ypos"						"0"
 					"zpos"						"1"
 					"wide"						"6"
 					"tall"						"8"
@@ -185,8 +182,6 @@
 				{
 					"ControlName"				"Label"
 					"fieldName"					"NextLevelXPLabel"
-					"xpos"						"0"
-					"ypos"						"0"
 					"zpos"						"1"
 					"wide"						"46"
 					"tall"						"8"
@@ -197,6 +192,7 @@
 					"textAlignment"				"east"
 					"labelText"					"%next_level_xp%"
 					"proportionaltoparent"		"1"
+					"auto_wide_tocontents"		"1"
 
 					"pin_to_sibling" 			"XPFraction"
 					"pin_corner_to_sibling" 	"7"

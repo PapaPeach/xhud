@@ -1,12 +1,18 @@
+#base "../../resolutions/4x3_1280x960/hudplayerhealth.res"
+#base "../../resolutions/4x3_1024x768/hudplayerhealth.res"
+#base "../../resolutions/5x4_1280x1024/hudplayerhealth.res"
+
 #base "../../resolutions/16x9_3840x2160/hudplayerhealth.res"
 #base "../../resolutions/16x9_2560x1440/hudplayerhealth.res"
 #base "../../resolutions/16x9_1920x1080/hudplayerhealth.res"
 #base "../../resolutions/16x9_1366x768/hudplayerhealth.res"
 #base "../../resolutions/16x9_1600x900/hudplayerhealth.res"
 
+#base "../../resolutions/make_your_own/hudplayerhealth.res"
+
 "Resource/UI/HudPlayerHealth.res"
 {
-	"HudPlayerHealth"		//Overridden		HealthBonusPosAdj=182-(61/320)(1920-W)
+	"HudPlayerHealth"		//Overridden		HealthBonusPosAdj=(182-(31/320)*(1920-WIDTH))*((16/9)/(WIDTH/HEIGHT))
 	{
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HudPlayerHealth"
@@ -42,7 +48,7 @@
 		"ypos"						"0"
 		"zpos"						"2"
 		"wide"						"1"
-		"tall"						"1"
+		"tall"						"0"
 		"visible"					"0"
 		"enabled"					"1"
 		"image"						"replay/thumbnails/panels/blank"
@@ -108,10 +114,10 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HealthBar"
 		"xpos"						"0"
-		"ypos"						"29"
+		"ypos"						"30"
 		"zpos"						"5"
 		"wide"						"80"
-		"tall"						"3"
+		"tall"						"4"
 		"visible"					"1"
 		"enabled"					"1"
 		"bgcolor_override"			"Health"
@@ -126,10 +132,10 @@
 		"ControlName"				"EditablePanel"
 		"fieldName"					"HealthBarOverheal"
 		"xpos"						"-331"
-		"ypos"						"29"
+		"ypos"						"30"
 		"zpos"						"6"
 		"wide"						"250"
-		"tall"						"3"
+		"tall"						"4"
 		"visible"					"0"
 		"enabled"					"1"
 		"bgcolor_override"			"Blue"

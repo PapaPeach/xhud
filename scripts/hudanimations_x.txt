@@ -78,8 +78,8 @@ event 9v9ScoreboardBG
 
 event 6v6Scoreboard
 {
-  Animate RedPlayerList     tall    100    Linear 0.0 0.001
-  Animate BluePlayerList     tall   100    Linear 0.0 0.001
+  Animate RedPlayerList     tall    99    Linear 0.0 0.001
+  Animate BluePlayerList     tall   99    Linear 0.0 0.001
   RunEvent 6v6ScoreboardBG    0.0
 }
 event 6v6ScoreboardBG

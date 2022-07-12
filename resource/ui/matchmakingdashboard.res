@@ -1,8 +1,15 @@
+#base "../../resolutions/4x3_1280x960/matchmakingdashboard.res"
+#base "../../resolutions/4x3_1024x768/matchmakingdashboard.res"
+#base "../../resolutions/5x4_1280x1024/matchmakingdashboard.res"
+
 #base "../../resolutions/16x9_3840x2160/matchmakingdashboard.res"
 #base "../../resolutions/16x9_2560x1440/matchmakingdashboard.res"
 #base "../../resolutions/16x9_1920x1080/matchmakingdashboard.res"
 #base "../../resolutions/16x9_1366x768/matchmakingdashboard.res"
 #base "../../resolutions/16x9_1600x900/matchmakingdashboard.res"
+
+#base "../../resolutions/make_your_own/matchmakingdashboard.res"
+
 #base "resolutionwarning.res"
 
 "Resource/UI/MatchMakingDashboard.res"
@@ -149,8 +156,8 @@
 			"party_slot"					"1"
 
 			"pin_to_sibling" 				"PartySlot0"
-			"pin_corner_to_sibling" 		"7"
-			"pin_to_sibling_corner" 		"5"
+			"pin_corner_to_sibling" 		"0"
+			"pin_to_sibling_corner" 		"1"
 		}
 
 		"PartySlot2"
@@ -171,8 +178,8 @@
 			"party_slot"					"2"
 
 			"pin_to_sibling" 				"PartySlot1"
-			"pin_corner_to_sibling" 		"7"
-			"pin_to_sibling_corner" 		"5"
+			"pin_corner_to_sibling" 		"0"
+			"pin_to_sibling_corner" 		"1"
 		}
 
 		"PartySlot3"
@@ -193,8 +200,8 @@
 			"party_slot"					"3"
 
 			"pin_to_sibling" 				"PartySlot2"
-			"pin_corner_to_sibling" 		"7"
-			"pin_to_sibling_corner" 		"5"
+			"pin_corner_to_sibling" 		"0"
+			"pin_to_sibling_corner" 		"1"
 		}
 
 		"PartySlot4"
@@ -215,8 +222,8 @@
 			"party_slot"					"4"
 
 			"pin_to_sibling" 				"PartySlot3"
-			"pin_corner_to_sibling" 		"7"
-			"pin_to_sibling_corner" 		"5"
+			"pin_corner_to_sibling" 		"0"
+			"pin_to_sibling_corner" 		"1"
 		}
 
 		"PartySlot5"
@@ -237,8 +244,8 @@
 			"party_slot"					"5"
 
 			"pin_to_sibling" 				"PartySlot4"
-			"pin_corner_to_sibling" 		"7"
-			"pin_to_sibling_corner" 		"5"
+			"pin_corner_to_sibling" 		"0"
+			"pin_to_sibling_corner" 		"1"
 		}
 
 		"QueueContainer"

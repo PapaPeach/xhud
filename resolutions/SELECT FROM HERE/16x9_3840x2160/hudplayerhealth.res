@@ -2,6 +2,6 @@
 {
 	"HudPlayerHealth"
 	{
-		"HealthBonusPosAdj"			"365"
+		"HealthBonusPosAdj"	"365"
 	}
 }

@@ -4,8 +4,6 @@
 	{
 		"ControlName"			"CTFTextWindow"
 		"fieldName"				"info"
-		"xpos"					"0"
-		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"480"
 		"visible"				"1"
@@ -17,9 +15,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"24"
 		"visible"		"1"
@@ -30,6 +26,7 @@
 		"fgcolor"		"White"
 		"allcaps"		"1"
 		"bgcolor_override"		"TransparentBlack"
+		"mouseinputenabled"		"0"
 	}
 
 	"TFTextMessage"
@@ -53,11 +50,9 @@
 	{
 		"ControlName"		"HTML"
 		"fieldName"		"HTMLMessage"
-		"xpos"			"0"
-		"ypos"			"24"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"f44"
+		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
@@ -90,8 +85,6 @@
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"

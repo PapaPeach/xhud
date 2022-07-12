@@ -4,7 +4,7 @@
 	{
 		"FindGameAnchor"
 		{
-			"xpos"	"r-665"
+			"xpos"	"r-411"
 		}
 	}
 	"ResolutionWarning"

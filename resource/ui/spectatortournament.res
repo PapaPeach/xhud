@@ -1,8 +1,14 @@
+#base "../../resolutions/4x3_1280x960/spectatortournament.res"
+#base "../../resolutions/4x3_1024x768/spectatortournament.res"
+#base "../../resolutions/5x4_1280x1024/spectatortournament.res"
+
 #base "../../resolutions/16x9_3840x2160/spectatortournament.res"
 #base "../../resolutions/16x9_2560x1440/spectatortournament.res"
 #base "../../resolutions/16x9_1920x1080/spectatortournament.res"
 #base "../../resolutions/16x9_1366x768/spectatortournament.res"
 #base "../../resolutions/16x9_1600x900/spectatortournament.res"
+
+#base "../../resolutions/make_your_own/spectatortournament.res"
 
 "Resource/UI/SpectatorTournament.res"
 {

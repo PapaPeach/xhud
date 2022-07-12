@@ -1,14 +1,14 @@
 "Resource/UI/MatchMakingDashboard.res"
 {
-	"ResolutionWarning"
-	{
-		"xpos"								"9999"
-	}
 	"TopBar"
 	{
 		"FindGameAnchor"
 		{
-			"xpos"							"r-672"
+			"xpos"	"r-672"
 		}
+	}
+	"ResolutionWarning"
+	{
+		"xpos"	"9999"
 	}
 }
