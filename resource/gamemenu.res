@@ -152,7 +152,7 @@
 	"XMenuButton"
 	{
 		"label"			"X Menu"
-		"command"		"engine toggle cl_mainmenu_safemode"
+		"command"		"engine sv_cheats 1; toggle cl_mainmenu_safemode"
 		"OnlyAtMenu"	"1"
 	}
 

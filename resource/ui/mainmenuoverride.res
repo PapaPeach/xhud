@@ -1,11 +1,5 @@
 #base "vtfpreload.res"
 
-#base "../../resolutions/16x9_3840x2160/mainmenuoverride.res"
-#base "../../resolutions/16x9_2560x1440/mainmenuoverride.res"
-#base "../../resolutions/16x9_1920x1080/mainmenuoverride.res"
-#base "../../resolutions/16x9_1366x768/mainmenuoverride.res"
-#base "../../resolutions/16x9_1600x900/mainmenuoverride.res"
-
 #base "../../customizations/tools_rcon.res"
 #base "../../customizations/tools_standard.res"
 
@@ -1478,7 +1472,7 @@
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"			"engine 16v16sb"
+			"Command"			"engine 16v16sb; alias x_scoreboard_dump echo sb16"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -1509,7 +1503,7 @@
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"			"engine 12v12sb"
+			"Command"			"engine 12v12sb; alias x_scoreboard_dump echo sb12"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -1540,7 +1534,7 @@
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"			"engine 9v9sb"
+			"Command"			"engine 9v9sb; alias x_scoreboard_dump echo sb9"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -1571,7 +1565,7 @@
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"			"engine 6v6sb"
+			"Command"			"engine 6v6sb; alias x_scoreboard_dump echo sb6"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -1602,7 +1596,7 @@
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"			"engine lowerchat"
+			"Command"			"engine lowerchat; alias x_chatpos_dump echo cpl"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -1633,7 +1627,7 @@
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"			"engine upperchat"
+			"Command"			"engine upperchat; alias x_chatpos_dump echo cpu"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -1664,7 +1658,7 @@
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"			"engine shortchat"
+			"Command"			"engine shortchat; alias x_chatheight_dump echo chs"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -1695,7 +1689,7 @@
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"			"engine tallchat"
+			"Command"			"engine tallchat; alias x_chatheight_dump echo cht"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -1869,7 +1863,7 @@
 			"tall"			"19"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"			"engine alias x_devmode devon; x_devmode"
+			"Command"			"engine alias x_devmode devon; x_devmode; alias x_dev_dump echo d1"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -1900,7 +1894,7 @@
 			"tall"			"19"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"			"engine alias x_devmode devoff; x_devmode"
+			"Command"			"engine alias x_devmode devoff; x_devmode; alias x_dev_dump echo d0"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"
