@@ -15,7 +15,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
-		"zpos"			"2"
+		"zpos"			"6"
 		"wide"			"f0"
 		"tall"			"24"
 		"visible"		"1"

@@ -762,7 +762,7 @@
 		}
 		"crit"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images"
+				"dfile"	"vgui/logos/killfeed icons black/dneg_images"
 				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
 				"x"		"192"
 				"y"		"409"
@@ -3038,7 +3038,7 @@
 		}
 		"australium"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
+				"dfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
 				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
 				"x"		"192"
 				"y"		"512"
