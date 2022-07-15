@@ -24,7 +24,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"icon"			"obj_status_tele_entrance"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 
 	"BuiltPanel"
@@ -50,7 +50,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 
 		"Icon_Upgrade_2"
@@ -66,7 +66,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
 
 		"Icon_Upgrade_3"
@@ -82,9 +82,8 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"White"
 		}
-
 
 		"AlertTray"
 		{
@@ -112,7 +111,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"Red"
 		}
 
 		"SapperIcon"
@@ -128,7 +127,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"icon"			"obj_status_icon_sapper"
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"Red"
 		}
 
 		"Health"
@@ -174,7 +173,7 @@
 			{
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
-				"font"			"Default"
+				"font"			"Size 8"
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
@@ -205,26 +204,10 @@
 				"tall"			"31"
 				"visible"		"0"
 
-				"RechargeLabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"RechargeLabel"
-					"font"			"DefaultVerySmall"
-					"xpos"			"0"
-					"ypos"			"1"
-					"wide"			"200"
-					"tall"			"12"
-					"visible"		"1"
-					"enabled"		"1"
-					"labelText"		"#Building_hud_tele_charging"
-					"textAlignment"	"Left"
-				}
-
 				"Recharge"
 				{
 					"ControlName"	"ContinuousProgressBar"
 					"fieldName"		"Recharge"
-					"font"			"Default"
 					"xpos"			"0"
 					"ypos"			"11"
 					"wide"			"50"
@@ -249,7 +232,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
-					"font"			"DefaultVerySmall"
+					"font"			"Size 8"
 					"xpos"			"0"
 					"ypos"			"-6"
 					"wide"			"200"
@@ -257,7 +240,6 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"labelText"		"#Building_hud_tele_times_used"
-					"labelText_lodef"		"#Building_hud_tele_times_used_360"
 					"textAlignment"	"Left"
 				}
 			}
@@ -265,7 +247,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"UpgradeLabel"
-				"font"			"DefaultVerySmall"
+				"font"			"Size 8"
 				"xpos"			"0"
 				"ypos"			"14"
 				"wide"			"200"

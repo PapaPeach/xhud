@@ -49,6 +49,7 @@
 		"teambg_1"		"replay/thumbnails/panels/black"
 		"teambg_2"		"replay/thumbnails/panels/red"
 		"teambg_3"		"replay/thumbnails/panels/blue"
+		"alpha"		"180"
 	}
 
 	"TargetDataAnchor"

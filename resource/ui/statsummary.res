@@ -80,7 +80,7 @@
 
 	"StatData"
 	{
-		"ypos"	"-82"
+		"ypos"	"-58"		//"-82"
 
 		"NonInteractiveHeaders"
 		{

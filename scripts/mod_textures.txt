@@ -267,20 +267,20 @@
 		}
 		"voice_self"
 		{
-			"file"		"voice/icntlk_local"
-			"x"		"0"
-			"y"		"0"
-			"width"		"64"
-			"height"	"64"
+				"file"		"voice/icntlk_local"
+				"x"		"0"
+				"y"		"0"
+				"width"		"64"
+				"height"	"64"
 		}
 
 		"voice_player"
 		{
-			"file"		"voice/icntlk_sv"
-			"x"		"0"
-			"y"		"0"
-			"width"		"32"
-			"height"	"32"
+				"file"		"voice/icntlk_sv"
+				"x"		"0"
+				"y"		"0"
+				"width"		"32"
+				"height"	"32"
 		}
 		
 		"skull_tf"
@@ -1594,24 +1594,24 @@
 			"file"	"vgui/logos/build icons/obj_status_upgrade_1"
 			"x"		"0"
 			"y"		"0"
-			"width"		"64"
-			"height"	"64"
+			"width"		"32"
+			"height"	"32"
 		}
 		"obj_status_upgrade_2"
 		{
 			"file"	"vgui/logos/build icons/obj_status_upgrade_2"
 			"x"		"0"
 			"y"		"0"
-			"width"		"64"
-			"height"	"64"
+			"width"		"32"
+			"height"	"32"
 		}
 		"obj_status_upgrade_3"
 		{
 			"file"	"vgui/logos/build icons/obj_status_upgrade_3"
 			"x"		"0"
 			"y"		"0"
-			"width"		"64"
-			"height"	"64"
+			"width"		"32"
+			"height"	"32"
 		}
 		"obj_status_sapper"
 		{
@@ -1802,8 +1802,8 @@
 
 		"leaderboard_dominated"
 		{
-			"file"		"vgui/logos/killstreaks/whitedom"
-			"negfile"		"vgui/logos/killstreaks/blackdom"
+			"file"		"vgui/logos/killstreaks/blackdom"
+			"negfile"		"vgui/logos/killstreaks/whitedom"
 			"x"		"0"
 			"y"		"0"
 			"width"		"64"
@@ -1816,8 +1816,8 @@
 			"negfile"	"vgui/logos/killstreaks/blackks"
 			"x"		"0"
 			"y"		"0"
-			"width"		"64"
-			"height"	"64"
+			"width"		"32"
+			"height"	"32"
 		}	
 		
 		"leaderboard_streak_dneg"
@@ -1825,245 +1825,10 @@
 			"file"		"vgui/logos/killstreaks/whiteks"
 			"x"		"0"
 			"y"		"0"
-			"width"		"64"
-			"height"	"64"
-		}	
-		
-		"hud_menu_bg"
-		{
-			"file"		"hud/eng_build_bg"
-			"x"		"0"
-			"y"		"0"
 			"width"		"32"
-			"height"	"13"
-		}
-		
-		"hud_menu_item_bg"
-		{
-			"file"		"hud/eng_build_item"	
-			"x"		"1"
-			"y"		"1"
-			"width"		"14"
-			"height"	"15"
-		}
-		
-		"hud_menu_item_bg_outline"
-		{
-			"file"		"hud/eng_sel_item_active"	
-			"x"		"1"
-			"y"		"1"
-			"width"		"14"
-			"height"	"15"
-		}
-		"hud_menu_item_bg_active"
-		{
-			"file"		"hud/eng_sel_item_active"	
-			"x"		"1"
-			"y"		"1"
-			"width"		"14"
-			"height"	"15"
-		}
-		"hud_menu_scout_red"
-		{
-			"file"		"vgui/class_sel_sm_scout_red"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_soldier_red"
-		{
-			"file"		"vgui/class_sel_sm_soldier_red"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_pyro_red"
-		{
-			"file"		"vgui/class_sel_sm_pyro_red"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_demoman_red"
-		{
-			"file"		"vgui/class_sel_sm_demo_red"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_heavy_red"
-		{
-			"file"		"vgui/class_sel_sm_heavy_red"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_engineer_red"
-		{
-			"file"		"vgui/class_sel_sm_engineer_red"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_medic_red"
-		{
-			"file"		"vgui/class_sel_sm_medic_red"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_sniper_red"
-		{
-			"file"		"vgui/class_sel_sm_sniper_red"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_spy_red"
-		{
-			"file"		"vgui/class_sel_sm_spy_red"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}	
-				
-		"hud_menu_scout_blu"
-		{
-			"file"		"vgui/class_sel_sm_scout_blu"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_soldier_blu"
-		{
-			"file"		"vgui/class_sel_sm_soldier_blu"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_pyro_blu"
-		{
-			"file"		"vgui/class_sel_sm_pyro_blu"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_demoman_blu"
-		{
-			"file"		"vgui/class_sel_sm_demo_blu"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_heavy_blu"
-		{
-			"file"		"vgui/class_sel_sm_heavy_blu"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_engineer_blu"
-		{
-			"file"		"vgui/class_sel_sm_engineer_blu"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_medic_blu"
-		{
-			"file"		"vgui/class_sel_sm_medic_blu"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_sniper_blu"
-		{
-			"file"		"vgui/class_sel_sm_sniper_blu"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}
-		
-		"hud_menu_spy_blu"
-		{
-			"file"		"vgui/class_sel_sm_spy_blu"
-			"x"		"0"
-			"y"		"0"
-			"width"	"128"
-			"height" "256"
-		}				
-		
-		"hud_menu_sentry_build"
-		{
-			"file"		"hud/eng_build_sentry_blueprint"
-			"x"			"0"
-			"y"			"0"
-			"width"		"128"
-			"height"	"128"
-		}
-		
-		"hud_menu_dispenser_build"
-		{
-			"file"		"hud/eng_build_dispenser_blueprint"
-			"x"			"0"
-			"y"			"0"
-			"width"		"128"
-			"height"	"128"
-		}
-		
-		"hud_menu_tele_entrance_build"
-		{
-			"file"		"hud/eng_build_tele_entrance_blueprint"
-			"x"			"0"
-			"y"			"0"
-			"width"		"128"
-			"height"	"128"
-		}
-		
-		"hud_menu_tele_exit_build"
-		{
-			"file"		"hud/eng_build_tele_exit_blueprint"
-			"x"			"0"
-			"y"			"0"
-			"width"		"128"
-			"height"	"128"
+			"height"	"32"
 		}
 
-
-
-		
 		"ico_metal"
 		{	
 			"file"		"vgui\logos\build icons\metal"
@@ -2089,15 +1854,6 @@
 			"y"		"0"
 			"width"	"256"
 			"height"	"256"
-		}
-		
-		"ico_key_blank"
-		{
-			"file"		"hud/ico_key_blank"
-			"x"		"0"
-			"y"		"0"
-			"width"	"64"
-			"height"	"64"
 		}
 		
 		"ico_notify_sixty_seconds"
@@ -3054,24 +2810,6 @@
 			"height"	"128"
 		}
 
-		"hud_taunt_menu_icon"
-		{
-			"file"		"hud/ico_reel"
-			"x"		"0"
-			"y"		"0"
-			"width"		"256"
-			"height"	"256"
-		}
-
-		"hud_spy_disguise_menu_icon"
-		{
-			"file"		"hud/ico_spy"
-			"x"		"0"
-			"y"		"0"
-			"width"		"256"
-			"height"	"256"
-		}
-
 		"hud_taunt_hint"
 		{
 			"file"		"effects/speech_taunt"
@@ -3091,84 +2829,84 @@
 		}
 		"the_classic"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
-				"x"		"256"
-				"y"		"577"
-				"width"		"128"
-				"height"	"32"
+			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
+			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"x"		"256"
+			"y"		"577"
+			"width"		"128"
+			"height"	"32"
 		}
 		"tide_turner"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
-				"x"		"192"
-				"y"		"545"
-				"width"		"64"
-				"height"	"32"
+			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
+			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"x"		"192"
+			"y"		"545"
+			"width"		"64"
+			"height"	"32"
 		}
 		"bread_bite"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
-				"x"		"192"
-				"y"		"577"
-				"width"		"64"
-				"height"	"32"
+			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
+			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"x"		"192"
+			"y"		"577"
+			"width"		"64"
+			"height"	"32"
 		}
 		"snack_attack"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
-				"x"		"256"
-				"y"		"608"
-				"width"		"128"
-				"height"	"32"
+			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
+			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"x"		"256"
+			"y"		"608"
+			"width"		"128"
+			"height"	"32"
 		}
 		"back_scatter"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
-				"x"		"256"
-				"y"		"512"
-				"width"		"128"
-				"height"	"32"
+			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
+			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"x"		"256"
+			"y"		"512"
+			"width"		"128"
+			"height"	"32"
 		}
 		"airstrike"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
-				"x"		"256"
-				"y"		"545"
-				"width"		"128"
-				"height"	"32"
+			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
+			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"x"		"256"
+			"y"		"545"
+			"width"		"128"
+			"height"	"32"
 		}
 		"ai_flamethrower"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
-				"x"		"256"
-				"y"		"640"
-				"width"		"128"
-				"height"	"32"
+			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
+			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"x"		"256"
+			"y"		"640"
+			"width"		"128"
+			"height"	"32"
 		}
 		"necro_smasher"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
-				"x"		"192"
-				"y"		"608"
-				"width"		"64"
-				"height"	"32"
+			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
+			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"x"		"192"
+			"y"		"608"
+			"width"		"64"
+			"height"	"32"
 		}
 		"bumper_kart"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
-				"x"		"192"
-				"y"		"640"
-				"width"		"64"
-				"height"	"32"
+			"dfile"	"vgui/logos/killfeed icons white/d_images_v3"
+			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
+			"x"		"192"
+			"y"		"640"
+			"width"		"64"
+			"height"	"32"
 		}		
 		"eotl_duck"
 		{
@@ -3487,12 +3225,12 @@
 
 		"rocketpack_stomp"
 		{
-				"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
-				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
-				"x"		"384"
-				"y"		"864"
-				"width"		"64"
-				"height"	"32"
+			"dfile"	"vgui/logos/killfeed icons white/d_images_v2"
+			"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v2"
+			"x"		"384"
+			"y"		"864"
+			"width"		"64"
+			"height"	"32"
 		}
 	}
 }

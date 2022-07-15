@@ -487,7 +487,6 @@
 			"font"							"Size 28"
 			"textAlignment"					"west"
 			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -525,7 +524,6 @@
 			"font"							"Symbols 22"
 			"textAlignment"					"center"
 			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -563,7 +561,6 @@
 			"font"							"Size 28"
 			"textAlignment"					"west"
 			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -601,7 +598,6 @@
 			"font"							"Symbols 20"
 			"textAlignment"					"center"
 			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -639,7 +635,6 @@
 			"font"							"Size 28"
 			"textAlignment"					"west"
 			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -677,7 +672,6 @@
 			"font"							"Symbols 20"
 			"textAlignment"					"center"
 			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -741,7 +735,6 @@
 			"font"							"Symbols 20"
 			"textAlignment"					"center"
 			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -781,7 +774,6 @@
 			"font"							"Symbols 22"
 			"textAlignment"					"center"
 			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -821,7 +813,6 @@
 			"font"							"Symbols 20"
 			"textAlignment"					"center"
 			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -861,7 +852,6 @@
 			"font"							"Symbols 22"
 			"textAlignment"					"center"
 			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -937,7 +927,6 @@
 			"font"							"Size 28"
 			"textAlignment"					"west"
 			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -975,7 +964,6 @@
 			"font"							"Size 28"
 			"textAlignment"					"west"
 			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1013,7 +1001,6 @@
 			"font"							"Size 28"
 			"textAlignment"					"west"
 			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1091,10 +1078,10 @@
 			"tall"							"23"
 			"visible"						"1"
 			"enabled"						"1"
-			"use_proportional_insets" 		"1"
 			"font"							"Size 28"
 			"textAlignment"					"east"
 			"textinsetx"					"5"
+			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1149,10 +1136,10 @@
 			"tall"							"23"
 			"visible"						"1"
 			"enabled"						"1"
-			"use_proportional_insets" 		"1"
 			"font"							"Symbols 24"
 			"textAlignment"					"east"
 			"textinsetx"					"5"
+			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1188,10 +1175,10 @@
 			"tall"							"23"
 			"visible"						"1"
 			"enabled"						"1"
-			"use_proportional_insets" 		"1"
 			"font"							"Symbols 24"
 			"textAlignment"					"east"
 			"textinsetx"					"5"
+			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
@@ -1227,10 +1214,10 @@
 			"tall"							"23"
 			"visible"						"1"
 			"enabled"						"1"
-			"use_proportional_insets" 		"1"
 			"font"							"Symbols 24"
 			"textAlignment"					"east"
 			"textinsetx"					"5"
+			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"

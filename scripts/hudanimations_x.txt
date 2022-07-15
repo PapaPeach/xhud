@@ -1,5 +1,3 @@
-//====================================================================================================================
-
 event HudSnapShotReminderIn		//Resets various things on death
 {
     RunEvent HudHealthDyingPulseStop  1.0
@@ -10,7 +8,7 @@ event HudSnapShotReminderIn		//Resets various things on death
     RunEvent DamagedPlayer  1.0
 }
 
-//====================================================================================================================
+//==============================================================================
 
 //Hitmarker
 event DamagedPlayer
@@ -25,90 +23,90 @@ event AnimateHitmarker
   Animate Hitmarker   FgColor   "Blank"   Linear 0.3 0.1
 }
 
-//====================================================================================================================
+//==============================================================================
 
 event QuickReloadHud
 {
   FireCommand 0 "reloadscheme"
 }
 
-//====================================================================================================================
+//==============================================================================
 
 //Animation states
 event JumpMode
 {
-  Animate speed1			Position		"c10 c16"    Linear 0.0 0.001
+  Animate speed1			Position		"c10 c16"    Linear 0.0 0.1
 }
 
 event 16v16Scoreboard
 {
-  Animate RedPlayerList     tall    258    Linear 0.0 0.001
-  Animate BluePlayerList     tall   258    Linear 0.0 0.001
+  Animate RedPlayerList     tall    258    Linear 0.0 0.1
+  Animate BluePlayerList     tall   258    Linear 0.0 0.1
   RunEvent 16v16ScoreboardBG    0.0
 }
 event 16v16ScoreboardBG
 {
-  Animate ScoreboardMainBG    tall  300    Linear 0.0 0.001
-  Animate ScoreboardMainBG    Position "0 100"    Linear 0.0 0.001
+  Animate ScoreboardMainBG    tall  301    Linear 0.0 0.1
+  Animate ScoreboardMainBG    Position "0 100"    Linear 0.0 0.1
 }
 
 event 12v12Scoreboard
 {
-  Animate RedPlayerList     tall    190    Linear 0.0 0.001
-  Animate BluePlayerList     tall   190    Linear 0.0 0.001
+  Animate RedPlayerList     tall    190    Linear 0.0 0.1
+  Animate BluePlayerList     tall   190    Linear 0.0 0.1
   RunEvent 12v12ScoreboardBG    0.0
 }
 event 12v12ScoreboardBG
 {
-  Animate ScoreboardMainBG    tall  232    Linear 0.0 0.001
-  Animate ScoreboardMainBG    Position "0 145"    Linear 0.0 0.001
+  Animate ScoreboardMainBG    tall  233    Linear 0.0 0.1
+  Animate ScoreboardMainBG    Position "0 145"    Linear 0.0 0.1
 }
 
 event 9v9Scoreboard
 {
-  Animate RedPlayerList     tall    145    Linear 0.0 0.001
-  Animate BluePlayerList     tall   145    Linear 0.0 0.001
+  Animate RedPlayerList     tall    145    Linear 0.0 0.1
+  Animate BluePlayerList     tall   145    Linear 0.0 0.1
   RunEvent 9v9ScoreboardBG    0.0
 }
 event 9v9ScoreboardBG
 {
-  Animate ScoreboardMainBG    tall  187    Linear 0.0 0.001
-  Animate ScoreboardMainBG    Position "0 165"    Linear 0.0 0.001
+  Animate ScoreboardMainBG    tall  188    Linear 0.0 0.1
+  Animate ScoreboardMainBG    Position "0 165"    Linear 0.0 0.1
 }
 
 event 6v6Scoreboard
 {
-  Animate RedPlayerList     tall    101    Linear 0.0 0.001
-  Animate BluePlayerList     tall   101    Linear 0.0 0.001
+  Animate RedPlayerList     tall    100    Linear 0.0 0.1
+  Animate BluePlayerList     tall   100    Linear 0.0 0.1
   RunEvent 6v6ScoreboardBG    0.0
 }
 event 6v6ScoreboardBG
 {
-  Animate ScoreboardMainBG    tall  142    Linear 0.0 0.001
-  Animate ScoreboardMainBG    Position "0 190"    Linear 0.0 0.001
+  Animate ScoreboardMainBG    tall  143    Linear 0.0 0.1
+  Animate ScoreboardMainBG    Position "0 190"    Linear 0.0 0.1
 }
 
 event UpperChat
 {
-  Animate HudChat    Position "-2 25"    Linear 0.0 0.001
+  Animate HudChat    Position "-2 25"    Linear 0.0 0.1
 }
 
 event LowerChat
 {
-  Animate HudChat    Position "-2 r210"    Linear 0.0 0.001
+  Animate HudChat    Position "-2 r210"    Linear 0.0 0.1
 }
 
 event TallChat
 {
-  Animate HudChat    tall   86    Linear 0.0 0.001
+  Animate HudChat    tall   86    Linear 0.0 0.1
 }
 
 event ShortChat
 {
-  Animate HudChat    tall   48    Linear 0.0 0.001
+  Animate HudChat    tall   48    Linear 0.0 0.1
 }
 
-//====================================================================================================================
+//==============================================================================
 
 event HudHealthBonusPulse
 {
@@ -132,7 +130,7 @@ event HudHealthBonusPulseStop
   Animate HealthBarBG   bgcolor    "TransparentGrayDarkest"   Linear 0 0.001
 }
 
-//====================================================================================================================
+//==============================================================================
 
 event HudHealthDyingPulse
 {
@@ -144,7 +142,7 @@ event HudHealthDyingPulseStop
   SetVisible HealthSpectatorBarHurt 0 0.0
 }
 
-//====================================================================================================================
+//==============================================================================
 
 event HudLowAmmoPulse
 {
@@ -156,7 +154,7 @@ event HudLowAmmoPulseStop
 	SetVisible LowAmmoBox  0 0.0
 }
 
-//====================================================================================================================
+//==============================================================================
 
 event HudMedicCharged
 {
@@ -198,7 +196,7 @@ event HudMedicChargedStop
 	Animate	ChargeMeter4 				FgColor		"White"				Linear 	0	0.001
 }
 
-//====================================================================================================================
+//==============================================================================
 
 //Match hud respawn
 event TeamStatus_PlayerDead
@@ -211,29 +209,15 @@ event TeamStatus_PlayerAlive
 	SetVisible respawntime 0 0.0
 }
 
-//====================================================================================================================
+//==============================================================================
 
-//KOTH timer highlight
-event ActiveTimerHighlight
-{
-	Animate TimePanelValue FgColor	"White"		Linear 0.1 0.1
-	Animate TimePanelValue FgColor	"Red"		Linear 0.3 0.1
-
-	Animate TimePanelValue FgColor	"White"		Linear 0.5 0.1
-	Animate TimePanelValue FgColor	"Red"		Linear 0.7 0.1
-
-	Animate TimePanelValue FgColor	"White"		Linear 0.9 0.1
-	Animate TimePanelValue FgColor	"Red"		Linear 1.1 0.1
-
-	Animate TimePanelValue FgColor	"White"		Linear 1.3 0.1
-}
-
+//KOTH timer inactive
 event ActiveTimerDim
 {
 	Animate 	TimePanelValue 	FgColor		"WhiteGray"		Linear 	0.0 0.0
 }
 
-//====================================================================================================================
+//==============================================================================
 
 event HudTournamentSetupPanelOpen
 {
@@ -245,7 +229,7 @@ event HudTournamentSetupPanelClose
 	Animate	HudTournamentSetup	Position	"c-90 -70"	Spline 0.0 0.2
 }
 
-//====================================================================================================================
+//==============================================================================
 
 // Show player model on spy disguise
 event HudSpyDisguiseFadeIn
@@ -267,14 +251,14 @@ event HudSpyDisguiseFadeOut
 
 event HudSpyDisguiseChanged{}
 
-//====================================================================================================================
+//==============================================================================
 
 //Chat
 event CompetitiveGame_LowerChatWindow{}
 event CompetitiveGame_RestoreChatWindow{}
 event HudTournament_MoveChatWindow{}
 
-//====================================================================================================================
+//==============================================================================
 
 //ReadyUp Timers
 event HudTournament_ShowTimerCompetitive
@@ -292,4 +276,17 @@ event HudTournament_HideTimer
 	SetVisible CountdownLabel 0 0
 }
 
-//====================================================================================================================
+//==============================================================================
+
+//Casual match start count down
+event HudMatchStatus_ShowMatchStartDoors
+{
+  SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabel 0 9.9
+}
+
+event HudMatchStatus_ShowCountdown
+{
+	SetVisible CountdownLabel 1 0
+	SetVisible CountdownLabel 0 9.9
+}

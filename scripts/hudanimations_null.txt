@@ -53,7 +53,7 @@ event HudCartAlarmPulse{}
 event HudCartAlarmPulseLoop{}
 event HudCartAlarmPulseStop{}
 event ActiveTimerBGPulse{}
-//event ActiveTimerHighlight{}   //USED
+event ActiveTimerHighlight{}
 //event ActiveTimerDim{}   //USED
 //event OvertimeLabelPulseRed{}//NICE
 //event SuddenDeathLabelPulseRed{}//NICE
@@ -149,7 +149,7 @@ event HudTournament_MoveChatWindow{}
 event HudTournament_MoveTimerDown{}
 event HudTournament_AnimateTeams_In{}
 event HudTournament_AnimateTeams_Out{}
-event HudMatchStatus_ShowMatchStartDoors{}
+//event HudMatchStatus_ShowMatchStartDoors{}//Needed?
 event HudMatchStatus_ShowRankMatch{}
 //event HudMatchStatus_ShowCountdown{}//Needed?
 event HudTournament_DoorsCleanup{}

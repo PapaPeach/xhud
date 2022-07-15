@@ -221,6 +221,7 @@
 		"ypos_minmode"	"c39"
 		"zpos"			"1"
 		"wide"			"60"
+		"wide_minmode"	"60"
 		"tall"			"30"
 	}
 

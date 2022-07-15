@@ -15,5 +15,6 @@
 		"textAlignment"	"Left"
 		"proportionaltoparent"		"1"
 		"bgcolor_override"		"TransparentGrayDarkest"
+		"fgcolor_override"		"255 255 255 255"
 	}
 }
