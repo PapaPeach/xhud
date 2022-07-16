@@ -47,6 +47,17 @@
 		"visible"							"1"
 		"proportionaltoparent"				"1"
 
+		"TopBlackBar"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldname"					"TopBlackBar"
+			"ypos"							"5"	
+			"wide"							"f0"
+			"tall"							"24"
+			"visible"						"1"
+			"bgcolor_override"	"TransparentBlack"
+		}
+
 		"FindGameAnchor"		//Overriden
 		{
 			"ControlName"					"EditablePanel"

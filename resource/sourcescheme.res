@@ -432,6 +432,17 @@ Scheme
 			}
 		}
 
+		"SourceScheme 22"
+		{
+			"1"
+			{
+				"name"										"Renogare Soft XHud"
+				"tall"										"22"
+				"additive"									"0"
+				"antialias"									"1"
+			}
+		}
+
 	}
 
 	CustomFontFiles
@@ -448,6 +459,11 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
+		}
+		"40"
+		{
+			"font" 		"resource/scheme/fonts/Renogare XHud.ttf"
+			"name" 		"Renogare Soft XHud"
 		}
 	}
 }

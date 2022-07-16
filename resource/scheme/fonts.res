@@ -1567,12 +1567,12 @@ Scheme
 		"10"
 		{
 			"font" 		"resource/scheme/fonts/Renogare XHud.ttf"
-			"name" 		"Renogare Soft XHud XHud"
+			"name" 		"Renogare Soft XHud"
 		}
 		"11"
 		{
-		"font" 		"resource/scheme/fonts/Renogare Uber.ttf"
-		"name" 		"Renogare Uber"
+			"font" 		"resource/scheme/fonts/Renogare Uber.ttf"
+			"name" 		"Renogare Uber"
 		}
 	}
 }

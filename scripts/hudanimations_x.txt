@@ -40,14 +40,14 @@ event JumpMode
 
 event 16v16Scoreboard
 {
-  Animate RedPlayerList     tall    258    Linear 0.0 0.1
-  Animate BluePlayerList     tall   258    Linear 0.0 0.1
+  Animate RedPlayerList     tall    259    Linear 0.0 0.1
+  Animate BluePlayerList     tall   259    Linear 0.0 0.1
   RunEvent 16v16ScoreboardBG    0.0
 }
 event 16v16ScoreboardBG
 {
-  Animate ScoreboardMainBG    tall  301    Linear 0.0 0.1
-  Animate ScoreboardMainBG    Position "0 100"    Linear 0.0 0.1
+  Animate ScoreboardMainBG    tall  302    Linear 0.0 0.1
+  Animate ScoreboardMainBG    ypos    100    Linear 0.0 0.1
 }
 
 event 12v12Scoreboard
@@ -58,52 +58,54 @@ event 12v12Scoreboard
 }
 event 12v12ScoreboardBG
 {
-  Animate ScoreboardMainBG    tall  233    Linear 0.0 0.1
-  Animate ScoreboardMainBG    Position "0 145"    Linear 0.0 0.1
+  Animate ScoreboardMainBG    tall  234    Linear 0.0 0.1
+  Animate ScoreboardMainBG    ypos    145    Linear 0.0 0.1
 }
 
 event 9v9Scoreboard
 {
-  Animate RedPlayerList     tall    145    Linear 0.0 0.1
-  Animate BluePlayerList     tall   145    Linear 0.0 0.1
+  Animate RedPlayerList     tall    146    Linear 0.0 0.1
+  Animate BluePlayerList     tall   146    Linear 0.0 0.1
   RunEvent 9v9ScoreboardBG    0.0
 }
 event 9v9ScoreboardBG
 {
-  Animate ScoreboardMainBG    tall  188    Linear 0.0 0.1
-  Animate ScoreboardMainBG    Position "0 165"    Linear 0.0 0.1
+  Animate ScoreboardMainBG    tall  189    Linear 0.0 0.1
+  Animate ScoreboardMainBG    ypos    165    Linear 0.0 0.1
 }
 
 event 6v6Scoreboard
 {
-  Animate RedPlayerList     tall    100    Linear 0.0 0.1
-  Animate BluePlayerList     tall   100    Linear 0.0 0.1
+  Animate RedPlayerList     tall    101    Linear 0.0 0.1
+  Animate BluePlayerList     tall   101    Linear 0.0 0.1
   RunEvent 6v6ScoreboardBG    0.0
 }
 event 6v6ScoreboardBG
 {
-  Animate ScoreboardMainBG    tall  143    Linear 0.0 0.1
-  Animate ScoreboardMainBG    Position "0 190"    Linear 0.0 0.1
+  Animate ScoreboardMainBG    tall  144    Linear 0.0 0.1
+  Animate ScoreboardMainBG    ypos    190    Linear 0.0 0.1
 }
 
 event UpperChat
 {
-  Animate HudChat    Position "-2 25"    Linear 0.0 0.1
+  Animate HudChat    ypos   25    Linear 0.0 0.1
 }
 
 event LowerChat
 {
-  Animate HudChat    Position "-2 r210"    Linear 0.0 0.1
+  Animate HudChat    ypos   r210    Linear 0.0 0.1
 }
 
 event TallChat
 {
   Animate HudChat    tall   86    Linear 0.0 0.1
+  Animate ChatFiltersButton    ypos   73    Linear 0.0 0.1
 }
 
 event ShortChat
 {
   Animate HudChat    tall   48    Linear 0.0 0.1
+  Animate ChatFiltersButton    ypos   35    Linear 0.0 0.1
 }
 
 //==============================================================================
@@ -212,21 +214,25 @@ event TeamStatus_PlayerAlive
 //==============================================================================
 
 //KOTH timer inactive
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue FgColor	"White"		Linear 0.1 0.001
+}
 event ActiveTimerDim
 {
-	Animate 	TimePanelValue 	FgColor		"WhiteGray"		Linear 	0.0 0.0
+	Animate 	TimePanelValue 	FgColor		"WhiteGray"		Linear 	0.0 0.001
 }
 
 //==============================================================================
 
 event HudTournamentSetupPanelOpen
 {
-	Animate	HudTournamentSetup	Position	"c-90 61"	Spline 0.0 0.2
+	Animate	HudTournamentSetup	ypos  61	Spline 0.0 0.2
 }
 
 event HudTournamentSetupPanelClose
 {
-	Animate	HudTournamentSetup	Position	"c-90 -70"	Spline 0.0 0.2
+	Animate	HudTournamentSetup	ypos	-70	Spline 0.0 0.2
 }
 
 //==============================================================================
@@ -234,8 +240,8 @@ event HudTournamentSetupPanelClose
 // Show player model on spy disguise
 event HudSpyDisguiseFadeIn
 {
-	Animate HudPlayerClass			Position		"0 0"			Linear 0.0 0.001
-	Animate ModelPin			Position		"0 r200"			Linear 0.0 0.001
+	Animate HudPlayerClass			xpos		0			Linear 0.0 0.001
+	Animate ModelPin			xpos    0			Linear 0.0 0.001
 
   SetVisible Disguising  1 0
   SetVisible Disguising  0 1.0
@@ -245,8 +251,8 @@ event HudSpyDisguiseFadeIn
 
 event HudSpyDisguiseFadeOut
 {
-	Animate HudPlayerClass			Position		"-200 0"				Linear 0.0 0.001
-	Animate ModelPin			Position		"200 r200"			Linear 0.0 0.001
+	Animate HudPlayerClass			xpos    -200				Linear 0.0 0.001
+	Animate ModelPin			xpos		200			Linear 0.0 0.001
 }
 
 event HudSpyDisguiseChanged{}
@@ -281,8 +287,8 @@ event HudTournament_HideTimer
 //Casual match start count down
 event HudMatchStatus_ShowMatchStartDoors
 {
-  SetVisible CountdownLabel 1 0
-	SetVisible CountdownLabel 0 9.9
+  SetVisible CountdownLabel 0 9.9
+  Animate CountdownLabel ypos 150 Linear 0 0
 }
 
 event HudMatchStatus_ShowCountdown

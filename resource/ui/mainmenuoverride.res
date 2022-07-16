@@ -109,19 +109,6 @@
 		"pin_to_sibling"		"3"
 	}
 
-	"TopBar"
-	{
-		"ControlName"					"EditablePanel"
-		"fieldname"						"TopBar"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"20"
-		"wide"								"f0"
-		"tall"								"24"
-		"visible"							"1"
-		"bgcolor_override" 		"TransparentBlack"
-	}
-
 	"BottomBar"
 	{
 		"ControlName"					"EditablePanel"

@@ -43,21 +43,6 @@
 		"bgcolor_override"		"BlackLight"
 	}
 
-	"CharInfoTopBar"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CharInfoTopBar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"bgcolor_override"		"TransparentBlack"
-	}
-
 	"CharInfoBottomBar"
 	{
 		"ControlName"		"CExLabel"
