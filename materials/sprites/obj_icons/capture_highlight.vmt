@@ -1,8 +1,9 @@
 "UnlitGeneric"
 {
 	"$translucent" 1
-	"$baseTexture" "vgui\replay\thumbnails\panels\blank"
+	"$baseTexture" ""
 	"$vertexcolor" 1
 	"$no_fullbright" 1
-	"$ignorez" 1
+	"$alpha" "0"
+	"$ignorez" "1"
 }

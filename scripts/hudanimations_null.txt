@@ -53,7 +53,7 @@ event HudCartAlarmPulse{}
 event HudCartAlarmPulseLoop{}
 event HudCartAlarmPulseStop{}
 event ActiveTimerBGPulse{}
-event ActiveTimerHighlight{}
+//event ActiveTimerHighlight{}
 //event ActiveTimerDim{}   //USED
 //event OvertimeLabelPulseRed{}//NICE
 //event SuddenDeathLabelPulseRed{}//NICE

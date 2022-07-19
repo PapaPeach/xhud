@@ -1,12 +1,11 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui\replay\thumbnails\panels\blue"
-	"$translucent" 1
-	"$alpha" 1
+	"$translucent" "1"
+	"$baseTexture" ""
 	"$vertexalpha" "1"
-	"$ignorez"     "1"
-	"$no_fullbright" "1"	
-	"$vertextcolor" "1"
-	"%keywords" "tf"
+	"$vertexcolor" "1"
+	"$no_fullbright" "1"
+	"$color" "{92 173 255}"
+	"$alpha" "1"
+	"$ignorez" "1"
 }
-

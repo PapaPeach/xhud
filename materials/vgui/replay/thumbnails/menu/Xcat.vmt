@@ -1,10 +1,9 @@
 "UnlitGeneric"
 {
 	"$translucent" "1"
-	"$baseTexture" "vgui\logos\build icons\hud_obj_status_sapper"
-	"$alpha" "1"
-	"$vertexalpha" "1"
+	"$baseTexture" "console/startup_loading"
 	"$vertexcolor" "1"
 	"$no_fullbright" "1"
 	"$ignorez" "1"
 }
+

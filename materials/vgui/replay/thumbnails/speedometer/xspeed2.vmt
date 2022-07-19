@@ -4,7 +4,7 @@
 	"$translucent" 1
 	"$vertexcolor" 1
 	"$no_fullbright" 1
-	"$ignorez" 1
+	"$ignorez" "1"
 	$speed			"0"
 	$thou			"0"
 	$thou_int		"0"
@@ -15,7 +15,7 @@
 	$thou_int_10	"0"
 	$hund_int_10	"0"
 	$ten_int_10		"0"
-	
+
 	$const_thou		"1000"
 	$const_hund		"100"
 	$const_ten		"10"

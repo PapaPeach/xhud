@@ -764,10 +764,10 @@
 		{
 				"dfile"	"vgui/logos/killfeed icons black/dneg_images"
 				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images"
-				"x"		"192"
-				"y"		"409"
-				"width"		"64"
-				"height"	"34"
+				"x"		"196"
+				"y"		"411"
+				"width"		"56"
+				"height"	"30"
 		}
 		"ambassador"
 		{
@@ -2796,10 +2796,10 @@
 		{
 				"dfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
 				"dnegfile"	"vgui/logos/killfeed icons black/dneg_images_v3"
-				"x"		"192"
-				"y"		"512"
-				"width"		"64"
-				"height"	"32"
+				"x"		"196"
+				"y"		"514"
+				"width"		"56"
+				"height"	"28"
 		}
 		"eureka_teleport_home"
 		{

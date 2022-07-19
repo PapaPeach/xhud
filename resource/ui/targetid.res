@@ -47,8 +47,8 @@
 		"image"			"replay/thumbnails/panels/black"
 		"scaleImage"		"1"
 		"teambg_1"		"replay/thumbnails/panels/black"
-		"teambg_2"		"replay/thumbnails/panels/red"
-		"teambg_3"		"replay/thumbnails/panels/blue"
+		"teambg_2"		"replay/thumbnails/panels/tid_red"
+		"teambg_3"		"replay/thumbnails/panels/tid_blue"
 		"alpha"		"180"
 	}
 
@@ -119,7 +119,7 @@
 		"tall"	 		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/blue"
+		"image"			"replay/thumbnails/panels/tid_blue"
 	}
 
 	"TargetIDBG_Spec_Red"
@@ -133,7 +133,7 @@
 		"tall"	 		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/red"
+		"image"			"replay/thumbnails/panels/tid_red"
 	}
 
 	"TargetNameLabelSpecCustom"

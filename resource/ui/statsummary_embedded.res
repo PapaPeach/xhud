@@ -18,7 +18,7 @@
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"cs-0.5"
-		"ypos"			"40"
+		"ypos"			"44"
 		"zpos"			"50"
 		"wide"			"350"
 		"tall"			"30"
