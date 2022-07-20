@@ -1,8 +1,9 @@
 "UnlitGeneric"
 {
 	"$baseTexture" "vgui/logos/killstreaks/blackdom"
-	"$vertexcolor" 1
-	"$no_fullbright" 1
-	"$translucent" 1
+	"$vertexcolor" "1"
+	"$vertexalpha" "1"
 	"$ignorez" "1"
+	"$alphatest" "1"
+	"$alphatestreference" "0.2"
 }

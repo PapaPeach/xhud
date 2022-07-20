@@ -1,11 +1,6 @@
 "UnlitGeneric"
 {
-	"$translucent" "1"
 	"$baseTexture" ""
-	"$vertexalpha" "1"
-	"$vertexcolor" "1"
-	"$no_fullbright" "1"
 	"$color" "{227 228 230}"
-	"$alpha" "1"
 	"$ignorez" "1"
 }

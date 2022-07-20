@@ -1,9 +1,8 @@
 "UnlitGeneric"
 {
 	"$translucent" "1"
-	"$baseTexture" "console/startup_loading"
+	"$baseTexture" "vgui\replay\thumbnails\menu\Xcat"
 	"$vertexcolor" "1"
 	"$no_fullbright" "1"
 	"$ignorez" "1"
 }
-
