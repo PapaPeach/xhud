@@ -93,6 +93,7 @@
 		"wide"			"100"
 		"tall"			"100"
 		"enabled"		"1"
+		"visible"		"0"
 		"TextAlignment"		"center"
 		"font"			"Hitmarker"
 		"fgcolor"		"Blank"

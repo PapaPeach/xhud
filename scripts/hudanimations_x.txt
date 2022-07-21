@@ -108,6 +108,26 @@ event ShortChat
   Animate ChatFiltersButton    ypos   35    Linear 0.0 0.1
 }
 
+event UpperBuilding
+{
+  Animate BuildingStatusAnchor    ypos   105    Linear 0.0 0.1
+}
+
+event LowerBuilding
+{
+  Animate BuildingStatusAnchor    ypos   240    Linear 0.0 0.1
+}
+
+event HitmarkerEnable
+{
+	SetVisible Hitmarker 1 0.0
+}
+
+event HitmarkerDisable
+{
+	SetVisible Hitmarker 0 0.0
+}
+
 //==============================================================================
 
 event HudHealthBonusPulse

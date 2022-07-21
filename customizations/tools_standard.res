@@ -53,22 +53,19 @@
 			"xpos"			"0"
 			"ypos"			"-1"
 			"wide"			"f0"
-			"tall"			"26"
+			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"White"
 			"proportionaltoparent"		"1"
 		}
 
-		"Tools_Panel"
+		"Panel1"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"Tools_Panel"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
+			"fieldName"		"Panel1"
 			"wide"			"292"
-			"tall"			"200"
+			"tall"			"94"
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"		"BlackLight"
@@ -103,7 +100,7 @@
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"		"Blank"
 
-			"pin_to_sibling" "Tools_Panel"
+			"pin_to_sibling" "Panel1"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "0"
 		}
@@ -346,44 +343,210 @@
 			"pin_to_sibling_corner" "5"
 		}
 
-		"Colors_Title"
+		"CCLabel"
 		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Colors_Title"
-			"font"			"Size 28"
-			"labelText"		"Color Settings"
-			"textAlignment"	"center"
+			"ControlName"	"CExButton"
+			"fieldName"		"CCLabel"
+			"font"			"Size 16"
+			"labelText"		"CC Callouts:"
+			"textAlignment"	"west"
 			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"26"
+			"ypos"			"4"
+			"zpos"			"20"
+			"wide"			"105"
+			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"White"
-			"proportionaltoparent"		"1"
+			"Command"			"engine toggle closecaption"
+			"actionsignallevel"		"2"
 
-			"pin_to_sibling"		"Tools_Panel"
-			"pin_corner_to_sibling"		"4"
-			"pin_to_sibling_corner"		"6"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+
+			"pin_to_sibling" "NotificationsLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
 		}
 
-		"Colors_Panel"
+		"CCCheck"
+		{
+			"ControlName"		"CvarToggleCheckButton"
+			"fieldName"		"CCCheck"
+			"xpos"		"-18"
+			"ypos"		"0"
+			"zpos"		"20"
+			"wide"		"18"
+			"tall"		"20"
+			"labeltext"		""
+			"textAlignment"	"west"
+			"smallcheckimage"	"1"
+			"button_activation_type"	"1"
+			"cvar_name" "closecaption"
+			"mouseinputenabled"	"0"
+
+			"pin_to_sibling" "CCLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"CCTime"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"CCTime"
+			"font"			"Size 16"
+			"labelText"		"Duration:"
+			"textAlignment"	"west"
+			"xpos"			"14"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"65"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling" "CCCheck"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"CCSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"CCSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"100"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"10"
+			"cvar_name"				"cc_linger_time"	//actual command
+
+			"pin_to_sibling" "CCTime"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"MatchHudLabel"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"MatchHudLabel"
+			"font"			"Size 16"
+			"labelText"		"Team Status:"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"4"
+			"zpos"			"20"
+			"wide"			"105"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+			"Command"			"engine toggle tf_use_match_hud"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+
+			"pin_to_sibling" "CCLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"MatchHudCheck"
+		{
+			"ControlName"		"CvarToggleCheckButton"
+			"fieldName"		"MatchHudCheck"
+			"xpos"		"-18"
+			"ypos"		"0"
+			"zpos"		"20"
+			"wide"		"18"
+			"tall"		"20"
+			"labeltext"		""
+			"textAlignment"	"west"
+			"smallcheckimage"	"1"
+			"button_activation_type"	"1"
+			"cvar_name" "tf_use_match_hud"
+			"mouseinputenabled"	"0"
+
+			"pin_to_sibling" "MatchHudLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"LeftHandedLabel"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"LeftHandedLabel"
+			"font"			"Size 16"
+			"labelText"		"Left Handed Weapons:"
+			"textAlignment"	"west"
+			"xpos"			"12"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"167"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+			"Command"			"engine toggle cl_flipviewmodels; record flip; stop"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+
+			"pin_to_sibling" "MatchHudLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"LeftHandedCheck"
+		{
+			"ControlName"		"CvarToggleCheckButton"
+			"fieldName"		"LeftHandedCheck"
+			"xpos"		"-18"
+			"ypos"		"0"
+			"zpos"		"20"
+			"wide"		"18"
+			"tall"		"20"
+			"labeltext"		""
+			"textAlignment"	"west"
+			"smallcheckimage"	"1"
+			"button_activation_type"	"1"
+			"cvar_name" "cl_flipviewmodels"
+			"mouseinputenabled"	"0"
+
+			"pin_to_sibling" "LeftHandedLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"Panel2"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"Colors_Panel"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
+			"fieldName"		"Panel2"
+			"ypos"			"5"
 			"wide"			"292"
-			"tall"			"180"
+			"tall"			"130"
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"		"BlackLight"
 			"proportionaltoparent"		"1"
 
-			"pin_to_sibling"		"Colors_Title"
-			"pin_corner_to_sibling"		"4"
-			"pin_to_sibling_corner"		"6"
+			"pin_to_sibling"		"Panel1"
+			"pin_corner_to_sibling"		"0"
+			"pin_to_sibling_corner"		"2"
 		}
 
 		"CrosshairEnableLabel"
@@ -410,7 +573,7 @@
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"		"Blank"
 
-			"pin_to_sibling" "Colors_Panel"
+			"pin_to_sibling" "Panel2"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "0"
 		}
@@ -482,7 +645,7 @@
 			"font"			"Size 16"
 			"labelText"		"Red:"
 			"textAlignment"	"west"
-			"xpos"			"-1"
+			"xpos"			"-2"
 			"ypos"			"4"
 			"zpos"			"20"
 			"wide"			"32"
@@ -1010,7 +1173,7 @@
 			"font"			"Size 16"
 			"labelText"		"Show DMG:"
 			"textAlignment"	"west"
-			"xpos"			"1"
+			"xpos"			"2"
 			"ypos"			"4"
 			"zpos"			"20"
 			"wide"			"105"
@@ -1149,7 +1312,7 @@
 			"font"			"Size 16"
 			"labelText"		"Red:"
 			"textAlignment"	"west"
-			"xpos"			"-1"
+			"xpos"			"-2"
 			"ypos"			"4"
 			"zpos"			"20"
 			"wide"			"32"
@@ -1670,22 +1833,212 @@
 			"pin_to_sibling_corner" "1"
 		}
 
-		"TVMLabel"
+		"TartgetIDBGLabel"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"TVMLabel"
+			"ControlName"	"CExLabel"
+			"fieldName"		"TartgetIDBGLabel"
 			"font"			"Size 16"
-			"labelText"		"Transparent Viewmodels:"
+			"labelText"		"TargetID BG Opacity:"
 			"textAlignment"	"west"
-			"xpos"			"-4"
-			"ypos"			"-4"
+			"xpos"			"0"
+			"ypos"			"4"
 			"zpos"			"20"
-			"wide"			"178"
+			"wide"			"135"
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"White"
-			"Command"			"engine toggle tf_contract_progress_show 0 2;toggle tf_contract_competitive_show 0 2"
+
+			"pin_to_sibling" "DmgNumColorPresetLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"TartgetIDBGSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"TartgetIDBGSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"148"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"255"
+			"cvar_name"				"tf_hud_target_id_alpha"	//actual command
+
+			"pin_to_sibling" "TartgetIDBGLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"Panel3"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"Panel3"
+			"ypos"			"5"
+			"wide"			"292"
+			"tall"			"57"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"		"BlackLight"
+			"proportionaltoparent"		"1"
+
+			"pin_to_sibling"		"Panel2"
+			"pin_corner_to_sibling"		"0"
+			"pin_to_sibling_corner"		"2"
+		}
+
+		"KillFeedLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"KillFeedLabel"
+			"font"			"Size 16"
+			"labelText"		"Killfeed Duration:"
+			"textAlignment"	"west"
+			"xpos"			"-4"
+			"ypos"			"-4"
+			"zpos"			"20"
+			"wide"			"135"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling" "Panel3"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "0"
+		}
+
+		"KillFeedSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"KillFeedSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"148"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"10"
+			"cvar_name"				"hud_deathnotice_time"	//actual command
+
+			"pin_to_sibling" "KillFeedLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"KillStreakAlphaLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"KillStreakAlphaLabel"
+			"font"			"Size 16"
+			"labelText"		"Streak Alert Opacity:"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"4"
+			"zpos"			"20"
+			"wide"			"135"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling" "KillFeedLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"KillStreakAlphaSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"KillStreakAlphaSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"148"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"255"
+			"cvar_name"				"cl_hud_killstreak_display_alpha"	//actual command
+
+			"pin_to_sibling" "KillStreakAlphaLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"KillStreakDurationLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"KillStreakDurationLabel"
+			"font"			"Size 16"
+			"labelText"		"Streak Alert Duration:"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"4"
+			"zpos"			"20"
+			"wide"			"135"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling" "KillStreakAlphaLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"KillStreakDurationSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"KillStreakDurationSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"148"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"10"
+			"cvar_name"				"cl_hud_killstreak_display_time"	//actual command
+
+			"pin_to_sibling" "KillStreakDurationLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"Panel4"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"Panel4"
+			"ypos"			"5"
+			"wide"			"292"
+			"tall"			"112"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"		"BlackLight"
+			"proportionaltoparent"		"1"
+
+			"pin_to_sibling"		"Panel3"
+			"pin_corner_to_sibling"		"0"
+			"pin_to_sibling_corner"		"2"
+		}
+
+		"HitSoundEnableLabel"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"HitSoundEnableLabel"
+			"font"			"Size 16"
+			"labelText"		"Hit Sounds:"
+			"textAlignment"	"west"
+			"xpos"			"-4"
+			"ypos"			"-4"
+			"zpos"			"20"
+			"wide"			"105"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+			"Command"			"engine toggle tf_dingalingaling"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -1694,15 +2047,15 @@
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"		"Blank"
 
-			"pin_to_sibling" "Tools_Panel"
-			"pin_corner_to_sibling" "2"
-			"pin_to_sibling_corner" "2"
+			"pin_to_sibling" "Panel4"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "0"
 		}
 
-		"TVMCheck"
+		"HitSoundEnableCheck"
 		{
 			"ControlName"		"CvarToggleCheckButton"
-			"fieldName"		"TVMCheck"
+			"fieldName"		"HitSoundEnableCheck"
 			"xpos"		"-18"
 			"ypos"		"0"
 			"zpos"		"20"
@@ -1712,30 +2065,147 @@
 			"textAlignment"	"west"
 			"smallcheckimage"	"1"
 			"button_activation_type"	"1"
-			"cvar_name" "tf_contract_progress_show"
+			"cvar_name" "tf_dingalingaling"
 			"mouseinputenabled"	"0"
 
-			"pin_to_sibling" "TVMLabel"
+			"pin_to_sibling" "HitSoundEnableLabel"
 			"pin_corner_to_sibling" "7"
 			"pin_to_sibling_corner" "5"
 		}
 
-		"TVMTroubleShoot"
+		"HitSoundVolume"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"TVMTroubleShoot"
+			"ControlName"	"CExLabel"
+			"fieldName"		"HitSoundVolume"
 			"font"			"Size 16"
-			"labelText"		"Not Working?"
-			"textAlignment"	"center"
-			"xpos"			"12"
+			"labelText"		"Volume:"
+			"textAlignment"	"west"
+			"xpos"			"14"
 			"ypos"			"0"
 			"zpos"			"20"
-			"wide"			"92"
+			"wide"			"65"
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"White"
-			"Command"			"engine showconsole;echo ~~~~~~~~~~~~~~~~~~~~~~~~~;echo ; echo ENSURE_THE_VALUE_OF_THESE;echo ;mat_motion_blur_enabled;echo ;mat_motion_blur_strength;echo ;mat_disable_bloom;echo ;mat_hdr_level;echo ;mat_colorcorrection;echo ;mat_colcorrection_disableentities;echo ;echo MATCH_THE_VALUE_OF_THESE; echo ;echo mat_motion_blur_enabled 1;echo mat_motion_blur_strength 0;echo mat_disable_bloom 1;echo mat_hdr_level 0;echo mat_colcorrection_disableentities 1;echo mat_colorcorrection 0"
+
+			"pin_to_sibling" "HitSoundEnableCheck"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"HitSoundVolumeSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"HitSoundVolumeSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"100"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"255"
+			"cvar_name"				"tf_dingaling_volume"	//actual command
+
+			"pin_to_sibling" "HitSoundVolume"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"HitSoundMinLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"HitSoundMinLabel"
+			"font"			"Size 16"
+			"labelText"		"Low DMG Hit Pitch:"
+			"textAlignment"	"west"
+			"xpos"			"-2"
+			"ypos"			"4"
+			"zpos"			"20"
+			"wide"			"135"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling" "HitSoundEnableLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"HitSoundMinSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"HitSoundMinSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"148"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"255"
+			"cvar_name"				"tf_dingaling_pitchmindmg"	//actual command
+
+			"pin_to_sibling" "HitSoundMinLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"HitSoundMaxLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"HitSoundMaxLabel"
+			"font"			"Size 16"
+			"labelText"		"High DMG Hit Pitch:"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"4"
+			"zpos"			"20"
+			"wide"			"135"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling" "HitSoundMinLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"HitSoundMaxSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"HitSoundMaxSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"148"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"255"
+			"cvar_name"				"tf_dingaling_pitchmaxdmg"	//actual command
+
+			"pin_to_sibling" "HitSoundMaxLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"KillSoundEnableLabel"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"KillSoundEnableLabel"
+			"font"			"Size 16"
+			"labelText"		"Kill Sounds:"
+			"textAlignment"	"west"
+			"xpos"			"2"
+			"ypos"			"4"
+			"zpos"			"20"
+			"wide"			"105"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+			"Command"			"engine toggle tf_dingalingaling_lasthit"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"				"UI/buttonclick.wav"
@@ -1743,36 +2213,166 @@
 
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"		"Blank"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "TVMCheck"
+			"pin_to_sibling" "HitSoundMaxLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"KillSoundEnableCheck"
+		{
+			"ControlName"		"CvarToggleCheckButton"
+			"fieldName"		"KillSoundEnableCheck"
+			"xpos"		"-18"
+			"ypos"		"0"
+			"zpos"		"20"
+			"wide"		"18"
+			"tall"		"20"
+			"labeltext"		""
+			"textAlignment"	"west"
+			"smallcheckimage"	"1"
+			"button_activation_type"	"1"
+			"cvar_name" "tf_dingalingaling_lasthit"
+			"mouseinputenabled"	"0"
+
+			"pin_to_sibling" "KillSoundEnableLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"KillSoundVolume"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"KillSoundVolume"
+			"font"			"Size 16"
+			"labelText"		"Volume:"
+			"textAlignment"	"west"
+			"xpos"			"14"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"65"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling" "KillSoundEnableCheck"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"KillSoundVolumeSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"KillSoundVolumeSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"100"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"255"
+			"cvar_name"				"tf_dingaling_lasthit_volume"	//actual command
+
+			"pin_to_sibling" "KillSoundVolume"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"KillSoundMinLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"KillSoundMinLabel"
+			"font"			"Size 16"
+			"labelText"		"Low DMG Kill Pitch:"
+			"textAlignment"	"west"
+			"xpos"			"-2"
+			"ypos"			"4"
+			"zpos"			"20"
+			"wide"			"135"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling" "KillSoundEnableLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"KillSoundMinSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"KillSoundMinSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"148"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"255"
+			"cvar_name"				"tf_dingaling_lasthit_pitchmindmg"	//actual command
+
+			"pin_to_sibling" "KillSoundMinLabel"
+			"pin_corner_to_sibling" "7"
+			"pin_to_sibling_corner" "5"
+		}
+
+		"KillSoundMaxLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"KillSoundMaxLabel"
+			"font"			"Size 16"
+			"labelText"		"High DMG Kill Pitch:"
+			"textAlignment"	"west"
+			"xpos"			"0"
+			"ypos"			"4"
+			"zpos"			"20"
+			"wide"			"135"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling" "KillSoundMinLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"KillSoundMaxSlider"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"KillSoundMaxSlider"
+			"xpos"					"0"
+			"ypos"					"3"
+			"zpos"					"1"
+			"wide"					"148"
+			"tall"					"16"
+			"minvalue"				"0" //can swap min and max values to swap slide directions
+			"maxvalue"				"255"
+			"cvar_name"				"tf_dingaling_lasthit_pitchmaxdmg"	//actual command
+
+			"pin_to_sibling" "KillSoundMaxLabel"
 			"pin_corner_to_sibling" "7"
 			"pin_to_sibling_corner" "5"
 		}
 
 		"MOTD_URLButton"
 		{
-			"ControlName"	"CExButton"
 			"fieldName"		"MOTD_URLButton"
 			"xpos"			"9999"
-			"wide"			"0"
 			"enabled"		"0"
 		}
 		"MOTD_PrevButton"
 		{
-			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_PrevButton"
 			"xpos"			"9999"
-			"wide"			"0"
 			"enabled"		"0"
 		}
 		"MOTD_NextButton"
 		{
-			"ControlName"	"CExImageButton"
 			"fieldName"		"MOTD_NextButton"
 			"xpos"			"9999"
-			"wide"			"0"
 			"enabled"		"0"
 		}
 	}

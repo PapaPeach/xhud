@@ -24,6 +24,7 @@
 		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
+		"mouseinputenabled"	"0"
 	}
 	"MapType"
 	{
