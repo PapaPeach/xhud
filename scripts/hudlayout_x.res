@@ -355,6 +355,22 @@
 		"LocalBackgroundColor"	"TransparentWhite"
 	}
 
+	HudCloseCaption
+	{
+		"xpos"		"c-155"
+		"ypos"		"c95"
+		"wide"		"310"
+		"tall"		"38"
+
+		"BgAlpha"	"0"
+
+		"GrowTime"		"0"
+		"ItemHiddenTime"	"0"
+		"ItemFadeInTime"	"0"
+		"ItemFadeOutTime"	"0.1"
+		"topoffset"		"0"
+	}
+
 	HudControlPointIcons
 	{
 		"xpos"					"0"

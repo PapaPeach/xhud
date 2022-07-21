@@ -701,54 +701,9 @@ Scheme
 			"1"
 			{
 				"name"										"Renogare Soft XHud"
-				"tall"										"24"
-				"weight"									"500"
-				"additive"									"0"
+				"tall"										"30"
 				"antialias" 								"1"
-			}
-		}
-		"CloseCaption_Italic"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"24"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"CloseCaption_Bold"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"24"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"CloseCaption_BoldItalic"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"24"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
-			}
-		}
-		"CloseCaption_Small"
-		{
-			"1"
-			{
-				"name"										"Renogare Soft XHud"
-				"tall"										"16"
-				"weight"									"500"
-				"additive"									"0"
-				"antialias" 								"1"
+				"dropshadow"		"1"
 			}
 		}
 
