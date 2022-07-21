@@ -5,5 +5,5 @@
 	"$vertexalpha" "1"
 	"$ignorez" "1"
 	"$alphatest" "1"
-	"$alphatestreference" "0.2"
+	"$alphatestreference" "0.15"
 }
