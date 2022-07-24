@@ -1,19 +1,38 @@
-#base "../../customizations/transparent_viewmodels_75.res"
-#base "../../customizations/transparent_viewmodels_60.res"
-#base "../../customizations/transparent_viewmodels_45.res"
-
 "Resource/UI/HudAchievementTrackerItem.res"
 {
-	"Transparent"
+	"Transparent75"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName" 	"Transparent"
-		"xpos"			"0"
-		"ypos"			"0"
+		"fieldName" 	"Transparent75"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
+		"image"			"replay/thumbnails/transparent75"
+		"scaleImage"	"1"
+	}
+
+	"Transparent60"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"Transparent60"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/transparent60"
+		"scaleImage"	"1"
+	}
+
+	"Transparent45"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"Transparent45"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/transparent45"
 		"scaleImage"	"1"
 	}
 

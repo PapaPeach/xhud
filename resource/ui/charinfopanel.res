@@ -20,9 +20,9 @@
 		"title_font"	"Size 24"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"200 187 161 255"
-		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"46 43 42 255"
+		"titlebarfgcolor_override"				"White"
+		"titlebardisabledfgcolor_override"		"White"
+		"titlebarbgcolor_override"				"BlackLight"
 
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"-2"

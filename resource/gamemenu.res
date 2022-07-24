@@ -1,8 +1,6 @@
 "GameMenu"
 {
-	///////////////////////////////////////////////////////////////////
-	////////////////////////DON'T TOUCH SECTION////////////////////////
-	///////////////////////////////////////////////////////////////////
+	//////////DON'T TOUCH SECTION//////////
 	"Servers"
 	{
 		"label"			"Servers"
@@ -82,7 +80,7 @@
 		"OnlyAtMenu"	"1"
 	}
 
-	/////INGAME ONLY/////
+	//INGAME ONLY
 	"Vote"
 	{
 		"label"			"Vote"
@@ -111,9 +109,7 @@
 		"OnlyInGame"	"1"
 	}
 
-	///////////////////////////////////////////////////////////////////
-	///////////////////////////TOOLS SECTION///////////////////////////
-	///////////////////////////////////////////////////////////////////
+	//TOOLS SECTION
 	"InvisiblePlayersFix"
 	{
 		"label"			"C"
@@ -146,21 +142,11 @@
 		"OnlyInGame"	"1"
 	}
 
-	////////////////////////////////////
-	//						Xhud Menu						//
-	////////////////////////////////////
+	//Xhud Menu
 	"XMenuButton"
 	{
 		"label"			"X Menu"
 		"command"		"engine sv_cheats 1; toggle cl_mainmenu_safemode"
-		"OnlyAtMenu"	"1"
-	}
-
-	"JumpMode"
-	{
-		"label"			"Jump"
-		"command"		"engine alias x_jumpmode jumpmode; x_jumpmode"
-		"tooltip"		"Reload hud to undo"
 		"OnlyAtMenu"	"1"
 	}
 }

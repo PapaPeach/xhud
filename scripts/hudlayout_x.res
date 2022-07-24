@@ -103,11 +103,9 @@
 	{
 		"controlName" 	"CTFImagePanel"
 		"fieldName" 	"speed1"
-		"visible" 	"1"
-		"enabled" 	"1"
-		"xpos" 	"9999"
+		"visible" 	"0"
+		"xpos" 	"c10"
 		"ypos" 	"c16"
-		"zpos"	 "0"
 		"wide"	 "10"
 		"tall"	 "10"
 		"image" "replay/thumbnails/speedometer/xspeed1"
@@ -118,11 +116,7 @@
 	{
 		"controlName" "CTFImagePanel"
 		"fieldName" "speed10"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "0"
-		"ypos" "0"
-		"zpos" "0"
+		"visible" "0"
 		"wide" "10"
 		"tall" "10"
 		"image" "replay/thumbnails/speedometer/xspeed2"
@@ -137,11 +131,7 @@
 	{
 		"controlName" "CTFImagePanel"
 		"fieldName" "speed100"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "0"
-		"ypos" "0"
-		"zpos" "0"
+		"visible" "0"
 		"wide" "10"
 		"tall" "10"
 		"image" "replay/thumbnails/speedometer/xspeed3"
@@ -156,11 +146,7 @@
 	{
 		"controlName" "CTFImagePanel"
 		"fieldName" "speed1000"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "0"
-		"ypos" "0"
-		"zpos" "0"
+		"visible" "0"
 		"wide" "10"
 		"tall" "10"
 		"image" "replay/thumbnails/speedometer/xspeed4"
@@ -171,9 +157,7 @@
 		"pin_to_sibling_corner" "7"
 	}
 
-	////////////////////////////////////////////////////
-	//										TF2 Stuff										//
-	////////////////////////////////////////////////////
+	//TF2 Stuff
 
 	HudWeaponAmmo
 	{

@@ -1,8 +1,5 @@
 #base "vtfpreload.res"
 
-#base "../../customizations/tools_rcon.res"
-#base "../../customizations/tools_standard.res"
-
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -447,9 +444,7 @@
 		}
 	}
 
-	////////////////////////////////////
-	//					MAJOR BUTTONS					//
-	////////////////////////////////////
+	//MAJOR BUTTONS
 
 	"Servers"
 	{
@@ -671,9 +666,7 @@
 		}
 	}
 
-	////////////////////////////////////
-	//					MINOR BUTTONS					//
-	////////////////////////////////////
+	//MINOR BUTTONS
 
 	"HUDRepository"
 	{
@@ -690,7 +683,7 @@
 		"labelText"							"2"
 		"font"								"Symbols 22"
 		"textAlignment"						"center"
-		"urlText"							"https://github.com/PapaPeach/uxhud"
+		"urlText"							"https://github.com/PapaPeach/xhud"
 
 		"fgcolor_override"					"White"
 	}
@@ -887,9 +880,7 @@
 		}
 	}
 
-	//////////////////////////////////////
-	//					INGAME BUTTONS					//
-	//////////////////////////////////////
+	//INGAME BUTTONS
 
 	"Vote"
 	{
@@ -1036,9 +1027,7 @@
 		}
 	}
 
-	////////////////////////////////////
-	//					INGAME TOOLS					//
-	////////////////////////////////////
+	//INGAME TOOLS
 
 	"MinmodeToggle"
 	{
@@ -1217,14 +1206,12 @@
 		}
 	}
 
-	////////////////////////////////////
-	//						Xhud Menus					//
-	////////////////////////////////////
+	//XHUD MENUS
 
-	"MOTD_ShowButtonPanel"
+	"ExtraOptions"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_ShowButtonPanel"
+		"ControlName"	"CExButton"
+		"fieldName"		"ExtraOptions"
 		"xpos"			"310"
 		"ypos"			"rs1"
 		"zpos"			"1000"
@@ -1232,73 +1219,23 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
+		"labelText"		"Hud Options"
+		"font"			"Size 30"
+		"textAlignment"	"west"
+		"textinsetx"	"-1"
+		"Command"		"engine OpenSteamWorkshopDialog"
 
-		"MOTD_ShowButtonPanel_SB"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"MOTD_ShowButtonPanel_SB"
-			"zpos"			"1"
-			"wide"			"80"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"Hud Options"
-			"font"			"Size 30"
-			"textAlignment"	"west"
-			"textinsetx"		"-1"
-			"auto_wide_tocontents"		"1"
+		"sound_depressed"				"UI/buttonclick.wav"
+		"sound_released"				"UI/buttonclickrelease.wav"
 
-			"actionsignallevel" "2"
-			"Command"		"motd_show"
-
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				"UI/buttonclickrelease.wav"
-
-			"paintbackground"				"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"WhiteGray"
-		}
-	}
-
-	"JumpMode"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"JumpMode"
-		"xpos"								"9999"
-		"ypos"								"140"
-		"zpos"								"2"
-		"wide"								"80"
-		"tall"								"23"
-		"visible"							"1"
-		"enabled"							"1"
-
-		"SubButton"
-		{
-			"ControlName"					"CExImageButton"
-			"fieldName"						"SubButton"
-			"wide"							"80"
-			"tall"							"23"
-			"visible"						"1"
-			"enabled"						"1"
-			"font"							"Size 28"
-			"textAlignment"					"west"
-			"textinsetx"					"0"
-			"use_proportional_insets" 		"1"
-
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				"UI/buttonclickrelease.wav"
-
-			"paintbackground"				"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"MainTheme"
-
-			"proportionaltoparent"			"1"
-		}
+		"paintbackground"				"0"
+		"defaultFgColor_override"		"White"
+		"armedFgColor_override"			"WhiteGray"
 	}
 
 	"XMenuButton"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"XMenuButton"
 		"xpos"			"480"
 		"ypos"			"rs1"
@@ -1805,6 +1742,68 @@
 			"pin_to_sibling_corner" "1"
 		}
 
+		"SpeedometerOn"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"SpeedometerOn"
+			"font"			"Size 16"
+			"labelText"		"Speedometer On"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"4"
+			"wide"			"140"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"			"engine speedometeron; alias x_speedometer_dump echo sm1"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "HitmarkerOn"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"SpeedometerOff"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"HitmarkerOff"
+			"font"			"Size 16"
+			"labelText"		"Speedometer Off"
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"wide"			"140"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"			"engine speedometeroff; alias x_speedometer_dump echo sm0"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "SpeedometerOn"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
+		}
+
 		"RecSettingsOn"
 		{
 			"ControlName"	"CExButton"
@@ -1831,7 +1830,7 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "HitmarkerOn"
+			"pin_to_sibling" "SpeedometerOn"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "2"
 		}
@@ -1871,13 +1870,13 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"TVMLabel"
-			"font"			"Size 16"
-			"labelText"		"Transparent Viewmodels:"
+			"font"			"Size 14"
+			"labelText"		"Transparent Weapons:"
 			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"50"
 			"zpos"			"20"
-			"wide"			"178"
+			"wide"			"143"
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1917,17 +1916,110 @@
 			"pin_to_sibling_corner" "5"
 		}
 
+		"TVM75"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"TVM75"
+			"font"			"Size 16"
+			"labelText"		"75% Opacity"
+			"textAlignment"	"center"
+			"xpos"			"1"
+			"ypos"			"0"
+			"wide"			"140"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"			"engine tvm75; alias x_tvm_dump echo vm7"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "TVMLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
+		}
+
+		"TVM60"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"TVM60"
+			"font"			"Size 16"
+			"labelText"		"60% Opacity"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"4"
+			"wide"			"140"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"			"engine tvm60; alias x_tvm_dump echo vm6"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "TVMLabel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"TVM45"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"TVM45"
+			"font"			"Size 16"
+			"labelText"		"45% Opacity"
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"wide"			"140"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"			"engine tvm45; alias x_tvm_dump echo vm4"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "TVM60"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
+		}
+
 		"TVMTroubleShoot"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"TVMTroubleShoot"
 			"font"			"Size 16"
-			"labelText"		"Not Working?"
+			"labelText"		"Transparent Weapons Not Working?"
 			"textAlignment"	"center"
-			"xpos"			"12"
-			"ypos"			"0"
+			"xpos"			"0"
+			"ypos"			"4"
 			"zpos"			"20"
-			"wide"			"92"
+			"wide"			"284"
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
@@ -1943,22 +2035,22 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "TVMCheck"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
+			"pin_to_sibling" "TVM60"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
 		}
 
 		"SmartReload"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"SmartReload"
-			"font"			"Size 16"
-			"labelText"		"Reload Hud"
+			"font"			"Size 28"
+			"labelText"		"Smart Hud Reload"
 			"textAlignment"	"center"
 			"xpos"			"-4"
 			"ypos"			"-4"
 			"wide"			"284"
-			"tall"			"14"
+			"tall"			"24"
 			"visible"		"1"
 			"enabled"		"1"
 			"Command"			"engine echo =====================; echo; testhudanim QuickReloadHud; exec xhud_load"
@@ -2019,7 +2111,7 @@
 
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"		"Blank"
-			"defaultFgColor_override"		"White"
+			"defaultFgColor_override"		"WhiteGray"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
