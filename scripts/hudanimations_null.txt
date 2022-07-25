@@ -175,7 +175,7 @@ event PvPRankLevelUpXPBar{}
 event PvPRankLevelUpModel{}
 event PvPRankLevelDownXPBar{}
 event PvPRankLevelDownModel{}
-event CompetitiveGame_ShowPvPRankPanel{}
+//event CompetitiveGame_ShowPvPRankPanel{}//Needed?
 event PvPRankPanelShowXPChange{}
 event PyroVsHeavyWar_ShowChooseScene{}
 event PyroVsHeavyWar_PyroWinnerScene{}

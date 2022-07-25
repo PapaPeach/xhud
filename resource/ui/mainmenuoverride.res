@@ -1033,16 +1033,12 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"MinmodeToggle"
-		"xpos"								"2"
-		"ypos"								"0"
+		"xpos"								"rs1"
+		"ypos"								"140"
 		"zpos"								"2"
-		"wide"								"180"
+		"wide"								"25"
 		"tall"								"23"
 		"visible"							"1"
-
-		"pin_to_sibling" 					"InvisiblePlayersFix"
-		"pin_corner_to_sibling" 			"1"
-		"pin_to_sibling_corner" 			"0"
 
 		"SubButton"
 		{
@@ -1050,11 +1046,11 @@
 			"fieldName"						"SubButton"
 			"xpos"							"rs1"
 			"ypos"							"0"
-			"wide"							"106"
+			"wide"							"25"
 			"tall"							"23"
 			"visible"						"1"
 			"enabled"						"1"
-			"font"							"Size 28"
+			"font"							"Symbols 24"
 			"textAlignment"					"east"
 			"textinsetx"					"5"
 			"use_proportional_insets" 		"1"
@@ -1071,23 +1067,18 @@
 
 		"Minmode_Indicator"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"Minmode_Indicator"
-			"font"			"Symbols 26"
-			"labelText"		"+"
-			"textAlignment"	"center"
-			"wide"			"0"
-			"wide_minmode"	"22"
-			"tall"			"24"
+			"xpos"			"3"
+			"ypos"			"5"
+			"zpos"			"-1"
+			"wide"			"p0.58"
+			"wide_minmode"	"0"
+			"tall"			"o1"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"Green"
 			"proportionaltoparent"		"1"
-			"bgcolor_override"		"Blank"
-
-			"pin_to_sibling"		"SubButton"
-			"pin_corner_to_sibling"		"5"
-			"pin_to_sibling_corner"		"7"
+			"bgcolor_override"		"Red"
 		}
 	}
 
@@ -1095,12 +1086,14 @@
 	{
 		"ControlName"						"EditablePanel"
 		"fieldname"							"InvisiblePlayersFix"
-		"xpos"								"rs1"
-		"ypos"								"140"
 		"zpos"								"2"
 		"wide"								"25"
 		"tall"								"23"
 		"visible"							"1"
+
+		"pin_to_sibling" 					"MinmodeToggle"
+		"pin_corner_to_sibling" 			"1"
+		"pin_to_sibling_corner" 			"3"
 
 		"SubButton"
 		{
@@ -1138,47 +1131,8 @@
 		"visible"							"1"
 
 		"pin_to_sibling" 					"InvisiblePlayersFix"
-		"pin_corner_to_sibling" 			"0"
-		"pin_to_sibling_corner" 			"2"
-
-		"SubButton"
-		{
-			"ControlName"					"CExImageButton"
-			"fieldName"						"SubButton"
-			"xpos"							"rs1"
-			"ypos"							"0"
-			"wide"							"25"
-			"tall"							"23"
-			"visible"						"1"
-			"enabled"						"1"
-			"font"							"Symbols 24"
-			"textAlignment"					"east"
-			"textinsetx"					"5"
-			"use_proportional_insets" 		"1"
-
-			"sound_depressed"				"UI/buttonclick.wav"
-			"sound_released"				"UI/buttonclickrelease.wav"
-
-			"paintbackground"				"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"MainTheme"
-
-			"proportionaltoparent"			"1"
-		}
-	}
-
-	"ReloadHud"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldname"							"ReloadHud"
-		"zpos"								"2"
-		"wide"								"25"
-		"tall"								"23"
-		"visible"							"1"
-
-		"pin_to_sibling" 					"BrokenSoundFix"
-		"pin_corner_to_sibling" 			"0"
-		"pin_to_sibling_corner" 			"2"
+		"pin_corner_to_sibling" 			"1"
+		"pin_to_sibling_corner" 			"3"
 
 		"SubButton"
 		{
@@ -1215,14 +1169,16 @@
 		"xpos"			"310"
 		"ypos"			"rs1"
 		"zpos"			"1000"
-		"wide"			"150"
+		"wide"			"1"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Hud Options"
-		"font"			"Size 30"
+		"labelText"		"Quick Menu"
+		"font"			"Size 28"
 		"textAlignment"	"west"
-		"textinsetx"	"-1"
+		"textinsetx"	"0"
+		"use_proportional_insets"	"1"
+		"auto_wide_tocontents"		"1"
 		"Command"		"engine OpenSteamWorkshopDialog"
 
 		"sound_depressed"				"UI/buttonclick.wav"
@@ -1233,36 +1189,78 @@
 		"armedFgColor_override"			"WhiteGray"
 	}
 
-	"XMenuButton"
+	"ReloadHud"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"XMenuButton"
-		"xpos"			"480"
-		"ypos"			"rs1"
-		"zpos"			"1000"
-		"wide"			"90"
-		"tall"			"20"
-		"visible"		"1"
-		"enabled"		"1"
+		"ControlName"						"EditablePanel"
+		"fieldname"							"ReloadHud"
+		"zpos"								"2"
+		"wide"								"25"
+		"tall"								"23"
+		"visible"							"1"
+
+		"pin_to_sibling" 					"XMenuButton"
+		"pin_corner_to_sibling" 			"1"
+		"pin_to_sibling_corner" 			"3"
 
 		"SubButton"
 		{
-			"ControlName"		"CExImageButton"
-			"fieldName"		"SubButton"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"font"			"Size 30"
-			"textAlignment"		"west"
-			"proportionaltoparent"		"1"
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"rs1"
+			"ypos"							"0"
+			"wide"							"25"
+			"tall"							"23"
+			"visible"						"1"
+			"enabled"						"1"
+			"font"							"Symbols 24"
+			"textAlignment"					"east"
+			"textinsetx"					"5"
+			"use_proportional_insets" 		"1"
 
 			"sound_depressed"				"UI/buttonclick.wav"
 			"sound_released"				"UI/buttonclickrelease.wav"
 
 			"paintbackground"				"0"
 			"defaultFgColor_override"		"White"
-			"armedFgColor_override"			"WhiteGray"
+			"armedFgColor_override"			"MainTheme"
+
+			"proportionaltoparent"			"1"
+		}
+	}
+
+	"XMenuButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"XMenuButton"
+		"zpos"			"2"
+		"wide"			"25"
+		"tall"			"23"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"		"MinmodeToggle"
+		"pin_corner_to_sibling"		"1"
+		"pin_to_sibling_corner"		"3"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"SubButton"
+			"wide"			"25"
+			"tall"			"23"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"Symbols 24"
+			"textAlignment"		"east"
+			"textinsetx"					"5"
+			"use_proportional_insets" 		"1"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"paintbackground"				"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"			"MainTheme"
 		}
 	}
 

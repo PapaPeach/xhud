@@ -80,6 +80,13 @@
 		"OnlyAtMenu"	"1"
 	}
 
+	"PreloadPanel"
+	{
+		"label"	" "
+		"command"	" "
+		"OnlyAtMenu"	"1"
+	}
+
 	//INGAME ONLY
 	"Vote"
 	{
@@ -126,27 +133,28 @@
 		"OnlyInGame"	"1"
 	}
 
-	"ReloadHud"
-	{
-		"label"			"."
-		"command"		"engine hud_reloadscheme"
-		"tooltip"		"Reload Hud"
-		"OnlyInGame"	"1"
-	}
-
 	"MinmodeToggle"
 	{
-		"label"			"Optimize"
+		"label"			"À"
 		"command"		"engine toggle cl_hud_minmode"
-		"tooltip"		"Requires Game Restart"
-		"OnlyInGame"	"1"
+		"tooltip"		"Optimize (requires restart)"
+		//"OnlyInGame"	"1"
 	}
 
 	//Xhud Menu
 	"XMenuButton"
 	{
-		"label"			"X Menu"
+		"label"			"Á"
 		"command"		"engine sv_cheats 1; toggle cl_mainmenu_safemode"
+		"tooltip"		"Customizations"
+		"OnlyAtMenu"	"1"
+	}
+
+	"ReloadHud"
+	{
+		"label"			"."
+		"command"		"engine echo =====================; echo; testhudanim QuickReloadHud; exec xhud_load"
+		"tooltip"		"Reload Hud"
 		"OnlyAtMenu"	"1"
 	}
 }
