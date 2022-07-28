@@ -14,7 +14,7 @@
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
 		"font"			"Size 44 Shadow"
-		"fgcolor"		"White"
+		"fgcolor"		"Ammo"
 	}
 
 	"IndividualChargesLabel"
@@ -31,7 +31,7 @@
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"	"center"
 		"font"			"Size 44 Shadow"
-		"fgcolor"		"White"
+		"fgcolor"		"Ammo"
 	}
 
 	"ChargeMeter"

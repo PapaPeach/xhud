@@ -5,8 +5,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
+		"visible"		"0"
 		"image"			"replay/thumbnails/panels/blank"
 	}
 
@@ -19,7 +18,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"298"
+		"wide"			"300"
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
@@ -76,43 +75,30 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
-		"xpos"			"-1"
-		"ypos"			"-1"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"298"
+		"wide"			"300"
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/panels/blue"
 		"pin_to_sibling"		"ProgressBarBG"
-
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
 	}
 
 	"ProgressBarBG"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"ProgressBarBG"
 		"xpos"			"cs-0.5"
 		"ypos"			"5"
 		"zpos"			"0"
 		"wide"			"300"
-		"tall"			"14"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"						"replay/thumbnails/panels/blank"
-		"drawcolor"		"TransparentGrayDarkest"
-		"alpha"		"180"
+		"image"			"replay/thumbnails/panels/black"
+		"alpha"		"150"
 		"proportionaltoparent"		"1"
-
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
 	}
 }

@@ -19,7 +19,7 @@ event DamagedPlayer
 
 event AnimateHitmarker
 {
-  Animate Hitmarker   FgColor   "Red"   Linear 0.0 0.001
+  Animate Hitmarker   FgColor   "HitMarker"   Linear 0.0 0.001
   Animate Hitmarker   FgColor   "Blank"   Linear 0.3 0.1
 }
 
@@ -170,7 +170,7 @@ event HudHealthBonusPulse
 
   SetVisible HealthSpectatorBarBuff 1 0.0
 
-  Animate HealthBarBG   bgcolor    "White"   Linear 0.0 0.001
+  Animate HealthBarBG   bgcolor    "Health"   Linear 0.0 0.001
 }
 
 event HudHealthBonusPulseStop

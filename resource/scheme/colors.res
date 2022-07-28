@@ -18,38 +18,20 @@ Scheme
 		//=============================================================================
 
 		"Crosshair"											"227 228 230 255"
-		"Crosshair Pulse"									"255 0 0 255"
-
-		"HitMarker"											"255 0 0 255"
+		"HitMarker"											"255 50 65 255"
 
 		"Health"											"227 228 230 255"
+		"Buffed Health"										"92 173 255 255"
+		"Low Health"										"255 50 65 255"
+
+		"Ammo"												"227 228 230 255"
+		"Low Ammo"											"255 50 65 255"
+
+		"Heal Numbers"										"92 173 255 255"
+		"Last Damage Done"									"255 50 65 255"
+		"Medic Drop"										"245 220 60 255"
 
 		"Shadow"											"0 0 0 175"
-
-		"Buffed Health"										"30 175 255 255"
-		"Buffed Health Pulse"								"80 150 255 255"
-		"Buffed Health Spec"								"31 143 255 255"
-
-		"Low Health"										"255 50 65 255"
-		"Low Health Pulse"									"255 0 0 255"
-		"Low Health Spec"									"225 41 41 255"
-
-		"Ammo In Clip"										"227 228 230 255"
-		"Ammo In Reserve"									"227 228 230 255"
-		"Ammo No Clip"										"227 228 230 255"
-
-		"Low Ammo In Clip"									"255 50 65 255"
-		"Low Ammo In Clip Pulse"							"255 0 0 255"
-		"Low Ammo In Reserve"								"255 50 65 255"
-		"Low Ammo In Reserve Pulse"							"255 0 0 255"
-		"Low Ammo No Clip"									"255 50 65 255"
-		"Low Ammo No Clip Pulse"							"255 0 0 255"
-
-		"Full Ubercharge"									"30 175 255 255"
-		"Full Ubercharge Pulse"								"80 150 255 255"
-
-		"Heal Numbers"										"0 255 0 255"
-		"Last Damage Done"									"255 50 65 255"
 
 		"Red"												"255 50 65 255"
 		"Blue"												"92 173 255 255"

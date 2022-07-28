@@ -418,5 +418,13 @@
 			"visible"	"1"
 			"image"	"../hud/objectives_flagpanel_ico_flag_moving"
 		}
+		//Misc
+		"MenuThumbMissing"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"MenuThumbMissing"
+			"visible"	"1"
+			"image"	"../vgui/maps/menu_thumb_missing"
+		}
 	}
 }

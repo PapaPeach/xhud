@@ -59,6 +59,11 @@
 				"HealthDeathWarningColor"	"Low Health"
 				"TextColor"					"GrayDarkest"
 				"proportionaltoparent"		"1"
+
+				if_mvm
+				{
+					"visible"		"0"
+				}
 			}
 
 			"playername"
@@ -77,6 +82,13 @@
 				"fgcolor"		"White"
 				"bgcolor_override"	"Blank"
 				"proportionaltoparent"		"1"
+
+				if_mvm
+				{
+					"font"		"Size 8 Shadow"
+					"xpos"		"0"
+					"ypos"		"18"
+				}
 			}
 
 			"classimage"
@@ -95,10 +107,8 @@
 
 				if_mvm
 				{
-					"xpos"			"5"
-					"ypos"			"4"
 					"wide"			"20"
-					"tall"			"20"
+					"tall"			"18"
 					"image"			"../vgui/hud_connecting"
 				}
 			}
@@ -116,6 +126,11 @@
 				"enabled"					"1"
 				"border"					"MaterialGrayDarkest"
 				"proportionaltoparent"		"1"
+
+				if_mvm
+				{
+					"visible"		"0"
+				}
 			}
 
 			"ReadyBG"
@@ -130,12 +145,6 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
-
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
-
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
 
 				if_mvm
 				{
@@ -217,19 +226,20 @@
 
 			if_mvm
 			{
-				"wide"		"55"
-				"tall"		"35"
+				"wide"		"44"
+				"tall"		"25"
 			}
 		}
 
 		if_mvm
 		{
-			"xpos"					"c-250"
-			"ypos"					"6"
+			"xpos"					"cs-0.5"
 			"wide"					"500"
 			"tall"					"180"
 
-			"team1_player_delta_x"			"52"
+			"team1_player_base_y"			"4"
+			"team1_player_delta_x"			"46"
+			"team1_player_delta_y"			"0"
 		}
 	}
 
@@ -246,6 +256,11 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"Size 16 Shadow"
+
+		if_mvm
+		{
+			"ypos"		"92"
+		}
 	}
 
 	"BuyBackLabel"
@@ -266,6 +281,7 @@
 
 		if_mvm
 		{
+			"ypos"		"80"
 			"visible"		"1"
 		}
 	}
@@ -411,24 +427,20 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
-		"xpos"						"9999"
-		"wide"						"0"
-		"enabled"					"0"
+		"tall"	"0"
 	}
 	"BottomBar"
 	{
 		"ControlName"	"Frame"
-		"fieldName"		"BottomBar"
-		"xpos"						"9999"
-		"wide"						"0"
-		"enabled"					"0"
+		"fieldName"	"BottomBar"
+		"xpos"	"9999"
+		"enabled"	"0"
 	}
 	"bottombarblank"
 	{
-		"ControlName"		"Panel"
-		"fieldName"		"bottombarblank"
-		"xpos"						"9999"
-		"wide"						"0"
-		"enabled"					"0"
+		"ControlName"	"Panel"
+		"fieldName"	"bottombarblank"
+		"xpos"	"9999"
+		"enabled"	"0"
 	}
 }

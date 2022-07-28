@@ -28,7 +28,7 @@
 
 		if_mvm
 		{
-			"ypos"					"48"
+			"ypos"					"75"
 			"team2_player_delta_x"			"45"
 		}
 
@@ -102,9 +102,8 @@
 				"tall"			"17"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"						"replay/thumbnails/panels/blank"
-				"drawcolor"		"TransparentGrayDarkest"
-				"alpha"		"180"
+				"image"			"replay/thumbnails/panels/black"
+				"alpha"		"220"
 				"proportionaltoparent"		"1"
 
 				if_mvm

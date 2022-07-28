@@ -117,6 +117,13 @@
 	}
 
 	//TOOLS SECTION
+	"MinmodeToggle"
+	{
+		"label"			"À"
+		"command"		"engine toggle cl_hud_minmode"
+		"tooltip"		"Optimize (requires restart)"
+		//"OnlyInGame"	"1"
+	}
 	"InvisiblePlayersFix"
 	{
 		"label"			"C"
@@ -133,15 +140,6 @@
 		"OnlyInGame"	"1"
 	}
 
-	"MinmodeToggle"
-	{
-		"label"			"À"
-		"command"		"engine toggle cl_hud_minmode"
-		"tooltip"		"Optimize (requires restart)"
-		//"OnlyInGame"	"1"
-	}
-
-	//Xhud Menu
 	"XMenuButton"
 	{
 		"label"			"Á"
