@@ -5,7 +5,7 @@
 		"ControlName"		"Frame"
 		"fieldName"		"LoadingDialog"
 		"wide"		"f20"
-		"tall"		"p0.37"
+		"tall"		"p0.3705"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackground"	"0"

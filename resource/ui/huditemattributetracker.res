@@ -8,7 +8,7 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/transparent75"
+		"image"			"replay/thumbnails/transparent_viewmodels/transparent75"
 		"scaleImage"	"1"
 	}
 
@@ -20,7 +20,7 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/transparent60"
+		"image"			"replay/thumbnails/transparent_viewmodels/transparent60"
 		"scaleImage"	"1"
 	}
 
@@ -32,7 +32,7 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/transparent45"
+		"image"			"replay/thumbnails/transparent_viewmodels/transparent45"
 		"scaleImage"	"1"
 	}
 

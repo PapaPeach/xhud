@@ -20,9 +20,9 @@
 		"title_font"	"Size 24"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"White"
-		"titlebardisabledfgcolor_override"		"White"
-		"titlebarbgcolor_override"				"BlackLight"
+		"titlebarfgcolor_override"				"Blank"
+		"titlebardisabledfgcolor_override"		"Blank"
+		"titlebarbgcolor_override"				"Blank"
 
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"-2"
@@ -45,16 +45,13 @@
 
 	"CharInfoBottomBar"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CharInfoBottomBar"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"StoreBottomBar"
 		"xpos"			"0"
 		"ypos"			"rs1"
-		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"20"
 		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
 		"bgcolor_override"		"TransparentBlack"
 	}
 
@@ -73,11 +70,10 @@
 		{
 			"textinsetx"		"0"
 			"font"				"Size 16"
-			"selectedcolor"		"Blue"
+			"selectedcolor"		"MainTheme"
 			"unselectedcolor"	"White"
 			"paintbackground"	"0"
-			"activeborder_override"	"NoBorder"
-			"normalborder_override" "NoBorder"
+			"paintborder"		"0"
 		}
 	}
 
