@@ -2,10 +2,8 @@
 {
 	"$translucent" "1"
 	"$baseTexture" "vgui\replay\thumbnails\menu\Xloading"
-	"$alpha" "1"
 	"$vertexalpha" "1"	
 	"$vertexcolor" "1"
-	"$no_fullbright" "1"
 	"$ignorez" "1"
 
 	"$angle" "0.0"

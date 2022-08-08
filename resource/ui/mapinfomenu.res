@@ -113,21 +113,6 @@
 		"fgcolor"		"Gray"
 	}
 
-	"MapImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MapImage"
-		"xpos"			"c10"
-		"ypos"			"75"
-		"zpos"			"2"
-		"wide"			"275"
-		"tall"			"275"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-	}
-
 	"MapInfoContinue"
 	{
 		"ControlName"	"CExButton"
