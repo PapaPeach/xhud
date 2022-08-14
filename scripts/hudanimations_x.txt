@@ -1,11 +1,10 @@
 event HudSnapShotReminderIn		//Resets various things on death
 {
-    RunEvent HudHealthDyingPulseStop  1.0
-    RunEvent HudHealthBonusPulseStop  1.0
-    RunEvent HudLowAmmoPulseStop  1.0
-    RunEvent HudMedicChargedStop  1.0
-		RunEvent HudSpyDisguiseFadeOut  1.0
-    RunEvent DamagedPlayer  1.0
+		RunEvent HudHealthDyingPulseStop	1.0
+		RunEvent HudHealthBonusPulseStop	1.0
+		RunEvent HudLowAmmoPulseStop	1.0
+		RunEvent HudMedicChargedStop	1.0
+		RunEvent DamagedPlayer	1.0
 }
 
 //==============================================================================
@@ -13,104 +12,105 @@ event HudSnapShotReminderIn		//Resets various things on death
 //Hitmarker
 event DamagedPlayer
 {
-  StopEvent AnimateHitmarker 0.0
-  RunEvent AnimateHitmarker 0.0
+	StopEvent AnimateHitmarker 0.0
+	RunEvent AnimateHitmarker 0.0.001
+	StopEvent HudSpyDisguiseFadeOut 0.0
+	RunEvent HudSpyDisguiseFadeOut 0.001
 }
 
 event AnimateHitmarker
 {
-  Animate Hitmarker   FgColor   "HitMarker"   Linear 0.0 0.001
-  Animate Hitmarker   FgColor   "Blank"   Linear 0.3 0.1
+	Animate Hitmarker		FgColor		"HitMarker"		Linear 0.0 0.001
+	Animate Hitmarker		FgColor		"Blank"		Linear 0.3 0.1
 }
 
 //==============================================================================
 
 event QuickReloadHud
 {
-  FireCommand 0 "reloadscheme"
+	FireCommand 0 "reloadscheme"
 }
 
-//==============================================================================
+//==============================================================================//Animation states
 
-//Animation states
 event 16v16Scoreboard
 {
-  Animate RedPlayerList     tall    259    Linear 0.0 0.1
-  Animate BluePlayerList     tall   259    Linear 0.0 0.1
-  RunEvent 16v16ScoreboardBG    0.0
+	Animate RedPlayerList		tall		259		Linear 0.0 0.1
+	Animate BluePlayerList		tall		259		Linear 0.0 0.1
+	RunEvent 16v16ScoreboardBG		0.0
 }
 event 16v16ScoreboardBG
 {
-  Animate ScoreboardMainBG    tall  302    Linear 0.0 0.1
-  Animate ScoreboardMainBG    ypos    100    Linear 0.0 0.1
+	Animate ScoreboardMainBG		tall	302		Linear 0.0 0.1
+	Animate ScoreboardMainBG		ypos		100		Linear 0.0 0.1
 }
 
 event 12v12Scoreboard
 {
-  Animate RedPlayerList     tall    190    Linear 0.0 0.1
-  Animate BluePlayerList     tall   190    Linear 0.0 0.1
-  RunEvent 12v12ScoreboardBG    0.0
+	Animate RedPlayerList		tall		190		Linear 0.0 0.1
+	Animate BluePlayerList		tall		190		Linear 0.0 0.1
+	RunEvent 12v12ScoreboardBG		0.0
 }
 event 12v12ScoreboardBG
 {
-  Animate ScoreboardMainBG    tall  234    Linear 0.0 0.1
-  Animate ScoreboardMainBG    ypos    145    Linear 0.0 0.1
+	Animate ScoreboardMainBG		tall	234		Linear 0.0 0.1
+	Animate ScoreboardMainBG		ypos		145		Linear 0.0 0.1
 }
 
 event 9v9Scoreboard
 {
-  Animate RedPlayerList     tall    146    Linear 0.0 0.1
-  Animate BluePlayerList     tall   146    Linear 0.0 0.1
-  RunEvent 9v9ScoreboardBG    0.0
+	Animate RedPlayerList		tall		146		Linear 0.0 0.1
+	Animate BluePlayerList		tall		146		Linear 0.0 0.1
+	RunEvent 9v9ScoreboardBG		0.0
 }
 event 9v9ScoreboardBG
 {
-  Animate ScoreboardMainBG    tall  189    Linear 0.0 0.1
-  Animate ScoreboardMainBG    ypos    165    Linear 0.0 0.1
+	Animate ScoreboardMainBG		tall	189		Linear 0.0 0.1
+	Animate ScoreboardMainBG		ypos		165		Linear 0.0 0.1
 }
 
 event 6v6Scoreboard
 {
-  Animate RedPlayerList     tall    101    Linear 0.0 0.1
-  Animate BluePlayerList     tall   101    Linear 0.0 0.1
-  RunEvent 6v6ScoreboardBG    0.0
+	Animate RedPlayerList		tall		101		Linear 0.0 0.1
+	Animate BluePlayerList		tall		101		Linear 0.0 0.1
+	RunEvent 6v6ScoreboardBG		0.0
 }
 event 6v6ScoreboardBG
 {
-  Animate ScoreboardMainBG    tall  144    Linear 0.0 0.1
-  Animate ScoreboardMainBG    ypos    190    Linear 0.0 0.1
+	Animate ScoreboardMainBG		tall	144		Linear 0.0 0.1
+	Animate ScoreboardMainBG		ypos		190		Linear 0.0 0.1
 }
 
 event UpperChat
 {
-  Animate HudChat    ypos   25    Linear 0.0 0.1
+	Animate HudChat		ypos		25		Linear 0.0 0.1
 }
 
 event LowerChat
 {
-  Animate HudChat    ypos   r210    Linear 0.0 0.1
+	Animate HudChat		ypos		r210		Linear 0.0 0.1
 }
 
 event TallChat
 {
-  Animate HudChat    tall   86    Linear 0.0 0.1
-  Animate ChatFiltersButton    ypos   73    Linear 0.0 0.1
+	Animate HudChat		tall		86		Linear 0.0 0.1
+	Animate ChatFiltersButton		ypos		73		Linear 0.0 0.1
 }
 
 event ShortChat
 {
-  Animate HudChat    tall   48    Linear 0.0 0.1
-  Animate ChatFiltersButton    ypos   35    Linear 0.0 0.1
+	Animate HudChat		tall		48		Linear 0.0 0.1
+	Animate ChatFiltersButton		ypos		35		Linear 0.0 0.1
 }
 
 event UpperBuilding
 {
-  Animate BuildingStatusAnchor    ypos   105    Linear 0.0 0.1
+	Animate BuildingStatusAnchor		ypos		105		Linear 0.0 0.1
 }
 
 event LowerBuilding
 {
-  Animate BuildingStatusAnchor    ypos   240    Linear 0.0 0.1
+	Animate BuildingStatusAnchor		ypos		240		Linear 0.0 0.1
 }
 
 event HitmarkerOn
@@ -125,39 +125,70 @@ event HitmarkerOff
 
 event SpeedometerOn
 {
-  SetVisible speed1 1 0.0
-  SetVisible speed10 1 0.0
-  SetVisible speed100 1 0.0
-  SetVisible speed1000 1 0.0
+	SetVisible speed1 1 0.0
+	SetVisible speed10 1 0.0
+	SetVisible speed100 1 0.0
+	SetVisible speed1000 1 0.0
 }
 
 event SpeedometerOff
 {
-  SetVisible speed1 0 0.0
-  SetVisible speed10 0 0.0
-  SetVisible speed100 0 0.0
-  SetVisible speed1000 0 0.0
+	SetVisible speed1 0 0.0
+	SetVisible speed10 0 0.0
+	SetVisible speed100 0 0.0
+	SetVisible speed1000 0 0.0
+}
+
+event DmgDealtAmmo
+{
+	SetVisible DamageAccountValue 1 0.0
+	SetVisible DamageAccountValueCenter 0 0.0
+}
+
+event DmgDealtCenter
+{
+	SetVisible DamageAccountValue 0 0.0
+	SetVisible DamageAccountValueCenter 1 0.0
+}
+
+event MiniAmmoOff
+{
+	SetVisible AmmoInClipMini 0 0.0
+	SetVisible AmmoInClipMiniShadow 0 0.0
+}
+
+event MiniAmmoOn
+{
+	SetVisible AmmoInClipMini 1 0.0
+	SetVisible AmmoInClipMiniShadow 1 0.0
 }
 
 event TVM75
 {
-  SetVisible Transparent75 1 0.0
-  SetVisible Transparent60 0 0.0
-  SetVisible Transparent45 0 0.0
+	SetVisible Transparent75 1 0.0
+	SetVisible Transparent60 0 0.0
+	SetVisible Transparent45 0 0.0
 }
 
 event TVM60
 {
-  SetVisible Transparent75 0 0.0
-  SetVisible Transparent60 1 0.0
-  SetVisible Transparent45 0 0.0
+	SetVisible Transparent75 0 0.0
+	SetVisible Transparent60 1 0.0
+	SetVisible Transparent45 0 0.0
 }
 
 event TVM45
 {
-  SetVisible Transparent75 0 0.0
-  SetVisible Transparent60 0 0.0
-  SetVisible Transparent45 1 0.0
+	SetVisible Transparent75 0 0.0
+	SetVisible Transparent60 0 0.0
+	SetVisible Transparent45 1 0.0
+}
+
+//==============================================================================//End animation states
+
+event LevelInit
+{
+	//Animate HudScope		xpos	0	Linear 0.0 0.001
 }
 
 //==============================================================================
@@ -168,86 +199,86 @@ event HudHealthBonusPulse
 
 	SetVisible HealthBarLowHealth 0 0.0
 
-  SetVisible HealthSpectatorBarBuff 1 0.0
+	SetVisible HealthSpectatorBarBuff 1 0.0
 
-  Animate HealthBarBG   bgcolor    "Health"   Linear 0.0 0.001
+	Animate HealthBarBG		bgcolor		"Health"		Linear 0.0 0.001
 }
 
 event HudHealthBonusPulseStop
 {
-  SetVisible HealthBarOverheal 0 0.0
+	SetVisible HealthBarOverheal 0 0.0
 
-  SetVisible HealthBarLowHealth 1 0.0
+	SetVisible HealthBarLowHealth 1 0.0
 
-  SetVisible HealthSpectatorBarBuff 0 0.0
+	SetVisible HealthSpectatorBarBuff 0 0.0
 
-  Animate HealthBarBG   bgcolor    "TransparentGrayDarkest"   Linear 0.0 0.001
+	Animate HealthBarBG		bgcolor		"TransparentGrayDarkest"		Linear 0.0 0.001
 }
 
 //==============================================================================
 
 event HudHealthDyingPulse
 {
-  SetVisible HealthSpectatorBarHurt 1 0.0
+	SetVisible HealthSpectatorBarHurt 1 0.0
 }
 
 event HudHealthDyingPulseStop
 {
-  SetVisible HealthSpectatorBarHurt 0 0.0
+	SetVisible HealthSpectatorBarHurt 0 0.0
 }
 
 //==============================================================================
 
 event HudLowAmmoPulse
 {
-	SetVisible LowAmmoBox  1 0.0
+	SetVisible LowAmmoBox	1 0.0
 }
 
 event HudLowAmmoPulseStop
 {
-	SetVisible LowAmmoBox  0 0.0
+	SetVisible LowAmmoBox	0 0.0
 }
 
 //==============================================================================
 
 event HudMedicCharged
 {
-	Animate	ChargeMeter 				FgColor		"255 000 000 255"				Linear 	0	1
-	Animate	ChargeMeter 				FgColor		"000 255 000 255"				Linear 	1	1
-	Animate	ChargeMeter 				FgColor		"000 000 255 255"				Linear 	2	1
+	Animate	ChargeMeter		FgColor		"255 000 000 255"		Linear	0	1
+	Animate	ChargeMeter		FgColor		"000 255 000 255"		Linear	1	1
+	Animate	ChargeMeter		FgColor		"000 000 255 255"		Linear	2	1
 
-	Animate	ChargeMeter1 				FgColor		"255 000 000 255"				Linear 	0	1
-	Animate	ChargeMeter1 				FgColor		"000 255 000 255"				Linear 	1	1
-	Animate	ChargeMeter1 				FgColor		"000 000 255 255"				Linear 	2	1
-	Animate	ChargeMeter2 				FgColor		"255 000 000 255"				Linear 	0	1
-	Animate	ChargeMeter2 				FgColor		"000 255 000 255"				Linear 	1	1
-	Animate	ChargeMeter2				FgColor		"000 000 255 255"				Linear 	2	1
-	Animate	ChargeMeter3 				FgColor		"255 000 000 255"				Linear 	0	1
-	Animate	ChargeMeter3 				FgColor		"000 255 000 255"				Linear 	1	1
-	Animate	ChargeMeter3 				FgColor		"000 000 255 255"				Linear 	2	1
-	Animate	ChargeMeter4 				FgColor		"255 000 000 255"				Linear 	0	1
-	Animate	ChargeMeter4				FgColor		"000 255 000 255"				Linear 	1	1
-	Animate	ChargeMeter4 				FgColor		"000 000 255 255"				Linear 	2	1
+	Animate	ChargeMeter1		FgColor		"255 000 000 255"		Linear	0	1
+	Animate	ChargeMeter1		FgColor		"000 255 000 255"		Linear	1	1
+	Animate	ChargeMeter1		FgColor		"000 000 255 255"		Linear	2	1
+	Animate	ChargeMeter2		FgColor		"255 000 000 255"		Linear	0	1
+	Animate	ChargeMeter2		FgColor		"000 255 000 255"		Linear	1	1
+	Animate	ChargeMeter2		FgColor		"000 000 255 255"		Linear	2	1
+	Animate	ChargeMeter3		FgColor		"255 000 000 255"		Linear	0	1
+	Animate	ChargeMeter3		FgColor		"000 255 000 255"		Linear	1	1
+	Animate	ChargeMeter3		FgColor		"000 000 255 255"		Linear	2	1
+	Animate	ChargeMeter4		FgColor		"255 000 000 255"		Linear	0	1
+	Animate	ChargeMeter4		FgColor		"000 255 000 255"		Linear	1	1
+	Animate	ChargeMeter4		FgColor		"000 000 255 255"		Linear	2	1
 
-	RunEvent HudMedicChargedLoop		3
+	RunEvent HudMedicChargedLoop		3.0
 }
 
 event HudMedicChargedLoop
 {
-	RunEvent HudMedicCharged 			0.0
+	RunEvent HudMedicCharged		0.0
 }
 
 event HudMedicChargedStop
 {
-	StopEvent HudMedicCharged 			0.0
-	StopEvent HudMedicChargedLoop 		0.0
+	StopEvent HudMedicCharged		0.0
+	StopEvent HudMedicChargedLoop		0.0
 
-	Animate	ChargeMeter 				FgColor		"White"				Linear 	0.0	0.001
+	Animate	ChargeMeter		FgColor		"White"		Linear	0.0	0.001
 
-	Animate	ChargeMeter1 				FgColor		"White"				Linear 	0.0	0.001
-	Animate	ChargeMeter2 				FgColor		"White"				Linear 	0.0	0.001
-	Animate	ChargeMeter3 				FgColor		"White"				Linear 	0.0	0.001
-	Animate	ChargeMeter4 				FgColor		"White"				Linear 	0.0	0.001
+	Animate	ChargeMeter1		FgColor		"White"		Linear	0.0	0.001
+	Animate	ChargeMeter2		FgColor		"White"		Linear	0.0	0.001
+	Animate	ChargeMeter3		FgColor		"White"		Linear	0.0	0.001
+	Animate	ChargeMeter4		FgColor		"White"		Linear	0.0	0.001
 }
 
 //==============================================================================
@@ -255,7 +286,7 @@ event HudMedicChargedStop
 //Match hud respawn
 event TeamStatus_PlayerDead
 {
-	SetVisible respawntime  1 0.0
+	SetVisible respawntime	1 0.0
 }
 
 event TeamStatus_PlayerAlive
@@ -268,18 +299,18 @@ event TeamStatus_PlayerAlive
 //KOTH timer inactive
 event ActiveTimerHighlight
 {
-	Animate TimePanelValue FgColor	"White"		Linear 0.1 0.001
+	Animate		TimePanelValue		FgColor		"White"		Linear 0.1 0.001
 }
 event ActiveTimerDim
 {
-	Animate 	TimePanelValue 	FgColor		"WhiteGray"		Linear 	0.0 0.001
+	Animate	TimePanelValue		FgColor		"WhiteGray"		Linear	0.0 0.001
 }
 
 //==============================================================================
 
 event HudTournamentSetupPanelOpen
 {
-	Animate	HudTournamentSetup	ypos  61	Spline 0.0 0.2
+	Animate	HudTournamentSetup	ypos	61	Spline 0.0 0.2
 }
 
 event HudTournamentSetupPanelClose
@@ -292,19 +323,19 @@ event HudTournamentSetupPanelClose
 // Show player model on spy disguise
 event HudSpyDisguiseFadeIn
 {
-	Animate HudPlayerClass			xpos		0			Linear 0.0 0.001
-	Animate ModelPin			xpos    0			Linear 0.0 0.001
+	Animate HudPlayerClass		xpos		0		Linear 0.01 0.001
+	Animate ModelPin		xpos		0		Linear 0.01 0.001
 
-  SetVisible Disguising  1 0.0
-  SetVisible Disguising  0 1.0
-  SetVisible DisguisingShadow  1 0.0
-  SetVisible DisguisingShadow  0 1.0
+	SetVisible Disguising	1 0.0
+	SetVisible Disguising	0 1.0
+	SetVisible DisguisingShadow	1 0.0
+	SetVisible DisguisingShadow	0 1.0
 }
 
 event HudSpyDisguiseFadeOut
 {
-	Animate HudPlayerClass			xpos    -200				Linear 0.0 0.001
-	Animate ModelPin			xpos		200			Linear 0.0 0.001
+	Animate HudPlayerClass		xpos		-200		Linear 0.0 0.001
+	Animate ModelPin		xpos		200		Linear 0.0 0.001
 }
 
 event HudSpyDisguiseChanged{}
@@ -332,6 +363,7 @@ event HudTournament_ShowTimerDefault
 event HudTournament_HideTimer
 {
 	SetVisible CountdownLabel 0 0.0
+	//Animate HudScope		xpos	6969	Linear 0.0 0.1
 }
 
 //==============================================================================
@@ -339,12 +371,15 @@ event HudTournament_HideTimer
 //Casual match start count down
 event HudMatchStatus_ShowMatchStartDoors
 {
-  //SetVisible CountdownLabel 0.0 9.9
-  Animate CountdownLabel ypos 150 Linear 0.0 0.0
+	Animate CountdownLabel		ypos	150	Linear 0.0 0.0
+	//SetVisible CountdownLabel 1 0.0
+	//SetVisible CountdownLabel 0 9.9
+	//Animate HudScope		xpos	6969	Linear 0.0 0.1
 }
 
 event HudMatchStatus_ShowCountdown
 {
 	SetVisible CountdownLabel 1 0.0
 	SetVisible CountdownLabel 0 9.9
+	//Animate HudScope		xpos	6969	Linear 0.0 0.1
 }

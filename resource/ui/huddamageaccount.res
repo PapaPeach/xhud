@@ -25,10 +25,24 @@
 		"wide"		"50"
 		"tall"		"15"
 		"visible"		"1"
-		"enabled"			"1"
 		"labelText"		"%metal%"
-		"textAlignment"		"east"
+		"textAlignment"	"east"
 		"fgcolor"		"Last Damage Done"
 		"font"		"Size 20"
+	}
+
+	"DamageAccountValueCenter"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"DamageAccountValueCenter"
+		"xpos"		"cs-0.5"
+		"ypos"		"c20"
+		"wide"		"50"
+		"tall"		"15"
+		"visible"		"0"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+		"fgcolor"		"Last Damage Done"
+		"font"		"Size 16"
 	}
 }

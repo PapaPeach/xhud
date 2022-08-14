@@ -97,7 +97,7 @@
 
 		"render_texture"	"0"
 		"fov"			"30"
-		"allow_rot"		"1"
+		"allow_manip"	"1"
 
 		"model"
 		{

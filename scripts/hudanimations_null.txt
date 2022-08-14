@@ -1,4 +1,4 @@
-//event LevelInit{}
+//event LevelInit{}	//USED
 event OpenWeaponSelectionMenu{}
 event CloseWeaponSelectionMenu{}
 //event MenuOpen{}//NICE
@@ -13,15 +13,15 @@ event HintMessageShow{}
 //event HintMessageHide{}//NEEDED
 event KeyHintMessageShow{}
 //event KeyHintMessageHide{}//NEEDED
-//event HudHealthBonusPulse{}   //USED
+//event HudHealthBonusPulse{}	//USED
 event HudHealthBonusPulseLoop{}
-//event HudHealthBonusPulseStop{}   //USED
-//event HudHealthDyingPulse{}   //USED
+//event HudHealthBonusPulseStop{}	//USED
+//event HudHealthDyingPulse{}	//USED
 event HudHealthDyingPulseLoop{}
-//event HudHealthDyingPulseStop{}   //USED
-//event HudLowAmmoPulse{}   //USED
+//event HudHealthDyingPulseStop{}	//USED
+//event HudLowAmmoPulse{}	//USED
 event HudLowAmmoPulseLoop{}
-//event HudLowAmmoPulseStop{}   //USED
+//event HudLowAmmoPulseStop{}	//USED
 event ControlPointIconShrink{}
 event ControlPointIconGrow{}
 event AccountMoneyRemoved{}
@@ -31,19 +31,19 @@ event FlagOutlineHide{}
 event FlagOutline{}
 event HudSpyDisguiseChanged{}
 event HudSpyDisguiseHide{}
-//event HudSpyDisguiseFadeIn{}   //USED
-//event HudSpyDisguiseFadeOut{}   //USED
+//event HudSpyDisguiseFadeIn{}	//USED
+//event HudSpyDisguiseFadeOut{}	//USED
 event OvertimeShow{}
-//event HudSnapShotReminderIn{}   //USED
+//event HudSnapShotReminderIn{}	//USED
 event HudReplayReminderIn{}
 event HudReplayReminderIn2{}
 event HudReplayTipIn{}
 event HudReplayTipOut{}
-//event HudTournamentSetupPanelOpen{}   //USED
-//event HudTournamentSetupPanelClose{}   //USED
-//event HudMedicCharged{}   //USED
-//event HudMedicChargedLoop{}   //USED
-//event HudMedicChargedStop{}   //USED
+//event HudTournamentSetupPanelOpen{}	//USED
+//event HudTournamentSetupPanelClose{}	//USED
+//event HudMedicCharged{}	//USED
+//event HudMedicChargedLoop{}	//USED
+//event HudMedicChargedStop{}	//USED
 event VideoCaptionFadeIn{}
 event VideoCaptionFadeOut{}
 event ArenaVsPanelOnShow{}
@@ -53,8 +53,8 @@ event HudCartAlarmPulse{}
 event HudCartAlarmPulseLoop{}
 event HudCartAlarmPulseStop{}
 event ActiveTimerBGPulse{}
-//event ActiveTimerHighlight{}
-//event ActiveTimerDim{}   //USED
+//event ActiveTimerHighlight{}	//USED
+//event ActiveTimerDim{}	//USED
 //event OvertimeLabelPulseRed{}//NICE
 //event SuddenDeathLabelPulseRed{}//NICE
 event TeamsFullArrowAnimate{}
@@ -77,7 +77,7 @@ event AddToCartBlink{}
 event NotificationsPresentBlink{}
 event NotificationsPresentBlinkLoop{}
 event NotificationsPresentBlinkStop{}
-//event DamagedPlayer{}   //USED
+//event DamagedPlayer{}	//USED
 event SpyWarningFlash{}
 event SpyWarningFlashLoop{}
 event SpyWarningFlashEnd{}
@@ -143,9 +143,9 @@ event QuestItem_Back_OtherSelected{}
 event QuestItem_Back_NoneSelected{}
 event QuestItem_Highlight_On_Halloween{}
 event QuestItem_Highlight_Off_Halloween{}
-event CompetitiveGame_LowerChatWindow{}
-event CompetitiveGame_RestoreChatWindow{}
-event HudTournament_MoveChatWindow{}
+//event CompetitiveGame_LowerChatWindow{}
+//event CompetitiveGame_RestoreChatWindow{}
+//event HudTournament_MoveChatWindow{}
 event HudTournament_MoveTimerDown{}
 event HudTournament_AnimateTeams_In{}
 event HudTournament_AnimateTeams_Out{}
@@ -156,13 +156,13 @@ event HudTournament_DoorsCleanup{}
 event PlayDoorSlamParticles{}
 event PlayDoorCloseAnim{}
 event PlayDoorOpenAnim{}
-//event HudTournament_ShowTimerCompetitive{}   //USED
-//event HudTournament_ShowTimerDefault{}   //USED
-//event HudTournament_HideTimer{}   //USED
+//event HudTournament_ShowTimerCompetitive{}	//USED
+//event HudTournament_ShowTimerDefault{}	//USED
+//event HudTournament_HideTimer{}	//USED
 event HudTournament_ShowRoundSign{}
 event HudTournament_PlaySignAnim{}
-//event TeamStatus_PlayerDead{}   //USED
-//event TeamStatus_PlayerAlive{}   //USED
+//event TeamStatus_PlayerDead{}	//USED
+//event TeamStatus_PlayerAlive{}	//USED
 event HudMatchStatus_ShowMatchWinDoors{}
 event HudMatchStatus_ShowMatchWinDoors_NoOpen{}
 //event HudMatchSummary_SlideInPanels{}//NEEDED
@@ -171,12 +171,12 @@ event MMenu_PlayList_Collapse{}
 event MMenu_PlayList_Collapse_Immediate{}
 event MMenu_SafeMode_Blink{}
 event PvPRankModelClicked{}
-event PvPRankLevelUpXPBar{}
-event PvPRankLevelUpModel{}
-event PvPRankLevelDownXPBar{}
-event PvPRankLevelDownModel{}
+//event PvPRankLevelUpXPBar{}//TBD
+//event PvPRankLevelUpModel{}//TBD
+//event PvPRankLevelDownXPBar{}//TBD
+//event PvPRankLevelDownModel{}//TBD
 //event CompetitiveGame_ShowPvPRankPanel{}//Needed?
-event PvPRankPanelShowXPChange{}
+//event PvPRankPanelShowXPChange{}//TBD
 event PyroVsHeavyWar_ShowChooseScene{}
 event PyroVsHeavyWar_PyroWinnerScene{}
 event CasualCategory_Checkbox_Hide{}

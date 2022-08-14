@@ -255,7 +255,7 @@
 		"wrap"								"1"
 		"font"								"Size 40"
 		"fgcolor_override"			"Red"
-		"labelText"							"Lost connection to the Steam"
+		"labelText"							"Runnin' Low On Steam©"
 		"textAlignment"						"west"
 	}
 
@@ -1802,6 +1802,130 @@
 			"pin_to_sibling_corner" "1"
 		}
 
+		"DmgDealtCenter"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgDealtCenter"
+			"font"			"Size 16"
+			"labelText"		"DMG By Center"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"4"
+			"wide"			"140"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"			"engine dmgcenter; alias x_dmgpos_dump echo dpc"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "SpeedometerOn"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"DmgDealtAmmo"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DmgDealtAmmo"
+			"font"			"Size 16"
+			"labelText"		"DMG By Ammo"
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"wide"			"140"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"			"engine dmgammo; alias x_dmgpos_dump echo dpa"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "DmgDealtCenter"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
+		}
+
+		"MiniAmmoOn"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"MiniAmmoOn"
+			"font"			"Size 16"
+			"labelText"		"Mini Ammo On"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"4"
+			"wide"			"140"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"			"engine miniammoon; alias x_miniammo_dump echo ma1"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "DmgDealtCenter"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"MiniAmmoOff"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"MiniAmmoOff"
+			"font"			"Size 16"
+			"labelText"		"Mini Ammo Off"
+			"textAlignment"	"center"
+			"xpos"			"4"
+			"ypos"			"0"
+			"wide"			"140"
+			"tall"			"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"			"engine miniammooff; alias x_miniammo_dump echo ma0"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "MiniAmmoOn"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
+		}
+
 		"RecSettingsOn"
 		{
 			"ControlName"	"CExButton"
@@ -1828,7 +1952,7 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "SpeedometerOn"
+			"pin_to_sibling" "MiniAmmoOn"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "2"
 		}

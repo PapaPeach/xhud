@@ -74,8 +74,6 @@
 		{
 			"ControlName"					"CExImageButton"
 			"fieldName"						"FindAGameButton"
-			"xpos"							"0"
-			"ypos"							"0"
 			"zpos"							"100"
 			"wide"							"80"
 			"tall"							"24"
@@ -157,8 +155,6 @@
 		{
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot1"
-			"xpos"							"0"
-			"ypos"							"0"
 			"zpos"							"100"
 			"wide"							"25"
 			"tall"							"24"
@@ -179,8 +175,6 @@
 		{
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot2"
-			"xpos"							"0"
-			"ypos"							"0"
 			"zpos"							"100"
 			"wide"							"25"
 			"tall"							"24"
@@ -201,8 +195,6 @@
 		{
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot3"
-			"xpos"							"0"
-			"ypos"							"0"
 			"zpos"							"100"
 			"wide"							"25"
 			"tall"							"24"
@@ -223,8 +215,6 @@
 		{
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot4"
-			"xpos"							"0"
-			"ypos"							"0"
 			"zpos"							"100"
 			"wide"							"25"
 			"tall"							"24"
@@ -245,8 +235,6 @@
 		{
 			"ControlName"					"CDashboardPartyMember"
 			"fieldName"						"PartySlot5"
-			"xpos"							"0"
-			"ypos"							"0"
 			"zpos"							"100"
 			"wide"							"25"
 			"tall"							"24"
@@ -486,8 +474,6 @@
 			{
 				"ControlName"				"Panel"
 				"fieldName"					"OuterShadow"
-				"xpos"						"0"
-				"ypos"						"0"
 				"zpos"						"-1"
 				"wide"						"f0"
 				"tall"						"f0"
