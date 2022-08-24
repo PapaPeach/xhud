@@ -321,6 +321,7 @@
 		"wrap"				"0"
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"TransparentBlack"
+		"selectionColor_override" "MainTheme"
 		"labelText"			"Enter Score Here"
 		"textAlignment"		"center"
 	}

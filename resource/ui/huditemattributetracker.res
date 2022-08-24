@@ -10,6 +10,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/transparent_viewmodels/transparent75"
 		"scaleImage"	"1"
+		"alpha"			"1"
 	}
 
 	"Transparent60"
@@ -22,6 +23,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/transparent_viewmodels/transparent60"
 		"scaleImage"	"1"
+		"alpha"			"1"
 	}
 
 	"Transparent45"
@@ -34,6 +36,7 @@
 		"enabled"		"1"
 		"image"			"replay/thumbnails/transparent_viewmodels/transparent45"
 		"scaleImage"	"1"
+		"alpha"			"1"
 	}
 
 	//TODO: check this

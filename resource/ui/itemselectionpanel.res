@@ -120,6 +120,7 @@
 		"unicode"		"1"
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"TransparentBlack"
+		"selectionColor_override" "MainTheme"
 		"paintbackgroundtype" "0"
 		"font"		"Size 10"
 	}

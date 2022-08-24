@@ -180,6 +180,7 @@
 		"unicode"		"1"
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"TransparentBlack"
+		"selectionColor_override" "MainTheme"
 		"paintbackgroundtype" "0"
 		"font"		"Size 10"
 	}
@@ -280,7 +281,7 @@
 		"bgcolor_override"	"Blank"
 		"disabledFgColor_override" "White"
 		"disabledBgColor_override" "Blank"
-		"selectionColor_override" "Blank"
+		"selectionColor_override" "MainTheme"
 		"selectionTextColor_override" "White"
 		"defaultSelectionBG2Color_override" "Blank"
 
@@ -311,7 +312,7 @@
 		"bgcolor_override"	"Blank"
 		"disabledFgColor_override" "White"
 		"disabledBgColor_override" "Blank"
-		"selectionColor_override" "Blank"
+		"selectionColor_override" "MainTheme"
 		"selectionTextColor_override" "White"
 		"defaultSelectionBG2Color_override" "Blank"
 	}

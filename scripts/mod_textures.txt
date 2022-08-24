@@ -1803,7 +1803,6 @@
 		"leaderboard_dominated"
 		{
 			"file"		"vgui/logos/killstreaks/blackdom"
-			"negfile"		"vgui/logos/killstreaks/whitedom"
 			"x"		"0"
 			"y"		"0"
 			"width"		"64"

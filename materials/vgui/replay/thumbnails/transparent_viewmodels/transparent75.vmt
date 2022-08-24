@@ -8,6 +8,6 @@
 
 	"<dx90"
 	{
-		"$normalmap" "vgui/gfx/vgui/trans_background"
+		"$normalmap" "hud/null_texture"
 	}
 }

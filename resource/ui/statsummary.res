@@ -13,29 +13,44 @@
 		"visible"		"1"
 		"bgcolor_override"		"TransparentBlack"
 	}
+	"BGMask"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldname"		"BGMask"
+		"ypos"			"299"
+		"zpos"			"100"
+		"wide"			"f0"
+		"tall"			"100"
+		"visible"		"1"
+		"bgcolor_override"		"BlackLight"
+	}
 	"LoadingX"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"LoadingX"
-		"xpos"		"r54"
-		"ypos"		"r23"
+		"xpos"		"-12"
+		"ypos"		"4"
 		"zpos"		"101"
-		"wide"		"26"
-		"tall"		"26"
+		"wide"		"40"
+		"tall"		"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"		"replay/thumbnails/menu/Xloading"
 		"scaleimage"		"1"
+
+		"pin_to_sibling"		"BGMask"
+		"pin_corner_to_sibling" "4"
+		"pin_to_sibling_corner" "4"
 	}
 	"LoadingIcon"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"LoadingIcon"
-		"xpos"		"-7"
-		"ypos"		"-4"
+		"xpos"		"-8"
+		"ypos"		"-5"
 		"zpos"		"101"
-		"wide"		"46"
-		"tall"		"23"
+		"wide"		"o2"
+		"tall"		"34"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"		"replay/thumbnails/menu/Xcat"
@@ -119,7 +134,7 @@
 	}
 	"StatData"
 	{
-		"ypos"	"-58"		//"-82"
+		"ypos"	"-58"
 
 		"BarChartCustomBG"
 		{

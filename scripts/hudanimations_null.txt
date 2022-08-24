@@ -108,7 +108,7 @@ event StartParticle0{}
 event StartParticle1{}
 event StartParticle2{}
 event ShowFoundLabels{}
-event CollectionCrafting_ItemRecieved{}
+//event CollectionCrafting_ItemRecieved{}//NEEDED
 event CollectionCrafting_OKBlink_Repeatable{}
 event CollectionCrafting_OKBlink{}
 event CollectionCrafting_ShowSendButton{}
@@ -149,9 +149,9 @@ event QuestItem_Highlight_Off_Halloween{}
 event HudTournament_MoveTimerDown{}
 event HudTournament_AnimateTeams_In{}
 event HudTournament_AnimateTeams_Out{}
-//event HudMatchStatus_ShowMatchStartDoors{}//Needed?
+event HudMatchStatus_ShowMatchStartDoors{}
 event HudMatchStatus_ShowRankMatch{}
-//event HudMatchStatus_ShowCountdown{}//Needed?
+//event HudMatchStatus_ShowCountdown{}//NICE
 event HudTournament_DoorsCleanup{}
 event PlayDoorSlamParticles{}
 event PlayDoorCloseAnim{}
@@ -171,10 +171,10 @@ event MMenu_PlayList_Collapse{}
 event MMenu_PlayList_Collapse_Immediate{}
 event MMenu_SafeMode_Blink{}
 event PvPRankModelClicked{}
-//event PvPRankLevelUpXPBar{}//TBD
-//event PvPRankLevelUpModel{}//TBD
-//event PvPRankLevelDownXPBar{}//TBD
-//event PvPRankLevelDownModel{}//TBD
+event PvPRankLevelUpXPBar{}
+event PvPRankLevelUpModel{}
+event PvPRankLevelDownXPBar{}
+event PvPRankLevelDownModel{}
 //event CompetitiveGame_ShowPvPRankPanel{}//Needed?
 //event PvPRankPanelShowXPChange{}//TBD
 event PyroVsHeavyWar_ShowChooseScene{}

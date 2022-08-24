@@ -338,7 +338,7 @@
 		"tall"	 "310"
 		"xpos"	"-6"
 		"ypos"	"-6"
-		"alpha"	"20"
+		"alpha"	"50"
 	}
 
 	HudCloseCaption

@@ -481,7 +481,9 @@
 			"enabled"		"1"
 			"actionsignallevel" "2"
 			"NumericInputOnly"	"1"
+			"fgcolor_override"	"White"
 			"bgcolor_override"	"TransparentBlack"
+			"selectionColor_override" "MainTheme"
 			"maxchars"		"18"
 
 			"consume_mode"

@@ -358,6 +358,7 @@
 			"proportionaltoparent"		"1"
 			"fgcolor_override"	"White"
 			"bgcolor_override"	"TransparentBlack"
+			"selectionColor_override" "MainTheme"
 			"paintbackgroundtype" "0"
 			"labelText"			""
 			"font"				"Size 14"

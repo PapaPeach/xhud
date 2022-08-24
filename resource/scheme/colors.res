@@ -1,14 +1,3 @@
-//=====================================================================================
-// COLORS
-//=====================================================================================
-// Here you can change some of the colors used in the hud
-// TF2 uses the R(red) G(green) B(blu) A(alpha) color code
-// The color values can from 0 to 255
-//=====================================================================================
-// For more in depth information checkout the wiki:
-// https://github.com/Hypnootize/Hypnotize-Hud/wiki/Colors
-//=====================================================================================
-
 Scheme
 {
 	Colors

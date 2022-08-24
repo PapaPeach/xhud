@@ -1,6 +1,5 @@
 "GameMenu"
 {
-	//////////DON'T TOUCH SECTION//////////
 	"Servers"
 	{
 		"label"			"Servers"
@@ -17,7 +16,7 @@
 	"Inventory"
 	{
 		"label"			"Inventory"
-		"command"		"engine open_charinfo"
+		"command"		"engine open_charinfo_direct"	//open_charinfo
 	}
 
 	"Store"
@@ -122,8 +121,8 @@
 		"label"			"À"
 		"command"		"engine toggle cl_hud_minmode"
 		"tooltip"		"Optimize (requires restart)"
-		//"OnlyInGame"	"1"
 	}
+
 	"InvisiblePlayersFix"
 	{
 		"label"			"C"
