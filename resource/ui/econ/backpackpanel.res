@@ -4,8 +4,6 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"backpack_panel"
-		"xpos"			"0"
-		"ypos"			"0"
 		"wide"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -324,7 +322,7 @@
 		"labelText"		"Stock Items"
 		"Font"			"Size 10"
 		"textAlignment"	"east"
-		"textinsety"		"-2"
+		"textinsety"	"-2"
 		"xpos"			"c231"
 		"ypos"			"37"
 		"zpos"			"1"

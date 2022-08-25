@@ -268,11 +268,11 @@
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-36"
-		"team1_max_expand"	"264"		//ASPECT RATIO AFFECTED
+		"team1_max_expand"	"264"
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c36"
-		"team2_max_expand"	"264"		//ASPECT RATIO AFFECTED
+		"team2_max_expand"	"264"
 
 		"playerpanels_kv"
 		{
@@ -397,10 +397,6 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
-				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"3"
 			}
 			"ReadyImage"
 			{
@@ -445,7 +441,7 @@
 				"zpos"			"6"
 				"wide"			"25"
 				"tall"			"15"
-				"visible"		"0"
+				"visible"		"0"		//TODO
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
 				"fgcolor"		"Green"

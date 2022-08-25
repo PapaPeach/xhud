@@ -24,14 +24,15 @@
 		"fieldName"		"TitleLabel"
 		"font"			"Size 14"
 		"labelText"		"#Store_Maps_Title"
-		"textAlignment"	"north-west"
+		"textAlignment"	"west"
 		"xpos"			"c-292"
-		"ypos"			"20"
+		"ypos"			"34"
 		"zpos"			"5"
 		"wide"			"500"
-		"tall"			"25"
+		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"White"
 	}
 	
 	"SubTitleLabel"
@@ -40,35 +41,18 @@
 		"fieldName"		"SubTitleLabel"
 		"font"			"Size 8"
 		"labelText"		"#Store_Maps_SubTitle"
-		"textAlignment"	"south-west"
-		"xpos"			"c-292"
-		"ypos"			"30"
+		"textAlignment"	"north-west"
 		"zpos"			"5"
 		"wide"			"500"
-		"tall"			"25"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"96 90 85 255"
+		"fgcolor"		"WhiteGray"
+
+		"pin_to_sibling"		"TitleLabel"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"2"
 	}
-	
-	"LearnMoreButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"LearnMoreButton"
-		"xpos"			"c175"
-		"ypos"			"20"
-		"zpos"			"5"
-		"wide"			"120"
-		"tall"			"25"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#Store_LearnMore"
-		"font"			"Size 14"
-		"textAlignment"	"center"
-		"Command"		"maps_learnmore"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}	
 
 	"ClassFilterLabel" {"visible" "0"}
 	"ClassFilterNavPanel" {"visible" "0"}
