@@ -26,7 +26,7 @@
 
 		"collapsed_height"				"0"
 		"expanded_height"				"200"
-		"resize_time"					"0.3"
+		"resize_time"					"0.1"
 		"invalidate_parent_on_resize"	"0"
 	}
 

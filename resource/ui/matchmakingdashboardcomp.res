@@ -1,10 +1,10 @@
 #base "MatchMakingDashboardSidePanel.res"
 
-"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+"Resource/UI/MatchMakingDashboardComp.res"
 {
-	"CasualCriteria"
+	"CompStats"
 	{
-		"fieldName"		"CasualCriteria"
+		"fieldName"		"CompStats"
 		"xpos"			"rs1"
 		"ypos"			"24"
 		"zpos"			"1002"
@@ -14,10 +14,9 @@
 		"proportionaltoparent"	"1"
 	}
 
-	"criteria"
+	"stats"
 	{
-		"ControlName"	"CCasualCriteriaPanel"
-		"fieldName"		"criteria"
+		"fieldName"		"stats"
 		"xpos"			"rs1"
 		"ypos"			"2"
 		"zpos"			"100"

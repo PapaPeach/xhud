@@ -50,7 +50,6 @@
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"White"
-
 			"defaultBgColor_override"		"Blank"
 
 			"pin_to_sibling"		"SaveCasualSearchCriteria"
@@ -92,7 +91,6 @@
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
 			"image_drawcolor"	"White"
-
 			"defaultBgColor_override"		"Blank"
 
 			"pin_to_sibling"		"GameModesList"
@@ -121,7 +119,6 @@
 			"fieldName"		"SelectedCount"
 			"xpos"		"0"
 			"ypos"		"2"
-			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"15"
 			"proportionaltoparent"	"1"
@@ -142,10 +139,10 @@
 			"ControlName"	"CScrollableList"
 			"fieldName"		"GameModesList"
 			"xpos"			"cs-0.5"
-			"ypos"			"24"
+			"ypos"			"0"
 			"zpos"			"10"
 			"wide"			"f15"
-			"tall"			"f41"
+			"tall"			"f17"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"restrict_width" "0"
@@ -159,7 +156,7 @@
 				"xpos"			"rs1+3"
 				"ypos"			"0"
 				"tall"			"f0"
-				"wide"			"5" // This gets slammed from client schme.  GG.
+				"wide"			"5"
 				"zpos"			"1000"
 				"nobuttons"		"1"
 				"proportionaltoparent"	"1"
@@ -170,13 +167,11 @@
 				}
 				"UpButton"
 				{
-					"FieldName"		"UpButton"
-					"visible"		"0"
+					"visible"	"0"
 				}
 				"DownButton"
 				{
-					"FieldName"		"DownButton"
-					"visible"		"0"
+					"visible"	"0"
 				}
 			}
 		}

@@ -12,12 +12,6 @@
 		"enabled"		"1"
 		"border"		"TFFatLineBorder"
 
-		"PassedIcon"
-		{
-			"fieldName"		"PassedIcon"
-			"xpos"		"9999"
-		}
-
 		"PassedTitle"
 		{
 			"ControlName"	"Label"
@@ -51,6 +45,12 @@
 			"wrap"			"1"
 			"fgcolor_override"	"White"
 			"noshortcutsyntax" "1"
+		}
+
+		"PassedIcon"
+		{
+			"fieldName"	"PassedIcon"
+			"xpos"	"9999"
 		}
 	}
 
@@ -130,7 +130,6 @@
 		}
 
 		// Temp UI
-
 		"LabelOption1"
 		{
 			"ControlName"	"Label"
@@ -532,7 +531,7 @@
 			"linespacing"	"16"
 		}
 
-		"ComboLabel"
+		"ComboLabel"		//TODO: CLIPS WITH COMBO BOX
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ComboLabel"

@@ -103,7 +103,6 @@
 
 		"pin_to_sibling"		"BackgroundXhudAnchor"
 		"pin_corner_to_sibling"		"3"
-		"pin_to_sibling"		"3"
 	}
 
 	"BottomBar"

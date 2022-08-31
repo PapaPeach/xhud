@@ -67,12 +67,12 @@
 
 	"Shade"
 	{
-		"fieldName"		"Shade"
-		"xpos"			"9999"
+		"fieldName"	"Shade"
+		"xpos"	"9999"
 	}
 	"InnerGradient"
 	{
-		"fieldName"		"InnerGradient"
-		"xpos"		"9999"
+		"fieldName"	"InnerGradient"
+		"xpos"	"9999"
 	}
 }
