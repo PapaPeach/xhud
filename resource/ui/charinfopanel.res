@@ -4,14 +4,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"character_info"
-		"xpos"			"0"
-		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"settitlebarvisible"	"1"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"				"Blank"
 		"infocus_bgcolor_override"		"Blank"
 		"outoffocus_bgcolor_override"	"Blank"
@@ -32,8 +29,6 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CharInfoBG"
-		"xpos"			"0"
-		"ypos"			"0"
 		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"480"
