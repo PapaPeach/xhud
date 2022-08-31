@@ -531,21 +531,6 @@
 			"linespacing"	"16"
 		}
 
-		"ComboLabel"		//TODO: CLIPS WITH COMBO BOX
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ComboLabel"
-			"font"			"Size 11"
-			"labelText"		"%combo_label%"
-			"textAlignment"	"east"
-			"xpos"			"5"
-			"ypos"			"245"
-			"zpos"			"1"
-			"wide"			"75"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-		}
 		"ComboBox"
 		{
 			"ControlName"		"ComboBox"

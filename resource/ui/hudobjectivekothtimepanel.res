@@ -117,19 +117,4 @@
 		"bgcolor_override"		"Red"
 		"proportionaltoparent"		"1"
 	}
-
-	"ActiveTimerBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"ActiveTimerBG"
-		"xpos"				"0"
-		"ypos"				"9"
-		"zpos"				"1"
-		"wide"				"78"
-		"tall"				"33"
-		"visible"			"0"
-		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_active_bg"
-		"scaleImage"		"1"
-	}
 }
