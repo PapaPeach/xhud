@@ -2,16 +2,16 @@
 event OpenWeaponSelectionMenu{}
 event CloseWeaponSelectionMenu{}
 //event MenuOpen{}//NICE
-//event MenuClose{}//NICE
+//event MenuClose{}	//USED
 event MenuPulse{}
 event TimerIncrement{}
 event TimerDecrement{}
 event ResourceIncrement{}
 event ResourceDecrement{}
 event ResourcePickup{}
-event HintMessageShow{}
+//event HintMessageShow{}TBD
 //event HintMessageHide{}//NEEDED
-event KeyHintMessageShow{}
+//event KeyHintMessageShow{}//TBD
 //event KeyHintMessageHide{}//NEEDED
 //event HudHealthBonusPulse{}	//USED
 event HudHealthBonusPulseLoop{}
@@ -175,8 +175,8 @@ event PvPRankLevelUpXPBar{}
 event PvPRankLevelUpModel{}
 event PvPRankLevelDownXPBar{}
 event PvPRankLevelDownModel{}
-//event CompetitiveGame_ShowPvPRankPanel{}//Needed?
-//event PvPRankPanelShowXPChange{}//TBD
+event CompetitiveGame_ShowPvPRankPanel{}
+event PvPRankPanelShowXPChange{}
 event PyroVsHeavyWar_ShowChooseScene{}
 event PyroVsHeavyWar_PyroWinnerScene{}
 event CasualCategory_Checkbox_Hide{}

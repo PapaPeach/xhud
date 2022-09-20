@@ -149,6 +149,31 @@
 		"pin_to_sibling_corner"		"7"
 	}
 
+	"UberTimerBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"UberTimerBG"
+		"xpos"		"cs-0.5"
+		"ypos"		"c41"
+		"zpos"		"-2"
+		"wide"		"60"
+		"tall"		"0"
+		"visible"		"0"
+		"bgcolor_override"		"TransparentGrayDarkest"
+	}
+
+	"UberTimer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"UberTimer"
+		"zpos"		"-1"
+		"wide"		"0"
+		"tall"		"2"
+		"visible"		"0"
+
+		"pin_to_sibling"	"UberTimerBG"
+	}
+
 	//TF2 Stuff
 
 	HudWeaponAmmo
@@ -240,7 +265,7 @@
 	CMainTargetID
 	{
 		"xpos"		"cs-0.5"
-		"ypos"		"c42"
+		"ypos"		"c43"
 		"tall"	 	"31"
 		"tall_minmode"	"31"
 	}
@@ -436,6 +461,15 @@
 		"tall"		"65"
 	}
 
+	HudStopWatch
+	{
+		"xpos"		"cs-0.5"
+		"ypos"		"20"
+		"ypos_minmode"		"35"
+		"wide"		"125"
+		"tall"		"70"
+	}
+
 	"HudMenuTauntSelection"
 	{
 		"xpos"		"5"
@@ -454,23 +488,11 @@
 	}
 
 	StatPanel
-	{
-		"xpos"	"9999"
-		"visible"	"0"
-	}
+	{"xpos"	"9999"	"visible"	"0"}
 	FreezePanelCallout
-	{
-		"xpos"	"9999"
-		"visible"	"0"
-	}
+	{"xpos"	"9999"	"visible"	"0"}
 	HudTeamGoal
-	{
-		"xpos"	"9999"
-		"visible"	"0"
-	}
+	{"xpos"	"9999"	"visible"	"0"}
 	HudTeamGoalTournament
-	{
-	"xpos"	"9999"
-	"visible"	"0"
-	}
+	{"xpos"	"9999"	"visible"	"0"}
 }

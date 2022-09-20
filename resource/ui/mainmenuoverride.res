@@ -70,9 +70,7 @@
 		}
 
 		"SaxxySettings"
-		{
-			"xpos"	"9999"
-		}
+		{"xpos"	"9999"}
 	}
 
 	"BackgroundXhudAnchor"
@@ -430,15 +428,9 @@
 					"fgcolor_override"		"White"
 				}
 				"UpButton"
-				{
-					"FieldName"	"UpButton"
-					"xpos"	"9999"
-				}
+				{"FieldName"	"UpButton"	"xpos"	"9999"}
 				"DownButton"
-				{
-					"FieldName"	"DownButton"
-					"xpos"	"9999"
-				}
+				{"FieldName"	"DownButton"	"xpos"	"9999"}
 			}
 		}
 	}
@@ -1350,13 +1342,13 @@
 			"pin_to_sibling"		"XMenuPanel"
 		}
 
-		"XMenuInnerPanel"
+		"XMenuInnerPanel1"
 		{
 			"ControlName"	"EditablePanel"
-			"fieldName"		"XMenuInnerPanel"
+			"fieldName"		"XMenuInnerPanel1"
 			"zpos"		"0"
 			"wide"		"292"
-			"tall"		"353"
+			"tall"		"130"
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"		"BlackLight"
@@ -1367,6 +1359,68 @@
 			"pin_to_sibling_corner"		"6"
 		}
 
+		"RecSettingsOn"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"RecSettingsOn"
+			"font"		"Size 16"
+			"labelText"		"Suggested ConVars"
+			"textAlignment"	"center"
+			"xpos"		"-4"
+			"ypos"		"-4"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"		"engine recsettings; alias x_recsettings_dump echo rs"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "XMenuInnerPanel1"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "0"
+		}
+
+		"RecSettingsOff"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"RecSettingsOff"
+			"font"		"Size 16"
+			"labelText"		"Custom ConVars"
+			"textAlignment"	"center"
+			"xpos"		"4"
+			"ypos"		"0"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"		"engine usersettings; alias x_recsettings_dump echo us"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "RecSettingsOn"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
+		}
+
 		"Scoreboard16v16"
 		{
 			"ControlName"	"CExButton"
@@ -1374,8 +1428,8 @@
 			"font"		"Size 16"
 			"labelText"		"16v16 Scoreboard"
 			"textAlignment"	"center"
-			"xpos"		"-4"
-			"ypos"		"-4"
+			"xpos"		"0"
+			"ypos"		"4"
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
@@ -1393,9 +1447,9 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "XMenuInnerPanel"
+			"pin_to_sibling" "RecSettingsOn"
 			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "0"
+			"pin_to_sibling_corner" "2"
 		}
 
 		"Scoreboard12v12"
@@ -1677,6 +1731,86 @@
 			"pin_to_sibling_corner" "1"
 		}
 
+		"UberTimerOn"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"UberTimerOn"
+			"font"		"Size 16"
+			"labelText"		"Uber Timer On"
+			"textAlignment"	"center"
+			"xpos"		"0"
+			"ypos"		"4"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"		"engine ubertimeron; alias x_ubertimer_dump echo ut1"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "UpperBuildingPosition"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"UberTimerOff"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"UberTimerOff"
+			"font"		"Size 16"
+			"labelText"		"Uber Timer Off"
+			"textAlignment"	"center"
+			"xpos"		"4"
+			"ypos"		"0"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"		"engine ubertimeroff; alias x_ubertimer_dump echo ut0"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "UberTimerOn"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
+		}
+
+		"XMenuInnerPanel2"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"XMenuInnerPanel2"
+			"zpos"		"0"
+			"ypos"		"5"
+			"wide"		"292"
+			"tall"		"76"
+			"visible"		"1"
+			"enabled"		"1"
+			"bgcolor_override"		"BlackLight"
+			"proportionaltoparent"		"1"
+
+			"pin_to_sibling"		"XMenuInnerPanel1"
+			"pin_corner_to_sibling"		"0"
+			"pin_to_sibling_corner"		"2"
+		}
+
 		"HitmarkerOn"
 		{
 			"ControlName"	"CExButton"
@@ -1684,8 +1818,8 @@
 			"font"		"Size 16"
 			"labelText"		"Hitmarkers On"
 			"textAlignment"	"center"
-			"xpos"		"0"
-			"ypos"		"4"
+			"xpos"		"-4"
+			"ypos"		"-4"
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
@@ -1703,9 +1837,9 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "UpperBuildingPosition"
+			"pin_to_sibling" "XMenuInnerPanel2"
 			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
+			"pin_to_sibling_corner" "0"
 		}
 
 		"HitmarkerOff"
@@ -1925,66 +2059,22 @@
 			"pin_to_sibling_corner" "1"
 		}
 
-		"RecSettingsOn"
+		"XMenuInnerPanel3"
 		{
-			"ControlName"	"CExButton"
-			"fieldName"		"RecSettingsOn"
-			"font"		"Size 16"
-			"labelText"		"Suggested ConVars"
-			"textAlignment"	"center"
-			"xpos"		"0"
-			"ypos"		"4"
-			"wide"		"140"
-			"tall"		"14"
+			"ControlName"	"EditablePanel"
+			"fieldName"		"XMenuInnerPanel3"
+			"zpos"		"0"
+			"ypos"		"5"
+			"wide"		"292"
+			"tall"		"76"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine recsettings; alias x_recsettings_dump echo rs"
-			"actionsignallevel"		"2"
+			"bgcolor_override"		"BlackLight"
+			"proportionaltoparent"		"1"
 
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "MiniAmmoOn"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"RecSettingsOff"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"RecSettingsOff"
-			"font"		"Size 16"
-			"labelText"		"Custom ConVars"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"140"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"Command"		"engine usersettings; alias x_recsettings_dump echo us"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "RecSettingsOn"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
+			"pin_to_sibling"		"XMenuInnerPanel2"
+			"pin_corner_to_sibling"		"0"
+			"pin_to_sibling_corner"		"2"
 		}
 
 		"TVMLabel"
@@ -1994,8 +2084,8 @@
 			"font"		"Size 14"
 			"labelText"		"Transparent Weapons:"
 			"textAlignment"	"west"
-			"xpos"		"0"
-			"ypos"		"50"
+			"xpos"		"-4"
+			"ypos"		"-4"
 			"zpos"		"20"
 			"wide"		"143"
 			"tall"		"14"
@@ -2011,9 +2101,9 @@
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"		"Blank"
 
-			"pin_to_sibling" "RecSettingsOn"
+			"pin_to_sibling" "XMenuInnerPanel3"
 			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
+			"pin_to_sibling_corner" "0"
 		}
 
 		"TVMCheck"
@@ -2130,6 +2220,68 @@
 			"pin_to_sibling_corner" "1"
 		}
 
+		"TVMLeft"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"TVMLeft"
+			"font"		"Size 16"
+			"labelText"		"Reduced Blur Left"
+			"textAlignment"	"center"
+			"xpos"		"0"
+			"ypos"		"4"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"		"engine tvmleft; alias x_tvm_dump echo vml"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "TVM60"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"TVMRight"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"TVMRight"
+			"font"		"Size 16"
+			"labelText"		"Reduced Blur Right"
+			"textAlignment"	"center"
+			"xpos"		"4"
+			"ypos"		"0"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"		"engine tvmright; alias x_tvm_dump echo vmr"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "TVMLeft"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
+		}
+
 		"TVMTroubleShoot"
 		{
 			"ControlName"	"CExButton"
@@ -2156,7 +2308,7 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "TVM60"
+			"pin_to_sibling" "TVMLeft"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "2"
 		}
@@ -2174,7 +2326,7 @@
 			"tall"		"24"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine echo =====================; echo; testhudanim QuickReloadHud; exec xhud_load"
+			"Command"		"engine echo =====================; echo; testhudanim QuickReloadHud; exec xhud"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2196,8 +2348,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"XMenuSavePanel"
-			"xpos"		"0"
-			"ypos"		"4"
+			"xpos"		"-5"
+			"ypos"		"-5"
 			"zpos"		"0"
 			"wide"		"292"
 			"tall"		"50"
@@ -2206,8 +2358,8 @@
 			"bgcolor_override"		"BlackLight"
 			"proportionaltoparent"		"1"
 
-			"pin_to_sibling"		"XMenuInnerPanel"
-			"pin_corner_to_sibling"		"0"
+			"pin_to_sibling"		"XMenuPanel"
+			"pin_corner_to_sibling"		"2"
 			"pin_to_sibling_corner"		"2"
 		}
 
@@ -2368,36 +2520,15 @@
 	}
 
 	"Background"
-	{
-		"fieldName"	"Background"
-		"xpos"	"9999"
-	}
+	{"fieldName"	"Background"	"xpos"	"9999"}
 	"TFCharacterImage"
-	{
-		"fieldName"	"TFCharacterImage"
-		"xpos"	"9999"
-	}
+	{"fieldName"	"TFCharacterImage"	"xpos"	"9999"}
 	"RankModelPanel"
-	{
-		"fieldName"	"RankModelPanel"
-		"xpos"	"9999"
-		"show_progress"	"0"
-	}
+	{"fieldName"	"RankModelPanel"	"xpos"	"9999"	"show_progress"	"0"}
 	"QuestLogButton"
-	{
-		"fieldName"	"QuestLogButton"
-		"xpos"	"9999"
-		"visible"	"0"
-	}
+	{"fieldName"	"QuestLogButton"	"xpos"	"9999"	"visible"	"0"}
 	"EventPromo"
-	{
-		"fieldname"	"EventPromo"
-		"xpos"	"9999"
-		"visible"	"0"
-	}
+	{"fieldname"	"EventPromo"	"xpos"	"9999"	"visible"	"0"}
 	"mouseoveritempanel"
-	{
-		"fieldName"	"mouseoveritempanel"
-		"xpos"	"9999"
-	}
+	{"fieldName"	"mouseoveritempanel"	"xpos"	"9999"}
 }

@@ -39,6 +39,32 @@
 		"alpha"			"1"
 	}
 
+	"TransparentLeft"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"TransparentLeft"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/transparent_viewmodels/transparent_left"
+		"scaleImage"	"1"
+		"alpha"			"1"
+	}
+
+	"TransparentRight"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"TransparentRight"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/transparent_viewmodels/transparent_right"
+		"scaleImage"	"1"
+		"alpha"			"1"
+	}
+
 	//TODO: check this
 	"ItemAttributeTracker"
 	{

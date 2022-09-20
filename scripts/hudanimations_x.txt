@@ -29,6 +29,28 @@ event AnimateHitmarker
 	Animate Hitmarker	FgColor	"Blank"	Linear 0.3 0.1
 }
 
+//==============================================================================//Uber Tracker
+
+event MenuClose
+{
+	Animate HudMenu Alpha 	"0"	Linear 0.0 0.2
+	Animate HudMenu SelectionAlpha 	"0"	Linear 0.0 0.2
+	Animate HudMenu FgColor	"Blank"	Linear 0.0 0.2
+	Animate HudMenu MenuColor	"Blank"	Linear 0.0 0.2
+	Animate HudMenu ItemColor	"Blank"	Linear 0.0 0.2
+
+	Animate UberTimerBG tall	2	Linear 0.0 0.001
+	Animate UberTimer	wide	0	Linear	0.0 0.001
+	Animate UberTimer	BgColor	"White"	Linear	0.0 0.001
+
+	Animate UberTimer	wide	60	Linear	0.01 55.0
+	Animate UberTimer	BgColor	"Yellow"	Linear	40.0 0.001
+	Animate UberTimer	BgColor	"Red"	Linear	55.0 0.001
+
+	Animate UberTimerBG tall	0	Linear 60.0 0.001
+	Animate UberTimer	wide	0	Linear	60.0 0.001
+}
+
 //==============================================================================
 
 event QuickReloadHud
@@ -118,6 +140,18 @@ event LowerBuilding
 	Animate BuildingStatusAnchor	ypos	240	Linear 0.0 0.1
 }
 
+event UberTimerOff
+{
+	SetVisible UberTimerBG 0 0.0
+	SetVisible UberTimer	0 0.0
+}
+
+event UberTimerOn
+{
+	SetVisible UberTimerBG 1 0.0
+	SetVisible UberTimer	1 0.0
+}
+
 event HitmarkerOn
 {
 	SetVisible Hitmarker 1 0.0
@@ -173,6 +207,8 @@ event TVM75
 	SetVisible Transparent75 1 0.0
 	SetVisible Transparent60 0 0.0
 	SetVisible Transparent45 0 0.0
+	SetVisible TransparentLeft 0 0.0
+	SetVisible TransparentRight 0 0.0
 }
 
 event TVM60
@@ -180,6 +216,8 @@ event TVM60
 	SetVisible Transparent75 0 0.0
 	SetVisible Transparent60 1 0.0
 	SetVisible Transparent45 0 0.0
+	SetVisible TransparentLeft 0 0.0
+	SetVisible TransparentRight 0 0.0
 }
 
 event TVM45
@@ -187,6 +225,26 @@ event TVM45
 	SetVisible Transparent75 0 0.0
 	SetVisible Transparent60 0 0.0
 	SetVisible Transparent45 1 0.0
+	SetVisible TransparentLeft 0 0.0
+	SetVisible TransparentRight 0 0.0
+}
+
+event TVMLeft
+{
+	SetVisible Transparent75 0 0.0
+	SetVisible Transparent60 0 0.0
+	SetVisible Transparent45 0 0.0
+	SetVisible TransparentLeft 1 0.0
+	SetVisible TransparentRight 0 0.0
+}
+
+event TVMRight
+{
+	SetVisible Transparent75 0 0.0
+	SetVisible Transparent60 0 0.0
+	SetVisible Transparent45 0 0.0
+	SetVisible TransparentLeft 0 0.0
+	SetVisible TransparentRight 1 0.0
 }
 
 //==============================================================================//End animation states

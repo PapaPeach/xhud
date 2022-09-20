@@ -1,0 +1,13 @@
+"Refract"
+{
+	"$refractamount"	"0.0"
+	"$refracttint" "{255 255 255}"
+	"$refractblur" "0.0"
+	"$normalmap"	"vgui/replay/thumbnails/transparent_viewmodels/transparent_left"
+	"$dudvmap"	"0"
+
+	"<dx90"
+	{
+		"$normalmap" "hud/null_texture"
+	}
+}
