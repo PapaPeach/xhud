@@ -5,6 +5,7 @@ event HudSnapShotReminderIn		//Resets various things on death
 	RunEvent HudLowAmmoPulseStop	1.0
 	RunEvent HudMedicChargedStop	1.0
 	RunEvent DamagedPlayer	1.0
+	RunEvent UberTimerHide	1.0
 }
 
 event CollectionCrafting_ItemRecieved		//Fix trade-up background (wiethoofd)
@@ -18,7 +19,7 @@ event CollectionCrafting_ItemRecieved		//Fix trade-up background (wiethoofd)
 event DamagedPlayer
 {
 	StopEvent AnimateHitmarker 0.0
-	RunEvent AnimateHitmarker 0.0.001
+	RunEvent AnimateHitmarker 0.001
 	StopEvent HudSpyDisguiseFadeOut 0.0
 	RunEvent HudSpyDisguiseFadeOut 0.001
 }
@@ -39,16 +40,25 @@ event MenuClose
 	Animate HudMenu MenuColor	"Blank"	Linear 0.0 0.2
 	Animate HudMenu ItemColor	"Blank"	Linear 0.0 0.2
 
-	Animate UberTimerBG tall	2	Linear 0.0 0.001
-	Animate UberTimer	wide	0	Linear	0.0 0.001
-	Animate UberTimer	BgColor	"White"	Linear	0.0 0.001
+	RunEvent UberTimerHide 0.0
+	RunEvent UberTimerRun 0.1
+}
 
-	Animate UberTimer	wide	60	Linear	0.01 55.0
+event UberTimerRun
+{
+	Animate UberTimerBG tall	2	Linear 0.0 0.001
+	Animate UberTimer	BgColor	"White"	Linear	0.0 0.001
+	Animate UberTimer	wide	60	Linear	0.0 55.0
 	Animate UberTimer	BgColor	"Yellow"	Linear	40.0 0.001
 	Animate UberTimer	BgColor	"Red"	Linear	55.0 0.001
+	RunEvent UberTimerHide 60.0
+}
 
-	Animate UberTimerBG tall	0	Linear 60.0 0.001
-	Animate UberTimer	wide	0	Linear	60.0 0.001
+event UberTimerHide
+{
+	StopEvent UberTimerRun 0.0
+	Animate UberTimerBG tall	0	Linear 0.0 0.001
+	Animate UberTimer	wide	0	Linear	0.0 0.001
 }
 
 //==============================================================================
