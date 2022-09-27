@@ -1348,7 +1348,7 @@
 			"fieldName"		"XMenuInnerPanel1"
 			"zpos"		"0"
 			"wide"		"292"
-			"tall"		"130"
+			"tall"		"148"
 			"visible"		"1"
 			"enabled"		"1"
 			"bgcolor_override"		"BlackLight"
@@ -1731,6 +1731,68 @@
 			"pin_to_sibling_corner" "1"
 		}
 
+		"LowHealth75"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"LowHealth75"
+			"font"		"Size 16"
+			"labelText"		"75% Health Warning"
+			"textAlignment"	"center"
+			"xpos"		"0"
+			"ypos"		"4"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"		"engine lowhealth75; alias x_lowhealth_dump echo lh7"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "UpperBuildingPosition"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "2"
+		}
+
+		"LowHealth50"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"LowHealth50"
+			"font"		"Size 16"
+			"labelText"		"50% Health Warning"
+			"textAlignment"	"center"
+			"xpos"		"4"
+			"ypos"		"0"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"enabled"		"1"
+			"Command"		"engine lowhealth50; alias x_lowhealth_dump echo lh5"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "LowHealth75"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "1"
+		}
+
 		"UberTimerOn"
 		{
 			"ControlName"	"CExButton"
@@ -1757,7 +1819,7 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "UpperBuildingPosition"
+			"pin_to_sibling" "LowHealth75"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "2"
 		}
@@ -2310,37 +2372,6 @@
 
 			"pin_to_sibling" "TVMLeft"
 			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"SmartReload"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"SmartReload"
-			"font"		"Size 28"
-			"labelText"		"Smart Hud Reload"
-			"textAlignment"	"center"
-			"xpos"		"-4"
-			"ypos"		"-4"
-			"wide"		"284"
-			"tall"		"24"
-			"visible"		"1"
-			"enabled"		"1"
-			"Command"		"engine echo =====================; echo; testhudanim QuickReloadHud; exec xhud"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "XMenuInnerPanel"
-			"pin_corner_to_sibling" "2"
 			"pin_to_sibling_corner" "2"
 		}
 

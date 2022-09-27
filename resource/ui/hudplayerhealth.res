@@ -193,21 +193,6 @@
 
 		"pin_to_sibling"		"PlayerStatusHealthValue"
 	}
-	"CritHeal"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CritHeal"
-		"xpos"		"cs-0.5"
-		"ypos"		"cs-0.5"
-		"zpos"		"-9"
-		"wide"		"100"
-		"tall"		"100"
-		"enabled"		"1"
-		"visible"		"1"
-		"TextAlignment"		"center"
-		"font"		"Hitmarker"
-		"fgcolor"		"Blank"
-	}
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -215,7 +200,7 @@
 		"xpos"		"0"			//NEEDED FOR STATUS ICONS TO WORK
 		"visible"		"0"
 	}
-	"StatusIconsAnchor"			//Credit to DrinkinTea for resolution compatibility
+	"StatusIconsAnchor"			//DrinkinTea resolution compatibility
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"StatusIconsAnchor"

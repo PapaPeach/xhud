@@ -136,8 +136,8 @@ event TallChat
 
 event ShortChat
 {
-	Animate HudChat	tall	48	Linear 0.0 0.1
-	Animate ChatFiltersButton	ypos	35	Linear 0.0 0.1
+	Animate HudChat	tall	58	Linear 0.0 0.1
+	Animate ChatFiltersButton	ypos	45	Linear 0.0 0.1
 }
 
 event UpperBuilding
@@ -160,6 +160,16 @@ event UberTimerOn
 {
 	SetVisible UberTimerBG 1 0.0
 	SetVisible UberTimer	1 0.0
+}
+
+event LowHealth50
+{
+	Animate HealthBarLowHealth	ypos	-68	Linear 0.0 0.1
+}
+
+event LowHealth75
+{
+	Animate HealthBarLowHealth	ypos	-48	Linear 0.0 0.1
 }
 
 event HitmarkerOn
