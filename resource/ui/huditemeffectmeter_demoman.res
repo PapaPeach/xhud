@@ -70,8 +70,6 @@
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
 
-
-
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"

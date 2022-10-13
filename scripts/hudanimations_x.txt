@@ -48,7 +48,7 @@ event UberTimerRun
 {
 	Animate UberTimerBG tall	2	Linear 0.0 0.001
 	Animate UberTimer	BgColor	"White"	Linear	0.0 0.001
-	Animate UberTimer	wide	60	Linear	0.0 55.0
+	Animate UberTimer	wide	50	Linear	0.0 55.0
 	Animate UberTimer	BgColor	"Yellow"	Linear	40.0 0.001
 	Animate UberTimer	BgColor	"Red"	Linear	55.0 0.001
 	RunEvent UberTimerHide 60.0

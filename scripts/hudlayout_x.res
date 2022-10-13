@@ -156,7 +156,7 @@
 		"xpos"		"cs-0.5"
 		"ypos"		"c41"
 		"zpos"		"-2"
-		"wide"		"60"
+		"wide"		"50"
 		"tall"		"0"
 		"visible"		"0"
 		"bgcolor_override"		"TransparentGrayDarkest"
@@ -364,6 +364,14 @@
 		"xpos"	"-6"
 		"ypos"	"-6"
 		"alpha"	"50"
+	}
+
+	HudSpellMenu
+	{
+		"wide"	"50"
+		"tall"	"30"
+		"xpos"	"c150"
+		"ypos"	"c96"
 	}
 
 	HudCloseCaption

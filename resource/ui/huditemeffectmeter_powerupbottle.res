@@ -11,7 +11,6 @@
 		"fieldName"		"ItemEffectIcon"
 		"xpos"			"13"
 		"ypos"			"1"
-		"zpos"			"1"
 		"wide"			"13"
 		"tall"			"13"
 		"visible"		"1"
