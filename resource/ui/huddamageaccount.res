@@ -3,7 +3,7 @@
 	"CDamageAccountPanel"
 	{
 		"fieldName"				"CDamageAccountPanel"
-		"ypos"					"-6"
+		"ypos"					"-10"
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
@@ -12,7 +12,7 @@
 		"delta_lifetime"		"2.5"
 		"delta_item_font"		"Size 24 Damage"
 		"delta_item_font_big"	"Size 24 Damage"
-		"alpha"		"180"
+		"alpha"		"150"
 	}
 
 	"DamageAccountValue"
@@ -20,7 +20,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"DamageAccountValue"
 		"xpos"		"c18"
-		"ypos"		"c75+6"
+		"ypos"		"c75+10"
 		"zpos"		"2"
 		"wide"		"50"
 		"tall"		"15"
