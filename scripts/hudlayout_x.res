@@ -390,6 +390,11 @@
 		"topoffset"		"0"
 	}
 
+	HudScopeCharge
+	{
+		"xpos"	"9999"
+	}
+
 	HudControlPointIcons
 	{
 		"xpos"		"0"
@@ -428,10 +433,10 @@
 
 	"HudEurekaEffectTeleportMenu"
 	{
-	"xpos"		"5"
-	"ypos"		"240"
-	"wide"		"f5"
-	"tall"		"240"
+		"xpos"		"5"
+		"ypos"		"240"
+		"wide"		"f5"
+		"tall"		"240"
 	}
 
 	"HudMenuSpyDisguise"
