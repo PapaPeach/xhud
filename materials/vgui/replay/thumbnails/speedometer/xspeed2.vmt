@@ -4,13 +4,8 @@
 "$translucent" 1
 "$ignorez" 1
 
-$speed "0"
-$speed_int "0"
-
-$const_thou	"1000"
-$const_hund	"100"
-$const_ten	"10"
-
+$speed 0
+$speed_int 0
 $pastpos "[0.0 0.0 0.0]"
 $pastposX .0
 $pastposY .0
@@ -18,27 +13,18 @@ $currentposX .0
 $currentposY .0
 $subposX .0
 $subposY .0
-$zero 0
 $addsvelocity 0
-$half 0.5
 $initguess 1
 $right 0.0
 $guessholder 0.0
-$timercount 0
-$timer1 0
-$timer2 0
-$timer3 0
-$timer4 0
-$timer5 0
+$ten 10
 $five 5
 $four 4
 $three 3
 $two 2
 $one 1
-$timersumtemp 0
-$timersum 0
-$timeravg 0
-$maxfpsdiv3 10
+$half 0.5
+$zero 0
 $playerspeed .0
 $playerspeed2 .0
 $frametime .0
@@ -50,6 +36,8 @@ $pastposZ .0
 $currentposZ .0
 $subposZ .0
 $hd2 .0
+$fpscount 0
+$fpscap 10
 
 Proxies
 {
@@ -246,113 +234,38 @@ Clamp
 "max" "$playerspeed"
 "resultVar" "$guessholder"
 }
-LessOrEqual // Speedometer framerate limit
+Add // Limit texture fps for readability
 {
-"lessEqualVar" "$guessholder"
-"greaterVar" "$timer1"
-"srcVar1" "$timercount"
-"srcVar2" "$zero"
-"resultVar" "$timer1"
-}
-LessOrEqual
-{
-"lessEqualVar" "$guessholder"
-"greaterVar" "$timer2"
-"srcVar1" "$timercount"
+"srcVar1" "$fpscount"
 "srcVar2" "$one"
-"resultVar" "$timer2"
-}
-LessOrEqual
-{
-"lessEqualVar" "$guessholder"
-"greaterVar" "$timer3"
-"srcVar1" "$timercount"
-"srcVar2" "$two"
-"resultVar" "$timer3"
-}
-LessOrEqual
-{
-"lessEqualVar" "$guessholder"
-"greaterVar" "$timer4"
-"srcVar1" "$timercount"
-"srcVar2" "$three"
-"resultVar" "$timer4"
-}
-LessOrEqual
-{
-"lessEqualVar" "$guessholder"
-"greaterVar" "$timer5"
-"srcVar1" "$timercount"
-"srcVar2" "$four"
-"resultVar" "$timer5"
-}
-Add
-{
-"srcVar1" "$one"
-"srcVar2" "$timercount"
-"resultVar" "$timercount"
-}
-Add
-{
-"srcVar1" "$timer1"
-"srcVar2" "$timer2"
-"resultVar" "$timersumtemp"
-}
-Add
-{
-"srcVar1" "$timersumtemp"
-"srcVar2" "$timer3"
-"resultVar" "$timersumtemp"
-}
-Add
-{
-"srcVar1" "$timersumtemp"
-"srcVar2" "$timer4"
-"resultVar" "$timersumtemp"
-}
-Add
-{
-"srcVar1" "$timersumtemp"
-"srcVar2" "$timer5"
-"resultVar" "$timersum"
-}
-Divide
-{
-"srcVar1" "$timersum"
-"srcVar2" "$five"
-"resultVar" "$timeravg"
-}
-Equals
-{
-"srcVar1" "$guessholder"
-"resultVar" "$timeravg"
+"resultVar" "$fpscount"
 }
 LessOrEqual
 {
 "lessEqualVar" "$speed"
 "greaterVar" "$guessholder"
-"srcVar1" "$timercount"
-"srcVar2" "$maxfpsdiv3"
+"srcVar1" "$fpscount"
+"srcVar2" "$fpscap"
 "resultVar" "$speed"
 }
 LessOrEqual
 {
-"lessEqualVar" "$timercount"
+"lessEqualVar" "$fpscount"
 "greaterVar" "$zero"
-"srcVar1" "$timercount"
-"srcVar2" "$maxfpsdiv3"
-"resultVar" "$timercount"
+"srcVar1" "$fpscount"
+"srcVar2" "$fpscap"
+"resultVar" "$fpscount"
 }
 Divide // Convert speed to texture frame
 {
 srcVar1 "$speed"
-srcVar2 "$const_ten"
+srcVar2 "$ten"
 resultVar "$speed_int"
 }
 WrapMinMax
 {
 srcVar1 "$speed_int"
-maxVal "$const_ten"
+maxVal "$ten"
 resultVar "$frame"
 }
 }
