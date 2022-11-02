@@ -26,19 +26,19 @@ event DamagedPlayer
 
 event AnimateHitmarker
 {
-	Animate Hitmarker	FgColor	"HitMarker"	Linear 0.0 0.001
-	Animate Hitmarker	FgColor	"Blank"	Linear 0.3 0.1
+	Animate Hitmarker	Alpha	"255"	Linear 0.0 0.001
+	Animate Hitmarker	Alpha	"0"	Linear 0.3 0.1
 }
 
 //==============================================================================//Uber Tracker
 
 event MenuClose
 {
-	Animate HudMenu Alpha 	"0"	Linear 0.0 0.2
-	Animate HudMenu SelectionAlpha 	"0"	Linear 0.0 0.2
-	Animate HudMenu FgColor	"Blank"	Linear 0.0 0.2
-	Animate HudMenu MenuColor	"Blank"	Linear 0.0 0.2
-	Animate HudMenu ItemColor	"Blank"	Linear 0.0 0.2
+	Animate HudMenu	Alpha 	"0"	Linear 0.0 0.2
+	Animate HudMenu	SelectionAlpha 	"0"	Linear 0.0 0.2
+	Animate HudMenu	FgColor	"Blank"	Linear 0.0 0.2
+	Animate HudMenu	MenuColor	"Blank"	Linear 0.0 0.2
+	Animate HudMenu	ItemColor	"Blank"	Linear 0.0 0.2
 
 	RunEvent UberTimerHide 0.0
 	RunEvent UberTimerRun 0.1
@@ -46,7 +46,7 @@ event MenuClose
 
 event UberTimerRun
 {
-	Animate UberTimerBG tall	2	Linear 0.0 0.001
+	Animate UberTimerBG	tall	2	Linear 0.0 0.001
 	Animate UberTimer	BgColor	"White"	Linear	0.0 0.001
 	Animate UberTimer	wide	50	Linear	0.0 55.0
 	Animate UberTimer	BgColor	"Yellow"	Linear	40.0 0.001
