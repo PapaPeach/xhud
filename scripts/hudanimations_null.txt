@@ -96,10 +96,10 @@ event QuestNotification_Present{}
 event QuestNotification_Hide{}
 event ItemCard_ShowPinHint{}
 event ItemCard_HidePinHint{}
-event ItemCard_ShowCloseButton{}
-event ItemCard_HideCloseButton{}
-event QuestItem_StaticPhoto_Reveal{}
-event HideStamp{}
+//event ItemCard_ShowCloseButton{}
+//event ItemCard_HideCloseButton{}
+//event QuestItem_StaticPhoto_Reveal{}
+//event HideStamp{}
 //event CollectionCrafting_Intro{}
 //event CollectionCrafting_LetterStart{}
 //event CollectionCrafting_PlaceStamp{}
@@ -107,7 +107,7 @@ event HideStamp{}
 event StartParticle0{}
 event StartParticle1{}
 event StartParticle2{}
-event ShowFoundLabels{}
+//event ShowFoundLabels{}
 //event CollectionCrafting_ItemRecieved{}//NEEDED
 event CollectionCrafting_OKBlink_Repeatable{}
 event CollectionCrafting_OKBlink{}
@@ -141,8 +141,8 @@ event QuestItem_Options_Flash{}
 //event QuestItem_Back_Selected{}
 //event QuestItem_Back_OtherSelected{}
 //vent QuestItem_Back_NoneSelected{}
-event QuestItem_Highlight_On_Halloween{}
-event QuestItem_Highlight_Off_Halloween{}
+//event QuestItem_Highlight_On_Halloween{}
+//event QuestItem_Highlight_Off_Halloween{}
 //event CompetitiveGame_LowerChatWindow{}
 //event CompetitiveGame_RestoreChatWindow{}
 //event HudTournament_MoveChatWindow{}
@@ -218,7 +218,7 @@ event QuestNodeView_PinTipHighlight{}
 event QuestMap_CreditNotificationAcknowledge{}
 event QuestMap_CreditHideAnim{}
 event QuestMap_CreditNotificationShow{}
-event QuestMap_CreditShowAnim{}
+//event QuestMap_CreditShowAnim{}
 //event ObjectiveCompletedByUser{}
 event QuestReport_ContractComplete{}
 event QuestReport_ContractProgress{}
