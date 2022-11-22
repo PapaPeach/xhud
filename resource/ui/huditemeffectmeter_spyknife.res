@@ -10,6 +10,6 @@
 
 	"ItemEffectMeterLabel"
 	{
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"				"#TF_KNIFE"
 	}
 }

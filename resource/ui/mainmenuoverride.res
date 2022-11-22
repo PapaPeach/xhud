@@ -2139,22 +2139,20 @@
 			"pin_to_sibling_corner"		"2"
 		}
 
-		"TVMLabel"
+		"TVMOff"
 		{
 			"ControlName"	"CExButton"
-			"fieldName"		"TVMLabel"
-			"font"		"Size 14"
-			"labelText"		"Transparent Weapons:"
-			"textAlignment"	"west"
+			"fieldName"		"TVMOff"
+			"font"		"Size 16"
+			"labelText"		"Opaque Viewmodels"
+			"textAlignment"	"center"
 			"xpos"		"-4"
 			"ypos"		"-4"
-			"zpos"		"20"
-			"wide"		"143"
+			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"White"
-			"Command"		"engine toggle tf_contract_progress_show 0 2;toggle tf_contract_competitive_show 0 2"
+			"Command"		"engine tvmoff; alias x_tvm_dump echo vm0"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2162,31 +2160,12 @@
 
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling" "XMenuInnerPanel3"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "0"
-		}
-
-		"TVMCheck"
-		{
-			"ControlName"		"CvarToggleCheckButton"
-			"fieldName"		"TVMCheck"
-			"xpos"		"-18"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"18"
-			"tall"		"20"
-			"labeltext"		""
-			"textAlignment"	"west"
-			"smallcheckimage"	"1"
-			"button_activation_type"	"1"
-			"cvar_name" "tf_contract_progress_show"
-			"mouseinputenabled"	"0"
-
-			"pin_to_sibling" "TVMLabel"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
 		}
 
 		"TVM75"
@@ -2196,7 +2175,7 @@
 			"font"		"Size 16"
 			"labelText"		"75% Opacity"
 			"textAlignment"	"center"
-			"xpos"		"1"
+			"xpos"		"4"
 			"ypos"		"0"
 			"wide"		"140"
 			"tall"		"14"
@@ -2215,7 +2194,7 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "TVMLabel"
+			"pin_to_sibling" "TVMOff"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "1"
 		}
@@ -2246,7 +2225,7 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "TVMLabel"
+			"pin_to_sibling" "TVMOff"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "2"
 		}
