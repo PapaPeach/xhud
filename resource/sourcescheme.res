@@ -132,10 +132,10 @@ Scheme
 		ScrollBarButton.DepressedFgColor	"White"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor	"55 55 55 255"
+		ScrollBarSlider.FgColor	"White"
 		ScrollBarSlider.BgColor	"0 0 0 0"
 
-		Slider.NobColor						"108 108 108 255"
+		Slider.NobColor						"White"
 		Slider.TextColor					"180 180 180 255"
 		Slider.TrackColor					"31 31 31 255"
 		Slider.DisabledTextColor1	"117 117 117 255"

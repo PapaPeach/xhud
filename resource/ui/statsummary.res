@@ -17,19 +17,31 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"		"BGMask"
-		"ypos"			"299"
+		"xpos"			"cs-0.5"
+		"ypos"			"296"
 		"zpos"			"100"
-		"wide"			"f0"
+		"wide"			"330"
 		"tall"			"100"
 		"visible"		"1"
 		"bgcolor_override"		"BlackLight"
+
+		"Shader"
+		{
+			"ControlName"		"EditablePanel"
+			"fieldname"		"Shader"
+			"wide"			"f0"
+			"tall"			"2"
+			"visible"		"1"
+			"bgcolor_override"	"TransparentBlack"
+			"proportionaltoparent"	"1"
+		}
 	}
 	"LoadingX"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"LoadingX"
 		"xpos"		"-12"
-		"ypos"		"4"
+		"ypos"		"0"
 		"zpos"		"101"
 		"wide"		"40"
 		"tall"		"40"
@@ -47,7 +59,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"		"LoadingIcon"
 		"xpos"		"-8"
-		"ypos"		"-5"
+		"ypos"		"-6"
 		"zpos"		"101"
 		"wide"		"o2"
 		"tall"		"34"

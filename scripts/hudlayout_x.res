@@ -390,11 +390,6 @@
 		"topoffset"		"0"
 	}
 
-	HudScopeCharge
-	{
-		"xpos"	"9999"
-	}
-
 	HudControlPointIcons
 	{
 		"xpos"		"0"
@@ -481,6 +476,14 @@
 		"ypos_minmode"		"35"
 		"wide"		"125"
 		"tall"		"70"
+	}
+
+	ItemQuickSwitchPanel
+	{
+		"xpos"		"cs-0.5"
+		"ypos"		"342"
+		"wide"		"300"
+		"tall"		"115"
 	}
 
 	"HudMenuTauntSelection"
