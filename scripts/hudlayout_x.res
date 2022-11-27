@@ -61,6 +61,8 @@
 		"bgcolor_override"		"255 255 255 20"
 	}
 
+	//Customizations
+
 	"Crosshair"
 	{
 		"ControlName"	"CExLabel"
@@ -89,6 +91,66 @@
 		"TextAlignment"		"center"
 		"font"		"Hitmarker"
 		"fgcolor"		"Blank"
+	}
+
+	"Transparent75"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"Transparent75"
+		"zpos"		"-100"
+		"wide"		"f0"
+		"tall"		"480"
+		"visible"		"0"
+		"image"		"replay/thumbnails/transparent_viewmodels/transparent75"
+		"scaleImage"	"1"
+	}
+
+	"Transparent60"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"Transparent60"
+		"zpos"		"-100"
+		"wide"		"f0"
+		"tall"		"480"
+		"visible"		"0"
+		"image"		"replay/thumbnails/transparent_viewmodels/transparent60"
+		"scaleImage"	"1"
+	}
+
+	"Transparent45"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"Transparent45"
+		"zpos"		"-100"
+		"wide"		"f0"
+		"tall"		"480"
+		"visible"		"0"
+		"image"		"replay/thumbnails/transparent_viewmodels/transparent45"
+		"scaleImage"	"1"
+	}
+
+	"TransparentLeft"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"TransparentLeft"
+		"zpos"		"-100"
+		"wide"		"f0"
+		"tall"		"480"
+		"visible"		"0"
+		"image"		"replay/thumbnails/transparent_viewmodels/transparent_left"
+		"scaleImage"	"1"
+	}
+
+	"TransparentRight"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"TransparentRight"
+		"zpos"		"-100"
+		"wide"		"f0"
+		"tall"		"480"
+		"visible"		"0"
+		"image"		"replay/thumbnails/transparent_viewmodels/transparent_right"
+		"scaleImage"	"1"
 	}
 
 	"speed1"
@@ -408,6 +470,14 @@
 		"wide"		"220"
 		"tall"		"110"
 		"zpos"		"4"
+	}
+
+	"HudUpgradePanel"
+	{
+		"xpos"		"c-200"
+		"ypos"		"260"
+		"wide"		"400"
+		"tall"		"160"
 	}
 
 	"HudMenuEngyBuild"

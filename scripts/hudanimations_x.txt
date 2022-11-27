@@ -222,6 +222,15 @@ event MiniAmmoOn
 	SetVisible AmmoInClipMiniShadow 1 0.0
 }
 
+event TVMOff
+{
+	SetVisible Transparent75 0 0.0
+	SetVisible Transparent60 0 0.0
+	SetVisible Transparent45 0 0.0
+	SetVisible TransparentLeft 0 0.0
+	SetVisible TransparentRight 0 0.0
+}
+
 event TVM75
 {
 	SetVisible Transparent75 1 0.0

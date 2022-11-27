@@ -418,6 +418,72 @@
 			"visible"	"1"
 			"image"	"../hud/objectives_flagpanel_ico_flag_moving"
 		}
+
+		//PVE ICONS
+		"buy_disabled"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"buy_disabled"
+			"visible"	"1"
+			"image"	"../vgui/pve/buy_disabled"
+		}
+		"buy_enabled"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"buy_enabled"
+			"visible"	"1"
+			"image"	"../vgui/pve/buy_enabled"
+		}
+		"buy_selected"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"buy_selected"
+			"visible"	"1"
+			"image"	"../vgui/pve/buy_selected"
+		}
+		"sell_disabled"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"sell_disabled"
+			"visible"	"1"
+			"image"	"../vgui/pve/sell_disabled"
+		}
+		"sell_enabled"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"sell_enabled"
+			"visible"	"1"
+			"image"	"../vgui/pve/sell_enabled"
+		}
+		"sell_selected"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"sell_selected"
+			"visible"	"1"
+			"image"	"../vgui/pve/sell_selected"
+		}
+		"upgrade_owned"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"sell_disabled"
+			"visible"	"1"
+			"image"	"../vgui/pve/sell_disabled"
+		}
+		"upgrade_purchased"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"upgrade_purchased"
+			"visible"	"1"
+			"image"	"../vgui/pve/upgrade_purchased"
+		}
+		"upgrade_unowned"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"	"upgrade_unowned"
+			"visible"	"1"
+			"image"	"../vgui/pve/upgrade_unowned"
+		}
+
 		//Misc
 		"MenuThumbMissing"
 		{

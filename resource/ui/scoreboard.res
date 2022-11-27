@@ -37,8 +37,26 @@
 
 		if_mvm
 		{
-			"ypos"		"0"
-			"tall"		"448"
+			"visible"	"0"
+		}
+	}
+	"ScoreboardMVMBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"ScoreboardMVMBG"
+		"xpos"		"0"
+		"ypos"		"60"
+		"zpos"		"-1"
+		"wide"		"f0"
+		"tall"		"259"
+		"visible"		"0"
+		"enabled"		"1"
+		"bgcolor_override"		"TransparentBlack"
+		"proportionaltoparent"		"1"
+
+		if_mvm
+		{
+			"visible"	"1"
 		}
 	}
 	"BlueBar"
@@ -56,6 +74,11 @@
 		"pin_to_sibling"		"ScoreboardMainBG"
 		"pin_corner_to_sibling"		"2"
 		"pin_to_sibling_corner"		"0"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
 	}
 	"RedBar"
 	{
@@ -72,6 +95,11 @@
 		"pin_to_sibling"		"ScoreboardMainBG"
 		"pin_corner_to_sibling"		"3"
 		"pin_to_sibling_corner"		"1"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
 	}
 	"BlueTeamLabel"
 	{
@@ -97,7 +125,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"RedTeamLabel"
@@ -124,7 +152,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"BlueTeamPlayerCount"
@@ -148,7 +176,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"RedTeamPlayerCount"
@@ -172,7 +200,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"BlueTeamScore"
@@ -197,7 +225,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"RedTeamScore"
@@ -222,7 +250,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"BluePlayerList"
@@ -246,7 +274,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"RedPlayerList"
@@ -270,7 +298,7 @@
 
  		if_mvm
  		{
- 			"visible"		"0"
+ 			"visible"	"0"
  		}
 	}
 	"InfoLine"
@@ -283,13 +311,19 @@
 		"wide"		"f4"
 		"tall"		"1"
 		"visible"		"1"
-		"enabled"		"1"
 		"bgcolor_override"		"White"
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"BluePlayerList"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
+
+		if_mvm
+		{
+			"xpos"	"2"
+			"ypos"	"276"
+			"pin_to_sibling"	""
+		}
 	}
 	"LocalPlayerStatsPanel"
 	{
@@ -306,10 +340,6 @@
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 
-		if_mvm
-		{
-			"visible"		"1"
-		}
 		"KillsCount"
 		{
 			"ControlName"		"CExLabel"
@@ -737,6 +767,12 @@
 		"pin_to_sibling"		"LocalPlayerStatsPanel"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"0"
+
+		if_mvm
+		{
+			"labelText"		"Playing:       MvM"
+			"wide"	"200"
+		}
 	}
 	"MapName"
 	{
@@ -758,7 +794,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"ServerLabelNew"
@@ -784,7 +820,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"Spectators"
@@ -807,6 +843,11 @@
 		"pin_to_sibling"		"ScoreboardMainBG"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
+
+		if_mvm
+		{
+			"visible"	"0"
+		}
 	}
 	"SpectatorsInQueue"
 	{
@@ -829,25 +870,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
-		}
-	}
-	"HorizontalLine"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"HorizontalLine"
-		"xpos"		"115"
-		"ypos"		"397"
-		"zpos"		"3"
-		"wide"		"465"
-		"tall"		"1"
-		"visible"		"0"
-		"enabled"		"1"
-		"fillcolor"		"127 127 127 153"
-
-		if_mvm
-		{
-			"visible"		"1"
+			"visible"	"0"
 		}
 	}
 	"PlayerScoreLabel"
@@ -867,7 +890,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"LocalPlayerDuelStatsPanel"
@@ -888,7 +911,7 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 		"DuelingLabel"
 		{
@@ -1066,10 +1089,11 @@
 	{
 		"ControlName"		"CTFHudMannVsMachineScoreboard"
 		"fieldName"		"MvMScoreboard"
+		"ypos"		"51"
 		"zpos"		"10"
 		"wide"		"f0"
 		"tall"		"480"
-		"visible"		"0"
+		"visible"	"0"
 		"enabled"		"1"
 
 		"verbose"		"1"
@@ -1087,4 +1111,6 @@
 	{"fieldName"	"BlueTeamImage"	"visible"	"0"}
 	"RedTeamImage"
 	{"fieldName"	"RedTeamImage"	"visible"	"0"}
+	"HorizontalLine"
+	{"ControlName"	"ImagePanel"	"visible"	"0"}
 }

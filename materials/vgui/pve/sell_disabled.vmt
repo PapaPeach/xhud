@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui\pve\sell_disabled"
+	"$color" "{127 128 130}"
+	"$alphatest" "1"
+	"$alphatestreference" "0.07"
+}

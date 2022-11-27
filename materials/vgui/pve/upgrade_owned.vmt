@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/panels/spacer"
+	"$color" "{227 228 230}"
+	"$alphatest" "1"
+}

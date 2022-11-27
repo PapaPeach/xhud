@@ -8,6 +8,6 @@
 
 	"<dx90"
 	{
-		"$normalmap" "hud/null_texture"
+		"$no_draw"	"1"
 	}
 }
