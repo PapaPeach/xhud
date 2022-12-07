@@ -241,8 +241,8 @@
 	HudWeaponAmmo
 	{
 		"xpos"		"0"
-		"xpos_minmode"	"0"
 		"ypos"		"0"
+		"xpos_minmode"	"0"
 		"ypos_minmode"	"0"
 		"wide"		"f0"
 		"tall"		"f0"
@@ -270,8 +270,8 @@
 	HudMedicCharge
 	{
 		"xpos"		"0"
-		"xpos_minmode"	"0"
 		"ypos"		"0"
+		"xpos_minmode"	"0"
 		"ypos_minmode"	"0"
 		"wide"		"f0"
 		"tall"		"f0"
@@ -280,8 +280,8 @@
 	HudDemomanCharge
 	{
 		"xpos"		"cs-0.5"
-		"xpos_minmode"	"cs-0.5"
 		"ypos"		"c39"
+		"xpos_minmode"	"cs-0.5"
 		"ypos_minmode"	"c39"
 		"zpos"		"1"
 		"wide"		"60"
@@ -295,17 +295,17 @@
 		"ypos"		"c25"
 		"ypos_minmode"	"c25"
 		"wide"		"90"
-		"tall"  		"30"
+		"tall"		"30"
 	}
 
 	CHealthAccountPanel
 	{
 		"xpos"		"cs-1.0-18"
-		"xpos_minmode"	"cs-1.0-18"
 		"ypos"		"c75"
+		"xpos_minmode"	"cs-1.0-18"
 		"ypos_minmode"	"c75"
 		"wide"		"50"
-		"tall"  		"15"
+		"tall"		"15"
 	}
 
 	CDamageAccountPanel
@@ -336,7 +336,7 @@
 	{
 		"ypos"		"c70"
 		"tall"	 	"31"
-		"tall_minmode"	 	"31"
+		"tall_minmode"	"31"
 	}
 
 	CSecondaryTargetID
@@ -380,6 +380,16 @@
 		"zpos"		"1"
 		"wide"		"f0"
 		"tall"		"480"
+	}
+
+	"CurrencyStatusPanel"
+	{
+		"xpos"		"cs-0.5"
+		"ypos"		"c146"
+		"xpos_minmode"	"cs-0.5"
+		"ypos_minmode"	"c146"
+		"wide"		"80"
+		"tall"		"10"
 	}
 
 	"HudDamageIndicator"
@@ -515,8 +525,8 @@
 	HudDemomanPipes
 	{
 		"xpos"		"cs-0.5"
-		"xpos_minmode"	"cs-0.5"
 		"ypos"		"c25"
+		"xpos_minmode"	"cs-0.5"
 		"ypos_minmode"	"c25"
 		"wide"		"80"
 		"tall"		"30"
@@ -543,7 +553,7 @@
 	{
 		"xpos"		"cs-0.5"
 		"ypos"		"20"
-		"ypos_minmode"		"35"
+		"ypos_minmode"	"35"
 		"wide"		"125"
 		"tall"		"70"
 	}
@@ -553,7 +563,7 @@
 		"xpos"		"cs-0.5"
 		"ypos"		"342"
 		"wide"		"300"
-		"tall"		"115"
+		"tall"		"131"
 	}
 
 	"HudMenuTauntSelection"

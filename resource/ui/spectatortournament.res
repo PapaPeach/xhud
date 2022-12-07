@@ -268,21 +268,18 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"cs-0.5"
-		"ypos"			"16"
+		"ypos"			"108"
 		"wide"			"380"
 		"tall"			"14"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
-		"textAlignment"	"center"
 		"font"			"Size 14"
-		"wrap"			"1"
 		"centerwrap"	"1"
 
 		if_mvm
 		{
-			"ypos"		"80"
-			"visible"		"1"
+			"visible"	"1"		//TODO
 		}
 	}
 

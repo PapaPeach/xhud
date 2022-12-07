@@ -439,22 +439,6 @@
 		"enabled"		"1"
 		"fgcolor_override" "Red"
 	}
-	"LoadoutChangesLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"LoadoutChangesLabel"
-		"font"		"Size 14"
-		"labelText"		"#LoadoutChangesUpdate"
-		"textAlignment"	"north"
-		"xpos"		"0"
-		"ypos"		"35"
-		"zpos"		"1"
-		"wide"		"f0"
-		"tall"		"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "Red"
-	}
 	"class_loadout_panel"
 	{
 		"ControlName"		"CClassLoadoutPanel"
