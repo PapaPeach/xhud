@@ -1372,7 +1372,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine recsettings; alias x_recsettings_dump echo rs"
+			"Command"		"engine recsettings"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1403,7 +1403,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine usersettings; alias x_recsettings_dump echo us"
+			"Command"		"engine usersettings"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1434,7 +1434,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine 16v16sb; alias x_scoreboard_dump echo sb16"
+			"Command"		"engine 16v16sb"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1465,7 +1465,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine 12v12sb; alias x_scoreboard_dump echo sb12"
+			"Command"		"engine 12v12sb"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1496,7 +1496,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine 9v9sb; alias x_scoreboard_dump echo sb9"
+			"Command"		"engine 9v9sb"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1527,7 +1527,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine 6v6sb; alias x_scoreboard_dump echo sb6"
+			"Command"		"engine 6v6sb"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1558,7 +1558,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine lowerchat; alias x_chatpos_dump echo cpl"
+			"Command"		"engine lowerchat"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1589,7 +1589,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine upperchat; alias x_chatpos_dump echo cpu"
+			"Command"		"engine upperchat"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1620,7 +1620,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine shortchat; alias x_chatheight_dump echo chs"
+			"Command"		"engine shortchat"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1651,7 +1651,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine tallchat; alias x_chatheight_dump echo cht"
+			"Command"		"engine tallchat"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1682,7 +1682,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine upperbuilding; alias x_buildingpos_dump echo bpu"
+			"Command"		"engine upperbuilding"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1713,7 +1713,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine lowerbuilding; alias x_buildingpos_dump echo bpl"
+			"Command"		"engine lowerbuilding"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1744,7 +1744,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine lowhealth75; alias x_lowhealth_dump echo lh7"
+			"Command"		"engine lowhealth75"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1775,7 +1775,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine lowhealth50; alias x_lowhealth_dump echo lh5"
+			"Command"		"engine lowhealth50"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1806,7 +1806,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine ubertimeron; alias x_ubertimer_dump echo ut1"
+			"Command"		"engine ubertimeron"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1837,7 +1837,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine ubertimeroff; alias x_ubertimer_dump echo ut0"
+			"Command"		"engine ubertimeroff"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1886,7 +1886,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine hitmarkeron; alias x_hitmarker_dump echo hm1"
+			"Command"		"engine hitmarkeron"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1917,7 +1917,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine hitmarkeroff; alias x_hitmarker_dump echo hm0"
+			"Command"		"engine hitmarkeroff"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1948,7 +1948,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine speedometeron; alias x_speedometer_dump echo sm1"
+			"Command"		"engine speedometeron"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -1979,7 +1979,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine speedometeroff; alias x_speedometer_dump echo sm0"
+			"Command"		"engine speedometeroff"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2010,7 +2010,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine dmgcenter; alias x_dmgpos_dump echo dpc"
+			"Command"		"engine dmgcenter"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2041,7 +2041,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine dmgammo; alias x_dmgpos_dump echo dpa"
+			"Command"		"engine dmgammo"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2072,7 +2072,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine miniammoon; alias x_miniammo_dump echo ma1"
+			"Command"		"engine miniammoon"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2103,7 +2103,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine miniammooff; alias x_miniammo_dump echo ma0"
+			"Command"		"engine miniammooff"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2152,7 +2152,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine tvmoff; alias x_tvm_dump echo vm0"
+			"Command"		"engine tvmoff"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2181,7 +2181,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine tvm75; alias x_tvm_dump echo vm7"
+			"Command"		"engine tvm75"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2212,7 +2212,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine tvm60; alias x_tvm_dump echo vm6"
+			"Command"		"engine tvm60"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2243,7 +2243,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine tvm45; alias x_tvm_dump echo vm4"
+			"Command"		"engine tvm45"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2274,7 +2274,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine tvmleft; alias x_tvm_dump echo vml"
+			"Command"		"engine tvmleft"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2305,7 +2305,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine tvmright; alias x_tvm_dump echo vmr"
+			"Command"		"engine tvmright"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2479,7 +2479,7 @@
 			"tall"		"19"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine alias x_devmode devon; x_devmode; alias x_dev_dump echo d1"
+			"Command"		"engine alias x_devmode devon; x_devmode"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2510,7 +2510,7 @@
 			"tall"		"19"
 			"visible"		"1"
 			"enabled"		"1"
-			"Command"		"engine alias x_devmode devoff; x_devmode; alias x_dev_dump echo d0"
+			"Command"		"engine alias x_devmode devoff; x_devmode"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"

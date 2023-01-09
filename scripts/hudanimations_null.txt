@@ -93,11 +93,11 @@ event MMenu_PlayList_Collapse{}
 event MMenu_PlayList_Collapse_Immediate{}
 event MMenu_SafeMode_Blink{}
 event PvPRankModelClicked{}
-event PvPRankLevelUpXPBar{}
-event PvPRankLevelUpModel{}
-event PvPRankLevelDownXPBar{}
-event PvPRankLevelDownModel{}
-event CompetitiveGame_ShowPvPRankPanel{}
+//event PvPRankLevelUpXPBar{}
+//event PvPRankLevelUpModel{}
+//event PvPRankLevelDownXPBar{}
+//event PvPRankLevelDownModel{}
+//event CompetitiveGame_ShowPvPRankPanel{}
 event PvPRankPanelShowXPChange{}
 event PyroVsHeavyWar_ShowChooseScene{}
 event PyroVsHeavyWar_PyroWinnerScene{}

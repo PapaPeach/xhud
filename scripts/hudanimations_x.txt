@@ -27,7 +27,7 @@ event DamagedPlayer
 event AnimateHitmarker
 {
 	Animate Hitmarker	Alpha	"255"	Linear 0.0 0.001
-	Animate Hitmarker	Alpha	"0"	Linear 0.3 0.1
+	Animate Hitmarker	Alpha	"0"	Linear 0.3 0.2
 }
 
 //==============================================================================//Uber Tracker

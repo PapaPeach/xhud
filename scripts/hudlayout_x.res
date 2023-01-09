@@ -90,7 +90,8 @@
 		"visible"		"0"
 		"TextAlignment"		"center"
 		"font"		"Hitmarker"
-		"fgcolor"		"Blank"
+		"fgcolor"		"HitMarker"
+		"Alpha"		"0"
 	}
 
 	"Transparent75"
