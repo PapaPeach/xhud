@@ -1,3 +1,4 @@
+#base "../../cfg/xhud_resolution_selection.txt"
 #base "vtfpreload.res"
 
 "Resource/UI/MainMenuOverride.res"
@@ -456,7 +457,6 @@
 			"wide"		"84"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Size 28"
 			"textAlignment"		"west"
 			"textinsetx"		"0"
@@ -493,7 +493,6 @@
 			"wide"		"23"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Symbols 22"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
@@ -530,7 +529,6 @@
 			"wide"		"103"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Size 28"
 			"textAlignment"		"west"
 			"textinsetx"		"0"
@@ -567,7 +565,6 @@
 			"wide"		"23"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Symbols 20"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
@@ -604,7 +601,6 @@
 			"wide"		"86"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Size 28"
 			"textAlignment"		"west"
 			"textinsetx"		"0"
@@ -641,7 +637,6 @@
 			"wide"		"23"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Symbols 20"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
@@ -702,7 +697,6 @@
 			"wide"		"20"
 			"tall"		"20"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Symbols 20"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
@@ -741,7 +735,6 @@
 			"wide"		"20"
 			"tall"		"20"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Symbols 22"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
@@ -780,7 +773,6 @@
 			"wide"		"20"
 			"tall"		"20"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Symbols 20"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
@@ -819,7 +811,6 @@
 			"wide"		"20"
 			"tall"		"20"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Symbols 22"
 			"textAlignment"		"center"
 			"textinsetx"		"0"
@@ -854,7 +845,6 @@
 			"wide"		"80"
 			"tall"		"20"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Size 30"
 			"textAlignment"		"east"
 			"textinsetx"		"5"
@@ -892,7 +882,6 @@
 			"wide"		"53"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Size 28"
 			"textAlignment"		"west"
 			"textinsetx"		"0"
@@ -929,7 +918,6 @@
 			"wide"		"75"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Size 28"
 			"textAlignment"		"west"
 			"textinsetx"		"0"
@@ -966,7 +954,6 @@
 			"wide"		"55"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Size 28"
 			"textAlignment"		"west"
 			"textinsetx"		"0"
@@ -1001,7 +988,6 @@
 			"wide"		"80"
 			"tall"		"20"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Size 30"
 			"textAlignment"		"east"
 			"textinsetx"		"5"
@@ -1040,7 +1026,6 @@
 			"wide"		"25"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Symbols 24"
 			"textAlignment"		"east"
 			"textinsetx"		"5"
@@ -1067,7 +1052,6 @@
 			"wide_minmode"	"0"
 			"tall"		"o1"
 			"visible"		"1"
-			"enabled"		"1"
 			"proportionaltoparent"		"1"
 			"bgcolor_override"		"Red"
 		}
@@ -1095,7 +1079,6 @@
 			"wide"		"25"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Symbols 24"
 			"textAlignment"		"east"
 			"textinsetx"		"5"
@@ -1134,7 +1117,6 @@
 			"wide"		"25"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Symbols 24"
 			"textAlignment"		"east"
 			"textinsetx"		"5"
@@ -1202,7 +1184,6 @@
 			"wide"		"25"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Symbols 24"
 			"textAlignment"		"east"
 			"textinsetx"		"5"
@@ -1240,7 +1221,6 @@
 			"wide"		"25"
 			"tall"		"23"
 			"visible"		"1"
-			"enabled"		"1"
 			"font"		"Symbols 24"
 			"textAlignment"		"east"
 			"textinsetx"		"5"
@@ -1305,7 +1285,6 @@
 			"wide"		"14"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"labeltext"		"%"
 			"font"		"Symbols 18"
 			"textAlignment"	"center"
@@ -1335,7 +1314,6 @@
 			"wide"		"302"
 			"tall"		"24"
 			"visible"		"1"
-			"enabled"		"1"
 			"fgcolor"		"White"
 			"proportionaltoparent"		"1"
 
@@ -1350,7 +1328,6 @@
 			"wide"		"292"
 			"tall"		"148"
 			"visible"		"1"
-			"enabled"		"1"
 			"bgcolor_override"		"BlackLight"
 			"proportionaltoparent"		"1"
 
@@ -1371,7 +1348,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine recsettings"
 			"actionsignallevel"		"2"
 
@@ -1402,7 +1378,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine usersettings"
 			"actionsignallevel"		"2"
 
@@ -1433,7 +1408,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine 16v16sb"
 			"actionsignallevel"		"2"
 
@@ -1464,7 +1438,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine 12v12sb"
 			"actionsignallevel"		"2"
 
@@ -1495,7 +1468,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine 9v9sb"
 			"actionsignallevel"		"2"
 
@@ -1526,7 +1498,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine 6v6sb"
 			"actionsignallevel"		"2"
 
@@ -1557,7 +1528,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine lowerchat"
 			"actionsignallevel"		"2"
 
@@ -1588,7 +1558,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine upperchat"
 			"actionsignallevel"		"2"
 
@@ -1619,7 +1588,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine shortchat"
 			"actionsignallevel"		"2"
 
@@ -1650,7 +1618,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine tallchat"
 			"actionsignallevel"		"2"
 
@@ -1681,7 +1648,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine upperbuilding"
 			"actionsignallevel"		"2"
 
@@ -1712,7 +1678,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine lowerbuilding"
 			"actionsignallevel"		"2"
 
@@ -1743,7 +1708,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine lowhealth75"
 			"actionsignallevel"		"2"
 
@@ -1774,7 +1738,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine lowhealth50"
 			"actionsignallevel"		"2"
 
@@ -1805,7 +1768,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine ubertimeron"
 			"actionsignallevel"		"2"
 
@@ -1836,7 +1798,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine ubertimeroff"
 			"actionsignallevel"		"2"
 
@@ -1864,7 +1825,6 @@
 			"wide"		"292"
 			"tall"		"76"
 			"visible"		"1"
-			"enabled"		"1"
 			"bgcolor_override"		"BlackLight"
 			"proportionaltoparent"		"1"
 
@@ -1885,7 +1845,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine hitmarkeron"
 			"actionsignallevel"		"2"
 
@@ -1916,7 +1875,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine hitmarkeroff"
 			"actionsignallevel"		"2"
 
@@ -1947,7 +1905,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine speedometeron"
 			"actionsignallevel"		"2"
 
@@ -1978,7 +1935,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine speedometeroff"
 			"actionsignallevel"		"2"
 
@@ -2009,7 +1965,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine dmgcenter"
 			"actionsignallevel"		"2"
 
@@ -2040,7 +1995,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine dmgammo"
 			"actionsignallevel"		"2"
 
@@ -2071,7 +2025,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine miniammoon"
 			"actionsignallevel"		"2"
 
@@ -2102,7 +2055,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine miniammooff"
 			"actionsignallevel"		"2"
 
@@ -2130,7 +2082,6 @@
 			"wide"		"292"
 			"tall"		"76"
 			"visible"		"1"
-			"enabled"		"1"
 			"bgcolor_override"		"BlackLight"
 			"proportionaltoparent"		"1"
 
@@ -2151,7 +2102,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine tvmoff"
 			"actionsignallevel"		"2"
 
@@ -2180,7 +2130,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine tvm75"
 			"actionsignallevel"		"2"
 
@@ -2211,7 +2160,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine tvm60"
 			"actionsignallevel"		"2"
 
@@ -2242,7 +2190,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine tvm45"
 			"actionsignallevel"		"2"
 
@@ -2273,7 +2220,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine tvmleft"
 			"actionsignallevel"		"2"
 
@@ -2304,7 +2250,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine tvmright"
 			"actionsignallevel"		"2"
 
@@ -2336,7 +2281,6 @@
 			"wide"		"284"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"fgcolor"		"White"
 			"Command"		"engine showconsole;echo ~~~~~~~~~~~~~~~~~~~~~~~~~;echo ; echo ENSURE_THE_VALUE_OF_THESE;echo ;mat_motion_blur_enabled;echo ;mat_motion_blur_strength;echo ;mat_disable_bloom;echo ;mat_hdr_level;echo ;mat_colorcorrection;echo ;mat_colcorrection_disableentities;echo ;echo MATCH_THE_VALUE_OF_THESE; echo ;echo mat_motion_blur_enabled 1;echo mat_motion_blur_strength 0;echo mat_disable_bloom 1;echo mat_hdr_level 0;echo mat_colcorrection_disableentities 1;echo mat_colorcorrection 0"
 			"actionsignallevel"		"2"
@@ -2358,19 +2302,17 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"XMenuSavePanel"
-			"xpos"		"-5"
-			"ypos"		"-5"
+			"ypos"		"5"
 			"zpos"		"0"
 			"wide"		"292"
 			"tall"		"50"
 			"visible"		"1"
-			"enabled"		"1"
 			"bgcolor_override"		"BlackLight"
 			"proportionaltoparent"		"1"
 
-			"pin_to_sibling"		"XMenuPanel"
+			"pin_to_sibling"		"XMenuResolutionPanel"
 			"pin_corner_to_sibling"		"2"
-			"pin_to_sibling_corner"		"2"
+			"pin_to_sibling_corner"		"0"
 		}
 
 		"ResetSettings"
@@ -2385,8 +2327,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
-			"Command"		"engine echo this button does nothing rn"
+			"Command"		"engine alias writeover xhudreset"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2394,7 +2335,7 @@
 
 			"defaultBgColor_override"		"Blank"
 			"armedBgColor_override"		"Blank"
-			"defaultFgColor_override"		"WhiteGray"
+			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
@@ -2416,7 +2357,6 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine exec xhud"
 			"actionsignallevel"		"2"
 
@@ -2447,8 +2387,7 @@
 			"wide"		"284"
 			"tall"		"24"
 			"visible"		"1"
-			"enabled"		"1"
-			"Command"		"engine exec xhud_save; cl_mainmenu_safemode 0"
+			"Command"		"engine exec xhud_save; writeover; alias writeover"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2466,6 +2405,54 @@
 			"pin_to_sibling_corner" "2"
 		}
 
+		"XMenuResolutionPanel"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"XMenuResolutionPanel"
+			"xpos"		"-5"
+			"ypos"		"-5"
+			"zpos"		"0"
+			"wide"		"292"
+			"tall"		"22"
+			"visible"		"1"
+			"bgcolor_override"		"BlackLight"
+			"proportionaltoparent"		"1"
+
+			"pin_to_sibling"		"XMenuPanel"
+			"pin_corner_to_sibling"		"2"
+			"pin_to_sibling_corner"		"2"
+		}
+
+		"ResetResolution"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"ResetResolution"
+			"font"		"Size 16"
+			"labelText"		"Reset Resolution Selection"
+			"textAlignment"	"center"
+			"xpos"		"-4"
+			"ypos"		"-4"
+			"wide"		"284"
+			"tall"		"14"
+			"visible"		"1"
+			"Command"		"engine sixense_clear_bindings;sixense_write_bindings xhud_resolution_selection.txt"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling" "XMenuResolutionPanel"
+			"pin_corner_to_sibling" "0"
+			"pin_to_sibling_corner" "0"
+		}
+
 		"DevModeOn"
 		{
 			"ControlName"	"CExButton"
@@ -2473,12 +2460,10 @@
 			"font"		"Size 8"
 			"labelText"		"Developer Mode On"
 			"centerwrap"	"1"
-			"xpos"		"0"
-			"ypos"		"4"
+			"xpos"		"14"
 			"wide"		"40"
 			"tall"		"19"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine alias x_devmode devon; x_devmode"
 			"actionsignallevel"		"2"
 
@@ -2492,9 +2477,9 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "DevModeOff"
-			"pin_corner_to_sibling" "3"
-			"pin_to_sibling_corner" "1"
+			"pin_to_sibling" "ResetSettings"
+			"pin_corner_to_sibling" "1"
+			"pin_to_sibling_corner" "0"
 		}
 
 		"DevModeOff"
@@ -2504,12 +2489,10 @@
 			"font"		"Size 8"
 			"labelText"		"Developer Mode OFF"
 			"centerwrap"	"1"
-			"xpos"		"5"
-			"ypos"		"-9"
+			"ypos"		"4"
 			"wide"		"40"
 			"tall"		"19"
 			"visible"		"1"
-			"enabled"		"1"
 			"Command"		"engine alias x_devmode devoff; x_devmode"
 			"actionsignallevel"		"2"
 
@@ -2523,9 +2506,488 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "XMenuPanel"
-			"pin_corner_to_sibling" "3"
+			"pin_to_sibling" "DevModeOn"
+			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "2"
+		}
+	}
+
+	"ResolutionSelector"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldname"		"ResolutionSelector"
+		"zpos"		"11000"
+		"wide"		"f0"
+		"tall"		"f0"
+		"enabled"	"1"
+		"bgcolor_override"		"GrayDarkest"
+
+		"ResolutionSelectLabel"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"ResolutionSelectLabel"
+			"xpos"		"cs-0.5"
+			"ypos"		"100"
+			"wide"		"600"
+			"tall"		"20"
+			"visible"		"1"
+			"font"		"Size 30"
+			"fgcolor_override"		"White"
+			"textAlignment"		"center"
+			"labelText"		"SELECT YOUR MONITOR RESOLUTION"
+		}
+
+		"16x9Label"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"16x9Label"
+			"wide"		"140"
+			"tall"		"20"
+			"visible"		"1"
+			"font"		"Size 20"
+			"fgcolor_override"		"White"
+			"textAlignment"		"center"
+			"labelText"		"16:9 Resolutions"
+
+			"pin_to_sibling"	"ResolutionSelectLabel"
+			"pin_corner_to_sibling"	"4"
+			"pin_to_sibling_corner"	"6"
+		}
+
+		"16x9_3840x2160"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"16x9_3840x2160"
+			"font"		"Size 16"
+			"labelText"		"3840x2160"
+			"textAlignment"	"center"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_3840x2160/override.res; echo #base ../custom/xhud_development/resolutions/16x9_3840x2160/override.res; con_logfile .x"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"16x9Label"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
+		}
+
+		"16x9_2560x1440"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"16x9_2560x1440"
+			"font"		"Size 16"
+			"labelText"		"2560x1440"
+			"textAlignment"	"center"
+			"ypos"		"4"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_2560x1440/override.res; echo #base ../custom/xhud_development/resolutions/16x9_2560x1440/override.res; con_logfile .x"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"16x9_3840x2160"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
+		}
+
+		"16x9_1920x1080"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"16x9_1920x1080"
+			"font"		"Size 16"
+			"labelText"		"1920x1080"
+			"textAlignment"	"center"
+			"ypos"		"4"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_1920x1080/override.res; echo #base ../custom/xhud_development/resolutions/16x9_1920x1080/override.res; con_logfile .x"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"16x9_2560x1440"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
+		}
+
+		"16x9_1600x900"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"16x9_1600x900"
+			"font"		"Size 16"
+			"labelText"		"1600x900"
+			"textAlignment"	"center"
+			"ypos"		"4"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_1600x900/override.res; echo #base ../custom/xhud_development/resolutions/16x9_1600x900/override.res; con_logfile .x"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"16x9_1920x1080"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
+		}
+
+
+		"16x9_1366x768"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"16x9_1366x768"
+			"font"		"Size 16"
+			"labelText"		"1366x768"
+			"textAlignment"	"center"
+			"ypos"		"4"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_1366x768/override.res; echo #base ../custom/xhud_development/resolutions/16x9_1366x768/override.res; con_logfile .x"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"16x9_1600x900"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
+		}
+
+		"4x3Label"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"4x3Label"
+			"xpos"		"4"
+			"wide"		"140"
+			"tall"		"20"
+			"visible"		"1"
+			"font"		"Size 20"
+			"fgcolor_override"		"White"
+			"textAlignment"		"center"
+			"labelText"		"4:3 Resolutions"
+
+			"pin_to_sibling"	"16x9Label"
+			"pin_corner_to_sibling"	"1"
+			"pin_to_sibling_corner"	"0"
+		}
+
+		"4x3_1280x1024"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"4x3_1280x1024"
+			"font"		"Size 16"
+			"labelText"		"1280x1024"
+			"textAlignment"	"center"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/4x3_1280x1024/override.res; echo #base ../custom/xhud_development/resolutions/4x3_1280x1024/override.res; con_logfile .x"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"4x3Label"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
+		}
+
+		"4x3_1280x960"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"4x3_1280x960"
+			"font"		"Size 16"
+			"labelText"		"1280x960"
+			"textAlignment"	"center"
+			"ypos"		"4"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/4x3_1280x960/override.res; echo #base ../custom/xhud_development/resolutions/4x3_1280x960/override.res; con_logfile .x"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"4x3_1280x1024"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
+		}
+
+		"4x3_1024x768"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"4x3_1024x768"
+			"font"		"Size 16"
+			"labelText"		"1024x768"
+			"textAlignment"	"center"
+			"ypos"		"4"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/4x3_1024x768/override.res; echo #base ../custom/xhud_development/resolutions/4x3_1024x768/override.res; con_logfile .x"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"4x3_1280x960"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
+		}
+
+		"16x10Label"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"16x10Label"
+			"xpos"		"4"
+			"wide"		"140"
+			"tall"		"20"
+			"visible"		"1"
+			"font"		"Size 20"
+			"fgcolor_override"		"White"
+			"textAlignment"		"center"
+			"labelText"		"16:10 Resolutions"
+
+			"pin_to_sibling"	"16x9Label"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"1"
+		}
+
+		"16x10_2560x1600"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"16x10_2560x1600"
+			"font"		"Size 16"
+			"labelText"		"2560x1600"
+			"textAlignment"	"center"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x10_2560x1600/override.res; echo #base ../custom/xhud_development/resolutions/16x10_2560x1600/override.res; con_logfile .x"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"16x10Label"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
+		}
+
+		"16x10_1680x1050"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"16x10_1680x1050"
+			"font"		"Size 16"
+			"labelText"		"1680x1050"
+			"textAlignment"	"center"
+			"ypos"		"4"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x10_1680x1050/override.res; echo #base ../custom/xhud_development/resolutions/16x10_1680x1050/override.res; con_logfile .x"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"16x10_2560x1600"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
+		}
+
+		"16x10_1440x900"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"16x10_1440x900"
+			"font"		"Size 16"
+			"labelText"		"1440x900"
+			"textAlignment"	"center"
+			"ypos"		"4"
+			"wide"		"140"
+			"tall"		"14"
+			"visible"		"1"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x10_1440x900/override.res; echo #base ../custom/xhud_development/resolutions/16x10_1440x900/override.res; con_logfile .x"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"16x10_1680x1050"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
+		}
+
+		"DIYLabel"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"DIYLabel"
+			"ypos"		"12"
+			"wide"		"600"
+			"tall"		"24"
+			"visible"		"1"
+			"font"		"Size 24"
+			"fgcolor_override"		"White"
+			"textAlignment"		"center"
+			"labelText"		"YOUR RESOULUTION NOT LISTED?"
+
+			"pin_to_sibling"	"16x9_1366x768"
+			"pin_corner_to_sibling"	"4"
+			"pin_to_sibling_corner"	"6"
+		}
+
+		"DIYGuide"
+		{
+			"ControlName"		"URLLabel"
+			"fieldname"		"DIYGuide"
+			"wide"		"288"
+			"tall"		"14"
+			"visible"	"1"
+			"font"		"Size 16"
+			"textAlignment"		"center"
+			"labelText"		"Custom Resolution Guide"
+			"urlText"		"https://github.com/PapaPeach/xhud/wiki/Making-a-Custom-Resolution"
+			"border"		"WhiteHighlightBorder"
+
+			"pin_to_sibling"	"DIYLabel"
+			"pin_corner_to_sibling"	"4"
+			"pin_to_sibling_corner"	"6"
+		}
+
+		"ApplyButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"ApplyButton"
+			"font"		"Size 28"
+			"labelText"		"APPLY SELECTION"
+			"textAlignment"	"center"
+			"ypos"		"16"
+			"wide"		"288"
+			"tall"		"24"
+			"visible"		"1"
+			"Command"		"engine hud_reloadscheme; toggle mat_aaquality; wait 10; toggle mat_aaquality; wait 100; exec xhud"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"Red"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"RedHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"DIYGuide"
+			"pin_corner_to_sibling"	"4"
+			"pin_to_sibling_corner"	"6"
+		}
+
+		"ApplyWarning"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"ApplyWarning"
+			"ypos"		"0"
+			"wide"		"600"
+			"tall"		"10"
+			"visible"		"1"
+			"font"		"Size 10"
+			"fgcolor_override"		"White"
+			"textAlignment"		"center"
+			"labelText"		"(game will freeze for several seconds)"
+
+			"pin_to_sibling"	"ApplyButton"
+			"pin_corner_to_sibling"	"4"
+			"pin_to_sibling_corner"	"6"
 		}
 	}
 

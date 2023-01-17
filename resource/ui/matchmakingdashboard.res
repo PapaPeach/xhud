@@ -1,20 +1,4 @@
-#base "../../resolutions/4x3_1280x960/matchmakingdashboard.res"
-#base "../../resolutions/4x3_1024x768/matchmakingdashboard.res"
-#base "../../resolutions/5x4_1280x1024/matchmakingdashboard.res"
-
-#base "../../resolutions/16x9_3840x2160/matchmakingdashboard.res"
-#base "../../resolutions/16x9_2560x1440/matchmakingdashboard.res"
-#base "../../resolutions/16x9_1920x1080/matchmakingdashboard.res"
-#base "../../resolutions/16x9_1600x900/matchmakingdashboard.res"
-#base "../../resolutions/16x9_1366x768/matchmakingdashboard.res"
-
-#base "../../resolutions/16x10_2560x1600/matchmakingdashboard.res"
-#base "../../resolutions/16x10_1680x1050/matchmakingdashboard.res"
-#base "../../resolutions/16x10_1440x900/matchmakingdashboard.res"
-
-#base "../../resolutions/make_your_own/matchmakingdashboard.res"
-
-#base "resolutionwarning.res"
+#base "../../cfg/xhud_resolution_selection.txt"
 
 "Resource/UI/MatchMakingDashboard.res"
 {
@@ -60,6 +44,7 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"FindGameAnchor"
+			//"xpos"	"r-672"
 			"ypos"		"5"
 			"zpos"		"0"
 			"wide"		"0"
