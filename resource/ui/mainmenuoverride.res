@@ -2435,7 +2435,7 @@
 			"wide"		"284"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine sixense_clear_bindings;sixense_write_bindings xhud_resolution_selection.txt"
+			"Command"		"engine sixense_clear_bindings;sixense_write_bindings xhud_resolution_selection.txt; hud_reloadscheme; toggle mat_aaquality; wait 10; toggle mat_aaquality;"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2537,10 +2537,28 @@
 			"labelText"		"SELECT YOUR MONITOR RESOLUTION"
 		}
 
+		"FileNameWarning"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"FileNameWarning"
+			"wide"		"600"
+			"tall"		"10"
+			"visible"		"1"
+			"font"		"Size 10"
+			"fgcolor_override"		"White"
+			"textAlignment"		"center"
+			"labelText"		"(please keep your HUD file named 'xhud_release', 'xhud_development', or 'xhud')"
+
+			"pin_to_sibling"	"ResolutionSelectLabel"
+			"pin_corner_to_sibling"	"4"
+			"pin_to_sibling_corner"	"6"
+		}
+
 		"16x9Label"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"16x9Label"
+			"ypos"		"4"
 			"wide"		"140"
 			"tall"		"20"
 			"visible"		"1"
@@ -2549,7 +2567,7 @@
 			"textAlignment"		"center"
 			"labelText"		"16:9 Resolutions"
 
-			"pin_to_sibling"	"ResolutionSelectLabel"
+			"pin_to_sibling"	"FileNameWarning"
 			"pin_corner_to_sibling"	"4"
 			"pin_to_sibling_corner"	"6"
 		}
@@ -2564,7 +2582,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_3840x2160/override.res; echo #base ../custom/xhud_development/resolutions/16x9_3840x2160/override.res; con_logfile .x"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_3840x2160/override.res; echo #base ../custom/xhud_development/resolutions/16x9_3840x2160/override.res; echo #base ../custom/xhud/resolutions/16x9_3840x2160/override.res; con_logfile .x"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2593,7 +2611,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_2560x1440/override.res; echo #base ../custom/xhud_development/resolutions/16x9_2560x1440/override.res; con_logfile .x"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_2560x1440/override.res; echo #base ../custom/xhud_development/resolutions/16x9_2560x1440/override.res; echo #base ../custom/xhud/resolutions/16x9_2560x1440/override.res; con_logfile .x"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2622,7 +2640,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_1920x1080/override.res; echo #base ../custom/xhud_development/resolutions/16x9_1920x1080/override.res; con_logfile .x"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_1920x1080/override.res; echo #base ../custom/xhud_development/resolutions/16x9_1920x1080/override.res; echo #base ../custom/xhud/resolutions/16x9_1920x1080/override.res; con_logfile .x"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2651,7 +2669,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_1600x900/override.res; echo #base ../custom/xhud_development/resolutions/16x9_1600x900/override.res; con_logfile .x"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_1600x900/override.res; echo #base ../custom/xhud_development/resolutions/16x9_1600x900/override.res; echo #base ../custom/xhud/resolutions/16x9_1600x900/override.res; con_logfile .x"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2681,7 +2699,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_1366x768/override.res; echo #base ../custom/xhud_development/resolutions/16x9_1366x768/override.res; con_logfile .x"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x9_1366x768/override.res; echo #base ../custom/xhud_development/resolutions/16x9_1366x768/override.res; echo #base ../custom/xhud/resolutions/16x9_1366x768/override.res; con_logfile .x"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2727,7 +2745,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/4x3_1280x1024/override.res; echo #base ../custom/xhud_development/resolutions/4x3_1280x1024/override.res; con_logfile .x"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/4x3_1280x1024/override.res; echo #base ../custom/xhud_development/resolutions/4x3_1280x1024/override.res; echo #base ../custom/xhud/resolutions/4x3_1280x1024/override.res; con_logfile .x"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2756,7 +2774,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/4x3_1280x960/override.res; echo #base ../custom/xhud_development/resolutions/4x3_1280x960/override.res; con_logfile .x"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/4x3_1280x960/override.res; echo #base ../custom/xhud_development/resolutions/4x3_1280x960/override.res; echo #base ../custom/xhud/resolutions/4x3_1280x960/override.res; con_logfile .x"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2785,7 +2803,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/4x3_1024x768/override.res; echo #base ../custom/xhud_development/resolutions/4x3_1024x768/override.res; con_logfile .x"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/4x3_1024x768/override.res; echo #base ../custom/xhud_development/resolutions/4x3_1024x768/override.res; echo #base ../custom/xhud/resolutions/4x3_1024x768/override.res; con_logfile .x"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2831,7 +2849,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x10_2560x1600/override.res; echo #base ../custom/xhud_development/resolutions/16x10_2560x1600/override.res; con_logfile .x"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x10_2560x1600/override.res; echo #base ../custom/xhud_development/resolutions/16x10_2560x1600/override.res; echo #base ../custom/xhud/resolutions/16x10_2560x1600/override.res; con_logfile .x"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2860,7 +2878,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x10_1680x1050/override.res; echo #base ../custom/xhud_development/resolutions/16x10_1680x1050/override.res; con_logfile .x"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x10_1680x1050/override.res; echo #base ../custom/xhud_development/resolutions/16x10_1680x1050/override.res; echo #base ../custom/xhud/resolutions/16x10_1680x1050/override.res; con_logfile .x"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2889,7 +2907,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x10_1440x900/override.res; echo #base ../custom/xhud_development/resolutions/16x10_1440x900/override.res; con_logfile .x"
+			"Command"		"engine log_open; echo #base ../custom/xhud_release/resolutions/16x10_1440x900/override.res; echo #base ../custom/xhud_development/resolutions/16x10_1440x900/override.res; echo #base ../custom/xhud/resolutions/16x10_1440x900/override.res; con_logfile .x"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2950,7 +2968,7 @@
 			"font"		"Size 28"
 			"labelText"		"APPLY SELECTION"
 			"textAlignment"	"center"
-			"ypos"		"16"
+			"ypos"		"24"
 			"wide"		"288"
 			"tall"		"24"
 			"visible"		"1"
@@ -2976,9 +2994,8 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ApplyWarning"
-			"ypos"		"0"
 			"wide"		"600"
-			"tall"		"10"
+			"tall"		"12"
 			"visible"		"1"
 			"font"		"Size 10"
 			"fgcolor_override"		"White"
