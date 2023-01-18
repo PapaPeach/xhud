@@ -3,6 +3,7 @@ A TF2 HUD designed by Peaches to serve as an environment to develop innovative i
 * **[How to Install Xhud](https://github.com/PapaPeach/xhud/wiki/How-To-Install)**
 * **[How to Customize Xhud](https://github.com/PapaPeach/xhud/wiki/Customizations)**
 * **[Frequently Asked Questions](https://github.com/PapaPeach/xhud/wiki/Frequently-Asked-Questions)**
+* **Screenshots Coming Soon**
 
 **More Questions? Looking for development documentation? Head over to the [Xhud Wiki.](https://github.com/PapaPeach/xhud/wiki)**
 
