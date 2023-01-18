@@ -409,7 +409,7 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
-				"yres"	"1200 10000"
+				"yres"	"1200 6000"
 			}
 		}
 
@@ -568,17 +568,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"FontCartPrice"
-		{
-			"1"
-			{
-				"name"	"Renogare Soft XHud"
-				"tall"	"16"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
 		"FontStorePrice"
 		{
 			"1"
@@ -669,7 +658,7 @@ Scheme
 				"tall"	"24"
 				"weight"	"1000"
 				"antialias"	"1"
-				"yres"	"1200 10000"
+				"yres"	"1200 6000"
 				"range"	"0x0000 0x017F"
 			}
 		}
@@ -876,7 +865,7 @@ Scheme
 				"tall"	"180"
 				"range"	"0x0000 0x00FF"
 				"weight"	"400"
-				"yres"	"1200 10000"
+				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
