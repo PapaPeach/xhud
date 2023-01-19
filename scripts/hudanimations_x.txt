@@ -278,10 +278,7 @@ event TVMRight
 
 //==============================================================================//End animation states
 
-event LevelInit
-{
-	//Animate HudScope	xpos	6969	Linear 0.0 0.001
-}
+event LevelInit{}
 
 //==============================================================================
 
@@ -293,7 +290,7 @@ event HudHealthBonusPulse
 
 	SetVisible HealthSpectatorBarBuff 1 0.0
 
-	Animate HealthBarBG	bgcolor	"Health"	Linear 0.0 0.001
+	Animate HealthBarBG	bgcolor	"WhiteFull"	Linear 0.0 0.001
 }
 
 event HudHealthBonusPulseStop
@@ -450,13 +447,11 @@ event HudTournament_ShowTimerCompetitive
 event HudTournament_ShowTimerDefault
 {
 	SetVisible CountdownLabel 1 0.0
-	Animate HudScope	xpos	6969	Linear 0.0 0.1
 }
 
 event HudTournament_HideTimer
 {
 	SetVisible CountdownLabel 0 0.0
-	Animate HudScope	xpos	6969	Linear 0.0 0.1
 }
 
 //==============================================================================

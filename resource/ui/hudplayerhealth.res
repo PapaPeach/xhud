@@ -101,7 +101,7 @@
 		"tall"		"4"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"Health"
+		"bgcolor_override"		"WhiteFull"
 
 		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
 		"pin_corner_to_sibling"		"5"

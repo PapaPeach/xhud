@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		"RankPanel"
+		"RankPanel"	//TODO
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
@@ -21,7 +21,7 @@
 			"zpos"			"10006"
 			"wide"			"330"
 			"tall"			"92"
-			"visible"		"1"
+			"visible"		"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 
