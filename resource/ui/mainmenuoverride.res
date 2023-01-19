@@ -2943,10 +2943,40 @@
 			"pin_to_sibling_corner"	"6"
 		}
 
+		"DIYResolution"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"DIYResolution"
+			"font"		"Size 16"
+			"labelText"		"Load Custom Resolution"
+			"textAlignment"	"center"
+			"ypos"		"4"
+			"wide"		"288"
+			"tall"		"14"
+			"visible"		"1"
+			"Command"		"engine log_open; echo #base ../custom/xhud-release/resolutions/make_your_own/override.res; echo #base ../custom/xhud-development/resolutions/make_your_own/override.res; echo #base ../custom/xhud/resolutions/make_your_own/override.res; con_logfile .x"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"		"Blank"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"DIYLabel"
+			"pin_corner_to_sibling"	"4"
+			"pin_to_sibling_corner"	"6"
+		}
+
 		"DIYGuide"
 		{
 			"ControlName"		"URLLabel"
 			"fieldname"		"DIYGuide"
+			"ypos"		"4"
 			"wide"		"288"
 			"tall"		"14"
 			"visible"	"1"
@@ -2956,7 +2986,7 @@
 			"urlText"		"https://github.com/PapaPeach/xhud/wiki/Making-a-Custom-Resolution"
 			"border"		"WhiteHighlightBorder"
 
-			"pin_to_sibling"	"DIYLabel"
+			"pin_to_sibling"	"DIYResolution"
 			"pin_corner_to_sibling"	"4"
 			"pin_to_sibling_corner"	"6"
 		}
