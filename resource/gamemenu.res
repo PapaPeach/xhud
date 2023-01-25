@@ -126,7 +126,7 @@
 	"InvisiblePlayersFix"
 	{
 		"label"			"C"
-		"command"		"engine stop; record fix; stop"
+		"command"		"engine demorestart"	//Testing less robust invis player fix than stop;record fix;stop
 		"tooltip"		"Fix Invisible Players"
 		"OnlyInGame"	"1"
 	}
@@ -142,7 +142,7 @@
 	"XMenuButton"
 	{
 		"label"			"Á"
-		"command"		"engine sv_cheats 1; toggle cl_mainmenu_safemode"
+		"command"		"engine sv_cheats 1;toggle cl_mainmenu_safemode"
 		"tooltip"		"Customizations"
 		"OnlyAtMenu"	"1"
 	}
@@ -150,7 +150,7 @@
 	"ReloadHud"
 	{
 		"label"			"."
-		"command"		"engine echo =====================; echo; testhudanim QuickReloadHud; exec xhud_load"
+		"command"		"engine echo =====================;echo;testhudanim QuickReloadHud;exec xhud_load"
 		"tooltip"		"Reload Hud"
 		"OnlyAtMenu"	"1"
 	}

@@ -541,7 +541,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
-		"Command"		"engine toggle cl_flipviewmodels; record flip; stop"
+		"Command"		"engine toggle cl_flipviewmodels;record flip;stop"
 		"actionsignallevel"		"2"
 
 		"sound_depressed"		"UI/buttonclick.wav"
@@ -835,7 +835,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine cl_crosshair_red 255; cl_crosshair_green 50; cl_crosshair_blue 65"
+		"Command"		"engine cl_crosshair_red 255;cl_crosshair_green 50;cl_crosshair_blue 65"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -865,7 +865,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine cl_crosshair_red 200; cl_crosshair_green 180; cl_crosshair_blue 0"
+		"Command"		"engine cl_crosshair_red 200;cl_crosshair_green 180;cl_crosshair_blue 0"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -895,7 +895,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine cl_crosshair_red 40; cl_crosshair_green 200; cl_crosshair_blue 110"
+		"Command"		"engine cl_crosshair_red 40;cl_crosshair_green 200;cl_crosshair_blue 110"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -925,7 +925,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine cl_crosshair_red 92; cl_crosshair_green 173; cl_crosshair_blue 255"
+		"Command"		"engine cl_crosshair_red 92;cl_crosshair_green 173;cl_crosshair_blue 255"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -955,7 +955,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine cl_crosshair_red 215; cl_crosshair_green 145; cl_crosshair_blue 255"
+		"Command"		"engine cl_crosshair_red 215;cl_crosshair_green 145;cl_crosshair_blue 255"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -985,7 +985,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine cl_crosshair_red 255; cl_crosshair_green 255; cl_crosshair_blue 255"
+		"Command"		"engine cl_crosshair_red 255;cl_crosshair_green 255;cl_crosshair_blue 255"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1015,7 +1015,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine cl_crosshair_red 0; cl_crosshair_green 0; cl_crosshair_blue 0"
+		"Command"		"engine cl_crosshair_red 0;cl_crosshair_green 0;cl_crosshair_blue 0"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1045,7 +1045,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine cl_crosshair_red 255; cl_crosshair_green 0; cl_crosshair_blue 0"
+		"Command"		"engine cl_crosshair_red 255;cl_crosshair_green 0;cl_crosshair_blue 0"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1075,7 +1075,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine cl_crosshair_red 255; cl_crosshair_green 255; cl_crosshair_blue 0"
+		"Command"		"engine cl_crosshair_red 255;cl_crosshair_green 255;cl_crosshair_blue 0"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1105,7 +1105,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine cl_crosshair_red 0; cl_crosshair_green 255; cl_crosshair_blue 0"
+		"Command"		"engine cl_crosshair_red 0;cl_crosshair_green 255;cl_crosshair_blue 0"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1135,7 +1135,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine cl_crosshair_red 0; cl_crosshair_green 255; cl_crosshair_blue 255"
+		"Command"		"engine cl_crosshair_red 0;cl_crosshair_green 255;cl_crosshair_blue 255"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1165,7 +1165,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine cl_crosshair_red 0; cl_crosshair_green 0; cl_crosshair_blue 255"
+		"Command"		"engine cl_crosshair_red 0;cl_crosshair_green 0;cl_crosshair_blue 255"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1195,7 +1195,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine cl_crosshair_red 255; cl_crosshair_green 0; cl_crosshair_blue 255"
+		"Command"		"engine cl_crosshair_red 255;cl_crosshair_green 0;cl_crosshair_blue 255"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1225,7 +1225,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
-		"Command"		"engine toggle hud_combattext; hud_combattext_batching 1"
+		"Command"		"engine toggle hud_combattext;hud_combattext_batching 1"
 		"actionsignallevel"		"2"
 
 		"sound_depressed"		"UI/buttonclick.wav"
@@ -1502,7 +1502,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 255; hud_combattext_green 50; hud_combattext_blue 65"
+		"Command"		"engine hud_combattext_red 255;hud_combattext_green 50;hud_combattext_blue 65"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1532,7 +1532,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 200; hud_combattext_green 180; hud_combattext_blue 0"
+		"Command"		"engine hud_combattext_red 200;hud_combattext_green 180;hud_combattext_blue 0"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1562,7 +1562,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 40; hud_combattext_green 200; hud_combattext_blue 110"
+		"Command"		"engine hud_combattext_red 40;hud_combattext_green 200;hud_combattext_blue 110"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1592,7 +1592,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 92; hud_combattext_green 173; hud_combattext_blue 255"
+		"Command"		"engine hud_combattext_red 92;hud_combattext_green 173;hud_combattext_blue 255"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1622,7 +1622,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 215; hud_combattext_green 145; hud_combattext_blue 255"
+		"Command"		"engine hud_combattext_red 215;hud_combattext_green 145;hud_combattext_blue 255"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1652,7 +1652,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 255; hud_combattext_green 255; hud_combattext_blue 255"
+		"Command"		"engine hud_combattext_red 255;hud_combattext_green 255;hud_combattext_blue 255"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1682,7 +1682,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 0; hud_combattext_green 0; hud_combattext_blue 0"
+		"Command"		"engine hud_combattext_red 0;hud_combattext_green 0;hud_combattext_blue 0"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1712,7 +1712,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 255; hud_combattext_green 0; hud_combattext_blue 0"
+		"Command"		"engine hud_combattext_red 255;hud_combattext_green 0;hud_combattext_blue 0"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1742,7 +1742,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 255; hud_combattext_green 255; hud_combattext_blue 0"
+		"Command"		"engine hud_combattext_red 255;hud_combattext_green 255;hud_combattext_blue 0"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1772,7 +1772,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 0; hud_combattext_green 255; hud_combattext_blue 0"
+		"Command"		"engine hud_combattext_red 0;hud_combattext_green 255;hud_combattext_blue 0"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1802,7 +1802,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 0; hud_combattext_green 255; hud_combattext_blue 255"
+		"Command"		"engine hud_combattext_red 0;hud_combattext_green 255;hud_combattext_blue 255"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1832,7 +1832,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 0; hud_combattext_green 0; hud_combattext_blue 255"
+		"Command"		"engine hud_combattext_red 0;hud_combattext_green 0;hud_combattext_blue 255"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
@@ -1862,7 +1862,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"actionsignallevel"		"2"
-		"Command"		"engine hud_combattext_red 255; hud_combattext_green 0; hud_combattext_blue 255"
+		"Command"		"engine hud_combattext_red 255;hud_combattext_green 0;hud_combattext_blue 255"
 
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
