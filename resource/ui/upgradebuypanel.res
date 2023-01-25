@@ -10,15 +10,15 @@
 		"enabled"		"1"
 		
 		"upgradebutton_xpos"	"37"
-		"upgradebutton_ypos"	"34"
+		"upgradebutton_ypos"	"31"
 		
 		"skilltreebuttons_kv"
 		{
-			"wide"			"16"
-			"tall"			"8"
-			"font"			"Size 11"
+			"wide"			"14"
+			"tall"			"14"
 			"image"			"pve/upgrade_unowned"
 			"scaleImage"	"1"
+			"fillcolor"		"GrayDark"
 		}
 	}
 
@@ -120,7 +120,7 @@
 		"wide"			"16"
 		"tall"			"16"
 		"visible"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 
 		"activeimage"		"pve/buy_disabled"
 		"inactiveimage"		"pve/buy_disabled"

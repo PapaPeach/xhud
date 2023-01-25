@@ -211,8 +211,6 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MouseOverTabPanel"
-			"xpos"			"0"
-			"ypos"			"0"
 			"zpos"			"-4"
 			"wide"			"72"
 			"tall"			"54"
@@ -225,8 +223,6 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"MouseOverUpgradePanel"
-			"xpos"			"0"
-			"ypos"			"0"
 			"zpos"			"10"
 			"wide"			"157"
 			"tall"			"47"
