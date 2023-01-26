@@ -18,7 +18,7 @@
 		"button_y"		"120"
 		"button_y_delta"		"5"
 
-		"button_kv"
+		"button_kv"					//wtf is this
 		{
 			"xpos"		"0"
 			"ypos"		"150"
@@ -122,23 +122,23 @@
 		"ControlName"		"Label"
 		"fieldName"		"HudTitle"
 		"xpos"		"153"
-		"ypos"		"133"
+		"ypos"		"134"
 		"zpos"		"50"
-		"wide"		"20"
+		"wide"		"17"
 		"tall"		"10"
 		"visible"		"1"
 		"mouseinputenabled"		"0"
 		"font"		"Size 8"
 		"fgcolor_override"		"White"
 		"textAlignment"		"west"
-		"labelText"		"X Hud"
+		"labelText"		"Xhud"
 	}
 
 	"InfoSeparatorLine"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"		"InfoSeparatorLine"
-		"wide"		"211"
+		"wide"		"214"
 		"tall"		"1"
 		"visible"		"1"
 		"bgcolor_override"		"White"
@@ -1304,6 +1304,23 @@
 			"pin_to_sibling_corner"		"1"
 		}
 
+		"XMenu_WIP"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"XMenu_WIP"
+			"font"		"Size 16"
+			"labelText"		"(this menu is a work in progress)"
+			"textAlignment"	"center"
+			"wide"		"292"
+			"tall"		"20"
+			"visible"		"1"
+			"fgcolor"		"White"
+
+			"pin_to_sibling"		"XMenuSavePanel"
+			"pin_corner_to_sibling"		"2"
+			"pin_to_sibling_corner"		"0"
+		}
+
 		"XMenu_Title"
 		{
 			"ControlName"	"CExLabel"
@@ -2282,7 +2299,7 @@
 			"tall"		"14"
 			"visible"		"1"
 			"fgcolor"		"White"
-			"Command"		"engine showconsole;echo ~~~~~~~~~~~~~~~~~~~~~~~~~;echo ;echo ENSURE_THE_VALUE_OF_THESE;echo ;mat_motion_blur_enabled;echo ;mat_motion_blur_strength;echo ;mat_disable_bloom;echo ;mat_hdr_level;echo ;mat_colorcorrection;echo ;mat_colcorrection_disableentities;echo ;echo MATCH_THE_VALUE_OF_THESE;echo ;echo mat_motion_blur_enabled 1;echo mat_motion_blur_strength 0;echo mat_disable_bloom 1;echo mat_hdr_level 0;echo mat_colcorrection_disableentities 1;echo mat_colorcorrection 0"
+			"Command"		"engine showconsole;echo ~~~~~~~~~~~~~~~~~~~~~~~~~;echo ;echo ENSURE_THE_VALUE_OF_THESE;echo ;mat_motion_blur_enabled;echo ;mat_motion_blur_strength;echo ;mat_disable_bloom;echo ;mat_hdr_level;echo ;mat_colorcorrection;echo ;mat_colcorrection_disableentities;echo ;glow_outline_effect_enable;echo ;echo MATCH_THE_VALUE_OF_THESE;echo ;echo mat_motion_blur_enabled 1;echo mat_motion_blur_strength 0;echo mat_disable_bloom 1;echo mat_hdr_level 0;echo mat_colcorrection_disableentities 1;echo mat_colorcorrection 0;echo glow_outline_effect_enable 0"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
