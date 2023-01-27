@@ -9,16 +9,15 @@
 		"zpos"		"-1"
 		"wide"		"f0"
 		"tall"		"f0"
-		"visible"		"1"
-		"PaintBackgroundType"		"0"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 
 		if_mini
 		{
 			"xpos"		"cs-0.5"
 			"ypos"		"cs-0.5"
-			"tall"		"35"
-			"wide"		"505"
+			"tall"		"20"
+			"wide"		"f0"
 		}
 
 		"NameLabel"
@@ -61,9 +60,9 @@
 			"labelText"		"%desc1%"
 			"proportionaltoparent"		"1"
 
-			if_mini
+			if_mini		//Post round level
 			{
-				"xpos"		"0"
+				"xpos"		"4"
 			}
 
 			"fonts"
@@ -224,6 +223,11 @@
 
 						"fgcolor_override"		"MainTheme"
 						"bgcolor_override"		"Blank"
+
+						if_mini
+						{
+							"bgcolor_override"	"TransparentBlack"
+						}
 					}
 				}
 			}

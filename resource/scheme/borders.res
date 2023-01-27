@@ -203,6 +203,18 @@ Scheme
 			Bottom
 			{	"1"	{	"color" "White"	}	"2"	{	"color" "White"	}	}
 		}
+		WhiteHighlightBorderUltraThick
+		{
+			"inset" "0 0 1 1"
+			Left
+			{	"1"	{	"color" "White"	}	"2"	{	"color" "White"	}	"3"	{	"color" "White"	}	"4"	{	"color" "White"	}	}
+			Right
+			{	"1"	{	"color" "White"	}	"2"	{	"color" "White"	}	"3"	{	"color" "White"	}	"4"	{	"color" "White"	}	}
+			Top
+			{	"1"	{	"color" "White"	}	"2"	{	"color" "White"	}	"3"	{	"color" "White"	}	"4"	{	"color" "White"	}	}
+			Bottom
+			{	"1"	{	"color" "White"	}	"2"	{	"color" "White"	}	"3"	{	"color" "White"	}	"4"	{	"color" "White"	}	}
+		}
 
 		////////////////////////////////////////////////////////////////////////////////////
 		///////////////////////////////////MATERIAL GREEN///////////////////////////////////
@@ -2082,17 +2094,6 @@ Scheme
 			"color"		"BlackDark"
 
 			"image"		"White"
-			"src_corner_height"		"24"
-			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
-		}
-
-		StoreNewBorder
-		{
-			"bordertype"		"scalable_image"
-
-			"image"		"new_corner"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"

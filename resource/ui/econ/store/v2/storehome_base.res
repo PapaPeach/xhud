@@ -175,7 +175,7 @@
 		"xpos"				"c-292"
 		"ypos"				"48"
 		"zpos"				"0"
-		"wide"				"430"
+		"wide"				"468"
 		"tall"				"15"
 		"visible"			"1"
 		"enabled"			"1"

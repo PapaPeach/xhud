@@ -463,3 +463,10 @@ event HudMatchStatus_ShowCountdown
 	SetVisible CountdownLabel 1 0.0
 	SetVisible CountdownLabel 0 9.9
 }
+
+//==============================================================================
+
+event CompetitiveGame_ShowPvPRankPanel
+{
+	RunEventChild RankPanel PvPRankPanelShowXPChange 0
+}

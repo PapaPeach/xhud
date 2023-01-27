@@ -75,17 +75,16 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"namelabel"
 			"font"			"Size 12"
-			"xpos"			"0"
-			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%itemname%"
-			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
+			"textAlignment"	"north"
 			"centerwrap"	"1"
+			"textinsety"	"-4"
+			"use_proportional_insets"	"1"
 		}
 		"attriblabel"
 		{
@@ -119,9 +118,8 @@
 			"enabled"		"1"
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
-			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
+			"fgcolor"		"White"
+			"bgcolor_override"		"Black"
 		}
 
 		"paint_icon"

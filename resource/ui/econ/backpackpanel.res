@@ -63,26 +63,17 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
 
-			"New"		//TODO: FIX THIS
+			"New"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
-				"font"			"Size 8"
-				"textAlignment"	"east"
-				"ypos"			"0"
-				"xpos"			"0"
-				"zpos"			"0"
-				"wide"			"f1"
-				"tall"			"f-3"
-				"textinsetx"	"8"
+				"wide"			"25"
+				"tall"			"13"
 				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"#Store_Price_New"
 				"mouseinputenabled" "0"
 				"paintbackground"	"0"
-				"proportionaltoparent"	"1"
-				"border"		"StoreNewBorder"
-				"fgcolor"		"10 10 10 255"
+				"border"		"WhiteHighlightBorderUltraThick"
+				"fgcolor"		"Blank"
 			}
 		}
 
@@ -116,26 +107,24 @@
 				"allow_rot"				"0"
 			}
 
-			"New"		//TODO: FIX THIS
+			"New"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"New"
 				"font"			"Size 8"
-				"textAlignment"	"east"
-				"xpos"			"rs1"
-				"ypos"			"0"
-				"zpos"			"15"
-				"wide"			"25"
-				"tall"			"12"
-				"textinsetx"	"8"
+				"textAlignment"	"center"
+				"xpos"			"rs1-2"
+				"ypos"			"2"
+				"wide"			"22"
+				"tall"			"10"
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"#Store_Price_New"
 				"mouseinputenabled" "0"
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
-				"border"		"StoreNewBorder"
-				"fgcolor"		"10 10 10 255"
+				"border"		"MaterialWhite"
+				"fgcolor"		"Black"
 			}
 
 			"use_item_sounds"	"1"

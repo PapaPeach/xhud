@@ -7,68 +7,8 @@
 	{
 		"fieldName"		"MainMenuOverride"
 		"visible"		"1"
-		"enabled"		"1"
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"0"
 		"wide"		"f0"
 		"tall"		"480"
-
-		"button_x_offset"		"-285"
-		"button_y"		"120"
-		"button_y_delta"		"5"
-
-		"button_kv"					//wtf is this
-		{
-			"xpos"		"0"
-			"ypos"		"150"
-			"wide"		"250"
-			"tall"		"26"
-			"visible"		"1"
-
-			"SubButton"
-			{
-				"ControlName"		"CExImageButton"
-				"fieldName"		"SubButton"
-				"xpos"		"0"
-				"ypos"		"0"
-				"wide"		"250"
-				"tall"		"26"
-				"visible"		"1"
-				"enabled"		"1"
-				"textinsetx"		"25"
-				"use_proportional_insets"	"1"
-				"font"		"Size 14"
-				"textAlignment"		"west"
-				"sound_depressed"		"UI/buttonclick.wav"
-				"sound_released"		"UI/buttonclickrelease.wav"
-
-				"border_default"		"MainMenuButtonDefault"
-				"border_armed"		"MainMenuButtonArmed"
-				"paintbackground"		"0"
-
-				"defaultFgColor_override"	"46 43 42 255"
-				"armedFgColor_override"	"235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-
-				"image_drawcolor"		"117 107 94 255"
-				"image_armedcolor"		"235 226 202 255"
-
-				"SubImage"
-				{
-					"ControlName"		"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"		"6"
-					"ypos"		"6"
-					"zpos"		"1"
-					"wide"		"14"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"scaleImage"		"1"
-				}
-			}
-		}
 
 		"SaxxySettings"
 		{"xpos"	"9999"}
@@ -89,8 +29,6 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BackgroundxHud"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"-60"
 		"wide"		"p0.832"
 		"tall"		"520"

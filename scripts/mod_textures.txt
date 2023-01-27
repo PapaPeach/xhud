@@ -1896,8 +1896,8 @@
 			"file"		"hud/objectives_flagpanel_ico_flag_dropped"
 			"x"		"0"
 			"y"		"0"
-			"width"	"256"
-			"height"	"256"
+			"width"	"64"
+			"height"	"64"
 		}
 		
 		"ico_notify_flag_home"
@@ -1905,8 +1905,8 @@
 			"file"		"hud/objectives_flagpanel_ico_flag_home"
 			"x"		"0"
 			"y"		"0"
-			"width"	"256"
-			"height"	"256"
+			"width"	"64"
+			"height"	"64"
 		}
 
 		"ico_notify_flag_home_alt"
@@ -1923,8 +1923,8 @@
 			"file"		"hud/objectives_flagpanel_ico_flag_moving"
 			"x"		"0"
 			"y"		"0"
-			"width"	"256"
-			"height"	"256"
+			"width"	"64"
+			"height"	"64"
 		}
 
 		"ico_notify_flag_moving_alt"
