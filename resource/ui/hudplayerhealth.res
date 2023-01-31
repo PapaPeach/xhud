@@ -1,4 +1,5 @@
 #base "../../cfg/xhud_resolution_selection.txt"
+#base "../../cfg/xhud_customizations.txt"
 
 "Resource/UI/HudPlayerHealth.res"
 {
@@ -129,7 +130,6 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"HealthBarLowHealth"
 		"xpos"		"0"
-		"ypos"		"-68"
 		"zpos"		"2"
 		"wide"		"200"
 		"tall"		"100"

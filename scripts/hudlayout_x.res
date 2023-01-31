@@ -87,7 +87,6 @@
 		"wide"		"100"
 		"tall"		"100"
 		"enabled"		"1"
-		"visible"		"0"
 		"TextAlignment"		"center"
 		"font"		"Hitmarker"
 		"fgcolor"		"HitMarker"
@@ -101,7 +100,6 @@
 		"zpos"		"-100"
 		"wide"		"f0"
 		"tall"		"480"
-		"visible"		"0"
 		"image"		"replay/thumbnails/transparent_viewmodels/transparent75"
 		"scaleImage"	"1"
 	}
@@ -113,7 +111,6 @@
 		"zpos"		"-100"
 		"wide"		"f0"
 		"tall"		"480"
-		"visible"		"0"
 		"image"		"replay/thumbnails/transparent_viewmodels/transparent60"
 		"scaleImage"	"1"
 	}
@@ -125,7 +122,6 @@
 		"zpos"		"-100"
 		"wide"		"f0"
 		"tall"		"480"
-		"visible"		"0"
 		"image"		"replay/thumbnails/transparent_viewmodels/transparent45"
 		"scaleImage"	"1"
 	}
@@ -137,7 +133,6 @@
 		"zpos"		"-100"
 		"wide"		"f0"
 		"tall"		"480"
-		"visible"		"0"
 		"image"		"replay/thumbnails/transparent_viewmodels/transparent_left"
 		"scaleImage"	"1"
 	}
@@ -149,7 +144,6 @@
 		"zpos"		"-100"
 		"wide"		"f0"
 		"tall"		"480"
-		"visible"		"0"
 		"image"		"replay/thumbnails/transparent_viewmodels/transparent_right"
 		"scaleImage"	"1"
 	}
@@ -158,7 +152,6 @@
 	{
 		"controlName"		"CTFImagePanel"
 		"fieldName"		"speed1"
-		"visible"		"0"
 		"xpos"		"c10"
 		"ypos"		"c16"
 		"wide"	 "10"
@@ -171,7 +164,6 @@
 	{
 		"controlName"		"CTFImagePanel"
 		"fieldName"		"speed10"
-		"visible"		"0"
 		"wide"		"10"
 		"tall"		"10"
 		"image"		"replay/thumbnails/speedometer/xspeed2"
@@ -186,7 +178,6 @@
 	{
 		"controlName"		"CTFImagePanel"
 		"fieldName"		"speed100"
-		"visible"		"0"
 		"wide"		"10"
 		"tall"		"10"
 		"image"		"replay/thumbnails/speedometer/xspeed3"
@@ -201,7 +192,6 @@
 	{
 		"controlName"		"CTFImagePanel"
 		"fieldName"		"speed1000"
-		"visible"		"0"
 		"wide"		"10"
 		"tall"		"10"
 		"image"		"replay/thumbnails/speedometer/xspeed4"
@@ -221,7 +211,6 @@
 		"zpos"		"-2"
 		"wide"		"50"
 		"tall"		"0"
-		"visible"		"0"
 		"bgcolor_override"		"TransparentGrayDarkest"
 	}
 
@@ -232,7 +221,6 @@
 		"zpos"		"-1"
 		"wide"		"0"
 		"tall"		"2"
-		"visible"		"0"
 
 		"pin_to_sibling"	"UberTimerBG"
 	}
@@ -354,7 +342,6 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"BuildingStatusAnchor"
 		"xpos"		"-5"
-		"ypos"		"240"
 		"wide"		"200"
 		"tall"		"240"
 		"enabled"		"1"

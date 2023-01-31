@@ -942,7 +942,7 @@
 		}
 	}
 
-	//INGAME TOOLS
+	//SIDE BUTTONS
 
 	"MinmodeToggle"
 	{
@@ -995,16 +995,51 @@
 		}
 	}
 
-	"InvisiblePlayersFix"
+	"XMenuButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"XMenuButton"
+		"zpos"		"2"
+		"wide"		"25"
+		"tall"		"23"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"		"MinmodeToggle"
+		"pin_corner_to_sibling"		"1"
+		"pin_to_sibling_corner"		"3"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"SubButton"
+			"wide"		"25"
+			"tall"		"23"
+			"visible"		"1"
+			"font"		"Symbols 24"
+			"textAlignment"		"east"
+			"textinsetx"		"5"
+			"use_proportional_insets"		"1"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+		}
+	}
+
+	"QuickSettings"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldname"		"InvisiblePlayersFix"
+		"fieldname"		"QuickSettings"
 		"zpos"		"2"
 		"wide"		"25"
 		"tall"		"23"
 		"visible"		"1"
 
-		"pin_to_sibling"		"MinmodeToggle"
+		"pin_to_sibling"		"XMenuButton"
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"3"
 
@@ -1019,6 +1054,45 @@
 			"visible"		"1"
 			"font"		"Symbols 24"
 			"textAlignment"		"east"
+			"textinsetx"		"5"
+			"use_proportional_insets"		"1"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+
+			"proportionaltoparent"		"1"
+		}
+	}
+
+	"InvisiblePlayersFix"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldname"		"InvisiblePlayersFix"
+		"xpos"		"5"
+		"zpos"		"2"
+		"wide"		"25"
+		"tall"		"23"
+		"visible"		"1"
+
+		"pin_to_sibling"		"MinmodeToggle"
+		"pin_corner_to_sibling"		"1"
+		"pin_to_sibling_corner"		"0"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"		"rs1"
+			"ypos"		"0"
+			"wide"		"25"
+			"tall"		"23"
+			"visible"		"1"
+			"font"		"Symbols 24"
+			"textAlignment"		"west"
 			"textinsetx"		"5"
 			"use_proportional_insets"		"1"
 
@@ -1056,7 +1130,7 @@
 			"tall"		"23"
 			"visible"		"1"
 			"font"		"Symbols 24"
-			"textAlignment"		"east"
+			"textAlignment"		"west"
 			"textinsetx"		"5"
 			"use_proportional_insets"		"1"
 
@@ -1071,35 +1145,6 @@
 		}
 	}
 
-	//XHUD MENUS
-
-	"ExtraOptions"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ExtraOptions"
-		"xpos"		"310"
-		"ypos"		"rs1"
-		"zpos"		"1000"
-		"wide"		"1"
-		"tall"		"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"Quick Menu"
-		"font"		"Size 28"
-		"textAlignment"	"west"
-		"textinsetx"	"0"
-		"use_proportional_insets"	"1"
-		"auto_wide_tocontents"		"1"
-		"Command"		"engine OpenSteamWorkshopDialog"
-
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
-
-		"paintbackground"		"0"
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"		"WhiteGray"
-	}
-
 	"ReloadHud"
 	{
 		"ControlName"		"EditablePanel"
@@ -1109,7 +1154,7 @@
 		"tall"		"23"
 		"visible"		"1"
 
-		"pin_to_sibling"		"XMenuButton"
+		"pin_to_sibling"		"BrokenSoundFix"
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"3"
 
@@ -1123,7 +1168,7 @@
 			"tall"		"23"
 			"visible"		"1"
 			"font"		"Symbols 24"
-			"textAlignment"		"east"
+			"textAlignment"		"west"
 			"textinsetx"		"5"
 			"use_proportional_insets"		"1"
 
@@ -1135,41 +1180,6 @@
 			"armedFgColor_override"		"MainTheme"
 
 			"proportionaltoparent"		"1"
-		}
-	}
-
-	"XMenuButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"XMenuButton"
-		"zpos"		"2"
-		"wide"		"25"
-		"tall"		"23"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"pin_to_sibling"		"MinmodeToggle"
-		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"3"
-
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"		"SubButton"
-			"wide"		"25"
-			"tall"		"23"
-			"visible"		"1"
-			"font"		"Symbols 24"
-			"textAlignment"		"east"
-			"textinsetx"		"5"
-			"use_proportional_insets"		"1"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
 		}
 	}
 
@@ -2342,7 +2352,7 @@
 			"wide"		"284"
 			"tall"		"24"
 			"visible"		"1"
-			"Command"		"engine exec xhud_save;writeover;alias writeover"
+			"Command"		"engine exec xhud_save;exec xhud_generate;writeover;alias writeover;hud_reloadscheme"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -2406,64 +2416,6 @@
 			"pin_to_sibling" "XMenuResolutionPanel"
 			"pin_corner_to_sibling" "0"
 			"pin_to_sibling_corner" "0"
-		}
-
-		"DevModeOn"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"DevModeOn"
-			"font"		"Size 8"
-			"labelText"		"Developer Mode On"
-			"centerwrap"	"1"
-			"xpos"		"14"
-			"wide"		"40"
-			"tall"		"19"
-			"visible"		"1"
-			"Command"		"engine alias x_devmode devon;x_devmode"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "ResetSettings"
-			"pin_corner_to_sibling" "1"
-			"pin_to_sibling_corner" "0"
-		}
-
-		"DevModeOff"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"DevModeOff"
-			"font"		"Size 8"
-			"labelText"		"Developer Mode OFF"
-			"centerwrap"	"1"
-			"ypos"		"4"
-			"wide"		"40"
-			"tall"		"19"
-			"visible"		"1"
-			"Command"		"engine alias x_devmode devoff;x_devmode"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "DevModeOn"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
 		}
 	}
 
@@ -2940,7 +2892,7 @@
 			"wide"		"288"
 			"tall"		"24"
 			"visible"		"1"
-			"Command"		"engine hud_reloadscheme;toggle mat_aaquality;wait 10;toggle mat_aaquality;wait 100;exec xhud"
+			"Command"		"engine exec xhud;exec xhud_generate;hud_reloadscheme;toggle mat_aaquality;wait 10;toggle mat_aaquality"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"

@@ -1,3 +1,4 @@
+#base "../../cfg/xhud_customizations.txt"
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"
@@ -19,30 +20,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"		"c18"
-		"ypos"		"c75+10"
 		"zpos"		"2"
 		"wide"		"50"
 		"tall"		"15"
 		"visible"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"east"
 		"fgcolor"		"Last Damage Done"
 		"font"		"Size 20"
-	}
-
-	"DamageAccountValueCenter"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"DamageAccountValueCenter"
-		"xpos"		"cs-0.5"
-		"ypos"		"c20"
-		"wide"		"50"
-		"tall"		"15"
-		"visible"		"0"
-		"labelText"		"%metal%"
-		"textAlignment"	"center"
-		"fgcolor"		"Last Damage Done"
-		"font"		"Size 16"
 	}
 }

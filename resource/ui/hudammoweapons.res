@@ -1,3 +1,4 @@
+#base "../../cfg/xhud_customizations.txt"
 "Resource/UI/HudAmmoWeapons.res"
 {
 	"AmmoAnchor"
@@ -61,7 +62,6 @@
 		"ypos"		"c14"
 		"wide"		"80"
 		"tall"		"15"
-		"visible"		"0"
 		"textAlignment"		"center"
 		"labelText"		"%Ammo%"
 	}
@@ -77,7 +77,6 @@
 		"zpos"		"-1"
 		"wide"		"80"
 		"tall"		"15"
-		"visible"		"0"
 		"textAlignment"		"center"
 		"labelText"		"%Ammo%"
 

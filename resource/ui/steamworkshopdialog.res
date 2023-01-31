@@ -43,7 +43,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ToolsPanel"
-		"xpos"		"0"
+		"xpos"		"rs1"
 		"ypos"		"24"
 		"zpos"		"-1"
 		"wide"		"302"
@@ -90,7 +90,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Tools_Title"
 		"font"		"Size 28"
-		"labelText"		"Extra Hud Options"
+		"labelText"		"Quick Settings"
 		"textAlignment"	"center"
 		"xpos"		"0"
 		"ypos"		"1"

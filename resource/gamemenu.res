@@ -119,8 +119,22 @@
 	"MinmodeToggle"
 	{
 		"label"			"À"
-		"command"		"engine toggle cl_hud_minmode"
-		"tooltip"		"Optimize (requires restart)"
+		"command"		"engine toggle cl_hud_minmode;hud_reloadscheme;toggle mat_aaquality;wait 10;toggle mat_aaquality"
+		"tooltip"		"Optimize HUD"
+	}
+
+	"XMenuButton"
+	{
+		"label"			"Á"
+		"command"		"engine sv_cheats 1;toggle cl_mainmenu_safemode"
+		"tooltip"		"Customizations"
+	}
+
+	"QuickSettings"
+	{
+		"label"			"z"
+		"command"		"engine OpenSteamWorkshopDialog"
+		"tooltip"		"Quick Settings"
 	}
 
 	"InvisiblePlayersFix"
@@ -139,19 +153,11 @@
 		"OnlyInGame"	"1"
 	}
 
-	"XMenuButton"
-	{
-		"label"			"Á"
-		"command"		"engine sv_cheats 1;toggle cl_mainmenu_safemode"
-		"tooltip"		"Customizations"
-		"OnlyAtMenu"	"1"
-	}
-
 	"ReloadHud"
 	{
 		"label"			"."
-		"command"		"engine echo =====================;echo;testhudanim QuickReloadHud;exec xhud_load"
-		"tooltip"		"Reload Hud"
-		"OnlyAtMenu"	"1"
+		"command"		"engine hud_reloadscheme"
+		"tooltip"		"Reload HUD"
+		"OnlyInGame"	"1"
 	}
 }
