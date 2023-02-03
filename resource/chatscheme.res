@@ -352,8 +352,6 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-
-
 	}
 
 	//
@@ -362,11 +360,11 @@ Scheme
 	// describes all the border types
 	Borders
 	{
-		BaseBorder					DepressedBorder
-		ButtonBorder				RaisedBorder
-		ComboBoxBorder			DepressedBorder
-		MenuBorder					RaisedBorder
-		BrowserBorder				DepressedBorder
+		BaseBorder			DepressedBorder
+		ButtonBorder		RaisedBorder
+		ComboBoxBorder		DepressedBorder
+		MenuBorder			RaisedBorder
+		BrowserBorder		DepressedBorder
 		PropertySheetBorder	RaisedBorder
 
 		FrameBorder

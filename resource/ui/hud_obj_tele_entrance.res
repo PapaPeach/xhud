@@ -4,8 +4,6 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BuildingStatusItem"
-		"xpos"			"0"
-		"ypos"			"0"
 		"wide"			"150"
 		"tall"			"31"
 		"visible"		"1"
@@ -31,8 +29,6 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BuiltPanel"
-		"xpos"			"0"
-		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"0"
@@ -83,20 +79,6 @@
 			"scaleImage"	"1"
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"Blue"
-		}
-
-		"AlertTray"
-		{
-			"ControlName"	"CBuildingStatusAlertTray"
-			"fieldName"		"AlertTray"
-			"xpos"			"6"
-			"ypos"			"r3"
-			"wide"			"38"
-			"tall"			"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"icon"			"obj_status_alert_background"
-			"proportionaltoparent"		"1"
 		}
 
 		"WrenchIcon"
@@ -201,8 +183,6 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"ChargingPanel"
-				"xpos"			"0"
-				"ypos"			"0"
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
@@ -227,8 +207,6 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"FullyChargedPanel"
-				"xpos"			"0"
-				"ypos"			"0"
 				"wide"			"100"
 				"tall"			"31"
 				"visible"		"0"
@@ -287,40 +265,9 @@
 				"textAlignment"	"Left"
 				"bgcolor_override"		"TransparentGrayDarkest"
 			}
-
-			"TeleportedIcon"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"TeleportedIcon"
-				"xpos"			"9999"
-				"wide"			"0"
-				"enabled"		"0"
-			}
-			"UpgradeIcon"
-			{
-				"ControlName"	"CIconPanel"
-				"fieldName"		"UpgradeIcon"
-				"xpos"			"9999"
-				"wide"			"0"
-				"enabled"		"0"
-			}
 		}
 	}
 
 	"Background"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"Background"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-	}
-	"NotBuiltPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"NotBuiltPanel"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-	}
+	{"ControlName"	"CIconPanel"	"visible"	"0"}
 }

@@ -119,14 +119,14 @@
 	"MinmodeToggle"
 	{
 		"label"			"À"
-		"command"		"engine toggle cl_hud_minmode;hud_reloadscheme;toggle mat_aaquality;wait 10;toggle mat_aaquality"
+		"command"		"engine toggle cl_hud_minmode;hud_reloadscheme;toggle mat_aaquality"
 		"tooltip"		"Optimize HUD"
 	}
 
 	"XMenuButton"
 	{
 		"label"			"Á"
-		"command"		"engine sv_cheats 1;toggle cl_mainmenu_safemode"
+		"command"		"engine toggle cl_mainmenu_safemode"
 		"tooltip"		"Customizations"
 	}
 

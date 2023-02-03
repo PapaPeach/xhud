@@ -4,8 +4,6 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"BuildingStatusItem"
-		"xpos"			"0"
-		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"41"
 		"visible"		"1"
@@ -61,8 +59,6 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BuiltPanel"
-		"xpos"			"0"
-		"ypos"			"0"
 		"wide"			"160"
 		"tall"			"41"
 		"visible"		"0"
@@ -115,20 +111,6 @@
 			"iconColor"		"Blue"
 		}
 
-		"AlertTray"
-		{
-			"ControlName"	"CBuildingStatusAlertTray"
-			"fieldName"		"AlertTray"
-			"xpos"			"6"
-			"ypos"			"r3"
-			"wide"			"38"
-			"tall"			"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"icon"			"obj_status_alert_background"
-			"proportionaltoparent"		"1"
-		}
-
 		"WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"
@@ -166,8 +148,6 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"0"
-			"ypos"			"0"
 			"wide"			"8"
 			"tall"			"38"
 			"visible"		"1"
@@ -285,8 +265,6 @@
 				"ControlName"		"CExLabel"
 				"fieldName"		"ShellsLabel"
 				"font"		"Size 10"
-				"xpos"		"0"
-				"ypos"		"0"
 				"zpos"		"1"
 				"wide"		"50"
 				"tall"		"8"
@@ -328,56 +306,9 @@
 				"textAlignment"	"Left"
 				"bgcolor_override"		"TransparentGrayDarkest"
 			}
-
-			"KillIcon"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"KillIcon"
-				"xpos"			"9999"
-				"wide"			"0"
-				"enabled"		"0"
-			}
-			"ShellIcon"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"ShellIcon"
-				"xpos"			"9999"
-				"wide"			"0"
-				"enabled"		"0"
-			}
-			"RocketIcon"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"RocketIcon"
-				"xpos"			"9999"
-				"wide"			"0"
-				"enabled"		"0"
-			}
-			"UpgradeIcon"
-			{
-				"ControlName"	"CIconPanel"
-				"fieldName"		"UpgradeIcon"
-				"xpos"			"9999"
-				"wide"			"0"
-				"enabled"		"0"
-			}
 		}
 	}
 
 	"Background"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"Background"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-	}
-	"NotBuiltPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"NotBuiltPanel"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-	}
+	{"ControlName"	"CIconPanel"	"visible"	"0"}
 }

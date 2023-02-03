@@ -84,17 +84,6 @@ Scheme
 			}
 		}
 
-		"BlocksSharp64"
-		{
-			"1"
-			{
-				"name"	"Blocks"
-				"tall"	"64"
-				"additive"	"0"
-				"antialias"	"0"
-			}
-		}
-
 		"ReadyUp 24"
 		{
 			"1"
@@ -125,12 +114,6 @@ Scheme
 		{
 			"font" "resource/scheme/fonts/ReadyUp XHud.otf"
 			"name" "ReadyUp XHud"
-		}
-
-		"33"
-		{
-			"font" "resource/scheme/fonts/Blocks.ttf"
-			"name" "Blocks"
 		}
 	}
 }

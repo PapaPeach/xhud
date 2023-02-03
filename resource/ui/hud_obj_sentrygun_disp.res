@@ -57,22 +57,9 @@
 			}
 
 			"Upgrade"
-			{
-				"xpos"		"9999"
-			}
-			"KillIcon"
-			{
-				"xpos"		"9999"
-			}
+			{"visible"	"0"}
 			"KillsLabel"
-			{
-				"xpos"		"9999"
-			}
-		}
-
-		"AlertTray"
-		{
-			"xpos"		"9999"
+			{"visible"	"0"}
 		}
 	}
 }

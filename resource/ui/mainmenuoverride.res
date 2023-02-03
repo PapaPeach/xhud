@@ -2400,7 +2400,7 @@
 			"wide"		"284"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine sixense_clear_bindings;sixense_write_bindings xhud_resolution_selection.txt;hud_reloadscheme;toggle mat_aaquality;wait 10;toggle mat_aaquality;"
+			"Command"		"engine sixense_clear_bindings;sixense_write_bindings xhud_resolution_selection.txt;hud_reloadscheme;toggle mat_aaquality"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
