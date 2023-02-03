@@ -2892,7 +2892,7 @@
 			"wide"		"288"
 			"tall"		"24"
 			"visible"		"1"
-			"Command"		"engine exec xhud;exec xhud_generate;hud_reloadscheme;toggle mat_aaquality;wait 10;toggle mat_aaquality"
+			"Command"		"engine exec xhud;exec xhud_generate;hud_reloadscheme;toggle mat_aaquality"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"
