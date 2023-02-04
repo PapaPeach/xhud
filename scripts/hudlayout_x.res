@@ -75,6 +75,7 @@
 		"enabled"		"1"
 		"TextAlignment"		"center"
 		"font"		"Crosshair"
+		"fgcolor"	"Crosshair"
 	}
 
 	"Hitmarker"
@@ -89,7 +90,6 @@
 		"enabled"		"1"
 		"TextAlignment"		"center"
 		"font"		"Hitmarker"
-		"fgcolor"		"HitMarker"
 		"Alpha"		"0"
 	}
 
@@ -560,15 +560,6 @@
 		"ypos"		"240"
 		"wide"		"f5"
 		"tall"		"240"
-	}
-
-	"ItemAttributeTracker"		//Transparent Viewmodels
-	{
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"-100"
-		"wide"		"f0"
-		"tall"		"480"
 	}
 
 	StatPanel

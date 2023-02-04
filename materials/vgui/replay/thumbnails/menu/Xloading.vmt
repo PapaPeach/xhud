@@ -15,10 +15,9 @@
 
 	"Proxies"
 	{
-		// Rotates the crosshair
 		"LinearRamp"
 		{
-			"rate" "-80" // Adjust this, higher spins faster
+			"rate" "-80"
 			"initialValue" "0.0"
 			"resultVar" "$angle"
 		}
@@ -32,4 +31,3 @@
 		}
 	}
 }
-

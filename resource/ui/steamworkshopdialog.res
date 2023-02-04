@@ -824,9 +824,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ColorPresetRed"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -854,9 +852,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ColorPresetYellow"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -884,9 +880,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ColorPresetGreen"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -914,9 +908,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ColorPresetBlue"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -944,9 +936,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ColorPresetPink"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -974,9 +964,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ColorPresetWhite"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1004,9 +992,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ColorPresetBlack"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1034,9 +1020,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ColorPresetRedFull"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1064,9 +1048,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ColorPresetYellowFull"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1094,9 +1076,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ColorPresetGreenFull"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1124,9 +1104,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ColorPresetCyanFull"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1154,9 +1132,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ColorPresetBlueFull"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1184,9 +1160,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ColorPresetPinkFull"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1491,9 +1465,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumColorPresetRed"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1521,9 +1493,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumColorPresetYellow"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1551,9 +1521,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumColorPresetGreen"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1581,9 +1549,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumColorPresetBlue"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1611,9 +1577,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumColorPresetPink"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1641,9 +1605,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumColorPresetWhite"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1671,9 +1633,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumColorPresetBlack"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1701,9 +1661,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumColorPresetRedFull"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1731,9 +1689,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumColorPresetYellowFull"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1761,9 +1717,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumColorPresetGreenFull"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1791,9 +1745,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumColorPresetCyanFull"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1821,9 +1773,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumColorPresetBlueFull"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"
@@ -1851,9 +1801,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DmgNumColorPresetPinkFull"
-		"font"		"Size 16"
 		"labelText"		""
-		"textAlignment"	"center"
 		"xpos"		"4"
 		"ypos"		"0"
 		"zpos"		"20"

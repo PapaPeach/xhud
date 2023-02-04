@@ -19,10 +19,8 @@
 "labelText"	"#"
 
 //-------------------------------------------//
-// COLOR: (RED GREEN BLUE OPACITY | 0 - 255) //
+// COLOR CONTROL: customizations/colors.res  //
 //-------------------------------------------//
-
-"fgcolor"	"255 255 255 255"
 }
 
 ////////////////////////
@@ -42,7 +40,7 @@
 "labelText"	"@"
 
 //-------------------------------------------//
-// COLOR CONTROL: resource/scheme/colors.res //
+// COLOR CONTROL: customizations/colors.res  //
 //-------------------------------------------//
 }
 }

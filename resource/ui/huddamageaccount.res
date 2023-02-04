@@ -25,7 +25,6 @@
 		"tall"		"15"
 		"visible"		"1"
 		"labelText"		"%metal%"
-		"fgcolor"		"Last Damage Done"
 		"font"		"Size 20"
 	}
 }
