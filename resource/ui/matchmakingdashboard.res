@@ -1,5 +1,3 @@
-#base "../../cfg/xhud_resolution_selection.txt"
-
 "Resource/UI/MatchMakingDashboard.res"
 {
 	"MMDashboard"
@@ -40,22 +38,12 @@
 			"visible"		"1"
 			"bgcolor_override"	"TransparentBlack"
 		}
-		"FindGameAnchor"		//Overriden
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"		"FindGameAnchor"
-			//"xpos"	"r-672"
-			"ypos"		"5"
-			"zpos"		"0"
-			"wide"		"0"
-			"tall"		"24"
-			"visible"		"1"
-			"paintbackground"		"0"
-		}
-		"FindAGameButton"
+		"FindAGameCustom"
 		{
 			"ControlName"		"CExImageButton"
-			"fieldName"		"FindAGameButton"
+			"fieldName"		"FindAGameCustom"
+			"xpos"		"rs1"
+			"ypos"		"5"
 			"zpos"		"100"
 			"wide"		"80"
 			"tall"		"24"
@@ -67,10 +55,7 @@
 			"Command"		"find_game"
 			"proportionaltoparent"		"1"
 			"labeltext"		"Game"
-			"mouseinputenabled"		"1"
-			"keyboardinputenabled"		"0"
 			"actionsignallevel"		"2"
-			"roundedcorners"		"1"
 			"use_proportional_insets"		"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -79,8 +64,6 @@
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"Green"
-
-			"pin_to_sibling"		"FindGameAnchor"
 		}
 		"ToggleChatButton"
 		{
@@ -537,5 +520,7 @@
 			"Command"		""
 			"paintbackground"		"0"
 		}
+		"FindAGameButton"
+		{"fieldName"	"FindAGameButton"	"visible"	"0"}
 	}
 }

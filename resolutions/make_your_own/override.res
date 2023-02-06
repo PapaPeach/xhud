@@ -21,14 +21,6 @@
 		"HealthBonusPosAdj"	"REPLACE THIS"		//[+/-1]=VALUE FROM HudPlayerHealth*(14/81)
 	}
 
-	"TopBar"
-	{
-	"FindGameAnchor"
-	{
-		"xpos"	"r-REPLACE THIS"				//NO FORMULA FOR THIS. START ADJUSTING BY +/- 200, THEN FINE TUNE. NARROWER ASPECT RATIOS=SMALLER NUMBER.
-	}
-	}
-
 	//DON'T EDIT THIS
 	"ResolutionSelector"
 	{"visible"	"0"}

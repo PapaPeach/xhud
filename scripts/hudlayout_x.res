@@ -540,8 +540,8 @@
 	HudStopWatch
 	{
 		"xpos"		"cs-0.5"
-		"ypos"		"20"
-		"ypos_minmode"	"35"
+		"ypos"		"15"
+		"ypos_minmode"	"15"
 		"wide"		"125"
 		"tall"		"70"
 	}

@@ -5,14 +5,6 @@
 		"HealthBonusPosAdj"	"151"
 	}
 
-	"TopBar"
-	{
-		"FindGameAnchor"
-		{
-			"xpos"	"r-659"
-		}
-	}
-
 	"specgui"
 	{
 		"playerpanels_kv"

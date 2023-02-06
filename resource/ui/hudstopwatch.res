@@ -4,9 +4,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"ObjectiveStatusTimePanel"
-		"xpos"		"0"
-		"ypos"		"0"
-		"wide"		"f0"
+		"xpos"		"-1"
+		"wide"		"p0.5"
 		"tall"		"10"
 		"visible"		"0"
 		"enabled"		"1"
@@ -20,9 +19,9 @@
 			"tall"		"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"		"Size 16"
+			"font"		"Size 12"
 			"fgcolor"		"White"
-			"textAlignment"		"center"
+			"textAlignment"		"east"
 			"proportionaltoparent"	"1"
 		}	
 	}
@@ -30,28 +29,31 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchScoreToBeat"
-		"xpos"		"c-17"
-		"ypos"		"10"
+		"xpos"		"2"
 		"wide"		"1"
 		"tall"		"10"
 		"visible"		"0"
 		"enabled"		"1"
-		"font"		"Size 11"
+		"font"		"Size 12"
+		"fgcolor"		"White"
 		"labelText"		"%scoretobeat%"
-		"textAlignment"		"east"
-		"proportionaltoparent"	"1"
 		"auto_wide_tocontents"		"1"
+
+		"pin_to_sibling"		"ObjectiveStatusTimePanel"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"1"
 	}
 	"StopWatchPointsLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"StopWatchPointsLabel"
-		"xpos"		"2"
+		"xpos"		"1"
 		"wide"		"99"
-		"tall"		"10"
+		"tall"		"9"
 		"visible"		"1"
 		"enabled"		"1"
 		"font"		"Size 11"
+		"fgcolor"		"White"
 		"labelText"		"%pointslabel%"
 		"textAlignment"		"west"
 
@@ -59,25 +61,28 @@
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
-	"StopWatchLabel"
+	"StopWatchDivider"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"StopWatchLabel"
-		"xpos"		"cs-0.5"
-		"ypos"		"0"
-		"wide"		"f0"
+		"fieldName"		"StopWatchDivider"
+		"xpos"		"0"
+		"wide"		"2"
 		"tall"		"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"font"		"Size 10"
-		"labelText"		"%stopwatchlabel%"
-		"textAlignment"		"west"
-		"centerwrap"	"1"
-		"proportionaltoparent"	"1"
+		"visible"		"1"
+		"font"		"Size 12"
+		"fgcolor"		"White"
+		"labelText"		"|"
+		"textAlignment"		"center"
+
+		"pin_to_sibling"		"ObjectiveStatusTimePanel"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"1"
 	}
 
 	"StopWatchImageCaptureTime"
 	{"fieldName"	"StopWatchImageCaptureTime"	"visible"	"0"}
+	"StopWatchLabel"
+	{"fieldName"	"StopWatchLabel"	"xpos"	"9999"}
 	"HudStopWatchDescriptionBG"
 	{"ControlName"	"ScalableImagePanel"	"xpos"	"9999"}
 	"StopWatchDescriptionLabel"
