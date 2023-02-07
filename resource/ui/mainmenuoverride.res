@@ -2711,9 +2711,9 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MoreOptionsLabel"
-			"font"		"Size 10"
+			"font"		"Size 8"
 			"labelText"		"*For finer adjustments and custom crosshairs, see customizations folder."
-			"textAlignment"	"center"
+			"textAlignment"	"west"
 			"wide"		"280"
 			"tall"		"10"
 			"visible"		"1"
@@ -2882,7 +2882,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"TVMLeft"
-			"font"		"Size 16"
+			"font"		"Size 14"
 			"labelText"		"Low Blur Left"
 			"textAlignment"	"center"
 			"wide"		"90"
@@ -2910,7 +2910,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"TVMRight"
-			"font"		"Size 16"
+			"font"		"Size 14"
 			"labelText"		"Low Blur Right"
 			"textAlignment"	"center"
 			"xpos"		"4"
