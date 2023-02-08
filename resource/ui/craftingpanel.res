@@ -99,12 +99,10 @@
 			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
+			"paintbackground"	"0"
 			"defaultFgColor_override" "WhiteGray"
-			"defaultBgColor_override" "Blank"
 			"armedFgColor_override" "White"
-			"armedBgColor_override" "Blank"
 			"depressedFgColor_override" "MainTheme"
-			"depressedBgColor_override" "Blank"
 		}
 
 		"filter_xoffset"	"-290"

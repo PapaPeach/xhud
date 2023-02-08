@@ -482,6 +482,42 @@
 		}
 	}
 
+	"InventoryBP"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"InventoryBP"
+		"zpos"		"2"
+		"wide"		"104"
+		"tall"		"23"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"		"Servers"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"2"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"SubButton"
+			"wide"		"103"
+			"tall"		"23"
+			"visible"		"1"
+			"font"		"Size 28"
+			"textAlignment"		"west"
+			"textinsetx"		"0"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+
+			"proportionaltoparent"		"1"
+		}
+	}
+
 	"Store"
 	{
 		"ControlName"		"EditablePanel"
@@ -1317,8 +1353,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1347,8 +1382,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1394,8 +1428,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1424,8 +1457,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1454,8 +1486,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1484,8 +1515,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1531,8 +1561,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1561,8 +1590,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1608,8 +1636,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1638,8 +1665,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1685,8 +1711,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1715,8 +1740,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1762,8 +1786,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1792,8 +1815,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1839,8 +1861,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1869,8 +1890,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1931,8 +1951,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -1961,8 +1980,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -2008,8 +2026,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -2038,8 +2055,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -2100,8 +2116,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -2130,8 +2145,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -2421,8 +2435,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -2451,8 +2464,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -2776,8 +2788,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -2806,8 +2817,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -2836,8 +2846,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -2866,8 +2875,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -2894,8 +2902,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -2924,8 +2931,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -2956,8 +2962,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
@@ -3001,8 +3006,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3031,8 +3035,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3061,8 +3064,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"Red"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"RedHighlightBorder"
@@ -3109,8 +3111,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3181,8 +3182,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3210,8 +3210,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3239,8 +3238,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3268,8 +3266,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3298,8 +3295,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3344,8 +3340,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3373,8 +3368,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3402,8 +3396,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3449,8 +3442,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"WhiteGray"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3478,8 +3470,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3507,8 +3498,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3554,8 +3544,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"WhiteHighlightBorder"
@@ -3602,8 +3591,7 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"		"Blank"
+			"paintbackground"		"0"
 			"defaultFgColor_override"		"Red"
 			"armedFgColor_override"		"MainTheme"
 			"border_default"		"RedHighlightBorder"
@@ -3627,6 +3615,49 @@
 			"labelText"		"(game will freeze for several seconds)"
 
 			"pin_to_sibling"	"ApplyButton"
+			"pin_corner_to_sibling"	"4"
+			"pin_to_sibling_corner"	"6"
+		}
+
+		"ConflictingValveRC"
+		{
+			"ControlName"		"Label"
+			"fieldName"		"ConflictingValveRC"
+			"xpos"		"cs-0.5"
+			"ypos"		"rs1-11"
+			"wide"		"510"
+			"tall"		"40"
+			"visible"		"1"
+			"font"		"Size 10"
+			"fgcolor_override"		"White"
+			"textAlignment"		"south"
+			"centerwrap"		"1"
+			"labelText"		"If the apply button is not working, there is likely a mod in your custom folder that conflicts with Xhud's Valve.rc (preloaded mods). Resolve the issue by removing the conflicting mod or by adding 'exec xhud' to your autoexec."
+		}
+
+		"ResolveValveRC"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"ResolveValveRC"
+			"font"		"Size 10"
+			"labelText"		"For a temporary fix, press this button then make your selection."
+			"textAlignment"	"center"
+			"wide"		"260"
+			"tall"		"11"
+			"visible"		"1"
+			"Command"		"engine exec xhud"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
+
+			"pin_to_sibling"	"ConflictingValveRC"
 			"pin_corner_to_sibling"	"4"
 			"pin_to_sibling_corner"	"6"
 		}

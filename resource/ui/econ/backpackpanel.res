@@ -265,12 +265,9 @@
 		"unicode"			"0"
 
 		"fgcolor_override"	"White"
-		"bgcolor_override"	"Blank"
 		"disabledFgColor_override" "White"
-		"disabledBgColor_override" "Blank"
 		"selectionColor_override" "MainTheme"
 		"selectionTextColor_override" "White"
-		"defaultSelectionBG2Color_override" "Blank"
 
 		"pin_to_sibling"		"SortByComboBox"
 		"pin_corner_to_sibling"		"3"
@@ -296,12 +293,9 @@
 		"unicode"			"0"
 
 		"fgcolor_override"	"White"
-		"bgcolor_override"	"Blank"
 		"disabledFgColor_override" "White"
-		"disabledBgColor_override" "Blank"
 		"selectionColor_override" "MainTheme"
 		"selectionTextColor_override" "White"
-		"defaultSelectionBG2Color_override" "Blank"
 	}
 
 	"ShowBaseItemsCheckbox"

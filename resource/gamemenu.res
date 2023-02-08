@@ -16,7 +16,15 @@
 	"Inventory"
 	{
 		"label"			"Inventory"
-		"command"		"engine open_charinfo_direct"	//open_charinfo
+		"command"		"engine open_charinfo_direct; inv_opened"	//start Horse's script
+		"OnlyInGame"	"1"
+	}
+
+	"InventoryBP"
+	{
+		"label"			"Inventory"
+		"command"		"engine open_charinfo_backpack; inv_opened"	//Start Horse's script
+		"OnlyAtMenu"	"1"
 	}
 
 	"Store"

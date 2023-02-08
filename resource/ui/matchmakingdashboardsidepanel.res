@@ -17,8 +17,7 @@
 		"font"			"Size 28"
 		"wrap"		"0"
 
-		"armedBgColor_override"	"Blank"
-		"defaultBgColor_override"	"Blank"
+		"paintbackground"	"0"
 		"armedFgColor_override"	"MainTheme"
 
 		"pin_to_sibling"		"criteria"
@@ -43,8 +42,7 @@
 		"font"			"Size 28"
 		"wrap"		"0"
 
-		"armedBgColor_override"	"Blank"
-		"defaultBgColor_override"	"Blank"
+		"paintbackground"	"0"
 		"armedFgColor_override"	"MainTheme"
 
 		"pin_to_sibling"		"CloseButton"

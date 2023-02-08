@@ -9,9 +9,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"settitlebarvisible"	"1"
-		"bgcolor_override"				"Blank"
-		"infocus_bgcolor_override"		"Blank"
-		"outoffocus_bgcolor_override"	"Blank"
+		"paintbackground"	"0"
 
 		"title"			""
 		"title_font"	"Size 24"
@@ -86,7 +84,7 @@
 		"labelText"		"Back"
 		"font"			"Size 30"
 		"textAlignment"	"center"
-		"Command"		"back"
+		"Command"		"close"
 
 		"sound_depressed"				"UI/buttonclick.wav"
 		"sound_released"				"UI/buttonclickrelease.wav"

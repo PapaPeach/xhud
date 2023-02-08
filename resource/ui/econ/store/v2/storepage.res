@@ -231,10 +231,9 @@
 		
 		"Button"
 		{
+			"paintbackground"	"0"
 			"defaultFgColor_override"	"WhiteGray"
-			"defaultBgColor_override"	"Blank"
 			"armedFgColor_override"	"WhiteGray"
-			"armedBgColor_override"	"Blank"
 		}
 	}
 	"SortFilterLabel"
@@ -291,10 +290,9 @@
 
 		"Button"
 		{
+			"paintbackground"	"0"
 			"defaultFgColor_override"	"WhiteGray"
-			"defaultBgColor_override"	"Blank"
 			"armedFgColor_override"	"WhiteGray"
-			"armedBgColor_override"	"Blank"
 		}
 	}
 	"mouseoveritempanel"

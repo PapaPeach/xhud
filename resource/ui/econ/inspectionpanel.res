@@ -264,13 +264,11 @@
 				"visible"	"0"
 			}
 
+			"paintbackground"	"0"
 			"fgcolor_override"	"White"
-			"bgcolor_override"	"Blank"
 			"disabledFgColor_override" "White"
-			"disabledBgColor_override" "Blank"
 			"selectionColor_override" "Blank"
 			"selectionTextColor_override" "White"
-			"defaultSelectionBG2Color_override" "Blank"
 		}
 
 		"PaintkitLabel"
@@ -325,13 +323,11 @@
 
 			"proportionaltoparent"	"1"
 
+			"paintbackground"	"0"
 			"fgcolor_override"	"White"
-			"bgcolor_override"	"Blank"
 			"disabledFgColor_override" "WhiteGray"
-			"disabledBgColor_override" "Blank"
 			"selectionColor_override" "Blank"
 			"selectionTextColor_override" "White"
-			"defaultSelectionBG2Color_override" "Blank"
 		}
 
 		"ItemLabel"

@@ -141,8 +141,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"		"Blank"
-		"armedBgColor_override"		"Blank"
+		"paintbackground"	"0"
 
 		"pin_to_sibling" "Panel1"
 		"pin_corner_to_sibling" "0"
@@ -230,8 +229,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"		"Blank"
-		"armedBgColor_override"		"Blank"
+		"paintbackground"	"0"
 
 		"pin_to_sibling" "VoiceLabel"
 		"pin_corner_to_sibling" "0"
@@ -319,8 +317,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"		"Blank"
-		"armedBgColor_override"		"Blank"
+		"paintbackground"	"0"
 
 		"pin_to_sibling" "TextChatLabel"
 		"pin_corner_to_sibling" "0"
@@ -408,8 +405,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"		"Blank"
-		"armedBgColor_override"		"Blank"
+		"paintbackground"	"0"
 
 		"pin_to_sibling" "NotificationsLabel"
 		"pin_corner_to_sibling" "0"
@@ -497,8 +493,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"		"Blank"
-		"armedBgColor_override"		"Blank"
+		"paintbackground"	"0"
 
 		"pin_to_sibling" "CCLabel"
 		"pin_corner_to_sibling" "0"
@@ -547,8 +542,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"		"Blank"
-		"armedBgColor_override"		"Blank"
+		"paintbackground"	"0"
 
 		"pin_to_sibling" "MatchHudLabel"
 		"pin_corner_to_sibling" "7"
@@ -614,8 +608,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"		"Blank"
-		"armedBgColor_override"		"Blank"
+		"paintbackground"	"0"
 
 		"pin_to_sibling" "Panel2"
 		"pin_corner_to_sibling" "0"
@@ -1205,8 +1198,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"		"Blank"
-		"armedBgColor_override"		"Blank"
+		"paintbackground"	"0"
 
 		"pin_to_sibling" "ColorPresetLabel"
 		"pin_corner_to_sibling" "0"
@@ -1255,8 +1247,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"		"Blank"
-		"armedBgColor_override"		"Blank"
+		"paintbackground"	"0"
 
 		"pin_to_sibling" "DmgNumEnableCheck"
 		"pin_corner_to_sibling" "7"
@@ -2036,8 +2027,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"		"Blank"
-		"armedBgColor_override"		"Blank"
+		"paintbackground"	"0"
 
 		"pin_to_sibling" "Panel4"
 		"pin_corner_to_sibling" "0"
@@ -2203,8 +2193,7 @@
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"		"Blank"
-		"armedBgColor_override"		"Blank"
+		"paintbackground"	"0"
 
 		"pin_to_sibling" "HitSoundMaxLabel"
 		"pin_corner_to_sibling" "0"
