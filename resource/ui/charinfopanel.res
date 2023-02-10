@@ -39,7 +39,7 @@
 	"CharInfoBottomBar"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"StoreBottomBar"
+		"fieldName"		"CharInfoBottomBar"
 		"xpos"			"0"
 		"ypos"			"rs1"
 		"wide"			"f0"
