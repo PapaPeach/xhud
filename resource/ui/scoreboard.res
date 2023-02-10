@@ -1101,13 +1101,15 @@
 		}
 	}
 	"classmodelpanel"
-	{"fieldName"	"classmodelpanel"	"visible"	"0"}
+	{"fieldName"	"classmodelpanel"	"ypos"	"9999"}
+	"ClassImage"
+	{"fieldName"	"ClassImage"	"ypos"	"9999"}
+	"BlueTeamImage"
+	{"fieldName"	"BlueTeamImage"	"ypos"	"9999"}
+	"RedTeamImage"
+	{"fieldName"	"RedTeamImage"	"ypos"	"9999"}
 	"PlayerNameLabel"
 	{"fieldName"	"PlayerNameLabel"	"visible"	"0"}
-	"BlueTeamImage"
-	{"fieldName"	"BlueTeamImage"	"visible"	"0"}
-	"RedTeamImage"
-	{"fieldName"	"RedTeamImage"	"visible"	"0"}
 	"HorizontalLine"
 	{"ControlName"	"ImagePanel"	"visible"	"0"}
 }
