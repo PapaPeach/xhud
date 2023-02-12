@@ -61,7 +61,6 @@
 		"fieldName"		"HudTitle"
 		"xpos"		"153"
 		"ypos"		"134"
-		"zpos"		"50"
 		"wide"		"17"
 		"tall"		"10"
 		"visible"		"1"
@@ -378,42 +377,33 @@
 
 	"Servers"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"Button"
 		"fieldName"		"Servers"
+		"font"		"Size 28"
+		"labelText"		"Servers"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
 		"xpos"		"152"
 		"ypos"		"140"
 		"zpos"		"2"
-		"wide"		"82"
+		"wide"		"84"
 		"tall"		"23"
 		"visible"		"1"
-		"enabled"		"1"
+		"Command"		"OpenServerBrowser"
 
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"		"SubButton"
-			"wide"		"84"
-			"tall"		"23"
-			"visible"		"1"
-			"font"		"Size 28"
-			"textAlignment"		"west"
-			"textinsetx"		"0"
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
 
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-
-			"proportionaltoparent"		"1"
-		}
+		"paintbackground"		"0"
+		"defaultFgColor_override"		"White"
+		"armedFgColor_override"		"MainTheme"
 	}
 
 	"Create"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"Create"
+		"xpos"		"-2"
 		"zpos"		"2"
 		"wide"		"23"
 		"tall"		"23"
@@ -556,38 +546,28 @@
 
 	"Options"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"Button"
 		"fieldName"		"Options"
+		"font"		"Size 28"
+		"labelText"		"Options"
+		"textAlignment"	"west"
+		"textinsetx"	"0"
 		"zpos"		"2"
 		"wide"		"86"
 		"tall"		"23"
 		"visible"		"1"
-		"enabled"		"1"
+		"Command"		"OpenOptionsDialog"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"		"0"
+		"defaultFgColor_override"		"White"
+		"armedFgColor_override"		"MainTheme"
 
 		"pin_to_sibling"		"Inventory"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
-
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"		"SubButton"
-			"wide"		"86"
-			"tall"		"23"
-			"visible"		"1"
-			"font"		"Size 28"
-			"textAlignment"		"west"
-			"textinsetx"		"0"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-
-			"proportionaltoparent"		"1"
-		}
 	}
 
 	"AdvancedOptions"
@@ -1230,7 +1210,7 @@
 
 		"XMenu_FullClose"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"XMenu_FullClose"
 			"zpos"		"0"
 			"wide"		"f0"
@@ -1261,7 +1241,7 @@
 
 		"XMenu_Close"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"XMenu_Close"
 			"xpos"		"-2"
 			"ypos"		"-2"

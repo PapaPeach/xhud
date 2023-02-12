@@ -42,7 +42,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
-		"textAlignment"	"northwest"
 		"fgcolor"		"White"
 	}
 
@@ -94,13 +93,7 @@
 	}
 
 	"TextMessage"
-	{
-		"fieldName"		"TextMessage"
-		"visible"		"0"
-	}
+	{"fieldName"	"TextMessage"	"visible"	"0"}
 	"MessageTitle"
-	{
-		"fieldName"		"MessageTitle"
-		"visible"		"0"
-	}
+	{"fieldName"	"MessageTitle"	"visible"	"0"}
 }

@@ -1,11 +1,5 @@
 "GameMenu"
 {
-	"Servers"
-	{
-		"label"			"Servers"
-		"command"		"OpenServerBrowser"
-	}
-
 	"Create"
 	{
 		"label"			"~"
@@ -16,14 +10,14 @@
 	"Inventory"
 	{
 		"label"			"Inventory"
-		"command"		"engine open_charinfo_direct; inv_opened"	//start Horse's script
+		"command"		"engine open_charinfo_direct;inv_opened"	//start Horse's script
 		"OnlyInGame"	"1"
 	}
 
 	"InventoryBP"
 	{
 		"label"			"Inventory"
-		"command"		"engine open_charinfo_backpack; inv_opened"	//Start Horse's script
+		"command"		"engine open_charinfo_backpack;inv_opened"	//Start Horse's script
 		"OnlyAtMenu"	"1"
 	}
 
@@ -34,18 +28,11 @@
 		"tooltip"		"Mann Co. Store"
 	}
 
-	"Options"
-	{
-		"label"			"Options"
-		"command"		"OpenOptionsDialog"
-	}
-
 	"AdvancedOptions"
 	{
 		"label"			"}"
 		"command"		"opentf2options"
 		"tooltip"		"Advanced Options"
-		"OnlyAtMenu"	"0"
 	}
 
 	"Streams"
@@ -53,7 +40,6 @@
 		"label"			"0"
 		"command"		"watch_stream"
 		"tooltip"		"Streams"
-		"OnlyAtMenu"	"0"
 	}
 
 	"Contracker"
@@ -61,7 +47,6 @@
 		"label"			"B"
 		"command"		"questlog"
 		"tooltip"		"Contracker"
-		"OnlyAtMenu"	"0"
 	}
 
 	"DemoUI"
@@ -69,7 +54,6 @@
 		"label" 		"^"
 		"command" 		"engine demoui"
 		"tooltip" 		"DemoUI"
-		"OnlyAtMenu"	"0"
 	}
 
 	"Console"
@@ -77,7 +61,6 @@
 		"label"			"("
 		"command"		"engine con_enable 1;toggleconsole"
 		"tooltip"		"Open Console"
-		"OnlyAtMenu"	"0"
 	}
 
 	"Quit"
