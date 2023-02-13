@@ -6,15 +6,15 @@
 	{
 		if_mini
 		{
-			"wide"						"270"
-			"tall"						"60"
+			"wide"		"270"
+			"tall"		"60"
 		}
 
 		"PlacementLabel"
 		{
 			if_mini
 			{
-				"ypos"					"17"
+				"ypos"		"17"
 			}
 		}
 
@@ -22,28 +22,28 @@
 		{
 			if_mini
 			{
-				"xpos"					"cs-0.5"
-				"ypos"					"35"
+				"xpos"		"cs-0.5"
+				"ypos"		"35"
 
-				"textAlignment"			"center"
+				"textAlignment"		"center"
 
 				"fonts"
 				{
-					"0"					"Size 14"
-					"1"					"Size 10"
-					"2"					"Size 8"
+					"0"		"Size 14"
+					"1"		"Size 10"
+					"2"		"Size 8"
 				}
 			}
 		}
 
 		"StatsContainer"
 		{
-			"visible"					"1"
+			"visible"		"1"
 
 			if_mini
 			{
-				"xpos"					"cs-0.5"
-				"ypos"					"25"
+				"xpos"		"cs-0.5"
+				"ypos"		"25"
 			}
 
 			"XPBar"
@@ -52,14 +52,14 @@
 				{
 					if_mini
 					{
-						"xpos"			"cs-0.5"
+						"xpos"		"cs-0.5"
 						"textAlignment"	"center"
 					}
 				}
 				
 				"ProgressBarsContainer"
 				{
-					"visible"			"1"
+					"visible"		"1"
 				}
 			}
 		}

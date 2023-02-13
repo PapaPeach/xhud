@@ -2,11 +2,11 @@
 {
 	"MatchmakingCategoryMapPanel"
 	{
-		"fieldName"				"MatchmakingCategoryMapPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"p0.5"
-		"tall"					"18"
+		"fieldName"		"MatchmakingCategoryMapPanel"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"p0.5"
+		"tall"		"18"
 		"proportionaltoparent"	"1"
 
 		"skip_autoresize"	"1"
@@ -42,7 +42,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"%title_token%"
 		"textAlignment"	"west"
-		"font"			"Size 12"
+		"font"		"Size 12"
 		"textinsetx"	"18"
 		"use_proportional_insets"	"1"
 
@@ -53,10 +53,10 @@
 	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"HealthProgressBar"
-		"xpos"			"20"
-		"ypos"			"cs-0.5-1"
-		"wide"			"f20"
-		"tall"			"f7"
+		"xpos"		"20"
+		"ypos"		"cs-0.5-1"
+		"wide"		"f20"
+		"tall"		"f7"
 		"proportionaltoparent"	"1"
 		"progress"		"0.5"
 

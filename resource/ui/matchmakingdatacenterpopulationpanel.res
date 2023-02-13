@@ -2,11 +2,11 @@
 {
 	"DataCenterPopulationPanel"		//This is for the ping select panel
 	{
-		"fieldName"				"DataCenterPopulationPanel"
-		"xpos"					"cs-0.5"
-		"ypos"					"0"
-		"wide"					"p0.95"
-		"tall"					"13"
+		"fieldName"		"DataCenterPopulationPanel"
+		"xpos"		"cs-0.5"
+		"ypos"		"0"
+		"wide"		"p0.95"
+		"tall"		"13"
 		"proportionaltoparent"	"1"
 
 		"skip_autoresize"	"1"
@@ -24,7 +24,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		"%datacenter_name%"
 		"textAlignment"	"west"
-		"font"			"Size 11"
+		"font"		"Size 11"
 		"textinsetx"	"10"
 
 		"mouseinputenabled"	"0"
@@ -34,10 +34,10 @@
 	{
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"HealthProgressBar"
-		"xpos"			"0"
-		"ypos"			"cs-0.5"
-		"wide"			"f0"
-		"tall"			"f2"
+		"xpos"		"0"
+		"ypos"		"cs-0.5"
+		"wide"		"f0"
+		"tall"		"f2"
 		"proportionaltoparent"	"1"
 		"progress"		"0.5"
 

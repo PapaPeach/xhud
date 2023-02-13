@@ -1,4 +1,4 @@
-#base 	"huditemeffectmeter.res"
+#base	"huditemeffectmeter.res"
 
 //Heavy rage meter
 "Resource/UI/HudItemEffectMeter_Scout.res"
