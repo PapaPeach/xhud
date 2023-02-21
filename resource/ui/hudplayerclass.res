@@ -28,12 +28,27 @@
 		"enabled"		"1"
 	}
 
+	"PlayerStatusClassImage"
+	{
+		"ControlName"	"CTFClassImage"
+		"fieldName"		"PlayerStatusClassImage"
+		"xpos"		"0"
+		"ypos"		"-125"
+		"zpos"		"2"
+		"wide"		"75"
+		"tall"		"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"		"../hud/class_scoutred"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"		"ModelPin"
+	}
+
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"2"
 		"wide"		"100"
 		"tall"		"200"
@@ -69,8 +84,7 @@
 		"customclassdata"
 		{
 			"undefined"
-			{
-			}
+			{}
 			"Scout"
 			{
 				"fov"		"20"
@@ -195,46 +209,4 @@
 			"enabled"		"0"
 		}
 	}
-	"classmodelpanelBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classmodelpanelBG"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-	"PlayerStatusSpyOutlineImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-	"PlayerStatusSpyImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-
-	"PlayerStatusClassImage"
-	{
-		"ControlName"	"CTFClassImage"
-		"fieldName"		"PlayerStatusClassImage"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-	"PlayerStatusClassImageBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
-
 }
