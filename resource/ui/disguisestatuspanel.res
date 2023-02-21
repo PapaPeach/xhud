@@ -8,7 +8,7 @@
 		"ypos"			"8"
 		"zpos"			"-1"
 		"wide"			"60"
-		"tall"	 		"2"
+		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/panels/black"

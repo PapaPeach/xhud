@@ -5,11 +5,11 @@
 {
 	HudItemEffectMeter
 	{
-		"ypos"			"c96"
+		"ypos"		"c96"
 	}
 
 	"ItemEffectMeterLabel"
 	{
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"		"#TF_ENERGYDRINK"
 	}
 }

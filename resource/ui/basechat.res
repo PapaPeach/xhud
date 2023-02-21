@@ -4,11 +4,11 @@
 	"HudChat"
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName" 		"HudChat"
-		"visible" 		"1"
-		"enabled" 		"1"
+		"fieldName"		"HudChat"
+		"visible"		"1"
+		"enabled"		"1"
 		"xpos"			"-2"
-		"wide"	 		"220"
+		"wide"			"220"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"		"27 28 30 0"
 	}
@@ -16,13 +16,13 @@
 	ChatInputLine
 	{
 		"ControlName"		"EditablePanel"
-		"fieldName" 		ChatInputLine
-		"visible" 		"1"
-		"enabled" 		"1"
+		"fieldName"		ChatInputLine
+		"visible"		"1"
+		"enabled"		"1"
 		"xpos"			"2"
 		"ypos"			"0"
-		"wide"	 		"202"
-		"tall"	 		"0"
+		"wide"			"202"
+		"tall"			"0"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -45,7 +45,7 @@
 		"fieldName"		"HudChatHistory"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"	 		"220"
+		"wide"			"220"
 		"tall"			"0"
 		"wrap"			"1"
 		"visible"		"1"

@@ -1,4 +1,4 @@
-#base 	"huditemeffectmeter.res"
+#base	"huditemeffectmeter.res"
 
 //Fixes console spam
 "Resource/UI/HudItemEffectMeter_Action.res"

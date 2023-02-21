@@ -5,12 +5,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
-		"xpos"			"-200"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"500"
+		"xpos"		"-200"
+		"ypos"		"0"
+		"zpos"		"1"
+		"wide"		"500"
 		"wide_minmode"		"200"
-		"tall"			"480"
+		"tall"		"480"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -19,31 +19,46 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelPin"
-		"xpos"			"200"
-		"ypos"			"r200"
-		"zpos"			"2"
-		"wide"			"1"
-		"tall"			"1"
+		"xpos"		"200"
+		"ypos"		"r200"
+		"zpos"		"2"
+		"wide"		"1"
+		"tall"		"1"
 		"visible"		"1"
 		"enabled"		"1"
+	}
+
+	"PlayerStatusClassImage"
+	{
+		"ControlName"	"CTFClassImage"
+		"fieldName"		"PlayerStatusClassImage"
+		"xpos"		"0"
+		"ypos"		"-125"
+		"zpos"		"2"
+		"wide"		"75"
+		"tall"		"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"		"../hud/class_scoutred"
+		"scaleImage"	"1"
+
+		"pin_to_sibling"		"ModelPin"
 	}
 
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"200"
+		"zpos"		"2"
+		"wide"		"100"
+		"tall"		"200"
 		"visible"		"1"
 		"enabled"		"1"
 
 		"pin_to_sibling"		"ModelPin"
 
 		"render_texture"	"0"
-		"fov"			"12"
+		"fov"		"12"
 		"allow_rot"		"1"
 
 		"disable_speak_event"	"1"
@@ -69,11 +84,10 @@
 		"customclassdata"
 		{
 			"undefined"
-			{
-			}
+			{}
 			"Scout"
 			{
-				"fov"			"20"
+				"fov"		"20"
 				"angles_x"		"-7"
 				"angles_y"		"215"
 				"angles_z"		"0"
@@ -83,7 +97,7 @@
 			}
 			"Sniper"
 			{
-				"fov"			"23"
+				"fov"		"23"
 				"angles_x"		"0"
 				"angles_y"		"215"
 				"angles_z"		"0"
@@ -93,7 +107,7 @@
 			}
 			"Soldier"
 			{
-				"fov"			"25"
+				"fov"		"25"
 				"angles_x"		"0"
 				"angles_y"		"210"
 				"angles_z"		"0"
@@ -103,7 +117,7 @@
 			}
 			"Demoman"
 			{
-				"fov"			"26"
+				"fov"		"26"
 				"angles_x"		"-7"
 				"angles_y"		"210"
 				"angles_z"		"0"
@@ -113,7 +127,7 @@
 			}
 			"Medic"
 			{
-				"fov"			"22"
+				"fov"		"22"
 				"angles_x"		"-3"
 				"angles_y"		"220"
 				"angles_z"		"0"
@@ -123,7 +137,7 @@
 			}
 			"Heavy"
 			{
-				"fov"			"26"
+				"fov"		"26"
 				"angles_x"		"-2"
 				"angles_y"		"220"
 				"angles_z"		"0"
@@ -133,7 +147,7 @@
 			}
 			"Pyro"
 			{
-				"fov"			"25"
+				"fov"		"25"
 				"angles_x"		"0"
 				"angles_y"		"220"
 				"angles_z"		"0"
@@ -143,7 +157,7 @@
 			}
 			"Spy"
 			{
-				"fov"			"23"
+				"fov"		"23"
 				"angles_x"		"0"
 				"angles_y"		"215"
 				"angles_z"		"0"
@@ -153,7 +167,7 @@
 			}
 			"Engineer"
 			{
-				"fov"			"24"
+				"fov"		"24"
 				"angles_x"		"0"
 				"angles_y"		"215"
 				"angles_z"		"0"
@@ -166,75 +180,33 @@
 
 	"CarryingWeapon"
 	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"CarryingWeapon"
-		"xpos"					"9999"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"CarryingWeapon"
+		"xpos"		"9999"
 
 		"CarryingBackground"
 		{
-			"ControlName"			"CTFImagePanel"
-			"fieldName"				"CarryingBackground"
-			"enabled"				"0"
+			"ControlName"		"CTFImagePanel"
+			"fieldName"		"CarryingBackground"
+			"enabled"		"0"
 		}
 		"CarryingLabel"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"CarryingLabel"
-			"enabled"			"0"
+			"fieldName"		"CarryingLabel"
+			"enabled"		"0"
 		}
 		"CarryingLabelDropShadow"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"			"CarryingLabelDropShadow"
-			"enabled"			"0"
+			"fieldName"		"CarryingLabelDropShadow"
+			"enabled"		"0"
 		}
 		"OwnerLabel"
 		{
 			"ControlName"		"Label"
-			"fieldName"			"OwnerLabel"
-			"enabled"			"0"
+			"fieldName"		"OwnerLabel"
+			"enabled"		"0"
 		}
 	}
-	"classmodelpanelBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classmodelpanelBG"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-	}
-	"PlayerStatusSpyOutlineImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-	}
-	"PlayerStatusSpyImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-	}
-
-	"PlayerStatusClassImage"
-	{
-		"ControlName"	"CTFClassImage"
-		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-	}
-	"PlayerStatusClassImageBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9999"
-		"wide"			"0"
-		"enabled"		"0"
-	}
-
 }

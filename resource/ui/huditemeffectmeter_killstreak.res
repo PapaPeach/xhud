@@ -1,4 +1,4 @@
-#base 	"huditemeffectmeter_demoman.res"
+#base	"huditemeffectmeter_demoman.res"
 
 //killstrea counter
 "Resource/UI/HudItemEffectMeter_Demoman.res"
