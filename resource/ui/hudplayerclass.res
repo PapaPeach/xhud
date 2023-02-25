@@ -1,6 +1,5 @@
 "Resource/UI/HudPlayerClass.res"
 {
-	// player class data
 	"HudPlayerClass"
 	{
 		"ControlName"	"EditablePanel"
@@ -39,7 +38,6 @@
 		"tall"		"75"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"		"../hud/class_scoutred"
 		"scaleImage"	"1"
 
 		"pin_to_sibling"		"ModelPin"
@@ -209,4 +207,13 @@
 			"enabled"		"0"
 		}
 	}
+
+	"PlayerStatusSpyImage"	// All needed to register class changes / disguises
+	{"ControlName"	"CTFImagePanel"}
+	"PlayerStatusSpyOutlineImage"
+	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
+	"PlayerStatusClassImageBG"
+	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
+	"classmodelpanelBG"
+	{"ControlName"	"CTFImagePanel"	"wide"	"0"}
 }
