@@ -16,7 +16,7 @@
 
 	"BackgroundXhudAnchor"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"BackgroundXhudAnchor"
 		"xpos"		"rs-1"
 		"ypos"		"r0"
@@ -44,7 +44,7 @@
 
 	"BottomBar"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldname"		"BottomBar"
 		"xpos"		"0"
 		"ypos"		"rs1"
@@ -73,7 +73,7 @@
 
 	"InfoSeparatorLine"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldname"		"InfoSeparatorLine"
 		"wide"		"214"
 		"tall"		"1"
@@ -1228,7 +1228,7 @@
 
 		"XMenuPanel"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"Panel"
 			"fieldName"		"XMenuPanel"
 			"xpos"		"rs1"
 			"ypos"		"24"
@@ -1286,7 +1286,7 @@
 
 		"XMenuInnerPanel1"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"Panel"
 			"fieldName"		"XMenuInnerPanel1"
 			"zpos"		"0"
 			"wide"		"292"
@@ -1883,7 +1883,7 @@
 
 		"XMenuInnerPanel2"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"Panel"
 			"fieldName"		"XMenuInnerPanel2"
 			"zpos"		"0"
 			"ypos"		"5"
@@ -2048,7 +2048,7 @@
 
 		"XMenuInnerPanel3"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"Panel"
 			"fieldName"		"XMenuInnerPanel3"
 			"zpos"		"0"
 			"ypos"		"5"
@@ -2719,7 +2719,7 @@
 
 		"XMenuInnerPanel4"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"Panel"
 			"fieldName"		"XMenuInnerPanel4"
 			"zpos"		"0"
 			"ypos"		"5"
@@ -2953,7 +2953,7 @@
 
 		"XMenuSavePanel"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"Panel"
 			"fieldName"		"XMenuSavePanel"
 			"ypos"		"5"
 			"zpos"		"0"
@@ -3057,7 +3057,7 @@
 
 		"XMenuResolutionPanel"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"	"Panel"
 			"fieldName"		"XMenuResolutionPanel"
 			"xpos"		"-5"
 			"ypos"		"-5"

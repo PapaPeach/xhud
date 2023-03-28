@@ -4,7 +4,7 @@
 {
 	"BottomBar"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldname"		"BottomBar"
 		"ypos"			"rs1"
 		"zpos"			"100"

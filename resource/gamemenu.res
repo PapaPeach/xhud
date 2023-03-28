@@ -124,7 +124,7 @@
 	"QuickSettings"
 	{
 		"label"			"z"
-		"command"		"engine OpenSteamWorkshopDialog"
+		"command"		"engine training_showdlg"
 		"tooltip"		"Quick Settings"
 	}
 

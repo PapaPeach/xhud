@@ -262,6 +262,8 @@
 
 			"color_portrait_bg_red"	"Red"
 			"color_portrait_bg_blue"	"Blue"
+			"color_portrait_bg_red_local_player"	"Red"
+			"color_portrait_bg_blue_local_player"	"Blue"
 			"color_portrait_bg_red_dead"	"Blank"
 			"color_portrait_bg_blue_dead"	"Blank"
 			"color_bar_health_high"	"40 200 110 120"

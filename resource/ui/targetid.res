@@ -40,7 +40,7 @@
 
 	"TargetDataAnchor"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"TargetDataAnchor"
 		"xpos"		"48"
 		"ypos"		"0"

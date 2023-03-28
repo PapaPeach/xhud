@@ -50,7 +50,7 @@
 
 	"StoreBottomBar"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"StoreBottomBar"
 		"xpos"		"0"
 		"ypos"		"rs1"

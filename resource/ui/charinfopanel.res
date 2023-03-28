@@ -25,20 +25,19 @@
 
 	"CharInfoBG"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"Panel"
 		"fieldName"		"CharInfoBG"
 		"zpos"		"-100"
 		"wide"		"f0"
 		"tall"		"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		""
 		"bgcolor_override"		"BlackLight"
 	}
 
 	"CharInfoBottomBar"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"CharInfoBottomBar"
 		"xpos"		"0"
 		"ypos"		"rs1"

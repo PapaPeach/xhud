@@ -9,7 +9,7 @@
 		"ypos"		"200"
 		"wide"		"200"
 		"tall"		"105"
-		"bgcolor_override"		"Blank"
+		"bgcolor_override"		"BlackLight"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"border"		"NoBorder"

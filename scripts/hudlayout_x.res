@@ -2,7 +2,7 @@
 {
 	"VerticalCenter"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"VerticalCenter"
 		"xpos"		"cs-0.5"
 		"ypos"		"0"
@@ -14,7 +14,7 @@
 	}
 	"HorizontalThird1"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"HorizontalThird1"
 		"xpos"		"0"
 		"ypos"		"160"
@@ -26,7 +26,7 @@
 	}
 	"HorizontalThird2"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"HorizontalThird2"
 		"xpos"		"0"
 		"ypos"		"320"
@@ -38,7 +38,7 @@
 	}
 	"VerticalThird1"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"VerticalThird1"
 		"xpos"		"285"
 		"ypos"		"0"
@@ -50,7 +50,7 @@
 	}
 	"VerticalThird2"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"VerticalThird2"
 		"xpos"		"r285"
 		"ypos"		"0"
@@ -150,7 +150,7 @@
 
 	"speed1"
 	{
-		"controlName"		"CTFImagePanel"
+		"controlName"		"ImagePanel"
 		"fieldName"		"speed1"
 		"xpos"		"c10"
 		"ypos"		"c16"
@@ -162,7 +162,7 @@
 
 	"speed10"
 	{
-		"controlName"		"CTFImagePanel"
+		"controlName"		"ImagePanel"
 		"fieldName"		"speed10"
 		"wide"		"10"
 		"tall"		"10"
@@ -176,7 +176,7 @@
 
 	"speed100"
 	{
-		"controlName"		"CTFImagePanel"
+		"controlName"		"ImagePanel"
 		"fieldName"		"speed100"
 		"wide"		"10"
 		"tall"		"10"
@@ -190,7 +190,7 @@
 
 	"speed1000"
 	{
-		"controlName"		"CTFImagePanel"
+		"controlName"		"ImagePanel"
 		"fieldName"		"speed1000"
 		"wide"		"10"
 		"tall"		"10"
@@ -204,7 +204,7 @@
 
 	"UberTimerBG"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"UberTimerBG"
 		"xpos"		"cs-0.5"
 		"ypos"		"c41"
@@ -216,7 +216,7 @@
 
 	"UberTimer"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"UberTimer"
 		"zpos"		"-1"
 		"wide"		"0"
@@ -339,7 +339,7 @@
 
 	"BuildingStatusAnchor"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"BuildingStatusAnchor"
 		"xpos"		"-5"
 		"wide"		"200"

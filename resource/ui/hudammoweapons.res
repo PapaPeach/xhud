@@ -3,7 +3,7 @@
 {
 	"AmmoAnchor"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"AmmoAnchor"
 		"xpos"		"c70"
 		"ypos"		"c65"
@@ -165,11 +165,8 @@
 
 	"LowAmmoBox"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"LowAmmoBox"
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"0"
 		"wide"		"80"
 		"tall"		"30"
 		"visible"		"0"
