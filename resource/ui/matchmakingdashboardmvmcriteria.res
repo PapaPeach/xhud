@@ -35,7 +35,7 @@
 
 	"BackButtonAnchor"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"BackButtonAnchor"
 		"xpos"		"rs1"
 		"ypos"		"rs1"

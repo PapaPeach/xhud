@@ -15,7 +15,7 @@
 
 	"BottomBar"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"BottomBar"
 		"xpos"		"0"
 		"ypos"		"r20"

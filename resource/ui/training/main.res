@@ -1,9 +1,9 @@
-"Resource/SteamWorkshopDialog.res"
+"Resource/training/main.res"
 {
-	"SteamWorkshopDialog"
+	"TrainingDialog"
 	{
-		"ControlName"	"CSteamWorkshopDialog"
-		"fieldName"		"SteamWorkshopDialog"
+		"ControlName"	"CTrainingDialog"
+		"fieldName"		"TrainingDialog"
 		"wide"		"f0"
 		"tall"		"480"
 		"bgcolor_override"	"Blank"
@@ -23,7 +23,7 @@
 
 		"CancelButton"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"Button"
 			"fieldName"		"CancelButton"
 			"zpos"		"0"
 			"wide"		"f0"
@@ -41,7 +41,7 @@
 
 	"ToolsPanel"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"ToolsPanel"
 		"xpos"		"rs1"
 		"ypos"		"24"
@@ -56,7 +56,7 @@
 
 	"CloseButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"Button"
 		"fieldName"		"CloseButton"
 		"xpos"		"-2"
 		"ypos"		"-2"
@@ -87,7 +87,7 @@
 
 	"Tools_Title"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"	"Label"
 		"fieldName"		"Tools_Title"
 		"font"		"Size 28"
 		"labelText"		"Quick Settings"
@@ -106,7 +106,7 @@
 
 	"Panel1"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"Panel1"
 		"wide"		"292"
 		"tall"		"94"
@@ -122,7 +122,7 @@
 
 	"VoiceLabel"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"VoiceLabel"
 		"font"		"Size 16"
 		"labelText"		"Voice Chat:"
@@ -210,7 +210,7 @@
 
 	"TextChatLabel"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"TextChatLabel"
 		"font"		"Size 16"
 		"labelText"		"Text Chat:"
@@ -298,7 +298,7 @@
 
 	"NotificationsLabel"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"NotificationsLabel"
 		"font"		"Size 16"
 		"labelText"		"Notifications:"
@@ -386,7 +386,7 @@
 
 	"CCLabel"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"CCLabel"
 		"font"		"Size 16"
 		"labelText"		"CC Callouts:"
@@ -474,7 +474,7 @@
 
 	"MatchHudLabel"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"MatchHudLabel"
 		"font"		"Size 16"
 		"labelText"		"Team Status:"
@@ -523,7 +523,7 @@
 
 	"LeftHandedLabel"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"LeftHandedLabel"
 		"font"		"Size 16"
 		"labelText"		"Left Handed Weapons:"
@@ -572,7 +572,7 @@
 
 	"Panel2"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"Panel2"
 		"ypos"		"5"
 		"wide"		"292"
@@ -589,7 +589,7 @@
 
 	"CrosshairEnableLabel"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"CrosshairEnableLabel"
 		"font"		"Size 16"
 		"labelText"		"Show Xhair:"
@@ -815,7 +815,7 @@
 
 	"ColorPresetRed"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ColorPresetRed"
 		"labelText"		""
 		"xpos"		"0"
@@ -843,7 +843,7 @@
 
 	"ColorPresetYellow"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ColorPresetYellow"
 		"labelText"		""
 		"xpos"		"4"
@@ -871,7 +871,7 @@
 
 	"ColorPresetGreen"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ColorPresetGreen"
 		"labelText"		""
 		"xpos"		"4"
@@ -899,7 +899,7 @@
 
 	"ColorPresetBlue"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ColorPresetBlue"
 		"labelText"		""
 		"xpos"		"4"
@@ -927,7 +927,7 @@
 
 	"ColorPresetPink"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ColorPresetPink"
 		"labelText"		""
 		"xpos"		"4"
@@ -955,7 +955,7 @@
 
 	"ColorPresetWhite"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ColorPresetWhite"
 		"labelText"		""
 		"xpos"		"4"
@@ -983,7 +983,7 @@
 
 	"ColorPresetBlack"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ColorPresetBlack"
 		"labelText"		""
 		"xpos"		"4"
@@ -1011,7 +1011,7 @@
 
 	"ColorPresetRedFull"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ColorPresetRedFull"
 		"labelText"		""
 		"xpos"		"4"
@@ -1039,7 +1039,7 @@
 
 	"ColorPresetYellowFull"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ColorPresetYellowFull"
 		"labelText"		""
 		"xpos"		"4"
@@ -1067,7 +1067,7 @@
 
 	"ColorPresetGreenFull"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ColorPresetGreenFull"
 		"labelText"		""
 		"xpos"		"4"
@@ -1095,7 +1095,7 @@
 
 	"ColorPresetCyanFull"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ColorPresetCyanFull"
 		"labelText"		""
 		"xpos"		"4"
@@ -1123,7 +1123,7 @@
 
 	"ColorPresetBlueFull"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ColorPresetBlueFull"
 		"labelText"		""
 		"xpos"		"4"
@@ -1151,7 +1151,7 @@
 
 	"ColorPresetPinkFull"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"ColorPresetPinkFull"
 		"labelText"		""
 		"xpos"		"4"
@@ -1179,7 +1179,7 @@
 
 	"DmgNumEnableLabel"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumEnableLabel"
 		"font"		"Size 16"
 		"labelText"		"Show DMG:"
@@ -1228,7 +1228,7 @@
 
 	"DmgNumBatchingLabel"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumBatchingLabel"
 		"font"		"Size 16"
 		"labelText"		"Adding:"
@@ -1454,7 +1454,7 @@
 
 	"DmgNumColorPresetRed"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumColorPresetRed"
 		"labelText"		""
 		"xpos"		"0"
@@ -1482,7 +1482,7 @@
 
 	"DmgNumColorPresetYellow"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumColorPresetYellow"
 		"labelText"		""
 		"xpos"		"4"
@@ -1510,7 +1510,7 @@
 
 	"DmgNumColorPresetGreen"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumColorPresetGreen"
 		"labelText"		""
 		"xpos"		"4"
@@ -1538,7 +1538,7 @@
 
 	"DmgNumColorPresetBlue"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumColorPresetBlue"
 		"labelText"		""
 		"xpos"		"4"
@@ -1566,7 +1566,7 @@
 
 	"DmgNumColorPresetPink"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumColorPresetPink"
 		"labelText"		""
 		"xpos"		"4"
@@ -1594,7 +1594,7 @@
 
 	"DmgNumColorPresetWhite"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumColorPresetWhite"
 		"labelText"		""
 		"xpos"		"4"
@@ -1622,7 +1622,7 @@
 
 	"DmgNumColorPresetBlack"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumColorPresetBlack"
 		"labelText"		""
 		"xpos"		"4"
@@ -1650,7 +1650,7 @@
 
 	"DmgNumColorPresetRedFull"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumColorPresetRedFull"
 		"labelText"		""
 		"xpos"		"4"
@@ -1678,7 +1678,7 @@
 
 	"DmgNumColorPresetYellowFull"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumColorPresetYellowFull"
 		"labelText"		""
 		"xpos"		"4"
@@ -1706,7 +1706,7 @@
 
 	"DmgNumColorPresetGreenFull"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumColorPresetGreenFull"
 		"labelText"		""
 		"xpos"		"4"
@@ -1734,7 +1734,7 @@
 
 	"DmgNumColorPresetCyanFull"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumColorPresetCyanFull"
 		"labelText"		""
 		"xpos"		"4"
@@ -1762,7 +1762,7 @@
 
 	"DmgNumColorPresetBlueFull"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumColorPresetBlueFull"
 		"labelText"		""
 		"xpos"		"4"
@@ -1790,7 +1790,7 @@
 
 	"DmgNumColorPresetPinkFull"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"DmgNumColorPresetPinkFull"
 		"labelText"		""
 		"xpos"		"4"
@@ -1857,7 +1857,7 @@
 
 	"Panel3"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"Panel3"
 		"ypos"		"5"
 		"wide"		"292"
@@ -1991,7 +1991,7 @@
 
 	"Panel4"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"Panel4"
 		"ypos"		"5"
 		"wide"		"292"
@@ -2008,7 +2008,7 @@
 
 	"HitSoundEnableLabel"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"HitSoundEnableLabel"
 		"font"		"Size 16"
 		"labelText"		"Hit Sounds:"
@@ -2174,7 +2174,7 @@
 
 	"KillSoundEnableLabel"
 	{
-		"ControlName"	"CExButton"
+		"ControlName"	"Button"
 		"fieldName"		"KillSoundEnableLabel"
 		"font"		"Size 16"
 		"labelText"		"Kill Sounds:"

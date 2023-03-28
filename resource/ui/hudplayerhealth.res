@@ -19,7 +19,7 @@
 	}
 	"HealthAnchor"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"HealthAnchor"
 		"xpos"		"40"
 		"ypos"		"0"
@@ -38,12 +38,12 @@
 		"tall"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"		"replay/thumbnails/panels/blank"
+		"drawcolor"		"0 0 0 0"
 		"scaleImage"		"1"
 	}
 	"MeterLine1"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"MeterLine1"
 		"xpos"		"20"
 		"ypos"		"28"
@@ -54,7 +54,7 @@
 	}
 	"MeterLine2"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"MeterLine2"
 		"xpos"		"40"
 		"ypos"		"28"
@@ -65,7 +65,7 @@
 	}
 	"MeterLine3"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"MeterLine1"
 		"xpos"		"60"
 		"ypos"		"28"
@@ -76,7 +76,7 @@
 	}
 	"HealthBarBG"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"HealthBarBG"
 		"xpos"		"2"
 		"ypos"		"0"
@@ -93,7 +93,7 @@
 	}
 	"HealthBar"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"HealthBar"
 		"xpos"		"0"
 		"ypos"		"30"
@@ -110,7 +110,7 @@
 	}
 	"HealthBarOverheal"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"HealthBarOverheal"
 		"xpos"		"-331"
 		"ypos"		"30"
@@ -127,7 +127,7 @@
 	}
 	"HealthBarLowHealth"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"HealthBarLowHealth"
 		"xpos"		"0"
 		"zpos"		"2"
@@ -188,7 +188,7 @@
 	}
 	"StatusIconsAnchor"			//DrinkinTea resolution compatibility
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"StatusIconsAnchor"
 		"xpos"		"rs1-195"
 		"ypos"		"-1"
