@@ -48,7 +48,8 @@
 
 				if_mvm
 				{
-					"visible"		"0"
+					"TFFont"		"Size 14"
+					"HealthDeathWarning"		"-1"
 				}
 			}
 
@@ -191,6 +192,11 @@
 				"fgcolor"		"Green"
 				"bgcolor_override"		"Blank"
 				"proportionaltoparent"		"1"
+
+				if_mvm
+				{
+					"ypos"		"8"
+				}
 			}
 
 			"classimagebg"

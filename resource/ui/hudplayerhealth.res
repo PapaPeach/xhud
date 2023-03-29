@@ -38,6 +38,7 @@
 		"tall"		"0"
 		"visible"		"0"
 		"enabled"		"1"
+		"image"		"replay/thumbnails/panels/blank"
 		"drawcolor"		"0 0 0 0"
 		"scaleImage"		"1"
 	}

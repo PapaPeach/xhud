@@ -465,9 +465,18 @@
 	{
 		"xpos"		"cs-0.5"
 		"ypos"		"r98"
+		"zpos"		"4"
 		"wide"		"220"
 		"tall"		"110"
+	}
+
+	PVEWinPanel
+	{
+		"xpos"		"cs-0.5"
+		"ypos"		"rs1"
 		"zpos"		"4"
+		"wide"		"250"
+		"tall"		"66"
 	}
 
 	"HudUpgradePanel"

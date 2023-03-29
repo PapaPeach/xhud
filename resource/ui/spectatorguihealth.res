@@ -11,7 +11,8 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/panels/blank"
+		"image"		"replay/thumbnails/panels/blank"
+		"drawcolor"		"0 0 0 0"
 		"scaleImage"	"1"
 		"proportionaltoparent"		"1"
 	}

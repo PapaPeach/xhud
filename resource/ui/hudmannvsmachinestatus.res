@@ -17,11 +17,11 @@
 	{
 		"ControlName"		"CWaveCompleteSummaryPanel"
 		"fieldName"		"WaveCompleteSummaryPanel"
-		"xpos"		"c-125"
-		"ypos"		"120"
-		"zpos"		"0"
-		"wide"		"400"
-		"tall"		"400"
+		"xpos"		"cs-0.5"
+		"ypos"		"rs1"
+		"zpos"		"4"
+		"wide"		"250"
+		"tall"		"70"
 		"visible"		"1"
 		"enabled"		"1"
 	}
@@ -31,9 +31,8 @@
 		"ControlName"		"CMvMBossStatusPanel"
 		"fieldName"		"BossStatusPanel"
 		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"0"
-		"wide"		"200"
+		"ypos"		"-10"
+		"wide"		"180"
 		"tall"		"100"
 		"visible"		"1"
 		"enabled"		"1"
@@ -155,7 +154,6 @@
 		"fieldName"		"VictorySplash"
 		"xpos"		"0"
 		"ypos"		"0"
-		//"zpos"		"102"
 		"wide"		"f0"
 		"tall"		"480"
 		"visible"		"0"
@@ -198,13 +196,9 @@
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"Background"
-			"xpos"		"c-150"
-			"ypos"		"400"
-			"wide"		"300"
-			"tall"		"20"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
 			"image"		"replay/thumbnails/panels/blank"
+			"drawcolor"		"0 0 0 0"
 		}
 
 		"ServerChangeLabel"
@@ -223,5 +217,4 @@
 			"fgcolor"		"White"
 		}
 	}
-
 }
