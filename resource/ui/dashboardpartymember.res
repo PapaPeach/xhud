@@ -2,7 +2,6 @@
 {
 	"avatar"
 	{
-		// "ControlName"		"CAvatarImagePanel"
 		"fieldName"		"avatar"
 		"xpos"		"cs-0.5"
 		"ypos"		"cs-0.5"
@@ -18,8 +17,6 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"LeaderIcon"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"105"
 		"wide"		"8"
 		"tall"		"8"

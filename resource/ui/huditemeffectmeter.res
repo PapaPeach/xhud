@@ -1,5 +1,5 @@
-"Resource/UI/HudItemEffectMeter.res"
 //Base file
+"Resource/UI/HudItemEffectMeter.res"
 {
 	HudItemEffectMeter
 	{
@@ -18,8 +18,6 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"5"
 		"wide"		"f0"
 		"tall"		"2"
@@ -67,9 +65,6 @@
 	{
 		"ControlName"		"ContinuousProgressBar"
 		"fieldName"		"ItemEffectMeter"
-		"font"		"Default"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"2"
 		"wide"		"f0"
 		"tall"		"2"
@@ -78,15 +73,5 @@
 		"textAlignment"		"Left"
 		"proportionaltoparent"		"1"
 		"bgcolor_override"		"TransparentGrayDarkest"
-	}
-
-
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
 	}
 }

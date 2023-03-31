@@ -1,5 +1,4 @@
 #base	"huditemeffectmeter.res"
-
 //Cleaver
 "Resource/UI/HudItemEffectMeter_Cleaver.res"
 {

@@ -1,6 +1,5 @@
 #base	"huditemeffectmeter_demoman.res"
-
-//killstrea counter
+//killstreak counter
 "Resource/UI/HudItemEffectMeter_Demoman.res"
 {
 	HudItemEffectMeter

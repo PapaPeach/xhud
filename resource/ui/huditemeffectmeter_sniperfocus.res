@@ -1,5 +1,4 @@
 #base "huditemeffectmeter.res"
-
 //Hitman's heatmaker
 "Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {

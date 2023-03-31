@@ -1,15 +1,6 @@
-#base	"huditemeffectmeter.res"
-
 //Fixes console spam
-"Resource/UI/HudItemEffectMeter_Action.res"
+"x"
 {
-	HudItemEffectMeter
-	{
-		"ypos"			"9999"
-	}
-
-	"ItemEffectMeterLabel"
-	{
-		"ypos"			"9999"
-	}
+	"ItemEffectMeter"
+	{"ControlName"	"ContinuousProgressBar"	"visible"	"0"}
 }

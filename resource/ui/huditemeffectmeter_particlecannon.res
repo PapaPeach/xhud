@@ -1,5 +1,4 @@
 #base "huditemeffectmeter.res"
-
 //Cow mangler
 "Resource/UI/HudItemEffectMeter_ParticleCannon.res"
 {

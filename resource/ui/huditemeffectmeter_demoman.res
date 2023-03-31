@@ -70,20 +70,6 @@
 		"pin_to_sibling"		"ItemEffectMeterCount"
 	}
 
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
 	"ItemEffectMeter"
-	{
-		"ControlName"		"ContinuousProgressBar"
-		"fieldName"		"ItemEffectMeter"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
+	{"ControlName"	"ContinuousProgressBar"	"visible"	"0"}
 }

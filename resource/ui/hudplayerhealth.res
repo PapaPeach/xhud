@@ -193,7 +193,6 @@
 		"fieldName"		"StatusIconsAnchor"
 		"xpos"		"rs1-195"
 		"ypos"		"-1"
-		"zpos"		"0"
 		"wide"		"p1.47"
 		"tall"		"34"
 		"visible"		"1"
@@ -663,16 +662,6 @@
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"4"
 	}
-	"PlayerStatusMaxHealthValue"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"		"9999"
-	}
 	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"		"9999"
-	}
+	{"ControlName"	"ImagePanel"	"xpos"	"9999"}
 }

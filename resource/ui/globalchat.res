@@ -32,7 +32,6 @@
 
 	"chatlog"
 	{
-		// "ControlName"		"richtext"
 		"fieldName"		"chatlog"
 		"xpos"		"cs-0.5"
 		"ypos"		"5"
@@ -43,7 +42,6 @@
 		"proportionaltoparent"		"1"
 		"RoundedCorners"		"0"
 		"font"		"Size 11"
-		
 		"bgcolor_override"		"Blank"
 
 		"ScrollBar"
@@ -66,7 +64,6 @@
 
 	"chatentry"
 	{
-		// "ControlName"		"TextEntry"
 		"fieldName"		"chatentry"
 		"xpos"		"0"
 		"ypos"		"rs1+19"

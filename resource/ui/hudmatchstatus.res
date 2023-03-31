@@ -121,11 +121,9 @@
 			"scaleimage"		"1"
 		}
 		"Background"
-		{
-			"ypos"	"9999"
-		}
+		{"visible"	"0"}
 	}
-	"RankUpLabel"
+	"RankUpLabel"		//TODO
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpLabel"
@@ -144,7 +142,7 @@
 		"proportionaltoparent"	"1"
 		"fgcolor"		"White"
 	}
-	"RankUpShadowLabel"
+	"RankUpShadowLabel"		//TODO
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpShadowLabel"
@@ -163,7 +161,7 @@
 		"proportionaltoparent"	"1"
 		"fgcolor"		"Shadow"
 	}
-	"ObjectiveStatusTimePanel"
+	"ObjectiveStatusTimePanel"		//TODO
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"ObjectiveStatusTimePanel"
@@ -238,7 +236,6 @@
 		"tall"		"75"
 		"visible"		"1"
 		"enabled"		"1"
-
 
 		"max_size"	"44"
 
@@ -348,7 +345,6 @@
 			{
 				"ControlName"		"ContinuousProgressBar"
 				"fieldName"		"healthbar"
-				"font"		"Default"
 				"zpos"		"3"
 				"wide"		"f0"
 				"tall"		"24"
@@ -416,25 +412,7 @@
 				"textAlignment"	"north"
 				"fgcolor"		"Green"
 			}
-			"specindex"
-			{
-				"fieldName"		"specindex"
-				"xpos"		"9999"
-				"enabled"		"0"
-			}
-			"DeathPanel"
-			{
-				"fieldName"		"DeathPanel"
-				"xpos"		"9999"
-				"enabled"		"0"
-			}
-			"SkullPanel"
-			{
-				"fieldName"		"SkullPanel"
-				"xpos"		"9999"
-				"enabled"		"0"
-			}
-			"HealthIcon"
+			"HealthIcon"	//Optimized
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"	"HealthIcon"
@@ -442,6 +420,8 @@
 				"visible"	"0"
 				"enabled"	"0"
 			}
+			"DeathPanel"
+			{"fieldName"	"DeathPanel"	"xpos"	"9999"}
 		}
 	}
 	"BlueTeamPanel"
@@ -694,24 +674,21 @@
 			}
 		}
 	}
-	"FrontParticlePanel"
-	{
-		"fieldName"		"FrontParticlePanel"
-		"xpos"		"9999"
-	}
-	"CountdownLabelShadow"
-	{
-		"fieldName"		"CountdownLabelShadow"
-		"xpos"		"9999"
-	}
+//	"FrontParticlePanel"		//TODO
+//	{
+//		"fieldName"		"FrontParticlePanel"
+//		"xpos"		"9999"
+//	}
+//	"CountdownLabelShadow"
+//	{
+//		"fieldName"		"CountdownLabelShadow"
+//		"xpos"		"9999"
+//	}
 	"RoundSignModel"
-	{
-		"fieldName"		"RoundSignModel"
-		"xpos"		"9999"
-	}
-	"BGFrame"
-	{
-		"fieldName"		"BGFrame"
-		"xpos"		"9999"
-	}
+	{"fieldName"	"RoundSignModel"	"visible"	"0"}
+//	"BGFrame"
+//	{
+//		"fieldName"		"BGFrame"
+//		"xpos"		"9999"
+//	}
 }

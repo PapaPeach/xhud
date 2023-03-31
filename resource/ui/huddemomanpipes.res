@@ -28,20 +28,10 @@
 		"visible"		"1"
 		"proportionaltoparent"		"1"
 
-		"PipeIcon"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"PipeIcon"
-			"xpos"		"9999"
-			"wide"		"0"
-			"enabled"		"0"
-		}
 		"NumPipesLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"		"0"
-			"ypos"		"0"
 			"zpos"		"2"
 			"wide"		"80"
 			"tall"		"15"
@@ -70,29 +60,12 @@
 
 			"pin_to_sibling"		"NumPipesLabel"
 		}
+		"PipeIcon"
+		{"ControlName"	"CTFImagePanel"	"visible"	"0"}
 	}
 
 	"NoPipesPresentPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"NoPipesPresentPanel"
-		"xpos"		"9999"
-		"wide"		"0"
-	}
-	"background"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"background"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
+	{"ControlName"	"EditablePanel"	"xpos"	"9999"}
 	"ChargeLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"ChargeLabel"
-		"xpos"		"9999"
-		"wide"		"0"
-		"enabled"		"0"
-	}
+	{"ControlName"		"CExLabel"	"xpos"	"9999"}
 }

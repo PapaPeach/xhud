@@ -1,5 +1,4 @@
 #base "huditemeffectmeter.res"
-
 //MVM sapper
 "Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {

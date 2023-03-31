@@ -16,7 +16,7 @@
 
 	"ModelPin"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"ModelPin"
 		"xpos"		"200"
 		"ypos"		"r200"
@@ -173,38 +173,6 @@
 				"origin_y"		"1"
 				"origin_z"		"-78"
 			}
-		}
-	}
-
-	"CarryingWeapon"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"CarryingWeapon"
-		"xpos"		"9999"
-
-		"CarryingBackground"
-		{
-			"ControlName"		"CTFImagePanel"
-			"fieldName"		"CarryingBackground"
-			"enabled"		"0"
-		}
-		"CarryingLabel"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"CarryingLabel"
-			"enabled"		"0"
-		}
-		"CarryingLabelDropShadow"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"CarryingLabelDropShadow"
-			"enabled"		"0"
-		}
-		"OwnerLabel"
-		{
-			"ControlName"		"Label"
-			"fieldName"		"OwnerLabel"
-			"enabled"		"0"
 		}
 	}
 

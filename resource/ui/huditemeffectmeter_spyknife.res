@@ -1,5 +1,4 @@
 #base "huditemeffectmeter.res"
-
 //Spycicle
 "Resource/UI/HudItemEffectMeter_SpyKnife.res"
 {

@@ -129,8 +129,6 @@
 		"fieldName"		"AmmoNoClip"
 		"font"		"Size 44"
 		"fgcolor"		"Ammo"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"5"
 		"wide"		"250"
 		"tall"		"30"
