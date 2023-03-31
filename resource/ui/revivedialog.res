@@ -29,7 +29,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ConfirmButton"
-			"xpos"			"cs-0.5"
+			"xpos"			"3"
 			"ypos"			"14"
 			"wide"			"100"
 			"tall"			"20"
