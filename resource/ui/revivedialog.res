@@ -2,12 +2,12 @@
 {
 	"ConfirmDialog"
 	{
-		"ControlName"		"Frame"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"ConfirmDialog"
 		"xpos"			"cs-0.5"
-		"ypos"			"285"
-		"wide"			"200"
-		"tall"			"55"
+		"ypos"			"300"
+		"wide"			"106"
+		"tall"			"38"
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentBlack"
@@ -19,40 +19,18 @@
 			"font"			"Size 14"
 			"labelText"		"#ConfirmTitle"
 			"textAlignment"	"north"
-			"xpos"			"0"
-			"ypos"			"10"
-			"zpos"			"1"
-			"wide"			"200"
+			"wide"			"106"
 			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-		}
-	
-		"ExplanationLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ExplanationLabel"
-			"font"			"Size 11"
-			"labelText"		"%text%"
-			"textAlignment"	"north"
-			"xpos"			"10"
-			"ypos"			"14"
-			"zpos"			"1"
-			"wide"			"200"
-			"tall"			"20"
-			"visible"		"1"
-			"enabled"		"1"
-			"centerwrap"	"1"
-			"fgcolor_override" "Blue"
 		}
 
 		"ConfirmButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ConfirmButton"
-			"xpos"			"60"
-			"ypos"			"30"
-			"zpos"			"20"
+			"xpos"			"cs-0.5"
+			"ypos"			"14"
 			"wide"			"100"
 			"tall"			"20"
 			"visible"		"1"
@@ -60,10 +38,11 @@
 			"labelText"		"#ConfirmButtonText"
 			"font"			"Size 11"
 			"textAlignment"	"center"
-			"textinsetx"	"50"
 			"Command"		"confirm"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+
 			"border_default"			"Econ.Button.Border.Default"
 			"border_armed"				"Econ.Button.Border.Armed"
 			"armedBgColor_override"		"Econ.Button.ArmedBgColor"
@@ -73,20 +52,6 @@
 		}
 
 		"SpectatorGUIHealth"
-		{
-			"ControlName"		"EditablePanel"
-			"fieldName"			"SpectatorGUIHealth"
-			"xpos"				"165"
-			"ypos"				"45"
-			"zpos"				"20"
-			"wide"				"48"
-			"tall"				"48"
-			"visible"			"0"
-			"enabled"			"1"
-			"HealthDeathWarning"		"-1"
-			"TFFont"					"Size 12"
-			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"					"White"
-		}
+		{"ControlName"	"EditablePanel"	"visible"	"0"}
 	}
 }
