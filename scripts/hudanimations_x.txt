@@ -63,7 +63,7 @@ event UberTimerHide
 
 //==============================================================================//End animation states
 
-event LevelInit{}
+event LevelInit{}		//Eventually useful
 
 //==============================================================================
 

@@ -419,7 +419,7 @@
 
 	HudMessage
 	{
-		"wide"	 "f0"
+		"wide"	 "f-12"
 		"tall"	 "310"
 		"xpos"	"-6"
 		"ypos"	"-6"

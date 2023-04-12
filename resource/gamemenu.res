@@ -10,14 +10,14 @@
 	"Inventory"
 	{
 		"label"			"Inventory"
-		"command"		"engine open_charinfo_direct;inv_opened"	//start Horse's script
+		"command"		"engine open_charinfo_direct;inv_opened"
 		"OnlyInGame"	"1"
 	}
 
 	"InventoryBP"
 	{
 		"label"			"Inventory"
-		"command"		"engine open_charinfo_backpack;inv_opened"	//Start Horse's script
+		"command"		"engine open_charinfo_backpack;inv_opened"
 		"OnlyAtMenu"	"1"
 	}
 
