@@ -1,13 +1,3 @@
-event HudSnapShotReminderIn		//Resets various things on death
-{
-	RunEvent HudHealthDyingPulseStop	1.0
-	RunEvent HudHealthBonusPulseStop	1.0
-	RunEvent HudLowAmmoPulseStop	1.0
-	RunEvent HudMedicChargedStop	1.0
-	RunEvent DamagedPlayer	1.0
-	RunEvent UberTimerHide	1.0
-}
-
 event CollectionCrafting_ItemRecieved		//Fix trade-up background (wiethoofd)
 {
 	Animate TradeUpContainer	wide	0	Accel 0.0 0.001

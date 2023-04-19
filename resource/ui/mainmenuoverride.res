@@ -2465,6 +2465,7 @@
 			"fieldName"		"XMenuCrosshairScroller"
 			"xpos"		"rs1"
 			"ypos"		"183"
+			"zpos"		"1"
 			"wide"		"297"
 			"tall"		"94"
 			"visible"	"1"
@@ -2775,7 +2776,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"actionsignallevel"		"3"
-				"Command"		"engine hitmarkercustom"
+				"Command"		"engine hitmarkercolorcustom;showconsole;echo;echo You can edit these settings through the associated customization files"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3006,7 +3007,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"actionsignallevel"		"3"
-				"Command"		"engine hitmarkercustom"
+				"Command"		"engine hitmarkerstylecustom;showconsole;echo;echo You can edit these settings through the associated customization files"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3118,7 +3119,7 @@
 				"wide"		"43"
 				"tall"		"14"
 				"visible"		"1"
-				"Command"		"engine hitmarkercustom"
+				"Command"		"engine hitmarkerfontcustom;showconsole;echo;echo You can edit these settings through the associated customization files"
 				"actionsignallevel"		"3"
 
 				"sound_depressed"		"UI/buttonclick.wav"
@@ -3461,7 +3462,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"actionsignallevel"		"3"
-				"Command"		"engine crosshaircustom"
+				"Command"		"engine crosshaircolorcustom;showconsole;echo;echo You can edit these settings through the associated customization files"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3492,7 +3493,7 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"Crosshair1"
-				"font"		"Crosshair"
+				"font"		"XCrosshair"
 				"labelText"		"#"
 				"textAlignment"	"center"
 				"use_proportional_insets"	"1"
@@ -3519,7 +3520,7 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"Crosshair2"
-				"font"		"Crosshair"
+				"font"		"XCrosshair"
 				"labelText"		"("
 				"textAlignment"	"center"
 				"use_proportional_insets"	"1"
@@ -3546,7 +3547,7 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"Crosshair3"
-				"font"		"Crosshair"
+				"font"		"XCrosshair"
 				"labelText"		"/"
 				"textAlignment"	"center"
 				"use_proportional_insets"	"1"
@@ -3573,7 +3574,7 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"Crosshair4"
-				"font"		"Crosshair"
+				"font"		"XCrosshair"
 				"labelText"		"5"
 				"textAlignment"	"center"
 				"use_proportional_insets"	"1"
@@ -3600,7 +3601,7 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"Crosshair5"
-				"font"		"Crosshair"
+				"font"		"XCrosshair"
 				"labelText"		"<"
 				"textAlignment"	"center"
 				"use_proportional_insets"	"1"
@@ -3627,7 +3628,7 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"Crosshair6"
-				"font"		"Crosshair"
+				"font"		"XCrosshair"
 				"labelText"		"@"
 				"textAlignment"	"center"
 				"use_proportional_insets"	"1"
@@ -3654,7 +3655,7 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"Crosshair7"
-				"font"		"Crosshair"
+				"font"		"XCrosshair"
 				"labelText"		"K"
 				"textAlignment"	"center"
 				"use_proportional_insets"	"1"
@@ -3692,7 +3693,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"actionsignallevel"		"3"
-				"Command"		"engine crosshaircustom"
+				"Command"		"engine crosshairstylecustom;showconsole;echo;echo You can edit these settings through the associated customization files"
 
 				"sound_depressed"		"UI/buttonclick.wav"
 				"sound_released"		"UI/buttonclickrelease.wav"
@@ -3804,7 +3805,7 @@
 				"wide"		"43"
 				"tall"		"14"
 				"visible"		"1"
-				"Command"		"engine crosshaircustom"
+				"Command"		"engine crosshairfontcustom;showconsole;echo;echo You can edit these settings through the associated customization files"
 				"actionsignallevel"		"3"
 
 				"sound_depressed"		"UI/buttonclick.wav"
@@ -3881,6 +3882,28 @@
 				"border_default"		"WhiteHighlightBorder"
 				"border_armed"		"FriendHighlightBorder"
 			}
+		}
+
+		"XMenuCrosshairNote"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"XMenuCrosshairNote"
+			"font"		"Size 10"
+			"labelText"	"Size and outline customizations require a game restart to take effect"
+			"textAlignment"	"north-west"
+			"use_proportional_insets"	"1"
+			"textinsetx"	"4"
+			"ypos"		"0"
+			"zpos"		"0"
+			"wide"		"292"
+			"tall"		"12"
+			"visible"		"1"
+			"bgcolor_override"	"BlackLight"
+			"fgcolor"	"White"
+
+			"pin_to_sibling"		"XMenuCrosshairScroller"
+			"pin_corner_to_sibling"		"0"
+			"pin_to_sibling_corner"		"2"
 		}
 
 		"XMenuSavePanel"

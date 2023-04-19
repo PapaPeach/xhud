@@ -63,10 +63,10 @@
 
 	//Customizations
 
-	"Crosshair"
+	"XCrosshair"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"CustomCrosshair"
+		"fieldName"		"XCrosshair"
 		"xpos"		"cs-0.5"
 		"ypos"		"cs-0.5"
 		"zpos"		"-10"
@@ -74,7 +74,6 @@
 		"tall"		"100"
 		"enabled"		"1"
 		"TextAlignment"		"center"
-		"font"			"Crosshair"
 	}
 
 	"Hitmarker"
@@ -88,7 +87,6 @@
 		"tall"		"100"
 		"enabled"		"1"
 		"TextAlignment"		"center"
-		"font"		"Hitmarker"
 		"Alpha"		"0"
 	}
 
