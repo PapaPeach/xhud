@@ -145,10 +145,10 @@
 		"scaleImage"	"1"
 	}
 
-	"speed1"
+	"Speed1"
 	{
 		"controlName"		"ImagePanel"
-		"fieldName"		"speed1"
+		"fieldName"		"Speed1"
 		"xpos"		"c10"
 		"ypos"		"c16"
 		"wide"	 "10"
@@ -157,44 +157,44 @@
 		"scaleimage"		"1"
 	}
 
-	"speed10"
+	"Speed10"
 	{
 		"controlName"		"ImagePanel"
-		"fieldName"		"speed10"
+		"fieldName"		"Speed10"
 		"wide"		"10"
 		"tall"		"10"
 		"image"		"replay/thumbnails/speedometer/xspeed2"
 		"scaleimage"		"1"
 
-		"pin_to_sibling"		"speed1"
+		"pin_to_sibling"		"Speed1"
 		"pin_corner_to_sibling"		"5"
 		"pin_to_sibling_corner"		"7"
 	}
 
-	"speed100"
+	"Speed100"
 	{
 		"controlName"		"ImagePanel"
-		"fieldName"		"speed100"
+		"fieldName"		"Speed100"
 		"wide"		"10"
 		"tall"		"10"
 		"image"		"replay/thumbnails/speedometer/xspeed3"
 		"scaleimage"		"1"
 
-		"pin_to_sibling"		"speed10"
+		"pin_to_sibling"		"Speed10"
 		"pin_corner_to_sibling"		"5"
 		"pin_to_sibling_corner"		"7"
 	}
 
-	"speed1000"
+	"Speed1000"
 	{
 		"controlName"		"ImagePanel"
-		"fieldName"		"speed1000"
+		"fieldName"		"Speed1000"
 		"wide"		"10"
 		"tall"		"10"
 		"image"		"replay/thumbnails/speedometer/xspeed4"
 		"scaleimage"		"1"
 
-		"pin_to_sibling"		"speed100"
+		"pin_to_sibling"		"Speed100"
 		"pin_corner_to_sibling"		"5"
 		"pin_to_sibling_corner"		"7"
 	}

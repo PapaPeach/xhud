@@ -94,6 +94,69 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+
+		"CrosshairS1"
+		{
+			"1"
+			{
+				"name"	"TF2Crosshairs"
+				"tall"	"8"
+				"antialias"	"1"
+				"outline"	"1"
+			}
+		}
+
+		"CrosshairS0"
+		{
+			"1"
+			{
+				"name"	"TF2Crosshairs"
+				"tall"	"8"
+				"antialias"	"1"
+			}
+		}
+
+		"CrosshairM1"
+		{
+			"1"
+			{
+				"name"	"TF2Crosshairs"
+				"tall"	"12"
+				"antialias"	"1"
+				"outline"	"1"
+			}
+		}
+
+		"CrosshairM0"
+		{
+			"1"
+			{
+				"name"	"TF2Crosshairs"
+				"tall"	"12"
+				"antialias"	"1"
+			}
+		}
+
+		"CrosshairL1"
+		{
+			"1"
+			{
+				"name"	"TF2Crosshairs"
+				"tall"	"18"
+				"antialias"	"1"
+				"outline"	"1"
+			}
+		}
+
+		"CrosshairL0"
+		{
+			"1"
+			{
+				"name"	"TF2Crosshairs"
+				"tall"	"18"
+				"antialias"	"1"
+			}
+		}
 	}
 
 	CustomFontFiles
@@ -114,6 +177,11 @@ Scheme
 		{
 			"font" "resource/scheme/fonts/ReadyUp XHud.otf"
 			"name" "ReadyUp XHud"
+		}
+		"33"
+		{
+			"font" "resource/scheme/fonts/TF2Crosshairs.ttf"
+			"name" "TF2Crosshairs"
 		}
 	}
 }
