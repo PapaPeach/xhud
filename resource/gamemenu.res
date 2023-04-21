@@ -117,7 +117,7 @@
 	"XMenuButton"
 	{
 		"label"			"Á"
-		"command"		"engine toggle cl_mainmenu_safemode"
+		"command"		"engine cl_mainmenu_safemode 1;mat_queue_mode 0"
 		"tooltip"		"Customizations"
 	}
 
