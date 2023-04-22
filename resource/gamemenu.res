@@ -124,14 +124,14 @@
 	"QuickSettings"
 	{
 		"label"			"z"
-		"command"		"engine training_showdlg"
+		"command"		"engine OpenSteamWorkshopDialog"
 		"tooltip"		"Quick Settings"
 	}
 
 	"InvisiblePlayersFix"
 	{
 		"label"			"C"
-		"command"		"engine demorestart"	//Testing less robust invis player fix than stop;record fix;stop
+		"command"		"engine demorestart"
 		"tooltip"		"Fix Invisible Players"
 		"OnlyInGame"	"1"
 	}

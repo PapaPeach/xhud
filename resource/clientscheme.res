@@ -1,4 +1,3 @@
-#base "../../cfg/xhud_customizations.txt"
 #base "../customizations/crosshair_hitmarker.res"
 #base "../customizations/colors.res"
 

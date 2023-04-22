@@ -1,42 +1,30 @@
-"Resource/training/main.res"
+"Resource/SteamWorkshopDialog.res"
 {
-	"TrainingDialog"
+	"SteamWorkshopDialog"
 	{
-		"ControlName"	"CTrainingDialog"
-		"fieldName"		"TrainingDialog"
+		"ControlName"	"CSteamWorkshopDialog"
+		"fieldName"		"SteamWorkshopDialog"
 		"wide"		"f0"
-		"tall"		"480"
-		"bgcolor_override"	"Blank"
+		"tall"		"f0"
+		"paintbackground"	"0"
 	}
 
-	"Container"
+	"FullClose"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Container"
-		"zpos"		"-1"
+		"ControlName"	"Button"
+		"fieldName"		"FullClose"
+		"zpos"		"0"
 		"wide"		"f0"
-		"tall"		"480"
+		"tall"		"f0"
 		"visible"		"1"
-		"enabled"		"1"
+		"labeltext"		""
+		"actionsignallevel"	"2"
+		"Command"		"cancel"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
 		"paintbackground"		"0"
-		"border"		"NoBorder"
-
-		"CancelButton"
-		{
-			"ControlName"	"Button"
-			"fieldName"		"CancelButton"
-			"zpos"		"0"
-			"wide"		"f0"
-			"tall"		"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		""
-			"Command"		"cancel"
-
-			"paintbackground"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}
 	}
 
 	"ToolsPanel"

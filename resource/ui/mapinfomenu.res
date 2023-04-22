@@ -135,6 +135,15 @@
 		"depressedBgColor_override"	"WhiteGray"
 	}
 
+	"ContinueCustom"
+	{
+		"ControlName"	"Button"
+		"fieldName"		"ContinueCustom"
+		"labelText"		"&e"
+		"command"		"continue"
+		"xpos"		"9999"
+	}
+
 	"MapInfoBack"
 	{
 		"ControlName"	"CExButton"

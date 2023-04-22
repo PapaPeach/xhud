@@ -80,6 +80,15 @@
 		"depressedBgColor_override"	"WhiteGray"
 	}
 
+	"okCustom"
+	{
+		"ControlName"	"Button"
+		"fieldName"		"okCustom"
+		"labelText"		"&e"
+		"command"		"okay"
+		"xpos"		"9999"
+	}
+
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"

@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"		"c-100"
-		"ypos"		"200"
+		"ypos"		"r130"
 		"wide"		"200"
 		"tall"		"105"
 		"bgcolor_override"		"BlackLight"
