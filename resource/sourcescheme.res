@@ -447,7 +447,63 @@ Scheme
 				"antialias"		"1"	[!$OSX]
 			}
 		}
-
+		"DefaultFixed"
+		{
+			"1"
+			{
+				"name"		"Lucida Console"
+				"tall"		"10"
+				"weight"	"0"
+				"yres"		"480 1199"
+			}
+			"2"
+			{
+				"name"		"Lucida Console"
+				"tall"		"14"
+				"weight"	"0"
+				"yres"		"1200 1999"
+			}
+			"3"
+			{
+				"name"		"Lucida Console"
+				"tall"		"20"
+				"weight"	"0"
+				"yres"		"2000 6000"
+			}
+		}
+		"UiBold"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"12"
+				"weight"	"1000"
+				"yres"		"480 1199"
+			}
+			"2"
+			{
+				"name"		"Tahoma"
+				"tall"		"15"
+				"weight"	"1000"
+				"yres"		"1200 1999"
+			}
+			"3"
+			{
+				"name"		"Tahoma"
+				"tall"		"20"
+				"weight"	"1000"
+				"yres"		"2000 6000"
+			}
+		}
+		"DefaultVerySmall"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"18"
+				"weight"	"0"
+			}
+		}
 		"SourceScheme 22"
 		{
 			"1"
