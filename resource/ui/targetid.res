@@ -35,7 +35,6 @@
 		"teambg_1"		"replay/thumbnails/panels/black"
 		"teambg_2"		"replay/thumbnails/panels/tid_red"
 		"teambg_3"		"replay/thumbnails/panels/tid_blue"
-		"alpha"		"180"
 	}
 
 	"TargetDataAnchor"
@@ -83,7 +82,6 @@
 		"wide"		"56"
 		"tall"		"17"
 		"visible"		"1"
-		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"north"
 		"centerwrap"		"1"

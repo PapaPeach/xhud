@@ -396,7 +396,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ClassLabel"
-		"font"		"Size 44"
+		"font"		"Size 42"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"		"0"

@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_UberchargeMinHUD"
 		"textAlignment"	"center"
-		"font"			"Size 44 Shadow"
+		"font"			"Size 42 Shadow"
 		"fgcolor"		"Ammo"
 	}
 
@@ -30,7 +30,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_IndividualUberchargesMinHUD"
 		"textAlignment"	"center"
-		"font"			"Size 44 Shadow"
+		"font"			"Size 42 Shadow"
 		"fgcolor"		"Ammo"
 	}
 
