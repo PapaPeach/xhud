@@ -471,6 +471,76 @@ Scheme
 				"yres"		"2000 6000"
 			}
 		}
+		"DefaultFixedOutline" // cl_showfps this does create the side effect of the panel mostly being cut off but I think it's worth the tradeoff since now you can read it in the first place
+		{
+			"1"
+			{
+				"name"		"Lucida Console"
+				"tall"		"10"
+				"weight"	"0"
+				"outline"	"1"
+				"yres"		"480 1199"
+			}
+			"2"
+			{
+				"name"		"Lucida Console"
+				"tall"		"14"
+				"weight"	"0"
+				"outline"	"1"
+				"yres"		"1200 1999"
+			}
+			"3"
+			{
+				"name"		"Lucida Console"
+				"tall"		"20"
+				"weight"	"0"
+				"outline"	"1"
+				"yres"		"2000 6000"
+			}
+		}
+		"DefaultSmallDropShadow"	// top-right version code
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"yres"		"480 1999"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"17"
+				"weight"	"700"
+				"yres"		"2000 6000"
+			}
+		}
+		"DefaultFixedDropShadow" // developer mode
+		{
+			"1"
+			{
+				"name"		"Lucida Console"
+				"tall"		"10"
+				"weight"	"0"
+				"dropshadow" "1"
+				"yres"		"480 1199"
+			}
+			"2"
+			{
+				"name"		"Lucida Console"
+				"tall"		"14"
+				"weight"	"0"
+				"dropshadow" "1"
+				"yres"		"1200 1999"
+			}
+			"3"
+			{
+				"name"		"Lucida Console"
+				"tall"		"20"
+				"weight"	"0"
+				"dropshadow" "1"
+				"yres"		"2000 6000"
+			}
+		}
 		"UiBold"
 		{
 			"1"
