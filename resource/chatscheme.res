@@ -227,7 +227,16 @@ Scheme
 				"tall"		"21"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
+				"yres"	"1200 1999"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Renogare Soft XHud"
+				"tall"		"28"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"2000 6000"
 				"antialias"	"1"
 			}
 		}
@@ -273,7 +282,15 @@ Scheme
 				"name"		"Marlett"
 				"tall"		"22"
 				"weight"	"0"
-				"yres"		"1200 6000"
+				"yres"		"1200 1999"
+				"symbol"	"1"
+			}
+			"6"
+			{
+				"name"		"Marlett"
+				"tall"		"29"
+				"weight"	"0"
+				"yres"		"2000 6000"
 				"symbol"	"1"
 			}
 		}
@@ -317,7 +334,15 @@ Scheme
 				"name"		"Marlett"
 				"tall"		"17"
 				"weight"	"0"
-				"yres"		"1200 6000"
+				"yres"		"1200 1999"
+				"symbol"	"1"
+			}
+			"6"
+			{
+				"name"		"Marlett"
+				"tall"		"24"
+				"weight"	"0"
+				"yres"		"2000 6000"
 				"symbol"	"1"
 			}
 		}
@@ -347,7 +372,16 @@ Scheme
 				"name"		"Renogare Soft XHud"
 				"tall"		"24"
 				"weight"	"0"
-				"yres"		"1200 6000"
+				"yres"		"1200 1999"
+				"dropshadow"	"1"
+				"antialias"		"1"
+			}
+			"4"
+			{
+				"name"		"Renogare Soft XHud"
+				"tall"		"31"
+				"weight"	"0"
+				"yres"		"2000 6000"
 				"dropshadow"	"1"
 				"antialias"		"1"
 			}
