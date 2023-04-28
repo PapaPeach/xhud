@@ -41,7 +41,7 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"TargetDataAnchor"
-		"xpos"		"48"
+		"xpos"		"47"
 		"ypos"		"0"
 		"wide"		"0"
 		"tall"		"0"
@@ -79,7 +79,7 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"1"
-		"wide"		"56"
+		"wide"		"56"	//maybe 55?
 		"tall"		"17"
 		"visible"		"1"
 		"labelText"		"%targetname%"
