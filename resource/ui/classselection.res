@@ -1091,6 +1091,54 @@
 		"fieldName"		"ClassTipsPanel"
 		"xpos"		"9999"
 	}
+	"ClassInfo"
+	{
+		"visible"		"0"
+	}
+	"countImage0"
+	{
+		"wide"		"0"
+	}
+	"countImage1"
+	{
+		"wide"		"0"
+	}
+	"countImage2"
+	{
+		"wide"		"0"
+	}
+	"countImage3"
+	{
+		"wide"		"0"
+	}
+	"countImage4"
+	{
+		"wide"		"0"
+	}
+	"countImage5"
+	{
+		"wide"		"0"
+	}
+	"countImage6"
+	{
+		"wide"		"0"
+	}
+	"countImage7"
+	{
+		"wide"		"0"
+	}
+	"countImage8"
+	{
+		"wide"		"0"
+	}
+	"countImage9"
+	{
+		"wide"		"0"
+	}
+	"countImage10"
+	{
+		"wide"		"0"
+	}
 	"Hint"
 	{
 		"ControlName"	"CExLabel"

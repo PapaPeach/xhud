@@ -13,7 +13,14 @@
 		"enabled"		"1"
 		"bgcolor_override"		"TransparentBlack"
 	}
-
+	"MapImage"
+	{
+		"wide"			"0"	
+	}
+	"MapInfoWatchIntro"
+	{
+		"wide"			"0"
+	}
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
