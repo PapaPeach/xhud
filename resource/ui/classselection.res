@@ -1085,6 +1085,28 @@
 		"fieldName"		"localPlayerBG"
 		"xpos"		"9999"
 	}
+	"countImage0"
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	"countImage1"
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	"countImage2"
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	"countImage3"
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	"countImage4"
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	"countImage5"
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	"countImage6"
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	"countImage7"
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	"countImage8"
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	"countImage9"
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
+	"countImage10"
+	{"ControlName"	"CTFImagePanel"	"xpos"	"9999"}
 	"ClassTipsPanel"
 	{
 		"ControlName"	"CTFClassTipsPanel"

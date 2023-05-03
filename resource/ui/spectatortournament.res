@@ -261,6 +261,7 @@
 		"fieldName"		"BuyBackLabel"
 		"xpos"		"cs-0.5"
 		"ypos"		"108"
+		"zpos"		"5"
 		"wide"		"380"
 		"tall"		"14"
 		"visible"		"0"
