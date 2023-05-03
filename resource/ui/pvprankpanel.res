@@ -33,7 +33,7 @@
 			"enabled"		"1"
 			"font"		"Size 40"
 			"fgcolor_override"		"White"
-			"textAlignment"		"west"
+			"textAlignment"		"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"		"1"
 
