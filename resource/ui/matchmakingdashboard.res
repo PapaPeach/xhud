@@ -497,29 +497,11 @@
 			}
 		}
 		"DisconnectButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"		"DisconnectButton"
-			"xpos"		"rs1"
-			"Command"		""
-			"paintbackground"		"0"
-		}
+		{"xpos"	"9999"	"Command"	""}
 		"ResumeButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"		"ResumeButton"
-			"xpos"		"rs1-31-131"
-			"Command"		""
-			"paintbackground"		"0"
-		}
+		{"xpos"	"9999"	"Command"	""}
 		"QuitButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"		"QuitButton"
-			"xpos"		"rs1"
-			"Command"		""
-			"paintbackground"		"0"
-		}
+		{"xpos"	"9999"	"Command"	""}
 		"FindAGameButton"
 		{"fieldName"	"FindAGameButton"	"visible"	"0"}
 	}

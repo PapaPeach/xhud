@@ -29,6 +29,12 @@
 			"color_ready"	"Green"
 			"color_notready"	"GrayDarkest"
 
+			if_mvm
+			{
+				"wide"		"44"
+				"tall"		"25"
+			}
+
 			"HealthIcon"		//Overridden		HealthBonusPosAdj=HudPlayerHealth(151/81)
 			{
 				"ControlName"		"EditablePanel"
@@ -200,27 +206,9 @@
 			}
 
 			"classimagebg"
-			{
-				"ControlName"		"Panel"
-				"fieldName"		"classimagebg"
-				"xpos"		"9999"
-				"wide"		"0"
-				"enabled"		"0"
-			}
+			{"ControlName"	"Panel"	"xpos"	"9999"}
 			"specindex"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"specindex"
-				"xpos"		"9999"
-				"wide"		"0"
-				"enabled"		"0"
-			}
-
-			if_mvm
-			{
-				"wide"		"44"
-				"tall"		"25"
-			}
+			{"ControlName"	"CExLabel"	"xpos"	"9999"}
 		}
 
 		if_mvm
@@ -251,7 +239,7 @@
 
 		if_mvm
 		{
-			"ypos"		"92"
+			"ypos"		"127"	//4 Bar compatibility
 		}
 	}
 
@@ -260,19 +248,18 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"		"cs-0.5"
-		"ypos"		"108"
-		"zpos"		"5"
+		"ypos"		"143"
 		"wide"		"380"
-		"tall"		"14"
+		"tall"		"12"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
-		"font"		"Size 14"
+		"font"		"Size 12 Shadow"
 		"centerwrap"	"1"
 
 		if_mvm
 		{
-			"visible"	"1"		//TODO
+			"visible"	"1"
 		}
 	}
 

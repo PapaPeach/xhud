@@ -29,8 +29,8 @@
 
 		if_event
 		{
-		"ypos"			"0"
-		"tall"			"39"
+			"ypos"			"0"
+			"tall"			"39"
 		}
 	}
 

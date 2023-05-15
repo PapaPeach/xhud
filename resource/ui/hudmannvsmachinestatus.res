@@ -186,8 +186,6 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ServerChangeMessage"
-		"xpos"		"0"
-		"ypos"		"0"
 		"wide"		"f0"
 		"tall"		"480"
 		"visible"		"0"
@@ -205,11 +203,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerChangeLabel"
-			"font"		"Size 14"
+			"font"		"Size 16 Shadow"
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
 			"xpos"		"c-150"
-			"ypos"		"400"
+			"ypos"		"395"
 			"wide"		"300"
 			"tall"		"20"
 			"visible"		"1"

@@ -163,7 +163,7 @@
 
 				if_mvm
 				{
-					"ypos"		"98"
+					"ypos"		"127"		//TODO: Doesn't do anything? See spectatortournament
 				}
 			}
 
@@ -197,33 +197,11 @@
 			}
 
 			"classimagebg"
-			{
-				"ControlName"		"Panel"
-				"fieldName"		"classimagebg"
-				"xpos"		"9999"
-				"enabled"		"0"
-			}
-			"HealthIcon"
-			{
-				"ControlName"		"EditablePanel"
-				"fieldName"		"HealthIcon"
-				"xpos"		"9999"
-				"enabled"		"0"
-			}
+			{"ControlName"	"Panel"	"xpos"	"9999"}
 			"specindex"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"specindex"
-				"xpos"		"9999"
-				"enabled"		"0"
-			}
-		}
-		"ModeImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"ModeImage"
-			"xpos"		"9999"
-			"enabled"		"0"
+			{"ControlName"	"CExLabel"	"xpos"	"9999"}
+			"HealthIcon"
+			{"ControlName"	"EditablePanel"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"}
 		}
 	}
 
@@ -450,26 +428,26 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"		"Size 8"
+		"font"		"Size 8 Shadow"
 		"FgColor"		"White"
 		"xpos"		"cs-0.5"
-		"ypos"		"26"
+		"ypos"		"27"
 		"wide"		"f0"
 		"tall"		"10"
 		"zpos"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%readylabel%"
-		"textAlignment"		"center"
+		"textAlignment"		"south"
 		"proportionaltoparent"	"1"
 
 		if_mvm
 		{
-			"font"		"Size 12"
+			"font"		"Size 12 Shadow"
 		}
 		if_readymode
 		{
-			"font"		"Size 12"
+			"font"		"Size 12 Shadow"
 		}
 	}
 
@@ -501,45 +479,7 @@
 	}
 
 	"CountdownLabelShadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"CountdownLabelShadow"
-		"xpos"		"9999"
-		"enabled"		"0"
-	}
-	"TournamentInstructionsLabelShadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"TournamentInstructionsLabelShadow"
-		"xpos"		"9999"
-		"enabled"		"0"
-	}
+	{"ControlName"	"CExLabel"	"visible"	"0"}
 	"CountdownBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"CountdownBG"
-		"xpos"		"9999"
-		"enabled"		"0"
-	}
-	"HudTournamentBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"HudTournamentBG"
-		"xpos"		"9999"
-		"enabled"		"0"
-	}
-	"TournamentLabel"
-	{
-		"ControlName"		"Label"
-		"fieldName"		"TournamentLabel"
-		"xpos"		"9999"
-		"enabled"		"0"
-	}
-	"HudTournamentBGHelp"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"HudTournamentBGHelp"
-		"xpos"		"9999"
-		"enabled"		"0"
-	}
+	{"ControlName"	"ScalableImagePanel"	"visible"	"0"}
 }

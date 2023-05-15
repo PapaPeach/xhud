@@ -6,7 +6,7 @@
 		"fieldName"		"TankProgressBar"
 		"zpos"			"3"
 		"wide"			"170"
-		"tall"			"12"
+		"tall"			"13"
 		"visible"		"0"
 		"enabled"		"1"	
 	}
@@ -45,7 +45,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ProgressBarBG"
 		"wide"		"170"
-		"tall"		"f0"
+		"tall"		"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"		"replay/thumbnails/panels/black"

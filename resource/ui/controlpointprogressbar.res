@@ -14,8 +14,6 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"	"Teardrop"
-		"xpos"		"0"
-		"ypos"		"0"
 		"wide"		"20"
 		"tall"		"20"
 		"visible"	"1"
@@ -27,9 +25,7 @@
 	"TeardropSide"
 	{
 		"ControlName"	"CIconPanel"
-		"fieldName"	"Teardrop"
-		"xpos"		"0"
-		"ypos"		"0"
+		"fieldName"	"TeardropSide"
 		"wide"		"20"
 		"tall"		"20"
 		"visible"	"1"
