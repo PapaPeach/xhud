@@ -403,10 +403,9 @@
 		"ypos"		"220"
 		"zpos"		"5"
 		"wide"		"140"
-		"wide_minmode"		"0"		//Benchmark this
 		"tall"		"165"
 		"visible"		"1"
-
+		"visible_minmode"		"0"		//Benchmark this
 		"border"		"NoBorder"
 
 		"SteamFriendsList"
@@ -415,7 +414,6 @@
 			"fieldname"		"SteamFriendsList"
 			"zpos"		"500"
 			"wide"		"f0"
-			"wide_minmode"		"0"		//Benchmark this
 			"tall"		"f0"
 			"visible"		"1"
 			"proportionaltoparent"		"1"
@@ -439,7 +437,7 @@
 				"FieldName"		"ScrollBar"
 				"xpos"		"0"
 				"tall"		"f0"
-				"wide"		"2"
+				"wide"		"3"
 				"zpos"		"1000"
 				"nobuttons"		"1"
 				"proportionaltoparent"		"1"
@@ -449,9 +447,9 @@
 					"fgcolor_override"		"White"
 				}
 				"UpButton"
-				{"FieldName"	"UpButton"	"xpos"	"9999"}
+				{"visible"	"0"}
 				"DownButton"
-				{"FieldName"	"DownButton"	"xpos"	"9999"}
+				{"visible"	"0"}
 			}
 		}
 	}
