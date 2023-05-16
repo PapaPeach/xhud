@@ -85,6 +85,89 @@
 		"pin_to_sibling_corner"		"5"
 	}
 
+	"MOTD_Panel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MOTD_Panel"
+		"wide"			"95"
+		"tall"			"55"
+		"visible"		"0"
+
+		"pin_to_sibling"		"HudTitle"
+		"pin_corner_to_sibling"		"1"
+		"pin_to_sibling_corner"		"0"
+
+		"EditionScroller"
+		{
+			"ControlName"		"CScrollableList"
+			"fieldName"		"EditionScroller"
+			"wide"		"95"
+			"tall"		"55"
+			"visible"	"1"
+
+			"ScrollBar"
+			{
+				"ControlName"	"ScrollBar"
+				"FieldName"		"ScrollBar"
+				"xpos"		"rs1"
+				"ypos"		"-55"
+				"tall"		"f-55"
+				"wide"		"3"
+				"nobuttons"		"1"
+				"proportionaltoparent"	"1"
+
+				"Slider"
+				{
+					"fgcolor_override"	"White"
+				}
+				"UpButton"
+				{
+					"visible"		"0"
+				}
+				"DownButton"
+				{
+					"visible"		"0"
+				}
+			}
+
+			"CloseButton"
+			{
+				"ControlName"	"Button"
+				"fieldName"		"CloseButton"
+				"zpos"			"1"
+				"wide"			"90"
+				"tall"			"110"
+				"visible"		"1"
+				"labelText"		""
+				"actionsignallevel" "3"
+				"Command"		"motd_show"
+
+				"sound_depressed"				"UI/buttonclick.wav"
+				"sound_released"				"UI/buttonclickrelease.wav"
+
+				"paintbackground"				"0"
+			}
+
+			"EditionText"
+			{
+				"ControlName"		"Label"
+				"fieldName"		"HudTitle"
+				"xpos"		"0"
+				"ypos"		"55"
+				"wide"		"95"
+				"tall"		"55"
+				"visible"		"1"
+				"font"		"Size 8"
+				"fgcolor_override"		"White"
+				"wrap"		"1"
+				"labelText"		"Xhud 'Not Much' Edition: Launched May 17th, 2023 - One week before I leave for a 3 month backpacking trip. Please forgive my absence until September <3 - peaches"
+			}
+		}
+
+		"MOTD_TextScroller"
+		{"visible"	"0"}
+	}
+
 	"CycleRankTypeButton"
 	{
 		"ControlName"		"CExImageButton"
