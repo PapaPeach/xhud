@@ -478,6 +478,8 @@
 		}
 	}
 
+	"HudTournamentBG"
+	{"ControlName"	"ScalableImagePanel"	"xpos"	"9999"}
 	"CountdownLabelShadow"
 	{"ControlName"	"CExLabel"	"visible"	"0"}
 	"CountdownBG"
