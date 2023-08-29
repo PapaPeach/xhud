@@ -35,18 +35,15 @@
 		if_competitive		//mp_tournament 1?
 		{
 			"ypos"		"0"
-
 			//"team1_player_base_y"		"75"
 			//"team2_player_base_y"		"66"
 			//"team2_player_base_offset_x"	"5"
 		}
 
-		if_readymode		//mp_tournament 1; mp_tournament_readymode 1
+		if_readymode		//valve comp - mp_tournament 1;mp_tournament_readymode 1
 		{
-			"ypos"		"26"
-
+			"ypos"		"40"
 			"team2_player_delta_x"		"45"
-			"team2_player_base_offset_x"	"-50"
 		}
 
 		"playerpanels_kv"
@@ -474,7 +471,7 @@
 		}
 		if_readymode
 		{
-			"ypos"		"60"
+			"ypos"		"65"
 		}
 	}
 

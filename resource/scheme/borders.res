@@ -253,6 +253,18 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
 		}
+		GreenHighlightBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{	"1"	{	"color" "Green"	}	}
+			Right
+			{	"1"	{	"color" "Green"	}	}
+			Top
+			{	"1"	{	"color" "Green"	}	}
+			Bottom
+			{	"1"	{	"color" "Green"	}	}
+		}
 
 		////////////////////////////////////////////////////////////////////////////////////
 		/////////////////////////////////MATERIAL WHITEGRAY/////////////////////////////////

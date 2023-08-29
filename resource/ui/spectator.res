@@ -166,7 +166,8 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"TopBar"
-		"ypos"		"r0"
+		"xpos"		"9999"
+		"tall"		"0"
 		"wide"		"0"
 		"enabled"		"0"
 	}
@@ -174,7 +175,7 @@
 	{
 		"ControlName"		"Frame"
 		"fieldName"		"BottomBar"
-		"ypos"		"r0"
+		"xpos"		"9999"
 		"wide"		"0"
 		"enabled"		"0"
 	}
@@ -182,7 +183,7 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"bottombarblank"
-		"ypos"		"r0"
+		"xpos"		"9999"
 		"wide"		"0"
 		"enabled"		"0"
 	}

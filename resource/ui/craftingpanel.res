@@ -81,7 +81,6 @@
 					"textAlignment"	"south"
 					"fgcolor"		"White"
 					"wrap"		"1"
-					"centerwrap"	"1"
 				}
 			}
 		}
@@ -95,8 +94,6 @@
 			"wide"		"280"
 			"tall"		"13"
 			"visible"		"1"
-			"wrap"		"0"
-			"centerwrap"	"0"
 			"textAlignment" "west"
 			"textinsetx"	"0"
 			"paintbackground"	"0"
@@ -145,7 +142,6 @@
 			"fieldName"		"RecipeTitle"
 			"font"		"Size 16"
 			"labelText"		"%recipetitle%"
-			"textAlignment"	"west"
 			"xpos"		"0"
 			"ypos"		"10"
 			"zpos"		"1"
@@ -163,7 +159,6 @@
 			"fieldName"		"RecipeInputStringLabel"
 			"font"		"Size 12"
 			"labelText"		"%recipeinputstring%"
-			"textAlignment"	"north-west"
 			"xpos"		"0"
 			"ypos"		"40"
 			"zpos"		"1"
@@ -315,7 +310,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
-			"textAlignment"	"center"
 			"fgcolor"		"WhiteGray"
 			"centerwrap"	"1"
 		}
@@ -369,7 +363,6 @@
 			"fieldName"		"TipLabel"
 			"font"		"Size 11"
 			"labelText"		"%tiptext%"
-			"textAlignment"	"center"
 			"xpos"		"20"
 			"ypos"		"10"
 			"zpos"		"2"
@@ -378,7 +371,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			"wrap"		"1"
 			"centerwrap"	"1"
 		}
 	}
