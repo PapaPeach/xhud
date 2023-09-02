@@ -109,9 +109,9 @@
 	//TOOLS SECTION
 	"MinmodeToggle"
 	{
-		"label"			"À"
-		"command"		"engine toggle cl_hud_minmode;hud_reloadscheme;toggle mat_aaquality"
-		"tooltip"		"Optimize HUD"
+		"label"			"0"
+		"command"		"engine streamermode;toggle mat_aaquality"
+		"tooltip"		"Streamer Mode"
 	}
 
 	"XMenuButton"

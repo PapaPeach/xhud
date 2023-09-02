@@ -44,6 +44,7 @@
 		"ControlName"		"RichText"
 		"fieldName"		"HudChatHistory"
 		"xpos"			"0"
+		"xpos_minmode"	"9999"
 		"ypos"			"0"
 		"wide"			"220"
 		"tall"			"0"

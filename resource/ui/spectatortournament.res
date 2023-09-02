@@ -70,6 +70,7 @@
 				"wide"		"96"
 				"tall"		"f0"
 				"visible"		"1"
+				"visible_minmode"	"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		"White"

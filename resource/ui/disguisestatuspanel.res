@@ -72,6 +72,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%disguisename%"
+		"labelText_minmode"	"Disguised"
 		"textAlignment"		"center"
 		"fgcolor_override"		"White"
 
@@ -93,6 +94,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%disguisename%"
+		"labelText_minmode"	"Disguised"
 		"textAlignment"		"center"
 		"fgcolor_override"		"Shadow"
 
@@ -105,6 +107,7 @@
 		"fieldName"		"WeaponNameLabel"
 		"font"			"Size 10"
 		"xpos"			"0"
+		"xpos_minmode"	"9999"
 		"ypos"			"-1"
 		"zpos"			"2"
 		"wide"			"90"

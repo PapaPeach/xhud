@@ -35,6 +35,7 @@
 			"fgcolor_override"		"White"
 			"textAlignment"		"north-west"
 			"labelText"		"%name%"
+			"labelText_minmode"	"Streamer"
 			"proportionaltoparent"		"1"
 
 			if_mini

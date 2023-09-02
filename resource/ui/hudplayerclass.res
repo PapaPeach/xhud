@@ -1,3 +1,4 @@
+#base "../../cfg/xhud_customizations.txt"
 "Resource/UI/HudPlayerClass.res"
 {
 	"HudPlayerClass"
@@ -7,8 +8,6 @@
 		"xpos"		"-200"
 		"ypos"		"0"
 		"zpos"		"1"
-		"wide"		"500"
-		"wide_minmode"		"200"
 		"tall"		"480"
 		"visible"		"1"
 		"enabled"		"1"

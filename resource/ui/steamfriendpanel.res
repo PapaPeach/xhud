@@ -50,6 +50,7 @@
 		"proportionaltoparent"		"1"
 		"wrap"		"0"
 		"labelText"		"%name%"
+		"labelText_minmode"	"Friend"
 		"proportionaltoparent"		"1"
 		"font"		"Size 8"
 		"mouseinputenabled"		"0"

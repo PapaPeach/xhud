@@ -240,6 +240,7 @@
 		"wide"		"f0"
 		"tall"		"6"
 		"visible"		"1"
+		"visible_minmode"	"0"
 		"enabled"		"1"
 		"labelText"		"%DetailsLabel%"
 		"textAlignment"		"Center"
@@ -314,6 +315,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
+		"alpha_minmode"	"0"
 
 		"pin_to_sibling"		"HorizontalLine"
 		"pin_corner_to_sibling"		"0"
@@ -364,6 +366,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
+		"alpha_minmode"	"0"
 
 		"pin_to_sibling"		"Player1Name"
 		"pin_corner_to_sibling"		"0"
@@ -412,6 +415,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
+		"alpha_minmode"	"0"
 
 		"pin_to_sibling"		"Player2Name"
 		"pin_corner_to_sibling"		"0"
@@ -517,6 +521,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
+		"alpha_minmode"	"0"
 
 		"pin_to_sibling"		"HorizontalLine2"
 		"pin_corner_to_sibling"		"0"

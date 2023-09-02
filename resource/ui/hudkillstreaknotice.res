@@ -9,6 +9,7 @@
 		"textAlignment" "center"
 		"xpos"			"c-250"
 		"ypos"			"70"
+		"ypos_minmode"	"9999"
 		"zpos"			"2"
 		"wide"			"500"
 		"tall"			"50"
