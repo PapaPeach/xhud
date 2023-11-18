@@ -17,7 +17,7 @@ event AccountMoneyAdded{}
 event AccountMoneyInvisible{}
 event FlagOutlineHide{}
 event FlagOutline{}
-event HudSpyDisguiseChanged{}
+//event HudSpyDisguiseChanged{}
 event HudSpyDisguiseHide{}
 event OvertimeShow{}
 //event HudSnapShotReminderIn{}	//USED
@@ -107,9 +107,9 @@ event MMenu_UpdateButton_StartGlow{}
 event MMenu_UpdateButton_SubtleGlow{}
 event XPSourceShow_Positive{}
 event XPSourceShow_Negative{}
-event SurveyShowSequence{}
+//event SurveyShowSequence{}	//USED-Prevents chat lockout
 event SurveySubmitSequence{}
-event SurveyDelete{}
+//event SurveyDelete{}	//USED
 event SurveyHideSequence{}
 event MapVoted{}
 event WinningNextMapVote{}

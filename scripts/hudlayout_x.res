@@ -404,6 +404,7 @@
 		"RightJustify"	  "1"
 
 		"TextFont"		"Size 10"
+		"TextFont_minmode"		""
 
 		"TeamBlue"		"Blue"
 		"TeamRed"		"Red"
@@ -478,6 +479,7 @@
 		"show_voice_icon"	"0"
 
 		"text_xpos"		"8"
+		"text_xpos_minmode"	"9999"
 	}
 
 	HudControlPointIcons
