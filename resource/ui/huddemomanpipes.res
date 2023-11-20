@@ -25,7 +25,7 @@
 		"zpos"		"1"
 		"wide"		"80"
 		"tall"		"30"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"		"1"
 
 		"NumPipesLabel"
