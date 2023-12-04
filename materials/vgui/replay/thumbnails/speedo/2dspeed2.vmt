@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-"$basetexture" "vgui/replay/thumbnails/speedometer/xspeed"
+"$basetexture" "vgui/replay/thumbnails/speedo/xspeed"
 "$translucent" 1
 "$ignorez" 1
 

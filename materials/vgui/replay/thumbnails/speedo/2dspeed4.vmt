@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-"$basetexture" "vgui/replay/thumbnails/speedometer/xspeed"
+"$basetexture" "vgui/replay/thumbnails/speedo/xspeed"
 "$translucent" 1
 "$ignorez" 1
 
@@ -17,6 +17,7 @@ $addsvelocity 0
 $initguess 1
 $right 0.0
 $guessholder 0.0
+$thou 1000
 $ten 10
 $five 5
 $four 4
@@ -37,7 +38,7 @@ $currentposZ .0
 $subposZ .0
 $hd2 .0
 $fpscount 0
-$fpscap 10
+$fpscap 20
 
 Proxies
 {
@@ -256,9 +257,15 @@ LessOrEqual
 "srcVar2" "$fpscap"
 "resultVar" "$fpscount"
 }
-WrapMinMax // Convert speed to texture frame
+Divide // Convert speed to texture frame
 {
 srcVar1 "$speed"
+srcVar2 "$thou"
+resultVar "$speed_int"
+}
+WrapMinMax
+{
+srcVar1 "$speed_int"
 maxVal "$ten"
 resultVar "$frame"
 }

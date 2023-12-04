@@ -1,0 +1,31 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/speedo/xspeed"
+	"$translucent" 1
+	"$ignorez" 1
+
+	$speed 0
+	$digit 100
+	$ten 10
+
+	Proxies
+	{
+		PlayerSpeed
+		{
+			"scale" "1"
+			"resultVar" "$speed"
+		}
+		Divide
+		{
+			srcVar1 "$speed"
+			srcVar2 "$digit"
+			resultVar "$speed"
+		}
+		WrapMinMax
+		{
+			srcVar1 "$speed"
+			maxVal "$ten"
+			resultVar "$frame"
+		}
+	}
+}

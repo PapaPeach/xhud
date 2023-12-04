@@ -63,139 +63,19 @@
 
 	//Customizations
 
-	"XCrosshair"
+	"TeamIndicator"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"XCrosshair"
-		"xpos"		"cs-0.5"
-		"ypos"		"cs-0.5"
-		"zpos"		"-1"
-		"wide"		"100"
-		"tall"		"100"
-		"enabled"		"1"
-		"TextAlignment"		"center"
-	}
-
-	"Hitmarker"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Hitmarker"
-		"xpos"		"cs-0.5"
-		"ypos"		"cs-0.5"
-		"wide"		"100"
-		"tall"		"100"
-		"enabled"		"1"
-		"TextAlignment"		"center"
-		"Alpha"		"0"
-	}
-
-	"Transparent75"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName" 	"Transparent75"
-		"zpos"		"-100"
-		"wide"		"f0"
-		"tall"		"480"
-		"image"		"replay/thumbnails/transparent_viewmodels/transparent75"
+		"ControlName"		"CTFImagePanel"
+		"fieldName"		"TeamIndicator"
+		"xpos"			"-15"
+		"ypos"			"rs1+16"
+		"wide"			"48"
+		"tall"			"o1"
+		"image"			"replay/thumbnails/panels/blank"
 		"scaleImage"	"1"
-	}
-
-	"Transparent60"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName" 	"Transparent60"
-		"zpos"		"-100"
-		"wide"		"f0"
-		"tall"		"480"
-		"image"		"replay/thumbnails/transparent_viewmodels/transparent60"
-		"scaleImage"	"1"
-	}
-
-	"Transparent45"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName" 	"Transparent45"
-		"zpos"		"-100"
-		"wide"		"f0"
-		"tall"		"480"
-		"image"		"replay/thumbnails/transparent_viewmodels/transparent45"
-		"scaleImage"	"1"
-	}
-
-	"TransparentLeft"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName" 	"TransparentLeft"
-		"zpos"		"-100"
-		"wide"		"f0"
-		"tall"		"480"
-		"image"		"replay/thumbnails/transparent_viewmodels/transparent_left"
-		"scaleImage"	"1"
-	}
-
-	"TransparentRight"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName" 	"TransparentRight"
-		"zpos"		"-100"
-		"wide"		"f0"
-		"tall"		"480"
-		"image"		"replay/thumbnails/transparent_viewmodels/transparent_right"
-		"scaleImage"	"1"
-	}
-
-	"Speed1"
-	{
-		"controlName"		"ImagePanel"
-		"fieldName"		"Speed1"
-		"xpos"		"c10"
-		"ypos"		"c16"
-		"wide"	 "10"
-		"tall"	 "10"
-		"image"		"replay/thumbnails/speedometer/xspeed1"
-		"scaleimage"		"1"
-	}
-
-	"Speed10"
-	{
-		"controlName"		"ImagePanel"
-		"fieldName"		"Speed10"
-		"wide"		"10"
-		"tall"		"10"
-		"image"		"replay/thumbnails/speedometer/xspeed2"
-		"scaleimage"		"1"
-
-		"pin_to_sibling"		"Speed1"
-		"pin_corner_to_sibling"		"5"
-		"pin_to_sibling_corner"		"7"
-	}
-
-	"Speed100"
-	{
-		"controlName"		"ImagePanel"
-		"fieldName"		"Speed100"
-		"wide"		"10"
-		"tall"		"10"
-		"image"		"replay/thumbnails/speedometer/xspeed3"
-		"scaleimage"		"1"
-
-		"pin_to_sibling"		"Speed10"
-		"pin_corner_to_sibling"		"5"
-		"pin_to_sibling_corner"		"7"
-	}
-
-	"Speed1000"
-	{
-		"controlName"		"ImagePanel"
-		"fieldName"		"Speed1000"
-		"wide"		"10"
-		"tall"		"10"
-		"image"		"replay/thumbnails/speedometer/xspeed4"
-		"scaleimage"		"1"
-
-		"pin_to_sibling"		"Speed100"
-		"pin_corner_to_sibling"		"5"
-		"pin_to_sibling_corner"		"7"
+		"teambg_1"		"replay/thumbnails/panels/blank"
+		"teambg_2"		"replay/thumbnails/team_indicators/teamred"
+		"teambg_3"		"replay/thumbnails/team_indicators/teamblue"
 	}
 
 	"UberTimerBG"
@@ -219,6 +99,92 @@
 		"tall"		"2"
 
 		"pin_to_sibling"	"UberTimerBG"
+	}
+
+	"Speed1"
+	{
+		"controlName"		"ImagePanel"
+		"fieldName"		"Speed1"
+		"xpos"		"c10"
+		"ypos"		"c16"
+		"wide"	 "10"
+		"tall"	 "10"
+		"scaleimage"	"1"
+	}
+
+	"Speed10"
+	{
+		"controlName"		"ImagePanel"
+		"fieldName"		"Speed10"
+		"wide"		"10"
+		"tall"		"10"
+		"scaleimage"	"1"
+
+		"pin_to_sibling"		"Speed1"
+		"pin_corner_to_sibling"		"5"
+		"pin_to_sibling_corner"		"7"
+	}
+
+	"Speed100"
+	{
+		"controlName"		"ImagePanel"
+		"fieldName"		"Speed100"
+		"wide"		"10"
+		"tall"		"10"
+		"scaleimage"	"1"
+
+		"pin_to_sibling"		"Speed10"
+		"pin_corner_to_sibling"		"5"
+		"pin_to_sibling_corner"		"7"
+	}
+
+	"Speed1000"
+	{
+		"controlName"		"ImagePanel"
+		"fieldName"		"Speed1000"
+		"wide"		"10"
+		"tall"		"10"
+		"scaleimage"	"1"
+
+		"pin_to_sibling"		"Speed100"
+		"pin_corner_to_sibling"		"5"
+		"pin_to_sibling_corner"		"7"
+	}
+
+	"TransparentViewmodel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName" 	"TransparentViewmodel"
+		"zpos"		"-100"
+		"wide"		"f0"
+		"tall"		"480"
+		"scaleImage"	"1"
+	}
+
+	"Hitmarker"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Hitmarker"
+		"xpos"		"cs-0.5"
+		"ypos"		"cs-0.5"
+		"wide"		"100"
+		"tall"		"100"
+		"enabled"		"1"
+		"TextAlignment"		"center"
+		"Alpha"		"0"
+	}
+
+	"XCrosshair"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"XCrosshair"
+		"xpos"		"cs-0.5"
+		"ypos"		"cs-0.5"
+		"zpos"		"-1"
+		"wide"		"100"
+		"tall"		"100"
+		"enabled"		"1"
+		"TextAlignment"		"center"
 	}
 
 	//TF2 Stuff

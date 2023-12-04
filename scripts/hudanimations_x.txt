@@ -15,6 +15,8 @@ event DamagedPlayer
 {
 	StopEvent AnimateHitmarker 0.0
 	RunEvent AnimateHitmarker 0.001
+	StopEvent HudSpyDisguiseFadeOut 0.0
+	RunEvent HudSpyDisguiseFadeOut 0.001
 }
 
 event AnimateHitmarker
