@@ -271,6 +271,19 @@
 			"color_portrait_blend_dead_red"	"WhiteFull"
 			"color_portrait_blend_dead_blue" "WhiteFull"
 
+
+			"healthbar"
+			{
+				"ControlName"		"ContinuousProgressBar"
+				"fieldName"		"healthbar"
+				"zpos"		"3"
+				"wide"		"f0"
+				"tall"		"24"
+				"visible"		"1"
+				"enabled"		"1"
+				"bgcolor_override"	   "Blank"
+				"proportionaltoparent"	"1"
+			}
 			"overhealbar"
 			{
 				"ControlName"		"ContinuousProgressBar"
@@ -337,7 +350,6 @@
 				"tall"		"2"
 				"visible"		"1"
 				"enabled"		"1"
-				"PaintBackgroundType"	"0"
 				"proportionaltoparent"	"1"
 			}
 			"RolloutTimer"
@@ -355,18 +367,6 @@
 				"textAlignment"	"center"
 				"fgcolor_override"	"White"
 				"alpha"		"255"
-				"proportionaltoparent"	"1"
-			}
-			"healthbar"
-			{
-				"ControlName"		"ContinuousProgressBar"
-				"fieldName"		"healthbar"
-				"zpos"		"3"
-				"wide"		"f0"
-				"tall"		"24"
-				"visible"		"1"
-				"enabled"		"1"
-				"bgcolor_override"	   "Blank"
 				"proportionaltoparent"	"1"
 			}
 			"ReadyBG"

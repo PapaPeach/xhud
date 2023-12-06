@@ -19,9 +19,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LevelBar"
-		"xpos"		"0"
 		"ypos"		"50"		//Get rid of the gradient that appears when starting cap
-		"zpos"		"0"
 		"wide"		"300"
 		"tall"		"12"
 		"visible"		"1"
@@ -35,31 +33,23 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"LevelBarCustom"
-		"xpos"		"0"
 		"ypos"		"50"
-		"zpos"		"0"
 		"wide"		"300"
 		"tall"		"12"
 		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		""
-		"bgcolor_override" "TransparentBlack"
+		"bgcolor_override" "TransparentGrayDarkest"
 	}
 
 	"HomeCPIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"2"
 		"tall"		"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		""
 		"image"		""
-		"scaleImage"	"1"
 		"fillcolor"		"Blue"
 		"drawcolor"		"Blue"
 
@@ -76,20 +66,17 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"
-		"xpos"		"0"
 		"ypos"		"50"
 		"zpos"		"1"
 		"wide"		"2"
 		"tall"		"12"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		""
 		"image"		""
-		"scaleImage"	"1"
 		"fillcolor"		"Red"
 		"drawcolor"		"Red"
 
-		"if_multiple_trains"		//TODO: TEST THIS
+		"if_multiple_trains"	//TODO: TEST THIS
 		{
 			"ypos"		"50"
 			"zpos"		"5"
@@ -100,8 +87,6 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"EscortItemPanel"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"2"
 		"wide"		"1000"
 		"tall"		"115"
@@ -112,18 +97,17 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Cart"
-			"xpos"		"-498"
+			"xpos"		"-499"
 			"ypos"		"50"
 			"zpos"		"6"
 			"wide"		"1000"
 			"tall"		"12"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		""
 			"image"		""
-			"scaleImage"	"1"
 			"fillcolor"		"Blue"
 			"drawcolor"		"Blue"
+			"alpha"		"180"
 			"proportionaltoparent"	"1"
 
 			"if_team_red"
@@ -138,7 +122,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
 			"font"		"Size 16"
-			"xpos"		"480"
+			"xpos"		"479"
 			"ypos"		"50"
 			"zpos"		"7"
 			"wide"		"21"
@@ -154,14 +138,13 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"
-			"xpos"		"493"
+			"xpos"		"492"
 			"ypos"		"51"
 			"zpos"		"7"
 			"wide"		"10"
 			"tall"		"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"labelText"		""
 			"image"		"../hud/cart_arrow_left"
 			"scaleImage"	"1"
 		}
@@ -171,7 +154,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
 			"font"		"Size 16 Shadow"
-			"xpos"		"480"
+			"xpos"		"479"
 			"ypos"		"50"
 			"zpos"		"7"
 			"wide"		"21"
@@ -187,14 +170,13 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"
-			"xpos"		"491"
+			"xpos"		"490"
 			"ypos"		"51"
 			"zpos"		"7"
 			"wide"		"10"
 			"tall"		"10"
 			"visible"		"0"
 			"enabled"		"1"
-			"labelText"		""
 			"image"		"../hud/cart_blocked"
 			"scaleImage"	"1"
 		}
@@ -209,21 +191,21 @@
 			"fieldName"		"EscortTeardrop"
 			"xpos"		"9999"
 		}
+		"EscortItemImage"
+		{
+			"fieldName"		"EscortItemImage"
+			"xpos"		"9999"
+		}
+		"EscortItemImageBottom"
+		{
+			"fieldName"		"EscortItemImageBottom"
+			"xpos"		"9999"
+		}
 	}
 
 	"ProgressBar"
 	{
 		"fieldName"		"ProgressBar"
-		"xpos"		"9999"
-	}
-	"EscortItemImage"
-	{
-		"fieldName"		"EscortItemImage"
-		"xpos"		"9999"
-	}
-	"EscortItemImageBottom"
-	{
-		"fieldName"		"EscortItemImageBottom"
 		"xpos"		"9999"
 	}
 	"CapPlayerImage"

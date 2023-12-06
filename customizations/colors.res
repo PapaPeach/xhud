@@ -9,11 +9,12 @@ Scheme{Colors{
 // INGAME COLORS //
 //===============//
 "Health"					"227 228 230 255"
-"Buffed Health"				"92 173 255 255"
-"Low Health"				"255 50 65 255"
+"Health Bar"				"255 255 255 255"	//Pure white matches item meters that can't be customized.
+"Buffed Health Bar"			"92 173 255 255"
+"Low Health Box"			"255 50 65 255"
 
 "Ammo"						"227 228 230 255"
-"Low Ammo"					"255 50 65 255"
+"Low Ammo Box"				"255 50 65 255"
 
 "DamageDealt"				"255 50 65 255"
 "Heal Numbers"				"92 173 255 255"

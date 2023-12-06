@@ -169,7 +169,7 @@
 		"tall"		"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"Low Ammo"
+		"bgcolor_override"		"Low Ammo Box"
 		"alpha"		"150"
 
 		"pin_to_sibling"		"AmmoAnchor"

@@ -103,7 +103,7 @@
 		"tall"		"4"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"WhiteFull"
+		"bgcolor_override"		"Health Bar"
 
 		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
 		"pin_corner_to_sibling"		"5"
@@ -120,7 +120,7 @@
 		"tall"		"4"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"Blue"
+		"bgcolor_override"		"Buffed Health Bar"
 
 		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
 		"pin_corner_to_sibling"		"7"
@@ -136,7 +136,7 @@
 		"tall"		"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"Low Health"
+		"bgcolor_override"		"Low Health Box"
 		"alpha"		"150"
 
 		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
