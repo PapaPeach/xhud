@@ -29,7 +29,7 @@
 		"tall"		"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"TransparentBlack"
+		"bgcolor_override"		"TransparentGrayDarkest"
 
 		"BlueBar"
 		{
