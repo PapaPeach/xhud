@@ -107,7 +107,6 @@
 			"image"		""
 			"fillcolor"		"Blue"
 			"drawcolor"		"Blue"
-			"alpha"		"180"
 			"proportionaltoparent"	"1"
 
 			"if_team_red"

@@ -1,4 +1,4 @@
-#base "../../cfg/xhud_resolution_selection.txt"
+#base "../../cfg/_xhud_resolution_selection.txt"
 
 "Resource/UI/SpectatorTournament.res"
 {

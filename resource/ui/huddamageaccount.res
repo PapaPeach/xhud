@@ -1,4 +1,4 @@
-#base "../../cfg/xhud_customizations.txt"
+#base "../../cfg/_xhud_customizations.txt"
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"

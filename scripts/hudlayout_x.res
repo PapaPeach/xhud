@@ -76,6 +76,7 @@
 		"teambg_1"		"replay/thumbnails/panels/blank"
 		"teambg_2"		"replay/thumbnails/team_indicators/teamred"
 		"teambg_3"		"replay/thumbnails/team_indicators/teamblue"
+		"alpha"		"180"
 	}
 
 	"UberTimerBG"
