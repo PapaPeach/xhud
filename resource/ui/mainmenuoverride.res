@@ -136,7 +136,6 @@
 		"wide"		"150"
 		"tall"		"50"
 		"visible"		"0"
-		"PaintBackgroundType"		"0"
 		"border"		"MaterialGrayDarkest"
 
 		"TipSubLabel"
@@ -148,12 +147,11 @@
 			"textAlignment"		"center"
 			"xpos"		"20"
 			"ypos"		"30"
-			"zpos"		"2"
 			"wide"		"250"
 			"tall"		"50"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"117 107 94 255"
+			"fgcolor_override"	"White"
 			"wrap"		"1"
 		}
 
@@ -166,13 +164,11 @@
 			"textAlignment"		"center"
 			"xpos"		"20"
 			"ypos"		"5"
-			"zpos"		"2"
-			"wide"		"140"
-			"tall"		"12"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"		"White"
 			"auto_wide_tocontents"		"1"
+			"auto_tall_tocontents"		"1"
 		}
 	}
 

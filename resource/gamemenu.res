@@ -131,8 +131,8 @@
 	"InvisiblePlayersFix"
 	{
 		"label"			"C"
-		"command"		"engine demorestart"
-		"tooltip"		"Fix Invisible Players"
+		"command"		"engine record fix;stop;play replay/stoprecord"
+		"tooltip"		"Fix Invisible Players \n (Will Stop Demos!)"
 		"OnlyInGame"	"1"
 	}
 
