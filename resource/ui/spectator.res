@@ -55,10 +55,11 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 
-		"model_ypos"		"10"
-		"model_center_x"		"1"
-		"model_wide"		"90"
-		"model_tall"		"60"
+		"model_ypos"		"20"
+		"model_center_x"	"1"
+		"model_wide"		"80"
+		"model_tall"		"50"
+		"noitem_use_fullpanel"  "0"
 
 		"text_xpos"		"10"
 		"text_ypos"		"10"

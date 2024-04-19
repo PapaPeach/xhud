@@ -391,6 +391,11 @@
 		"alpha"	"50"
 	}
 
+	HudMenu
+	{
+		"OpenCloseTime"	"0"
+	}
+
 	HudSpellMenu
 	{
 		"wide"	"50"
