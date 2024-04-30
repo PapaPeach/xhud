@@ -480,7 +480,7 @@
 			"fgcolor_override"	"White"
 			"bgcolor_override"	"TransparentBlack"
 			"selectionColor_override" "MainTheme"
-			"maxchars"		"18"
+			"maxchars"		"20"
 
 			"consume_mode"
 			{
