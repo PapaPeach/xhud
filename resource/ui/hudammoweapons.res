@@ -161,21 +161,6 @@
 		"pin_to_sibling"		"AmmoNoClip"
 	}
 
-	"CustomScopeCharge"
-	{
-		"controlName"	"ImagePanel"
-		"fieldName"	"CustomScopeCharge"
-		"xpos"		"-79"
-		"ypos"		"89"
-		"wide"		"64"
-		"tall"		"64"
-		"visible"	"1"
-		"image"		"replay/thumbnails/sniper_charge/sniperscope_numbers"
-		"scaleimage"	"1"
-
-		"pin_to_sibling"	"AmmoNoClip"
-	}
-
 	"LowAmmoBox"
 	{
 		"ControlName"		"Panel"

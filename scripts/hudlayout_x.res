@@ -420,11 +420,6 @@
 		"topoffset"		"0"
 	}
 
-	HudScopeCharge
-	{
-		"xpos"	"9999"
-	}
-
 	HudVoiceSelfStatus
 	{
 		"xpos"	"r32"
