@@ -15,8 +15,6 @@
 		"fieldName"		"WaveCountLabel"
 		"font"		"Size 12"
 		"fgcolor"		"White"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"3"
 		"wide"		"300"
 		"tall"		"12"
@@ -24,7 +22,7 @@
 		"enabled"		"1"
 		"textAlignment"		"center"
 		"labelText"		"%wave_count%"
-		"proportionaltoparent"		"1"
+
 		"pin_to_sibling"		"ProgressBar"
 	}
 
@@ -32,15 +30,11 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"SeparatorBar"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"3"
 		"wide"		"1"
 		"tall"		"18"
 		"visible"		"0"
 		"enabled"		"1"
-		"scaleImage"	"1"
-		"PaintBackgroundType" "0"
 		"bgcolor_override"	"White"
 
 		if_verbose
@@ -75,30 +69,27 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"300"
 		"tall"		"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"		"replay/thumbnails/panels/blue"
+
 		"pin_to_sibling"		"ProgressBarBG"
 	}
 
 	"ProgressBarBG"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"		"cs-0.5"
+		"xpos"		"150"
 		"ypos"		"5"
-		"zpos"		"0"
-		"wide"		"300"
+		"wide"		"200"
 		"tall"		"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"		"replay/thumbnails/panels/black"
 		"alpha"		"150"
-		"proportionaltoparent"		"1"
 	}
 }

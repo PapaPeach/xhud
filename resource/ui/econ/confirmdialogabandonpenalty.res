@@ -4,20 +4,9 @@
 {
 	"TitleLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"TitleLabel"
-		"font"		"Size 24"
-		"labelText"		"#ConfirmTitle"
-		"textAlignment"	"north"
-		"ypos"		"5"
-		"zpos"		"1"
-		"wide"		"300"
-		"tall"		"25"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override" "Red"
+		"fgcolor_override"	"Red"
 	}
-	
+
 	"AbandonIcon"
 	{
 		"ControlName"		"ImagePanel"
@@ -31,12 +20,12 @@
 		"enabled"		"1"
 		"scaleImage"		"1"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"xpos"			"60"
 	}
-	
+
 	"CancelButtonHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
@@ -50,7 +39,7 @@
 		"actionSet"		"MenuControls"
 		"actionName"	"menu_cancel"
 	}
-	
+
 	"ConfirmButtonHintIcon"
 	{
 		"ControlName"	"CSCHintIcon"
@@ -63,5 +52,5 @@
 		"visible"		"1"
 		"actionSet"		"MenuControls"
 		"actionName"	"menu_select"
-	}			
+	}
 }

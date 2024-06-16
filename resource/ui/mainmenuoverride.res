@@ -4395,9 +4395,9 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "XMenuSavePanel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "0"
+			"pin_to_sibling"	"XMenuSavePanel"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"0"
 		}
 
 		"ResetSettings"
@@ -4424,9 +4424,9 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "ResetResolution"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
+			"pin_to_sibling"	"ResetResolution"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
 		}
 
 		"LoadSettings"
@@ -4453,9 +4453,9 @@
 			"border_default"		"WhiteHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "ResetSettings"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
+			"pin_to_sibling"	"ResetSettings"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"1"
 		}
 
 		"SaveSettings"
@@ -4482,9 +4482,9 @@
 			"border_default"		"RedHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
-			"pin_to_sibling" "ResetSettings"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
+			"pin_to_sibling"	"ResetSettings"
+			"pin_corner_to_sibling"	"0"
+			"pin_to_sibling_corner"	"2"
 		}
 	}
 

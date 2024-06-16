@@ -4,8 +4,6 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"dynamic_recipe_panel"
-		"xpos"		"0"
-		"ypos"		"0"
 		"wide"		"f0"
 		"tall"		"400"
 		"zpos"		"501"
@@ -183,8 +181,6 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"PrevInputPageButton"
-			"xpos"		"0"
-			"ypos"		"0"
 			"zpos"		"1"
 			"wide"		"25"
 			"tall"		"15"
@@ -201,6 +197,7 @@
 			"pin_corner_to_sibling"		"5"
 			"pin_to_sibling_corner"		"7"
 		}
+
 		"CurInputPageLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -208,8 +205,6 @@
 			"font"		"Size 14"
 			"labelText"		"%inputpage%"
 			"textAlignment"	"center"
-			"xpos"		"0"
-			"ypos"		"0"
 			"zpos"		"1"
 			"wide"		"47"
 			"tall"		"15"
@@ -221,6 +216,7 @@
 			"pin_corner_to_sibling"		"5"
 			"pin_to_sibling_corner"		"7"
 		}
+
 		"NextInputPageButton"
 		{
 			"ControlName"	"CExButton"

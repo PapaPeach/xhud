@@ -1,18 +1,21 @@
 "Resource/UI/MvMScoreboard.res"
-{		
+{
 	"WaveStatusPanel"
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"		"WaveStatusPanel"
 		"xpos"		"0"
-		"ypos"		"8"
-		"zpos"		"0"
-		"wide"		"528"
+		"ypos"		"-10"
+		"wide"		"600"
 		"tall"		"67"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling"		"PopFileLabel"
+		"pin_corner_to_sibling"		"6"
+		"pin_to_sibling_corner"		"6"
 	}
-	
+
 	"PopFileLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -21,7 +24,7 @@
 		"labelText"		"%popfile%"
 		"textAlignment"	"center"
 		"xpos"		"0"
-		"ypos"		"55"
+		"ypos"		"65"
 		"wide"		"528"
 		"tall"		"20"
 		"fgcolor"		"White"
@@ -36,7 +39,7 @@
 		"wide"		"112"
 		"tall"		"20"
 		"visible"		"1"
-		
+
 		"DifficultyLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -48,7 +51,7 @@
 			"tall"		"9"
 			"fgcolor"		"White"
 		}
-		
+
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
@@ -63,31 +66,31 @@
 			"fgcolor"		"White"
 		}
 	}
-	
+
 	"MvMPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
 		"xpos"		"0"
-		"ypos"		"76"
-		"wide"		"f0"
+		"ypos"		"82"
+		"wide"		"528"
 		"tall"		"150"
 		"visible"		"1"
 		"enabled"		"1"
 		"linespacing"	"22"
 		"textcolor"		"White"
 	}
-	
+
 	"CreditStatsContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
 		"xpos"		"2"
-		"ypos"		"268"
+		"ypos"		"270"
 		"wide"		"524"
 		"tall"		"205"
 		"visible"		"1"
-		
+
 		"PreviousWaveCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -113,7 +116,7 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 		}
-		
+
 		"TotalGameCreditInfoPanel"
 		{
 			"ControlName"	"CCreditDisplayPanel"
@@ -126,7 +129,7 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 		}
-		
+
 		"TotalGameCreditSpendPanel"
 		{
 			"ControlName"	"CCreditSpendPanel"

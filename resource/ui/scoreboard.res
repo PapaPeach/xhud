@@ -49,7 +49,7 @@
 		"ypos"		"60"
 		"zpos"		"-1"
 		"wide"		"f0"
-		"tall"		"259"
+		"tall"		"260"
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"TransparentBlack"

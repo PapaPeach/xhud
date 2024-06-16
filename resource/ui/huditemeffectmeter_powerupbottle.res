@@ -19,6 +19,14 @@
 		"scaleImage"	"1"
 	}
 
+	"ItemEffectMeterLabel"
+	{
+		"ypos"			"14"
+		"wide"			"50"
+		"tall"			"14"
+		"centerwrap"	"1"
+	}
+
 	"ItemEffectMeterCount"
 	{
 		"xpos"			"6"

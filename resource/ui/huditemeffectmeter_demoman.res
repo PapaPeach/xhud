@@ -19,17 +19,17 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel"
-		"xpos"		"cs-0.5"
+		"xpos"		"0"
 		"ypos"		"15"
 		"zpos"		"2"
-		"wide"		"41"
+		"wide"		"50"
 		"tall"		"6"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#TF_Ball"
 		"textAlignment"		"center"
 		"font"		"Size 7"
-		"proportionaltoparent"		"1"
+		"proportionaltoparent"		"0"
 	}
 
 	"ItemEffectMeterCount"

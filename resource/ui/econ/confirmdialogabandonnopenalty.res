@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"bgcolor_override"	"BlackLight"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -27,9 +27,9 @@
 		"tall"		"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override"	"White"
 	}
-	
+
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -44,9 +44,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"		"1"
-		"fgcolor_override" "White"
+		"fgcolor_override"	"White"
 	}
-		
+
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
