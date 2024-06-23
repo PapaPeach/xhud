@@ -598,6 +598,215 @@
 		}
 	}
 
+	//MINOR BUTTONS
+
+	"HUDRepository"
+	{
+		"ControlName"		"URLLabel"
+		"fieldname"		"HUDRepository"
+		"xpos"		"150"
+		"ypos"		"r20"
+		"zpos"		"2"
+		"wide"		"20"
+		"tall"		"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"proportionaltoparent"		"1"
+		"labelText"		"2"
+		"font"		"Symbols 22"
+		"textAlignment"		"center"
+		"urlText"		"https://github.com/PapaPeach/xhud"
+
+		"fgcolor_override"		"White"
+	}
+
+	"Streams"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"Streams"
+		"xpos"		"2"
+		"ypos"		"0"
+		"zpos"		"2"
+		"wide"		"20"
+		"tall"		"20"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"		"HUDRepository"
+		"pin_corner_to_sibling"		"7"
+		"pin_to_sibling_corner"		"5"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"SubButton"
+			"wide"		"20"
+			"tall"		"20"
+			"visible"		"1"
+			"font"		"Symbols 20"
+			"textAlignment"		"center"
+			"textinsetx"		"0"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"WhiteGray"
+
+			"proportionaltoparent"		"1"
+		}
+	}
+
+	"Contracker"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"Contracker"
+		"xpos"		"2"
+		"ypos"		"0"
+		"zpos"		"2"
+		"wide"		"20"
+		"tall"		"20"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"		"Streams"
+		"pin_corner_to_sibling"		"7"
+		"pin_to_sibling_corner"		"5"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"SubButton"
+			"wide"		"20"
+			"tall"		"20"
+			"visible"		"1"
+			"font"		"Symbols 22"
+			"textAlignment"		"center"
+			"textinsetx"		"0"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"WhiteGray"
+
+			"proportionaltoparent"		"1"
+		}
+	}
+
+	"DemoUI"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"DemoUI"
+		"xpos"		"2"
+		"ypos"		"0"
+		"zpos"		"2"
+		"wide"		"20"
+		"tall"		"20"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"		"Contracker"
+		"pin_corner_to_sibling"		"7"
+		"pin_to_sibling_corner"		"5"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"SubButton"
+			"wide"		"20"
+			"tall"		"20"
+			"visible"		"1"
+			"font"		"Symbols 20"
+			"textAlignment"		"center"
+			"textinsetx"		"0"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"WhiteGray"
+
+			"proportionaltoparent"		"1"
+		}
+	}
+
+	"Console"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"Console"
+		"xpos"		"2"
+		"ypos"		"0"
+		"zpos"		"2"
+		"wide"		"20"
+		"tall"		"20"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"pin_to_sibling"		"DemoUI"
+		"pin_corner_to_sibling"		"7"
+		"pin_to_sibling_corner"		"5"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"SubButton"
+			"wide"		"20"
+			"tall"		"20"
+			"visible"		"1"
+			"font"		"Symbols 22"
+			"textAlignment"		"center"
+			"textinsetx"		"0"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"WhiteGray"
+
+			"proportionaltoparent"		"1"
+		}
+	}
+
+	"Quit"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"Quit"
+		"xpos"		"rs1"
+		"ypos"		"rs1"
+		"zpos"		"2"
+		"wide"		"80"
+		"tall"		"20"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"		"SubButton"
+			"wide"		"80"
+			"tall"		"20"
+			"visible"		"1"
+			"font"		"Size 30"
+			"textAlignment"		"east"
+			"textinsetx"		"5"
+			"use_proportional_insets"		"1"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"Red"
+
+			"proportionaltoparent"		"1"
+		}
+	}
+
 	"QuickPlayPanel"
 	{
 		"ControlName"		"CMatchHistoryEntryPanel"
@@ -609,7 +818,7 @@
 		"visible"	"1"
 
 		"collapsed_height"	"24"
-		"expanded_height"	"282"
+		"expanded_height"	"309"
 		"resize_time"		"0.1"
 
 		"ignorescheme"	"1"
@@ -634,7 +843,7 @@
 
 			"paintbackground"	"0"
 			"defaultFgColor_override"	"White"
-			"armedFgColor_override"		"Green"
+			"armedFgColor_override"		"0 150 136 255"
 		}
 
 		"QuickPlayBG"
@@ -1131,219 +1340,57 @@
 			"pin_to_sibling"		"ImageRandom"
 		}
 
+		"Settings"
+		{
+			"ControlName"		"URLLabel"
+			"fieldname"		"Settings"
+			"ypos"		"2"
+			"zpos"		"2"
+			"wide"		"25"
+			"tall"		"25"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+			"labelText"		"}"
+			"font"		"Symbols 26"
+			"textAlignment"		"center"
+			"fgcolor_override"		"White"
+			"urlText"		"https://comfig.app/quickplay/?autostart=2"
+
+			"paintborder"	"1"
+			"border"		"WhiteHighlightBorder"
+
+			"pin_to_sibling"		"Random"
+			"pin_to_sibling_corner"	"2"
+		}
+
+		"Feedback"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"Feedback"
+			"xpos"		"4"
+			"ypos"		"2"
+			"wide"		"f39"
+			"tall"		"30"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+			"labelText"		"Comfig Quickplay is made by mcoms. Provide feedback by following the instructions on Quickplay.tf"
+			"font"		"Size 10"
+			"wrap"		"1"
+
+			"pin_to_sibling"		"Settings"
+			"pin_to_sibling_corner"	"1"
+
+			"colors"
+			{
+				"1"		"White"
+				"2"		"0 150 136 255"
+			}
+		}
+
 		"container"
 		{"visible"	"0"}
 		"BottomStats"
 		{"visible"	"0"}
-	}
-
-	//MINOR BUTTONS
-
-	"HUDRepository"
-	{
-		"ControlName"		"URLLabel"
-		"fieldname"		"HUDRepository"
-		"xpos"		"150"
-		"ypos"		"r20"
-		"zpos"		"2"
-		"wide"		"20"
-		"tall"		"20"
-		"visible"		"1"
-		"enabled"		"1"
-		"proportionaltoparent"		"1"
-		"labelText"		"2"
-		"font"		"Symbols 22"
-		"textAlignment"		"center"
-		"urlText"		"https://github.com/PapaPeach/xhud"
-
-		"fgcolor_override"		"White"
-	}
-
-	"Streams"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"Streams"
-		"xpos"		"2"
-		"ypos"		"0"
-		"zpos"		"2"
-		"wide"		"20"
-		"tall"		"20"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"pin_to_sibling"		"HUDRepository"
-		"pin_corner_to_sibling"		"7"
-		"pin_to_sibling_corner"		"5"
-
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"		"SubButton"
-			"wide"		"20"
-			"tall"		"20"
-			"visible"		"1"
-			"font"		"Symbols 20"
-			"textAlignment"		"center"
-			"textinsetx"		"0"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"WhiteGray"
-
-			"proportionaltoparent"		"1"
-		}
-	}
-
-	"Contracker"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"Contracker"
-		"xpos"		"2"
-		"ypos"		"0"
-		"zpos"		"2"
-		"wide"		"20"
-		"tall"		"20"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"pin_to_sibling"		"Streams"
-		"pin_corner_to_sibling"		"7"
-		"pin_to_sibling_corner"		"5"
-
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"		"SubButton"
-			"wide"		"20"
-			"tall"		"20"
-			"visible"		"1"
-			"font"		"Symbols 22"
-			"textAlignment"		"center"
-			"textinsetx"		"0"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"WhiteGray"
-
-			"proportionaltoparent"		"1"
-		}
-	}
-
-	"DemoUI"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"DemoUI"
-		"xpos"		"2"
-		"ypos"		"0"
-		"zpos"		"2"
-		"wide"		"20"
-		"tall"		"20"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"pin_to_sibling"		"Contracker"
-		"pin_corner_to_sibling"		"7"
-		"pin_to_sibling_corner"		"5"
-
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"		"SubButton"
-			"wide"		"20"
-			"tall"		"20"
-			"visible"		"1"
-			"font"		"Symbols 20"
-			"textAlignment"		"center"
-			"textinsetx"		"0"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"WhiteGray"
-
-			"proportionaltoparent"		"1"
-		}
-	}
-
-	"Console"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"Console"
-		"xpos"		"2"
-		"ypos"		"0"
-		"zpos"		"2"
-		"wide"		"20"
-		"tall"		"20"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"pin_to_sibling"		"DemoUI"
-		"pin_corner_to_sibling"		"7"
-		"pin_to_sibling_corner"		"5"
-
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"		"SubButton"
-			"wide"		"20"
-			"tall"		"20"
-			"visible"		"1"
-			"font"		"Symbols 22"
-			"textAlignment"		"center"
-			"textinsetx"		"0"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"WhiteGray"
-
-			"proportionaltoparent"		"1"
-		}
-	}
-
-	"Quit"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"Quit"
-		"xpos"		"rs1"
-		"ypos"		"rs1"
-		"zpos"		"2"
-		"wide"		"80"
-		"tall"		"20"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"SubButton"
-		{
-			"ControlName"		"CExImageButton"
-			"fieldName"		"SubButton"
-			"wide"		"80"
-			"tall"		"20"
-			"visible"		"1"
-			"font"		"Size 30"
-			"textAlignment"		"east"
-			"textinsetx"		"5"
-			"use_proportional_insets"		"1"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"Red"
-
-			"proportionaltoparent"		"1"
-		}
 	}
 
 	//INGAME BUTTONS
