@@ -18,3 +18,5 @@ A TF2 HUD designed by Peaches to serve as an environment to develop innovative i
 **Xhud logo creation:** NuclearCore  
 **Math Consultant:** Popalofiti  
 **Support & testing:** The unsponsored [*Sponsored by Xhud*](https://rgl.gg/Public/Team.aspx?t=10432&r=40) roster
+# 
+[Xhud](https://github.com/PapaPeach/xhud) © 2020 by [Peaches](https://github.com/PapaPeach) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0)
