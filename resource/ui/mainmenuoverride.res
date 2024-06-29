@@ -813,21 +813,19 @@
 		"fieldName"		"QuickPlayPanel"
 		"xpos"		"rs1-81"
 		"zpos"		"11000"
-		"wide"		"190"
+		"wide"		"24"
 		"tall"		"24"
 		"visible"	"1"
 
 		"collapsed_height"	"24"
-		"expanded_height"	"309"
-		"resize_time"		"0.1"
+		"expanded_height"	"58"
+		"resize_time"		"0.05"
 
 		"ignorescheme"	"1"
 
 		"toggle"
 		{
 			"ControlName"	"Button"
-			"xpos"		"rs1"
-			"ypos"		"0"
 			"wide"		"24"
 			"tall"		"24"
 			"visible"	"1"
@@ -835,8 +833,6 @@
 			"font"		"Symbols 26"
 			"command"	"toggle_collapse"
 			"textAlignment"	"east"
-			"proportionaltoparent"		"1"
-			"auto_wide_tocontents"		"0"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -846,551 +842,237 @@
 			"armedFgColor_override"		"0 150 136 255"
 		}
 
-		"QuickPlayBG"
-		{
-			"ControlName"		"Panel"
-			"fieldName"		"QuickPlayBG"
-			"ypos"		"24"
-			"zpos"		"0"
-			"wide"		"f0"
-			"tall"		"f0"
-			"visible"	"1"
-			"bgcolor_override"	"GrayDark"
-		}
-
-		"QuickPlayTitle"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"QuickPlayTitle"
-			"wide"		"f0"
-			"tall"		"20"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		"Comfig Quickplay"
-			"font"		"Size 20"
-			"textAlignment"	"center"
-			"fgcolor"		"WhiteDark"
-
-			"pin_to_sibling"		"QuickPlayBG"
-		}
-
-		"AD"
-		{
-			"ControlName"		"URLLabel"
-			"fieldname"		"AD"
-			"xpos"		"5"
-			"ypos"		"45"
-			"zpos"		"2"
-			"wide"		"f10"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		""
-			"urlText"		"https://comfig.app/quickplay/?autostart=1&gm=attack_defense"
-
-			"paintborder"	"1"
-			"border"		"WhiteHighlightBorder"
-		}
-
-		"ImageAD"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ImageAD"
-			"wide"		"o4"
-			"tall"		"24"
-			"visible"		"1"
-			"image"		"casual/gametype_ad"
-			"scaleimage"		"1"
-
-			"pin_to_sibling"		"AD"
-		}
-
-		"LabelAD"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"LabelAD"
-			"xpos"		"-48"
-			"zpos"		"1"
-			"wide"		"f58"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		"Attack / Defense ► "
-			"font"		"Size 16"
-			"textAlignment"		"east"
-			"fgcolor"		"White"
-			"bgcolor_override"		"BlackLight"
-
-			"pin_to_sibling"		"ImageAD"
-		}
-
-		"CTF"
-		{
-			"ControlName"		"URLLabel"
-			"fieldname"		"CTF"
-			"ypos"		"2"
-			"zpos"		"2"
-			"wide"		"f10"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		""
-			"urlText"		"https://comfig.app/quickplay/?autostart=1&gm=ctf"
-
-			"paintborder"	"1"
-			"border"		"WhiteHighlightBorder"
-
-			"pin_to_sibling"		"AD"
-			"pin_to_sibling_corner"	"2"
-		}
-
-		"ImageCTF"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ImageCTF"
-			"wide"		"o4"
-			"tall"		"24"
-			"visible"		"1"
-			"image"		"casual/gametype_ctf"
-			"scaleimage"		"1"
-
-			"pin_to_sibling"		"CTF"
-		}
-
-		"LabelCTF"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"LabelCTF"
-			"xpos"		"-48"
-			"zpos"		"1"
-			"wide"		"f58"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		"Capture the Flag ► "
-			"font"		"Size 16"
-			"textAlignment"		"east"
-			"fgcolor"		"White"
-			"bgcolor_override"		"BlackLight"
-
-			"pin_to_sibling"		"ImageCTF"
-		}
-
-		"CP"
-		{
-			"ControlName"		"URLLabel"
-			"fieldname"		"CP"
-			"ypos"		"2"
-			"zpos"		"2"
-			"wide"		"f10"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		""
-			"urlText"		"https://comfig.app/quickplay/?autostart=1&gm=capture_point"
-
-			"paintborder"	"1"
-			"border"		"WhiteHighlightBorder"
-
-			"pin_to_sibling"		"CTF"
-			"pin_to_sibling_corner"	"2"
-		}
-
-		"ImageCP"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ImageCP"
-			"wide"		"o4"
-			"tall"		"24"
-			"visible"		"1"
-			"image"		"casual/gametype_cp"
-			"scaleimage"		"1"
-
-			"pin_to_sibling"		"CP"
-		}
-
-		"LabelCP"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"LabelCP"
-			"xpos"		"-48"
-			"zpos"		"1"
-			"wide"		"f58"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		"Control Points ► "
-			"font"		"Size 16"
-			"textAlignment"		"east"
-			"fgcolor"		"White"
-			"bgcolor_override"		"BlackLight"
-
-			"pin_to_sibling"		"ImageCP"
-		}
-
-		"KOTH"
-		{
-			"ControlName"		"URLLabel"
-			"fieldname"		"KOTH"
-			"ypos"		"2"
-			"zpos"		"2"
-			"wide"		"f10"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		""
-			"urlText"		"https://comfig.app/quickplay/?autostart=1&gm=koth"
-
-			"paintborder"	"1"
-			"border"		"WhiteHighlightBorder"
-
-			"pin_to_sibling"		"CP"
-			"pin_to_sibling_corner"	"2"
-		}
-
-		"ImageKOTH"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ImageKOTH"
-			"wide"		"o4"
-			"tall"		"24"
-			"visible"		"1"
-			"image"		"casual/gametype_koth"
-			"scaleimage"		"1"
-
-			"pin_to_sibling"		"KOTH"
-		}
-
-		"LabelKOTH"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"LabelKOTH"
-			"xpos"		"-48"
-			"zpos"		"1"
-			"wide"		"f58"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		"King of the Hill ► "
-			"font"		"Size 16"
-			"textAlignment"		"east"
-			"fgcolor"		"White"
-			"bgcolor_override"		"BlackLight"
-
-			"pin_to_sibling"		"ImageKOTH"
-		}
-
-		"PL"
-		{
-			"ControlName"		"URLLabel"
-			"fieldname"		"PL"
-			"ypos"		"2"
-			"zpos"		"2"
-			"wide"		"f10"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		""
-			"urlText"		"https://comfig.app/quickplay/?autostart=1&gm=payload"
-
-			"paintborder"	"1"
-			"border"		"WhiteHighlightBorder"
-
-			"pin_to_sibling"		"KOTH"
-			"pin_to_sibling_corner"	"2"
-		}
-
-		"ImagePL"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ImagePL"
-			"wide"		"o4"
-			"tall"		"24"
-			"visible"		"1"
-			"image"		"casual/gametype_payload"
-			"scaleimage"		"1"
-
-			"pin_to_sibling"		"PL"
-		}
-
-		"LabelPL"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"LabelPL"
-			"xpos"		"-48"
-			"zpos"		"1"
-			"wide"		"f58"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		"Payload ► "
-			"font"		"Size 16"
-			"textAlignment"		"east"
-			"fgcolor"		"White"
-			"bgcolor_override"		"BlackLight"
-
-			"pin_to_sibling"		"ImagePL"
-		}
-
-		"PLR"
-		{
-			"ControlName"		"URLLabel"
-			"fieldname"		"PLR"
-			"ypos"		"2"
-			"zpos"		"2"
-			"wide"		"f10"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		""
-			"urlText"		"https://comfig.app/quickplay/?autostart=1&gm=payload_race"
-
-			"paintborder"	"1"
-			"border"		"WhiteHighlightBorder"
-
-			"pin_to_sibling"		"PL"
-			"pin_to_sibling_corner"	"2"
-		}
-
-		"ImagePLR"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ImagePLR"
-			"wide"		"o4"
-			"tall"		"24"
-			"visible"		"1"
-			"image"		"casual/gametype_plr"
-			"scaleimage"		"1"
-
-			"pin_to_sibling"		"PLR"
-		}
-
-		"LabelPLR"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"LabelPLR"
-			"xpos"		"-48"
-			"zpos"		"1"
-			"wide"		"f58"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		"Payload Race ► "
-			"font"		"Size 16"
-			"textAlignment"		"east"
-			"fgcolor"		"White"
-			"bgcolor_override"		"BlackLight"
-
-			"pin_to_sibling"		"ImagePLR"
-		}
-
-		"Arena"
-		{
-			"ControlName"		"URLLabel"
-			"fieldname"		"Arena"
-			"ypos"		"2"
-			"zpos"		"2"
-			"wide"		"f10"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		""
-			"urlText"		"https://comfig.app/quickplay/?autostart=1&gm=arena"
-
-			"paintborder"	"1"
-			"border"		"WhiteHighlightBorder"
-
-			"pin_to_sibling"		"PLR"
-			"pin_to_sibling_corner"	"2"
-		}
-
-		"ImageArena"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ImageArena"
-			"wide"		"o4"
-			"tall"		"24"
-			"visible"		"1"
-			"image"		"casual/gametype_arena"
-			"scaleimage"		"1"
-
-			"pin_to_sibling"		"Arena"
-		}
-
-		"LabelArena"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"LabelArena"
-			"xpos"		"-48"
-			"zpos"		"1"
-			"wide"		"f58"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		"Arena ► "
-			"font"		"Size 16"
-			"textAlignment"		"east"
-			"fgcolor"		"White"
-			"bgcolor_override"		"BlackLight"
-
-			"pin_to_sibling"		"ImageArena"
-		}
-
-		"Misc"
-		{
-			"ControlName"		"URLLabel"
-			"fieldname"		"Misc"
-			"ypos"		"2"
-			"zpos"		"2"
-			"wide"		"f10"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		""
-			"urlText"		"https://comfig.app/quickplay/?autostart=1&gm=alternative"
-
-			"paintborder"	"1"
-			"border"		"WhiteHighlightBorder"
-
-			"pin_to_sibling"		"Arena"
-			"pin_to_sibling_corner"	"2"
-		}
-
-		"ImageMisc"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ImageMisc"
-			"wide"		"o4"
-			"tall"		"24"
-			"visible"		"1"
-			"image"		"casual/gametype_featured_campaign3"
-			"scaleimage"		"1"
-
-			"pin_to_sibling"		"Misc"
-		}
-
-		"LabelMisc"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"LabelMisc"
-			"xpos"		"-48"
-			"zpos"		"1"
-			"wide"		"f58"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		"Misc ► "
-			"font"		"Size 16"
-			"textAlignment"		"east"
-			"fgcolor"		"White"
-			"bgcolor_override"		"BlackLight"
-
-			"pin_to_sibling"		"ImageMisc"
-		}
-
-		"Random"
-		{
-			"ControlName"		"URLLabel"
-			"fieldname"		"Random"
-			"ypos"		"2"
-			"zpos"		"2"
-			"wide"		"f10"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		""
-			"urlText"		"https://comfig.app/quickplay/?autostart=1"
-
-			"paintborder"	"1"
-			"border"		"WhiteHighlightBorder"
-
-			"pin_to_sibling"		"Misc"
-			"pin_to_sibling_corner"	"2"
-		}
-
-		"ImageRandom"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ImageRandom"
-			"wide"		"96"
-			"tall"		"27"
-			"visible"		"1"
-			"image"		"main_menu/main_menu_button_casual"
-			"scaleimage"		"1"
-
-			"pin_to_sibling"		"Random"
-		}
-
-		"LabelRandom"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"LabelRandom"
-			"xpos"		"-48"
-			"zpos"		"1"
-			"wide"		"f58"
-			"tall"		"24"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		"Random ► "
-			"font"		"Size 16"
-			"textAlignment"		"east"
-			"fgcolor"		"White"
-			"bgcolor_override"		"BlackLight"
-
-			"pin_to_sibling"		"ImageRandom"
-		}
-
-		"Settings"
-		{
-			"ControlName"		"URLLabel"
-			"fieldname"		"Settings"
-			"ypos"		"2"
-			"zpos"		"2"
-			"wide"		"25"
-			"tall"		"25"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		"}"
-			"font"		"Symbols 26"
-			"textAlignment"		"center"
-			"fgcolor_override"		"White"
-			"urlText"		"https://comfig.app/quickplay/?autostart=2"
-
-			"paintborder"	"1"
-			"border"		"WhiteHighlightBorder"
-
-			"pin_to_sibling"		"Random"
-			"pin_to_sibling_corner"	"2"
-		}
-
-		"Feedback"
-		{
-			"ControlName"	"CAutoFittingLabel"
-			"fieldName"		"Feedback"
-			"xpos"		"4"
-			"ypos"		"2"
-			"wide"		"f39"
-			"tall"		"30"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"labelText"		"Comfig Quickplay is made by mcoms. Provide feedback by following the instructions on Quickplay.tf"
-			"font"		"Size 10"
-			"wrap"		"1"
-
-			"pin_to_sibling"		"Settings"
-			"pin_to_sibling_corner"	"1"
-
-			"colors"
-			{
-				"1"		"White"
-				"2"		"0 150 136 255"
-			}
-		}
-
 		"container"
 		{"visible"	"0"}
 		"BottomStats"
 		{"visible"	"0"}
+	}
+
+	"Random"
+	{
+		"ControlName"		"URLLabel"
+		"fieldname"		"Random"
+		"xpos"		"-25"
+		"ypos"		"s-1-10"
+		"zpos"		"11003"
+		"wide"		"48"
+		"tall"		"24"
+		"visible"		"1"
+		"labelText"		""
+		"urlText"		"https://comfig.app/quickplay/?autostart=1"
+
+		"paintborder"	"1"
+		"border"		"WhiteHighlightBorder"
+
+		"pin_to_sibling"		"QuickPlayPanel"
+		"pin_corner_to_sibling"	"3"
+		"pin_to_sibling_corner"	"3"
+	}
+
+	"LabelRandom"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"LabelRandom"
+		"zpos"		"11002"
+		"wide"		"48"
+		"tall"		"8"
+		"visible"		"1"
+		"labelText"		"Random"
+		"font"		"Size 10"
+		"textAlignment"		"center"
+		"fgcolor"		"White"
+		"bgcolor_override"		"TransparentBlack"
+
+		"pin_to_sibling"		"Random"
+		"pin_corner_to_sibling"	"2"
+		"pin_to_sibling_corner"	"2"
+	}
+
+	"RandomImagePanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"RandomImagePanel"
+		"zpos"		"11001"
+		"wide"		"48"
+		"tall"		"24"
+		"visible"	"1"
+
+		"pin_to_sibling"		"Random"
+
+		"Image"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"Image"
+			"wide"		"96"
+			"tall"		"27"
+			"visible"	"1"
+			"image"		"main_menu/main_menu_button_casual"
+			"scaleimage"		"1"
+		}
+	}
+
+	"Arena"
+	{
+		"ControlName"		"URLLabel"
+		"fieldname"		"Arena"
+		"xpos"		"1"
+		"zpos"		"11003"
+		"wide"		"48"
+		"tall"		"24"
+		"visible"		"1"
+		"labelText"		""
+		"urlText"		"https://comfig.app/quickplay/?autostart=1&gm=arena"
+
+		"paintborder"	"1"
+		"border"		"WhiteHighlightBorder"
+
+		"pin_to_sibling"		"Random"
+		"pin_corner_to_sibling"	"1"
+	}
+
+	"LabelArena"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"LabelArena"
+		"zpos"		"11002"
+		"wide"		"48"
+		"tall"		"8"
+		"visible"		"1"
+		"labelText"		"Arena"
+		"font"		"Size 10"
+		"textAlignment"		"center"
+		"fgcolor"		"White"
+		"bgcolor_override"		"TransparentBlack"
+
+		"pin_to_sibling"		"Arena"
+		"pin_corner_to_sibling"	"2"
+		"pin_to_sibling_corner"	"2"
+	}
+
+	"ArenaImagePanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"ArenaImagePanel"
+		"zpos"		"11001"
+		"wide"		"48"
+		"tall"		"24"
+		"visible"	"1"
+
+		"pin_to_sibling"		"Arena"
+
+		"Image"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"Image"
+			"wide"		"o4"
+			"tall"		"24"
+			"visible"	"1"
+			"image"		"casual/gametype_featured_campaign3"
+			"scaleimage"		"1"
+		}
+	}
+
+	"Misc"
+	{
+		"ControlName"		"URLLabel"
+		"fieldname"		"Misc"
+		"xpos"		"1"
+		"zpos"		"11003"
+		"wide"		"48"
+		"tall"		"24"
+		"visible"		"1"
+		"labelText"		""
+		"urlText"		"https://comfig.app/quickplay/?autostart=1&gm=alternative"
+
+		"paintborder"	"1"
+		"border"		"WhiteHighlightBorder"
+
+		"pin_to_sibling"		"Arena"
+		"pin_corner_to_sibling"	"1"
+	}
+
+	"LabelMisc"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"LabelMisc"
+		"zpos"		"11002"
+		"wide"		"48"
+		"tall"		"8"
+		"visible"		"1"
+		"labelText"		"Misc"
+		"font"		"Size 10"
+		"textAlignment"		"center"
+		"fgcolor"		"White"
+		"bgcolor_override"		"TransparentBlack"
+
+		"pin_to_sibling"		"Misc"
+		"pin_corner_to_sibling"	"2"
+		"pin_to_sibling_corner"	"2"
+	}
+
+	"MiscImagePanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MiscImagePanel"
+		"zpos"		"11001"
+		"wide"		"48"
+		"tall"		"24"
+		"visible"	"1"
+
+		"pin_to_sibling"		"Misc"
+
+		"Image"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"Image"
+			"wide"		"o4"
+			"tall"		"24"
+			"visible"	"1"
+			"image"		"casual/gametype_arena"
+			"scaleimage"		"1"
+		}
+	}
+
+	"Settings"
+	{
+		"ControlName"		"URLLabel"
+		"fieldname"		"Settings"
+		"xpos"		"1"
+		"zpos"		"11003"
+		"wide"		"24"
+		"tall"		"24"
+		"visible"		"1"
+		"labelText"		"}"
+		"font"		"Symbols 26"
+		"textAlignment"		"center"
+		"fgcolor_override"		"White"
+		"urlText"		"https://comfig.app/quickplay/?autostart=2"
+
+		"pin_to_sibling"		"Misc"
+		"pin_corner_to_sibling"	"1"
+	}
+
+	"Feedback"
+	{
+		"ControlName"	"CAutoFittingLabel"
+		"fieldName"		"Feedback"
+		"zpos"		"11001"
+		"wide"		"146"
+		"tall"		"10"
+		"visible"		"1"
+		"labelText"		"Comfig Quickplay made by mcoms"
+		"font"		"Size 10"
+		"centerwrap"	"1"
+		"alpha"		"100"
+
+		"pin_to_sibling"		"Misc"
+		"pin_to_sibling_corner"	"2"
+
+		"colors"
+		{
+			"1"		"White"
+			"2"		"0 150 136 255"
+		}
 	}
 
 	//INGAME BUTTONS
