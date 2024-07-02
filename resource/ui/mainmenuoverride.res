@@ -4759,7 +4759,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"		"ResolutionSelector"
-		"zpos"		"11000"
+		"zpos"		"12000"
 		"wide"		"f0"
 		"tall"		"f0"
 		"enabled"	"1"
