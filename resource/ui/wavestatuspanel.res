@@ -85,7 +85,7 @@
 		"fieldName"		"ProgressBarBG"
 		"xpos"		"150"
 		"ypos"		"5"
-		"wide"		"200"
+		"wide"		"300"
 		"tall"		"12"
 		"visible"		"1"
 		"enabled"		"1"
