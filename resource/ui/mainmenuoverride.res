@@ -602,7 +602,7 @@
 
 	"HUDRepository"
 	{
-		"ControlName"		"URLLabel"
+		"ControlName"		"CExButton"
 		"fieldname"		"HUDRepository"
 		"xpos"		"150"
 		"ypos"		"r20"
@@ -615,9 +615,14 @@
 		"labelText"		"2"
 		"font"		"Symbols 22"
 		"textAlignment"		"center"
-		"urlText"		"https://github.com/PapaPeach/xhud"
+		"Command"		"url https://github.com/PapaPeach/xhud"
 
-		"fgcolor_override"		"White"
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"		"0"
+		"defaultFgColor_override"		"White"
+		"armedFgColor_override"		"WhiteGray"
 	}
 
 	"Streams"
@@ -2956,6 +2961,8 @@
 				"sound_released"		"UI/buttonclickrelease.wav"
 
 				"paintbackground"		"0"
+				"defaultFgColor_override"		"White"
+				"armedFgColor_override"		"MainTheme"
 				"border_default"		"WhiteHighlightBorder"
 				"border_armed"		"FriendHighlightBorder"
 			}
@@ -5204,7 +5211,7 @@
 
 		"DIYGuide"
 		{
-			"ControlName"		"URLLabel"
+			"ControlName"		"CExButton"
 			"fieldname"		"DIYGuide"
 			"ypos"		"4"
 			"wide"		"288"
@@ -5213,8 +5220,17 @@
 			"font"		"Size 16"
 			"textAlignment"		"center"
 			"labelText"		"Custom Resolution Guide"
-			"urlText"		"https://github.com/PapaPeach/xhud/wiki/Making-a-Custom-Resolution"
-			"border"		"WhiteHighlightBorder"
+			"Command"		"url https://github.com/PapaPeach/xhud/wiki/Making-a-Custom-Resolution"
+			"actionsignallevel"		"2"
+
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"MainTheme"
+			"border_default"		"WhiteHighlightBorder"
+			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"DIYResolution"
 			"pin_corner_to_sibling"	"4"
