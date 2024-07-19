@@ -3,7 +3,7 @@ event CollectionCrafting_ItemRecieved		//Fix trade-up background (wiethoofd)
 	Animate TradeUpContainer	wide	0	Accel 0.0 0.001
 }
 
-event SurveyShowSequence
+event SurveyShowSequence		//Yeet this
 {
 	RunEventChild	Survey	SurveyDelete	0.001
 }
@@ -56,7 +56,7 @@ event UberTimerHide
 	Animate UberTimer	wide	0	Linear	0.0 0.001
 }
 
-//==============================================================================//End animation states
+//==============================================================================
 
 event LevelInit{}		//Eventually useful?
 

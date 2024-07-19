@@ -1487,7 +1487,7 @@
 			"visible"		"1"
 			"labeltext"		""
 			"actionsignallevel"	"2"
-			"Command"		"engine cl_mainmenu_safemode 0;mat_queue_mode -1"
+			"Command"		"engine cl_mainmenu_safemode 0;gameui_allowescape;mat_queue_mode -1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
@@ -1522,7 +1522,7 @@
 			"font"		"Symbols 18"
 			"textAlignment"	"center"
 			"actionsignallevel"	"2"
-			"Command"		"engine cl_mainmenu_safemode 0;mat_queue_mode -1"
+			"Command"		"engine cl_mainmenu_safemode 0;gameui_allowescape;mat_queue_mode -1"
 			"proportionaltoparent"		"1"
 
 			"sound_depressed"		"UI/buttonclick.wav"
@@ -4759,7 +4759,7 @@
 			"wide"		"284"
 			"tall"		"24"
 			"visible"		"1"
-			"Command"		"engine exec xhud_save;exec xhud_generate;writeover;alias writeover;x_reload;cl_mainmenu_safemode 0;mat_queue_mode -1"
+			"Command"		"engine exec xhud_save;exec xhud_generate;writeover;alias writeover;x_reload;cl_mainmenu_safemode 0;gameui_allowescape;mat_queue_mode -1"
 			"actionsignallevel"		"2"
 
 			"sound_depressed"		"UI/buttonclick.wav"

@@ -828,7 +828,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"tfd" // tfd.ttf
+				"name"	"tfd"	// tfd.ttf
 				"tall"	"28"
 				"weight"	"0"
 				"additive"	"0"
@@ -840,7 +840,7 @@ Scheme
 		{
 			"1"
 			 {
-				"name"	"Team Fortress" // tf.ttf
+				"name"	"Team Fortress"	// tf.ttf
 				"tall"	"28"
 				"weight"	"0"
 				"additive"	"1"
@@ -899,7 +899,7 @@ Scheme
 				"name"	"Renogare Soft XHud"
 				"tall"	"28"
 				"antialias"	"1"
-				"custom"	"1" 	[$OSX]
+				"custom"	"1"		[$OSX]
 				"weight"	"500"
 			}
 		}
@@ -1356,7 +1356,7 @@ Scheme
 				"name"	"Renogare Soft XHud"
 				"tall"	"20"
 				"antialias"	"1"
-				"custom"	"1" 	[$OSX]
+				"custom"	"1"		[$OSX]
 				"weight"	"500"
 			}
 		}
@@ -1682,25 +1682,25 @@ Scheme
 		}
 		"20"
 		{
-			"font" "resource/scheme/fonts/hypnotize icons x.ttf"
-			"name" "Hypnotize Icons X3"
+			"font"	"resource/scheme/fonts/hypnotize icons x.ttf"
+			"name"	"Hypnotize Icons X3"
 		}
 
 		"21"
 		{
-			"font" "resource/scheme/fonts/TF2 Class Icons.ttf"
-			"name" "TF2 Class Icons V2"
+			"font"	"resource/scheme/fonts/TF2 Class Icons.ttf"
+			"name"	"TF2 Class Icons V2"
 		}
 
 		"22"
 		{
-			"font" "resource/scheme/fonts/ReadyUp XHud.otf"
-			"name" "ReadyUp XHud"
+			"font"	"resource/scheme/fonts/ReadyUp XHud.otf"
+			"name"	"ReadyUp XHud"
 		}
 		"23"
 		{
-			"font" "resource/scheme/fonts/TF2Crosshairs.ttf"
-			"name" "TF2Crosshairs"
+			"font"	"resource/scheme/fonts/TF2Crosshairs.ttf"
+			"name"	"TF2Crosshairs"
 		}
 	}
 }

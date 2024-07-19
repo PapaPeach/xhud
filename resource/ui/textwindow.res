@@ -69,7 +69,6 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"default"		"1"		//testing fix
 		"labelText"		"#TF_Continue"
 		"textAlignment"		"center"
 		"command"		"okay"
@@ -88,6 +87,7 @@
 		"labelText"		"&e"
 		"command"		"okay"
 		"xpos"		"9999"
+		"default"		"1"		//testing fix
 	}
 
 	"MenuBG"

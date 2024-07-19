@@ -10,14 +10,14 @@
 	"Inventory"
 	{
 		"label"			"Inventory"
-		"command"		"engine open_charinfo_direct;inv_opened"
+		"command"		"engine open_charinfo_direct"
 		"OnlyInGame"	"1"
 	}
 
 	"InventoryBP"
 	{
 		"label"			"Inventory"
-		"command"		"engine open_charinfo_backpack;inv_opened"
+		"command"		"engine open_charinfo_backpack"
 		"OnlyAtMenu"	"1"
 	}
 
@@ -117,7 +117,7 @@
 	"XMenuButton"
 	{
 		"label"			"Á"
-		"command"		"engine cl_mainmenu_safemode 1;mat_queue_mode 0"
+		"command"		"engine cl_mainmenu_safemode 1;gameui_preventescape;mat_queue_mode 0"
 		"tooltip"		"Customizations"
 	}
 
