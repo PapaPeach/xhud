@@ -52,6 +52,7 @@
 		"enabled"		"1"
 
 		"allow_rot"		"1"
+		"render_texture"	"0"
 		"disable_speak_event"	"1"
 
 		"pin_to_sibling"		"ModelPin"
