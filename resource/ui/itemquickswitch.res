@@ -14,20 +14,20 @@
 
 		"itempanel_xpos"	"0"
 		"itempanel_ydelta"	"0"
-		
-		"itemskv"	
+
+		"itemskv"
 		{
 			"wide"			"f3"
 			"tall"			"25"
 			"text_forcesize" "2"
 			"paintbackground"	"1"
 			"bgcolor_override"	"Blank"
-			
+
 			"model_xpos"	"24"
 			"model_ypos"	"0"
 			"model_wide"	"42"
 			"model_tall"	"25"
-			
+
 			"text_center"	"1"
 			"text_xpos"		"84"
 			"text_ypos"		"0"
@@ -37,7 +37,7 @@
 			"proportionaltoparent"	"1"
 		}
 	}
-		
+
 	"itemcontainerscroller"
 	{
 		"ControlName"	"EditablePanel"
@@ -66,12 +66,12 @@
 			{"FieldName"	"DownButton"	"visible"	"0"}
 		}
 	}
-		
+
 	"itemcontainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"itemcontainer"
-		
+
 		"CurrentlyEquippedBackground"
 		{
 			"ControlName"	"CExLabel"
@@ -87,7 +87,7 @@
 			"proportionaltoparent"	"1"
 		}
 	}
-	
+
 	"NoItemsLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -102,7 +102,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "WhiteGray"
 	}
-	
+
 	"loadout_preset_panel"
 	{
 		"ControlName"	"CLoadoutPresetPanel"

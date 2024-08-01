@@ -25,7 +25,7 @@
 
 			"matchgroup"	"MatchGroup_Ladder_6v6"
 		}
-	
+
 		"RankPanel"
 		{
 			"ControlName"	"CPvPRankPanel"
@@ -132,7 +132,7 @@
 					"proportionaltoparent"	"1"
 					"visible"		"1"
 					"paintbackground"	"0"
-					"border_default"		"SortCategoryBorder"	
+					"border_default"		"SortCategoryBorder"
 					"labeltext"		"#TF_Competitive_Result"
 					"font"		"Size 12"
 					"fgcolor_override"	"White"
@@ -160,7 +160,7 @@
 					"tall"		"f0"
 					"proportionaltoparent"	"1"
 					"visible"		"1"
-					"paintbackground"	"0"	
+					"paintbackground"	"0"
 					"border_default"		"SortCategoryBorder"
 					"labeltext"		"#TF_Competitive_Date"
 					"font"		"Size 12"
@@ -173,7 +173,7 @@
 					"selectedFgColor_override" "MainTheme"
 
 					"command"	"sort1"
-					"actionsignallevel"	"4"	
+					"actionsignallevel"	"4"
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
@@ -244,7 +244,7 @@
 					"ypos"		"0"
 					"tall"		"f0"
 					"wide"		"5"
-					"zpos"		"1000"
+					"zpos"		"999"
 					"nobuttons"		"1"
 					"proportionaltoparent"	"1"
 

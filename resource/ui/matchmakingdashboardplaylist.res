@@ -5,33 +5,23 @@
 	"ExpandableList"
 	{
 		"fieldName"		"ExpandableList"
-		"xpos"			"r0"
-		"ypos"			"r59"
-		"zpos"			"1001"
-		"wide"			"f0"
-		"tall"			"f0"
+		"xpos"		"r0"
+		"ypos"		"r59"
+		"zpos"		"9999"
+		"wide"		"f0"
+		"tall"		"f0"
 		"visible"		"1"
 	}
 
 	"playlist"
 	{
 		"fieldName"		"playlist"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"100"
-		"wide"			"f0"
-		"tall"			"f0"
+		"zpos"		"9999"
+		"wide"		"f0"
+		"tall"		"f0"
 		"visible"		"1"
 	}
 
 	"CloseButton"
-	{
-		"fieldName"		"CloseButton"
-		"wide"		"0"
-	}
-	"ReturnButton"
-	{
-		"fieldName"		"ReturnButton"
-		"wide"		"0"
-	}
+	{"visible"	"0"}
 }

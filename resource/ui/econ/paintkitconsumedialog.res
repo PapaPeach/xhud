@@ -8,7 +8,7 @@
 		"wide"		"400"
 		"tall"		"400"
 		"visible"	"1"
-		"zpos"		"1000"
+		"zpos"		"999"
 	}
 
 	"Title"

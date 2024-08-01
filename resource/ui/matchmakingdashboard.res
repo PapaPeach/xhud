@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"xpos"		"cs-0.5"
 		"ypos"		"-5"
-		"zpos"		"10001"
+		"zpos"		"969"
 		"wide"		"f0"
 		"tall"		"35"
 		"keyboardinputenabled"		"0"
@@ -44,7 +44,7 @@
 			"fieldName"		"FindAGameCustom"
 			"xpos"		"rs1"
 			"ypos"		"5"
-			"zpos"		"100"
+			"zpos"		"99"
 			"wide"		"80"
 			"tall"		"24"
 			"visible"		"1"
@@ -71,7 +71,7 @@
 			"fieldName"		"ToggleChatButton"
 			"xpos"		"150"
 			"ypos"		"5"
-			"zpos"		"100"
+			"zpos"		"99"
 			"wide"		"25"
 			"tall"		"24"
 			"visible"		"1"
@@ -100,7 +100,7 @@
 			"fieldName"		"PartySlot0"
 			"xpos"		"0"
 			"ypos"		"5"
-			"zpos"		"100"
+			"zpos"		"99"
 			"wide"		"25"
 			"tall"		"24"
 			"visible"		"1"
@@ -115,7 +115,7 @@
 		{
 			"ControlName"		"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"zpos"		"100"
+			"zpos"		"99"
 			"wide"		"25"
 			"tall"		"24"
 			"visible"		"1"
@@ -134,7 +134,7 @@
 		{
 			"ControlName"		"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"zpos"		"100"
+			"zpos"		"99"
 			"wide"		"25"
 			"tall"		"24"
 			"visible"		"1"
@@ -153,7 +153,7 @@
 		{
 			"ControlName"		"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"zpos"		"100"
+			"zpos"		"99"
 			"wide"		"25"
 			"tall"		"24"
 			"visible"		"1"
@@ -172,7 +172,7 @@
 		{
 			"ControlName"		"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"zpos"		"100"
+			"zpos"		"99"
 			"wide"		"25"
 			"tall"		"24"
 			"visible"		"1"
@@ -191,7 +191,7 @@
 		{
 			"ControlName"		"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"zpos"		"100"
+			"zpos"		"99"
 			"wide"		"25"
 			"tall"		"24"
 			"visible"		"1"
@@ -222,8 +222,6 @@
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"OuterShadow"
-				"xpos"		"0"
-				"ypos"		"0"
 				"zpos"		"-1"
 				"wide"		"f0"
 				"tall"		"f0"
@@ -292,7 +290,7 @@
 				"xpos"		"33"
 				"ypos"		"1"
 				"wide"		"f55"
-				"zpos"		"100"
+				"zpos"		"99"
 				"tall"		"f0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -307,15 +305,15 @@
 				{
 					"0"
 					{
-						"font"		"Size 11"
+						"font"	"Size 11"
 					}
 					"1"
 					{
-						"font"		"Size 10"
+						"font"	"Size 10"
 					}
 					"2"
 					{
-						"font"		"Size 8"
+						"font"	"Size 8"
 					}
 				}
 			}
@@ -351,8 +349,6 @@
 				{
 					"ControlName"		"ImagePanel"
 					"fieldName"		"SubImage"
-					"xpos"		"0"
-					"ypos"		"0"
 					"zpos"		"1"
 					"wide"		"14"
 					"tall"		"14"
@@ -394,8 +390,6 @@
 				{
 					"ControlName"		"ImagePanel"
 					"fieldName"		"SubImage"
-					"xpos"		"0"
-					"ypos"		"0"
 					"zpos"		"1"
 					"wide"		"14"
 					"tall"		"14"
@@ -451,7 +445,7 @@
 				"xpos"		"cs-0.5"
 				"ypos"		"1"
 				"wide"		"f35"
-				"zpos"		"100"
+				"zpos"		"99"
 				"tall"		"f0"
 				"visible"		"1"
 				"enabled"		"1"
@@ -469,7 +463,7 @@
 				"xpos"		"rs1-10"
 				"ypos"		"rs1-9"
 				"wide"		"40"
-				"zpos"		"100"
+				"zpos"		"99"
 				"tall"		"15"
 
 				if_queued

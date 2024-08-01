@@ -7,7 +7,7 @@
 		"fieldName"		"MVMModeSelect"
 		"xpos"			"rs1"
 		"ypos"			"24"
-		"zpos"			"1002"
+		"zpos"			"9998"
 		"wide"			"p0.4"
 		"tall"			"f83"
 		"visible"		"1"

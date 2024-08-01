@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"Frame"
 		"fieldName"		"item_pickup"
-		"zpos"		"10000"
+		"zpos"		"9999"
 		"wide"		"f0"
 		"tall"		"480"
 		"visible"		"1"
@@ -12,41 +12,40 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"BlackLight"
-		"infocus_bgcolor_override" "BlackLight"
-		"outoffocus_bgcolor_override" "BlackLight"
-		
+		"infocus_bgcolor_override"	"BlackLight"
+		"outoffocus_bgcolor_override"	"BlackLight"
+
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"		"500"
 		"modelpanels_height"		"260"
 		"modelpanels_ypos"		"110"
-		
-		
-		"modelpanelskv"	
+
+
+		"modelpanelskv"
 		{
-			"PaintBackgroundType"	"2"
 			"paintborder"		"1"
 			"bgcolor_override"		"Blank"
-			
+
 			"model_xpos"	"0"
 			"model_center_y"	"1"
 			"model_tall"	"160"
 			"model_wide"	"240"
-			
+
 			"text_forcesize"	"1"
 			"text_xpos"		"250"
 			"text_wide"		"225"
 			"text_center"	"1"
 			"is_mouseover"		"1"
-			"hide_collection_panel" "1"
-			
+			"hide_collection_panel"	"1"
+
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" "0"
-				"inventory_image_type" "1"
+				"use_item_rendertarget"	"0"
+				"inventory_image_type"	"1"
 			}
 		}
 	}
-	
+
 	"classimageoutline"
 	{
 		"ControlName"	"EditablePanel"
@@ -57,9 +56,9 @@
 		"wide"		"36"
 		"tall"		"36"
 		"visible"		"1"
-		"bgcolor_override" "Black"
+		"bgcolor_override"	"Black"
 	}
-	
+
 	"classimage"
 	{
 		"ControlName"	"ImagePanel"
@@ -74,7 +73,7 @@
 		"image"		"achievements/tf_medic_heal_grind"
 		"scaleImage"	"1"
 	}
-	
+
 	"ItemsFoundLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -90,7 +89,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -106,7 +105,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"ItemCountLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -137,7 +136,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"NextButton"
 	{
 		"ControlName"		"CExButton"
@@ -174,7 +173,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
@@ -211,7 +210,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"DiscardButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -230,13 +229,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" "GrayDarkest"
-		"armedBgColor_override" "MainTheme"
-		"depressedBgColor_override" "MainTheme"
-			
-		"image_drawcolor"	"White"		
-		"image_armedcolor"	"White"		
-		
+		"defaultBgColor_override"	"GrayDarkest"
+		"armedBgColor_override"	"MainTheme"
+		"depressedBgColor_override"	"MainTheme"
+
+		"image_drawcolor"	"White"
+		"image_armedcolor"	"White"
+
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -250,10 +249,10 @@
 			"enabled"		"1"
 			"image"		"icon_trash_on"
 			"scaleImage"	"1"
-			"paintbackgroundtype" "0"
+			"paintbackgroundtype"	"0"
 			"proportionaltoparent"	"1"
-		}				
-	}		
+		}
+	}
 	"DiscardButtonTooltip"
 	{
 		"ControlName"	"EditablePanel"
@@ -266,7 +265,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -299,10 +298,10 @@
 		"tall"		"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Red"
+		"fgcolor_override"	"Red"
 		"bgcolor_override"	"GrayDarkest"
 	}
-	
+
 	"ScoreEntry"
 	{
 		"ControlName"		"TextEntry"
@@ -321,7 +320,7 @@
 		"wrap"		"0"
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"TransparentBlack"
-		"selectionColor_override" "MainTheme"
+		"selectionColor_override"	"MainTheme"
 		"labelText"		"Enter Score Here"
 		"textAlignment"		"center"
 	}

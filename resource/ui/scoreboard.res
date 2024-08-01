@@ -11,7 +11,6 @@
 		"tall"		"450"
 		"visible"		"1"
 		"enabled"		"1"
-		"medal_width"		"0"
 		"avatar_width"		"65"
 		"spacer"		"3"
 		"name_width"		"150"
@@ -268,10 +267,6 @@
 		"show_columns"	"0"
 		"proportionaltoparent"		"1"
 
-		"pin_to_sibling"		"BlueBar"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"2"
-
 		if_mvm
 		{
 			"visible"	"0"
@@ -281,6 +276,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
+		"xpos"		"c0"
 		"zpos"		"20"
 		"wide"		"p0.5-5"
 		"tall_minmode"	"0"
@@ -290,10 +286,6 @@
 		"linegap"		"0"
 		"show_columns"	"0"
 		"proportionaltoparent"		"1"
-
-		"pin_to_sibling"		"RedBar"
-		"pin_corner_to_sibling"		"1"
-		"pin_to_sibling_corner"		"3"
 
 		if_mvm
 		{

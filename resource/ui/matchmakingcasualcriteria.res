@@ -157,7 +157,7 @@
 				"ypos"			"0"
 				"tall"			"f0"
 				"wide"			"5"
-				"zpos"			"1000"
+				"zpos"			"999"
 				"nobuttons"		"1"
 				"proportionaltoparent"	"1"
 

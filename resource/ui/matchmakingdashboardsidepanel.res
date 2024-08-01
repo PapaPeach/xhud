@@ -4,9 +4,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"10000"
+		"zpos"			"6969"
 		"wide"			"p0.167"
 		"tall"			"f0"
 		"visible"		"1"
@@ -15,7 +13,6 @@
 		"labelText"		">"
 		"textAlignment"	"east"
 		"font"			"Size 28"
-		"wrap"		"0"
 
 		"paintbackground"	"0"
 		"armedFgColor_override"	"MainTheme"
@@ -29,9 +26,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"10001"
+		"zpos"			"6970"
 		"wide"			"p0.0833"
 		"tall"			"f0"
 		"visible"		"1"
@@ -40,7 +35,6 @@
 		"labelText"		"<"
 		"textAlignment"	"east"
 		"font"			"Size 28"
-		"wrap"		"0"
 
 		"paintbackground"	"0"
 		"armedFgColor_override"	"MainTheme"
@@ -52,9 +46,6 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
 		"wide"			"p2"
 		"tall"			"f0"
 		"visible"		"1"
@@ -64,13 +55,7 @@
 	}
 
 	"Shade"
-	{
-		"fieldName"	"Shade"
-		"xpos"	"9999"
-	}
+	{"visible"	"0"}
 	"InnerGradient"
-	{
-		"fieldName"	"InnerGradient"
-		"xpos"	"9999"
-	}
+	{"visible"	"0"}
 }

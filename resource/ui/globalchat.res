@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"xpos"		"0"
 		"ypos"		"10"
-		"zpos"		"1001"
+		"zpos"		"999"
 		"wide"		"175"
 		"tall"		"200"
 		"proportionaltoparent"		"1"
@@ -48,10 +48,8 @@
 		{
 			"FieldName"		"ScrollBar"
 			"xpos"		"rs1-1"
-			"ypos"		"0"
 			"tall"		"f0"
 			"wide"		"2"
-			"zpos"		"1000"
 			"nobuttons"		"1"
 			"proportionaltoparent"		"1"
 
