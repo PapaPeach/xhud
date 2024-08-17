@@ -1,4 +1,4 @@
-//event LevelInit{}	//USED
+event LevelInit{}
 event OpenWeaponSelectionMenu{}
 event CloseWeaponSelectionMenu{}
 event MenuPulse{}

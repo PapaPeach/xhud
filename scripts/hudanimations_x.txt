@@ -1,11 +1,32 @@
-event CollectionCrafting_ItemRecieved		//Fix trade-up background (wiethoofd)
+event CollectionCrafting_ItemRecieved	//Fix trade-up background (wiethoofd)
 {
 	Animate TradeUpContainer	wide	0	Accel 0.0 0.001
 }
 
-event SurveyShowSequence		//Yeet this
+event SurveyShowSequence	//Yeet this
 {
 	RunEventChild	Survey	SurveyDelete	0.001
+}
+
+//Chat & tests for stuck animations
+event CompetitiveGame_LowerChatWindow
+{
+//	PlaySound 1 "music/trombonetauntv2.mp3"	//the post-casual xp screen thing
+}
+
+event CompetitiveGame_RestoreChatWindow	//post-respawn, regardless of gamemode?
+{
+//	PlaySound 0.1 "weapons/det_pack_timer.wav"
+
+	//Fixes for stuck animations
+	Animate Hitmarker	Alpha	0	Linear 0.1 0.001
+	RunEvent HudLowAmmoPulseStop 0.1
+	RunEvent HudSpyDisguiseFadeOut 0.1
+}
+
+event HudTournament_MoveChatWindow
+{
+//	PlaySound 1 "music/mvm_class_select.wav"
 }
 
 //==============================================================================
@@ -15,8 +36,6 @@ event DamagedPlayer
 {
 	StopEvent AnimateHitmarker 0.0
 	RunEvent AnimateHitmarker 0.001
-	StopEvent HudSpyDisguiseFadeOut 0.0
-	RunEvent HudSpyDisguiseFadeOut 0.001
 }
 
 event AnimateHitmarker
@@ -29,8 +48,8 @@ event AnimateHitmarker
 
 event MenuClose
 {
-	Animate HudMenu	Alpha 	"0"	Linear 0.0 0.2
-	Animate HudMenu	SelectionAlpha 	"0"	Linear 0.0 0.2
+	Animate HudMenu	Alpha	"0"	Linear 0.0 0.2
+	Animate HudMenu	SelectionAlpha	"0"	Linear 0.0 0.2
 	Animate HudMenu	FgColor	"Blank"	Linear 0.0 0.2
 	Animate HudMenu	MenuColor	"Blank"	Linear 0.0 0.2
 	Animate HudMenu	ItemColor	"Blank"	Linear 0.0 0.2
@@ -55,10 +74,6 @@ event UberTimerHide
 	Animate UberTimerBG tall	0	Linear 0.0 0.001
 	Animate UberTimer	wide	0	Linear	0.0 0.001
 }
-
-//==============================================================================
-
-event LevelInit{}		//Eventually useful?
 
 //==============================================================================
 
@@ -171,6 +186,7 @@ event ActiveTimerHighlight
 {
 	Animate TimePanelValue	FgColor	"White"	Linear 0.1 0.001
 }
+
 event ActiveTimerDim
 {
 	Animate TimePanelValue	FgColor	"WhiteGray"	Linear	0.0 0.001
@@ -181,16 +197,18 @@ event ActiveTimerDim
 event HudTournamentSetupPanelOpen
 {
 	Animate HudTournamentSetup	ypos	61	Spline 0.0 0.2
+
+	//RunEventChild MainMenuOverride TournamentInterupt 0.0
 }
 
-event HudTournamentSetupPanelClose
+event HudTournamentSetupPanelClose	//also runs on map initialization
 {
 	Animate HudTournamentSetup	ypos	-70	Spline 0.0 0.2
 }
 
 //==============================================================================
 
-// Show player model on spy disguise
+//Show player model on spy disguise
 event HudSpyDisguiseFadeIn
 {
 	Animate HudPlayerClass	xpos	0	Linear 0.01 0.001
@@ -212,27 +230,37 @@ event HudSpyDisguiseChanged{}
 
 //==============================================================================
 
-//Chat
-event CompetitiveGame_LowerChatWindow{}
-event CompetitiveGame_RestoreChatWindow{}
-event HudTournament_MoveChatWindow{}
-
-//==============================================================================
-
 //ReadyUp Timers
 event HudTournament_ShowTimerCompetitive
 {
 	SetVisible CountdownLabel 1 0.0
 }
 
-event HudTournament_ShowTimerDefault
+event HudTournament_ShowTimerDefault	//MvM Countdown
 {
-	SetVisible CountdownLabel 1 0.0
+	SetVisible CountdownLabel 1 0.01
+}
+
+event HudReadyPulseEnd
+{
+	Animate	TournamentInstructionsLabel 	FgColor		"White"		Linear 0.0 0.1
+
+	StopEvent HudReadyPulse			0.0
+	StopEvent HudReadyPulseLoop		0.0
+
+	RunEventChild MainMenuOverride MvMFixer 0.0	//Fix empty MvM end screen, needs 3 entries
+	RunEventChild MainMenuOverride MvMFixer 0.0
+	RunEventChild MainMenuOverride MvMFixer 0.0
 }
 
 event HudTournament_HideTimer
 {
 	SetVisible CountdownLabel 0 0.0
+}
+
+event MvMFixer
+{
+	FireCommand 0.0 "engine mvmfix"
 }
 
 //==============================================================================

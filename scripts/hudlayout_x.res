@@ -468,7 +468,7 @@
 	WinPanel
 	{
 		"xpos"		"cs-0.5"
-		"ypos"		"r98"
+		"ypos"		"r100"
 		"zpos"		"4"
 		"wide"		"220"
 		"tall"		"110"
