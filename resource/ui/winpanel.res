@@ -162,11 +162,11 @@
 			"proportionaltoparent"		"1"
 		}
 		"BlueScoreBG"
-		{"fieldName"	"BlueScoreBG"	"visible"	"0"}
+		{"ControlName"	"EditablePanel"	"visible"	"0"}
 		"RedScoreBG"
-		{"fieldName"	"RedScoreBG"	"visible"	"0"}
+		{"ControlName"	"EditablePanel"	"visible"	"0"}
 		"BlueTeamScoreDropshadow"
-		{"fieldName"	"BlueTeamScoreDropshadow"	"visible"	"0"}
+		{"ControlName"	"CExLabel"	"visible"	"0"}
 //		"BlueLeaderAvatar"
 //		{
 //			"ControlName"		"CAvatarImagePanel"
@@ -184,7 +184,7 @@
 //			"enabled"		"0"
 //		}
 		"RedTeamScoreDropshadow"
-		{"fieldName"	"RedTeamScoreDropshadow"	"visible"	"0"}
+		{"ControlName"	"CExLabel"	"visible"	"0"}
 //		"RedLeaderAvatar"
 //		{
 //			"ControlName"		"CAvatarImagePanel"
@@ -280,7 +280,6 @@
 		"tall"		"10"
 		"visible"		"1"
 		"enabled"		"1"
-	//	"labelText"		""
 		"textAlignment"		"west"
 		"alpha_minmode"	"0"
 
@@ -296,7 +295,6 @@
 		"tall"		"10"
 		"visible"		"1"
 		"enabled"		"1"
-	//	"labelText"		""
 		"textAlignment"		"west"
 
 		"pin_to_sibling"		"Player1Name"
@@ -313,7 +311,6 @@
 		"tall"		"10"
 		"visible"		"1"
 		"enabled"		"1"
-	//	"labelText"		""
 		"textAlignment"		"east"
 
 		"pin_to_sibling"		"HorizontalLine"
@@ -329,7 +326,6 @@
 		"tall"		"10"
 		"visible"		"1"
 		"enabled"		"1"
-	//	"labelText"		""
 		"textAlignment"		"west"
 		"alpha_minmode"	"0"
 
@@ -345,7 +341,6 @@
 		"tall"		"10"
 		"visible"		"1"
 		"enabled"		"1"
-	//	"labelText"		""
 		"textAlignment"		"west"
 
 		"pin_to_sibling"		"Player2Name"
@@ -361,7 +356,6 @@
 		"tall"		"10"
 		"visible"		"1"
 		"enabled"		"1"
-	//	"labelText"		""
 		"textAlignment"		"east"
 
 		"pin_to_sibling"		"Player1Score"
@@ -377,7 +371,6 @@
 		"tall"		"10"
 		"visible"		"1"
 		"enabled"		"1"
-	//	"labelText"		""
 		"textAlignment"		"west"
 		"alpha_minmode"	"0"
 
@@ -393,7 +386,6 @@
 		"tall"		"10"
 		"visible"		"1"
 		"enabled"		"1"
-	//	"labelText"		""
 		"textAlignment"		"west"
 
 		"pin_to_sibling"		"Player3Name"
@@ -409,7 +401,6 @@
 		"tall"		"10"
 		"visible"		"1"
 		"enabled"		"1"
-	//	"labelText"		""
 		"textAlignment"		"east"
 
 		"pin_to_sibling"		"Player2Score"
@@ -476,7 +467,6 @@
 		"tall"		"10"
 		"visible"		"1"
 		"enabled"		"1"
-	//	"labelText"		""
 		"textAlignment"		"west"
 		"alpha_minmode"	"0"
 
@@ -492,7 +482,6 @@
 		"tall"		"10"
 		"visible"		"1"
 		"enabled"		"1"
-	//	"labelText"		""
 		"textAlignment"		"west"
 
 		"pin_to_sibling"		"KillStreakPlayer1Name"
@@ -509,37 +498,12 @@
 		"tall"		"10"
 		"visible"		"1"
 		"enabled"		"1"
-	//	"labelText"		""
 		"textAlignment"		"east"
 
 		"pin_to_sibling"		"HorizontalLine2"
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"3"
 	}
-//	"Player1Avatar"
-//	{
-//		"ControlName"		"CAvatarImagePanel"
-//		"fieldName"		"Player1Avatar"
-//		"xpos"		"9999"
-//		"wide"		"0"
-//		"enabled"		"0"
-//	}
-//	"Player2Avatar"
-//	{
-//		"ControlName"		"CAvatarImagePanel"
-//		"fieldName"		"Player2Avatar"
-//		"xpos"		"9999"
-//		"wide"		"0"
-//		"enabled"		"0"
-//	}
-//	"Player3Avatar"
-//	{
-//		"ControlName"		"CAvatarImagePanel"
-//		"fieldName"		"Player3Avatar"
-//		"xpos"		"9999"
-//		"wide"		"0"
-//		"enabled"		"0"
-//	}
 //	"Player1Badge"
 //	{
 //		"ControlName"	"CTFBadgePanel"
