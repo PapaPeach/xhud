@@ -417,6 +417,7 @@ Scheme
 
 		"Default"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
@@ -450,9 +451,10 @@ Scheme
 			"5"
 			{
 				"name"	"Renogare Soft XHud"
-				"tall"	"24"
+				//"tall"	"24"
+				"tall"	"8"
 				"range"	"0x0000 0x017F"
-				"yres"	"1200 6000"
+				//"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -556,11 +558,11 @@ Scheme
 			"5"
 			{
 				"name"	"Renogare Soft XHud"
-				"tall"	"52"
+				"tall"	"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
-				"yres"	"1200 6000"
+				//"yres"	"1200 6000"
 			}
 		}
 
@@ -614,7 +616,16 @@ Scheme
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
-				"tall"	"24"
+				"tall"		"24"
+				"weight"	"500"
+				"yres"		"1 1199"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"Renogare Soft XHud"
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
@@ -1481,39 +1492,39 @@ Scheme
 			}
 		}
 
-		"AdFont_ItemName"
-		{
-			"1"
-			{
-				"name"	"Renogare Soft XHud"
-				"tall"	"10"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"AdFont_AdText"
-		{
-			"1"
-			{
-				"name"	"Renogare Soft XHud"
-				"tall"	"8"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias"	"1"
-			}
-		}
-		"AdFont_PurchaseButton"
-		{
-			"1"
-			{
-				"name"	"Renogare Soft XHud"
-				"tall"	"8"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
+//		"AdFont_ItemName"
+//		{
+//			"1"
+//			{
+//				"name"	"Renogare Soft XHud"
+//				"tall"	"10"
+//				"weight"	"400"
+//				"additive"	"0"
+//				"antialias"	"1"
+//			}
+//		}
+//
+//		"AdFont_AdText"
+//		{
+//			"1"
+//			{
+//				"name"	"Renogare Soft XHud"
+//				"tall"	"8"
+//				"weight"	"400"
+//				"additive"	"0"
+//				"antialias"	"1"
+//			}
+//		}
+//		"AdFont_PurchaseButton"
+//		{
+//			"1"
+//			{
+//				"name"	"Renogare Soft XHud"
+//				"tall"	"8"
+//				"weight"	"0"
+//				"antialias"	"1"
+//			}
+//		}
 
 		"TradeUp_Text"
 		{

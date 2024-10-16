@@ -203,6 +203,7 @@ Scheme
 
 		"Default"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"		"Renogare Soft XHud"
@@ -233,10 +234,11 @@ Scheme
 			"4"
 			{
 				"name"		"Renogare Soft XHud"
-				"tall"		"28"
+				//"tall"		"28"
+				"tall"		"7"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"2000 6000"
+				//"yres"	"2000 6000"
 				"antialias"	"1"
 			}
 		}
@@ -333,6 +335,7 @@ Scheme
 
 		"ChatFont"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"		"Renogare Soft XHud"
@@ -363,9 +366,10 @@ Scheme
 			"4"
 			{
 				"name"		"Renogare Soft XHud"
-				"tall"		"31"
+				//"tall"		"31"
+				"tall"		"10"
 				"weight"	"0"
-				"yres"		"2000 6000"
+				//"yres"		"2000 6000"
 				"dropshadow"	"1"
 				"antialias"		"1"
 			}

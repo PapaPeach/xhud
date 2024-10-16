@@ -7,7 +7,7 @@
 		"is_mouseover"		"1"
 		"text_xpos_collection"	"0"
 		"text_ypos"		"15"
-		"text_forcesize" "0"
+		"text_forcesize"	"0"
 		"text_xpos"		"15"
 		"text_wide"		"270"
 	}
@@ -74,16 +74,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"namelabel"
-			"font"		"Size 12"
 			"zpos"		"2"
 			"wide"		"140"
 			"tall"		"30"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%itemname%"
-			"textAlignment"	"north"
 			"centerwrap"	"1"
-			"textinsety"	"-4"
+			"textinsety"	"-1"
 			"use_proportional_insets"	"1"
 		}
 		"attriblabel"

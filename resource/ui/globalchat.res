@@ -16,7 +16,7 @@
 		"border"		"NoBorder"
 
 		"log_font_small"		"Size 14"
-		"log_font_medium"		"Size 24"
+		"log_font_medium"		"Size 10"	//Menu pary chat
 		"log_font_large"		"Size 24"
 
 		"chat_color_default"		"White"

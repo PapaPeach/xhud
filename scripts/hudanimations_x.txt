@@ -8,25 +8,19 @@ event SurveyShowSequence	//Yeet this
 	RunEventChild	Survey	SurveyDelete	0.001
 }
 
-//Chat & tests for stuck animations
-event CompetitiveGame_LowerChatWindow
+event CompetitiveGame_RestoreChatWindow	//Fix stuck animations
 {
-//	PlaySound 1 "music/trombonetauntv2.mp3"	//the post-casual xp screen thing
-}
-
-event CompetitiveGame_RestoreChatWindow	//post-respawn, regardless of gamemode?
-{
-//	PlaySound 0.1 "weapons/det_pack_timer.wav"
-
-	//Fixes for stuck animations
 	Animate Hitmarker	Alpha	0	Linear 0.1 0.001
 	RunEvent HudLowAmmoPulseStop 0.1
 	RunEvent HudSpyDisguiseFadeOut 0.1
+
+	//RunEventChild MainMenuOverride CompReset 0.1
 }
 
+event CompetitiveGame_LowerChatWindow{}	//plays at post-casual xp screen
 event HudTournament_MoveChatWindow
 {
-//	PlaySound 1 "music/mvm_class_select.wav"
+	PlaySound 1 "weapons/det_pack_timer.wav"
 }
 
 //==============================================================================
@@ -196,14 +190,30 @@ event ActiveTimerDim
 
 event HudTournamentSetupPanelOpen
 {
+	Animate HudTournamentSetup	xpos	cs-0.5	Linear 0.0 0.001	//Fix moving to the side randomly
 	Animate HudTournamentSetup	ypos	61	Spline 0.0 0.2
 
-	//RunEventChild MainMenuOverride TournamentInterupt 0.0
+	RunEventChild MainMenuOverride CompChecked 0.0
 }
 
-event HudTournamentSetupPanelClose	//also runs on map initialization
+event HudTournamentSetupPanelClose	//Also runs on map initialization
 {
 	Animate HudTournamentSetup	ypos	-70	Spline 0.0 0.2
+
+	RunEventChild MainMenuOverride CompCheck 0.0
+}
+
+event CompCheck
+{
+	FireCommand 0.0 "engine comp_opencheck"
+}
+event CompChecked
+{
+	FireCommand 0.0 "engine comp_opened"
+}
+event CompReset
+{
+	FireCommand 1.0 "engine comp_reset"
 }
 
 //==============================================================================
@@ -234,11 +244,12 @@ event HudSpyDisguiseChanged{}
 event HudTournament_ShowTimerCompetitive
 {
 	SetVisible CountdownLabel 1 0.0
+	PlaySound 1 "music/trombonetauntv2.mp3"	//triggers in casual
 }
 
 event HudTournament_ShowTimerDefault	//MvM Countdown
 {
-	SetVisible CountdownLabel 1 0.01
+	SetVisible CountdownLabel 1 0.1
 }
 
 event HudReadyPulseEnd

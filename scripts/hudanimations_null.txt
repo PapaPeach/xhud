@@ -20,7 +20,7 @@ event FlagOutline{}
 //event HudSpyDisguiseChanged{}
 event HudSpyDisguiseHide{}
 event OvertimeShow{}
-//event HudSnapShotReminderIn{}	//USED
+event HudSnapShotReminderIn{}
 event HudReplayReminderIn{}
 event HudReplayReminderIn2{}
 event HudReplayTipIn{}
