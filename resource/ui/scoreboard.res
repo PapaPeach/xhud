@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"medal_width"		"28"
-		"medal_column_width"	"10"
+		//"medal_column_width"	"15"
 		"avatar_width"		"28"
 		"spacer"			"3"
 		"name_width"		"150"

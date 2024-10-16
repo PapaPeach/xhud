@@ -66,7 +66,7 @@
 				"angles_x"		"10"
 				"angles_y"		"130"
 				"angles_z"		"0"
-				"spotlight" "1"
+				"spotlight"	"1"
 			}
 		}
 
@@ -80,6 +80,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%itemname%"
+			"textAlignment"	"north"
 			"centerwrap"	"1"
 			"textinsety"	"-1"
 			"use_proportional_insets"	"1"

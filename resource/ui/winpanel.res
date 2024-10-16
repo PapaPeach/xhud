@@ -167,40 +167,8 @@
 		{"ControlName"	"EditablePanel"	"visible"	"0"}
 		"BlueTeamScoreDropshadow"
 		{"ControlName"	"CExLabel"	"visible"	"0"}
-//		"BlueLeaderAvatar"
-//		{
-//			"ControlName"		"CAvatarImagePanel"
-//			"fieldName"		"BlueLeaderAvatar"
-//			"xpos"		"9999"
-//			"wide"		"0"
-//			"enabled"		"0"
-//		}
-//		"BlueLeaderAvatarBG"
-//		{
-//			"ControlName"	"EditablePanel"
-//			"fieldName"		"BlueLeaderAvatarBG"
-//			"xpos"		"9999"
-//			"wide"		"0"
-//			"enabled"		"0"
-//		}
 		"RedTeamScoreDropshadow"
 		{"ControlName"	"CExLabel"	"visible"	"0"}
-//		"RedLeaderAvatar"
-//		{
-//			"ControlName"		"CAvatarImagePanel"
-//			"fieldName"		"RedLeaderAvatar"
-//			"xpos"		"9999"
-//			"wide"		"0"
-//			"enabled"		"0"
-//		}
-//		"RedLeaderAvatarBG"
-//		{
-//			"ControlName"	"EditablePanel"
-//			"fieldName"		"RedLeaderAvatarBG"
-//			"xpos"		"9999"
-//			"wide"		"0"
-//			"enabled"		"0"
-//		}
 	}
 	"DetailsLabel"
 	{
@@ -504,36 +472,4 @@
 		"pin_corner_to_sibling"		"1"
 		"pin_to_sibling_corner"		"3"
 	}
-//	"Player1Badge"
-//	{
-//		"ControlName"	"CTFBadgePanel"
-//		"fieldName"		"Player1Badge"
-//		"xpos"		"9999"
-//		"wide"		"0"
-//		"enabled"		"0"
-//	}
-//	"Player2Badge"
-//	{
-//		"ControlName"	"CTFBadgePanel"
-//		"fieldName"		"Player2Badge"
-//		"xpos"		"9999"
-//		"wide"		"0"
-//		"enabled"		"0"
-//	}
-//	"Player3Badge"
-//	{
-//		"ControlName"	"CTFBadgePanel"
-//		"fieldName"		"Player3Badge"
-//		"xpos"		"9999"
-//		"wide"		"0"
-//		"enabled"		"0"
-//	}
-//	"KillStreakPlayer1Badge"
-//	{
-//		"ControlName"	"CTFBadgePanel"
-//		"fieldName"		"KillStreakPlayer1Badge"
-//		"xpos"		"9999"
-//		"wide"		"0"
-//		"enabled"		"0"
-//	}
 }

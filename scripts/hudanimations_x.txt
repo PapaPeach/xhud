@@ -13,14 +13,12 @@ event CompetitiveGame_RestoreChatWindow	//Fix stuck animations
 	Animate Hitmarker	Alpha	0	Linear 0.1 0.001
 	RunEvent HudLowAmmoPulseStop 0.1
 	RunEvent HudSpyDisguiseFadeOut 0.1
-
-	//RunEventChild MainMenuOverride CompReset 0.1
 }
 
 event CompetitiveGame_LowerChatWindow{}	//plays at post-casual xp screen
 event HudTournament_MoveChatWindow
 {
-	PlaySound 1 "weapons/det_pack_timer.wav"
+	//PlaySound 1 "weapons/det_pack_timer.wav"
 }
 
 //==============================================================================
@@ -192,15 +190,11 @@ event HudTournamentSetupPanelOpen
 {
 	Animate HudTournamentSetup	xpos	cs-0.5	Linear 0.0 0.001	//Fix moving to the side randomly
 	Animate HudTournamentSetup	ypos	61	Spline 0.0 0.2
-
-	RunEventChild MainMenuOverride CompChecked 0.0
 }
 
 event HudTournamentSetupPanelClose	//Also runs on map initialization
 {
 	Animate HudTournamentSetup	ypos	-70	Spline 0.0 0.2
-
-	RunEventChild MainMenuOverride CompCheck 0.0
 }
 
 event CompCheck
@@ -241,10 +235,10 @@ event HudSpyDisguiseChanged{}
 //==============================================================================
 
 //ReadyUp Timers
-event HudTournament_ShowTimerCompetitive
+event HudTournament_ShowTimerCompetitive	//triggers in casual
 {
 	SetVisible CountdownLabel 1 0.0
-	PlaySound 1 "music/trombonetauntv2.mp3"	//triggers in casual
+	//PlaySound 1 "music/trombonetauntv2.mp3"
 }
 
 event HudTournament_ShowTimerDefault	//MvM Countdown

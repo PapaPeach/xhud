@@ -448,19 +448,6 @@ Scheme
 			{
 				"name"		"Lucida Console"
 				"tall"		"10"
-				"yres"		"480 1199"
-			}
-			"2"
-			{
-				"name"		"Lucida Console"
-				"tall"		"14"
-				"yres"		"1200 1999"
-			}
-			"2"
-			{
-				"name"		"Lucida Console"
-				"tall"		"20"
-				"yres"		"2000 6000"
 			}
 		}
 	}
