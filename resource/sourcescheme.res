@@ -210,8 +210,8 @@ Scheme
 
 		ToggleButton.SelectedTextColor	"White"
 
-		Tooltip.TextColor		"0 0 0 196"
-		Tooltip.BgColor			"Main Theme"
+		Tooltip.TextColor		"White"
+		Tooltip.BgColor			"GrayDarkest"
 
 		TreeView.BgColor	"DarkBG"
 
@@ -238,10 +238,10 @@ Scheme
 	{
 		BaseBorder					SubtleBorder
 		ButtonBorder				RaisedBorder
-		ComboBoxBorder			DepressedBorder
+		ComboBoxBorder				DepressedBorder
 		MenuBorder					SubtleBorder
 		BrowserBorder				DepressedBorder
-		PropertySheetBorder	RaisedBorder
+		PropertySheetBorder			RaisedBorder
 
 		FrameBorder
 		{

@@ -35,6 +35,13 @@
 		"tooltip"		"Advanced Options"
 	}
 
+	"HUDRepository"
+	{
+		"label"			"2"
+		"command"		"url https://github.com/PapaPeach/xhud"
+		"tooltip"		"GitHub"
+	}
+
 	"Streams"
 	{
 		"label"			"0"

@@ -204,41 +204,39 @@ Scheme
 		"Default"
 		{
 			"isproportional" "only"
-			"1"
-			{
-				"name"		"Renogare Soft XHud"
-				"tall"		"13"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"480 1023"
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"		"Renogare Soft XHud"
-				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"		"Renogare Soft XHud"
-				"tall"		"21"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"yres"	"1200 1999"
-				"antialias"	"1"
-			}
+//			"1"
+//			{
+//				"name"		"Renogare Soft XHud"
+//				"tall"		"13"
+//				"weight"	"0"
+//				"range"		"0x0000 0x017F"
+//				"yres"	"480 1023"
+//				"antialias"	"1"
+//			}
+//			"2"
+//			{
+//				"name"		"Renogare Soft XHud"
+//				"tall"		"16"
+//				"weight"	"0"
+//				"range"		"0x0000 0x017F"
+//				"yres"	"1024 1199"
+//				"antialias"	"1"
+//			}
+//			"3"
+//			{
+//				"name"		"Renogare Soft XHud"
+//				"tall"		"21"
+//				"weight"	"0"
+//				"range"		"0x0000 0x017F"
+//				"yres"	"1200 1999"
+//				"antialias"	"1"
+//			}
 			"4"
 			{
 				"name"		"Renogare Soft XHud"
-				//"tall"		"28"
 				"tall"		"7"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				//"yres"	"2000 6000"
 				"antialias"	"1"
 			}
 		}
@@ -336,40 +334,38 @@ Scheme
 		"ChatFont"
 		{
 			"isproportional" "only"
-			"1"
-			{
-				"name"		"Renogare Soft XHud"
-				"tall"		"15"
-				"weight"	"0"
-				"yres"		"480 1023"
-				"dropshadow"	"1"
-				"antialias"		"1"
-			}
-			"2"
-			{
-				"name"		"Renogare Soft XHud"
-				"tall"		"17"
-				"weight"	"0"
-				"yres"		"1024 1199"
-				"dropshadow"	"1"
-				"antialias"		"1"
-			}
-			"3"
-			{
-				"name"		"Renogare Soft XHud"
-				"tall"		"24"
-				"weight"	"0"
-				"yres"		"1200 1999"
-				"dropshadow"	"1"
-				"antialias"		"1"
-			}
+//			"1"
+//			{
+//				"name"		"Renogare Soft XHud"
+//				"tall"		"15"
+//				"weight"	"0"
+//				"yres"		"480 1023"
+//				"dropshadow"	"1"
+//				"antialias"		"1"
+//			}
+//			"2"
+//			{
+//				"name"		"Renogare Soft XHud"
+//				"tall"		"17"
+//				"weight"	"0"
+//				"yres"		"1024 1199"
+//				"dropshadow"	"1"
+//				"antialias"		"1"
+//			}
+//			"3"
+//			{
+//				"name"		"Renogare Soft XHud"
+//				"tall"		"24"
+//				"weight"	"0"
+//				"yres"		"1200 1999"
+//				"dropshadow"	"1"
+//				"antialias"		"1"
+//			}
 			"4"
 			{
 				"name"		"Renogare Soft XHud"
-				//"tall"		"31"
-				"tall"		"10"
+				"tall"		"8"
 				"weight"	"0"
-				//"yres"		"2000 6000"
 				"dropshadow"	"1"
 				"antialias"		"1"
 			}

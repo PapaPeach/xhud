@@ -420,8 +420,6 @@
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
-
-			"proportionaltoparent"		"1"
 		}
 	}
 
@@ -456,8 +454,6 @@
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
-
-			"proportionaltoparent"		"1"
 		}
 	}
 
@@ -492,8 +488,6 @@
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
-
-			"proportionaltoparent"		"1"
 		}
 	}
 
@@ -528,8 +522,6 @@
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
-
-			"proportionaltoparent"		"1"
 		}
 	}
 
@@ -590,8 +582,6 @@
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"MainTheme"
-
-			"proportionaltoparent"		"1"
 		}
 	}
 
@@ -599,8 +589,8 @@
 
 	"HUDRepository"
 	{
-		"ControlName"		"CExButton"
-		"fieldname"		"HUDRepository"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"HUDRepository"
 		"xpos"		"150"
 		"ypos"		"r20"
 		"zpos"		"2"
@@ -608,18 +598,24 @@
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"proportionaltoparent"		"1"
-		"labelText"		"2"
-		"font"		"Symbols 22"
-		"textAlignment"		"center"
-		"Command"		"url https://github.com/PapaPeach/xhud"
 
-		"sound_depressed"		"UI/buttonclick.wav"
-		"sound_released"		"UI/buttonclickrelease.wav"
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldname"		"SubButton"
+			"wide"		"20"
+			"tall"		"20"
+			"visible"		"1"
+			"font"		"Symbols 22"
+			"textAlignment"		"center"
 
-		"paintbackground"		"0"
-		"defaultFgColor_override"		"White"
-		"armedFgColor_override"		"WhiteGray"
+			"sound_depressed"		"UI/buttonclick.wav"
+			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"paintbackground"		"0"
+			"defaultFgColor_override"		"White"
+			"armedFgColor_override"		"WhiteGray"
+		}
 	}
 
 	"Streams"
@@ -655,8 +651,6 @@
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"WhiteGray"
-
-			"proportionaltoparent"		"1"
 		}
 	}
 
@@ -693,8 +687,6 @@
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"WhiteGray"
-
-			"proportionaltoparent"		"1"
 		}
 	}
 
@@ -731,8 +723,6 @@
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"WhiteGray"
-
-			"proportionaltoparent"		"1"
 		}
 	}
 
@@ -769,8 +759,6 @@
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"WhiteGray"
-
-			"proportionaltoparent"		"1"
 		}
 	}
 
@@ -804,8 +792,6 @@
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"White"
 			"armedFgColor_override"		"Red"
-
-			"proportionaltoparent"		"1"
 		}
 	}
 
@@ -2052,7 +2038,7 @@
 				"fieldName"		"XMenuInnerPanel1"
 				"zpos"		"0"
 				"wide"		"292"
-				"tall"		"202"
+				"tall"		"220"
 				"visible"		"1"
 				"bgcolor_override"		"BlackLight"
 				"proportionaltoparent"		"1"
@@ -2060,7 +2046,7 @@
 
 			"RecSettingsLabel"
 			{
-				"ControlName"	"CExLabel"
+				"ControlName"	"Button"
 				"fieldName"		"RecSettingsLabel"
 				"font"		"Size 16"
 				"labelText"		"Xhud ConVars:"
@@ -2070,7 +2056,11 @@
 				"wide"		"100"
 				"tall"		"14"
 				"visible"		"1"
-				"fgcolor"		"White"
+				"tooltiptext"	"Use the console variables the developer intends the HUD to be used with"
+
+				"paintbackground"		"0"
+				"defaultFgColor_override"		"White"
+				"armedFgColor_override"		"White"
 			}
 
 			"RecSettingsOn"
@@ -2823,12 +2813,77 @@
 				"border_armed"		"FriendHighlightBorder"
 			}
 
+			"FreezeCamItemsLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"FreezeCamItemsLabel"
+				"font"		"Size 16"
+				"labelText"		"KillCam Items:"
+				"textAlignment"	"west"
+				"xpos"		"4"
+				"ypos"		"202"
+				"wide"		"100"
+				"tall"		"14"
+				"visible"		"1"
+				"fgcolor"		"White"
+			}
+
+			"FreezeCamItemsOn"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"FreezeCamItemsOn"
+				"font"		"Size 16"
+				"labelText"		"On"
+				"textAlignment"	"center"
+				"xpos"		"104"
+				"ypos"		"202"
+				"wide"		"90"
+				"tall"		"14"
+				"visible"		"1"
+				"Command"		"engine freezecamitemson"
+				"actionsignallevel"		"3"
+
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+
+				"paintbackground"		"0"
+				"defaultFgColor_override"		"White"
+				"armedFgColor_override"		"MainTheme"
+				"border_default"		"WhiteHighlightBorder"
+				"border_armed"		"FriendHighlightBorder"
+			}
+
+			"FreezeCamItemsOff"
+			{
+				"ControlName"	"CExButton"
+				"fieldName"		"FreezeCamItemsOff"
+				"font"		"Size 16"
+				"labelText"		"Off"
+				"textAlignment"	"center"
+				"xpos"		"198"
+				"ypos"		"202"
+				"wide"		"90"
+				"tall"		"14"
+				"visible"		"1"
+				"Command"		"engine freezecamitemsoff"
+				"actionsignallevel"		"3"
+
+				"sound_depressed"		"UI/buttonclick.wav"
+				"sound_released"		"UI/buttonclickrelease.wav"
+
+				"paintbackground"		"0"
+				"defaultFgColor_override"		"White"
+				"armedFgColor_override"		"MainTheme"
+				"border_default"		"WhiteHighlightBorder"
+				"border_armed"		"FriendHighlightBorder"
+			}
+
 			"XMenuInnerPanel2"
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"XMenuInnerPanel2"
 				"zpos"		"0"
-				"ypos"		"207"
+				"ypos"		"225"
 				"wide"		"292"
 				"tall"		"82"
 				"visible"		"1"
@@ -2841,10 +2896,10 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"Note"
 				"font"		"Size 8"
-				"labelText"		"Note: Options in this panel may visually conflict with others. Use your own discretion."
+				"labelText"		"Note: Options in this panel visually conflict. They will automatically resolve this."
 				"textAlignment"	"west"
 				"xpos"		"4"
-				"ypos"		"207"
+				"ypos"		"225"
 				"zpos"		"20"
 				"wide"		"284"
 				"tall"		"9"
@@ -2862,7 +2917,7 @@
 				"labelText"		"Speedometer:"
 				"textAlignment"	"west"
 				"xpos"		"4"
-				"ypos"		"217"
+				"ypos"		"235"
 				"wide"		"100"
 				"tall"		"14"
 				"visible"		"1"
@@ -2877,11 +2932,11 @@
 				"labelText"		"2D"
 				"textAlignment"	"center"
 				"xpos"		"104"
-				"ypos"		"217"
+				"ypos"		"235"
 				"wide"		"43"
 				"tall"		"14"
 				"visible"		"1"
-				"Command"		"engine speedo2d"
+				"Command"		"engine speedo2d;miniammooff;dmgammo"
 				"actionsignallevel"		"3"
 
 				"sound_depressed"		"UI/buttonclick.wav"
@@ -2902,11 +2957,11 @@
 				"labelText"		"3D"
 				"textAlignment"	"center"
 				"xpos"		"151"
-				"ypos"		"217"
+				"ypos"		"235"
 				"wide"		"43"
 				"tall"		"14"
 				"visible"		"1"
-				"Command"		"engine speedo3d"
+				"Command"		"engine speedo3d;miniammooff;dmgammo"
 				"actionsignallevel"		"3"
 
 				"sound_depressed"		"UI/buttonclick.wav"
@@ -2927,7 +2982,7 @@
 				"labelText"		"Off"
 				"textAlignment"	"center"
 				"xpos"		"198"
-				"ypos"		"217"
+				"ypos"		"235"
 				"wide"		"90"
 				"tall"		"14"
 				"visible"		"1"
@@ -2952,7 +3007,7 @@
 				"labelText"		"Mini Ammo:"
 				"textAlignment"	"west"
 				"xpos"		"4"
-				"ypos"		"235"
+				"ypos"		"253"
 				"wide"		"100"
 				"tall"		"14"
 				"visible"		"1"
@@ -2967,11 +3022,11 @@
 				"labelText"		"On"
 				"textAlignment"	"center"
 				"xpos"		"104"
-				"ypos"		"235"
+				"ypos"		"253"
 				"wide"		"90"
 				"tall"		"14"
 				"visible"		"1"
-				"Command"		"engine miniammoon"
+				"Command"		"engine miniammoon;speedooff;dmgammo"
 				"actionsignallevel"		"3"
 
 				"sound_depressed"		"UI/buttonclick.wav"
@@ -2992,7 +3047,7 @@
 				"labelText"		"Off"
 				"textAlignment"	"center"
 				"xpos"		"198"
-				"ypos"		"235"
+				"ypos"		"253"
 				"wide"		"90"
 				"tall"		"14"
 				"visible"		"1"
@@ -3017,7 +3072,7 @@
 				"labelText"		"Damage Dealt:"
 				"textAlignment"	"west"
 				"xpos"		"4"
-				"ypos"		"253"
+				"ypos"		"271"
 				"wide"		"100"
 				"tall"		"14"
 				"visible"		"1"
@@ -3032,11 +3087,11 @@
 				"labelText"		"By Center"
 				"textAlignment"	"center"
 				"xpos"		"104"
-				"ypos"		"253"
+				"ypos"		"271"
 				"wide"		"90"
 				"tall"		"14"
 				"visible"		"1"
-				"Command"		"engine dmgcenter"
+				"Command"		"engine dmgcenter;speedooff;miniammooff"
 				"actionsignallevel"		"3"
 
 				"sound_depressed"		"UI/buttonclick.wav"
@@ -3057,7 +3112,7 @@
 				"labelText"		"By Ammo"
 				"textAlignment"	"center"
 				"xpos"		"198"
-				"ypos"		"253"
+				"ypos"		"271"
 				"wide"		"90"
 				"tall"		"14"
 				"visible"		"1"
@@ -3082,7 +3137,7 @@
 				"labelText"		"Color Preset:"
 				"textAlignment"	"west"
 				"xpos"		"4"
-				"ypos"		"271"
+				"ypos"		"289"
 				"zpos"		"20"
 				"wide"		"100"
 				"tall"		"14"
@@ -3097,7 +3152,7 @@
 				"fieldName"		"DmgDealtRed"
 				"labelText"		""
 				"xpos"		"104"
-				"ypos"		"271"
+				"ypos"		"289"
 				"zpos"		"20"
 				"wide"		"19"
 				"tall"		"14"
@@ -3121,7 +3176,7 @@
 				"fieldName"		"DmgDealtYellow"
 				"labelText"		""
 				"xpos"		"127"
-				"ypos"		"271"
+				"ypos"		"289"
 				"zpos"		"20"
 				"wide"		"20"
 				"tall"		"14"
@@ -3145,7 +3200,7 @@
 				"fieldName"		"DmgDealtGreen"
 				"labelText"		""
 				"xpos"		"151"
-				"ypos"		"271"
+				"ypos"		"289"
 				"zpos"		"20"
 				"wide"		"19"
 				"tall"		"14"
@@ -3169,7 +3224,7 @@
 				"fieldName"		"DmgDealtBlue"
 				"labelText"		""
 				"xpos"		"174"
-				"ypos"		"271"
+				"ypos"		"289"
 				"zpos"		"20"
 				"wide"		"20"
 				"tall"		"14"
@@ -3193,7 +3248,7 @@
 				"fieldName"		"DmgDealtPink"
 				"labelText"		""
 				"xpos"		"198"
-				"ypos"		"271"
+				"ypos"		"289"
 				"zpos"		"20"
 				"wide"		"20"
 				"tall"		"14"
@@ -3217,7 +3272,7 @@
 				"fieldName"		"DmgDealtWhite"
 				"labelText"		""
 				"xpos"		"222"
-				"ypos"		"271"
+				"ypos"		"289"
 				"zpos"		"20"
 				"wide"		"19"
 				"tall"		"14"
@@ -3241,7 +3296,7 @@
 				"fieldName"		"DmgDealtBlack"
 				"labelText"		""
 				"xpos"		"245"
-				"ypos"		"271"
+				"ypos"		"289"
 				"zpos"		"20"
 				"wide"		"20"
 				"tall"		"14"
@@ -3267,7 +3322,7 @@
 				"labelText"		"DIY"
 				"textAlignment"	"center"
 				"xpos"		"269"
-				"ypos"		"271"
+				"ypos"		"289"
 				"zpos"		"20"
 				"wide"		"19"
 				"tall"		"14"
@@ -3289,7 +3344,7 @@
 				"ControlName"	"Panel"
 				"fieldName"		"XMenuInnerPanel3"
 				"zpos"		"0"
-				"ypos"		"294"
+				"ypos"		"312"
 				"wide"		"292"
 				"tall"		"58"
 				"visible"		"1"
@@ -3306,7 +3361,7 @@
 				"textAlignment"	"west"
 				"wrap"		"1"
 				"xpos"		"4"
-				"ypos"		"298"
+				"ypos"		"316"
 				"wide"		"100"
 				"tall"		"32"
 				"visible"		"1"
@@ -3321,7 +3376,7 @@
 				"labelText"		"Off"
 				"textAlignment"	"center"
 				"xpos"		"104"
-				"ypos"		"298"
+				"ypos"		"316"
 				"wide"		"43"
 				"tall"		"14"
 				"visible"		"1"
@@ -3346,7 +3401,7 @@
 				"labelText"		"75%"
 				"textAlignment"	"center"
 				"xpos"		"151"
-				"ypos"		"298"
+				"ypos"		"316"
 				"wide"		"43"
 				"tall"		"14"
 				"visible"		"1"
@@ -3371,7 +3426,7 @@
 				"labelText"		"60%"
 				"textAlignment"	"center"
 				"xpos"		"198"
-				"ypos"		"298"
+				"ypos"		"316"
 				"wide"		"43"
 				"tall"		"14"
 				"visible"		"1"
@@ -3396,7 +3451,7 @@
 				"labelText"		"45%"
 				"textAlignment"	"center"
 				"xpos"		"245"
-				"ypos"		"298"
+				"ypos"		"316"
 				"wide"		"43"
 				"tall"		"14"
 				"visible"		"1"
@@ -3421,7 +3476,7 @@
 				"labelText"		"Low Blur Left"
 				"textAlignment"	"center"
 				"xpos"		"104"
-				"ypos"		"316"
+				"ypos"		"334"
 				"wide"		"90"
 				"tall"		"14"
 				"visible"		"1"
@@ -3446,7 +3501,7 @@
 				"labelText"		"Low Blur Right"
 				"textAlignment"	"center"
 				"xpos"		"198"
-				"ypos"		"316"
+				"ypos"		"334"
 				"wide"		"90"
 				"tall"		"14"
 				"visible"		"1"
@@ -3471,7 +3526,7 @@
 				"labelText"		"Transparent Weapons Not Working?"
 				"textAlignment"	"center"
 				"xpos"		"4"
-				"ypos"		"334"
+				"ypos"		"352"
 				"zpos"		"20"
 				"wide"		"284"
 				"tall"		"14"

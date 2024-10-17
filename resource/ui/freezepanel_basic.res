@@ -1,3 +1,4 @@
+#base "../../cfg/_xhud_customizations.txt"
 "Resource/UI/FreezePanel_Basic.res"
 {
 	"FreezePanel"
@@ -116,7 +117,6 @@
 		"xpos"		"r200"
 		"ypos"		"0"
 		"zpos"		"10"
-		"wide"		"190"
 		"wide_minmode"	"0"
 		"tall"		"100"
 		"visible"		"0"

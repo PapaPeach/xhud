@@ -19,7 +19,7 @@
 		"fieldName"		ChatInputLine
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"2"
+		"xpos"			"3"
 		"ypos"			"0"
 		"wide"			"202"
 		"tall"			"0"
@@ -30,7 +30,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"ChatFiltersButton"
-		"xpos"			"201"
+		"xpos"			"198"
 		"wide"			"24"
 		"tall"			"6"
 		"visible"		"1"

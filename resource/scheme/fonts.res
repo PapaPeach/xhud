@@ -418,43 +418,41 @@ Scheme
 		"Default"
 		{
 			"isproportional" "only"
-			"1"
-			{
-				"name"	"Renogare Soft XHud"
-				"tall"	"13"
-				"range"	"0x0000 0x017F"
-				"yres"	"480 599"
-			}
-			"2"
-			{
-				"name"	"Renogare Soft XHud"
-				"tall"	"13"
-				"range"	"0x0000 0x017F"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"	"Renogare Soft XHud"
-				"tall"	"15"
-				"range"	"0x0000 0x017F"
-				"yres"	"768 1023"
-				"antialias"	"1"
-			}
-			"4"
-			{
-				"name"	"Renogare Soft XHud"
-				"tall"	"22"
-				"range"	"0x0000 0x017F"
-				"yres"	"1024 1199"
-				"antialias"	"1"
-			}
+//			"1"
+//			{
+//				"name"	"Renogare Soft XHud"
+//				"tall"	"13"
+//				"range"	"0x0000 0x017F"
+//				"yres"	"480 599"
+//			}
+//			"2"
+//			{
+//				"name"	"Renogare Soft XHud"
+//				"tall"	"13"
+//				"range"	"0x0000 0x017F"
+//				"yres"	"600 767"
+//			}
+//			"3"
+//			{
+//				"name"	"Renogare Soft XHud"
+//				"tall"	"15"
+//				"range"	"0x0000 0x017F"
+//				"yres"	"768 1023"
+//				"antialias"	"1"
+//			}
+//			"4"
+//			{
+//				"name"	"Renogare Soft XHud"
+//				"tall"	"22"
+//				"range"	"0x0000 0x017F"
+//				"yres"	"1024 1199"
+//				"antialias"	"1"
+//			}
 			"5"
 			{
 				"name"	"Renogare Soft XHud"
-				//"tall"	"24"
 				"tall"	"8"
 				"range"	"0x0000 0x017F"
-				//"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -562,7 +560,6 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias"	"1"
-				//"yres"	"1200 6000"
 			}
 		}
 
