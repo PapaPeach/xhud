@@ -188,26 +188,25 @@ event ActiveTimerDim
 
 event HudTournamentSetupPanelOpen
 {
-	Animate HudTournamentSetup	xpos	cs-0.5	Linear 0.0 0.001	//Fix moving to the side randomly
+	Animate HudTournamentSetup	xpos	c-90	Linear 0.0 0.001	//Fix wrong position
 	Animate HudTournamentSetup	ypos	61	Spline 0.0 0.2
+
+	PlaySound 0 "items/samurai/tf_samurai_noisemaker_setb_02.wav"
 }
 
-event HudTournamentSetupPanelClose	//Also runs on map initialization
+event HudTournamentSetupPanelClose	//runs on setup menu initialization | runs on local map initialization
 {
 	Animate HudTournamentSetup	ypos	-70	Spline 0.0 0.2
+
+	//PlaySound 0.0 "music/trombonetauntv2.mp3"
+	RunEventChild MainMenuOverride HudRec 0.1
 }
 
-event CompCheck
+event HudRec
 {
-	FireCommand 0.0 "engine comp_opencheck"
-}
-event CompChecked
-{
-	FireCommand 0.0 "engine comp_opened"
-}
-event CompReset
-{
-	FireCommand 1.0 "engine comp_reset"
+	//FireCommand 0.0 "engine echo ====================0.0===================="
+	//FireCommand 0.2 "engine echo ====================0.2===================="
+	//FireCommand 0.2 "engine stop;ds_record;play weapons/det_pack_timer.wav"
 }
 
 //==============================================================================
@@ -235,10 +234,10 @@ event HudSpyDisguiseChanged{}
 //==============================================================================
 
 //ReadyUp Timers
-event HudTournament_ShowTimerCompetitive	//triggers in casual
+event HudTournament_ShowTimerCompetitive	//triggers in casual at start of fresh match
 {
 	SetVisible CountdownLabel 1 0.0
-	//PlaySound 1 "music/trombonetauntv2.mp3"
+	PlaySound 0 "weapons/det_pack_timer.wav"
 }
 
 event HudTournament_ShowTimerDefault	//MvM Countdown

@@ -21,7 +21,7 @@
 		"enabled"		"1"
 		"xpos"			"3"
 		"ypos"			"0"
-		"wide"			"202"
+		"wide"			"200"
 		"tall"			"0"
 		"PaintBackgroundType"	"0"
 	}
