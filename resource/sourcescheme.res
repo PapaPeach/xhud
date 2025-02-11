@@ -331,7 +331,7 @@ Scheme
 			}
 		}
 
-		"Default"	//Server Browser title, text boxes, console input, report player list
+		"Default"	//Server Browser title, selectable labels, text boxes, console input, report player list
 		{
 			"1"
 			{

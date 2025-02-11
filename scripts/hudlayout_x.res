@@ -204,7 +204,7 @@
 			"button_activation_type"	"1"
 			"defaultBgColor_override"	"0 0 0 150"
 			"armedBgColor_override"		"0 0 0 150"
-			"tall"		"f0"
+			"tall"		"f20"
 		}
 
 		//Enable quick menu reload
@@ -309,7 +309,7 @@
 	CSpectatorTargetID
 	{
 		"ypos"		"c70"
-		"tall"	 	"31"
+		"tall"		"31"
 		"tall_minmode"	"31"
 	}
 
@@ -317,8 +317,8 @@
 	{
 		"xpos"		"cs-0.5"
 		"ypos"		"c102"
-		"wide"	 	"f0"
-		"tall"	 	"31"
+		"wide"		"f0"
+		"tall"		"31"
 		"tall_minmode"	"31"
 	}
 
@@ -380,20 +380,20 @@
 
 	HudDeathNotice
 	{
-		"xpos"	 "r402"
-		"ypos"	 "23"
-		"wide"	 "400"
-		"tall"	 "200"
+		"xpos"	"r402"
+		"ypos"	"23"
+		"wide"	"400"
+		"tall"	"200"
 
 		"MaxDeathNotices"		"6"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "12"
-		"LineSpacing"	  "0"
-		"CornerRadius"	  "0"
-		"RightJustify"	  "1"
+		"IconScale"	"0.35"
+		"LineHeight"	"12"
+		"LineSpacing"	"0"
+		"CornerRadius"	"0"
+		"RightJustify"	"1"
 
 		"TextFont"		"Size 10"
-		"TextFont_minmode"		""
+		"TextFont_minmode"	""
 
 		"TeamBlue"		"Blue"
 		"TeamRed"		"Red"
@@ -406,8 +406,7 @@
 
 	HudMessage
 	{
-		"wide"	 "f-12"
-		"tall"	 "310"
+		"wide"	"f-12"
 		"xpos"	"-6"
 		"ypos"	"-6"
 		"alpha"	"50"

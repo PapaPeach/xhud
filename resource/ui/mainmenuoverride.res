@@ -1,5 +1,5 @@
-#base "../../cfg/_xhud/_xhud_resolution_selection.txt"
-#base "../../cfg/_xhud/_xhud_customizations.txt"
+#base "../../cfg/_xhud/xhud_resolution_selection.txt"
+#base "../../cfg/_xhud/xhud_customizations.txt"
 #base "vtfpreload.res"
 
 "Resource/UI/MainMenuOverride.res"
@@ -18,7 +18,7 @@
 			"button_activation_type"	"1"
 			"defaultBgColor_override"	"0 0 0 150"
 			"armedBgColor_override"		"0 0 0 150"
-			"tall"		"f0"
+			"tall"		"f20"
 		}
 
 		"SaxxySettings"
@@ -5413,7 +5413,7 @@
 			"wide"		"284"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine sixense_clear_bindings;sixense_write_bindings _xhud/_xhud_resolution_selection.txt;hud_reloadscheme;cl_mainmenu_safemode 0;gameui_allowescape;mat_queue_mode -1"
+			"Command"		"engine sixense_clear_bindings;sixense_write_bindings _xhud/xhud_resolution_selection.txt;hud_reloadscheme;cl_mainmenu_safemode 0;gameui_allowescape;mat_queue_mode -1"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"2"
 
