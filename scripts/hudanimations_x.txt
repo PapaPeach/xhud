@@ -38,7 +38,7 @@ event HintMessageHide	//Plays on spawn
 	Animate HudHintDisplay	FgColor	"255 220 0 0"	Linear 0.0 0.2
 	Animate HudHintDisplay	HintSize	"0"	Deaccel 0.2	0.3
 
-	RunEventChild MainMenuOverride PeachRecSpawn 0.0
+	RunEventChild MainMenuOverride PeachRecSpawn 0.0	//PeachREC
 }
 
 //==============================================================================
@@ -62,6 +62,7 @@ event HudTournamentSetupPanelClose	//runs on tournament setup initialization | r
 //PeachRec V3
 event PeachRecSpawn
 {
+	//0.0 works, upping to see if it fixes "unable to record demo"
 	FireCommand 0.0 "engine echo ==========PeachRecSpawn=========="
 	FireCommand 0.0 "engine peachrec"
 }
@@ -74,8 +75,12 @@ event PeachRecOpen
 
 event PeachRecClose
 {
-	FireCommand 0.0 "engine echo ==========PeachRecClose=========="
-	FireCommand 0.0 "engine pr_close"
+	//3-16-25, testing timing 0.001
+	//4-23-25, timing 0.005 works but causes double records on round start and occasional ready menu popup
+	//4-29-25 timing 0.004 still causes double records on round start and occasional ready menu popup
+	//4-30-25 timing 0.003 still causes double records on round start and occasional ready menu popup
+	FireCommand 0.002 "engine echo ==========PeachRecClose=========="
+	FireCommand 0.002 "engine pr_close"
 }
 
 //==============================================================================

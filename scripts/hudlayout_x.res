@@ -155,7 +155,7 @@
 	"TransparentViewmodel"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName" 	"TransparentViewmodel"
+		"fieldName"		"TransparentViewmodel"
 		"zpos"		"-100"
 		"wide"		"f0"
 		"tall"		"480"
