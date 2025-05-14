@@ -7,6 +7,7 @@
 
 	"specgui"
 	{
+		"visible"	"0"
 		"playerpanels_kv"
 		{
 			"HealthIcon"
