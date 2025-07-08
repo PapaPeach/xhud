@@ -268,8 +268,8 @@
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"TeamStatus Low Health"
 			"percentage_health_low"	"0.3"
-			"color_portrait_blend_dead_red"	"WhiteFull"
-			"color_portrait_blend_dead_blue" "WhiteFull"
+			"color_portrait_blend_dead_red"	"TeamStatus Dead Portrait Red"
+			"color_portrait_blend_dead_blue"	"TeamStatus Dead Portrait Blue"
 
 
 			"healthbar"
@@ -281,7 +281,7 @@
 				"tall"		"24"
 				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"	   "Blank"
+				"bgcolor_override"	"Blank"
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
@@ -293,8 +293,8 @@
 				"tall"		"24"
 				"visible"		"1"
 				"enabled"		"1"
-				"bgcolor_override"	   "Blank"
-				"fgcolor_override"	   "TeamStatus Buffed Health"
+				"bgcolor_override"		"Blank"
+				"fgcolor_override"		"TeamStatus Buffed Health"
 				"proportionaltoparent"	"1"
 			}
 			"MatchStatusBG"
@@ -409,8 +409,19 @@
 				"textinsetx"		"6"
 				"textinsety"		"-2"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"		"TransparentGrayDarkest"
+				"PaintBackground"		"0"
 				"border"		"WhiteHighlightBorderThick"
+			}
+			"RespawnBG"
+			{
+				"ControlName"	"Panel"
+				"fieldName"		"RespawnBG"
+				"zpos"		"5"
+				"wide"		"f0"
+				"tall"		"24"
+				"visible"		"0"
+				"proportionaltoparent"	"1"
+				"bgcolor_override"		"TransparentGrayDarkest"
 			}
 			"chargeamount"
 			{
