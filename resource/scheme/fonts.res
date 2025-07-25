@@ -794,7 +794,7 @@ Scheme
 		{
 			"isproportional"	"only"
 			"1"
-			 {
+			{
 				"name"	"Team Fortress"	// tf.ttf
 				"tall"	"28"
 				"weight"	"0"
@@ -808,7 +808,7 @@ Scheme
 			"1"
 			{
 				"name"	"Renogare Soft XHud"
-				"tall"	"30"
+				"tall"	"14"
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}

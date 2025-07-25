@@ -18,6 +18,9 @@ event CompetitiveGame_RestoreChatWindow	//Fix stuck animations
 	Animate Hitmarker	Alpha	0	Linear 0.1 0.001
 	RunEvent HudLowAmmoPulseStop 0.1
 	RunEvent HudSpyDisguiseFadeOut 0.1
+
+	// Customizations
+	RunEvent UberTimerHide 0.2
 }
 
 event CompetitiveGame_LowerChatWindow{}	//Plays at post-casual xp screen
@@ -48,7 +51,7 @@ event HudTournamentSetupPanelOpen
 	Animate HudTournamentSetup	xpos	c-90	Linear 0.0 0.001	//Fix wrong position
 	Animate HudTournamentSetup	ypos	61	Spline 0.0 0.2
 
-	RunEventChild MainMenuOverride PeachRecOpen 0.0	//PeachRec
+	//RunEventChild MainMenuOverride PeachRecOpen 0.0	//PeachRec
 }
 
 event HudTournamentSetupPanelClose	//runs on tournament setup initialization | runs on local map initialization
@@ -56,26 +59,26 @@ event HudTournamentSetupPanelClose	//runs on tournament setup initialization | r
 	Animate HudTournamentSetup	ypos	-70	Spline 0.0 0.2
 
 	Animate HudScope	xpos	0	Linear 0.0 0.1	//Undo scope removal
-	RunEventChild MainMenuOverride PeachRecClose 0.0	//PeachRec
+	//RunEventChild MainMenuOverride PeachRecClose 0.0	//PeachRec
 }
 
-//PeachRec V5
+//PeachREC+
 event PeachRecSpawn
 {
-	FireCommand 0.0 "engine echo ==========PeachRecSpawn=========="
-	FireCommand 0.0 "engine peachrec"
+	//FireCommand 0.0 "engine echo ==========PeachRecSpawn=========="
+	//FireCommand 0.0 "engine peachrec"
 }
 
 event PeachRecOpen
 {
-	FireCommand 0.01 "engine echo ==========PeachRecOpen=========="
-	FireCommand 0.01 "engine pr_open"
+	//FireCommand 0.01 "engine echo ==========PeachRecOpen=========="
+	//FireCommand 0.01 "engine pr_open"
 }
 
 event PeachRecClose
 {
-	FireCommand 0.01 "engine echo ==========PeachRecClose=========="
-	FireCommand 0.01 "engine pr_close"
+	//FireCommand 0.01 "engine echo ==========PeachRecClose=========="
+	//FireCommand 0.01 "engine pr_close"
 }
 
 //==============================================================================
@@ -245,12 +248,14 @@ event HudMedicChargedStop
 event TeamStatus_PlayerDead
 {
 	SetVisible respawntime	1 0.0
+	SetVisible RespawnBG	1 0.0
 	//PlaySound 0 "weapons/det_pack_timer.wav"
 }
 
 event TeamStatus_PlayerAlive
 {
-	SetVisible respawntime 0 0.0
+	SetVisible respawntime	0 0.0
+	SetVisible RespawnBG	0 0.0
 }
 
 //==============================================================================

@@ -430,7 +430,7 @@
 		"xpos"		"c-155"
 		"ypos"		"c95"
 		"wide"		"300"
-		"tall"		"38"
+		"tall"		"62"
 
 		"BgAlpha"	"0"
 
