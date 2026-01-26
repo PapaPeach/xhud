@@ -839,7 +839,7 @@
 		"zpos"		"970"
 		"wide"		"187"
 		"tall"		"185"
-		"visible"		"1"
+		"visible"		"0" //TODO
 
 		"QuickPlayExpandable"
 		{

@@ -8,7 +8,7 @@
 		"ypos"		"111"
 		"zpos"		"-1"
 		"wide"		"410"
-		"tall"		"225"
+		"tall"		"260"
 		"bgcolor_override"	"TransparentBlack"
 
 		"ChallengeLabel"
@@ -481,7 +481,7 @@
 		"ypos"		"111"
 		"zpos"		"-1"
 		"wide"		"410"
-		"tall"		"225"
+		"tall"		"260"
 		"bgcolor_override"	"TransparentBlack"
 
 		"ChallengeLabel"
@@ -553,7 +553,7 @@
 			"ypos"		"28"
 			"zpos"		"-1"
 			"wide"		"f0"
-			"tall"		"197"
+			"tall"		"232"
 			"paintbackground"		"0"
 
 			"GreyOutPanel"
@@ -574,7 +574,7 @@
 				"xpos"		"70"
 				"ypos"		"5"
 				"wide"		"f0"
-				"tall"		"192"
+				"tall"		"227"
 				"linespacing"	"12"
 			}
 		}
