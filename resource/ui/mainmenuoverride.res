@@ -1978,10 +1978,10 @@
 		"visible"	"0"
 		"zpos"		"10002"
 
-		"XMenu_FullClose"
+		"XMenuFullscreenClose"
 		{
 			"ControlName"	"Button"
-			"fieldName"		"XMenu_FullClose"
+			"fieldName"		"XMenuFullscreenClose"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"f0"
@@ -2003,22 +2003,20 @@
 			"fieldName"		"XMenuPanel"
 			"xpos"		"rs1"
 			"ypos"		"24"
-			"wide"		"569"
+			"wide"		"302"
 			"tall"		"436"
 			"visible"		"1"
 			"bgcolor_override"		"GrayDark"
 			"proportionaltoparent"		"1"
 		}
 
-		"XMenu_Close"
+		"XMenuClose"
 		{
 			"ControlName"	"Button"
-			"fieldName"		"XMenu_Close"
-			"xpos"		"-2"
-			"ypos"		"-2"
+			"fieldName"		"XMenuClose"
 			"zpos"		"1"
-			"wide"		"14"
-			"tall"		"14"
+			"wide"		"22"
+			"tall"		"22"
 			"visible"		"1"
 			"labeltext"		"%"
 			"font"		"Symbols 18"
@@ -2040,10 +2038,10 @@
 			"pin_to_sibling_corner"		"1"
 		}
 
-		"XMenu_Title"
+		"XMenuTitle"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"XMenu_Title"
+			"fieldName"		"XMenuTitle"
 			"font"		"Size 28"
 			"labelText"		"Xhud Customizations"
 			"textAlignment"	"center"
@@ -2060,20 +2058,23 @@
 		{
 			"ControlName"		"CScrollableList"
 			"fieldName"		"XMenuScroller"
-			"xpos"		"rs1"
-			"ypos"		"48"
+			"xpos"		"-5"
+			"ypos"		"0"
 			"wide"		"297"
-			"tall"		"217"
+			"tall"		"334"
 			"visible"	"1"
+
+			"pin_to_sibling"		"XMenuTitle"
+			"pin_to_sibling_corner"		"2"
 
 			"ScrollBar"
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"		"rs1-1"
+				"xpos"		"rs1"
 				"ypos"		"0"
 				"tall"		"f0"
-				"wide"		"3"
+				"wide"		"4"
 				"nobuttons"		"1"
 				"proportionaltoparent"	"1"
 
@@ -2091,10 +2092,10 @@
 				}
 			}
 
-			"XMenuInnerPanel1"
+			"XMenuMainPanel"
 			{
 				"ControlName"	"EditablePanel"
-				"fieldName"		"XMenuInnerPanel1"
+				"fieldName"		"XMenuMainPanel"
 				"wide"		"292"
 				"tall"		"220"
 				"visible"		"1"
@@ -2103,7 +2104,7 @@
 
 				"RecSettingsLabel"
 				{
-					"ControlName"	"Button"
+					"ControlName"	"CExLabel"
 					"fieldName"		"RecSettingsLabel"
 					"font"		"Size 16"
 					"labelText"		"Xhud ConVars:"
@@ -2113,11 +2114,7 @@
 					"wide"		"100"
 					"tall"		"14"
 					"visible"		"1"
-					"tooltiptext"	"Use the console variables the developer intends the HUD to be used with"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"White"
+					"fgcolor"		"White"
 				}
 
 				"RecSettingsOn"
@@ -3024,11 +3021,236 @@
 				}
 			}
 
-			"XMenuInnerPanel2"
+			"XMenuTransparentViewmodelPanel"
 			{
 				"ControlName"	"EditablePanel"
-				"fieldName"		"XMenuInnerPanel2"
+				"fieldName"		"XMenuTransparentViewmodelPanel"
 				"ypos"		"225"
+				"wide"		"292"
+				"tall"		"58"
+				"visible"		"1"
+				"bgcolor_override"		"BlackLight"
+				"proportionaltoparent"		"1"
+
+				"TVMLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"TVMLabel"
+					"font"		"Size 16"
+					"labelText"		"Transparent Viewmodels:"
+					"textAlignment"	"west"
+					"wrap"		"1"
+					"xpos"		"4"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"32"
+					"visible"		"1"
+					"fgcolor"		"White"
+				}
+
+				"TVMOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"TVMOff"
+					"font"		"Size 16"
+					"labelText"		"Off"
+					"textAlignment"	"center"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine tvmoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"TVMLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"TVM75"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"TVM75"
+					"font"		"Size 16"
+					"labelText"		"75%"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine tvm75"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"TVMOff"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"TVM60"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"TVM60"
+					"font"		"Size 16"
+					"labelText"		"60%"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine tvm60"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"TVM75"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"TVM45"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"TVM45"
+					"font"		"Size 16"
+					"labelText"		"45%"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine tvm45"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"TVM60"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"TVMLeft"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"TVMLeft"
+					"font"		"Size 14"
+					"labelText"		"Low Blur Left"
+					"textAlignment"	"center"
+					"ypos"		"4"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine tvmleft"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"TVMOff"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"TVMRight"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"TVMRight"
+					"font"		"Size 14"
+					"labelText"		"Low Blur Right"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine tvmright"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"TVMLeft"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"TVMTroubleShoot"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"TVMTroubleShoot"
+					"font"		"Size 16"
+					"labelText"		"Transparent Weapons Not Working?"
+					"textAlignment"	"center"
+					"ypos"		"4"
+					"zpos"		"20"
+					"wide"		"284"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+					"Command"		"engine showconsole;echo ~~~~~~~~~~~~~~~~~~~~~~~~~;echo ;echo ENSURE_THE_VALUE_OF_THESE;echo ;mat_motion_blur_enabled;echo ;mat_motion_blur_strength;echo ;mat_disable_bloom;echo ;mat_hdr_level;echo ;mat_colorcorrection;echo ;mat_colcorrection_disableentities;echo ;glow_outline_effect_enable;echo ;echo MATCH_THE_VALUE_OF_THESE;echo ;echo mat_motion_blur_enabled 1;echo mat_motion_blur_strength 0;echo mat_disable_bloom 1;echo mat_hdr_level 0;echo mat_colcorrection_disableentities 1;echo mat_colorcorrection 0;echo glow_outline_effect_enable 0"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"TVMLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+			}
+
+			"XMenuCenteredInfoPanel"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"XMenuCenteredInfoPanel"
+				"ypos"		"288"
 				"wide"		"292"
 				"tall"		"82"
 				"visible"		"1"
@@ -3522,1170 +3744,16 @@
 				}
 			}
 
-			"XMenuInnerPanel3"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"XMenuInnerPanel3"
-				"ypos"		"312"
-				"wide"		"292"
-				"tall"		"58"
-				"visible"		"1"
-				"bgcolor_override"		"BlackLight"
-				"proportionaltoparent"		"1"
-
-				"TVMLabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"TVMLabel"
-					"font"		"Size 16"
-					"labelText"		"Transparent Viewmodels:"
-					"textAlignment"	"west"
-					"wrap"		"1"
-					"xpos"		"4"
-					"ypos"		"4"
-					"wide"		"100"
-					"tall"		"32"
-					"visible"		"1"
-					"fgcolor"		"White"
-				}
-
-				"TVMOff"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"TVMOff"
-					"font"		"Size 16"
-					"labelText"		"Off"
-					"textAlignment"	"center"
-					"wide"		"43"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine tvmoff"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"TVMLabel"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"TVM75"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"TVM75"
-					"font"		"Size 16"
-					"labelText"		"75%"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"43"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine tvm75"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"TVMOff"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"TVM60"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"TVM60"
-					"font"		"Size 16"
-					"labelText"		"60%"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"43"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine tvm60"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"TVM75"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"TVM45"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"TVM45"
-					"font"		"Size 16"
-					"labelText"		"45%"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"43"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine tvm45"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"TVM60"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"TVMLeft"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"TVMLeft"
-					"font"		"Size 14"
-					"labelText"		"Low Blur Left"
-					"textAlignment"	"center"
-					"ypos"		"4"
-					"wide"		"90"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine tvmleft"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"TVMOff"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"TVMRight"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"TVMRight"
-					"font"		"Size 14"
-					"labelText"		"Low Blur Right"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"90"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine tvmright"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"TVMLeft"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"TVMTroubleShoot"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"TVMTroubleShoot"
-					"font"		"Size 16"
-					"labelText"		"Transparent Weapons Not Working?"
-					"textAlignment"	"center"
-					"ypos"		"4"
-					"zpos"		"20"
-					"wide"		"284"
-					"tall"		"14"
-					"visible"		"1"
-					"fgcolor"		"White"
-					"Command"		"engine showconsole;echo ~~~~~~~~~~~~~~~~~~~~~~~~~;echo ;echo ENSURE_THE_VALUE_OF_THESE;echo ;mat_motion_blur_enabled;echo ;mat_motion_blur_strength;echo ;mat_disable_bloom;echo ;mat_hdr_level;echo ;mat_colorcorrection;echo ;mat_colcorrection_disableentities;echo ;glow_outline_effect_enable;echo ;echo MATCH_THE_VALUE_OF_THESE;echo ;echo mat_motion_blur_enabled 1;echo mat_motion_blur_strength 0;echo mat_disable_bloom 1;echo mat_hdr_level 0;echo mat_colcorrection_disableentities 1;echo mat_colorcorrection 0;echo glow_outline_effect_enable 0"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"TVMLabel"
-					"pin_to_sibling_corner"	"2"
-				}
-			}
-		}
-
-		"XMenuCrosshairScroller"
-		{
-			"ControlName"		"CScrollableList"
-			"fieldName"		"XMenuCrosshairScroller"
-			"ypos"		"5"
-			"wide"		"297"
-			"tall"		"112"
-			"visible"	"1"
-
-			"pin_to_sibling"	"XMenuScroller"
-			//"pin_corner_to_sibling"	"0"
-			"pin_to_sibling_corner"	"2"
-
-			"ScrollBar"
-			{
-				"ControlName"	"ScrollBar"
-				"FieldName"		"ScrollBar"
-				"xpos"		"rs1-1"
-				"ypos"		"0"
-				"tall"		"f0"
-				"wide"		"3"
-				"nobuttons"		"1"
-				"proportionaltoparent"	"1"
-
-				"Slider"
-				{
-					"fgcolor_override"	"White"
-				}
-				"UpButton"
-				{
-					"visible"		"0"
-				}
-				"DownButton"
-				{
-					"visible"		"0"
-				}
-			}
-
-			"XMenuHitmarkerPanel"
-			{
-				"ControlName"	"EditablePanel"
-				"fieldName"		"XMenuHitmarkerPanel"
-				"wide"		"292"
-				"tall"		"112"
-				"visible"		"1"
-				"bgcolor_override"		"BlackLight"
-				"proportionaltoparent"		"1"
-
-				"pin_to_sibling"		"XMenuScroller"
-				//"pin_corner_to_sibling"		"0"
-				"pin_to_sibling_corner"		"2"
-
-				"HitmarkerLabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"HitmarkerLabel"
-					"font"		"Size 16"
-					"labelText"		"Hitmarkers:"
-					"textAlignment"	"west"
-					"xpos"		"4"
-					"ypos"		"4"
-					"wide"		"100"
-					"tall"		"14"
-					"visible"		"1"
-					"fgcolor"		"White"
-				}
-
-				"HitmarkerOn"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerOn"
-					"font"		"Size 16"
-					"labelText"		"On"
-					"textAlignment"	"center"
-					"wide"		"90"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine hitmarkeron"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"HitmarkerLabel"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerOff"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerOff"
-					"font"		"Size 16"
-					"labelText"		"Off"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"90"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine hitmarkeroff"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"HitmarkerOn"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerColorLabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"HitmarkerColorLabel"
-					"font"		"Size 16"
-					"labelText"		"Color Preset:"
-					"textAlignment"	"west"
-					"ypos"		"4"
-					"wide"		"100"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"fgcolor"		"White"
-
-					"pin_to_sibling"	"HitmarkerLabel"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"HitmarkerRed"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerRed"
-					"labelText"		""
-					"wide"		"19"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarkerred"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"defaultBgColor_override"		"Red"
-					"armedBgColor_override"		"Red"
-					"border_default"		"NoBorder"
-					"border_Armed"		"WhiteHighlightBorderThick"
-
-					"pin_to_sibling"	"HitmarkerColorLabel"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerYellow"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerYellow"
-					"labelText"		""
-					"xpos"		"4"
-					"wide"		"20"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarkeryellow"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"defaultBgColor_override"		"Yellow"
-					"armedBgColor_override"		"Yellow"
-					"border_default"		"NoBorder"
-					"border_Armed"		"WhiteHighlightBorderThick"
-
-					"pin_to_sibling"	"HitmarkerRed"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerGreen"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerGreen"
-					"labelText"		""
-					"xpos"		"4"
-					"wide"		"19"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarkergreen"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"defaultBgColor_override"		"Green"
-					"armedBgColor_override"		"Green"
-					"border_default"		"NoBorder"
-					"border_Armed"		"WhiteHighlightBorderThick"
-
-					"pin_to_sibling"	"HitmarkerYellow"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerBlue"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerBlue"
-					"labelText"		""
-					"xpos"		"4"
-					"wide"		"20"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarkerblue"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"defaultBgColor_override"		"Blue"
-					"armedBgColor_override"		"Blue"
-					"border_default"		"NoBorder"
-					"border_Armed"		"WhiteHighlightBorderThick"
-
-					"pin_to_sibling"	"HitmarkerGreen"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerPink"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerPink"
-					"labelText"		""
-					"xpos"		"4"
-					"wide"		"20"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarkerpink"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"defaultBgColor_override"		"Unusual"
-					"armedBgColor_override"		"Unusual"
-					"border_default"		"NoBorder"
-					"border_Armed"		"WhiteHighlightBorderThick"
-
-					"pin_to_sibling"	"HitmarkerBlue"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerWhite"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerWhite"
-					"labelText"		""
-					"xpos"		"4"
-					"wide"		"19"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarkerwhite"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"defaultBgColor_override"		"255 255 255 255"
-					"armedBgColor_override"		"255 255 255 255"
-					"border_default"		"NoBorder"
-					"border_Armed"		"WhiteHighlightBorderThick"
-
-					"pin_to_sibling"	"HitmarkerPink"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerBlack"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerBlack"
-					"labelText"		""
-					"xpos"		"4"
-					"wide"		"20"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarkerblack"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"defaultBgColor_override"		"0 0 0 255"
-					"armedBgColor_override"		"0 0 0 255"
-					"border_default"		"NoBorder"
-					"border_Armed"		"WhiteHighlightBorderThick"
-
-					"pin_to_sibling"	"HitmarkerWhite"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerColorCustom"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerColorCustom"
-					"font"		"Size 10"
-					"labelText"		"DIY"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"19"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarkercolorcustom;showconsole;echo;echo You can edit these settings through the associated customization files"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"border_default"		"WhiteHighlightBorder"
-					"border_Armed"		"WhiteHighlightBorderThick"
-
-					"pin_to_sibling"	"HitmarkerBlack"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerStyleLabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"HitmarkerStyleLabel"
-					"font"		"Size 16"
-					"labelText"		"Marker Style:"
-					"textAlignment"	"west"
-					"ypos"		"4"
-					"wide"		"100"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"fgcolor"		"White"
-
-					"pin_to_sibling"	"HitmarkerColorLabel"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"Hitmarker1"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Hitmarker1"
-					"font"		"CrosshairM1"
-					"labelText"		"#"
-					"textAlignment"	"center"
-					"use_proportional_insets"	"1"
-					"textinsety"	"1"
-					"wide"		"19"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarker1"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"border_default"		"WhiteHighlightBorder"
-					"border_Armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"HitmarkerStyleLabel"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"Hitmarker2"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Hitmarker2"
-					"font"		"CrosshairM1"
-					"labelText"		"("
-					"textAlignment"	"center"
-					"use_proportional_insets"	"1"
-					"textinsety"	"1"
-					"xpos"		"4"
-					"wide"		"20"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarker2"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"border_default"		"WhiteHighlightBorder"
-					"border_Armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"Hitmarker1"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"Hitmarker3"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Hitmarker3"
-					"font"		"CrosshairM1"
-					"labelText"		"/"
-					"textAlignment"	"center"
-					"use_proportional_insets"	"1"
-					"textinsety"	"1"
-					"xpos"		"4"
-					"wide"		"19"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarker3"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"border_default"		"WhiteHighlightBorder"
-					"border_Armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"Hitmarker2"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"Hitmarker4"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Hitmarker4"
-					"font"		"CrosshairM1"
-					"labelText"		"5"
-					"textAlignment"	"center"
-					"use_proportional_insets"	"1"
-					"textinsety"	"1"
-					"xpos"		"4"
-					"wide"		"20"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarker4"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"border_default"		"WhiteHighlightBorder"
-					"border_Armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"Hitmarker3"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"Hitmarker5"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Hitmarker5"
-					"font"		"CrosshairM1"
-					"labelText"		"="
-					"textAlignment"	"center"
-					"use_proportional_insets"	"1"
-					"textinsety"	"1"
-					"xpos"		"4"
-					"wide"		"20"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarker5"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"border_default"		"WhiteHighlightBorder"
-					"border_Armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"Hitmarker4"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"Hitmarker6"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Hitmarker6"
-					"font"		"CrosshairM1"
-					"labelText"		"@"
-					"textAlignment"	"center"
-					"use_proportional_insets"	"1"
-					"textinsety"	"1"
-					"xpos"		"4"
-					"wide"		"19"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarker6"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"border_default"		"WhiteHighlightBorder"
-					"border_Armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"Hitmarker5"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"Hitmarker7"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Hitmarker7"
-					"font"		"CrosshairM1"
-					"labelText"		"K"
-					"textAlignment"	"center"
-					"use_proportional_insets"	"1"
-					"textinsety"	"1"
-					"xpos"		"4"
-					"wide"		"20"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarker7"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"border_default"		"WhiteHighlightBorder"
-					"border_Armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"Hitmarker6"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerStyleCustom"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerStyleCustom"
-					"font"		"Size 10"
-					"labelText"		"DIY"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"19"
-					"tall"		"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"Command"		"engine hitmarkerstylecustom;showconsole;echo;echo You can edit these settings through the associated customization files"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"border_default"		"WhiteHighlightBorder"
-					"border_Armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"Hitmarker7"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerSizeLabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"HitmarkerSizeLabel"
-					"font"		"Size 16"
-					"labelText"		"Marker Size:"
-					"textAlignment"	"west"
-					"ypos"		"4"
-					"wide"		"100"
-					"tall"		"14"
-					"visible"		"1"
-					"fgcolor"		"White"
-
-					"pin_to_sibling"	"HitmarkerStyleLabel"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"HitmarkerSmall"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerSmall"
-					"font"		"Size 10"
-					"labelText"		"Small"
-					"textAlignment"	"center"
-					"wide"		"43"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine hitmarkersmall"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"HitmarkerSizeLabel"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerMedium"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerMedium"
-					"font"		"Size 10"
-					"labelText"		"Medium"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"43"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine hitmarkermedium"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"HitmarkerSmall"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerLarge"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerLarge"
-					"font"		"Size 10"
-					"labelText"		"Large"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"43"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine hitmarkerlarge"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"HitmarkerMedium"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerSizeCustom"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerSizeCustom"
-					"font"		"Size 10"
-					"labelText"		"DIY"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"43"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine hitmarkerfontcustom;showconsole;echo ;echo This will require a restart to take effect"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"HitmarkerLarge"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerOutlineLabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"HitmarkerOutlineLabel"
-					"font"		"Size 16"
-					"labelText"		"Outline:"
-					"textAlignment"	"west"
-					"ypos"		"4"
-					"wide"		"100"
-					"tall"		"14"
-					"visible"		"1"
-					"fgcolor"		"White"
-
-					"pin_to_sibling"	"HitmarkerSizeLabel"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"HitmarkerOutlineOn"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerOutlineOn"
-					"font"		"Size 16"
-					"labelText"		"On"
-					"textAlignment"	"center"
-					"wide"		"90"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine hitmarkeroutlineon"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"HitmarkerOutlineLabel"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerOutlineOff"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerOutlineOff"
-					"font"		"Size 16"
-					"labelText"		"Off"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"90"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine hitmarkeroutlineoff"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"HitmarkerOutlineOn"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerAlignmentLabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"HitmarkerAlignmentLabel"
-					"font"		"Size 16"
-					"labelText"		"Alignment:"
-					"textAlignment"	"west"
-					"ypos"		"4"
-					"wide"		"100"
-					"tall"		"14"
-					"visible"		"1"
-					"fgcolor"		"White"
-
-					"pin_to_sibling"	"HitmarkerOutlineLabel"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"HitmarkerAlignment0"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerAlignment0"
-					"font"		"Size 10"
-					"labelText"		"None"
-					"textAlignment"	"center"
-					"wide"		"43"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine hitmarkery0"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"HitmarkerAlignmentLabel"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerAlignment1"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerAlignment1"
-					"font"		"Size 10"
-					"labelText"		"Down 1"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"43"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine hitmarkery1"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"HitmarkerAlignment0"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerAlignment2"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerAlignment2"
-					"font"		"Size 10"
-					"labelText"		"Down 2"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"43"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine hitmarkery2"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"HitmarkerAlignment1"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"HitmarkerAlignment3"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"HitmarkerAlignment3"
-					"font"		"Size 10"
-					"labelText"		"Down 3"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"43"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine hitmarkery3"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"HitmarkerAlignment2"
-					"pin_to_sibling_corner"	"1"
-				}
-			}
-
 			"XMenuCrosshairPanel"
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuCrosshairPanel"
-				"ypos"		"117"
+				"ypos"		"375"
 				"wide"		"292"
 				"tall"		"112"
 				"visible"		"1"
 				"bgcolor_override"		"BlackLight"
 				"proportionaltoparent"		"1"
-
-				"pin_to_sibling"		"XMenuScroller"
-				//"pin_corner_to_sibling"		"0"
-				"pin_to_sibling_corner"		"2"
 
 				"CrosshairLabel"
 				{
@@ -5555,6 +4623,889 @@
 					"border_armed"		"FriendHighlightBorder"
 
 					"pin_to_sibling"	"CrosshairAlignment2"
+					"pin_to_sibling_corner"	"1"
+				}
+			}
+
+			"XMenuHitmarkerPanel"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"XMenuHitmarkerPanel"
+				"ypos"		"492"
+				"wide"		"292"
+				"tall"		"112"
+				"visible"		"1"
+				"bgcolor_override"		"BlackLight"
+				"proportionaltoparent"		"1"
+
+				"HitmarkerLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"HitmarkerLabel"
+					"font"		"Size 16"
+					"labelText"		"Hitmarkers:"
+					"textAlignment"	"west"
+					"xpos"		"4"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+				}
+
+				"HitmarkerOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerOn"
+					"font"		"Size 16"
+					"labelText"		"On"
+					"textAlignment"	"center"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine hitmarkeron"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"HitmarkerLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerOff"
+					"font"		"Size 16"
+					"labelText"		"Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine hitmarkeroff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"HitmarkerOn"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerColorLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"HitmarkerColorLabel"
+					"font"		"Size 16"
+					"labelText"		"Color Preset:"
+					"textAlignment"	"west"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"fgcolor"		"White"
+
+					"pin_to_sibling"	"HitmarkerLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"HitmarkerRed"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerRed"
+					"labelText"		""
+					"wide"		"19"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarkerred"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"defaultBgColor_override"		"Red"
+					"armedBgColor_override"		"Red"
+					"border_default"		"NoBorder"
+					"border_Armed"		"WhiteHighlightBorderThick"
+
+					"pin_to_sibling"	"HitmarkerColorLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerYellow"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerYellow"
+					"labelText"		""
+					"xpos"		"4"
+					"wide"		"20"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarkeryellow"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"defaultBgColor_override"		"Yellow"
+					"armedBgColor_override"		"Yellow"
+					"border_default"		"NoBorder"
+					"border_Armed"		"WhiteHighlightBorderThick"
+
+					"pin_to_sibling"	"HitmarkerRed"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerGreen"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerGreen"
+					"labelText"		""
+					"xpos"		"4"
+					"wide"		"19"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarkergreen"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"defaultBgColor_override"		"Green"
+					"armedBgColor_override"		"Green"
+					"border_default"		"NoBorder"
+					"border_Armed"		"WhiteHighlightBorderThick"
+
+					"pin_to_sibling"	"HitmarkerYellow"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerBlue"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerBlue"
+					"labelText"		""
+					"xpos"		"4"
+					"wide"		"20"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarkerblue"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"defaultBgColor_override"		"Blue"
+					"armedBgColor_override"		"Blue"
+					"border_default"		"NoBorder"
+					"border_Armed"		"WhiteHighlightBorderThick"
+
+					"pin_to_sibling"	"HitmarkerGreen"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerPink"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerPink"
+					"labelText"		""
+					"xpos"		"4"
+					"wide"		"20"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarkerpink"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"defaultBgColor_override"		"Unusual"
+					"armedBgColor_override"		"Unusual"
+					"border_default"		"NoBorder"
+					"border_Armed"		"WhiteHighlightBorderThick"
+
+					"pin_to_sibling"	"HitmarkerBlue"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerWhite"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerWhite"
+					"labelText"		""
+					"xpos"		"4"
+					"wide"		"19"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarkerwhite"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"defaultBgColor_override"		"255 255 255 255"
+					"armedBgColor_override"		"255 255 255 255"
+					"border_default"		"NoBorder"
+					"border_Armed"		"WhiteHighlightBorderThick"
+
+					"pin_to_sibling"	"HitmarkerPink"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerBlack"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerBlack"
+					"labelText"		""
+					"xpos"		"4"
+					"wide"		"20"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarkerblack"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"defaultBgColor_override"		"0 0 0 255"
+					"armedBgColor_override"		"0 0 0 255"
+					"border_default"		"NoBorder"
+					"border_Armed"		"WhiteHighlightBorderThick"
+
+					"pin_to_sibling"	"HitmarkerWhite"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerColorCustom"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerColorCustom"
+					"font"		"Size 10"
+					"labelText"		"DIY"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"19"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarkercolorcustom;showconsole;echo;echo You can edit these settings through the associated customization files"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"border_default"		"WhiteHighlightBorder"
+					"border_Armed"		"WhiteHighlightBorderThick"
+
+					"pin_to_sibling"	"HitmarkerBlack"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerStyleLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"HitmarkerStyleLabel"
+					"font"		"Size 16"
+					"labelText"		"Marker Style:"
+					"textAlignment"	"west"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"fgcolor"		"White"
+
+					"pin_to_sibling"	"HitmarkerColorLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"Hitmarker1"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"Hitmarker1"
+					"font"		"CrosshairM1"
+					"labelText"		"#"
+					"textAlignment"	"center"
+					"use_proportional_insets"	"1"
+					"textinsety"	"1"
+					"wide"		"19"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarker1"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"border_default"		"WhiteHighlightBorder"
+					"border_Armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"HitmarkerStyleLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"Hitmarker2"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"Hitmarker2"
+					"font"		"CrosshairM1"
+					"labelText"		"("
+					"textAlignment"	"center"
+					"use_proportional_insets"	"1"
+					"textinsety"	"1"
+					"xpos"		"4"
+					"wide"		"20"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarker2"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"border_default"		"WhiteHighlightBorder"
+					"border_Armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"Hitmarker1"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"Hitmarker3"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"Hitmarker3"
+					"font"		"CrosshairM1"
+					"labelText"		"/"
+					"textAlignment"	"center"
+					"use_proportional_insets"	"1"
+					"textinsety"	"1"
+					"xpos"		"4"
+					"wide"		"19"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarker3"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"border_default"		"WhiteHighlightBorder"
+					"border_Armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"Hitmarker2"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"Hitmarker4"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"Hitmarker4"
+					"font"		"CrosshairM1"
+					"labelText"		"5"
+					"textAlignment"	"center"
+					"use_proportional_insets"	"1"
+					"textinsety"	"1"
+					"xpos"		"4"
+					"wide"		"20"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarker4"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"border_default"		"WhiteHighlightBorder"
+					"border_Armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"Hitmarker3"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"Hitmarker5"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"Hitmarker5"
+					"font"		"CrosshairM1"
+					"labelText"		"="
+					"textAlignment"	"center"
+					"use_proportional_insets"	"1"
+					"textinsety"	"1"
+					"xpos"		"4"
+					"wide"		"20"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarker5"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"border_default"		"WhiteHighlightBorder"
+					"border_Armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"Hitmarker4"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"Hitmarker6"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"Hitmarker6"
+					"font"		"CrosshairM1"
+					"labelText"		"@"
+					"textAlignment"	"center"
+					"use_proportional_insets"	"1"
+					"textinsety"	"1"
+					"xpos"		"4"
+					"wide"		"19"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarker6"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"border_default"		"WhiteHighlightBorder"
+					"border_Armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"Hitmarker5"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"Hitmarker7"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"Hitmarker7"
+					"font"		"CrosshairM1"
+					"labelText"		"K"
+					"textAlignment"	"center"
+					"use_proportional_insets"	"1"
+					"textinsety"	"1"
+					"xpos"		"4"
+					"wide"		"20"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarker7"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"border_default"		"WhiteHighlightBorder"
+					"border_Armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"Hitmarker6"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerStyleCustom"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerStyleCustom"
+					"font"		"Size 10"
+					"labelText"		"DIY"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"19"
+					"tall"		"14"
+					"visible"		"1"
+					"enabled"		"1"
+					"Command"		"engine hitmarkerstylecustom;showconsole;echo;echo You can edit these settings through the associated customization files"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"border_default"		"WhiteHighlightBorder"
+					"border_Armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"Hitmarker7"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerSizeLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"HitmarkerSizeLabel"
+					"font"		"Size 16"
+					"labelText"		"Marker Size:"
+					"textAlignment"	"west"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+
+					"pin_to_sibling"	"HitmarkerStyleLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"HitmarkerSmall"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerSmall"
+					"font"		"Size 10"
+					"labelText"		"Small"
+					"textAlignment"	"center"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine hitmarkersmall"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"HitmarkerSizeLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerMedium"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerMedium"
+					"font"		"Size 10"
+					"labelText"		"Medium"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine hitmarkermedium"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"HitmarkerSmall"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerLarge"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerLarge"
+					"font"		"Size 10"
+					"labelText"		"Large"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine hitmarkerlarge"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"HitmarkerMedium"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerSizeCustom"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerSizeCustom"
+					"font"		"Size 10"
+					"labelText"		"DIY"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine hitmarkerfontcustom;showconsole;echo ;echo This will require a restart to take effect"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"HitmarkerLarge"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerOutlineLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"HitmarkerOutlineLabel"
+					"font"		"Size 16"
+					"labelText"		"Outline:"
+					"textAlignment"	"west"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+
+					"pin_to_sibling"	"HitmarkerSizeLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"HitmarkerOutlineOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerOutlineOn"
+					"font"		"Size 16"
+					"labelText"		"On"
+					"textAlignment"	"center"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine hitmarkeroutlineon"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"HitmarkerOutlineLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerOutlineOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerOutlineOff"
+					"font"		"Size 16"
+					"labelText"		"Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine hitmarkeroutlineoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"HitmarkerOutlineOn"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerAlignmentLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"HitmarkerAlignmentLabel"
+					"font"		"Size 16"
+					"labelText"		"Alignment:"
+					"textAlignment"	"west"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+
+					"pin_to_sibling"	"HitmarkerOutlineLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"HitmarkerAlignment0"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerAlignment0"
+					"font"		"Size 10"
+					"labelText"		"None"
+					"textAlignment"	"center"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine hitmarkery0"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"HitmarkerAlignmentLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerAlignment1"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerAlignment1"
+					"font"		"Size 10"
+					"labelText"		"Down 1"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine hitmarkery1"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"HitmarkerAlignment0"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerAlignment2"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerAlignment2"
+					"font"		"Size 10"
+					"labelText"		"Down 2"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine hitmarkery2"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"HitmarkerAlignment1"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"HitmarkerAlignment3"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"HitmarkerAlignment3"
+					"font"		"Size 10"
+					"labelText"		"Down 3"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine hitmarkery3"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"HitmarkerAlignment2"
 					"pin_to_sibling_corner"	"1"
 				}
 			}

@@ -9,10 +9,10 @@
 		"paintbackground"	"0"
 	}
 
-	"FullClose"
+	"FullscreenClose"
 	{
 		"ControlName"	"Button"
-		"fieldName"		"FullClose"
+		"fieldName"		"FullscreenClose"
 		"zpos"		"0"
 		"wide"		"f0"
 		"tall"		"f0"
@@ -46,11 +46,9 @@
 	{
 		"ControlName"	"Button"
 		"fieldName"		"CloseButton"
-		"xpos"		"-2"
-		"ypos"		"-2"
 		"zpos"		"10"
-		"wide"		"14"
-		"tall"		"14"
+		"wide"		"22"
+		"tall"		"22"
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%"
@@ -73,10 +71,10 @@
 		"pin_to_sibling_corner"		"1"
 	}
 
-	"Tools_Title"
+	"ToolsTitle"
 	{
 		"ControlName"	"Label"
-		"fieldName"		"Tools_Title"
+		"fieldName"		"ToolsTitle"
 		"font"		"Size 28"
 		"labelText"		"Quick Settings"
 		"textAlignment"	"center"
@@ -103,7 +101,7 @@
 		"bgcolor_override"		"BlackLight"
 		"proportionaltoparent"		"1"
 
-		"pin_to_sibling"		"Tools_Title"
+		"pin_to_sibling"		"ToolsTitle"
 		"pin_corner_to_sibling"		"4"
 		"pin_to_sibling_corner"		"6"
 	}
