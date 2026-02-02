@@ -108,8 +108,8 @@
 		"fieldName"		"Speed1"
 		"xpos"		"c10"
 		"ypos"		"c16"
-		"wide"	 "10"
-		"tall"	 "10"
+		"wide"	"10"
+		"tall"	"10"
 		"scaleimage"	"1"
 	}
 

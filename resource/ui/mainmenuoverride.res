@@ -5509,6 +5509,272 @@
 					"pin_to_sibling_corner"	"1"
 				}
 			}
+
+			"XMenuGameTypesPanel"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"XMenuGameTypesPanel"
+				"ypos"		"609"
+				"wide"		"292"
+				"tall"		"40"
+				"visible"		"1"
+				"bgcolor_override"		"BlackLight"
+				"proportionaltoparent"		"1"
+
+				"FloatingHealthLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"FloatingHealthLabel"
+					"font"		"Size 16"
+					"labelText"		"Floating Health:"
+					"textAlignment"	"west"
+					"xpos"		"4"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+				}
+
+				"FloatingHealthPvPOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"FloatingHealthPvPOn"
+					"font"		"Size 10"
+					"labelText"		"PvP: On"
+					"textAlignment"	"center"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine floatinghealthpvpon"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"FloatingHealthLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"FloatingHealthPvPOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"FloatingHealthPvPOff"
+					"font"		"Size 10"
+					"labelText"		"PvP: Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine floatinghealthpvpoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"FloatingHealthPvPOn"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"FloatingHealthMvMOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"FloatingHealthMvMOn"
+					"font"		"Size 10"
+					"labelText"		"MvM: On"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine floatinghealthmvmon"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"FloatingHealthPvPOff"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"FloatingHealthMvMOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"FloatingHealthMvMOff"
+					"font"		"Size 10"
+					"labelText"		"MvM: Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine floatinghealthmvmoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"FloatingHealthMvMOn"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"AutoRezoomLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"AutoRezoomLabel"
+					"font"		"Size 16"
+					"labelText"		"Auto ReZoom:"
+					"textAlignment"	"west"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+
+					"pin_to_sibling"	"FloatingHealthLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"AutoRezoomPvPOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"AutoRezoomPvPOn"
+					"font"		"Size 10"
+					"labelText"		"PvP: On"
+					"textAlignment"	"center"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine autorezoompvpon"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"AutoRezoomLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"AutoRezoomPvPOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"AutoRezoomPvPOff"
+					"font"		"Size 10"
+					"labelText"		"PvP: Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine autorezoompvpoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"AutoRezoomPvPOn"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"AutoRezoomMvMOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"AutoRezoomMvMOn"
+					"font"		"Size 10"
+					"labelText"		"MvM: On"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine autorezoommvmon"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"AutoRezoomPvPOff"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"AutoRezoomMvMOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"AutoRezoomMvMOff"
+					"font"		"Size 10"
+					"labelText"		"MvM: Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine autorezoommvmoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"AutoRezoomMvMOn"
+					"pin_to_sibling_corner"	"1"
+				}
+			}
 		}
 
 		"XMenuSavePanel"

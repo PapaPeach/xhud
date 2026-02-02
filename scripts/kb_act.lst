@@ -3,6 +3,7 @@
 "blank"			"=========================="
 "ds_prefix _;ds_record"	"Record Demo: No Prefix"
 "ds_prefix official;ds_record;say_team Recording Demo (Xhud)"	"Record Demo: 'Official' Prefix"
+"ds_mark"		"Bookmark Demo"
 "stop"			"Stop Demo"
 "record fix;stop;ds_record"	"Invisible Player Fix: Restart Demo"
 "record fix;stop"	"Invisible Player Fix: Stop Demo"

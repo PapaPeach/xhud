@@ -1,13 +1,3 @@
-event CollectionCrafting_ItemRecieved	//Fix trade-up background (wiethoofd)
-{
-	Animate TradeUpContainer	wide	0	Accel 0.0 0.001
-	PlaySound 0.0 "weapons/det_pack_timer.wav"
-	PlaySound 0.5 "weapons/det_pack_timer.wav"
-	PlaySound 1.0 "weapons/det_pack_timer.wav"
-	PlaySound 1.5 "weapons/det_pack_timer.wav"
-	PlaySound 2.0 "weapons/det_pack_timer.wav"
-}
-
 event SurveyShowSequence	//Yeet this
 {
 	RunEventChild	Survey	SurveyDelete	0.001
@@ -16,8 +6,9 @@ event SurveyShowSequence	//Yeet this
 event CompetitiveGame_RestoreChatWindow	//Fix stuck animations
 {
 	Animate Hitmarker	Alpha	0	Linear 0.1 0.001
-	RunEvent HudLowAmmoPulseStop 0.1
 	RunEvent HudSpyDisguiseFadeOut 0.1
+	//RunEvent HudLowAmmoPulseStop 0.1
+	RunEventChild MainMenuOverride HudLowAmmoPulseStop 0.1	//TODO: Test low ammo connecting to different server
 
 	// Customizations
 	RunEvent UberTimerHide 0.2
@@ -41,7 +32,7 @@ event HintMessageHide	//Plays on spawn
 	Animate HudHintDisplay	FgColor	"255 220 0 0"	Linear 0.0 0.2
 	Animate HudHintDisplay	HintSize	"0"	Deaccel 0.2	0.3
 
-	//RunEventChild MainMenuOverride PeachRecSpawn 0.0	//PeachREC
+	RunEventChild MainMenuOverride XSpawn 0.0	//GameType Detection
 }
 
 //==============================================================================
@@ -51,34 +42,32 @@ event HudTournamentSetupPanelOpen
 	Animate HudTournamentSetup	xpos	c-90	Linear 0.0 0.001	//Fix wrong position
 	Animate HudTournamentSetup	ypos	61	Spline 0.0 0.2
 
-	//RunEventChild MainMenuOverride PeachRecOpen 0.0	//PeachRec
+	RunEventChild MainMenuOverride XOpen 0.0	//GameType Detection
 }
 
 event HudTournamentSetupPanelClose	//runs on tournament setup initialization | runs on local map initialization
 {
 	Animate HudTournamentSetup	ypos	-70	Spline 0.0 0.2
 
-	Animate HudScope	xpos	0	Linear 0.0 0.1	//Undo scope removal
-	//RunEventChild MainMenuOverride PeachRecClose 0.0	//PeachRec
+	RunEventChild MainMenuOverride XClose 0.0	//GameType Detection
 }
 
-//PeachREC+
-event PeachRecSpawn
+//GameType Detection
+event XSpawn
 {
-	//FireCommand 0.0 "engine echo ==========PeachRecSpawn=========="
-	//FireCommand 0.0 "engine peachrec"
+	FireCommand 0.0 "engine echo ==========Spawn=========="
+	FireCommand 0.0 "engine x_gametype_spawn"
 }
 
-event PeachRecOpen
+event XOpen
 {
-	//FireCommand 0.01 "engine echo ==========PeachRecOpen=========="
-	//FireCommand 0.01 "engine pr_open"
+	FireCommand 0.01 "engine echo ==========Open=========="
 }
 
-event PeachRecClose
+event XClose
 {
-	//FireCommand 0.01 "engine echo ==========PeachRecClose=========="
-	//FireCommand 0.01 "engine pr_close"
+	FireCommand 0.0 "engine echo ==========Close=========="
+	FireCommand 0.0 "engine x_gametype_close"
 }
 
 //==============================================================================
@@ -319,7 +308,7 @@ event HudReadyPulseEnd
 
 	RunEvent HudTournament_ShowTimerDefault 0.0
 
-	Animate HudScope	xpos	9999	Linear 0.0 0.1 //Scope removal
+	RunEventChild MainMenuOverride GameTypeMvM 0.0	//Apply MvM convars
 }
 
 event HudTournament_HideTimer
@@ -330,6 +319,11 @@ event HudTournament_HideTimer
 event MvMFixer
 {
 	FireCommand 0.0 "engine mvmfix"
+}
+
+event GameTypeMvM
+{
+	FireCommand 0.0 "engine x_gametype_mvm"
 }
 
 //==============================================================================
