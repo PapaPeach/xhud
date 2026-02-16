@@ -1,5 +1,20 @@
 "Resource/HudLayout.res"
 {
+	"ScopeAnchor"
+	{
+		"ControlName"	"Panel"
+		"fieldName"	"ScopeAnchor"
+		"xpos"	"0"
+	}
+	HudScopeCharge
+	{
+		"xpos"	"c32"
+		"ypos"	"cs-0.5"
+		"wide"	"64"
+		"tall"	"128"
+	}
+
+
 	"VerticalCenter"
 	{
 		"ControlName"		"Panel"

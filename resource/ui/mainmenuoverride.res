@@ -5516,7 +5516,7 @@
 				"fieldName"		"XMenuGameTypesPanel"
 				"ypos"		"609"
 				"wide"		"292"
-				"tall"		"40"
+				"tall"		"78"
 				"visible"		"1"
 				"bgcolor_override"		"BlackLight"
 				"proportionaltoparent"		"1"
@@ -5772,6 +5772,227 @@
 					"border_armed"		"FriendHighlightBorder"
 
 					"pin_to_sibling"	"AutoRezoomMvMOn"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"ShadowsLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ShadowsLabel"
+					"font"		"Size 16"
+					"labelText"		"Shadows:"
+					"textAlignment"	"west"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+
+					"pin_to_sibling"	"AutoRezoomLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"ShadowsPvPOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"ShadowsPvPOn"
+					"font"		"Size 10"
+					"labelText"		"PvP: On"
+					"textAlignment"	"center"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine shadowspvpon"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"ShadowsLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"ShadowsPvPOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"ShadowsPvPOff"
+					"font"		"Size 10"
+					"labelText"		"PvP: Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine shadowspvpoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"ShadowsPvPOn"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"ShadowsMvMOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"ShadowsMvMOn"
+					"font"		"Size 10"
+					"labelText"		"MvM: On"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine shadowsmvmon"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"ShadowsPvPOff"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"ShadowsMvMOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"ShadowsMvMOff"
+					"font"		"Size 10"
+					"labelText"		"MvM: Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine shadowsmvmoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"ShadowsMvMOn"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"ScopeRemovalLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ScopeRemovalLabel"
+					"font"		"Size 16"
+					"labelText"		"Scope Removal:"
+					"textAlignment"	"west"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+
+					"pin_to_sibling"	"ShadowsLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"ScopeRemovalPvP"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"ScopeRemovalPvP"
+					"font"		"Size 10"
+					"labelText"		"Not available for PvP!"
+					"textAlignment"	"center"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"mouseinputenabled"	"0"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"WhiteGray"
+					"border_default"		"WhiteGrayHighlightBorder"
+
+					"pin_to_sibling"	"ScopeRemovalLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"ScopeRemovalMvMOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"ScopeRemovalMvMOn"
+					"font"		"Size 10"
+					"labelText"		"MvM: On"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine scoperemovalmvmon"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"ScopeRemovalPvP"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"ScopeRemovalMvMOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"ScopeRemovalMvMOff"
+					"font"		"Size 10"
+					"labelText"		"MvM: Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"43"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine scoperemovalmvmoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"ScopeRemovalMvMOn"
 					"pin_to_sibling_corner"	"1"
 				}
 			}
@@ -6246,7 +6467,7 @@
 			"paintbackground"		"0"
 			"defaultFgColor_override"		"WhiteGray"
 			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
+			"border_default"		"WhiteGrayHighlightBorder"
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"16x10Label"

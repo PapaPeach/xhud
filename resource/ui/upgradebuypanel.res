@@ -1,5 +1,5 @@
 "Resource/UI/UpgradeBuyPanel.res"
-{	
+{
 	"UpgradeBuyPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -8,10 +8,10 @@
 		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
 		"upgradebutton_xpos"	"37"
 		"upgradebutton_ypos"	"31"
-		
+
 		"skilltreebuttons_kv"
 		{
 			"wide"			"14"
@@ -33,7 +33,7 @@
 		"enabled"		"1"
 		"bgcolor_override"	"TransparentBlack"
 	}
-	
+
 	"IconBorder"
 	{
 		"ControlName"	"Panel"
@@ -47,7 +47,7 @@
 		"enabled"		"1"
 		"bgcolor_override"	"White"
 	}
-	
+
 	"Icon"
 	{
 		"ControlName"	"ImagePanel"
@@ -62,7 +62,7 @@
 		"scaleImage"	"1"
 		"image"		"pve/buy_disabled"
 	}
-	
+
 	"PriceLabel"
 	{
 		"ControlName"	"Label"
@@ -78,7 +78,7 @@
 		"textAlignment"	"center"
 		"font"			"Size 14"
 	}
-	
+
 	"ShortDescriptionLabel"
 	{
 		"ControlName"	"Label"
@@ -109,7 +109,7 @@
 		"enabled"		"1"
 		"bgcolor_override"	"GrayDark"
 	}
-	
+
 	"IncrementButton"
 	{
 		"ControlName"	"CImageButton"
@@ -127,7 +127,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	
+
 	"DecrementButton"
 	{
 		"ControlName"	"CImageButton"
@@ -138,7 +138,7 @@
 		"wide"			"16"
 		"tall"			"16"
 		"visible"		"1"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 
 		"activeimage"		"pve/sell_disabled"
 		"inactiveimage"		"pve/sell_disabled"

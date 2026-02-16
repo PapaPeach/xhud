@@ -281,6 +281,18 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"
 		}
+		WhiteGrayHighlightBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{	"1"	{	"color" "WhiteGray"	}	}
+			Right
+			{	"1"	{	"color" "WhiteGray"	}	}
+			Top
+			{	"1"	{	"color" "WhiteGray"	}	}
+			Bottom
+			{	"1"	{	"color" "WhiteGray"	}	}
+		}
 		WhiteGrayBorderUltraThick
 		{
 			"inset" "0 0 1 1"

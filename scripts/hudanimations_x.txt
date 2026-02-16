@@ -49,24 +49,20 @@ event HudTournamentSetupPanelClose	//runs on tournament setup initialization | r
 {
 	Animate HudTournamentSetup	ypos	-70	Spline 0.0 0.2
 
-	RunEventChild MainMenuOverride XClose 0.0	//GameType Detection
+	RunEventChild MainMenuOverride XClose 0.0	//GameType Customizations
+	Animate ScopeAnchor	xpos	0	Linear 0.0 0.001
 }
 
 //GameType Detection
 event XSpawn
 {
-	FireCommand 0.0 "engine echo ==========Spawn=========="
+	//FireCommand 0.0 "engine echo ==========Spawn=========="
 	FireCommand 0.0 "engine x_gametype_spawn"
-}
-
-event XOpen
-{
-	FireCommand 0.01 "engine echo ==========Open=========="
 }
 
 event XClose
 {
-	FireCommand 0.0 "engine echo ==========Close=========="
+	//FireCommand 0.0 "engine echo ==========Close=========="
 	FireCommand 0.0 "engine x_gametype_close"
 }
 
@@ -297,7 +293,7 @@ event HudTournament_ShowTimerDefault	//MvM Countdown
 
 event HudReadyPulseEnd
 {
-	Animate	TournamentInstructionsLabel 	FgColor		"White"		Linear 0.0 0.1
+	Animate	TournamentInstructionsLabel		FgColor		"White"		Linear 0.0 0.1
 
 	StopEvent HudReadyPulse			0.0
 	StopEvent HudReadyPulseLoop		0.0
@@ -309,6 +305,7 @@ event HudReadyPulseEnd
 	RunEvent HudTournament_ShowTimerDefault 0.0
 
 	RunEventChild MainMenuOverride GameTypeMvM 0.0	//Apply MvM convars
+	Animate ScopeAnchor	xpos	9999	Linear 0.0 0.001
 }
 
 event HudTournament_HideTimer
