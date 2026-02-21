@@ -324,6 +324,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Symbols 64"
+		{
+			"1"
+			{
+				"name"	"Hypnotize Icons X3"
+				"tall"	"64"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
 
 		"Class Symbols 24"
 		{
