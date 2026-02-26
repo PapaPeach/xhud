@@ -262,15 +262,15 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"		"4"
-			"ypos"		"4"
+			"xpos"		"6"
+			"ypos"		"6"
 			"zpos"		"1"
-			"wide"		"17"
-			"tall"		"17"
+			"wide"		"13"
+			"tall"		"13"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"		"../hud/ico_reel"
+			"image"		"replay/thumbnails/loadout_icons/taunts"
 		}
 	}
 
