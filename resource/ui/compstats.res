@@ -6,7 +6,7 @@
 		"fieldName"		"ScrollableContainer"
 		"zpos"		"100"
 		"wide"		"p0.3333"
-		"tall"		"374"
+		"tall"		"f71"
 		"visible"		"1"
 
 		"RankImage"

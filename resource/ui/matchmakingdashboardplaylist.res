@@ -9,7 +9,7 @@
 		"ypos"		"0"
 		"zpos"		"6969"
 		"wide"		"f0"
-		"tall"		"59"
+		"tall"		"24"
 		"visible"		"0"
 	}
 
@@ -18,7 +18,7 @@
 		"fieldName"		"playlist"
 		"zpos"		"6969"
 		"wide"		"f0"
-		"tall"		"59"
+		"tall"		"24"
 		"visible"		"1"
 	}
 
@@ -27,7 +27,7 @@
 		"ypos"		"0"
 		"zpos"		"7000"
 		"wide"		"f0"
-		"tall"		"59"
+		"tall"		"24"
 		"font"		""
 	}
 

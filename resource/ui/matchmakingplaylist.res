@@ -7,7 +7,7 @@
 		"xpos"		"rs1"
 		"ypos"		"42"
 		"tall"		"20"
-		"wide"		"p0.3333"
+		"wide"		"p0.25"
 		"proportionaltoparent"	"0"
 
 		"button_command"	"play_event"
@@ -18,9 +18,8 @@
 		"ControlName"	"CPlayListEntry"
 		"fieldName"		"CasualEntry"
 		"xpos"		"rs1"
-		"ypos"		"0"
-		"tall"		"59"
-		"wide"		"p0.3333"
+		"tall"		"24"
+		"wide"		"p0.25"
 		"proportionaltoparent"	"0"
 
 		"button_token"		"#MMenu_PlayList_Casual_Button"
@@ -34,19 +33,18 @@
 		}
 	}
 
-	"CompetitiveEntry"
+	"MvMEntry"
 	{
 		"ControlName"	"CPlayListEntry"
-		"fieldName"		"CompetitiveEntry"
+		"fieldName"		"MvMEntry"
 		"xpos"		"rs2"
-		"ypos"		"0"
-		"tall"		"59"
-		"wide"		"p0.3333"
+		"tall"		"24"
+		"wide"		"p0.25"
 		"proportionaltoparent"	"0"
 
-		"button_token"		"#MMenu_PlayList_Competitive_Button"
-		"button_command"	"play_competitive"
-		"matchgroup"		"2" // k_eTFMatchGroup_Ladder_6v6
+		"button_token"		"#MMenu_PlayList_MvM_Button"
+		"button_command"	"play_mvm"
+		"matchgroup"		"1" // k_eTFMatchGroup_MvM_MannUp
 
 		if_event
 		{
@@ -54,19 +52,46 @@
 		}
 	}
 
-	"MvMEntry"
+	"QuickplayEntry"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"		"QuickplayEntry"
+		"xpos"		"rs3"
+		"tall"		"24"
+		"wide"		"p0.25"
+		"proportionaltoparent"	"0"
+		"labelText"	"Comfig Quickplay"
+		"font"		"Size 28"
+		"command"	"url https://comfig.app/quickplay/"
+		"textAlignment"	"center"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"0"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"MainTheme"
+		"border_default"		"WhiteHighlightBorder"
+		"border_armed"		"FriendHighlightBorder"
+
+		if_event
+		{
+			"ypos"		"3"
+		}
+	}
+
+	"CompetitiveEntry"
 	{
 		"ControlName"	"CPlayListEntry"
-		"fieldName"		"MvMEntry"
-		"xpos"		"rs3"
-		"ypos"		"0"
-		"tall"		"59"
-		"wide"		"p0.3333"
+		"fieldName"		"CompetitiveEntry"
+		"xpos"		"rs4"
+		"tall"		"24"
+		"wide"		"p0.25"
 		"proportionaltoparent"	"0"
 
-		"button_token"		"#MMenu_PlayList_MvM_Button"
-		"button_command"	"play_mvm"
-		"matchgroup"		"1" // k_eTFMatchGroup_MvM_MannUp
+		"button_token"		"#MMenu_PlayList_Competitive_Button"
+		"button_command"	"play_competitive"
+		"matchgroup"		"2" // k_eTFMatchGroup_Ladder_6v6
 
 		if_event
 		{

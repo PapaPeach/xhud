@@ -79,9 +79,10 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"OutterBackground"
+		"xpos"		"cs-0.5"
 		"ypos"		"90"
 		"zpos"		"-1"
-		"wide"		"f0"
+		"wide"		"600"
 		"tall"		"320"
 		"visible"		"1"
 		"enabled"		"1"
@@ -100,8 +101,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TabContainer"
-		"ypos"		"-50"
-		"zpos"		"-2"
+		"ypos"		"-46"
+		"zpos"		"0"
 		"wide"		"407"
 		"tall"		"45"
 		"visible"		"1"
