@@ -69,7 +69,6 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"DirectMvM"
-			//"xpos"		"0"
 			"zpos"		"99"
 			"wide"		"24"
 			"tall"		"24"
@@ -95,7 +94,6 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"DirectCompetitive"
-			//"xpos"		"0"
 			"zpos"		"99"
 			"wide"		"24"
 			"tall"		"24"
@@ -113,7 +111,6 @@
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"Green"
 
-			//"pin_to_sibling"	"DirectMvM"
 			"pin_to_sibling_corner"		"0"
 			"pin_corner_to_sibling"		"1"
 		}
@@ -121,7 +118,6 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"DirectQuickplay"
-			//"xpos"		"0"
 			"zpos"		"99"
 			"wide"		"24"
 			"tall"		"24"
@@ -139,7 +135,6 @@
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"Green"
 
-			//"pin_to_sibling"	"DirectCompetitive"
 			"pin_to_sibling_corner"		"0"
 			"pin_corner_to_sibling"		"1"
 		}
@@ -147,7 +142,6 @@
 		{
 			"ControlName"		"Button"
 			"fieldName"		"DirectExtra"
-			//"xpos"		"0"
 			"zpos"		"99"
 			"wide"		"24"
 			"tall"		"24"
@@ -166,9 +160,6 @@
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"Green"
 
-			//"pin_to_sibling"	"DirectQuickplay"
-			//"pin_to_sibling"	"DirectMvM"
-			//"pin_to_sibling"	"DirectCasual"
 			"pin_to_sibling_corner"		"0"
 			"pin_corner_to_sibling"		"1"
 		}

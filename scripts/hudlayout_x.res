@@ -14,7 +14,6 @@
 		"tall"	"128"
 	}
 
-
 	"VerticalCenter"
 	{
 		"ControlName"		"Panel"
@@ -205,8 +204,7 @@
 
 
 
-	//TF2 Stuff
-
+	//Menu tech
 	"MainMenuOverride"
 	{
 		"ControlName"		"CHudMainMenuOverride"
@@ -225,8 +223,142 @@
 		//Enable quick menu reload
 		"SteamFriendsList"{}
 		"ResolutionSelector"{}
+		"MMDashboard"	//Reloaded by hud_reloadscheme
+		{
+			"TopBar"
+			{
+				"DirectCasual"
+				{
+					"ControlName"		"Button"
+					"fieldName"		"DirectCasual"
+					"xpos"		"rs1"
+					"ypos"		"5"
+					"zpos"		"99"
+					"wide"		"80"
+					"tall"		"24"
+					"visible"	"1"
+					"labelText"	"Game"
+					"font"		"Size 30"
+					"command"	"playcasual"
+					"textAlignment"	"east"
+					"textinsetx"		"5"
+					"proportionaltoparent"	"1"
+					"button_activation_type"	"1"
+
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"paintbackground"	"0"
+					"defaultFgColor_override"	"White"
+					"armedFgColor_override"		"Green"
+				}
+				"DirectMvM"
+				{
+					"ControlName"		"Button"
+					"fieldName"		"DirectMvM"
+					"zpos"		"99"
+					"wide"		"24"
+					"tall"		"24"
+					"labelText"	"K"
+					"font"		"Symbols 26"
+					"command"	"playmvm"
+					"textAlignment"	"center"
+					"proportionaltoparent"	"1"
+					"button_activation_type"	"1"
+
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"paintbackground"	"0"
+					"defaultFgColor_override"	"White"
+					"armedFgColor_override"		"Green"
+
+					"pin_to_sibling"	"DirectCasual"
+					"pin_to_sibling_corner"		"0"
+					"pin_corner_to_sibling"		"1"
+				}
+				"DirectCompetitive"
+				{
+					"ControlName"		"Button"
+					"fieldName"		"DirectCompetitive"
+					"zpos"		"99"
+					"wide"		"24"
+					"tall"		"24"
+					"labelText"	"V"
+					"font"		"Symbols 24"
+					"command"	"playcompetitive"
+					"textAlignment"	"center"
+					"proportionaltoparent"	"1"
+					"button_activation_type"	"1"
+
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"paintbackground"	"0"
+					"defaultFgColor_override"	"White"
+					"armedFgColor_override"		"Green"
+
+
+					//"pin_to_sibling"	"DirectQuickplay"
+					"pin_to_sibling_corner"		"0"
+					"pin_corner_to_sibling"		"1"
+				}
+				"DirectQuickplay"
+				{
+					"ControlName"		"Button"
+					"fieldName"		"DirectQuickplay"
+					"zpos"		"99"
+					"wide"		"24"
+					"tall"		"24"
+					"labelText"	"u"
+					"font"		"Symbols 24"
+					"command"	"url https://comfig.app/quickplay/"
+					"textAlignment"	"center"
+					"proportionaltoparent"	"1"
+					"button_activation_type"	"1"
+
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"paintbackground"	"0"
+					"defaultFgColor_override"	"White"
+					"armedFgColor_override"		"Green"
+
+					"pin_to_sibling_corner"		"0"
+					"pin_corner_to_sibling"		"1"
+				}
+				"DirectExtra"
+				{
+					"ControlName"		"Button"
+					"fieldName"		"DirectExtra"
+					"zpos"		"99"
+					"wide"		"24"
+					"tall"		"24"
+					"labelText"	"~"
+					"font"		"Symbols 26"
+					"command"	"find_game"
+					"textAlignment"	"center"
+					"proportionaltoparent"	"1"
+					"button_activation_type"	"1"
+					"actionsignallevel"		"2"
+
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+
+					"paintbackground"	"0"
+					"defaultFgColor_override"	"White"
+					"armedFgColor_override"		"Green"
+
+					"pin_to_sibling_corner"		"0"
+					"pin_corner_to_sibling"		"1"
+				}
+			}
+		}
 	}
 
+
+
+	//TF2 Stuff
 	HudWeaponAmmo
 	{
 		"xpos"		"0"
