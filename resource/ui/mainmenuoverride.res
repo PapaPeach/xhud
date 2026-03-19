@@ -21,136 +21,6 @@
 			"tall"		"f20"
 		}
 
-		"MMDashboard"	//Reloaded by mat_aaquality
-		{
-			"TopBar"
-			{
-				"DirectCasual"
-				{
-					"ControlName"		"Button"
-					"fieldName"		"DirectCasual"
-					"xpos"		"rs1"
-					"ypos"		"5"
-					"zpos"		"99"
-					"wide"		"80"
-					"tall"		"24"
-					"visible"	"1"
-					"labelText"	"Game"
-					"font"		"Size 30"
-					"command"	"playcasual"
-					"textAlignment"	"east"
-					"textinsetx"		"5"
-					"proportionaltoparent"	"1"
-					"button_activation_type"	"1"
-
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
-
-					"paintbackground"	"0"
-					"defaultFgColor_override"	"White"
-					"armedFgColor_override"		"Green"
-				}
-				"DirectMvM"
-				{
-					"ControlName"		"Button"
-					"fieldName"		"DirectMvM"
-					"zpos"		"99"
-					"wide"		"24"
-					"tall"		"24"
-					"labelText"	"K"
-					"font"		"Symbols 26"
-					"command"	"playmvm"
-					"textAlignment"	"center"
-					"proportionaltoparent"	"1"
-					"button_activation_type"	"1"
-
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
-
-					"paintbackground"	"0"
-					"defaultFgColor_override"	"White"
-					"armedFgColor_override"		"Green"
-
-					"pin_to_sibling"	"DirectCasual"
-					"pin_to_sibling_corner"		"0"
-					"pin_corner_to_sibling"		"1"
-				}
-				"DirectCompetitive"
-				{
-					"ControlName"		"Button"
-					"fieldName"		"DirectCompetitive"
-					"zpos"		"99"
-					"wide"		"24"
-					"tall"		"24"
-					"labelText"	"V"
-					"font"		"Symbols 24"
-					"command"	"playcompetitive"
-					"textAlignment"	"center"
-					"proportionaltoparent"	"1"
-					"button_activation_type"	"1"
-
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
-
-					"paintbackground"	"0"
-					"defaultFgColor_override"	"White"
-					"armedFgColor_override"		"Green"
-
-					"pin_to_sibling_corner"		"0"
-					"pin_corner_to_sibling"		"1"
-				}
-				"DirectQuickplay"
-				{
-					"ControlName"		"Button"
-					"fieldName"		"DirectQuickplay"
-					"zpos"		"99"
-					"wide"		"24"
-					"tall"		"24"
-					"labelText"	"u"
-					"font"		"Symbols 24"
-					"command"	"url https://comfig.app/quickplay/"
-					"textAlignment"	"center"
-					"proportionaltoparent"	"1"
-					"button_activation_type"	"1"
-
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
-
-					"paintbackground"	"0"
-					"defaultFgColor_override"	"White"
-					"armedFgColor_override"		"Green"
-
-					"pin_to_sibling_corner"		"0"
-					"pin_corner_to_sibling"		"1"
-				}
-				"DirectExtra"
-				{
-					"ControlName"		"Button"
-					"fieldName"		"DirectExtra"
-					"zpos"		"99"
-					"wide"		"24"
-					"tall"		"24"
-					"labelText"	"~"
-					"font"		"Symbols 26"
-					"command"	"find_game"
-					"textAlignment"	"center"
-					"proportionaltoparent"	"1"
-					"button_activation_type"	"1"
-					"actionsignallevel"		"2"
-
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
-
-					"paintbackground"	"0"
-					"defaultFgColor_override"	"White"
-					"armedFgColor_override"		"Green"
-
-					"pin_to_sibling_corner"		"0"
-					"pin_corner_to_sibling"		"1"
-				}
-			}
-		}
-
 		"SaxxySettings"
 		{"xpos"	"9999"}
 	}
@@ -961,763 +831,6 @@
 		}
 	}
 
-	"QuickPlayPanel"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"QuickPlayPanel"
-		"xpos"		"rs1-81"
-		"zpos"		"970"
-		"wide"		"187"
-		"tall"		"185"
-		"visible"		"0" //TODO
-
-		"QuickPlayExpandable"
-		{
-			"ControlName"		"CMatchHistoryEntryPanel"
-			"fieldName"		"QuickPlayExpandable"
-			"wide"		"187"
-			"tall"		"24"
-			"visible"	"1"
-
-			"collapsed_height"	"24"
-			"expanded_height"	"219"
-			"resize_time"		"0.05"
-
-			"ignorescheme"	"1"
-
-			"toggle"
-			{
-				"ControlName"	"Button"
-				"xpos"		"rs1"
-				"wide"		"24"
-				"tall"		"24"
-				"visible"	"1"
-				"labelText"	"!"
-				"font"		"Symbols 26"
-				"command"	"toggle_collapse"
-				"textAlignment"	"east"
-				"proportionaltoparent"	"1"
-				"button_activation_type"	"1"
-
-				"sound_depressed"	"UI/buttonclick.wav"
-				"sound_released"	"UI/buttonclickrelease.wav"
-
-				"paintbackground"	"0"
-				"defaultFgColor_override"	"White"
-				"armedFgColor_override"		"0 150 136 255"
-			}
-
-			"Settings"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"Settings"
-				"font"		"Symbols 26"
-				"labelText"		"}"
-				"textAlignment"		"south"
-				"textinsety"		"0"
-				"use_proportional_insets"	"1"
-				"ypos"		"-195"
-				"wide"		"24"
-				"tall"		"24"
-				"visible"		"1"
-				"Command"		"url https://comfig.app/quickplay/?autostart=2"
-				"button_activation_type"	"1"
-
-				"sound_depressed"		"UI/buttonclick.wav"
-				"sound_released"		"UI/buttonclickrelease.wav"
-
-				"paintbackground"		"0"
-				"defaultFgColor_override"		"White"
-				"armedFgColor_override"		"MainTheme"
-
-				"pinCorner"		"2"
-			}
-
-			"Random"
-			{
-				"ControlName"	"CExButton"
-				"fieldName"		"Random"
-				"font"		"Size 10"
-				"labelText"		"Comfig Quick Queue"
-				"textAlignment"		"south"
-				"use_proportional_insets"	"1"
-				"xpos"		"1"
-				"zpos"		"3"
-				"wide"		"137"
-				"tall"		"24"
-				"visible"		"1"
-				"Command"		"url https://comfig.app/quickplay/?autostart=1"
-				"button_activation_type"	"1"
-
-				"sound_depressed"		"UI/buttonclick.wav"
-				"sound_released"		"UI/buttonclickrelease.wav"
-
-				"paintbackground"		"0"
-				"defaultFgColor_override"		"White"
-				"armedFgColor_override"		"MainTheme"
-				"border_default"		"WhiteHighlightBorder"
-				"border_armed"		"FriendHighlightBorder"
-
-				"pin_to_sibling"		"Settings"
-				"pin_to_sibling_corner"	"1"
-			}
-
-			"RandomBG"
-			{
-				"ControlName"	"Panel"
-				"fieldName"		"RandomBG"
-				"zpos"		"2"
-				"wide"		"137"
-				"tall"		"10"
-				"visible"		"1"
-				"bgcolor_override"		"TransparentBlack"
-
-				"pin_to_sibling"		"Random"
-				"pin_corner_to_sibling"	"2"
-				"pin_to_sibling_corner"	"2"
-			}
-
-			"RandomImagePanel"
-			{
-				"ControlName"		"EditablePanel"
-				"fieldName"		"RandomImagePanel"
-				"zpos"		"1"
-				"wide"		"137"
-				"tall"		"24"
-				"visible"	"1"
-
-				"pin_to_sibling"		"Random"
-
-				"Image"
-				{
-					"ControlName"		"ImagePanel"
-					"fieldName"		"Image"
-					"ypos"		"-16"
-					"wide"		"o4"
-					"tall"		"64"
-					"visible"	"1"
-					"image"		"main_menu/main_menu_button_casual"
-					"scaleimage"	"1"
-				}
-			}
-
-			"GameModesExpandable"
-			{
-				"ControlName"		"CMatchHistoryEntryPanel"
-				"fieldName"		"GameModesExpandable"
-				"wide"		"137"
-				"tall"		"10"
-				"visible"	"1"
-
-				"collapsed_height"	"35"
-				"expanded_height"	"195"
-				"resize_time"		"0.05"
-
-				"ignorescheme"	"1"
-
-				"pin_to_sibling"		"Random"
-
-				"ToggleExpand"
-				{
-					"ControlName"	"Button"
-					"zpos"		"1"
-					"wide"		"137"
-					"tall"		"10"
-					"visible"	"1"
-					"labelText"	"▼  Queue Specific Game Modes  ▼"
-					"font"		"Size 10"
-					"command"	"toggle_collapse"
-					"textAlignment"	"center"
-					"button_activation_type"	"1"
-
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
-
-					"paintbackground"	"0"
-					"defaultFgColor_override"	"White"
-					"armedFgColor_override"		"MainTheme"
-
-					"pinCorner"		"2"
-				}
-
-				"ToggleCollapse"
-				{
-					"ControlName"	"Button"
-					"ypos"		"-160"
-					"wide"		"137"
-					"tall"		"10"
-					"visible"	"1"
-					"labelText"	"▲  Queue Specific Game Modes  ▲"
-					"font"		"Size 10"
-					"command"	"toggle_collapse"
-					"textAlignment"	"center"
-					"button_activation_type"	"1"
-
-					"sound_depressed"	"UI/buttonclick.wav"
-					"sound_released"	"UI/buttonclickrelease.wav"
-
-					"paintbackground"	"0"
-					"defaultFgColor_override"	"White"
-					"armedFgColor_override"		"MainTheme"
-
-					"pinCorner"		"2"
-				}
-
-				"Payload"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Payload"
-					"font"		"Size 10"
-					"labelText"		"Payload"
-					"textAlignment"		"south"					"use_proportional_insets"	"1"
-					"ypos"		"1"
-					"zpos"		"2"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"		"1"
-					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=payload"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"		"ToggleCollapse"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"PayloadBG"
-				{
-					"ControlName"	"Panel"
-					"fieldName"		"PayloadBG"
-					"zpos"		"1"
-					"wide"		"68"
-					"tall"		"10"
-					"visible"		"1"
-					"bgcolor_override"		"TransparentBlack"
-
-					"pin_to_sibling"		"Payload"
-					"pin_corner_to_sibling"	"2"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"PayloadImage"
-				{
-					"ControlName"		"EditablePanel"
-					"fieldName"		"PayloadImage"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"	"1"
-
-					"pin_to_sibling"		"Payload"
-
-					"Image"
-					{
-						"ControlName"		"ImagePanel"
-						"fieldName"		"Image"
-						"wide"		"o4"
-						"tall"		"34"
-						"visible"	"1"
-						"image"		"casual/gametype_payload"
-						"scaleimage"	"1"
-					}
-				}
-
-				"Koth"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Koth"
-					"font"		"Size 10"
-					"labelText"		"King Of The Hill"
-					"textAlignment"		"south"					"use_proportional_insets"	"1"
-					"xpos"		"1"
-					"zpos"		"2"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"		"1"
-					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=koth"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"		"Payload"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"KothBG"
-				{
-					"ControlName"	"Panel"
-					"fieldName"		"KothBG"
-					"zpos"		"1"
-					"wide"		"68"
-					"tall"		"10"
-					"visible"		"1"
-					"bgcolor_override"		"TransparentBlack"
-
-					"pin_to_sibling"		"Koth"
-					"pin_corner_to_sibling"	"2"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"KothImage"
-				{
-					"ControlName"		"EditablePanel"
-					"fieldName"		"KothImage"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"	"1"
-
-					"pin_to_sibling"		"Koth"
-
-					"Image"
-					{
-						"ControlName"		"ImagePanel"
-						"fieldName"		"Image"
-						"wide"		"o4"
-						"tall"		"35"
-						"visible"	"1"
-						"image"		"casual/gametype_koth"
-						"scaleimage"	"1"
-					}
-				}
-
-				"Cp"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Cp"
-					"font"		"Size 10"
-					"labelText"		"Control Points"
-					"textAlignment"		"south"					"use_proportional_insets"	"1"
-					"ypos"		"1"
-					"zpos"		"2"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"		"1"
-					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=capture_point"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"		"Payload"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"CpBG"
-				{
-					"ControlName"	"Panel"
-					"fieldName"		"CpBG"
-					"zpos"		"1"
-					"wide"		"68"
-					"tall"		"10"
-					"visible"		"1"
-					"bgcolor_override"		"TransparentBlack"
-
-					"pin_to_sibling"		"Cp"
-					"pin_corner_to_sibling"	"2"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"CpImage"
-				{
-					"ControlName"		"EditablePanel"
-					"fieldName"		"CpImage"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"	"1"
-
-					"pin_to_sibling"		"Cp"
-
-					"Image"
-					{
-						"ControlName"		"ImagePanel"
-						"fieldName"		"Image"
-						"wide"		"o4"
-						"tall"		"34"
-						"visible"	"1"
-						"image"		"casual/gametype_cp"
-						"scaleimage"	"1"
-					}
-				}
-
-				"Ad"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Ad"
-					"font"		"Size 10"
-					"labelText"		"Attack / Defense"
-					"textAlignment"		"south"					"use_proportional_insets"	"1"
-					"xpos"		"1"
-					"zpos"		"2"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"		"1"
-					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=attack_defense"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"		"Cp"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"AdBG"
-				{
-					"ControlName"	"Panel"
-					"fieldName"		"AdBG"
-					"zpos"		"1"
-					"wide"		"68"
-					"tall"		"10"
-					"visible"		"1"
-					"bgcolor_override"		"TransparentBlack"
-
-					"pin_to_sibling"		"Ad"
-					"pin_corner_to_sibling"	"2"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"AdImage"
-				{
-					"ControlName"		"EditablePanel"
-					"fieldName"		"AdImage"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"	"1"
-
-					"pin_to_sibling"		"Ad"
-
-					"Image"
-					{
-						"ControlName"		"ImagePanel"
-						"fieldName"		"Image"
-						"wide"		"o4"
-						"tall"		"34"
-						"visible"	"1"
-						"image"		"casual/gametype_ad"
-						"scaleimage"	"1"
-					}
-				}
-
-				"Plr"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Plr"
-					"font"		"Size 10"
-					"labelText"		"Payload Race"
-					"textAlignment"		"south"					"use_proportional_insets"	"1"
-					"ypos"		"1"
-					"zpos"		"2"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"		"1"
-					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=payload_race"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"		"Cp"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"PlrBG"
-				{
-					"ControlName"	"Panel"
-					"fieldName"		"PlrBG"
-					"zpos"		"1"
-					"wide"		"68"
-					"tall"		"10"
-					"visible"		"1"
-					"bgcolor_override"		"TransparentBlack"
-
-					"pin_to_sibling"		"Plr"
-					"pin_corner_to_sibling"	"2"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"PlrImage"
-				{
-					"ControlName"		"EditablePanel"
-					"fieldName"		"PlrImage"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"	"1"
-
-					"pin_to_sibling"		"Plr"
-
-					"Image"
-					{
-						"ControlName"		"ImagePanel"
-						"fieldName"		"Image"
-						"wide"		"o4"
-						"tall"		"34"
-						"visible"	"1"
-						"image"		"casual/gametype_plr"
-						"scaleimage"	"1"
-					}
-				}
-
-				"Ctf"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Ctf"
-					"font"		"Size 10"
-					"labelText"		"Capture The Flag"
-					"textAlignment"		"south"					"use_proportional_insets"	"1"
-					"xpos"		"1"
-					"zpos"		"2"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"		"1"
-					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=ctf"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"		"Plr"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"CtfBG"
-				{
-					"ControlName"	"Panel"
-					"fieldName"		"CtfBG"
-					"zpos"		"1"
-					"wide"		"68"
-					"tall"		"10"
-					"visible"		"1"
-					"bgcolor_override"		"TransparentBlack"
-
-					"pin_to_sibling"		"Ctf"
-					"pin_corner_to_sibling"	"2"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"CtfImage"
-				{
-					"ControlName"		"EditablePanel"
-					"fieldName"		"CtfImage"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"	"1"
-
-					"pin_to_sibling"		"Ctf"
-
-					"Image"
-					{
-						"ControlName"		"ImagePanel"
-						"fieldName"		"Image"
-						"wide"		"o4"
-						"tall"		"34"
-						"visible"	"1"
-						"image"		"casual/gametype_ctf"
-						"scaleimage"	"1"
-					}
-				}
-
-				"Arena"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Arena"
-					"font"		"Size 10"
-					"labelText"		"Arena"
-					"textAlignment"		"south"					"use_proportional_insets"	"1"
-					"ypos"		"1"
-					"zpos"		"2"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"		"1"
-					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=arena"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"		"Plr"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"ArenaBG"
-				{
-					"ControlName"	"Panel"
-					"fieldName"		"ArenaBG"
-					"zpos"		"1"
-					"wide"		"68"
-					"tall"		"10"
-					"visible"		"1"
-					"bgcolor_override"		"TransparentBlack"
-
-					"pin_to_sibling"		"Arena"
-					"pin_corner_to_sibling"	"2"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"ArenaImage"
-				{
-					"ControlName"		"EditablePanel"
-					"fieldName"		"ArenaImage"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"	"1"
-
-					"pin_to_sibling"		"Arena"
-
-					"Image"
-					{
-						"ControlName"		"ImagePanel"
-						"fieldName"		"Image"
-						"wide"		"o4"
-						"tall"		"34"
-						"visible"	"1"
-						"image"		"casual/gametype_arena"
-						"scaleimage"	"1"
-					}
-				}
-
-				"Misc"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"Misc"
-					"font"		"Size 10"
-					"labelText"		"Misc"
-					"textAlignment"		"south"					"use_proportional_insets"	"1"
-					"xpos"		"1"
-					"zpos"		"2"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"		"1"
-					"Command"		"url https://comfig.app/quickplay/?autostart=1&gm=alternative"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"		"Arena"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"MiscBG"
-				{
-					"ControlName"	"Panel"
-					"fieldName"		"MiscBG"
-					"zpos"		"1"
-					"wide"		"68"
-					"tall"		"10"
-					"visible"		"1"
-					"bgcolor_override"		"TransparentBlack"
-
-					"pin_to_sibling"		"Misc"
-					"pin_corner_to_sibling"	"2"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"MiscImage"
-				{
-					"ControlName"		"EditablePanel"
-					"fieldName"		"MiscImage"
-					"wide"		"o2"
-					"tall"		"34"
-					"visible"	"1"
-
-					"pin_to_sibling"		"Misc"
-
-					"Image"
-					{
-						"ControlName"		"ImagePanel"
-						"fieldName"		"Image"
-						"wide"		"o4"
-						"tall"		"34"
-						"visible"	"1"
-						"image"		"casual/gametype_featured_campaign3"
-						"scaleimage"	"1"
-					}
-				}
-
-				"Credit"
-				{
-					"ControlName"	"CAutoFittingLabel"
-					"fieldName"		"Credit"
-					"wide"		"137"
-					"tall"		"10"
-					"visible"		"1"
-					"labelText"		"Comfig Quickplay by mastercoms"
-					"font"		"Size 10"
-					"centerwrap"	"1"
-					"alpha"		"100"
-
-					"pin_to_sibling"		"Arena"
-					"pin_to_sibling_corner"	"2"
-
-					"colors"
-					{
-						"1"		"White"
-						"2"		"0 150 136 255"
-					}
-				}
-
-				"container"
-				{"visible"	"0"}
-				"BottomStats"
-				{"visible"	"0"}
-			}
-
-			"container"
-			{"visible"	"0"}
-			"BottomStats"
-			{"visible"	"0"}
-		}
-	}
-
 	//INGAME BUTTONS
 
 	"Vote"
@@ -2227,7 +1340,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuMainPanel"
 				"wide"		"292"
-				"tall"		"220"
+				"tall"		"202"
 				"visible"		"1"
 				"bgcolor_override"		"BlackLight"
 				"proportionaltoparent"		"1"
@@ -2862,78 +1975,6 @@
 					"pin_to_sibling_corner"	"1"
 				}
 
-				"FriendsListLabel"
-				{
-					"ControlName"	"CExLabel"
-					"fieldName"		"FriendsListLabel"
-					"font"		"Size 16"
-					"labelText"		"Friends List:"
-					"textAlignment"	"west"
-					"ypos"		"4"
-					"wide"		"100"
-					"tall"		"14"
-					"visible"		"1"
-					"fgcolor"		"White"
-
-					"pin_to_sibling"	"PlayerModelLabel"
-					"pin_to_sibling_corner"	"2"
-				}
-
-				"FriendsListOn"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"FriendsListOn"
-					"font"		"Size 16"
-					"labelText"		"On"
-					"textAlignment"	"center"
-					"wide"		"90"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine friendsliston"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"FriendsListLabel"
-					"pin_to_sibling_corner"	"1"
-				}
-
-				"FriendsListOff"
-				{
-					"ControlName"	"CExButton"
-					"fieldName"		"FriendsListOff"
-					"font"		"Size 16"
-					"labelText"		"Off"
-					"textAlignment"	"center"
-					"xpos"		"4"
-					"wide"		"90"
-					"tall"		"14"
-					"visible"		"1"
-					"Command"		"engine friendslistoff"
-					"actionsignallevel"		"4"
-					"button_activation_type"	"1"
-
-					"sound_depressed"		"UI/buttonclick.wav"
-					"sound_released"		"UI/buttonclickrelease.wav"
-
-					"paintbackground"		"0"
-					"defaultFgColor_override"		"White"
-					"armedFgColor_override"		"MainTheme"
-					"border_default"		"WhiteHighlightBorder"
-					"border_armed"		"FriendHighlightBorder"
-
-					"pin_to_sibling"	"FriendsListOn"
-					"pin_to_sibling_corner"	"1"
-				}
-
 				"TeamIndicatorLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -2947,7 +1988,7 @@
 					"visible"		"1"
 					"fgcolor"		"White"
 
-					"pin_to_sibling"	"FriendsListLabel"
+					"pin_to_sibling"	"PlayerModelLabel"
 					"pin_to_sibling_corner"	"2"
 				}
 
@@ -3151,11 +2192,381 @@
 				}
 			}
 
+			"XMenuMenuCustomizationPanel"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldName"		"XMenuMenuCustomizationPanel"
+				"ypos"		"207"
+				"wide"		"292"
+				"tall"		"94"
+				"visible"		"1"
+				"bgcolor_override"		"BlackLight"
+				"proportionaltoparent"		"1"
+
+				"FriendsListLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"FriendsListLabel"
+					"font"		"Size 16"
+					"labelText"		"Friends List:"
+					"textAlignment"	"west"
+					"xpos"		"4"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+				}
+
+				"FriendsListOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"FriendsListOn"
+					"font"		"Size 16"
+					"labelText"		"On"
+					"textAlignment"	"center"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine friendsliston"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"FriendsListLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"FriendsListOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"FriendsListOff"
+					"font"		"Size 16"
+					"labelText"		"Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine friendslistoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"FriendsListOn"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"DirectMvMLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"DirectMvMLabel"
+					"font"		"Size 16"
+					"labelText"		"MvM Btn:"
+					"textAlignment"	"west"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+
+					"pin_to_sibling"	"FriendsListLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"DirectMvMOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"DirectMvMOn"
+					"font"		"Size 16"
+					"labelText"		"On"
+					"textAlignment"	"center"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine directmvmon"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"DirectMvMLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"DirectMvMOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"DirectMvMOff"
+					"font"		"Size 16"
+					"labelText"		"Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine directmvmoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"DirectMvMOn"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"DirectCompetitiveLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"DirectCompetitiveLabel"
+					"font"		"Size 16"
+					"labelText"		"Comp Btn:"
+					"textAlignment"	"west"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+
+					"pin_to_sibling"	"DirectMvMLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"DirectCompetitiveOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"DirectCompetitiveOn"
+					"font"		"Size 16"
+					"labelText"		"On"
+					"textAlignment"	"center"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine directcompon"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"DirectCompetitiveLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"DirectCompetitiveOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"DirectCompetitiveOff"
+					"font"		"Size 16"
+					"labelText"		"Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine directcompoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"DirectCompetitiveOn"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"DirectQuickplayLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"DirectQuickplayLabel"
+					"font"		"Size 16"
+					"labelText"		"Quickplay Btn:"
+					"textAlignment"	"west"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+
+					"pin_to_sibling"	"DirectCompetitiveLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"DirectQuickplayOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"DirectQuickplayOn"
+					"font"		"Size 16"
+					"labelText"		"On"
+					"textAlignment"	"center"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine directqpon"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"DirectQuickplayLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"DirectQuickplayOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"DirectQuickplayOff"
+					"font"		"Size 16"
+					"labelText"		"Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine directqpoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"DirectQuickplayOn"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"DirectExtraLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"DirectExtraLabel"
+					"font"		"Size 16"
+					"labelText"		"All Modes Btn:"
+					"textAlignment"	"west"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+
+					"pin_to_sibling"	"DirectQuickplayLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"DirectExtraOn"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"DirectExtraOn"
+					"font"		"Size 16"
+					"labelText"		"On"
+					"textAlignment"	"center"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine directextraon"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"DirectExtraLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"DirectExtraOff"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"DirectExtraOff"
+					"font"		"Size 16"
+					"labelText"		"Off"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine directextraoff"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"DirectExtraOn"
+					"pin_to_sibling_corner"	"1"
+				}
+			}
+
 			"XMenuTransparentViewmodelPanel"
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuTransparentViewmodelPanel"
-				"ypos"		"225"
+				"ypos"		"306"
 				"wide"		"292"
 				"tall"		"58"
 				"visible"		"1"
@@ -3380,7 +2791,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuCenteredInfoPanel"
-				"ypos"		"288"
+				"ypos"		"369"
 				"wide"		"292"
 				"tall"		"82"
 				"visible"		"1"
@@ -3878,7 +3289,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuCrosshairPanel"
-				"ypos"		"375"
+				"ypos"		"456"
 				"wide"		"292"
 				"tall"		"112"
 				"visible"		"1"
@@ -4761,7 +4172,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuHitmarkerPanel"
-				"ypos"		"492"
+				"ypos"		"573"
 				"wide"		"292"
 				"tall"		"112"
 				"visible"		"1"
@@ -5644,9 +5055,9 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuGameTypesPanel"
-				"ypos"		"609"
+				"ypos"		"690"
 				"wide"		"292"
-				"tall"		"78"
+				"tall"		"76"
 				"visible"		"1"
 				"bgcolor_override"		"BlackLight"
 				"proportionaltoparent"		"1"
@@ -6188,7 +5599,7 @@
 			"wide"		"140"
 			"tall"		"14"
 			"visible"		"1"
-			"Command"		"engine alias writeover xhudreset"
+			"Command"		"engine alias writeover x_hudreset"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"2"
 
@@ -6248,7 +5659,7 @@
 			"wide"		"284"
 			"tall"		"24"
 			"visible"		"1"
-			"Command"		"engine exec xhud_save;exec xhud_generate;writeover;alias writeover;hud_reloadscheme;cl_mainmenu_safemode 0;gameui_allowescape;mat_queue_mode -1"
+			"Command"		"engine exec xhud_save;exec xhud_generate;writeover;alias writeover;x_reloadhud;cl_mainmenu_safemode 0;gameui_allowescape;mat_queue_mode -1"
 			"actionsignallevel"		"2"
 			"button_activation_type"	"2"
 

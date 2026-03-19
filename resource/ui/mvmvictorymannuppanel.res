@@ -82,7 +82,7 @@
 		"xpos"		"cs-0.5"
 		"ypos"		"90"
 		"zpos"		"-1"
-		"wide"		"600"
+		"wide"		"620"
 		"tall"		"320"
 		"visible"		"1"
 		"enabled"		"1"

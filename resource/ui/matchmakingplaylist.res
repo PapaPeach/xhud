@@ -52,11 +52,30 @@
 		}
 	}
 
+	"CompetitiveEntry"
+	{
+		"ControlName"	"CPlayListEntry"
+		"fieldName"		"CompetitiveEntry"
+		"xpos"		"rs3"
+		"tall"		"24"
+		"wide"		"p0.25"
+		"proportionaltoparent"	"0"
+
+		"button_token"		"#MMenu_PlayList_Competitive_Button"
+		"button_command"	"play_competitive"
+		"matchgroup"		"2" // k_eTFMatchGroup_Ladder_6v6
+
+		if_event
+		{
+			"ypos"		"3"
+		}
+	}
+
 	"QuickplayEntry"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"		"QuickplayEntry"
-		"xpos"		"rs3"
+		"xpos"		"rs4"
 		"tall"		"24"
 		"wide"		"p0.25"
 		"proportionaltoparent"	"0"
@@ -73,25 +92,6 @@
 		"armedFgColor_override"		"MainTheme"
 		"border_default"		"WhiteHighlightBorder"
 		"border_armed"		"FriendHighlightBorder"
-
-		if_event
-		{
-			"ypos"		"3"
-		}
-	}
-
-	"CompetitiveEntry"
-	{
-		"ControlName"	"CPlayListEntry"
-		"fieldName"		"CompetitiveEntry"
-		"xpos"		"rs4"
-		"tall"		"24"
-		"wide"		"p0.25"
-		"proportionaltoparent"	"0"
-
-		"button_token"		"#MMenu_PlayList_Competitive_Button"
-		"button_command"	"play_competitive"
-		"matchgroup"		"2" // k_eTFMatchGroup_Ladder_6v6
 
 		if_event
 		{
