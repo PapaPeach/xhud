@@ -32,7 +32,7 @@
 	"CloseButton"
 	{
 		"ControlName"	"Button"
-		"fieldName"		"XMenuClose"
+		"fieldName"		"CloseButton"
 		"zpos"		"1"
 		"wide"		"22"
 		"tall"		"22"
@@ -164,9 +164,10 @@
 		"labelText"		"Use ping limit"
 		"use_proportional_insets"	"1"
 		"textinsetx"	"0"
+		"xpos"		"2"
 		"ypos"		"4"
 		"zpos"		"1"
-		"wide"		"129"
+		"wide"		"117"
 		"tall"		"14"
 		"visible"		"1"
 		"Command"		"engine toggle tf_mm_custom_ping_enabled"
@@ -179,8 +180,9 @@
 		"paintbackground"		"0"
 		"defaultFgColor_override"		"White"
 
-		"pin_to_sibling"	"IgnorePartyInvitesButton"
-		"pin_to_sibling_corner"	"2"
+		"pin_to_sibling"	"InviteModeComboBox"
+		"pin_to_sibling_corner"	"3"
+		"pin_corner_to_sibling"	"1"
 	}
 
 	"CustomPing"
@@ -197,39 +199,20 @@
 		"pin_corner_to_sibling"	"1"
 	}
 
-	"DescLabel"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"DescLabel"
-		"ypos"		"4"
-		"wide"		"f18"
-		"tall"		"20"
-		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_LobbyContainer_CustomPingDesc"
-		"textAlignment"	"north-west"
-		"font"		"Size 10"
-		"wrap"		"1"
-		"fgcolor"		"WhiteDark"
-		"visible"	"0"
-
-		"pin_to_sibling"	"CustomPingButton"
-		"pin_to_sibling_corner"	"2"
-	}
-
 	"CurrentPingLabel"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"CurrentPingLabel"
-		"xpos"		"4"
-		"wide"		"f151"
+		"ypos"		"4"
+		"wide"		"f18"
 		"tall"		"14"
 		"proportionaltoparent"	"1"
 		"textAlignment"	"center"
 		"font"		"Size 16"
 		"fgcolor_override"	"White"
 
-		"pin_to_sibling"	"CustomPingButton"
-		"pin_to_sibling_corner"	"1"
+		"pin_to_sibling"	"IgnorePartyInvitesButton"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"PingSlider"
@@ -245,7 +228,7 @@
 		"cvar_name"	"tf_mm_custom_ping"
 		"use_convar_minmax"	"1"
 
-		"pin_to_sibling"	"CustomPingButton"
+		"pin_to_sibling"	"CurrentPingLabel"
 		"pin_to_sibling_corner"	"2"
 	}
 
@@ -253,6 +236,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DataCenterContainer"
+		"xpos"		"8"
 		"wide"		"f1"
 		"tall"		"f113"
 		"visible"		"1"
@@ -297,4 +281,7 @@
 			}
 		}
 	}
+
+	"ReturnButton"
+	{"visible"	"0"}
 }
