@@ -320,6 +320,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
+		"xpos"		"2"
 		"zpos"		"20"
 		"wide"		"f0"
 		"tall"		"100"
@@ -346,8 +347,7 @@
 			"enabled"		"1"
 
 			"pin_to_sibling"		"KillsAssistsLine"
-			"pin_corner_to_sibling"		"5"
-			"pin_to_sibling_corner"		"7"
+			"pin_corner_to_sibling"		"1"
 		}
 		"KillsAssistsLine"
 		{
@@ -364,8 +364,7 @@
 			"enabled"		"1"
 
 			"pin_to_sibling"		"AssistsCount"
-			"pin_corner_to_sibling"		"5"
-			"pin_to_sibling_corner"		"7"
+			"pin_corner_to_sibling"		"1"
 		}
 		"AssistsCount"
 		{
@@ -399,8 +398,7 @@
 			"enabled"		"1"
 
 			"pin_to_sibling"		"AssistsCount"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
+			"pin_to_sibling_corner"		"1"
 		}
 		"DeathsCount"
 		{
@@ -417,8 +415,7 @@
 			"enabled"		"1"
 
 			"pin_to_sibling"		"AssistsDeathsLine"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
+			"pin_to_sibling_corner"		"1"
 		}
 		"DamageLabel"
 		{
@@ -438,8 +435,7 @@
 			"auto_wide_tocontents"		"1"
 
 			"pin_to_sibling"		"DamageCount"
-			"pin_corner_to_sibling"		"5"
-			"pin_to_sibling_corner"		"7"
+			"pin_corner_to_sibling"		"1"
 		}
 		"DamageCount"
 		{
@@ -503,8 +499,7 @@
 			"auto_wide_tocontents"		"1"
 
 			"pin_to_sibling"		"HealingLabel"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
+			"pin_to_sibling_corner"		"1"
 		}
 		"HeadshotsLabel"
 		{
@@ -515,9 +510,8 @@
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"west"
 			"xpos"		"220"
-			"ypos"		"0"
 			"zpos"		"3"
-			"wide"		"55"
+			"wide"		"58"
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
@@ -538,8 +532,7 @@
 			"enabled"		"1"
 
 			"pin_to_sibling"		"HeadshotsLabel"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
+			"pin_to_sibling_corner"		"1"
 		}
 		"BackstabsLabel"
 		{
@@ -550,7 +543,7 @@
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"west"
 			"zpos"		"3"
-			"wide"		"55"
+			"wide"		"58"
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
@@ -574,8 +567,7 @@
 			"enabled"		"1"
 
 			"pin_to_sibling"		"BackstabsLabel"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
+			"pin_to_sibling_corner"		"1"
 		}
 		"InvulnLabel"
 		{
@@ -586,7 +578,7 @@
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"west"
 			"zpos"		"3"
-			"wide"		"55"
+			"wide"		"58"
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
@@ -610,8 +602,7 @@
 			"enabled"		"1"
 
 			"pin_to_sibling"		"InvulnLabel"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
+			"pin_to_sibling_corner"		"1"
 		}
 		"CapturesLabel"
 		{
@@ -621,8 +612,9 @@
 			"fgcolor"		"White"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"west"
+			"xpos"		"-3"
 			"zpos"		"3"
-			"wide"		"55"
+			"wide"		"58"
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
@@ -646,8 +638,7 @@
 			"enabled"		"1"
 
 			"pin_to_sibling"		"CapturesLabel"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
+			"pin_to_sibling_corner"		"1"
 		}
 		"DefensesLabel"
 		{
@@ -658,7 +649,7 @@
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"west"
 			"zpos"		"3"
-			"wide"		"55"
+			"wide"		"58"
 			"tall"		"14"
 			"visible"		"1"
 			"enabled"		"1"
@@ -682,27 +673,284 @@
 			"enabled"		"1"
 
 			"pin_to_sibling"		"DefensesLabel"
-			"pin_corner_to_sibling"		"7"
-			"pin_to_sibling_corner"		"5"
+			"pin_to_sibling_corner"		"1"
 		}
+
+		//Customization
+		"ExtendedBG"
+		{
+			"ControlName"	"Panel"
+			"fieldName"	"ExtendedBG"
+			"wide"		"f0"
+			"tall"		"28"
+			"ypos"		"42"
+			"bgcolor_override"	"TransparentBlack"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"SupportLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"SupportLabel"
+			"font"		"Size 12"
+			"fgcolor"		"White"
+			"labelText"		"#TF_ScoreBoard_Support"
+			"textAlignment"		"west"
+			"zpos"		"3"
+			"wide"		"52"
+			"tall"		"14"
+			"enabled"	"1"
+
+			"pin_to_sibling"		"DamageLabel"
+			"pin_to_sibling_corner"		"2"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"SupportCount"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"SupportCount"
+			"font"		"Size 12"
+			"fgcolor"		"White"
+			"labelText"		"%support%"
+			"textAlignment"		"west"
+			"zpos"		"3"
+			"wide"		"99"
+			"tall"		"14"
+			"enabled"	"1"
+
+			"pin_to_sibling"		"SupportLabel"
+			"pin_to_sibling_corner"		"1"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"BonusLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"BonusLabel"
+			"font"		"Size 12"
+			"fgcolor"		"White"
+			"labelText"		"#TF_ScoreBoard_BonusLabel"
+			"textAlignment"		"west"
+			"zpos"		"3"
+			"wide"		"52"
+			"tall"		"14"
+			"enabled"	"1"
+
+			"pin_to_sibling"		"SupportLabel"
+			"pin_to_sibling_corner"		"2"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"BonusCount"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"BonusCount"
+			"font"		"Size 12"
+			"fgcolor"		"White"
+			"labelText"		"%bonus%"
+			"textAlignment"		"west"
+			"zpos"		"3"
+			"wide"		"99"
+			"tall"		"14"
+			"enabled"	"1"
+
+			"pin_to_sibling"		"BonusLabel"
+			"pin_to_sibling_corner"		"1"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"TeleportsLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"TeleportsLabel"
+			"font"		"Size 12"
+			"fgcolor"		"White"
+			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
+			"textAlignment"		"west"
+			"zpos"		"3"
+			"wide"		"58"
+			"tall"		"14"
+			"enabled"	"1"
+
+			"pin_to_sibling"		"InvulnLabel"
+			"pin_to_sibling_corner"		"2"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"TeleportsCount"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"TeleportsCount"
+			"font"		"Size 12"
+			"fgcolor"		"White"
+			"labelText"		"%teleports%"
+			"textAlignment"		"west"
+			"zpos"		"3"
+			"wide"		"99"
+			"tall"		"14"
+			"enabled"	"1"
+
+			"pin_to_sibling"		"TeleportsLabel"
+			"pin_to_sibling_corner"		"1"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"DestructionLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"DestructionLabel"
+			"font"		"Size 12"
+			"fgcolor"		"White"
+			"labelText"		"#TF_ScoreBoard_DestructionLabel"
+			"textAlignment"		"west"
+			"zpos"		"3"
+			"wide"		"58"
+			"tall"		"14"
+			"enabled"	"1"
+
+			"pin_to_sibling"		"TeleportsLabel"
+			"pin_to_sibling_corner"		"2"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"DestructionCount"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"DestructionCount"
+			"font"		"Size 12"
+			"fgcolor"		"White"
+			"labelText"		"%destruction%"
+			"textAlignment"		"west"
+			"zpos"		"3"
+			"wide"		"99"
+			"tall"		"14"
+			"enabled"	"1"
+
+			"pin_to_sibling"		"DestructionLabel"
+			"pin_to_sibling_corner"		"1"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"DominationLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"DominationLabel"
+			"font"		"Size 12"
+			"fgcolor"		"White"
+			"labelText"		"#TF_ScoreBoard_DominationLabel"
+			"textAlignment"		"west"
+			"ypos"		"14"
+			"zpos"		"3"
+			"wide"		"58"
+			"tall"		"14"
+			"enabled"	"1"
+
+			"pin_to_sibling"		"DefensesLabel"
+			"pin_to_sibling_corner"		"2"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"DominationCount"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"DominationCount"
+			"font"		"Size 12"
+			"fgcolor"		"White"
+			"labelText"		"%dominations%"
+			"textAlignment"		"west"
+			"zpos"		"3"
+			"wide"		"99"
+			"tall"		"14"
+			"enabled"	"1"
+
+			"pin_to_sibling"		"DominationLabel"
+			"pin_to_sibling_corner"		"1"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"RevengeLabel"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"RevengeLabel"
+			"font"		"Size 12"
+			"fgcolor"		"White"
+			"labelText"		"#TF_ScoreBoard_RevengeLabel"
+			"textAlignment"		"west"
+			"zpos"		"3"
+			"wide"		"58"
+			"tall"		"14"
+			"enabled"	"1"
+
+			"pin_to_sibling"		"DominationLabel"
+			"pin_to_sibling_corner"		"2"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+		"RevengeCount"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"RevengeCount"
+			"font"		"Size 12"
+			"fgcolor"		"White"
+			"labelText"		"%revenge%"
+			"textAlignment"		"west"
+			"zpos"		"3"
+			"wide"		"99"
+			"tall"		"14"
+			"enabled"	"1"
+
+			"pin_to_sibling"		"RevengeLabel"
+			"pin_to_sibling_corner"		"1"
+
+			if_mvm
+			{
+				"visible"	"0"
+			}
+		}
+
 		"KillsLabel"
 		{"fieldName"	"KillsLabel"	"visible"	"0"}
 		"AssistsLabel"
 		{"fieldName"	"AssistsLabel"	"visible"	"0"}
 		"DeathsLabel"
 		{"fieldName"	"DeathsLabel"	"visible"	"0"}
-		"DominationLabel"
-		{"fieldName"	"DominationLabel"	"visible"	"0"}
-		"RevengeLabel"
-		{"fieldName"	"RevengeLabel"	"visible"	"0"}
-		"TeleportsLabel"
-		{"fieldName"	"TeleportsLabel"	"visible"	"0"}
-		"BonusLabel"
-		{"fieldName"	"BonusLabel"	"visible"	"0"}
-		"SupportLabel"
-		{"fieldName"	"SupportLabel"	"visible"	"0"}
-		"DestructionLabel"
-		{"fieldName"	"DestructionLabel"	"visible"	"0"}
 		"Kills"
 		{"fieldName"	"Kills"	"visible"	"0"}
 		"Deaths"
@@ -749,7 +997,7 @@
 		"xpos"		"-374"
 		"ypos"		"-28"
 		"zpos"		"3"
-		"wide"		"55"
+		"wide"		"58"
 		"tall"		"14"
 		"visible"		"1"
 		"enabled"		"1"
@@ -780,8 +1028,7 @@
 		"fgcolor"		"White"
 
 		"pin_to_sibling"		"MapLabel"
-		"pin_corner_to_sibling"		"7"
-		"pin_to_sibling_corner"		"5"
+		"pin_to_sibling_corner"		"1"
 
 		if_mvm
 		{
@@ -797,7 +1044,6 @@
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"		"-1"
-		"ypos"		"0"
 		"zpos"		"3"
 		"wide"		"1"
 		"tall"		"8"
@@ -824,7 +1070,6 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"		"-1"
-		"ypos"		"0"
 		"zpos"		"4"
 		"wide"		"p0.7"
 		"tall"		"8"

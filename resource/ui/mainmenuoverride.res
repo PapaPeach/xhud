@@ -1337,7 +1337,7 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuMainPanel"
 				"wide"		"292"
-				"tall"		"202"
+				"tall"		"220"
 				"visible"		"1"
 				"bgcolor_override"		"BlackLight"
 				"proportionaltoparent"		"1"
@@ -1540,6 +1540,78 @@
 					"pin_to_sibling_corner"	"1"
 				}
 
+				"ScoreboardStatsLabel"
+				{
+					"ControlName"	"CExLabel"
+					"fieldName"		"ScoreboardStatsLabel"
+					"font"		"Size 16"
+					"labelText"		"Player Stats:"
+					"textAlignment"	"west"
+					"ypos"		"4"
+					"wide"		"100"
+					"tall"		"14"
+					"visible"		"1"
+					"fgcolor"		"White"
+
+					"pin_to_sibling"	"ScoreboardLabel"
+					"pin_to_sibling_corner"	"2"
+				}
+
+				"ScoreboardStatsFull"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"ScoreboardStatsFull"
+					"font"		"Size 16"
+					"labelText"		"Full"
+					"textAlignment"	"center"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine sbstatsfull"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"ScoreboardStatsLabel"
+					"pin_to_sibling_corner"	"1"
+				}
+
+				"ScoreboardStatsNotable"
+				{
+					"ControlName"	"CExButton"
+					"fieldName"		"ScoreboardStatsNotable"
+					"font"		"Size 16"
+					"labelText"		"Notable"
+					"textAlignment"	"center"
+					"xpos"		"4"
+					"wide"		"90"
+					"tall"		"14"
+					"visible"		"1"
+					"Command"		"engine sbstatsnotable"
+					"actionsignallevel"		"4"
+					"button_activation_type"	"1"
+
+					"sound_depressed"		"UI/buttonclick.wav"
+					"sound_released"		"UI/buttonclickrelease.wav"
+
+					"paintbackground"		"0"
+					"defaultFgColor_override"		"White"
+					"armedFgColor_override"		"MainTheme"
+					"border_default"		"WhiteHighlightBorder"
+					"border_armed"		"FriendHighlightBorder"
+
+					"pin_to_sibling"	"ScoreboardStatsFull"
+					"pin_to_sibling_corner"	"1"
+				}
+
 				"ScoreboardMedalsLabel"
 				{
 					"ControlName"	"CExLabel"
@@ -1553,7 +1625,7 @@
 					"visible"		"1"
 					"fgcolor"		"White"
 
-					"pin_to_sibling"	"ScoreboardLabel"
+					"pin_to_sibling"	"ScoreboardStatsLabel"
 					"pin_to_sibling_corner"	"2"
 				}
 
@@ -2193,7 +2265,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuMenuCustomizationPanel"
-				"ypos"		"207"
+				"ypos"		"225"
 				"wide"		"292"
 				"tall"		"94"
 				"visible"		"1"
@@ -2297,7 +2369,7 @@
 					"wide"		"90"
 					"tall"		"14"
 					"visible"		"1"
-					"Command"		"engine directmvmon"
+					"Command"		"engine directmvmon;alias x_reloadhud x_reloadhud_hard"
 					"actionsignallevel"		"4"
 					"button_activation_type"	"1"
 
@@ -2325,7 +2397,7 @@
 					"wide"		"90"
 					"tall"		"14"
 					"visible"		"1"
-					"Command"		"engine directmvmoff"
+					"Command"		"engine directmvmoff;alias x_reloadhud x_reloadhud_hard"
 					"actionsignallevel"		"4"
 					"button_activation_type"	"1"
 
@@ -2369,7 +2441,7 @@
 					"wide"		"90"
 					"tall"		"14"
 					"visible"		"1"
-					"Command"		"engine directcompon"
+					"Command"		"engine directcompon;alias x_reloadhud x_reloadhud_hard"
 					"actionsignallevel"		"4"
 					"button_activation_type"	"1"
 
@@ -2397,7 +2469,7 @@
 					"wide"		"90"
 					"tall"		"14"
 					"visible"		"1"
-					"Command"		"engine directcompoff"
+					"Command"		"engine directcompoff;alias x_reloadhud x_reloadhud_hard"
 					"actionsignallevel"		"4"
 					"button_activation_type"	"1"
 
@@ -2441,7 +2513,7 @@
 					"wide"		"90"
 					"tall"		"14"
 					"visible"		"1"
-					"Command"		"engine directqpon"
+					"Command"		"engine directqpon;alias x_reloadhud x_reloadhud_hard"
 					"actionsignallevel"		"4"
 					"button_activation_type"	"1"
 
@@ -2469,7 +2541,7 @@
 					"wide"		"90"
 					"tall"		"14"
 					"visible"		"1"
-					"Command"		"engine directqpoff"
+					"Command"		"engine directqpoff;alias x_reloadhud x_reloadhud_hard"
 					"actionsignallevel"		"4"
 					"button_activation_type"	"1"
 
@@ -2513,7 +2585,7 @@
 					"wide"		"90"
 					"tall"		"14"
 					"visible"		"1"
-					"Command"		"engine directextraon"
+					"Command"		"engine directextraon;alias x_reloadhud x_reloadhud_hard"
 					"actionsignallevel"		"4"
 					"button_activation_type"	"1"
 
@@ -2541,7 +2613,7 @@
 					"wide"		"90"
 					"tall"		"14"
 					"visible"		"1"
-					"Command"		"engine directextraoff"
+					"Command"		"engine directextraoff;alias x_reloadhud x_reloadhud_hard"
 					"actionsignallevel"		"4"
 					"button_activation_type"	"1"
 
@@ -2563,7 +2635,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuTransparentViewmodelPanel"
-				"ypos"		"306"
+				"ypos"		"324"
 				"wide"		"292"
 				"tall"		"58"
 				"visible"		"1"
@@ -2788,7 +2860,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuCenteredInfoPanel"
-				"ypos"		"369"
+				"ypos"		"387"
 				"wide"		"292"
 				"tall"		"82"
 				"visible"		"1"
@@ -3286,7 +3358,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuCrosshairPanel"
-				"ypos"		"456"
+				"ypos"		"474"
 				"wide"		"292"
 				"tall"		"112"
 				"visible"		"1"
@@ -4169,7 +4241,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuHitmarkerPanel"
-				"ypos"		"573"
+				"ypos"		"591"
 				"wide"		"292"
 				"tall"		"112"
 				"visible"		"1"
@@ -5052,7 +5124,7 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"XMenuGameTypesPanel"
-				"ypos"		"690"
+				"ypos"		"708"
 				"wide"		"292"
 				"tall"		"76"
 				"visible"		"1"

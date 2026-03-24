@@ -5,7 +5,6 @@
 		"fieldName"		"partychat"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"		"0"
 		"ypos"		"10"
 		"zpos"		"999"
 		"wide"		"175"
@@ -63,7 +62,6 @@
 	"chatentry"
 	{
 		"fieldName"		"chatentry"
-		"xpos"		"0"
 		"ypos"		"rs1+19"
 		"zpos"		"1"
 		"wide"		"f0"
