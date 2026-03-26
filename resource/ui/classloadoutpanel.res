@@ -4,16 +4,14 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"class_loadout_panel"
-		"xpos"		"0"
-		"ypos"		"0"
 		"wide"		"f0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"	"1"
+		"enabled"	"1"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"BlackLight"
-		"infocus_bgcolor_override" "BlackLight"
-		"outoffocus_bgcolor_override" "BlackLight"
+		"infocus_bgcolor_override"	"BlackLight"
+		"outoffocus_bgcolor_override"	"BlackLight"
 
 		"item_xpos_offcenter_a"	"-288"
 		"item_xpos_offcenter_b"	"148"
@@ -28,7 +26,7 @@
 		"button_xpos_offcenter"	"175"
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
-		"button_override_delete_xpos" "0"
+		"button_override_delete_xpos"	"0"
 
 		"modelpanels_kv"
 		{
@@ -59,7 +57,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" "0"
+				"use_item_rendertarget"	"0"
 				"allow_rot"		"0"
 			}
 		}
@@ -67,8 +65,6 @@
 		"itemoptionpanels_kv"
 		{
 			"ControlName"	"CExButton"
-			"xpos"		"0"
-			"ypos"		"0"
 			"zpos"		"1"
 			"wide"		"14"
 			"tall"		"14"
@@ -86,7 +82,6 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-
 		"xpos"		"c-135"
 		"ypos"		"20"
 		"zpos"		"-1"
@@ -103,16 +98,16 @@
 		{
 			"force_pos"	"1"
 
-			"angles_x" "0"
-			"angles_y" "170"
-			"angles_z" "0"
-			"origin_x" "190"
-			"origin_y" "0"
-			"origin_z" "-48"
+			"angles_x"	"0"
+			"angles_y"	"170"
+			"angles_z"	"0"
+			"origin_x"	"190"
+			"origin_y"	"0"
+			"origin_z"	"-48"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight" "1"
+			"spotlight"	"1"
 
 			"modelname"		""
 		}
@@ -142,8 +137,6 @@
 		"attriblabel"
 		{
 			"font"		"Size 11"
-			"xpos"		"0"
-			"ypos"		"0"
 			"zpos"		"2"
 			"wide"		"140"
 			"tall"		"60"
@@ -163,7 +156,6 @@
 		"font"		"Size 11"
 		"xpos"		"c-135"
 		"ypos"		"120"
-		"zpos"		"0"
 		"wide"		"270"
 		"tall"		"240"
 		"visible"		"0"
@@ -190,8 +182,6 @@
 	{
 		"ControlName"	"CLoadoutParticleSlider"
 		"fieldname"		"ItemOptionsPanel"
-		"xpos"		"0"
-		"ypos"		"0"
 		"zpos"		"100"
 		"wide"		"140"
 		"tall"		"75"
@@ -206,7 +196,6 @@
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
 		"xpos"		"3"
-		"ypos"		"0"
 		"zpos"		"2"
 		"wide"		"25"
 		"tall"		"24"
@@ -220,8 +209,7 @@
 		"border_armed"	"MainMenuButtonArmed"
 
 		"pin_to_sibling"		"TauntLoadoutButton"
-		"pin_corner_to_sibling"	"5"
-		"pin_to_sibling_corner"	"7"
+		"pin_corner_to_sibling"	"1"
 
 		"SubImage"
 		{
@@ -279,7 +267,6 @@
 		"ControlName"		"CExButton"
 		"fieldName"		"Blue"
 		"xpos"		"3"
-		"ypos"		"0"
 		"zpos"		"2"
 		"wide"		"25"
 		"tall"		"24"
@@ -296,8 +283,7 @@
 		"border_armed"	"MainMenuButtonArmed"
 
 		"pin_to_sibling"		"CharacterLoadoutButton"
-		"pin_corner_to_sibling"	"5"
-		"pin_to_sibling_corner"	"7"
+		"pin_corner_to_sibling"	"1"
 	}
 
 	"Red"
@@ -305,7 +291,6 @@
 		"ControlName"		"CExButton"
 		"fieldName"		"Red"
 		"xpos"		"3"
-		"ypos"		"0"
 		"zpos"		"2"
 		"wide"		"25"
 		"tall"		"24"
@@ -322,7 +307,68 @@
 		"border_armed"	"MainMenuButtonArmed"
 
 		"pin_to_sibling"		"Blue"
-		"pin_corner_to_sibling"	"5"
-		"pin_to_sibling_corner"	"7"
+		"pin_corner_to_sibling"	"1"
+	}
+
+	"HotkeyLabelM1"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"HotkeyLabelM1"
+		"wide"		"120"
+		"tall"		"10"
+		"visible"	"1"
+		"font"		"Size 10"
+		"fgcolor_override"	"TransparentBlack"
+		"labelText"		"M1: Tilt character"
+
+		"pin_to_sibling"	"HotkeyLabelM2"
+		"pin_corner_to_sibling"	"2"
+	}
+
+	"HotkeyLabelM2"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"HotkeyLabelM2"
+		"xpos"		"cs-1-168"
+		"ypos"		"rs1-24"
+		"wide"		"120"
+		"tall"		"10"
+		"visible"	"1"
+		"font"		"Size 10"
+		"fgcolor_override"	"TransparentBlack"
+		"labelText"		"M2: Zoom character"
+		"proportionaltoparent"	"1"
+	}
+
+	"HotkeyLabelShift"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"HotkeyLabelShift"
+		"xpos"		"c168"
+		"ypos"		"rs1-24"
+		"wide"		"120"
+		"tall"		"10"
+		"visible"	"1"
+		"font"		"Size 10"
+		"fgcolor_override"	"TransparentBlack"
+		"labelText"		"SHIFT + M1: Shift character"
+		"textAlignment"	"east"
+		"proportionaltoparent"	"1"
+	}
+
+	"HotkeyLabelCtrl"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"HotkeyLabelCtrl"
+		"wide"		"120"
+		"tall"		"10"
+		"visible"	"1"
+		"font"		"Size 10"
+		"fgcolor_override"	"TransparentBlack"
+		"textAlignment"	"east"
+		"labelText"		"CTRL + M1: Control light"
+
+		"pin_to_sibling"	"HotkeyLabelShift"
+		"pin_corner_to_sibling"	"2"
 	}
 }
