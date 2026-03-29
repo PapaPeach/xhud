@@ -74,10 +74,10 @@
 		"wide"		"17"
 		"tall"		"10"
 		"visible"		"1"
-		"mouseinputenabled"		"0"
+		//"mouseinputenabled"		"0"
 		"font"		"Size 8"
 		"fgcolor_override"		"White"
-		"textAlignment"		"west"
+		//"textAlignment"		"west"
 		"labelText"		"Xhud"
 	}
 
