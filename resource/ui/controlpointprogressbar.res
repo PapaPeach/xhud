@@ -35,18 +35,7 @@
 	}
 
 	"Blocked"
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"	"Blocked"
-		"wide"		"20"
-		"tall"		"20"
-		"visible"	"1"
-		"enabled"	"1"
-		"scaleImage"	"1"
-		"icon"		"cappoint_progressbar_blocked"
-		"iconColor"	"Black"
-	}
-
+	{"ControlName"	"CIconPanel" "fieldName" "Blocked" "wide" "0" "tall" "0" "visible" "0" "enabled" "0"}
 	"ProgressBar"
 	{"ControlName"	"CircularProgressBar"	"xpos"	"9999"}
 	"ProgressText"
