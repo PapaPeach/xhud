@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+    "$baseTexture"                                                  "vgui/replay/thumbnails/loadout_icons/taunts"
+    "$translucent"                                                  "1"
+    "$vertexcolor"                                                  "1"
+    "$vertexalpha"                                                  "1"
+}
