@@ -2112,6 +2112,18 @@ Scheme
 			"draw_corner_height" 	"0"
 		}
 
+		StoreNewBorder
+		{
+			"bordertype"		"scalable_image"
+			"color"		"White"
+
+			"image"		"White"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
+		}
+
 		StoreHighlightedBorder
 		{
 			"bordertype"		"scalable_image"

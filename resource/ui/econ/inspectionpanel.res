@@ -264,7 +264,7 @@
 				"visible"	"0"
 			}
 
-			"paintbackground"	"0"
+			"paintbackground"	"1"
 			"fgcolor_override"	"White"
 			"disabledFgColor_override" "White"
 			"selectionColor_override" "Blank"
@@ -323,7 +323,7 @@
 
 			"proportionaltoparent"	"1"
 
-			"paintbackground"	"0"
+			"paintbackground"	"1"
 			"fgcolor_override"	"White"
 			"disabledFgColor_override" "WhiteGray"
 			"selectionColor_override" "Blank"
