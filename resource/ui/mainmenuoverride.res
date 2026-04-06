@@ -155,7 +155,6 @@
 		"mouseinputenabled"		"0"
 
 		"matchgroup"		"MatchGroup_Casual_12v12"
-
 		"show_model"		"0"
 		"show_type"		"1"
 	}
@@ -176,7 +175,6 @@
 			"fieldName"		"TipSubLabel"
 			"font"		"Size 14"
 			"labelText"		"%tipsubtext%"
-			"textAlignment"		"center"
 			"xpos"		"20"
 			"ypos"		"30"
 			"wide"		"250"
@@ -184,7 +182,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor_override"	"White"
-			"wrap"		"1"
+			"centerwrap"		"1"
 		}
 
 		"TipLabel"

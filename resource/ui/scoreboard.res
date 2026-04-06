@@ -32,7 +32,7 @@
 		"tall_minmode"	"44"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"TransparentBlack"
+		"bgcolor_override"		"TransparentGrayDarkest"
 		"proportionaltoparent"		"1"
 
 		if_mvm
@@ -51,7 +51,7 @@
 		"tall"		"260"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"TransparentBlack"
+		"bgcolor_override"		"TransparentGrayDarkest"
 		"proportionaltoparent"		"1"
 
 		if_mvm
@@ -684,7 +684,7 @@
 			"wide"		"f0"
 			"tall"		"28"
 			"ypos"		"42"
-			"bgcolor_override"	"TransparentBlack"
+			"bgcolor_override"	"TransparentGrayDarkest"
 
 			if_mvm
 			{
