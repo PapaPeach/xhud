@@ -124,6 +124,7 @@
 				"tall"		"222"
 				"visible"		"1"
 				"paintbackground"	"0"
+				"skip_autoresize"	"1"
 
 				//All the controls below get laid out off of the item name label's
 				//position and the break sizes defined at the top of this file
@@ -250,7 +251,7 @@
 					"fieldName"		"ArmoryTextLabel"
 					"font"		"Size 8"
 					"textAlignment"	"north-west"
-					"wide"		"228"
+					"wide"		"220" //Used for description of map stamps
 					"tall"		"10"
 					"visible"		"1"
 					"enabled"		"1"
