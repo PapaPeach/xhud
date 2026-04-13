@@ -144,7 +144,7 @@
 				"model_center_y"	"1"
 				"model_wide"	"40"
 				"model_tall"	"30"
-				"text_ypos"		"100"	// Hide it off the bottom
+				"text_ypos"		"9999"
 				"text_center"	"1"
 				"paint_icon_hide"	"1"
 				"actionsignallevel"	"4"
@@ -453,7 +453,7 @@
 			"model_ypos"	"0"
 			"model_wide"	"200"
 			"model_tall"	"125"
-			"text_ypos"		"100"	// Hide it off the bottom
+			"text_ypos"		"9999"
 			"text_center"	"1"
 			"model_only"		"1"
 			"paint_icon_hide"	"1"
