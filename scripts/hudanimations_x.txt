@@ -56,14 +56,13 @@ event HudTournamentSetupPanelClose	//runs on tournament setup initialization | r
 //GameType Detection
 event XSpawn
 {
-	//FireCommand 0.0 "engine echo ==========Spawn=========="
 	FireCommand 0.0 "engine x_gametype_spawn"
 }
 
 event XClose
 {
-	//FireCommand 0.0 "engine echo ==========Close=========="
 	FireCommand 0.0 "engine x_gametype_close"
+	FireCommand 0.0 "engine +score;-score"	//Fix tf_scoreboard_mouse_mode 2 behaving as clicked initially
 }
 
 //==============================================================================
@@ -234,13 +233,19 @@ event TeamStatus_PlayerDead
 {
 	SetVisible respawntime	1 0.0
 	SetVisible RespawnBG	1 0.0
+
 	//PlaySound 0 "weapons/det_pack_timer.wav"
+	//SetVisible RecentDeathBar	1 0.0
+	//Animate RecentDeathBar	tall	"24"	Linear 0.0 0.001
+	//Animate RecentDeathBar	tall	"0"	Linear 0.002 10.0
 }
 
 event TeamStatus_PlayerAlive
 {
 	SetVisible respawntime	0 0.0
 	SetVisible RespawnBG	0 0.0
+
+	//SetVisible RecentDeathBar 0 0.0
 }
 
 //==============================================================================
