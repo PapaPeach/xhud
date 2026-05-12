@@ -5,7 +5,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGImage"
 		"xpos"		"cs-0.5"
-		"ypos"		"0"
 		"zpos"		"1"
 		"wide"		"300"
 		"tall"		"p0.75"
@@ -14,7 +13,7 @@
 		"image"		"replay/thumbnails/panels/black"
 		"scaleImage"	"1"
 		"alpha"		"240"
-		"proportionaltoparent" "1"
+		"proportionaltoparent"	"1"
 	}
 
 	"ItemName"
@@ -22,28 +21,26 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"ItemName"
 		"xpos"		"cs-0.5"
-		"ypos"		"0"
 		"zpos"		"5"
 		"wide"		"f0"
 		"tall"		"200"
 		"visible"		"1"
 		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"WhiteGray"
-		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		"mouseinputenabled"	"0"
 		"proportionaltoparent"	"1"
 
 		"text_ypos"		"15"
 		"text_center"	"0"
-		"paint_icon_hide" "1"
+		"paint_icon_hide"	"1"
 		"model_hide"	"1"
 		"text_forcesize"	"4"
 		"name_only"	"1"
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget"	"0"
 			"allow_rot"		"0"
 			"inventory_image_type"	"1"
 			"continued_velocity"	"1"
@@ -54,16 +51,14 @@
 	{
 		"fieldName"		"ModelInspectionPanel"
 		"xpos"		"cs-0.5"
-		"ypos"		"0"
 		"zpos"		"5"
 		"wide"		"o1.5"
 		"tall"		"p0.8"
 		"visible"		"1"
-
 		"proportionaltoparent"	"1"
 
 		"force_use_model"		"1"
-		"use_item_rendertarget" "0"
+		"use_item_rendertarget"	"0"
 		"allow_rot"		"1"
 		"allow_pitch"		"1"
 		"max_pitch"		"30"
@@ -74,18 +69,16 @@
 		"model"
 		{
 			"force_pos"	"1"
-
-			"angles_x" "7"
-			"angles_y" "130"
-			"angles_z" "0"
-			"origin_x" "175"
-			"origin_y" "0"
-			"origin_z" "0"
+			"angles_x"	"7"
+			"angles_y"	"130"
+			"angles_z"	"0"
+			"origin_x"	"175"
+			"origin_y"	"0"
+			"origin_z"	"0"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
-			"spotlight" "1"
-
+			"spotlight"	"1"
 			"modelname"		""
 		}
 
@@ -97,6 +90,7 @@
 				"color"		"1 1 1"
 				"direction"		"0 0 -1"
 			}
+
 			"spot light"
 			{
 				"name"		"spot"
@@ -109,6 +103,7 @@
 				"maxDistance"		"1000"
 				"exponent"		"25"
 			}
+
 			"point light"
 			{
 				"name"		"point"
@@ -126,7 +121,7 @@
 		"fieldName"		"TeamNavPanel"
 		"xpos"		"cs-0.5"
 		"ypos"		"p.7-16"
-		"zpos"		"100"
+		"zpos"		"99"
 		"wide"		"60"
 		"tall"		"25"
 		"visible"		"1"
@@ -147,13 +142,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		""
-			"textAlignment"		"south"
 			"scaleImage"		"1"
 
-			"fgcolor"		"White"
-			"defaultFgColor_override" "White"
-			"armedFgColor_override" "White"
-			"depressedFgColor_override" "White"
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"	"White"
+			"depressedFgColor_override"	"White"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -162,8 +155,8 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 
-			"image_drawcolor"		"255 255 255 40"
-			"image_armedcolor"		"255 255 255 120"
+			"image_drawcolor"		"255 255 255 20"
+			"image_armedcolor"		"255 255 255 100"
 			"image_selectedcolor"	"255 255 255 255"
 
 			"stayselectedonclick"	"1"
@@ -173,9 +166,6 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"		"0"
-				"ypos"		"0"
-				"zpos"		"7"
 				"wide"		"21"
 				"tall"		"19"
 				"visible"		"1"
@@ -198,6 +188,7 @@
 					"image"		"store/store_redteam"
 				}
 			}
+
 			"scout"
 			{
 				"userdata"		"3"
@@ -246,12 +237,12 @@
 			"wrap"		"0"
 			"xpos"		"rs1-10"
 			"ypos"		"10"
-			"zpos"		"100"
+			"zpos"		"99"
 			"wide"		"200"
 			"tall"		"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"textHidden"		"0"
+			"textHidden"	"0"
 			"editable"		"0"
 			"maxchars"		"-1"
 			"NumericInputOnly"	"0"
@@ -266,9 +257,9 @@
 
 			"paintbackground"	"1"
 			"fgcolor_override"	"White"
-			"disabledFgColor_override" "White"
-			"selectionColor_override" "Blank"
-			"selectionTextColor_override" "White"
+			"disabledFgColor_override"	"White"
+			"selectionColor_override"	"Blank"
+			"selectionTextColor_override"	"White"
 		}
 
 		"PaintkitLabel"
@@ -304,12 +295,12 @@
 			{
 				"ypos"		"10"
 			}
-			"zpos"		"100"
+			"zpos"		"99"
 			"wide"		"200"
 			"tall"		"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"textHidden"		"0"
+			"textHidden"	"0"
 			"editable"		"0"
 			"maxchars"		"-1"
 			"NumericInputOnly"	"0"
@@ -325,9 +316,9 @@
 
 			"paintbackground"	"1"
 			"fgcolor_override"	"White"
-			"disabledFgColor_override" "WhiteGray"
-			"selectionColor_override" "Blank"
-			"selectionTextColor_override" "White"
+			"disabledFgColor_override"	"WhiteGray"
+			"selectionColor_override"	"Blank"
+			"selectionTextColor_override"	"White"
 		}
 
 		"ItemLabel"
@@ -436,13 +427,13 @@
 			{
 				"ypos"		"30"
 			}
-			"zpos"		"10"
+			"zpos"		"9"
 			"wide"		"70"
 			"tall"		"20"
 			"enabled"		"1"
 			"labelText"		"#TF_ItemPreview_PaintkitSeed"
-			"actionsignallevel" "2"
-			"use_proportional_insets" "1"
+			"actionsignallevel"	"2"
+			"use_proportional_insets"	"1"
 			"textAlignment"	"center"
 			"keyboardinputenabled"	"0"
 
@@ -471,15 +462,15 @@
 			{
 				"ypos"		"30"
 			}
-			"zpos"		"10"
+			"zpos"		"9"
 			"wide"		"115"
 			"tall"		"20"
 			"enabled"		"1"
-			"actionsignallevel" "2"
+			"actionsignallevel"	"2"
 			"NumericInputOnly"	"1"
 			"fgcolor_override"	"White"
 			"bgcolor_override"	"TransparentBlack"
-			"selectionColor_override" "MainTheme"
+			"selectionColor_override"	"MainTheme"
 			"maxchars"		"20"
 
 			"consume_mode"
@@ -502,7 +493,7 @@
 			{
 				"ypos"		"30"
 			}
-			"zpos"		"100"
+			"zpos"		"99"
 			"wide"		"75"
 			"tall"		"20"
 			"labelText"		"#TF_ItemAd_ViewOnMarket"
@@ -513,7 +504,7 @@
 			"proportionaltoparent"	"1"
 			"paintbackground"	"1"
 			"command"	"market"
-			"actionsignallevel" "2"
+			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
 
 			"defaultFgColor_override"	"White"

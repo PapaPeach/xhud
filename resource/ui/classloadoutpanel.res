@@ -7,8 +7,6 @@
 		"wide"		"f0"
 		"visible"	"1"
 		"enabled"	"1"
-		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"BlackLight"
 		"infocus_bgcolor_override"	"BlackLight"
 		"outoffocus_bgcolor_override"	"BlackLight"
@@ -36,9 +34,8 @@
 			"wide"		"140"
 			"tall"		"70"
 			"visible"		"0"
-			"bgcolor_override"		"Blank"
 			"noitem_textcolor"		"WhiteGray"
-			"PaintBackgroundType"	"0"
+			"paintbackground"	"0"
 			"paintborder"	"1"
 
 			"model_center_x"	"1"
@@ -119,13 +116,12 @@
 		"fieldName"		"mouseoveritempanel"
 		"xpos"		"c-70"
 		"ypos"		"270"
-		"zpos"		"100"
+		"zpos"		"99"
 		"wide"		"300"
 		"tall"		"300"
 		"visible"		"0"
-		"bgcolor_override"		"Blank"
 		"noitem_textcolor"		"WhiteGray"
-		"PaintBackgroundType"	"0"
+		"paintbackground"	"0"
 		"paintborder"	"1"
 
 		"text_ypos"		"15"
@@ -161,8 +157,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"	"south"
-		"fgcolor"		"255 215 0 255"
+		"fgcolor"		"QualityColorUnique"
 		"centerwrap"	"1"
 	}
 
@@ -182,12 +177,11 @@
 	{
 		"ControlName"	"CLoadoutParticleSlider"
 		"fieldname"		"ItemOptionsPanel"
-		"zpos"		"100"
+		"zpos"		"99"
 		"wide"		"140"
 		"tall"		"75"
 		"visible"		"0"
 		"bgcolor_override"		"GrayDarkest"
-		"PaintBackgroundType"	"0"
 	}
 
 	"CharacterLoadoutButton"
@@ -202,6 +196,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"Command"		"characterloadout"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -217,7 +212,6 @@
 			"fieldName"		"SubImage"
 			"xpos"		"4"
 			"ypos"		"4"
-			"zpos"		"1"
 			"wide"		"17"
 			"tall"		"17"
 			"visible"		"1"
@@ -240,6 +234,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"Command"		"tauntloadout"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
@@ -252,7 +247,6 @@
 			"fieldName"		"SubImage"
 			"xpos"		"6"
 			"ypos"		"6"
-			"zpos"		"1"
 			"wide"		"13"
 			"tall"		"13"
 			"visible"		"1"
@@ -276,6 +270,7 @@
 		"textAlignment"		"center"
 		"font"		"Size 20"
 		"command"		"sv_cheats 1;r_skin 1"
+
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 
@@ -300,6 +295,7 @@
 		"textAlignment"		"center"
 		"font"		"Size 20"
 		"command"		"sv_cheats 1;r_skin 0"
+
 		"sound_depressed"		"UI/buttonclick.wav"
 		"sound_released"		"UI/buttonclickrelease.wav"
 

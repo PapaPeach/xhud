@@ -10,67 +10,57 @@
 		"wide"		"200"
 		"tall"		"105"
 		"bgcolor_override"		"BlackLight"
-		"paintbackgroundtype"	"0"
-		"settitlebarvisible"	"0"
 		"border"		"NoBorder"
 	}
-	
+
 	"TitleLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"TitleLabel"
-		"font"		"HudFontSmallBold"
-		"xpos"		"0"
+		"font"		"Size 14"
 		"ypos"		"8"
-		"zpos"		"0"
 		"wide"		"200"
 		"tall"		"42"
 		"visible"		"1"
 		"enabled"		"1"
-		"wrap"		"0"
 		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
-		"textAlignment"		"center"
-		"fgcolor_override" "Red"
-		"bgcolor_override" "Blank"
+		"fgcolor_override"	"Red"
+		"PaintBackground"	"0"
 	}
 
 	"EllipsesLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"EllipsesLabel"
-		"font"		"HudFontSmallBold"
-		"xpos"		"0"
+		"font"		"Size 14"
 		"ypos"		"42"
-		"zpos"		"0"
 		"wide"		"200"
 		"tall"		"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%ellipses%"
 		"textAlignment"		"north"
-		"fgcolor_override" "Red"
-		"bgcolor_override" "Blank"
+		"fgcolor_override"	"Red"
+		"PaintBackground"	"0"
 	}
 
 	"DurationLabel"
-	{	
+	{
 		"ControlName"	"Label"
 		"fieldName"		"DurationLabel"
-		"font"		"HudFontSmallBold"
-		"xpos"		"0"
+		"font"		"Size 14"
 		"ypos"		"52"
-		"zpos"		"0"
 		"wide"		"200"
 		"tall"		"60"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%duration%"
 		"textAlignment"		"north"
-		"fgcolor_override" "Red"
-		"bgcolor_override" "Blank"
+		"fgcolor_override"	"Red"
+		"PaintBackground"	"0"
 	}
-	
+
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -83,9 +73,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Cancel"
-		"font"		"HudFontSmallBold"
+		"font"		"Size 14"
 		"textAlignment"	"center"
 		"Command"		"user_close"
+
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}

@@ -296,7 +296,7 @@
 		"zpos"		"5"
 		"wide"		"420"
 		"tall"		"60"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override"	"Red"
 		"bgcolor_override"	"GrayDarkest"
