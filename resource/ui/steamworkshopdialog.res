@@ -38,7 +38,6 @@
 		"tall"		"436"
 		"visible"		"1"
 		"bgcolor_override"		"GrayDark"
-		"PaintBackgroundType"	"0"
 		"paintbackground"	"1"
 	}
 

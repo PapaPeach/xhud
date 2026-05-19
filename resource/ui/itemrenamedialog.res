@@ -204,7 +204,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"CustomNameEntry"
-		"xpos"		"200"
+		"xpos"		"202"
 		"ypos"		"136"
 		"wide"		"188"
 		"tall"		"20"

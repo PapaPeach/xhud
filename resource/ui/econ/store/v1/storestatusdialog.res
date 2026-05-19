@@ -11,8 +11,6 @@
 		"wide"		"250"
 		"tall"		"150"
 		"bgcolor_override"		"BlackLight"
-		"settitlebarvisible"	"0"
-		"border"		"NoBorder"
 	}
 
 	"TitleLabel"
@@ -20,16 +18,15 @@
 		"ControlName"		"Label"
 		"fieldName"		"TitleLabel"
 		"font"		"Size 14"
-		"xpos"		"10"
+		"xpos"		"15"
 		"ypos"		"10"
-		"wide"		"230"
+		"wide"		"220"
 		"tall"		"90"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"
+		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
 		"fgcolor_override"	"Red"
-		"bgcolor_override"	"Blank"
 	}
 
 	"CloseButton"
@@ -38,7 +35,6 @@
 		"fieldName"		"CloseButton"
 		"xpos"		"75"
 		"ypos"		"110"
-		"zpos"		"1"
 		"wide"		"100"
 		"tall"		"25"
 		"visible"		"1"
