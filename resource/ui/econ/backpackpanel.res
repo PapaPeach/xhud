@@ -7,11 +7,11 @@
 		"wide"		"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"settitlebarvisible"	"0"
+		//"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"BlackLight"
-		"infocus_bgcolor_override" "BlackLight"
-		"outoffocus_bgcolor_override" "BlackLight"
+		"infocus_bgcolor_override"	"BlackLight"
+		"outoffocus_bgcolor_override"	"BlackLight"
 
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -26,13 +26,13 @@
 		"button_xpos_offcenter"	"175"
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
-		"button_override_delete_xpos" "0"
+		"button_override_delete_xpos"	"0"
 
 		"page_button_y"	"288"
-		"page_button_x_delta" "4"
-		"page_button_y_delta" "3"
-		"page_button_per_row" "20"
-		"page_button_height" "13"
+		"page_button_x_delta"	"4"
+		"page_button_y_delta"	"3"
+		"page_button_per_row"	"20"
+		"page_button_height"	"13"
 
 		"pagebuttons_kv"
 		{
@@ -70,7 +70,7 @@
 				"wide"		"25"
 				"tall"		"13"
 				"visible"		"1"
-				"mouseinputenabled" "0"
+				"mouseinputenabled"	"0"
 				"paintbackground"	"0"
 				"border"		"WhiteHighlightBorderUltraThick"
 				"fgcolor"		"Blank"
@@ -103,7 +103,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" "0"
+				"use_item_rendertarget"	"0"
 				"allow_rot"		"0"
 			}
 
@@ -120,7 +120,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"labelText"		"#Store_Price_New"
-				"mouseinputenabled" "0"
+				"mouseinputenabled"	"0"
 				"paintbackground"	"0"
 				"proportionaltoparent"	"1"
 				"border"		"MaterialWhite"
@@ -167,8 +167,8 @@
 		"unicode"		"1"
 		"fgcolor_override"	"White"
 		"bgcolor_override"	"TransparentBlack"
-		"selectionColor_override" "MainTheme"
-		"paintbackgroundtype" "0"
+		"selectionColor_override"	"MainTheme"
+		"paintbackgroundtype"	"0"
 		"font"		"Size 10"
 	}
 
@@ -265,9 +265,9 @@
 		"unicode"		"0"
 
 		"fgcolor_override"	"White"
-		"disabledFgColor_override" "White"
-		"selectionColor_override" "MainTheme"
-		"selectionTextColor_override" "White"
+		"disabledFgColor_override"	"White"
+		"selectionColor_override"	"MainTheme"
+		"selectionTextColor_override"	"White"
 
 		"pin_to_sibling"		"SortByComboBox"
 		"pin_corner_to_sibling"		"3"
@@ -293,9 +293,9 @@
 		"unicode"		"0"
 
 		"fgcolor_override"	"White"
-		"disabledFgColor_override" "White"
-		"selectionColor_override" "MainTheme"
-		"selectionTextColor_override" "White"
+		"disabledFgColor_override"	"White"
+		"selectionColor_override"	"MainTheme"
+		"selectionTextColor_override"	"White"
 	}
 
 	"ShowBaseItemsCheckbox"
@@ -378,7 +378,7 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget"	"0"
 			"allow_rot"		"0"
 		}
 	}
@@ -433,7 +433,7 @@
 		"enabled"		"1"
 		"image"		"backpack_jewel_modify_target_b_g"
 		"tileImage"		"0"
-		"tileVertically" "0"
+		"tileVertically"	"0"
 		"drawcolor"		"112 176 74 255"
 	}
 

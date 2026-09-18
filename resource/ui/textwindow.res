@@ -8,7 +8,7 @@
 		"tall"		"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"settitlebarvisible"	"0"
+		//"settitlebarvisible"	"0"
 	}
 
 	"TFMessageTitle"

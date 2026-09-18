@@ -11,7 +11,7 @@
 		"tall"		"110"
 		"bgcolor_override"		"GrayDarkest"
 		"paintbackgroundtype"	"0"
-		"settitlebarvisible"	"0"
+		//"settitlebarvisible"	"0"
 		"border"		"NoBorder"
 	}
 
@@ -31,7 +31,7 @@
 		"centerwrap"	"0"
 		"labelText"		""
 		"textAlignment"		"center"
-		"bgcolor_override" "Blank"
+		"bgcolor_override"	"Blank"
 	}
 
 	"RecipeItemModelPanel"
@@ -57,13 +57,13 @@
 		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
 		"textAlignment"		"center"
-		"fgcolor_override" "Red"
-		"bgcolor_override" "Blank"
-		"auto_wide_tocontents" "1"
+		"fgcolor_override"	"Red"
+		"bgcolor_override"	"Blank"
+		"auto_wide_tocontents"	"1"
 
-		"pin_to_sibling"               "CenterPositioner"
-    "pin_corner_to_sibling"        "4"
-    "pin_to_sibling_corner"        "4"
+		"pin_to_sibling"		"CenterPositioner"
+		"pin_corner_to_sibling"	"4"
+		"pin_to_sibling_corner"	"4"
 	}
 	"EllipsesLabel"
 	{
@@ -79,12 +79,12 @@
 		"enabled"		"1"
 		"labelText"		"%ellipses%"
 		"textAlignment"		"west"
-		"fgcolor_override" "Red"
-		"bgcolor_override" "Blank"
+		"fgcolor_override"	"Red"
+		"bgcolor_override"	"Blank"
 
-		"pin_to_sibling"               "TitleLabel"
-    "pin_corner_to_sibling"        "0"
-    "pin_to_sibling_corner"        "1"
+		"pin_to_sibling"	"TitleLabel"
+		//"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"CloseButton"

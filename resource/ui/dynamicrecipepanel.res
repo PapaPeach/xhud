@@ -9,11 +9,11 @@
 		"zpos"		"501"
 		"visible"		"1"
 		"enabled"		"1"
-		"settitlebarvisible"	"0"
+		//"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"BlackLight"
-		"infocus_bgcolor_override" "BlackLight"
-		"outoffocus_bgcolor_override" "BlackLight"
+		"infocus_bgcolor_override"	"BlackLight"
+		"outoffocus_bgcolor_override"	"BlackLight"
 
 		"item_ypos"		"50"
 		"output_item_ypos"		"255"
@@ -44,15 +44,15 @@
 			"model_tall"	"35"
 			"text_center"	"1"
 			"name_only"		"1"
-			"text_forcesize" "3"
-			"noitem_use_fullpanel" "1"
+			"text_forcesize"	"3"
+			"noitem_use_fullpanel"	"1"
 
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" "0"
+				"use_item_rendertarget"	"0"
 				"allow_rot"		"0"
 			}
 		}
@@ -210,7 +210,7 @@
 			"tall"		"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "White"
+			"fgcolor_override"	"White"
 
 			"pin_to_sibling"		"NextInputPageButton"
 			"pin_corner_to_sibling"		"5"
@@ -353,7 +353,7 @@
 			"tall"		"15"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "White"
+			"fgcolor_override"	"White"
 
 			"pin_to_sibling"		"PrevPageButton"
 			"pin_corner_to_sibling"		"7"
@@ -445,9 +445,8 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget"	"0"
 			"allow_rot"		"0"
 		}
 	}
-
 }

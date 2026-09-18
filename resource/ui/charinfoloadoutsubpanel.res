@@ -8,11 +8,11 @@
 		"tall"		"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"settitlebarvisible"	"0"
+		//"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"BlackLight"
-		"infocus_bgcolor_override" "BlackLight"
-		"outoffocus_bgcolor_override" "BlackLight"
+		"infocus_bgcolor_override"	"BlackLight"
+		"outoffocus_bgcolor_override"	"BlackLight"
 
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
@@ -50,9 +50,9 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 
 		"fgcolor"		"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Blue"
-		"depressedFgColor_override" "Blue"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"	"Blue"
+		"depressedFgColor_override"	"Blue"
 		"paintbackground"		"0"
 
 		"pin_to_sibling"		"soldierCustom"
@@ -80,9 +80,9 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 
 		"fgcolor"		"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "125 161 255 255"
-		"depressedFgColor_override" "125 161 255 255"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"	"125 161 255 255"
+		"depressedFgColor_override"	"125 161 255 255"
 		"paintbackground"		"0"
 
 		"pin_to_sibling"		"pyroCustom"
@@ -110,9 +110,9 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 
 		"fgcolor"		"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "161 146 249 255"
-		"depressedFgColor_override" "161 146 249 255"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"	"161 146 249 255"
+		"depressedFgColor_override"	"161 146 249 255"
 		"paintbackground"		"0"
 
 		"pin_to_sibling"		"demomanCustom"
@@ -140,9 +140,9 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 
 		"fgcolor"		"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "194 129 235 255"
-		"depressedFgColor_override" "194 129 235 255"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"	"194 129 235 255"
+		"depressedFgColor_override"	"194 129 235 255"
 		"paintbackground"		"0"
 
 		"pin_to_sibling"		"heavyweaponsCustom"
@@ -171,9 +171,9 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 
 		"fgcolor"		"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "222 108 212 255"
-		"depressedFgColor_override" "222 108 212 255"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"	"222 108 212 255"
+		"depressedFgColor_override"	"222 108 212 255"
 		"paintbackground"		"0"
 	}
 	"engineerCustom"
@@ -197,9 +197,9 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 
 		"fgcolor"		"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "244 86 182 255"
-		"depressedFgColor_override" "244 86 182 255"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"	"244 86 182 255"
+		"depressedFgColor_override"	"244 86 182 255"
 		"paintbackground"		"0"
 
 		"pin_to_sibling"		"heavyweaponsCustom"
@@ -227,9 +227,9 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 
 		"fgcolor"		"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "255 63 146 255"
-		"depressedFgColor_override" "255 63 146 255"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"	"255 63 146 255"
+		"depressedFgColor_override"	"255 63 146 255"
 		"paintbackground"		"0"
 
 		"pin_to_sibling"		"engineerCustom"
@@ -257,9 +257,9 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 
 		"fgcolor"		"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "255 48 107 255"
-		"depressedFgColor_override" "255 48 107 255"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"	"255 48 107 255"
+		"depressedFgColor_override"	"255 48 107 255"
 		"paintbackground"		"0"
 
 		"pin_to_sibling"		"medicCustom"
@@ -287,9 +287,9 @@
 		"sound_released"		"UI/buttonclickrelease.wav"
 
 		"fgcolor"		"White"
-		"defaultFgColor_override" "White"
-		"armedFgColor_override" "Red"
-		"depressedFgColor_override" "Red"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"	"Red"
+		"depressedFgColor_override"	"Red"
 		"paintbackground"		"0"
 
 		"pin_to_sibling"		"sniperCustom"
@@ -421,7 +421,7 @@
 		"tall"		"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "Red"
+		"fgcolor_override"	"Red"
 	}
 	"NoGCLabel"
 	{
@@ -437,7 +437,7 @@
 		"tall"		"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "Red"
+		"fgcolor_override"	"Red"
 	}
 	"class_loadout_panel"
 	{

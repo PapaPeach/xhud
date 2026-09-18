@@ -11,11 +11,11 @@
 		"zpos"		"501"
 		"visible"		"1"
 		"enabled"		"1"
-		"settitlebarvisible"	"0"
+		//"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"BlackLight"
-		"infocus_bgcolor_override" "BlackLight"
-		"outoffocus_bgcolor_override" "BlackLight"
+		"infocus_bgcolor_override"	"BlackLight"
+		"outoffocus_bgcolor_override"	"BlackLight"
 
 		"item_ypos"		"75"
 		"output_item_ypos"		"255"
@@ -43,8 +43,8 @@
 			"model_tall"	"35"
 			"text_center"	"1"
 			"name_only"		"1"
-			"text_forcesize" "3"
-			"noitem_use_fullpanel" "1"
+			"text_forcesize"	"3"
+			"noitem_use_fullpanel"	"1"
 
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
@@ -62,7 +62,7 @@
 
 				"itemmodelpanel"
 				{
-					"use_item_rendertarget" "0"
+					"use_item_rendertarget"	"0"
 					"allow_rot"		"0"
 				}
 
@@ -94,12 +94,12 @@
 			"wide"		"280"
 			"tall"		"13"
 			"visible"		"1"
-			"textAlignment" "west"
+			"textAlignment"	"west"
 			"textinsetx"	"0"
 			"paintbackground"	"0"
-			"defaultFgColor_override" "WhiteGray"
-			"armedFgColor_override" "White"
-			"depressedFgColor_override" "MainTheme"
+			"defaultFgColor_override"	"WhiteGray"
+			"armedFgColor_override"	"White"
+			"depressedFgColor_override"	"MainTheme"
 		}
 
 		"filter_xoffset"	"-290"
@@ -262,7 +262,7 @@
 		"PaintBackgroundType"	"0"
 		"fgcolor_override"	"WhiteGray"
 		"bgcolor_override"	"Blank"
-		"autohide_buttons" "1"
+		"autohide_buttons"	"1"
 	}
 
 	"recipecontainer"
@@ -339,7 +339,7 @@
 
 		"itemmodelpanel"
 		{
-			"use_item_rendertarget" "0"
+			"use_item_rendertarget"	"0"
 			"allow_rot"		"0"
 		}
 	}

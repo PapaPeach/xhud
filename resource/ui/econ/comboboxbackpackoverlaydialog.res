@@ -10,7 +10,7 @@
 		"wide"		"280"
 		"tall"		"240"
 		"bgcolor_override"		"GrayDarkest"
-		"settitlebarvisible"	"1"
+		//"settitlebarvisible"	"1"
 	}
 
 	"TitleLabel"

@@ -10,7 +10,7 @@
 		"tall"		"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"settitlebarvisible"	"0"
+		//"settitlebarvisible"	"0"
 		"bgcolor_override"	"BlackLight"
 
 		"item_controls_xoffset"	"2"

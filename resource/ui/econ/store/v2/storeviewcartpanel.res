@@ -8,7 +8,7 @@
 		"tall"		"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"settitlebarvisible"	"0"
+		//"settitlebarvisible"	"0"
 		"bgcolor_override"		"BlackLight"
 		"infocus_bgcolor_override"		"BlackLight"
 		"outoffocus_bgcolor_override"	"BlackLight"

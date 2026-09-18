@@ -9,7 +9,7 @@
 		"tall"		"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"settitlebarvisible"	"0"
+		//"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"BlackLight"
 		"infocus_bgcolor_override"	"BlackLight"
@@ -155,6 +155,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+
 	"PrevButton"
 	{
 		"ControlName"		"CExButton"
@@ -192,6 +193,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+
 	"OpenLoadoutButton"
 	{
 		"ControlName"	"CExButton"
@@ -253,6 +255,7 @@
 			"proportionaltoparent"	"1"
 		}
 	}
+
 	"DiscardButtonTooltip"
 	{
 		"ControlName"	"EditablePanel"
@@ -284,6 +287,7 @@
 			"centerwrap"	"1"
 		}
 	}
+
 	"DiscardedLabel"
 	{
 		"ControlName"		"CExLabel"

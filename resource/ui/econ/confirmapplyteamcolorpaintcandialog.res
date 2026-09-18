@@ -10,7 +10,7 @@
 		"wide"		"400"
 		"tall"		"240"
 		"bgcolor_override"		"BlackLight"
-		"settitlebarvisible"	"0"
+		//"settitlebarvisible"	"0"
 	}
 
 	"mouseoveritempanel"

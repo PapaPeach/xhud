@@ -10,7 +10,7 @@
 		"wide"		"300"
 		"tall"		"200"
 		"bgcolor_override"		"Blank"
-		"settitlebarvisible"	""
+		//"settitlebarvisible"	""
 		"border"		"MaterialGrayDarkest"
 
 		"button_kv"

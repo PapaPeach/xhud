@@ -352,23 +352,6 @@
 				"enabled"		"1"
 				"proportionaltoparent"	"1"
 			}
-			"RolloutTimer"
-			{
-				"ControlName"		"Label"
-				"fieldName"		"RolloutTimer"
-				"xpos"		"rs1-1"
-				"ypos"		"1"
-				"zpos"		"6"
-				"wide"		"18"
-				"tall"		"17"
-				"visible"	"0"
-				"font"		"Symbols 24"
-				"labelText"		"."
-				"textAlignment"	"center"
-				"fgcolor_override"	"White"
-				"alpha"		"255"
-				"proportionaltoparent"	"1"
-			}
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
@@ -422,6 +405,21 @@
 				"visible"		"0"
 				"proportionaltoparent"	"1"
 				"bgcolor_override"		"TransparentGrayDarkest"
+			}
+			"RecentDeathBar"
+			{
+				"ControlName"		"Panel"
+				"fieldName"		"RecentDeathBar"
+				"zpos"		"6"
+				"wide"		"f0"
+				//"tall"		"24"
+				"visible"		"0"
+				"proportionaltoparent"	"1"
+				"bgcolor_override"		"TransparentBlack"
+
+				"pin_to_sibling"	"RespawnBG"
+				"pin_corner_to_sibling"	"2"
+				"pin_to_sibling_corner"	"2"
 			}
 			"chargeamount"
 			{

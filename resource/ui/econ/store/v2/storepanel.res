@@ -10,16 +10,16 @@
 		"tall"		"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"settitlebarvisible"	"1"
+		//"settitlebarvisible"	"1"
 		"bgcolor_override"		"BlackLight"
 
-		"title"		"#StoreTitle"
-		"title_font"	"Size 24"
-		"titletextinsetX"	"40"
-		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"		"Blank"
-		"titlebardisabledfgcolor_override"		"Blank"
-		"titlebarbgcolor_override"		"Blank"
+		//"title"		"#StoreTitle"
+		//"title_font"	"Size 24"
+		"titletextinsetX"	"9999"
+		//"titletextinsetY"	"0"
+		//"titlebarfgcolor_override"		"Blank"
+		//"titlebardisabledfgcolor_override"		"Blank"
+		//"titlebarbgcolor_override"		"Blank"
 
 		"clientinsetx_override"		"0"
 		"sheetinset_bottom"		"40"
@@ -34,7 +34,7 @@
 		"tabxfittotext"	"1"
 		"tabheight"		"15"
 		"yoffset"		"20"
-		"transition_time" "0"
+		"transition_time"	"0"
 
 		"tabskv"
 		{
