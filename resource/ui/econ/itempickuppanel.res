@@ -9,7 +9,7 @@
 		"tall"		"480"
 		"visible"		"1"
 		"enabled"		"1"
-		//"settitlebarvisible"	"0"
+		"settitlebarvisible"	"0" // TODO: Does visible or commented make "Untitled" appear in top left
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"BlackLight"
 		"infocus_bgcolor_override"	"BlackLight"
