@@ -5628,7 +5628,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ResetResolution"
-			"font"		"Size 16"
+			"font"		"Size 14"
 			"labelText"		"Reset Resolution Selection"
 			"textAlignment"	"center"
 			"xpos"		"-4"
@@ -5658,7 +5658,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ResetSettings"
-			"font"		"Size 16"
+			"font"		"Size 14"
 			"labelText"		"Reset Customizations"
 			"textAlignment"	"center"
 			"xpos"		"0"
@@ -5688,7 +5688,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"LoadSettings"
-			"font"		"Size 16"
+			"font"		"Size 14"
 			"labelText"		"Load Customizations"
 			"textAlignment"	"center"
 			"xpos"		"4"
