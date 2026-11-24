@@ -149,7 +149,6 @@
 
 		"pin_to_sibling"		"NameFilterTextEntry"
 		"pin_corner_to_sibling"		"2"
-		//"pin_to_sibling_corner"		"0"
 	}
 
 	"NameFilterTextEntry"

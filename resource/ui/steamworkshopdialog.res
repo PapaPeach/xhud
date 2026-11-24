@@ -86,7 +86,7 @@
 		"fgcolor"		"White"
 		"proportionaltoparent"		"1"
 
-		"pin_to_sibling" "ToolsPanel"
+		"pin_to_sibling"	"ToolsPanel"
 	}
 
 	"Panel1"
@@ -128,9 +128,7 @@
 
 		"paintbackground"	"0"
 
-		"pin_to_sibling" "Panel1"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+		"pin_to_sibling"	"Panel1"
 	}
 
 	"VoiceCheck"
@@ -146,12 +144,12 @@
 		"textAlignment"	"west"
 		"smallcheckimage"	"1"
 		"button_activation_type"	"1"
-		"cvar_name" "voice_modenable"
+		"cvar_name"	"voice_modenable"
 		"mouseinputenabled"	"0"
 
-		"pin_to_sibling" "VoiceLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"VoiceLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"VoiceVolume"
@@ -170,9 +168,9 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "VoiceCheck"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"VoiceCheck"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"VoiceSlider"
@@ -188,9 +186,9 @@
 		"maxvalue"		"1"
 		"cvar_name"		"voice_scale"
 
-		"pin_to_sibling" "VoiceVolume"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"VoiceVolume"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"TextChatLabel"
@@ -216,9 +214,8 @@
 
 		"paintbackground"	"0"
 
-		"pin_to_sibling" "VoiceLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"VoiceLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"TextChatCheck"
@@ -234,12 +231,12 @@
 		"textAlignment"	"west"
 		"smallcheckimage"	"1"
 		"button_activation_type"	"1"
-		"cvar_name" "cl_enable_text_chat"
+		"cvar_name"	"cl_enable_text_chat"
 		"mouseinputenabled"	"0"
 
-		"pin_to_sibling" "TextChatLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"TextChatLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"TextChatTime"
@@ -258,9 +255,9 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "TextChatCheck"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"TextChatCheck"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"TextChatSlider"
@@ -276,9 +273,9 @@
 		"maxvalue"		"20"
 		"cvar_name"		"hud_saytext_time"
 
-		"pin_to_sibling" "TextChatTime"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"TextChatTime"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"NotificationsLabel"
@@ -304,9 +301,8 @@
 
 		"paintbackground"	"0"
 
-		"pin_to_sibling" "TextChatLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"TextChatLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"NotificationsCheck"
@@ -322,12 +318,12 @@
 		"textAlignment"	"west"
 		"smallcheckimage"	"1"
 		"button_activation_type"	"1"
-		"cvar_name" "cl_notifications_show_ingame"
+		"cvar_name"	"cl_notifications_show_ingame"
 		"mouseinputenabled"	"0"
 
-		"pin_to_sibling" "NotificationsLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"NotificationsLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"NotificationsTime"
@@ -346,9 +342,9 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "NotificationsCheck"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"NotificationsCheck"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"NotificationsSlider"
@@ -364,9 +360,9 @@
 		"maxvalue"		"20"
 		"cvar_name"		"tf_hud_notification_duration"
 
-		"pin_to_sibling" "NotificationsTime"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"NotificationsTime"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"CCLabel"
@@ -392,9 +388,8 @@
 
 		"paintbackground"	"0"
 
-		"pin_to_sibling" "NotificationsLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"NotificationsLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"CCCheck"
@@ -410,12 +405,12 @@
 		"textAlignment"	"west"
 		"smallcheckimage"	"1"
 		"button_activation_type"	"1"
-		"cvar_name" "closecaption"
+		"cvar_name"	"closecaption"
 		"mouseinputenabled"	"0"
 
-		"pin_to_sibling" "CCLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"CCLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"CCTime"
@@ -434,9 +429,9 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "CCCheck"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"CCCheck"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"CCSlider"
@@ -452,9 +447,9 @@
 		"maxvalue"		"10"
 		"cvar_name"		"cc_linger_time"
 
-		"pin_to_sibling" "CCTime"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"CCTime"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"MatchHudLabel"
@@ -480,9 +475,8 @@
 
 		"paintbackground"	"0"
 
-		"pin_to_sibling" "CCLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"CCLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"MatchHudCheck"
@@ -498,12 +492,12 @@
 		"textAlignment"	"west"
 		"smallcheckimage"	"1"
 		"button_activation_type"	"1"
-		"cvar_name" "tf_use_match_hud"
+		"cvar_name"	"tf_use_match_hud"
 		"mouseinputenabled"	"0"
 
-		"pin_to_sibling" "MatchHudLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"MatchHudLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"LeftHandedLabel"
@@ -529,9 +523,9 @@
 
 		"paintbackground"	"0"
 
-		"pin_to_sibling" "MatchHudLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"MatchHudLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"LeftHandedCheck"
@@ -547,12 +541,12 @@
 		"textAlignment"	"west"
 		"smallcheckimage"	"1"
 		"button_activation_type"	"1"
-		"cvar_name" "cl_flipviewmodels"
+		"cvar_name"	"cl_flipviewmodels"
 		"mouseinputenabled"	"0"
 
-		"pin_to_sibling" "LeftHandedLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"LeftHandedLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"Panel2"
@@ -568,7 +562,6 @@
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"Panel1"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 	}
 
@@ -595,9 +588,7 @@
 
 		"paintbackground"	"0"
 
-		"pin_to_sibling" "Panel2"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+		"pin_to_sibling"	"Panel2"
 	}
 
 	"CrosshairEnableCheck"
@@ -613,12 +604,12 @@
 		"textAlignment"	"west"
 		"smallcheckimage"	"1"
 		"button_activation_type"	"1"
-		"cvar_name" "crosshair"
+		"cvar_name"	"crosshair"
 		"mouseinputenabled"	"0"
 
-		"pin_to_sibling" "CrosshairEnableLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"CrosshairEnableLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"CrosshairScale"
@@ -637,9 +628,9 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "CrosshairEnableCheck"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"CrosshairEnableCheck"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"CrosshairScaleSlider"
@@ -655,9 +646,9 @@
 		"maxvalue"		"50"
 		"cvar_name"		"cl_crosshair_scale"
 
-		"pin_to_sibling" "CrosshairScale"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"CrosshairScale"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"CrosshairRedLabel"
@@ -676,9 +667,8 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "CrosshairEnableLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"CrosshairEnableLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"CrosshairRedSlider"
@@ -694,9 +684,9 @@
 		"maxvalue"		"255"
 		"cvar_name"		"cl_crosshair_red"
 
-		"pin_to_sibling" "CrosshairRedLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"CrosshairRedLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"CrosshairGreenLabel"
@@ -715,9 +705,9 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "CrosshairRedSlider"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"CrosshairRedSlider"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"CrosshairGreenSlider"
@@ -733,9 +723,9 @@
 		"maxvalue"		"255"
 		"cvar_name"		"cl_crosshair_green"
 
-		"pin_to_sibling" "CrosshairGreenLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"CrosshairGreenLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"CrosshairBlueLabel"
@@ -754,9 +744,9 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "CrosshairGreenSlider"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"CrosshairGreenSlider"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"CrosshairBlueSlider"
@@ -772,9 +762,9 @@
 		"maxvalue"		"255"
 		"cvar_name"		"cl_crosshair_blue"
 
-		"pin_to_sibling" "CrosshairBlueLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"CrosshairBlueLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"ColorPresetLabel"
@@ -794,8 +784,7 @@
 		"fgcolor"		"White"
 
 		"pin_to_sibling"	"CrosshairRedLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"ColorPresetRed"
@@ -821,9 +810,9 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "ColorPresetLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"ColorPresetLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"ColorPresetYellow"
@@ -849,9 +838,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "ColorPresetRed"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"ColorPresetRed"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"ColorPresetGreen"
@@ -877,9 +865,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "ColorPresetYellow"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"ColorPresetYellow"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"ColorPresetBlue"
@@ -905,9 +892,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "ColorPresetGreen"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"ColorPresetGreen"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"ColorPresetPink"
@@ -933,9 +919,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "ColorPresetBlue"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"ColorPresetBlue"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"ColorPresetWhite"
@@ -961,9 +946,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "ColorPresetPink"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"ColorPresetPink"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"ColorPresetBlack"
@@ -989,9 +973,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "ColorPresetWhite"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"ColorPresetWhite"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"ColorPresetRedFull"
@@ -1017,9 +1000,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "ColorPresetBlack"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"ColorPresetBlack"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"ColorPresetYellowFull"
@@ -1045,9 +1027,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "ColorPresetRedFull"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"ColorPresetRedFull"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"ColorPresetGreenFull"
@@ -1073,9 +1054,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "ColorPresetYellowFull"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"ColorPresetYellowFull"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"ColorPresetCyanFull"
@@ -1101,9 +1081,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "ColorPresetGreenFull"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"ColorPresetGreenFull"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"ColorPresetBlueFull"
@@ -1129,9 +1108,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "ColorPresetCyanFull"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"ColorPresetCyanFull"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"ColorPresetPinkFull"
@@ -1157,9 +1135,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "ColorPresetBlueFull"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"ColorPresetBlueFull"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"DmgNumEnableLabel"
@@ -1185,9 +1162,8 @@
 
 		"paintbackground"	"0"
 
-		"pin_to_sibling" "ColorPresetLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"ColorPresetLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"DmgNumEnableCheck"
@@ -1203,12 +1179,12 @@
 		"textAlignment"	"west"
 		"smallcheckimage"	"1"
 		"button_activation_type"	"1"
-		"cvar_name" "hud_combattext"
+		"cvar_name"	"hud_combattext"
 		"mouseinputenabled"	"0"
 
-		"pin_to_sibling" "DmgNumEnableLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"DmgNumEnableLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"DmgNumBatchingLabel"
@@ -1234,9 +1210,9 @@
 
 		"paintbackground"	"0"
 
-		"pin_to_sibling" "DmgNumEnableCheck"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"DmgNumEnableCheck"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"DmgNumBatchingCheck"
@@ -1252,12 +1228,12 @@
 		"textAlignment"	"west"
 		"smallcheckimage"	"1"
 		"button_activation_type"	"1"
-		"cvar_name" "hud_combattext_batching"
+		"cvar_name"	"hud_combattext_batching"
 		"mouseinputenabled"	"0"
 
-		"pin_to_sibling" "DmgNumBatchingLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"DmgNumBatchingLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"DmgNumBatchingWindow"
@@ -1276,9 +1252,9 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "DmgNumBatchingCheck"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"DmgNumBatchingCheck"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"DmgNumBatchingWindowSlider"
@@ -1294,9 +1270,9 @@
 		"maxvalue"		"2"
 		"cvar_name"		"hud_combattext_batching_window"
 
-		"pin_to_sibling" "DmgNumBatchingWindow"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"DmgNumBatchingWindow"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"DmgNumRedLabel"
@@ -1315,9 +1291,8 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "DmgNumEnableLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"DmgNumEnableLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"DmgNumRedSlider"
@@ -1333,9 +1308,9 @@
 		"maxvalue"		"255"
 		"cvar_name"		"hud_combattext_red"
 
-		"pin_to_sibling" "DmgNumRedLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"DmgNumRedLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"DmgNumGreenLabel"
@@ -1354,9 +1329,9 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "DmgNumRedSlider"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"DmgNumRedSlider"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"DmgNumGreenSlider"
@@ -1372,9 +1347,9 @@
 		"maxvalue"		"255"
 		"cvar_name"		"hud_combattext_green"
 
-		"pin_to_sibling" "DmgNumGreenLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"DmgNumGreenLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"DmgNumBlueLabel"
@@ -1393,9 +1368,9 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "DmgNumGreenSlider"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"DmgNumGreenSlider"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"DmgNumBlueSlider"
@@ -1411,9 +1386,9 @@
 		"maxvalue"		"255"
 		"cvar_name"		"hud_combattext_blue"
 
-		"pin_to_sibling" "DmgNumBlueLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"DmgNumBlueLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"DmgNumColorPresetLabel"
@@ -1433,8 +1408,7 @@
 		"fgcolor"		"White"
 
 		"pin_to_sibling"	"DmgNumRedLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"DmgNumColorPresetRed"
@@ -1460,9 +1434,9 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "DmgNumColorPresetLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"DmgNumColorPresetLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"DmgNumColorPresetYellow"
@@ -1488,9 +1462,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "DmgNumColorPresetRed"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"DmgNumColorPresetRed"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"DmgNumColorPresetGreen"
@@ -1516,9 +1489,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "DmgNumColorPresetYellow"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"DmgNumColorPresetYellow"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"DmgNumColorPresetBlue"
@@ -1544,9 +1516,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "DmgNumColorPresetGreen"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"DmgNumColorPresetGreen"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"DmgNumColorPresetPink"
@@ -1572,9 +1543,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "DmgNumColorPresetBlue"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"DmgNumColorPresetBlue"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"DmgNumColorPresetWhite"
@@ -1600,9 +1570,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "DmgNumColorPresetPink"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"DmgNumColorPresetPink"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"DmgNumColorPresetBlack"
@@ -1628,9 +1597,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "DmgNumColorPresetWhite"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"DmgNumColorPresetWhite"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"DmgNumColorPresetRedFull"
@@ -1656,9 +1624,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "DmgNumColorPresetBlack"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"DmgNumColorPresetBlack"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"DmgNumColorPresetYellowFull"
@@ -1684,9 +1651,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "DmgNumColorPresetRedFull"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"DmgNumColorPresetRedFull"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"DmgNumColorPresetGreenFull"
@@ -1712,9 +1678,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "DmgNumColorPresetYellowFull"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"DmgNumColorPresetYellowFull"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"DmgNumColorPresetCyanFull"
@@ -1740,9 +1705,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "DmgNumColorPresetGreenFull"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"DmgNumColorPresetGreenFull"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"DmgNumColorPresetBlueFull"
@@ -1768,9 +1732,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "DmgNumColorPresetCyanFull"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"DmgNumColorPresetCyanFull"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"DmgNumColorPresetPinkFull"
@@ -1796,9 +1759,8 @@
 		"border_default"		"NoBorder"
 		"border_Armed"		"WhiteHighlightBorderThick"
 
-		"pin_to_sibling" "DmgNumColorPresetBlueFull"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "1"
+		"pin_to_sibling"	"DmgNumColorPresetBlueFull"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"TartgetIDBGLabel"
@@ -1817,9 +1779,8 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "DmgNumColorPresetLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"DmgNumColorPresetLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"TartgetIDBGSlider"
@@ -1835,9 +1796,9 @@
 		"maxvalue"		"255"
 		"cvar_name"		"tf_hud_target_id_alpha"
 
-		"pin_to_sibling" "TartgetIDBGLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"TartgetIDBGLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"Panel3"
@@ -1853,7 +1814,6 @@
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"Panel2"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 	}
 
@@ -1873,9 +1833,7 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "Panel3"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+		"pin_to_sibling"	"Panel3"
 	}
 
 	"KillFeedSlider"
@@ -1891,9 +1849,9 @@
 		"maxvalue"		"10"
 		"cvar_name"		"hud_deathnotice_time"
 
-		"pin_to_sibling" "KillFeedLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"KillFeedLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"KillStreakAlphaLabel"
@@ -1912,9 +1870,8 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "KillFeedLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"KillFeedLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"KillStreakAlphaSlider"
@@ -1930,9 +1887,9 @@
 		"maxvalue"		"255"
 		"cvar_name"		"cl_hud_killstreak_display_alpha"
 
-		"pin_to_sibling" "KillStreakAlphaLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"KillStreakAlphaLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"KillStreakDurationLabel"
@@ -1951,9 +1908,8 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "KillStreakAlphaLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"KillStreakAlphaLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"KillStreakDurationSlider"
@@ -1969,9 +1925,9 @@
 		"maxvalue"		"10"
 		"cvar_name"		"cl_hud_killstreak_display_time"
 
-		"pin_to_sibling" "KillStreakDurationLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"KillStreakDurationLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"Panel4"
@@ -1987,7 +1943,6 @@
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"Panel3"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 	}
 
@@ -2014,9 +1969,7 @@
 
 		"paintbackground"	"0"
 
-		"pin_to_sibling" "Panel4"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "0"
+		"pin_to_sibling"	"Panel4"
 	}
 
 	"HitSoundEnableCheck"
@@ -2032,12 +1985,12 @@
 		"textAlignment"	"west"
 		"smallcheckimage"	"1"
 		"button_activation_type"	"1"
-		"cvar_name" "tf_dingalingaling"
+		"cvar_name"	"tf_dingalingaling"
 		"mouseinputenabled"	"0"
 
-		"pin_to_sibling" "HitSoundEnableLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"HitSoundEnableLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"HitSoundVolume"
@@ -2056,9 +2009,9 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "HitSoundEnableCheck"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"HitSoundEnableCheck"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"HitSoundVolumeSlider"
@@ -2074,9 +2027,9 @@
 		"maxvalue"		"255"
 		"cvar_name"		"tf_dingaling_volume"
 
-		"pin_to_sibling" "HitSoundVolume"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"HitSoundVolume"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"HitSoundMinLabel"
@@ -2095,9 +2048,8 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "HitSoundEnableLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"HitSoundEnableLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"HitSoundMinSlider"
@@ -2113,9 +2065,9 @@
 		"maxvalue"		"255"
 		"cvar_name"		"tf_dingaling_pitchmindmg"
 
-		"pin_to_sibling" "HitSoundMinLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"HitSoundMinLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"HitSoundMaxLabel"
@@ -2134,9 +2086,8 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "HitSoundMinLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"HitSoundMinLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"HitSoundMaxSlider"
@@ -2152,9 +2103,9 @@
 		"maxvalue"		"255"
 		"cvar_name"		"tf_dingaling_pitchmaxdmg"
 
-		"pin_to_sibling" "HitSoundMaxLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"HitSoundMaxLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"KillSoundEnableLabel"
@@ -2180,9 +2131,8 @@
 
 		"paintbackground"	"0"
 
-		"pin_to_sibling" "HitSoundMaxLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"HitSoundMaxLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"KillSoundEnableCheck"
@@ -2198,12 +2148,12 @@
 		"textAlignment"	"west"
 		"smallcheckimage"	"1"
 		"button_activation_type"	"1"
-		"cvar_name" "tf_dingalingaling_lasthit"
+		"cvar_name"	"tf_dingalingaling_lasthit"
 		"mouseinputenabled"	"0"
 
-		"pin_to_sibling" "KillSoundEnableLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"KillSoundEnableLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"KillSoundVolume"
@@ -2222,9 +2172,9 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "KillSoundEnableCheck"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"KillSoundEnableCheck"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"KillSoundVolumeSlider"
@@ -2240,9 +2190,9 @@
 		"maxvalue"		"255"
 		"cvar_name"		"tf_dingaling_lasthit_volume"
 
-		"pin_to_sibling" "KillSoundVolume"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"KillSoundVolume"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"KillSoundMinLabel"
@@ -2261,9 +2211,8 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "KillSoundEnableLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"KillSoundEnableLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"KillSoundMinSlider"
@@ -2279,9 +2228,9 @@
 		"maxvalue"		"255"
 		"cvar_name"		"tf_dingaling_lasthit_pitchmindmg"
 
-		"pin_to_sibling" "KillSoundMinLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"KillSoundMinLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 
 	"KillSoundMaxLabel"
@@ -2300,9 +2249,8 @@
 		"enabled"		"1"
 		"fgcolor"		"White"
 
-		"pin_to_sibling" "KillSoundMinLabel"
-		"pin_corner_to_sibling" "0"
-		"pin_to_sibling_corner" "2"
+		"pin_to_sibling"	"KillSoundMinLabel"
+		"pin_to_sibling_corner"	"2"
 	}
 
 	"KillSoundMaxSlider"
@@ -2318,8 +2266,8 @@
 		"maxvalue"		"255"
 		"cvar_name"		"tf_dingaling_lasthit_pitchmaxdmg"
 
-		"pin_to_sibling" "KillSoundMaxLabel"
-		"pin_corner_to_sibling" "7"
-		"pin_to_sibling_corner" "5"
+		"pin_to_sibling"	"KillSoundMaxLabel"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}
 }

@@ -63,7 +63,6 @@
 
 		"pin_to_sibling"		"MapInfoType"
 		"pin_corner_to_sibling"		"1"
-		//"pin_to_sibling_corner"		"0"
 	}
 
 	"MapInfoTypeRightBracket"
@@ -81,7 +80,6 @@
 		"auto_wide_tocontents"		"1"
 
 		"pin_to_sibling"		"MapInfoType"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 

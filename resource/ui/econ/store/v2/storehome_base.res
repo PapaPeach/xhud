@@ -232,7 +232,6 @@
 		"enabled"		"1"
 
 		"pin_to_sibling"		"CartButton"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 	}
 	"CartButton"
@@ -293,7 +292,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"		"CartButton"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 	"PrevPageButton"
@@ -315,7 +313,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"		"MarketPlaceButton"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 	"PrevPageTrigger"
@@ -345,7 +342,6 @@
 		"fgcolor_override" "White"
 
 		"pin_to_sibling"		"PrevPageButton"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 	"NextPageButton"
@@ -367,7 +363,6 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"pin_to_sibling"		"CurPageLabel"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 	}
 	"NextPageTrigger"

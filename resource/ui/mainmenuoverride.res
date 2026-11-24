@@ -74,10 +74,8 @@
 		"wide"		"17"
 		"tall"		"10"
 		"visible"		"1"
-		//"mouseinputenabled"		"0"
 		"font"		"Size 8"
 		"fgcolor_override"		"White"
-		//"textAlignment"		"west"
 		"labelText"		"Xhud"
 	}
 
@@ -457,7 +455,6 @@
 		"enabled"		"1"
 
 		"pin_to_sibling"		"Servers"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 
 		"SubButton"
@@ -492,7 +489,6 @@
 		"enabled"		"1"
 
 		"pin_to_sibling"		"Servers"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 
 		"SubButton"
@@ -574,7 +570,6 @@
 		"armedFgColor_override"		"MainTheme"
 
 		"pin_to_sibling"		"Inventory"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 	}
 
@@ -877,7 +872,6 @@
 		"enabled"		"1"
 
 		"pin_to_sibling"		"Vote"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 
 		"SubButton"
@@ -914,7 +908,6 @@
 		"enabled"		"1"
 
 		"pin_to_sibling"		"Report"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 
 		"SubButton"
@@ -1104,7 +1097,6 @@
 
 		"pin_to_sibling"		"QuickSettings"
 		"pin_corner_to_sibling"		"1"
-		//"pin_to_sibling_corner"		"0"
 
 		"SubButton"
 		{
@@ -5650,8 +5642,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"XMenuSavePanel"
-			//"pin_corner_to_sibling"	"0"
-			//"pin_to_sibling_corner"	"0"
 		}
 
 		"ResetSettings"
@@ -5680,7 +5670,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"ResetResolution"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -5710,7 +5699,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"ResetSettings"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"1"
 		}
 
@@ -5740,7 +5728,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"ResetSettings"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 	}
@@ -5811,7 +5798,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"16x9Label"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -5840,7 +5826,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"16x9_3840x2160"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -5869,7 +5854,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"16x9_2560x1440"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -5898,7 +5882,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"16x9_1920x1080"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -5928,7 +5911,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"16x9_1600x900"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -5947,7 +5929,6 @@
 
 			"pin_to_sibling"	"16x9Label"
 			"pin_corner_to_sibling"	"1"
-			//"pin_to_sibling_corner"	"0"
 		}
 
 		"4x3_1280x1024"
@@ -5974,7 +5955,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"4x3Label"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -6003,7 +5983,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"4x3_1280x1024"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -6032,7 +6011,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"4x3_1280x960"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -6050,7 +6028,6 @@
 			"labelText"		"16:10 Resolutions"
 
 			"pin_to_sibling"	"16x9Label"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"1"
 		}
 
@@ -6079,7 +6056,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"16x10Label"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -6108,7 +6084,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"16x10_2560x1600"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -6137,7 +6112,6 @@
 			"border_armed"		"FriendHighlightBorder"
 
 			"pin_to_sibling"	"16x10_1680x1050"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 

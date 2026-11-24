@@ -92,7 +92,6 @@
 			"proportionalToParent"	"1"
 
 			"pin_to_sibling"		"PanelListPanel"
-			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"2"
 
 			"CompletedCheckOn"
@@ -123,7 +122,6 @@
 			"proportionalToParent"	"1"
 
 			"pin_to_sibling"		"PanelListPanel"
-			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"2"
 
 			"SquadSurplus"
@@ -279,7 +277,6 @@
 		"visible"		"1"
 
 		"pin_to_sibling"		"playermodelpanel"
-		//"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"2"
 
 		"LevelLabel"
@@ -399,7 +396,6 @@
 
 		"pin_to_sibling"		"PanelListPanel"
 		"pin_corner_to_sibling"		"2"
-		//"pin_to_sibling_corner"		"0"
 	}
 
 	"SquadSurplusLabel"
@@ -475,7 +471,6 @@
 
 		"pin_to_sibling"		"playermodelpanel"
 		"pin_corner_to_sibling"		"2"
-		//"pin_to_sibling_corner"		"0"
 	}
 
 	"playermodelpanel"

@@ -96,7 +96,7 @@
 			"zpos"		"99"
 			"wide"		"24"
 			"tall"		"24"
-			"labelText"	"Ã"
+			"labelText"	"Â"
 			"font"		"Symbols 24"
 			"command"	"playcompetitive"
 			"textAlignment"	"center"
@@ -221,7 +221,6 @@
 			"party_slot"		"1"
 
 			"pin_to_sibling"		"PartySlot0"
-			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"1"
 		}
 		"PartySlot2"
@@ -240,7 +239,6 @@
 			"party_slot"		"2"
 
 			"pin_to_sibling"		"PartySlot1"
-			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"1"
 		}
 		"PartySlot3"
@@ -259,7 +257,6 @@
 			"party_slot"		"3"
 
 			"pin_to_sibling"		"PartySlot2"
-			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"1"
 		}
 		"PartySlot4"
@@ -278,7 +275,6 @@
 			"party_slot"		"4"
 
 			"pin_to_sibling"		"PartySlot3"
-			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"1"
 		}
 		"PartySlot5"
@@ -297,7 +293,6 @@
 			"party_slot"		"5"
 
 			"pin_to_sibling"		"PartySlot4"
-			//"pin_corner_to_sibling"		"0"
 			"pin_to_sibling_corner"		"1"
 		}
 		"QueueContainer"

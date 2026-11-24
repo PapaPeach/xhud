@@ -83,7 +83,6 @@
 		"bgcolor_override"	"Blank"
 
 		"pin_to_sibling"	"TitleLabel"
-		//"pin_corner_to_sibling"	"0"
 		"pin_to_sibling_corner"	"1"
 	}
 

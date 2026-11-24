@@ -40,7 +40,7 @@
 
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget" "0"
+				"use_item_rendertarget"	"0"
 				"allow_rot"		"0"
 			}
 		}
@@ -276,7 +276,6 @@
 			"bgcolor_override"	"TransparentBlack"
 
 			"pin_to_sibling"	"UpgradeItemsDescriptionBG"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -313,7 +312,6 @@
 			"wrap"		"1"
 
 			"pin_to_sibling"	"UpgradeItemsLabel"
-			//"pin_corner_to_sibling"	"0"
 			"pin_to_sibling_corner"	"2"
 		}
 
@@ -332,7 +330,7 @@
 			"tall"		"130"
 			"visible"		"1"
 			"enabled"		"1"
-			"mouseinputenabled" "0"
+			"mouseinputenabled"	"0"
 		}
 
 		"QuickEquipButton"
@@ -353,9 +351,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"pin_to_sibling" "LoadoutButton"
-			"pin_corner_to_sibling" "2"
-			"pin_to_sibling_corner" "0"
+			"pin_to_sibling"	"LoadoutButton"
+			"pin_corner_to_sibling"	"2"
 		}
 
 		"LoadoutButton"
@@ -374,9 +371,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"pin_to_sibling" "GreyedOutLabel"
-			"pin_corner_to_sibling" "6"
-			"pin_to_sibling_corner" "6"
+			"pin_to_sibling"	"GreyedOutLabel"
+			"pin_corner_to_sibling"	"6"
+			"pin_to_sibling_corner"	"6"
 		}
 
 		"UpgradeApplyBG"
@@ -392,9 +389,8 @@
 			"enabled"		"1"
 			"bgcolor_override"	"BlackLight"
 
-			"pin_to_sibling" "InnerBGPanel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
+			"pin_to_sibling"	"InnerBGPanel"
+			"pin_to_sibling_corner"	"2"
 		}
 
 		"RespecButton"
@@ -414,7 +410,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"pin_to_sibling" "UpgradeApplyBG"
+			"pin_to_sibling"	"UpgradeApplyBG"
 		}
 
 		"CreditsLabel"
@@ -432,9 +428,8 @@
 			"enabled"		"1"
 			"fgcolor"		"Green"
 
-			"pin_to_sibling" "RespecButton"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
+			"pin_to_sibling"	"RespecButton"
+			"pin_to_sibling_corner"	"1"
 		}
 
 		"CancelButton"
@@ -454,9 +449,8 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"pin_to_sibling" "CloseButton"
-			"pin_corner_to_sibling" "1"
-			"pin_to_sibling_corner" "0"
+			"pin_to_sibling"	"CloseButton"
+			"pin_corner_to_sibling"	"1"
 		}
 
 		"CloseButton"
@@ -476,9 +470,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"pin_to_sibling" "UpgradeApplyBG"
-			"pin_corner_to_sibling" "1"
-			"pin_to_sibling_corner" "1"
+			"pin_to_sibling"	"UpgradeApplyBG"
+			"pin_corner_to_sibling"	"1"
+			"pin_to_sibling_corner"	"1"
 		}
 
 		"UpgradeItemsHeaderBG"
